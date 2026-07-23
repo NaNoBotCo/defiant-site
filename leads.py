@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Defiant leads inbox — numbered-menu CLI over the defiant-leads Worker.
+"""Defiant inbox — numbered-menu CLI over the defiant-leads Worker.
 
-First run asks for the Worker URL and token, then remembers them in
-~/.config/defiant/leads.json. New leads (since your last check) show first.
+Leads (people who want help) AND subscribers (your newsletter list — YOUR data,
+in YOUR database, no third party). First run asks for the Worker URL and token,
+then remembers them in ~/.config/defiant/leads.json.
 """
+import datetime
 import json
 import sys
 import urllib.request
@@ -36,8 +38,8 @@ def setup(cfg):
     return cfg
 
 
-def fetch(cfg):
-    req = urllib.request.Request(cfg["url"] + "/leads",
+def fetch(cfg, path="/leads"):
+    req = urllib.request.Request(cfg["url"] + path,
                                  headers={"Authorization": "Bearer " + cfg["token"]})
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.loads(r.read())
@@ -55,7 +57,6 @@ def show(cfg):
     new = [l for l in leads if l["ts"] > last]
     print(f"\n===== {len(leads)} leads — {len(new)} NEW =====")
     for l in leads[:50]:
-        import datetime
         when = datetime.datetime.fromtimestamp(l["ts"] / 1000).strftime("%Y-%m-%d %H:%M")
         flag = "★ NEW " if l["ts"] > last else "      "
         print(f"\n{flag}[{when}]  {l.get('name') or '(no name)'}")
@@ -66,6 +67,41 @@ def show(cfg):
         save_cfg(cfg)
 
 
+def show_subscribers(cfg):
+    try:
+        data = fetch(cfg, "/subscribers")
+    except Exception as e:
+        print("\n!! Could not reach the Worker:", e)
+        return
+    subs = data.get("subscribers", [])
+    last = cfg.get("subs_seen_ts", 0)
+    new = [s for s in subs if s["ts"] > last]
+    print(f"\n===== {len(subs)} subscribers — {len(new)} NEW =====")
+    for s in subs[:100]:
+        when = datetime.datetime.fromtimestamp(s["ts"] / 1000).strftime("%Y-%m-%d %H:%M")
+        flag = "★ " if s["ts"] > last else "  "
+        nm = f"  ({s['name']})" if s.get("name") else ""
+        print(f"  {flag}[{when}]  {s['email']}{nm}")
+    if subs:
+        cfg["subs_seen_ts"] = max(s["ts"] for s in subs)
+        save_cfg(cfg)
+
+
+def export_subscribers(cfg):
+    out = Path.home() / "Desktop" / f"Defiant subscribers {datetime.date.today().isoformat()}.csv"
+    try:
+        req = urllib.request.Request(
+            cfg["url"] + "/subscribers?format=csv",
+            headers={"Authorization": "Bearer " + cfg["token"]})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            out.write_bytes(r.read())
+    except Exception as e:
+        print("\n!! Export failed:", e)
+        return
+    print(f"\n✓ Exported to {out}")
+    print("  (email,name,subscribed_utc,source — ready to import into any sender.)")
+
+
 def main():
     cfg = load_cfg()
     if not cfg.get("url"):
@@ -73,10 +109,12 @@ def main():
         if not cfg.get("url"):
             sys.exit("No config; bye.")
     while True:
-        print("\n===== DEFIANT LEADS ✊ =====")
+        print("\n===== DEFIANT INBOX ✊ =====")
         print(" [1] Show leads (new first)")
-        print(" [2] Open table view in browser")
-        print(" [3] Setup / change URL + token")
+        print(" [2] Leads — table view in browser")
+        print(" [3] Show subscribers (the list)")
+        print(" [4] Export subscribers → CSV on Desktop")
+        print(" [5] Setup / change URL + token")
         print(" [0] Quit")
         c = input("> ").strip()
         if c == "1":
@@ -84,6 +122,10 @@ def main():
         elif c == "2":
             webbrowser.open(f"{cfg['url']}/leads?format=html&token={cfg['token']}")
         elif c == "3":
+            show_subscribers(cfg)
+        elif c == "4":
+            export_subscribers(cfg)
+        elif c == "5":
             cfg = setup(cfg)
         elif c == "0":
             return

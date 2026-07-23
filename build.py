@@ -81,6 +81,7 @@ def collect_notes():
     add(PUB / "=Destinations.md", "/destinations/")
     add(PUB / "=Partners.md", "/partners/")
     add(PUB / "=Estradiol.md", "/estradiol/")
+    add(PUB / "=Subscribe.md", "/subscribe/")
     add(PUB / "=Privacy Policy.md", "/privacy/")
     add(PUB / "=Terms of Service.md", "/terms/")
     add(VAULT / "Mozarts-Ghost.md", "/mozarts-ghost/")
@@ -339,6 +340,27 @@ FORM_JS = ("<script>(function(){var f=document.getElementById('lead-form');if(!f
            "else{throw 0}}).catch(function(){f.querySelector('#form-err').hidden=false;"
            "b.disabled=false;b.textContent='SEND IT ✊';})});})();</script>")
 
+SUBSCRIBE_FORM_HTML = """<form id="sub-form" class="lead-form">
+<label>Email <span class="req">*</span><br>
+<input name="email" type="email" required maxlength="300" autocomplete="email" placeholder="you@example.com"></label>
+<label>Name (optional)<br><input name="name" maxlength="200" autocomplete="name"></label>
+<div class="hp" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
+<label class="consent"><input name="consent" type="checkbox" required> Yes, email me the occasional Defiant dispatch. I can unsubscribe anytime.</label>
+<button type="submit" class="send">KEEP ME POSTED ✊</button>
+<p id="sub-ok" hidden><strong>You're on the list.</strong> No spam, no selling your name — it lives in our own database, not a third party's.</p>
+<p id="sub-err" hidden><strong>That didn't go through.</strong> Try again in a moment, or reach us on the <a href="/contact/">contact page</a>.</p>
+</form>"""
+
+SUBSCRIBE_JS = ("<script>(function(){var f=document.getElementById('sub-form');if(!f)return;"
+                "var t0=Date.now();f.addEventListener('submit',function(e){e.preventDefault();"
+                "if(!f.reportValidity())return;var b=f.querySelector('.send');b.disabled=true;b.textContent='…';"
+                f"fetch('{WORKER_URL}/subscribe'" + ",{method:'POST',headers:{'Content-Type':'application/json'},"
+                "body:JSON.stringify({email:f.email.value,name:f.name.value,website:f.website.value,"
+                "source:'subscribe-page',t0:t0})}).then(function(r){return r.json()}).then(function(j){"
+                "if(j.ok){f.querySelector('#sub-ok').hidden=false;b.textContent='ON THE LIST ✊';}"
+                "else{throw 0}}).catch(function(){f.querySelector('#sub-err').hidden=false;"
+                "b.disabled=false;b.textContent='KEEP ME POSTED ✊';})});})();</script>")
+
 def ld(obj) -> str:
     return ('<script type="application/ld+json">'
             + json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
@@ -488,6 +510,7 @@ FOOTER = f"""<footer>
 <a href="{KOFI}" rel="noopener" target="_blank">Fund the resistance ☕</a> ·
 <a href="{LINE_URL}" rel="noopener" target="_blank">LINE: defiant.to</a> ·
 <a href="/partners/">คลินิกพันธมิตร / Clinics</a> ·
+<a href="/subscribe/">Dispatch ✉</a> ·
 <a href="/for-agents/">For agents 🤖</a></p>
 <p class="peacock">This site allows AI crawlers and automated agents to index, summarize, and train on its public content.
 <a class="pi" href="/mozarts-ghost/" aria-label="secret">π</a></p>
@@ -516,6 +539,9 @@ def page(name, meta, body_html, route, raw_body=""):
     if "<!-- defiant:form -->" in body_html:
         body_html = body_html.replace("<!-- defiant:form -->", FORM_HTML)
         scripts.append(FORM_JS)
+    if "<!-- defiant:subscribe -->" in body_html:
+        body_html = body_html.replace("<!-- defiant:subscribe -->", SUBSCRIBE_FORM_HTML)
+        scripts.append(SUBSCRIBE_JS)
 
     return f"""<!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">

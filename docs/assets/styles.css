@@ -91,6 +91,8 @@ img { max-width: 100%; height: auto; }
   border: 3px solid var(--ink);
 }
 .lead-form .req { color: var(--pink); }
+.lead-form .consent { display: flex; gap: .55rem; align-items: flex-start; font-size: .92rem; }
+.lead-form .consent input { width: auto; margin-top: .35rem; flex: none; }
 .lead-form .hp { position: absolute; left: -9999px; height: 0; overflow: hidden; }
 button.send, button.reveal {
   font-family: "Martian Mono", monospace; font-weight: 700; font-size: 1.05rem;
