@@ -129,8 +129,11 @@ vertical: {c['vertical']}
 phone: {c['phone']}
 website: {c['website']}
 status: drafted
+publish: false
 updated: {TODAY}
 ---
+<!-- PRIVATE CRM note. publish:false keeps it off Obsidian Publish. Do not publish. -->
+
 
 <!-- defiant:auto:facts -->
 | | |
