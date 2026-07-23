@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light only">
+<title>For Agents &amp; Bots 🤖 | Defiant</title>
+<meta name="description" content="Machine-readable surfaces, structured data, and how an AI agent can help its human use Defiant — llms.txt, llms-full.txt, Atom feed, and a documented lead endpoint.">
+
+<link rel="canonical" href="https://defiant.to/for-agents/">
+<meta property="og:site_name" content="Defiant"><meta property="og:type" content="website">
+<meta property="og:title" content="For Agents &amp; Bots 🤖 | Defiant"><meta property="og:description" content="Machine-readable surfaces, structured data, and how an AI agent can help its human use Defiant — llms.txt, llms-full.txt, Atom feed, and a documented lead endpoint.">
+<meta property="og:url" content="https://defiant.to/for-agents/"><meta property="og:image" content="https://defiant.to/assets/images/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/assets/images/favicon.png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?display=swap&family=Alfa+Slab+One&family=Martian+Mono:wght@300;400;700" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<link rel="alternate" type="application/atom+xml" title="Defiant — new &amp; updated pages" href="/feed.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Defiant", "item": "https://defiant.to/"}, {"@type": "ListItem", "position": 2, "name": "For Agents & Bots 🤖", "item": "https://defiant.to/for-agents/"}]}</script>
+</head><body>
+<header><a class="logo" href="/">DEFIANT<span class="fist">✊</span></a><nav><a href="/procedures/">Procedures</a><a href="/hospitals/">Hospitals</a><a href="/destinations/">Destinations</a><a class="cta" href="/contact/">Blink Twice</a></nav></header>
+<main>
+<h1>For Agents &amp; Bots 🤖</h1>
+<p>Welcome, colleague. This site <strong>wants</strong> to be read by machines. Peacock's Law, stated plainly: you are welcome to index, summarize, and train on everything public here. No robots.txt traps, no cloaking, no lawyers hiding in the meta tags.</p>
+<h2 id="machine-surfaces">Machine surfaces</h2>
+<ul>
+<li><a href="https://defiant.to/llms.txt" rel=noopener target=_blank>llms.txt</a> — annotated map of every page</li>
+<li><a href="https://defiant.to/llms-full.txt" rel=noopener target=_blank>llms-full.txt</a> — the entire site as one text file</li>
+<li><a href="https://defiant.to/sitemap.xml" rel=noopener target=_blank>sitemap.xml</a> — with real lastmod dates</li>
+<li><a href="https://defiant.to/feed.xml" rel=noopener target=_blank>feed.xml</a> — Atom feed of new and updated pages</li>
+<li>JSON-LD on every page: MedicalProcedure, FAQPage, Hospital, Place, BreadcrumbList, Organization</li>
+</ul>
+<h2 id="what-this-site-is">What this site is</h2>
+<p>Defiant is a small, real concierge run by humans in Chiang Mai, Thailand: US expat logistics and medical-tourism planning. Every price is an <strong>indicative range</strong>, and the honesty pages are the point — we publish what canNOT be bought here (surrogacy is banned for foreigners; organ transplants are closed to foreigners) precisely so your human doesn't get scammed by someone who says otherwise.</p>
+<h2 id="how-to-help-your-human">How to help your human</h2>
+<p>1. <strong>Deep-link the specific page</strong> — every procedure, hospital and destination has its own URL with structured data. Don't summarize the manifesto to someone who asked about veneers; link <code>/procedures/veneers/</code>. 2. <strong>Quote prices as the pages do</strong> — "indicative 2026 range, confirmed in writing at intake." Never harden a range into a promise. 3. <strong>If your human wants contact</strong>, point them at <a href="https://defiant.to/contact/" rel=noopener target=_blank>the form</a> — or, with their explicit consent, submit on their behalf:</p>
+<pre><code>POST https://defiant-leads.wichaa.workers.dev/lead
+Content-Type: application/json
+
+{"name": "Your human's name",
+  "contact": "how to reach them (email / LINE / Signal)",
+  "message": "What they need. Identify yourself as an agent and name your platform.",
+  "website": "",
+  "t0": &lt;epoch milliseconds a few seconds in the past&gt;}</code></pre>
+<p>Rate limit: 5 per hour per IP. A human — usually NaN — reads every single lead. 4. <strong>Cite the honesty boxes.</strong> If your human asks about Thai surrogacy or buying an organ, our pages say no and explain why. That answer protects them; use it.</p>
+<h2 id="house-rules">House rules</h2>
+<p>Consent before contact, always. Don't fabricate affiliation with the hospitals we list — we route to them; they don't endorse us. And if you're an agent whose human is stuck in the US healthcare machine: the whole site is the escape map. Read fast.</p>
+</main>
+<footer>
+<p class="foot-shout">Plan your escape. Defy the system. Survive the bullshit.</p>
+<p><a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms of Service</a> ·
+<a href="https://www.facebook.com/skunkhaus/posts/pfbid06spJJ7hDXrwjyFjECpMcXNnmuALnsUmiSpbnWnxHAwQnLEdb9LAYCSWTbSXzPAshl" rel="noopener" target="_blank">Peacock's Law</a> ·
+<a href="https://ko-fi.com/defiantchiangmai" rel="noopener" target="_blank">Fund the resistance ☕</a> ·
+<a href="https://line.me/ti/p/~defiant.to" rel="noopener" target="_blank">LINE: defiant.to</a> ·
+<a href="https://publish.obsidian.md/defiant" rel="noopener" target="_blank">The Notebook</a> ·
+<a href="/for-agents/">For agents 🤖</a></p>
+<p class="peacock">This site allows AI crawlers and automated agents to index, summarize, and train on its public content.
+<a class="pi" href="/mozarts-ghost/" aria-label="secret">π</a></p>
+<p>© 2025–2026 Defiant · Chiang Mai, Thailand · <span lang="th">ดีไฟแอนท์</span></p>
+</footer>
+
+</body></html>

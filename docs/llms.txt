@@ -11,6 +11,7 @@
 - [Chiang Mai — Defiant destination guide](https://defiant.to/destinations/chiang-mai/): Our home base.
 - [Phuket — Defiant destination guide](https://defiant.to/destinations/phuket/): Surgery with a sea view — more precisely, surgery at a serious BDMS hospital followed by recovery somewhere your biggest obligation is choosing lunch.
 - [Thailand — Defiant destination guide](https://defiant.to/destinations/thailand/): The country that made medical tourism a real industry.
+- [For Agents & Bots 🤖](https://defiant.to/for-agents/): Machine-readable surfaces, structured data, and how an AI agent can help its human use Defiant — llms.txt, llms-full.txt, Atom feed, and a documented lead endpoint.
 - [Hospitals & Clinics — the Defiant shortlist](https://defiant.to/hospitals/): The Thai hospitals and specialist clinics Defiant actually routes clients to, by city — with accreditation flags and no advertorial.
 - [Bangkok Hospital Chiang Mai — Chiang Mai](https://defiant.to/hospitals/bangkok-hospital-chiang-mai/): Bangkok Hospital Chiang Mai, Chiang Mai: Private hospital (BDMS network). What it's good at and which procedures Defiant routes there.
 - [Bangkok Hospital Phuket — Phuket](https://defiant.to/hospitals/bangkok-hospital-phuket/): Bangkok Hospital Phuket, Phuket: Private hospital (BDMS network). What it's good at and which procedures Defiant routes there.
@@ -104,6 +105,13 @@
 - [Veneers in Thailand — Cost & Where](https://defiant.to/procedures/veneers/): Veneers in Thailand: indicative cost $250–$550 per tooth vs $1,000–$2,500 per tooth in the US. Hospitals, stay length, and the honest caveats.
 - [Whole-Body Cryotherapy in Thailand — Cost & Where](https://defiant.to/procedures/whole-body-cryotherapy/): Whole-Body Cryotherapy in Thailand: indicative cost $30–$70 per session vs $40–$90 per session in the US. Hospitals, stay length, and the honest caveats.
 - [Terms of Service](https://defiant.to/terms/): The deal, in plain words: Defiant is a medical-tourism concierge and information service — not a healthcare provider.
+
+## Machine surfaces
+- Full site text: https://defiant.to/llms-full.txt
+- Atom feed: https://defiant.to/feed.xml
+- Agents guide (incl. lead-endpoint contract): https://defiant.to/for-agents/
+- Sitemap: https://defiant.to/sitemap.xml
+- JSON-LD on every page: MedicalProcedure, FAQPage, Hospital, Place, BreadcrumbList
 
 ## Contact
 - Intake form: https://defiant.to/contact/
