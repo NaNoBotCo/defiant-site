@@ -6,4 +6,4 @@ compatibility_date = "2026-07-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "defiant-leads"
-database_id = "PASTE-DATABASE-ID-HERE"
+database_id = "b0fd6c34-0901-4805-8a37-90d2a1dac49b"
