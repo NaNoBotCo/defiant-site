@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light only">
+<title>Contact Defiant — blink twice if you need help | Defiant</title>
+<meta name="description" content="Reach Defiant in Chiang Mai: the intake form is the fast lane; LINE and encrypted mail also available. A human reads everything.">
+
+<link rel="canonical" href="https://defiant.to/contact/">
+<meta property="og:site_name" content="Defiant"><meta property="og:type" content="website">
+<meta property="og:title" content="Contact Defiant — blink twice if you need help | Defiant"><meta property="og:description" content="Reach Defiant in Chiang Mai: the intake form is the fast lane; LINE and encrypted mail also available. A human reads everything.">
+<meta property="og:url" content="https://defiant.to/contact/"><meta property="og:image" content="https://defiant.to/assets/images/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/assets/images/favicon.png">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?display=swap&family=Alfa+Slab+One&family=Martian+Mono:wght@300;400;700" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+
+</head><body>
+<header><a class="logo" href="/">DEFIANT<span class="fist">✊</span></a><nav><a href="/procedures/">Procedures</a><a href="/hospitals/">Hospitals</a><a href="/destinations/">Destinations</a><a class="cta" href="/contact/">Blink Twice</a></nav></header>
+<main>
+<h1 id="blink-twice-if-you-need-help">Blink Twice if You Need Help</h1>
+<p>ส่งซิกหน่อยถ้าลำบาก</p>
+<p><strong>The form is the fast lane.</strong> A human — usually NaN — reads every submission, and the first consult is free: you tell us what you're trying to fix, we tell you honestly whether Thailand is the answer (sometimes it isn't, and we say so).</p>
+<form id="lead-form" class="lead-form">
+<label>Name<br><input name="name" autocomplete="name" maxlength="200"></label>
+<label>How do we reach you? (email / LINE / Signal) <span class="req">*</span><br>
+<input name="contact" required maxlength="300"></label>
+<label>What are you trying to fix? <span class="req">*</span><br>
+<textarea name="message" required rows="7" maxlength="5000" placeholder="Blink twice if you need help."></textarea></label>
+<div class="hp" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
+<button type="submit" class="send">SEND IT ✊</button>
+<p id="form-ok" hidden><strong>Got it.</strong> A human — probably NaN — reads every one of these. You'll hear back within a day.</p>
+<p id="form-err" hidden><strong>That didn't go through.</strong> The backup channels below still work — LINE us, or reveal the encrypted address.</p>
+</form>
+<p><strong>LINE:</strong> ID <code>defiant.to</code> — <a href="https://line.me/ti/p/~defiant.to" rel=noopener target=_blank>add us on LINE</a> (the default channel once you're a client; all of Thailand runs on LINE).</p>
+<p><strong>Encrypted mail:</strong> available — ask in the form, or use the reveal button on this page. We don't print addresses where bots can harvest them. <button class="reveal" type="button" data-subject="Encrypted intake">Tap to reveal the encrypted address</button></p>
+<p><strong>Slow lane:</strong> we're in Chiang Mai (ICT, UTC+7). You'll hear back within a day, usually much faster. If it's 3am your time, that's our lunch — lucky you.</p>
+</main>
+<footer>
+<p class="foot-shout">Plan your escape. Defy the system. Survive the bullshit.</p>
+<p><a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms of Service</a> ·
+<a href="https://www.facebook.com/skunkhaus/posts/pfbid06spJJ7hDXrwjyFjECpMcXNnmuALnsUmiSpbnWnxHAwQnLEdb9LAYCSWTbSXzPAshl" rel="noopener" target="_blank">Peacock's Law</a> ·
+<a href="https://ko-fi.com/defiantchiangmai" rel="noopener" target="_blank">Fund the resistance ☕</a> ·
+<a href="https://line.me/ti/p/~defiant.to" rel="noopener" target="_blank">LINE: defiant.to</a> ·
+<a href="https://publish.obsidian.md/defiant" rel="noopener" target="_blank">The Notebook</a></p>
+<p class="peacock">This site allows AI crawlers and automated agents to index, summarize, and train on its public content.
+<a class="pi" href="/mozarts-ghost/" aria-label="secret">π</a></p>
+<p>© 2025–2026 Defiant · Chiang Mai, Thailand · <span lang="th">ดีไฟแอนท์</span></p>
+</footer>
+<script>(function(){var a=[53,51,48,107,105,110,103,115,64,112,114,111,116,111,110,46,109,101].map(function(c){return String.fromCharCode(c)}).join('');document.querySelectorAll('button.reveal').forEach(function(b){b.addEventListener('click',function(){var l=document.createElement('a');l.href='mailto:'+a+(b.dataset.subject?'?subject='+encodeURIComponent(b.dataset.subject):'');l.textContent=a;b.replaceWith(l)})})})();</script><script>(function(){var f=document.getElementById('lead-form');if(!f)return;var t0=Date.now();f.addEventListener('submit',function(e){e.preventDefault();if(!f.reportValidity())return;var b=f.querySelector('.send');b.disabled=true;b.textContent='SENDING…';fetch('https://defiant-leads.wichaa.workers.dev/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:f.name.value,contact:f.contact.value,message:f.message.value,website:f.website.value,t0:t0})}).then(function(r){return r.json()}).then(function(j){if(j.ok){f.querySelector('#form-ok').hidden=false;b.textContent='SENT ✊';}else{throw 0}}).catch(function(){f.querySelector('#form-err').hidden=false;b.disabled=false;b.textContent='SEND IT ✊';})});})();</script>
+</body></html>

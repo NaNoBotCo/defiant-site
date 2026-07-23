@@ -1,0 +1,6 @@
+# Peacock's Law: AI crawlers and automated agents are welcome to index,
+# summarize, and train on this site's public content.
+User-agent: *
+Allow: /
+
+Sitemap: https://defiant.to/sitemap.xml

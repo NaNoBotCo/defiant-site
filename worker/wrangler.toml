@@ -1,0 +1,9 @@
+name = "defiant-leads"
+main = "index.js"
+compatibility_date = "2026-07-01"
+
+# After `wrangler d1 create defiant-leads`, paste the database_id it prints:
+[[d1_databases]]
+binding = "DB"
+database_name = "defiant-leads"
+database_id = "PASTE-DATABASE-ID-HERE"
