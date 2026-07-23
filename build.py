@@ -80,6 +80,7 @@ def collect_notes():
     add(PUB / "=Procedures.md", "/procedures/")
     add(PUB / "=Hospitals.md", "/hospitals/")
     add(PUB / "=Destinations.md", "/destinations/")
+    add(PUB / "=Partners.md", "/partners/")
     add(PUB / "=Privacy Policy.md", "/privacy/")
     add(PUB / "=Terms of Service.md", "/terms/")
     add(VAULT / "Mozarts-Ghost.md", "/mozarts-ghost/")
@@ -398,6 +399,10 @@ def jsonld_for(name, meta, route, body):
     elif t == "contact":
         out.append(ld({"@context": "https://schema.org", "@type": "ContactPage",
                        "name": "Contact Defiant", "url": SITE + route}))
+    elif t == "partners":
+        out.append(ld({"@context": "https://schema.org", "@type": "WebPage",
+                       "name": "For Clinic Partners", "inLanguage": ["th", "en"],
+                       "url": SITE + route, "description": meta.get("description", "")}))
     return out
 
 
@@ -462,6 +467,7 @@ FOOTER = f"""<footer>
 <a href="{FB_PEACOCKS_LAW}" rel="noopener" target="_blank">Peacock's Law</a> ·
 <a href="{KOFI}" rel="noopener" target="_blank">Fund the resistance ☕</a> ·
 <a href="{LINE_URL}" rel="noopener" target="_blank">LINE: defiant.to</a> ·
+<a href="/partners/">คลินิกพันธมิตร / Clinics</a> ·
 <a href="{PUBLISH_HOME}" rel="noopener" target="_blank">The Notebook</a> ·
 <a href="/for-agents/">For agents 🤖</a></p>
 <p class="peacock">This site allows AI crawlers and automated agents to index, summarize, and train on its public content.
