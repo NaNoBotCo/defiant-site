@@ -29,7 +29,6 @@ KOFI = "https://ko-fi.com/defiantchiangmai"
 LINE_URL = "https://line.me/ti/p/~defiant.to"
 FB_PEACOCKS_LAW = ("https://www.facebook.com/skunkhaus/posts/"
                    "pfbid06spJJ7hDXrwjyFjECpMcXNnmuALnsUmiSpbnWnxHAwQnLEdb9LAYCSWTbSXzPAshl")
-PUBLISH_HOME = "https://publish.obsidian.md/defiant"
 TODAY = date(2026, 7, 23).isoformat()
 
 # 530kings@proton.me as char codes — the string itself must never appear in output.
@@ -352,7 +351,7 @@ ORG = {"@context": "https://schema.org", "@type": "Organization", "name": "Defia
        "description": "US expat services and medical tourism concierge in Chiang Mai, Thailand.",
        "address": {"@type": "PostalAddress", "addressLocality": "Chiang Mai", "addressCountry": "TH"},
        "contactPoint": {"@type": "ContactPoint", "contactType": "intake", "url": SITE + "/contact/"},
-       "sameAs": [KOFI, PUBLISH_HOME]}
+       "sameAs": [KOFI]}
 
 SECTION_NAMES = {"procedures": "Procedures", "hospitals": "Hospitals",
                  "destinations": "Destinations", "articles": "Articles"}
@@ -489,7 +488,6 @@ FOOTER = f"""<footer>
 <a href="{KOFI}" rel="noopener" target="_blank">Fund the resistance ☕</a> ·
 <a href="{LINE_URL}" rel="noopener" target="_blank">LINE: defiant.to</a> ·
 <a href="/partners/">คลินิกพันธมิตร / Clinics</a> ·
-<a href="{PUBLISH_HOME}" rel="noopener" target="_blank">The Notebook</a> ·
 <a href="/for-agents/">For agents 🤖</a></p>
 <p class="peacock">This site allows AI crawlers and automated agents to index, summarize, and train on its public content.
 <a class="pi" href="/mozarts-ghost/" aria-label="secret">π</a></p>
