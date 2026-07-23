@@ -73,11 +73,48 @@ def _fetch(query):
     raise SystemExit(f"all Overpass mirrors failed; last error: {last_err}")
 
 
-def _ingest(con, els, force_vertical=None):
+# ---- worldwide medical-tourism HUBS -----------------------------------------
+# Deep-local (Chiang Mai) gets every vertical; the global hubs get a HOSPITAL
+# sweep — a hospital is a hospital in any language, so it classifies cleanly
+# where name-keywords wouldn't. bbox = "S,W,N,E". Starting point, grows nightly.
+HUBS = [
+    ("Chiang Mai", "Thailand", "18.55,98.75,19.05,99.15"),
+    ("Bangkok", "Thailand", "13.55,100.35,13.95,100.75"),
+    ("Phuket", "Thailand", "7.80,98.25,8.20,98.45"),
+    ("Delhi NCR", "India", "28.40,76.90,28.90,77.40"),
+    ("Mumbai", "India", "18.90,72.75,19.30,72.99"),
+    ("Chennai", "India", "12.90,80.10,13.15,80.30"),
+    ("Bengaluru", "India", "12.85,77.45,13.10,77.75"),
+    ("Istanbul", "Turkey", "40.90,28.70,41.20,29.30"),
+    ("Antalya", "Turkey", "36.80,30.55,36.95,30.80"),
+    ("Tijuana", "Mexico", "32.45,-117.10,32.55,-116.90"),
+    ("Cancún", "Mexico", "21.05,-86.90,21.25,-86.75"),
+    ("Mexico City", "Mexico", "19.30,-99.25,19.55,-99.05"),
+    ("Kuala Lumpur", "Malaysia", "3.05,101.60,3.25,101.80"),
+    ("Penang", "Malaysia", "5.28,100.25,5.45,100.35"),
+    ("Singapore", "Singapore", "1.24,103.60,1.47,104.02"),
+    ("Seoul", "South Korea", "37.45,126.85,37.65,127.15"),
+    ("San José", "Costa Rica", "9.87,-84.15,10.00,-84.02"),
+    ("Medellín", "Colombia", "6.17,-75.63,6.32,-75.53"),
+    ("Bogotá", "Colombia", "4.55,-74.15,4.80,-74.03"),
+    ("Budapest", "Hungary", "47.40,19.00,47.58,19.18"),
+    ("Dubai", "UAE", "25.05,55.10,25.30,55.40"),
+    ("Barcelona", "Spain", "41.34,2.10,41.47,2.23"),
+    ("San José del Cabo", "Mexico", "22.88,-109.95,23.07,-109.68"),
+]
+
+
+def hospital_query(bbox):
+    return (f'[out:json][timeout:90];('
+            f'nwr["amenity"="hospital"]({bbox});'
+            f'nwr["healthcare"="hospital"]({bbox}););out center tags;')
+
+
+def _ingest(con, els, force_vertical=None, city="", country=""):
     n = 0
     for el in els:
         tags = el.get("tags", {})
-        name = tags.get("name") or tags.get("name:th") or tags.get("name:en") or ""
+        name = tags.get("name") or tags.get("name:en") or tags.get("name:th") or ""
         if not name:
             continue
         upsert(con,
@@ -90,19 +127,36 @@ def _ingest(con, els, force_vertical=None):
                website=tags.get("website") or tags.get("contact:website") or "",
                hours=tags.get("opening_hours") or "",
                addr=addr_from(tags),
-               tags=tags, source="overpass", force_vertical=force_vertical)
+               tags=tags, source="overpass", force_vertical=force_vertical,
+               city=city, country=country)
         n += 1
     return n
 
 
-def run():
+def run(hubs_only=False):
     con = connect()
-    clinics = _ingest(con, _fetch(QUERY).get("elements", []))
-    pharm = _ingest(con, _fetch(PHARMACY_QUERY).get("elements", []), force_vertical="pharmacy")
-    con.commit()
-    print(f"Overpass: {clinics} clinics + {pharm} pharmacies upserted.")
-    return clinics + pharm
+    total = 0
+    if not hubs_only:
+        # Chiang Mai depth: every vertical.
+        total += _ingest(con, _fetch(QUERY).get("elements", []), city="Chiang Mai", country="Thailand")
+        total += _ingest(con, _fetch(PHARMACY_QUERY).get("elements", []),
+                         force_vertical="pharmacy", city="Chiang Mai", country="Thailand")
+        con.commit()
+        print(f"Chiang Mai: {total} facilities.")
+    # Worldwide hospital sweep.
+    for city, country, bbox in HUBS:
+        try:
+            got = _ingest(con, _fetch(hospital_query(bbox)).get("elements", []),
+                          force_vertical="hospital", city=city, country=country)
+            con.commit()
+            print(f"{city}, {country}: {got} hospitals.")
+            total += got
+        except SystemExit as e:
+            print(f"{city}, {country}: SKIPPED ({e})")
+    print(f"TOTAL upserted this run: {total}")
+    return total
 
 
 if __name__ == "__main__":
-    run()
+    import sys
+    run(hubs_only="--hubs-only" in sys.argv)

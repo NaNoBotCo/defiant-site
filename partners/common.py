@@ -18,7 +18,7 @@ DRAFTS = ROOT / "outreach" / "drafts"
 VAULT_PARTNERS = Path.home() / "Documents" / "Defiant" / "Partners"  # NOT under Public Links → never published
 TODAY = date.today().isoformat()
 
-VERTICALS = ["geriatric", "rehab", "gyn", "longevity", "aesthetic", "pharmacy", "other"]
+VERTICALS = ["hospital", "geriatric", "rehab", "gyn", "longevity", "aesthetic", "pharmacy", "other"]
 
 # Big chains are the anti-counterfeit answer for hormones; flag them so they
 # rise to the top of the pharmacy list.
@@ -76,14 +76,20 @@ def connect():
         first_seen TEXT, last_seen TEXT)""")
     con.execute("CREATE INDEX IF NOT EXISTS idx_clinics_status ON clinics(status)")
     con.execute("CREATE INDEX IF NOT EXISTS idx_clinics_vertical ON clinics(vertical)")
+    # migrations for the worldwide (city/country) dimension
+    for col in ("city TEXT DEFAULT ''", "country TEXT DEFAULT ''"):
+        try:
+            con.execute(f"ALTER TABLE clinics ADD COLUMN {col}")
+        except sqlite3.OperationalError:
+            pass
     return con
 
 
 def upsert(con, ext_id, name, name_en, lat, lon, phone, website, hours, addr, tags, source,
-           force_vertical=None):
+           force_vertical=None, city="", country=""):
     vert = force_vertical or classify(name or "", name_en or "")
-    con.execute("""INSERT INTO clinics(ext_id,name,name_en,vertical,lat,lon,phone,website,hours,addr,tags,source,first_seen,last_seen)
-        VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+    con.execute("""INSERT INTO clinics(ext_id,name,name_en,vertical,lat,lon,phone,website,hours,addr,tags,source,city,country,first_seen,last_seen)
+        VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
         ON CONFLICT(ext_id) DO UPDATE SET
           name=excluded.name, name_en=excluded.name_en,
           lat=excluded.lat, lon=excluded.lon,
@@ -91,9 +97,11 @@ def upsert(con, ext_id, name, name_en, lat, lon, phone, website, hours, addr, ta
           website=COALESCE(NULLIF(excluded.website,''), clinics.website),
           hours=COALESCE(NULLIF(excluded.hours,''), clinics.hours),
           addr=COALESCE(NULLIF(excluded.addr,''), clinics.addr),
+          city=COALESCE(NULLIF(excluded.city,''), clinics.city),
+          country=COALESCE(NULLIF(excluded.country,''), clinics.country),
           tags=excluded.tags, last_seen=excluded.last_seen""",
         (ext_id, name, name_en, vert, lat, lon, phone or "", website or "", hours or "",
-         addr or "", json.dumps(tags, ensure_ascii=False), source, TODAY, TODAY))
+         addr or "", json.dumps(tags, ensure_ascii=False), source, city, country, TODAY, TODAY))
 
 
 def counts(con):

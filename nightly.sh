@@ -12,6 +12,7 @@ cd "$REPO" || exit 1
 echo "───── $(date '+%Y-%m-%d %H:%M') nightly refresh ─────" >> "$LOG"
 python3 partners/crawl.py     >> "$LOG" 2>&1 || echo "  crawl: skipped/failed (using existing data)" >> "$LOG"
 python3 build_directory.py    >> "$LOG" 2>&1
+python3 make_cards.py         >> "$LOG" 2>&1 || echo "  cards: skipped (Pillow?)" >> "$LOG"
 python3 build.py              >> "$LOG" 2>&1 || { echo "  BUILD FAILED — not pushing" >> "$LOG"; exit 1; }
 
 git add -A >> "$LOG" 2>&1

@@ -82,6 +82,7 @@ def collect_notes():
     add(PUB / "=Partners.md", "/partners/")
     add(PUB / "=Estradiol.md", "/estradiol/")
     add(PUB / "=Subscribe.md", "/subscribe/")
+    add(PUB / "=Translators.md", "/translators/")
     add(PUB / "=Privacy Policy.md", "/privacy/")
     add(PUB / "=Terms of Service.md", "/terms/")
     add(VAULT / "Mozarts-Ghost.md", "/mozarts-ghost/")
@@ -533,6 +534,7 @@ FOOTER = f"""<footer>
 <a href="{LINE_URL}" rel="noopener" target="_blank">LINE: defiant.to</a> ·
 <a href="/partners/">คลินิกพันธมิตร / Clinics</a> ·
 <a href="/subscribe/">Dispatch ✉</a> ·
+<a href="/translators/">Translators wanted</a> ·
 <a href="/for-agents/">For agents 🤖</a></p>
 <p class="peacock">This site allows AI crawlers and automated agents to index, summarize, and train on its public content.
 <a class="pi" href="/mozarts-ghost/" aria-label="secret">π</a></p>
@@ -593,11 +595,19 @@ def render_site_index(catalog, directory):
     cats = directory.get("categories", {})
     if cats:
         total = sum(c["count"] for c in cats.values())
-        out.append(f'<h4>{esc(directory.get("city", "Chiang Mai"))} facilities <span>({total})</span></h4>'
+        out.append(f'<h4>{esc(directory.get("local_city", "Chiang Mai"))} facilities '
+                   f'<span>({total})</span></h4>'
                    '<p class="idx-note">Full structured list in '
                    '<a href="/data/directory.json">/data/directory.json</a>:</p><ul>')
         for _v, c in cats.items():
             out.append(f'<li>{esc(c["label"])} — {c["count"]}</li>')
+        out.append('</ul>')
+    hbc = directory.get("hospitals_by_country", {})
+    if hbc:
+        tot = sum(c["count"] for c in hbc.values())
+        out.append(f'<h4>Worldwide hospitals <span>({tot} · {len(hbc)} countries)</span></h4><ul>')
+        for country in sorted(hbc):
+            out.append(f'<li>{esc(country)} — {hbc[country]["count"]}</li>')
         out.append('</ul>')
     out.append('</section></div></details>')
     return "".join(out)
@@ -629,16 +639,34 @@ def write_data_files(catalog, directory):
             e = {"@type": DIR_TYPE.get(v, "MedicalOrganization"), "name": it["name"],
                  "category": c["label"],
                  "address": {"@type": "PostalAddress",
-                             "addressLocality": directory.get("city", "Chiang Mai"), "addressCountry": "TH"}}
+                             "addressLocality": directory.get("local_city", "Chiang Mai"),
+                             "addressCountry": "TH"}}
             if it.get("lat"):
                 e["geo"] = {"@type": "GeoCoordinates", "latitude": it["lat"], "longitude": it["lon"]}
             items.append(e)
+    for country, data in directory.get("hospitals_by_country", {}).items():
+        for city, hs in data.get("cities", {}).items():
+            for it in hs:
+                e = {"@type": "Hospital", "name": it["name"], "category": "Hospital",
+                     "address": {"@type": "PostalAddress", "addressLocality": city,
+                                 "addressCountry": country}}
+                if it.get("lat"):
+                    e["geo"] = {"@type": "GeoCoordinates", "latitude": it["lat"], "longitude": it["lon"]}
+                items.append(e)
     dir_json = {"@context": "https://schema.org", "@type": "ItemList",
                 "name": "Chiang Mai medical & care facilities", "numberOfItems": len(items),
                 "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": e}
                                     for i, e in enumerate(items)]}
     (OUT / "data" / "directory.json").write_text(json.dumps(dir_json, ensure_ascii=False, indent=2), encoding="utf-8")
     return len(cat_json["procedures"]) + len(cat_json["hospitals"]), len(items)
+
+
+def _card_for(route):
+    """Per-page share card if make_cards.py generated one, else the generic card."""
+    slug = (route.strip("/").replace("/", "-")) or "home"
+    if (ROOT / "assets" / "cards" / f"{slug}.png").exists():
+        return f"/assets/cards/{slug}.png"
+    return "/assets/images/share.jpg"
 
 
 def page(name, meta, body_html, route, raw_body=""):
@@ -675,7 +703,7 @@ def page(name, meta, body_html, route, raw_body=""):
 <link rel="canonical" href="{SITE}{route}">
 <meta property="og:site_name" content="Defiant"><meta property="og:type" content="website">
 <meta property="og:title" content="{esc(full_title)}"><meta property="og:description" content="{esc(desc)}">
-<meta property="og:url" content="{SITE}{route}"><meta property="og:image" content="{SITE}/assets/images/share.jpg">
+<meta property="og:url" content="{SITE}{route}"><meta property="og:image" content="{SITE}{_card_for(route)}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -731,6 +759,8 @@ def build():
     (OUT / "assets").mkdir(parents=True)
     shutil.copytree(ROOT / "assets" / "images", OUT / "assets" / "images")
     shutil.copy2(ROOT / "assets" / "styles.css", OUT / "assets" / "styles.css")
+    if (ROOT / "assets" / "cards").exists():
+        shutil.copytree(ROOT / "assets" / "cards", OUT / "assets" / "cards")
 
     notes = collect_notes()
     notes["/for-agents/"] = ("For Agents & Bots", {
