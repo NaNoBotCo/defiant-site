@@ -312,6 +312,14 @@ COUNTER_JS = """<script>(function(){var el=document.getElementById('dobbs-days')
 var d=Math.floor((Date.now()-Date.parse('2022-06-24T00:00:00Z'))/864e5);
 el.textContent=d.toLocaleString('en-US');})();</script>"""
 
+# Parallax dot field: drift the fixed background slower than scroll. Disabled
+# for prefers-reduced-motion. rAF-throttled so it stays cheap.
+PARALLAX_JS = ("<script>(function(){if(matchMedia('(prefers-reduced-motion:reduce)').matches)return;"
+               "var t=false;function u(){document.documentElement.style.setProperty("
+               "'--par',(-scrollY*0.12).toFixed(1)+'px');t=false;}"
+               "addEventListener('scroll',function(){if(!t){t=true;requestAnimationFrame(u);}},"
+               "{passive:true});})();</script>")
+
 REVEAL_JS = ("<script>(function(){var a=[" + EMAIL_CODES + "].map(function(c){return "
              "String.fromCharCode(c)}).join('');document.querySelectorAll('button.reveal')"
              ".forEach(function(b){b.addEventListener('click',function(){var l=document.createElement('a');"
@@ -531,7 +539,7 @@ def page(name, meta, body_html, route, raw_body=""):
     if ov.get("intro"):
         body_html = body_html.replace("</h1>", "</h1>\n<p class=\"lead\">" + ov["intro"] + "</p>", 1)
 
-    scripts = []
+    scripts = [PARALLAX_JS]
     if route == "/":
         scripts.append(COUNTER_JS)
     if 'class="reveal"' in body_html:
@@ -557,12 +565,12 @@ def page(name, meta, body_html, route, raw_body=""):
 <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?display=swap&family=Alfa+Slab+One&family=Martian+Mono:wght@300;400;700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&family=Alfa+Slab+One&family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700" rel="stylesheet">
 <link rel="stylesheet" href="/assets/styles.css">
 <link rel="alternate" type="application/atom+xml" title="Defiant — new &amp; updated pages" href="/feed.xml">
 {jsonld}
 </head><body>
-<header><a class="logo" href="/">DEFIANT<span class="fist">✊</span></a>{NAV}</header>
+<header><a class="logo" href="/"><span class="word">DEFIANT</span><span class="fist">✊</span></a>{NAV}</header>
 <main>
 {body_html}
 </main>
@@ -574,12 +582,12 @@ def page(name, meta, body_html, route, raw_body=""):
 def home_post(html_body: str) -> str:
     html_body = html_body.replace(
         '<h1 id="defiant">DEFIANT</h1>',
-        '<div class="hero"><div class="hero-text"><h1 id="defiant">DEFIANT</h1>', 1)
+        '<div class="hero"><div class="hero-text"><h1 class="glitch" id="defiant">DEFIANT</h1>', 1)
     html_body = html_body.replace(
         "<p>ดิงด่อง เฮลโล เวลคัม</p>",
         '<p class="thai-garnish">ดิงด่อง เฮลโล เวลคัม</p></div>'
-        '<img class="hero-fist" src="/assets/images/image01.jpg" '
-        'alt="DEFIANT — raised fist artwork in teal and pink halftone">'
+        '<span class="zine hero-fist"><img src="/assets/images/image01.jpg" '
+        'alt="DEFIANT — raised fist in black, magenta and cyan halftone"></span>'
         "</div>", 1)
     html_body = re.sub(
         r'<h1 id="american-healthcare-is-bullshit">(.*?)</h1>',
