@@ -1,0 +1,1386 @@
+{
+  "generated_from": "partners.db (OSM crawl)",
+  "city": "Chiang Mai",
+  "categories": {
+    "geriatric": {
+      "label": "Care homes & elder care",
+      "count": 4,
+      "items": [
+        {
+          "name": "Helping Hands Nursing Home",
+          "name_en": "Helping Hands Nursing Home",
+          "lat": 18.767877,
+          "lon": 98.9552272
+        },
+        {
+          "name": "Kanya Nursing Home",
+          "name_en": "Kanya Nursing Home",
+          "lat": 18.7351824,
+          "lon": 98.9895664
+        },
+        {
+          "name": "พีดีเนอร์สซิ่งโฮม ดูแลผู้สูงอายุ",
+          "name_en": "PD Nursing Home Care for the Elderly",
+          "lat": 18.755304,
+          "lon": 99.012966
+        },
+        {
+          "name": "ศูนย์เวชศาสตร์ผู้สูงอายุ เชียงใหม่",
+          "name_en": "Center for Geriatric Medicine",
+          "lat": 18.7564237,
+          "lon": 98.9691645
+        }
+      ]
+    },
+    "rehab": {
+      "label": "Rehab & recovery",
+      "count": 5,
+      "items": [
+        {
+          "name": "Dawn Rehab",
+          "name_en": "",
+          "lat": 18.6125513,
+          "lon": 98.9648598
+        },
+        {
+          "name": "Physical Therapy Centre",
+          "name_en": "",
+          "lat": 18.7927397,
+          "lon": 98.9768265
+        },
+        {
+          "name": "The River Rehab",
+          "name_en": "",
+          "lat": 18.8093711,
+          "lon": 98.9827868
+        },
+        {
+          "name": "ศูนย์ฟื้นฟูสมรรถภาพ",
+          "name_en": "Suan Prung Rehabilitation Center",
+          "lat": 18.7045325,
+          "lon": 98.8594011
+        },
+        {
+          "name": "สถาบันแมคเคนฯ",
+          "name_en": "McKean Rehabilitation Center",
+          "lat": 18.7284384,
+          "lon": 98.9865774
+        }
+      ]
+    },
+    "gyn": {
+      "label": "Women's health & fertility",
+      "count": 46,
+      "items": [
+        {
+          "name": "Bangkok Hospital Chiang Mai",
+          "name_en": "Bangkok Hospital Chiang Mai",
+          "lat": 18.7884908,
+          "lon": 99.0262035
+        },
+        {
+          "name": "Chang Phuak Branch Nakorn Ping Hospital",
+          "name_en": "Chang Phuak Branch Nakorn Ping Hospital",
+          "lat": 18.8095257,
+          "lon": 98.9701099
+        },
+        {
+          "name": "Chiang Mai IVF Polyclinic",
+          "name_en": "Chiang Mai IVF Polyclinic",
+          "lat": 18.8132388,
+          "lon": 98.971762
+        },
+        {
+          "name": "Chiangmai Klaimor Hospital",
+          "name_en": "Chiangmai Klaimor Hospital",
+          "lat": 18.7607935,
+          "lon": 98.9720937
+        },
+        {
+          "name": "Chiangmai Ram Health Centre",
+          "name_en": "Chiangmai Ram Health Centre",
+          "lat": 18.7930656,
+          "lon": 98.977055
+        },
+        {
+          "name": "Donkaew Community Hospital",
+          "name_en": "Donkaew Community Hospital",
+          "lat": 18.8565983,
+          "lon": 98.9700942
+        },
+        {
+          "name": "Lanna Hospital - New Building",
+          "name_en": "Lanna Hospital - New Building",
+          "lat": 18.8153686,
+          "lon": 98.9940893
+        },
+        {
+          "name": "Lanna Hospital Extension",
+          "name_en": "Lanna Hospital Extension",
+          "lat": 18.8154891,
+          "lon": 98.9937203
+        },
+        {
+          "name": "OPD ศูนย์ศรีพัฒน์",
+          "name_en": "OPD Sriphat Center",
+          "lat": 18.7905839,
+          "lon": 98.9708342
+        },
+        {
+          "name": "คลินิกสูติ นรีเวช",
+          "name_en": "",
+          "lat": 18.7946798,
+          "lon": 98.9946857
+        },
+        {
+          "name": "คลินิกหมอวิโรจน์ สูติ-นรีเวช",
+          "name_en": "",
+          "lat": 18.7895697,
+          "lon": 98.979129
+        },
+        {
+          "name": "ร้านขายยา",
+          "name_en": "",
+          "lat": 18.7476656,
+          "lon": 98.9426803
+        },
+        {
+          "name": "ร้านยาสวนดอก",
+          "name_en": "",
+          "lat": 18.7472312,
+          "lon": 98.9417154
+        },
+        {
+          "name": "ศูนย์ตรวจธาลัสซีเมียภาคเหนือ",
+          "name_en": "Torpong Pediatric Clinic",
+          "lat": 18.8032998,
+          "lon": 98.9809241
+        },
+        {
+          "name": "ศูนย์สุขภาพ มช",
+          "name_en": "",
+          "lat": 18.7993039,
+          "lon": 98.9556845
+        },
+        {
+          "name": "ศูนย์ส่งเสริมพัฒนาการเด็กภาคเหนือจังหวัดเชียงใหม่",
+          "name_en": "Rajanagarindra Institute of Child Development",
+          "lat": 18.8508425,
+          "lon": 98.9626035
+        },
+        {
+          "name": "ส่งเสริมสขภาพ",
+          "name_en": "",
+          "lat": 18.6693945,
+          "lon": 99.1364183
+        },
+        {
+          "name": "อนามัย",
+          "name_en": "",
+          "lat": 18.6524039,
+          "lon": 99.0000702
+        },
+        {
+          "name": "อภิชาติ สูติ-นรี คลินิมีบุตรยาก",
+          "name_en": "Chiang Mai Fertility Centre",
+          "lat": 18.7964237,
+          "lon": 98.976655
+        },
+        {
+          "name": "โรงพยาบานสันกำแพง",
+          "name_en": "San Kamphaeng Hospital",
+          "lat": 18.7161131,
+          "lon": 99.1222671
+        },
+        {
+          "name": "โรงพยาบาล เชียงใหม่",
+          "name_en": "Chiang Mai Hospital",
+          "lat": 18.8107321,
+          "lon": 98.9813716
+        },
+        {
+          "name": "โรงพยาบาล เชียงใหม่เมดิคอลเซ็นเตอร์",
+          "name_en": "CMC Hospital",
+          "lat": 18.780361,
+          "lon": 98.9884613
+        },
+        {
+          "name": "โรงพยาบาลกรุงเทพ",
+          "name_en": "Bangkok Hospital",
+          "lat": 18.7887297,
+          "lon": 99.0265356
+        },
+        {
+          "name": "โรงพยาบาลกองบิน 41",
+          "name_en": "Kong Bin 41 Hospital",
+          "lat": 18.7781291,
+          "lon": 98.9721823
+        },
+        {
+          "name": "โรงพยาบาลค่ายกาวิละ",
+          "name_en": "Fort Kawila Hospital",
+          "lat": 18.7780207,
+          "lon": 99.0149561
+        },
+        {
+          "name": "โรงพยาบาลช้างเผือก",
+          "name_en": "Chang Puak Hospital",
+          "lat": 18.7991122,
+          "lon": 98.9869438
+        },
+        {
+          "name": "โรงพยาบาลดอยสะเก็ด",
+          "name_en": "Doi Saket Hospital",
+          "lat": 18.868359,
+          "lon": 99.1286921
+        },
+        {
+          "name": "โรงพยาบาลดารารัศมี",
+          "name_en": "Dararassamee Hospital",
+          "lat": 18.9106965,
+          "lon": 98.9428876
+        },
+        {
+          "name": "โรงพยาบาลนครพิงค์",
+          "name_en": "Nakornping Hospital",
+          "lat": 18.8517985,
+          "lon": 98.9664221
+        },
+        {
+          "name": "โรงพยาบาลนครพิงค์ แผนกผู้ป่วยนอก",
+          "name_en": "Nakornping Hospital Outpatient Department",
+          "lat": 18.7815617,
+          "lon": 98.9974776
+        },
+        {
+          "name": "โรงพยาบาลบ้านธิ",
+          "name_en": "Ban Thi Hospital",
+          "lat": 18.6555668,
+          "lon": 99.1267452
+        },
+        {
+          "name": "โรงพยาบาลประสาทเชียงใหม่",
+          "name_en": "Chiang Mai Neurological Hospital",
+          "lat": 18.7896967,
+          "lon": 98.9696221
+        },
+        {
+          "name": "โรงพยาบาลมหาราชนครเชียงใหม่",
+          "name_en": "Maharaj Nakorn Chiang Mai Hospital",
+          "lat": 18.7918432,
+          "lon": 98.9742757
+        },
+        {
+          "name": "โรงพยาบาลราชเวช",
+          "name_en": "Rajavej Chiang Mai Hospital",
+          "lat": 18.7668542,
+          "lon": 99.0042636
+        },
+        {
+          "name": "โรงพยาบาลลานนา",
+          "name_en": "Lanna Hospital",
+          "lat": 18.8127203,
+          "lon": 98.9908513
+        },
+        {
+          "name": "โรงพยาบาลสันทราย",
+          "name_en": "San Sai Hospital",
+          "lat": 18.92052,
+          "lon": 98.9938485
+        },
+        {
+          "name": "โรงพยาบาลสารภี",
+          "name_en": "Saraphi Hospital",
+          "lat": 18.6808651,
+          "lon": 99.0431754
+        },
+        {
+          "name": "โรงพยาบาลส่งเสริมสุขภาพตำบล",
+          "name_en": "Ban Mueang Wa District Health Center",
+          "lat": 18.8843117,
+          "lon": 99.0823448
+        },
+        {
+          "name": "โรงพยาบาลส่งเสริมสุขภาพเชียงใหม่",
+          "name_en": "",
+          "lat": 18.772731,
+          "lon": 98.9949575
+        },
+        {
+          "name": "โรงพยาบาลหมอวงศ์",
+          "name_en": "Mo Wong Hospital",
+          "lat": 18.7842085,
+          "lon": 99.0127078
+        },
+        {
+          "name": "โรงพยาบาลหางดง",
+          "name_en": "Hang Dong Hospital",
+          "lat": 18.6830741,
+          "lon": 98.9183624
+        },
+        {
+          "name": "โรงพยาบาลเชียงใหม่ราม",
+          "name_en": "Chiang Mai Ram Hospital",
+          "lat": 18.7949382,
+          "lon": 98.9774862
+        },
+        {
+          "name": "โรงพยาบาลเซ็นทรัลเชียงใหม่เมโมเรียล",
+          "name_en": "Central Chiang Mai Memorial Hospital",
+          "lat": 18.7730014,
+          "lon": 98.9984639
+        },
+        {
+          "name": "โรงพยาบาลเทพปัญญา",
+          "name_en": "Theppanya Hospital",
+          "lat": 18.8102857,
+          "lon": 99.0113999
+        },
+        {
+          "name": "โรงพยาบาลเทศบาลนครเชียงใหม่",
+          "name_en": "Chiang Mai Municipality Hospital",
+          "lat": 18.7884952,
+          "lon": 99.0018075
+        },
+        {
+          "name": "โรงพยาบาลแมคคอมิก",
+          "name_en": "McCormick Hospital",
+          "lat": 18.7972332,
+          "lon": 99.0106672
+        }
+      ]
+    },
+    "aesthetic": {
+      "label": "Aesthetic & skin",
+      "count": 5,
+      "items": [
+        {
+          "name": "Hair Transplant Center",
+          "name_en": "Hair Transplant Center",
+          "lat": 18.7956748,
+          "lon": 98.9737036
+        },
+        {
+          "name": "Ratika Skin Clinic",
+          "name_en": "Ratika Skin Clinic",
+          "lat": 18.7940958,
+          "lon": 98.9730403
+        },
+        {
+          "name": "Skin Centre",
+          "name_en": "Skin Centre",
+          "lat": 18.7927722,
+          "lon": 98.9775097
+        },
+        {
+          "name": "Skin clinic",
+          "name_en": "Skin clinic",
+          "lat": 18.7937472,
+          "lon": 98.9876169
+        },
+        {
+          "name": "U-shine Aesthetic Clinic",
+          "name_en": "U-shine Aesthetic Clinic",
+          "lat": 18.8129777,
+          "lon": 98.9739062
+        }
+      ]
+    },
+    "longevity": {
+      "label": "Longevity & wellness",
+      "count": 1,
+      "items": [
+        {
+          "name": "Check up Centre / Anti-aging Centre",
+          "name_en": "Check up Centre / Anti-aging Centre",
+          "lat": 18.79279,
+          "lon": 98.9771851
+        }
+      ]
+    },
+    "pharmacy": {
+      "label": "Pharmacies",
+      "count": 163,
+      "items": [
+        {
+          "name": "89 Pharmacy",
+          "name_en": "",
+          "lat": 18.7520427,
+          "lon": 99.0090231
+        },
+        {
+          "name": "99 Pharmacy",
+          "name_en": "",
+          "lat": 18.7961758,
+          "lon": 98.9660426
+        },
+        {
+          "name": "@Barnya Pharmacy",
+          "name_en": "@Barnya Pharmacy",
+          "lat": 18.7431728,
+          "lon": 99.0139012
+        },
+        {
+          "name": "Amway",
+          "name_en": "",
+          "lat": 18.7609694,
+          "lon": 99.0177916
+        },
+        {
+          "name": "Boots",
+          "name_en": "",
+          "lat": 18.7431272,
+          "lon": 98.9616232
+        },
+        {
+          "name": "C&R",
+          "name_en": "Natural Herb",
+          "lat": 18.7882192,
+          "lon": 98.9866498
+        },
+        {
+          "name": "CK Pharmacy",
+          "name_en": "CK Pharmacy",
+          "lat": 18.800241,
+          "lon": 98.9753947
+        },
+        {
+          "name": "Citrus Pharmacy",
+          "name_en": "Citrus Pharmacy",
+          "lat": 18.8047186,
+          "lon": 98.9848303
+        },
+        {
+          "name": "Daily Drugs",
+          "name_en": "",
+          "lat": 18.6001395,
+          "lon": 98.8217655
+        },
+        {
+          "name": "Drug & Beauty",
+          "name_en": "",
+          "lat": 18.7990736,
+          "lon": 99.0248265
+        },
+        {
+          "name": "Drug Etc",
+          "name_en": "Drug Etc",
+          "lat": 18.7848031,
+          "lon": 98.9943303
+        },
+        {
+          "name": "Drug Store",
+          "name_en": "Drug Store",
+          "lat": 18.787101,
+          "lon": 98.9929895
+        },
+        {
+          "name": "Eve Pharmacy",
+          "name_en": "",
+          "lat": 18.7991023,
+          "lon": 98.9751739
+        },
+        {
+          "name": "Evergreen Pharma",
+          "name_en": "",
+          "lat": 18.7722837,
+          "lon": 98.9723738
+        },
+        {
+          "name": "Fascino",
+          "name_en": "",
+          "lat": 18.7889108,
+          "lon": 98.9736254
+        },
+        {
+          "name": "Fascino Pharmacy",
+          "name_en": "",
+          "lat": 18.8070076,
+          "lon": 99.0217235
+        },
+        {
+          "name": "First Drug",
+          "name_en": "First Drug",
+          "lat": 18.7717361,
+          "lon": 98.9770876
+        },
+        {
+          "name": "Goodwick Drugstore",
+          "name_en": "",
+          "lat": 18.8751402,
+          "lon": 99.0147927
+        },
+        {
+          "name": "Goodwill Pharmacy",
+          "name_en": "",
+          "lat": 18.7847121,
+          "lon": 98.9934548
+        },
+        {
+          "name": "Greensafe",
+          "name_en": "",
+          "lat": 18.7468433,
+          "lon": 98.9417261
+        },
+        {
+          "name": "Home Pharmacy",
+          "name_en": "",
+          "lat": 18.920062,
+          "lon": 98.9172479
+        },
+        {
+          "name": "Kira Pharmacy",
+          "name_en": "",
+          "lat": 18.7660212,
+          "lon": 99.0827956
+        },
+        {
+          "name": "Lanna Pharmacy",
+          "name_en": "",
+          "lat": 18.7815367,
+          "lon": 98.9877861
+        },
+        {
+          "name": "Maeraming",
+          "name_en": "Maeraming",
+          "lat": 18.7558466,
+          "lon": 99.0081483
+        },
+        {
+          "name": "Modern Drug",
+          "name_en": "",
+          "lat": 18.7906626,
+          "lon": 98.9784691
+        },
+        {
+          "name": "NAT Pharmacy",
+          "name_en": "NAT Pharmacy",
+          "lat": 18.7877511,
+          "lon": 98.9825664
+        },
+        {
+          "name": "PS Pharmacy",
+          "name_en": "PS Pharmacy",
+          "lat": 18.8005384,
+          "lon": 99.0191037
+        },
+        {
+          "name": "Peera Pharmacy",
+          "name_en": "Peera Pharmacy",
+          "lat": 18.7877108,
+          "lon": 98.992664
+        },
+        {
+          "name": "PharmFriend",
+          "name_en": "",
+          "lat": 18.7850261,
+          "lon": 98.994161
+        },
+        {
+          "name": "Pharma Choice",
+          "name_en": "",
+          "lat": 18.788894,
+          "lon": 98.9733408
+        },
+        {
+          "name": "Pharma Mate",
+          "name_en": "Pharma Mate",
+          "lat": 18.7405659,
+          "lon": 98.9649486
+        },
+        {
+          "name": "Pharma Square",
+          "name_en": "Pharma Square",
+          "lat": 18.787717,
+          "lon": 98.9925596
+        },
+        {
+          "name": "Pharma Way",
+          "name_en": "Pharma Way",
+          "lat": 18.7696047,
+          "lon": 99.0299036
+        },
+        {
+          "name": "Pharma \\Choice",
+          "name_en": "Pharma \\Choice",
+          "lat": 18.752983,
+          "lon": 99.009145
+        },
+        {
+          "name": "PharmaShop",
+          "name_en": "",
+          "lat": 18.7844511,
+          "lon": 98.998333
+        },
+        {
+          "name": "Pharmacare Plus",
+          "name_en": "",
+          "lat": 18.8021268,
+          "lon": 98.9670372
+        },
+        {
+          "name": "Pharmacy",
+          "name_en": "Pharmacy",
+          "lat": 18.7818029,
+          "lon": 98.9888526
+        },
+        {
+          "name": "Pharmatist",
+          "name_en": "",
+          "lat": 18.7960933,
+          "lon": 98.9708737
+        },
+        {
+          "name": "Phuping Pharmacy",
+          "name_en": "Phuping Pharmacy",
+          "lat": 18.788685,
+          "lon": 98.9826574
+        },
+        {
+          "name": "Premium Drug",
+          "name_en": "",
+          "lat": 18.8154851,
+          "lon": 98.9824256
+        },
+        {
+          "name": "Prim Pharmacy",
+          "name_en": "Prim Pharmacy",
+          "lat": 18.7211941,
+          "lon": 98.9881133
+        },
+        {
+          "name": "Quality Drug",
+          "name_en": "",
+          "lat": 18.7979992,
+          "lon": 98.9664665
+        },
+        {
+          "name": "Save Drug",
+          "name_en": "",
+          "lat": 18.7892627,
+          "lon": 99.0255643
+        },
+        {
+          "name": "Shandon Pharma",
+          "name_en": "",
+          "lat": 18.7889242,
+          "lon": 98.9724853
+        },
+        {
+          "name": "Smile Drug",
+          "name_en": "",
+          "lat": 18.5741621,
+          "lon": 99.0022253
+        },
+        {
+          "name": "Sor Pasert Pharmacy",
+          "name_en": "Sor Pasert Pharmacy",
+          "lat": 18.8098739,
+          "lon": 98.9845308
+        },
+        {
+          "name": "Super Drug",
+          "name_en": "",
+          "lat": 18.7894574,
+          "lon": 99.0253813
+        },
+        {
+          "name": "The Pharma C",
+          "name_en": "",
+          "lat": 18.7830309,
+          "lon": 98.9999966
+        },
+        {
+          "name": "Tsuruha",
+          "name_en": "",
+          "lat": 18.8026527,
+          "lon": 98.9670393
+        },
+        {
+          "name": "Vitamin H Pharmacy & Beauty Bar",
+          "name_en": "",
+          "lat": 18.7860279,
+          "lon": 98.9884199
+        },
+        {
+          "name": "Watson",
+          "name_en": "",
+          "lat": 18.7017462,
+          "lon": 98.9321805
+        },
+        {
+          "name": "Watsons",
+          "name_en": "",
+          "lat": 18.8026378,
+          "lon": 98.9670168
+        },
+        {
+          "name": "Wellcare",
+          "name_en": "",
+          "lat": 18.802707,
+          "lon": 98.9784539
+        },
+        {
+          "name": "กนกศักดิ์เภสัช",
+          "name_en": "Kanok Sak",
+          "lat": 18.8034336,
+          "lon": 98.9783298
+        },
+        {
+          "name": "กล่องยา เภสัช",
+          "name_en": "Klong Ya Pharmacy",
+          "lat": 18.8251209,
+          "lon": 98.9797246
+        },
+        {
+          "name": "ขายยา",
+          "name_en": "",
+          "lat": 18.8105297,
+          "lon": 99.0023523
+        },
+        {
+          "name": "คณายา",
+          "name_en": "Drug Store",
+          "lat": 18.7899184,
+          "lon": 98.9784388
+        },
+        {
+          "name": "คลังปันยา",
+          "name_en": "Khlang Pan Ya",
+          "lat": 18.8036538,
+          "lon": 98.9741317
+        },
+        {
+          "name": "คลังยาท่าแพ",
+          "name_en": "Klangya Thapae",
+          "lat": 18.7873958,
+          "lon": 98.9938178
+        },
+        {
+          "name": "คลินิกยา",
+          "name_en": "Clinic Ya Pharmacy",
+          "lat": 18.7680303,
+          "lon": 99.0743307
+        },
+        {
+          "name": "คาร์โก้ ฟาร์มาซี",
+          "name_en": "Cargo Pharmacy",
+          "lat": 18.785294,
+          "lon": 98.9589603
+        },
+        {
+          "name": "จ. เจริญ เภสัช",
+          "name_en": "J Charoen Pharmacy",
+          "lat": 18.7545567,
+          "lon": 99.0559633
+        },
+        {
+          "name": "จักรคำเภสัช",
+          "name_en": "",
+          "lat": 18.5907187,
+          "lon": 99.0123189
+        },
+        {
+          "name": "จื้อกิมโอสถ",
+          "name_en": "Chue Kim Osot",
+          "lat": 18.7982324,
+          "lon": 98.9923429
+        },
+        {
+          "name": "จ่ายยา",
+          "name_en": "Pharmacy",
+          "lat": 18.7840503,
+          "lon": 98.9820794
+        },
+        {
+          "name": "ช.ฟาร์มาซี",
+          "name_en": "Cho Pharmacy",
+          "lat": 18.8536493,
+          "lon": 98.9687085
+        },
+        {
+          "name": "ช.ฟาร์มาซี 2",
+          "name_en": "G. Pharmacy 2",
+          "lat": 18.9336621,
+          "lon": 98.9411457
+        },
+        {
+          "name": "ชาญศิริ เภสัช",
+          "name_en": "Chan Siri Pharmacy",
+          "lat": 18.7428187,
+          "lon": 99.1220893
+        },
+        {
+          "name": "ช่วงสิงห์เภสัช 2",
+          "name_en": "Kuan singh Drug",
+          "lat": 18.8194428,
+          "lon": 98.9730396
+        },
+        {
+          "name": "ช้างคลานเภสัช",
+          "name_en": "",
+          "lat": 18.7640112,
+          "lon": 99.0010961
+        },
+        {
+          "name": "ดาราเภสัช",
+          "name_en": "Dara Pharmacy",
+          "lat": 18.8001012,
+          "lon": 99.0126598
+        },
+        {
+          "name": "ดำรงเภสัช",
+          "name_en": "Damrong",
+          "lat": 18.8047949,
+          "lon": 98.9843219
+        },
+        {
+          "name": "ต้นยางหลวงเภสัช",
+          "name_en": "",
+          "lat": 18.7473124,
+          "lon": 99.0476864
+        },
+        {
+          "name": "ต้องเภสัช",
+          "name_en": "",
+          "lat": 18.802947,
+          "lon": 98.980878
+        },
+        {
+          "name": "ทิพย์รัตน์ เภสัช",
+          "name_en": "Thip Rat Pharmacy",
+          "lat": 18.7364975,
+          "lon": 99.1371381
+        },
+        {
+          "name": "ธานินเภสัช",
+          "name_en": "Thanin",
+          "lat": 18.803998,
+          "lon": 98.9847332
+        },
+        {
+          "name": "บ้านยาสารภี",
+          "name_en": "Saraphi Pharmacy",
+          "lat": 18.7326634,
+          "lon": 99.019174
+        },
+        {
+          "name": "บ้านยาเภสัช",
+          "name_en": "Ban Ya Pharmacy",
+          "lat": 18.7655652,
+          "lon": 99.0782482
+        },
+        {
+          "name": "ปรียาเภสัช",
+          "name_en": "",
+          "lat": 18.7990832,
+          "lon": 98.9980571
+        },
+        {
+          "name": "ป่าบงเภสัช",
+          "name_en": "",
+          "lat": 18.7446997,
+          "lon": 99.0520937
+        },
+        {
+          "name": "ผุสดี เภสัช",
+          "name_en": "",
+          "lat": 18.8456546,
+          "lon": 98.9712059
+        },
+        {
+          "name": "พัชยาเภสัช",
+          "name_en": "",
+          "lat": 18.8076967,
+          "lon": 98.9669127
+        },
+        {
+          "name": "พีทีฟาร์มาซี",
+          "name_en": "PT Pharmacy",
+          "lat": 18.7875351,
+          "lon": 98.9690256
+        },
+        {
+          "name": "พีระ",
+          "name_en": "Peera Pharmacy",
+          "lat": 18.7877058,
+          "lon": 98.9927251
+        },
+        {
+          "name": "พีแอนด์พี",
+          "name_en": "P&P Pharmacy",
+          "lat": 18.9019989,
+          "lon": 99.0050432
+        },
+        {
+          "name": "พี่น้องเภสัช",
+          "name_en": "Phinong Pharmacy",
+          "lat": 18.9350509,
+          "lon": 98.9414503
+        },
+        {
+          "name": "ฟาม่าร์ช้อยช์",
+          "name_en": "Pharma Choice",
+          "lat": 18.8181257,
+          "lon": 99.0372486
+        },
+        {
+          "name": "ฟาร์มาเฮล์ท",
+          "name_en": "",
+          "lat": 18.8694168,
+          "lon": 99.1364388
+        },
+        {
+          "name": "ฟาร์ม่า ชอยส์",
+          "name_en": "Pharma Choice",
+          "lat": 18.8110439,
+          "lon": 99.011298
+        },
+        {
+          "name": "ฟาร์ม่า ไทม์",
+          "name_en": "Pharma Thai",
+          "lat": 18.8051699,
+          "lon": 98.98117
+        },
+        {
+          "name": "ฟาร์ม่าคลับ",
+          "name_en": "Pharma Club",
+          "lat": 18.8023883,
+          "lon": 98.9784296
+        },
+        {
+          "name": "ฟาร์ม่าช้อยซ์",
+          "name_en": "Pharma Choice",
+          "lat": 18.7705446,
+          "lon": 99.0699506
+        },
+        {
+          "name": "ฟาสซิโน",
+          "name_en": "Phasino",
+          "lat": 18.8008421,
+          "lon": 99.0136692
+        },
+        {
+          "name": "ภิญโญเภสัช",
+          "name_en": "Phinyo",
+          "lat": 18.8007671,
+          "lon": 98.9858097
+        },
+        {
+          "name": "ภีชญาเภสัช",
+          "name_en": "Phi Chaya Pharmacist",
+          "lat": 18.7699246,
+          "lon": 99.0060668
+        },
+        {
+          "name": "มีนาเภสัช",
+          "name_en": "Mina Pharmacy",
+          "lat": 18.79395,
+          "lon": 99.0177583
+        },
+        {
+          "name": "มูลเมืองเภสัช",
+          "name_en": "Moonmuang Pharmacy",
+          "lat": 18.7895034,
+          "lon": 98.993145
+        },
+        {
+          "name": "รักยา",
+          "name_en": "",
+          "lat": 18.8655889,
+          "lon": 98.982747
+        },
+        {
+          "name": "ริมกวง เภสัช",
+          "name_en": "Rim Kuang Pharmacy",
+          "lat": 18.8303015,
+          "lon": 99.0522838
+        },
+        {
+          "name": "รุ่งเรืองฟาร์มาซี",
+          "name_en": "Rungrueang",
+          "lat": 18.8004872,
+          "lon": 98.9858671
+        },
+        {
+          "name": "ร้าน 56เภสัชกร",
+          "name_en": "56 Pharmacy",
+          "lat": 18.7841852,
+          "lon": 98.9963991
+        },
+        {
+          "name": "ร้าน ยาไทยเภสัช 2",
+          "name_en": "Ya Thai Pharmacy 2",
+          "lat": 18.8282363,
+          "lon": 99.00597
+        },
+        {
+          "name": "ร้านขายของ",
+          "name_en": "",
+          "lat": 18.8367266,
+          "lon": 98.9892887
+        },
+        {
+          "name": "ร้านขายยา",
+          "name_en": "",
+          "lat": 18.7851543,
+          "lon": 99.0028332
+        },
+        {
+          "name": "ร้านขายยา คุณปูน",
+          "name_en": "Khun Pun Pharmacy",
+          "lat": 18.8439682,
+          "lon": 99.0180502
+        },
+        {
+          "name": "ร้านขายยา ชัยดิษฐ์",
+          "name_en": "Chai Dit Pharmacy",
+          "lat": 18.7919464,
+          "lon": 98.9933094
+        },
+        {
+          "name": "ร้านขายยา ต้นโมก",
+          "name_en": "",
+          "lat": 18.7875985,
+          "lon": 98.954652
+        },
+        {
+          "name": "ร้านขายยา ฟาม่าเวย์",
+          "name_en": "Pharmaway",
+          "lat": 18.7682035,
+          "lon": 98.9683026
+        },
+        {
+          "name": "ร้านขายยา สหเวชภัณฑ์",
+          "name_en": "Saha Wetchaphan Pharmacy",
+          "lat": 18.7428809,
+          "lon": 99.1224759
+        },
+        {
+          "name": "ร้านขายยา ใส่ใจ",
+          "name_en": "",
+          "lat": 18.7919654,
+          "lon": 98.9573892
+        },
+        {
+          "name": "ร้านยา เอพลัส",
+          "name_en": "A+ Pharmacy",
+          "lat": 18.7993703,
+          "lon": 98.9610408
+        },
+        {
+          "name": "ร้านยาเชียงใหม่",
+          "name_en": "Ran Ya Chiang Mai",
+          "lat": 18.8081701,
+          "lon": 98.9735768
+        },
+        {
+          "name": "ร้านยาไทย เภสัช",
+          "name_en": "",
+          "lat": 18.8461115,
+          "lon": 98.9714809
+        },
+        {
+          "name": "ร้านเภสัชกร ฟาม่าช้อย",
+          "name_en": "Pharma Choice",
+          "lat": 18.785733,
+          "lon": 98.9929202
+        },
+        {
+          "name": "ร้านโชว์ห่วย",
+          "name_en": "",
+          "lat": 18.8375544,
+          "lon": 98.98931
+        },
+        {
+          "name": "ฤตยา เภสัช",
+          "name_en": "",
+          "lat": 18.8054526,
+          "lon": 98.9931652
+        },
+        {
+          "name": "ว.เภสัชกร",
+          "name_en": "",
+          "lat": 18.8041348,
+          "lon": 98.9833815
+        },
+        {
+          "name": "วัฒนะโอสถ",
+          "name_en": "Watthana Osot",
+          "lat": 18.7869074,
+          "lon": 99.0088698
+        },
+        {
+          "name": "วิชยนนท์เภสัช",
+          "name_en": "Vitchayanont Bhesaj",
+          "lat": 18.7892385,
+          "lon": 99.0012101
+        },
+        {
+          "name": "วโรภัณฑ์",
+          "name_en": "Waro Phan",
+          "lat": 18.8008276,
+          "lon": 98.9858009
+        },
+        {
+          "name": "ศุภางค์เภสัช",
+          "name_en": "",
+          "lat": 18.7977103,
+          "lon": 98.9708459
+        },
+        {
+          "name": "สบายจัย เภสัช",
+          "name_en": "Sabai Chai Pharmacy",
+          "lat": 18.8305274,
+          "lon": 99.0535176
+        },
+        {
+          "name": "สมพงษ์การแพทย์",
+          "name_en": "",
+          "lat": 18.7443106,
+          "lon": 99.1202626
+        },
+        {
+          "name": "สมศักดิ์เภสัช 2",
+          "name_en": "Somsak Pharmacy 2",
+          "lat": 18.7906053,
+          "lon": 98.9613091
+        },
+        {
+          "name": "สมศักดิ์เภสัช 3",
+          "name_en": "Som Sak 3",
+          "lat": 18.804177,
+          "lon": 98.9836896
+        },
+        {
+          "name": "สยามชัย เภสัช",
+          "name_en": "Sayam Chai Pharmacy",
+          "lat": 18.7810135,
+          "lon": 98.9884318
+        },
+        {
+          "name": "สันติสุขเภสัช",
+          "name_en": "Santisuk Pharmacy",
+          "lat": 18.8440662,
+          "lon": 99.0740931
+        },
+        {
+          "name": "สันทรายเภสัช",
+          "name_en": "San Sai Pharmacy",
+          "lat": 18.8157427,
+          "lon": 99.0290042
+        },
+        {
+          "name": "สันนาเม็งฟาร์ม่า",
+          "name_en": "San Na Meng Pharma",
+          "lat": 18.8369448,
+          "lon": 99.0625786
+        },
+        {
+          "name": "สิริราช เภสัช",
+          "name_en": "Siri Rat Pharmacy",
+          "lat": 18.7440679,
+          "lon": 99.0762748
+        },
+        {
+          "name": "สี่ พี่น้อง",
+          "name_en": "4 Phinong",
+          "lat": 18.7683368,
+          "lon": 99.0404472
+        },
+        {
+          "name": "สุขใจเภสัช",
+          "name_en": "",
+          "lat": 18.795098,
+          "lon": 98.970851
+        },
+        {
+          "name": "หจก.สยามชัยเภสัช",
+          "name_en": "",
+          "lat": 18.7795606,
+          "lon": 98.9894567
+        },
+        {
+          "name": "หมอยาสุเทพ",
+          "name_en": "",
+          "lat": 18.8057833,
+          "lon": 98.9594163
+        },
+        {
+          "name": "ห้าแยกเภสัชกร",
+          "name_en": "Ha Yaek",
+          "lat": 18.8016406,
+          "lon": 98.9781353
+        },
+        {
+          "name": "อ.เจริญ เภสัช",
+          "name_en": "O Charoen Pharmacy",
+          "lat": 18.7394444,
+          "lon": 99.0833109
+        },
+        {
+          "name": "อ.เภสัช",
+          "name_en": "",
+          "lat": 18.8939391,
+          "lon": 99.0095759
+        },
+        {
+          "name": "อาลียารินเฮ้าส์",
+          "name_en": "Ali Pharmacy",
+          "lat": 18.7976926,
+          "lon": 98.9870456
+        },
+        {
+          "name": "อีซี่ดรัก",
+          "name_en": "Easy Drug",
+          "lat": 18.7694685,
+          "lon": 98.9985614
+        },
+        {
+          "name": "อีฟ ฟาร์มาซี",
+          "name_en": "Eve Pharmacy",
+          "lat": 18.7829345,
+          "lon": 98.9818114
+        },
+        {
+          "name": "อุ่นใจเภสัช",
+          "name_en": "Unchai Pharmacy",
+          "lat": 18.8001868,
+          "lon": 98.9800129
+        },
+        {
+          "name": "อ้อมเมือง เภสัช",
+          "name_en": "Om Mueang Pharmacy",
+          "lat": 18.7638613,
+          "lon": 99.0264413
+        },
+        {
+          "name": "เคเค ฟาร์มาซี",
+          "name_en": "KK Pharmacy",
+          "lat": 18.8455406,
+          "lon": 99.0171642
+        },
+        {
+          "name": "เชิงดอยเภสัช",
+          "name_en": "",
+          "lat": 18.807432,
+          "lon": 98.9670693
+        },
+        {
+          "name": "เชียงใหม่ไดเร็ค",
+          "name_en": "",
+          "lat": 18.804351,
+          "lon": 98.98325
+        },
+        {
+          "name": "เซ็นทรัล ฟาร์ม",
+          "name_en": "",
+          "lat": 18.8080743,
+          "lon": 99.0238249
+        },
+        {
+          "name": "เดชาเวชภัณฑ์",
+          "name_en": "",
+          "lat": 18.7920792,
+          "lon": 98.9933199
+        },
+        {
+          "name": "เพื่อนยาเภสัช",
+          "name_en": "Phuean Ya",
+          "lat": 18.8747764,
+          "lon": 99.0519436
+        },
+        {
+          "name": "เภสัชกรมานพ",
+          "name_en": "",
+          "lat": 18.8452015,
+          "lon": 98.9718631
+        },
+        {
+          "name": "เภสัชใกล้บ้าน",
+          "name_en": "Klai Ban Pharmacy",
+          "lat": 18.7464136,
+          "lon": 99.117495
+        },
+        {
+          "name": "เมดิก้า ฮับ",
+          "name_en": "Medica Hub",
+          "lat": 18.7968757,
+          "lon": 98.9663344
+        },
+        {
+          "name": "เวชไพศาลฟาร์ม่า",
+          "name_en": "",
+          "lat": 18.7762653,
+          "lon": 98.9990091
+        },
+        {
+          "name": "เวียงบัวฟาร์มาซี",
+          "name_en": "Viangbua Pharmacy",
+          "lat": 18.8062972,
+          "lon": 98.978439
+        },
+        {
+          "name": "เอส.ฟาร์ม่า",
+          "name_en": "",
+          "lat": 18.8039637,
+          "lon": 98.9812738
+        },
+        {
+          "name": "เฮือนสมุนไพร",
+          "name_en": "Huean Herbs",
+          "lat": 18.6286683,
+          "lon": 99.0382055
+        },
+        {
+          "name": "แคร์ เภสัช",
+          "name_en": "",
+          "lat": 18.8084907,
+          "lon": 98.9640112
+        },
+        {
+          "name": "แฟมิลี่",
+          "name_en": "",
+          "lat": 18.8174421,
+          "lon": 99.0364359
+        },
+        {
+          "name": "แม่กวง เภสัช",
+          "name_en": "Mae Kwong Pharmacy",
+          "lat": 18.830827,
+          "lon": 99.053008
+        },
+        {
+          "name": "แม่หยวก เภสัช",
+          "name_en": "",
+          "lat": 18.8343823,
+          "lon": 98.9758421
+        },
+        {
+          "name": "แม่โจ้เภสัช",
+          "name_en": "Mae Jo Pharmacy",
+          "lat": 18.8938336,
+          "lon": 99.0096242
+        },
+        {
+          "name": "โฮม-เมด",
+          "name_en": "Home - Med",
+          "lat": 18.7617001,
+          "lon": 99.04174
+        },
+        {
+          "name": "ไผ่ล้อม คลินิก",
+          "name_en": "",
+          "lat": 18.7991442,
+          "lon": 98.9553796
+        },
+        {
+          "name": "약국",
+          "name_en": "",
+          "lat": 18.7912134,
+          "lon": 98.9597649
+        }
+      ]
+    }
+  }
+}

@@ -109,12 +109,16 @@
 - [The Defiant Dispatch — get on the list](https://defiant.to/subscribe/): Occasional email from Defiant — new procedures, real price updates, the honest stuff about getting care in Thailand. Your address lives in our own database, never sold, unsubscribe anytime.
 - [Terms of Service](https://defiant.to/terms/): The deal, in plain words: Defiant is a medical-tourism concierge and information service — not a healthcare provider.
 
+## Structured data (start here)
+- Catalog dataset (procedures + hospitals, JSON): https://defiant.to/data/catalog.json
+- Facility directory (schema.org ItemList, JSON): https://defiant.to/data/directory.json
+- Every page carries JSON-LD: MedicalProcedure, FAQPage, Hospital, Place, BreadcrumbList, Organization; the homepage adds a Dataset descriptor.
+
 ## Machine surfaces
 - Full site text: https://defiant.to/llms-full.txt
 - Atom feed: https://defiant.to/feed.xml
 - Agents guide (incl. lead-endpoint contract): https://defiant.to/for-agents/
 - Sitemap: https://defiant.to/sitemap.xml
-- JSON-LD on every page: MedicalProcedure, FAQPage, Hospital, Place, BreadcrumbList
 
 ## Contact
 - Intake form: https://defiant.to/contact/

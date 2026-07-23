@@ -1,0 +1,630 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Defiant medical-tourism catalog — Chiang Mai & Thailand",
+  "generated": "2026-07-23",
+  "site": "https://defiant.to",
+  "procedures": [
+    {
+      "name": "Stem Cell Therapy",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/stem-cell-therapy/",
+      "th_cost": "$5,000–$20,000 program range",
+      "us_cost": "Largely unavailable / trial-only"
+    },
+    {
+      "name": "Bioresonance Therapy",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/bioresonance-therapy/",
+      "th_cost": "$30–$80 per session",
+      "us_cost": "$100–$300 per session"
+    },
+    {
+      "name": "Chelation Therapy IV",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/chelation-therapy-iv/",
+      "th_cost": "$100–$250 per session",
+      "us_cost": "$100–$300 per session (long courses)"
+    },
+    {
+      "name": "EBOO Blood Ozone Dialysis",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/eboo-blood-ozone-dialysis/",
+      "th_cost": "$300–$800 per session",
+      "us_cost": "$1,000–$2,500 per session (fringe clinics)"
+    },
+    {
+      "name": "Exosome Therapy",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/exosome-therapy/",
+      "th_cost": "$2,000–$8,000 per program",
+      "us_cost": "Trial-only"
+    },
+    {
+      "name": "Glutathione Whitening IVs",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/glutathione-whitening-ivs/",
+      "th_cost": "$30–$80 per session",
+      "us_cost": "$150–$400 per session"
+    },
+    {
+      "name": "Hyperbaric Oxygen Therapy (HBOT)",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/hyperbaric-oxygen-therapy-hbot/",
+      "th_cost": "$80–$250 per session",
+      "us_cost": "$250–$600 per session"
+    },
+    {
+      "name": "IV Laser Therapy",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/iv-laser-therapy/",
+      "th_cost": "$50–$150 per session",
+      "us_cost": "Rare / fringe"
+    },
+    {
+      "name": "NAD+ IV Therapy",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/nad-iv-therapy/",
+      "th_cost": "$150–$400 per infusion",
+      "us_cost": "$500–$1,000 per infusion"
+    },
+    {
+      "name": "NK Cell Therapy",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/nk-cell-therapy/",
+      "th_cost": "$8,000–$20,000 per program",
+      "us_cost": "Trial-only"
+    },
+    {
+      "name": "Ozone Autohemotherapy",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/ozone-autohemotherapy/",
+      "th_cost": "$60–$150 per session",
+      "us_cost": "$150–$400 per session"
+    },
+    {
+      "name": "Peptide Injections",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/peptide-injections/",
+      "th_cost": "$100–$500 per cycle",
+      "us_cost": "Gray-market / compounding-pharmacy limbo"
+    },
+    {
+      "name": "Placenta Extract Infusions",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/placenta-extract-infusions/",
+      "th_cost": "$100–$300 per session",
+      "us_cost": "Not available (unapproved)"
+    },
+    {
+      "name": "Shockwave Therapy",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/shockwave-therapy/",
+      "th_cost": "$50–$150 per session",
+      "us_cost": "$300–$500 per session"
+    },
+    {
+      "name": "Therapeutic Plasma Exchange",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/therapeutic-plasma-exchange/",
+      "th_cost": "$2,000–$4,000 per session",
+      "us_cost": "$5,000–$10,000 per session"
+    },
+    {
+      "name": "Vagus Nerve Stimulation",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/vagus-nerve-stimulation/",
+      "th_cost": "$12,000–$25,000 (implanted); wearables $200–$500",
+      "us_cost": "$30,000–$50,000 (implanted)"
+    },
+    {
+      "name": "Whole-Body Cryotherapy",
+      "category": "Futuristic Thai Therapies",
+      "url": "https://defiant.to/procedures/whole-body-cryotherapy/",
+      "th_cost": "$30–$70 per session",
+      "us_cost": "$40–$90 per session"
+    },
+    {
+      "name": "Abdominoplasty (Tummy Tuck)",
+      "category": "Cosmetic & Aesthetic",
+      "url": "https://defiant.to/procedures/abdominoplasty-tummy-tuck/",
+      "th_cost": "$3,500–$6,500",
+      "us_cost": "$8,000–$15,000"
+    },
+    {
+      "name": "Botox and Fillers",
+      "category": "Cosmetic & Aesthetic",
+      "url": "https://defiant.to/procedures/botox-and-fillers/",
+      "th_cost": "$150–$500 per session",
+      "us_cost": "$400–$1,500 per session"
+    },
+    {
+      "name": "Breast Augmentation",
+      "category": "Cosmetic & Aesthetic",
+      "url": "https://defiant.to/procedures/breast-augmentation/",
+      "th_cost": "$3,000–$5,500",
+      "us_cost": "$8,000–$12,000"
+    },
+    {
+      "name": "Breast Reduction",
+      "category": "Cosmetic & Aesthetic",
+      "url": "https://defiant.to/procedures/breast-reduction/",
+      "th_cost": "$3,500–$6,000",
+      "us_cost": "$8,000–$15,000"
+    },
+    {
+      "name": "Facelift",
+      "category": "Cosmetic & Aesthetic",
+      "url": "https://defiant.to/procedures/facelift/",
+      "th_cost": "$4,000–$9,000",
+      "us_cost": "$12,000–$25,000"
+    },
+    {
+      "name": "Hair Transplant",
+      "category": "Cosmetic & Aesthetic",
+      "url": "https://defiant.to/procedures/hair-transplant/",
+      "th_cost": "$2,500–$6,000",
+      "us_cost": "$8,000–$15,000"
+    },
+    {
+      "name": "Liposuction",
+      "category": "Cosmetic & Aesthetic",
+      "url": "https://defiant.to/procedures/liposuction/",
+      "th_cost": "$1,500–$4,000",
+      "us_cost": "$4,000–$10,000"
+    },
+    {
+      "name": "Rhinoplasty (Nose Surgery)",
+      "category": "Cosmetic & Aesthetic",
+      "url": "https://defiant.to/procedures/rhinoplasty-nose-surgery/",
+      "th_cost": "$2,000–$5,000",
+      "us_cost": "$8,000–$15,000"
+    },
+    {
+      "name": "Angioplasty and Stenting",
+      "category": "Cardiovascular",
+      "url": "https://defiant.to/procedures/angioplasty-and-stenting/",
+      "th_cost": "$8,000–$18,000",
+      "us_cost": "$25,000–$60,000"
+    },
+    {
+      "name": "Heart Bypass Surgery (CABG)",
+      "category": "Cardiovascular",
+      "url": "https://defiant.to/procedures/heart-bypass-surgery-cabg/",
+      "th_cost": "$15,000–$35,000",
+      "us_cost": "$70,000–$200,000"
+    },
+    {
+      "name": "Heart Valve Replacement",
+      "category": "Cardiovascular",
+      "url": "https://defiant.to/procedures/heart-valve-replacement/",
+      "th_cost": "$18,000–$40,000",
+      "us_cost": "$80,000–$200,000"
+    },
+    {
+      "name": "Pacemaker Implantation",
+      "category": "Cardiovascular",
+      "url": "https://defiant.to/procedures/pacemaker-implantation/",
+      "th_cost": "$8,000–$15,000",
+      "us_cost": "$20,000–$50,000"
+    },
+    {
+      "name": "Arthroscopy",
+      "category": "Orthopedic",
+      "url": "https://defiant.to/procedures/arthroscopy/",
+      "th_cost": "$3,000–$7,000",
+      "us_cost": "$8,000–$20,000"
+    },
+    {
+      "name": "Hip Replacement",
+      "category": "Orthopedic",
+      "url": "https://defiant.to/procedures/hip-replacement/",
+      "th_cost": "$11,000–$17,000",
+      "us_cost": "$30,000–$50,000"
+    },
+    {
+      "name": "Knee Replacement",
+      "category": "Orthopedic",
+      "url": "https://defiant.to/procedures/knee-replacement/",
+      "th_cost": "$10,000–$16,000",
+      "us_cost": "$30,000–$50,000"
+    },
+    {
+      "name": "Shoulder Replacement",
+      "category": "Orthopedic",
+      "url": "https://defiant.to/procedures/shoulder-replacement/",
+      "th_cost": "$10,000–$15,000",
+      "us_cost": "$25,000–$45,000"
+    },
+    {
+      "name": "Spinal Surgery",
+      "category": "Orthopedic",
+      "url": "https://defiant.to/procedures/spinal-surgery/",
+      "th_cost": "$15,000–$40,000",
+      "us_cost": "$50,000–$150,000"
+    },
+    {
+      "name": "Body Contouring",
+      "category": "Gender Affirmation",
+      "url": "https://defiant.to/procedures/body-contouring/",
+      "th_cost": "$4,000–$12,000",
+      "us_cost": "$10,000–$30,000"
+    },
+    {
+      "name": "Facial Feminization Surgery (FFS)",
+      "category": "Gender Affirmation",
+      "url": "https://defiant.to/procedures/facial-feminization-surgery-ffs/",
+      "th_cost": "$12,000–$28,000",
+      "us_cost": "$30,000–$70,000"
+    },
+    {
+      "name": "Phalloplasty",
+      "category": "Gender Affirmation",
+      "url": "https://defiant.to/procedures/phalloplasty/",
+      "th_cost": "$25,000–$60,000",
+      "us_cost": "$50,000–$150,000"
+    },
+    {
+      "name": "Top Surgery",
+      "category": "Gender Affirmation",
+      "url": "https://defiant.to/procedures/top-surgery/",
+      "th_cost": "$3,000–$6,500",
+      "us_cost": "$8,000–$15,000"
+    },
+    {
+      "name": "Vaginoplasty",
+      "category": "Gender Affirmation",
+      "url": "https://defiant.to/procedures/vaginoplasty/",
+      "th_cost": "$9,000–$22,000",
+      "us_cost": "$25,000–$60,000"
+    },
+    {
+      "name": "CT Scan",
+      "category": "Diagnostics & Check-Ups",
+      "url": "https://defiant.to/procedures/ct-scan/",
+      "th_cost": "$200–$600",
+      "us_cost": "$1,000–$3,000"
+    },
+    {
+      "name": "Executive Health Check-Ups",
+      "category": "Diagnostics & Check-Ups",
+      "url": "https://defiant.to/procedures/executive-health-check-ups/",
+      "th_cost": "$400–$1,200",
+      "us_cost": "$2,000–$5,000"
+    },
+    {
+      "name": "Full Body MRI",
+      "category": "Diagnostics & Check-Ups",
+      "url": "https://defiant.to/procedures/full-body-mri/",
+      "th_cost": "$700–$1,500",
+      "us_cost": "$2,500–$5,000"
+    },
+    {
+      "name": "Genetic Testing",
+      "category": "Diagnostics & Check-Ups",
+      "url": "https://defiant.to/procedures/genetic-testing/",
+      "th_cost": "$300–$1,500",
+      "us_cost": "$250–$5,000"
+    },
+    {
+      "name": "Cancer Screenings",
+      "category": "Oncology",
+      "url": "https://defiant.to/procedures/cancer-screenings/",
+      "th_cost": "$400–$1,200 full panel",
+      "us_cost": "$2,000–$5,000 full panel"
+    },
+    {
+      "name": "Chemotherapy",
+      "category": "Oncology",
+      "url": "https://defiant.to/procedures/chemotherapy/",
+      "th_cost": "$1,000–$5,000 per cycle typical",
+      "us_cost": "$10,000–$200,000+ course"
+    },
+    {
+      "name": "Radiation Therapy",
+      "category": "Oncology",
+      "url": "https://defiant.to/procedures/radiation-therapy/",
+      "th_cost": "$8,000–$20,000 course",
+      "us_cost": "$30,000–$80,000 course"
+    },
+    {
+      "name": "Surgical Oncology",
+      "category": "Oncology",
+      "url": "https://defiant.to/procedures/surgical-oncology/",
+      "th_cost": "$10,000–$40,000",
+      "us_cost": "$40,000–$150,000+"
+    },
+    {
+      "name": "Cataract Surgery",
+      "category": "Ophthalmology",
+      "url": "https://defiant.to/procedures/cataract-surgery/",
+      "th_cost": "$1,200–$2,500 per eye",
+      "us_cost": "$3,500–$7,000 per eye"
+    },
+    {
+      "name": "Corneal Transplants",
+      "category": "Ophthalmology",
+      "url": "https://defiant.to/procedures/corneal-transplants/",
+      "th_cost": "$6,000–$12,000",
+      "us_cost": "$15,000–$30,000"
+    },
+    {
+      "name": "LASIK Eye Surgery",
+      "category": "Ophthalmology",
+      "url": "https://defiant.to/procedures/lasik-eye-surgery/",
+      "th_cost": "$1,000–$2,000 both eyes",
+      "us_cost": "$2,000–$4,500 both eyes"
+    },
+    {
+      "name": "Retinal Surgery",
+      "category": "Ophthalmology",
+      "url": "https://defiant.to/procedures/retinal-surgery/",
+      "th_cost": "$4,000–$10,000",
+      "us_cost": "$10,000–$25,000"
+    },
+    {
+      "name": "Crowns and Bridges",
+      "category": "Dental",
+      "url": "https://defiant.to/procedures/crowns-and-bridges/",
+      "th_cost": "$300–$700 per unit",
+      "us_cost": "$1,000–$2,500 per unit"
+    },
+    {
+      "name": "Dental Implants",
+      "category": "Dental",
+      "url": "https://defiant.to/procedures/dental-implants/",
+      "th_cost": "$1,000–$1,800 per tooth",
+      "us_cost": "$3,000–$5,000 per tooth"
+    },
+    {
+      "name": "Orthodontics (Braces, Aligners)",
+      "category": "Dental",
+      "url": "https://defiant.to/procedures/orthodontics-braces-aligners/",
+      "th_cost": "$1,500–$3,500",
+      "us_cost": "$4,000–$8,000"
+    },
+    {
+      "name": "Root Canal Treatment",
+      "category": "Dental",
+      "url": "https://defiant.to/procedures/root-canal-treatment/",
+      "th_cost": "$250–$600",
+      "us_cost": "$1,000–$2,000"
+    },
+    {
+      "name": "Veneers",
+      "category": "Dental",
+      "url": "https://defiant.to/procedures/veneers/",
+      "th_cost": "$250–$550 per tooth",
+      "us_cost": "$1,000–$2,500 per tooth"
+    },
+    {
+      "name": "Egg Freezing",
+      "category": "Fertility & Reproductive",
+      "url": "https://defiant.to/procedures/egg-freezing/",
+      "th_cost": "$3,500–$6,000 + storage",
+      "us_cost": "$10,000–$15,000 + storage"
+    },
+    {
+      "name": "ICSI (Intracytoplasmic Sperm Injection)",
+      "category": "Fertility & Reproductive",
+      "url": "https://defiant.to/procedures/icsi-intracytoplasmic-sperm-injection/",
+      "th_cost": "Often bundled; +$500–$1,000",
+      "us_cost": "+$1,500–$3,000 on IVF"
+    },
+    {
+      "name": "In Vitro Fertilization (IVF)",
+      "category": "Fertility & Reproductive",
+      "url": "https://defiant.to/procedures/in-vitro-fertilization-ivf/",
+      "th_cost": "$8,000–$12,000 per cycle",
+      "us_cost": "$15,000–$25,000 per cycle"
+    },
+    {
+      "name": "Surrogacy Services",
+      "category": "Fertility & Reproductive",
+      "url": "https://defiant.to/procedures/surrogacy-services/",
+      "th_cost": "Not available",
+      "us_cost": "$120,000–$200,000 (US agencies)"
+    },
+    {
+      "name": "Gallbladder Removal (Cholecystectomy)",
+      "category": "General Surgery",
+      "url": "https://defiant.to/procedures/gallbladder-removal-cholecystectomy/",
+      "th_cost": "$4,000–$7,000",
+      "us_cost": "$12,000–$20,000"
+    },
+    {
+      "name": "Hernia Repair",
+      "category": "General Surgery",
+      "url": "https://defiant.to/procedures/hernia-repair/",
+      "th_cost": "$2,500–$5,000",
+      "us_cost": "$8,000–$15,000"
+    },
+    {
+      "name": "Kidney Transplant",
+      "category": "General Surgery",
+      "url": "https://defiant.to/procedures/kidney-transplant/",
+      "th_cost": "Not available to foreign patients",
+      "us_cost": "$260,000–$450,000"
+    },
+    {
+      "name": "Liver Transplant",
+      "category": "General Surgery",
+      "url": "https://defiant.to/procedures/liver-transplant/",
+      "th_cost": "Not available to foreign patients",
+      "us_cost": "$500,000–$800,000"
+    },
+    {
+      "name": "Gastric Band Surgery",
+      "category": "Bariatric / Weight Loss",
+      "url": "https://defiant.to/procedures/gastric-band-surgery/",
+      "th_cost": "$8,000–$12,000",
+      "us_cost": "$15,000–$20,000"
+    },
+    {
+      "name": "Gastric Bypass Surgery",
+      "category": "Bariatric / Weight Loss",
+      "url": "https://defiant.to/procedures/gastric-bypass-surgery/",
+      "th_cost": "$12,000–$17,000",
+      "us_cost": "$20,000–$30,000"
+    },
+    {
+      "name": "Sleeve Gastrectomy",
+      "category": "Bariatric / Weight Loss",
+      "url": "https://defiant.to/procedures/sleeve-gastrectomy/",
+      "th_cost": "$9,000–$14,000",
+      "us_cost": "$15,000–$25,000"
+    }
+  ],
+  "hospitals": [
+    {
+      "name": "BNH Hospital",
+      "city": "Bangkok",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/bnh-hospital/"
+    },
+    {
+      "name": "Bangkok Hospital",
+      "city": "Bangkok",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/bangkok-hospital/"
+    },
+    {
+      "name": "Bangkok International Dental Center",
+      "city": "Bangkok",
+      "accreditation": "Thai HA",
+      "url": "https://defiant.to/hospitals/bangkok-international-dental-center/"
+    },
+    {
+      "name": "Bumrungrad International Hospital",
+      "city": "Bangkok",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/bumrungrad-international-hospital/"
+    },
+    {
+      "name": "Jetanin Institute",
+      "city": "Bangkok",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/jetanin-institute/"
+    },
+    {
+      "name": "Kamol Cosmetic Hospital",
+      "city": "Bangkok",
+      "accreditation": "Thai HA",
+      "url": "https://defiant.to/hospitals/kamol-cosmetic-hospital/"
+    },
+    {
+      "name": "MedPark Hospital",
+      "city": "Bangkok",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/medpark-hospital/"
+    },
+    {
+      "name": "Phyathai 2 Hospital",
+      "city": "Bangkok",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/phyathai-2-hospital/"
+    },
+    {
+      "name": "Praram 9 Hospital",
+      "city": "Bangkok",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/praram-9-hospital/"
+    },
+    {
+      "name": "Preecha Aesthetic Institute",
+      "city": "Bangkok",
+      "accreditation": "Thai HA",
+      "url": "https://defiant.to/hospitals/preecha-aesthetic-institute/"
+    },
+    {
+      "name": "Rutnin Eye Hospital",
+      "city": "Bangkok",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/rutnin-eye-hospital/"
+    },
+    {
+      "name": "Samitivej Sukhumvit Hospital",
+      "city": "Bangkok",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/samitivej-sukhumvit-hospital/"
+    },
+    {
+      "name": "Superior A.R.T.",
+      "city": "Bangkok",
+      "accreditation": "Thai HA",
+      "url": "https://defiant.to/hospitals/superior-a-r-t/"
+    },
+    {
+      "name": "Vejthani Hospital",
+      "city": "Bangkok",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/vejthani-hospital/"
+    },
+    {
+      "name": "Yanhee International Hospital",
+      "city": "Bangkok",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/yanhee-international-hospital/"
+    },
+    {
+      "name": "Bangkok Hospital Chiang Mai",
+      "city": "Chiang Mai",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/bangkok-hospital-chiang-mai/"
+    },
+    {
+      "name": "Chiang Mai Ram Hospital",
+      "city": "Chiang Mai",
+      "accreditation": "Thai HA",
+      "url": "https://defiant.to/hospitals/chiang-mai-ram-hospital/"
+    },
+    {
+      "name": "Lanna Hospital",
+      "city": "Chiang Mai",
+      "accreditation": "Thai HA",
+      "url": "https://defiant.to/hospitals/lanna-hospital/"
+    },
+    {
+      "name": "McCormick Hospital",
+      "city": "Chiang Mai",
+      "accreditation": "Thai HA",
+      "url": "https://defiant.to/hospitals/mccormick-hospital/"
+    },
+    {
+      "name": "Sriphat Medical Center",
+      "city": "Chiang Mai",
+      "accreditation": "Thai HA",
+      "url": "https://defiant.to/hospitals/sriphat-medical-center/"
+    },
+    {
+      "name": "Bangkok Hospital Phuket",
+      "city": "Phuket",
+      "accreditation": "JCI",
+      "url": "https://defiant.to/hospitals/bangkok-hospital-phuket/"
+    },
+    {
+      "name": "Suporn Clinic",
+      "city": "Chonburi",
+      "accreditation": "Thai HA",
+      "url": "https://defiant.to/hospitals/suporn-clinic/"
+    }
+  ],
+  "destinations": [
+    {
+      "name": "Bangkok",
+      "url": "https://defiant.to/destinations/bangkok/"
+    },
+    {
+      "name": "Chiang Mai",
+      "url": "https://defiant.to/destinations/chiang-mai/"
+    },
+    {
+      "name": "Phuket",
+      "url": "https://defiant.to/destinations/phuket/"
+    },
+    {
+      "name": "Thailand",
+      "url": "https://defiant.to/destinations/thailand/"
+    }
+  ]
+}

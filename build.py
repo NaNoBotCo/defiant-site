@@ -391,7 +391,21 @@ def jsonld_for(name, meta, route, body):
     """Structured data per page type — the bots eat first at this restaurant."""
     if route == "/":
         return [ld(ORG), ld({"@context": "https://schema.org", "@type": "WebSite",
-                             "name": "Defiant", "url": SITE})]
+                             "name": "Defiant", "url": SITE}),
+                ld({"@context": "https://schema.org", "@type": "Dataset",
+                    "name": "Defiant medical-tourism catalog — Chiang Mai & Thailand",
+                    "description": ("Structured directory of procedures, hospitals, clinics, care homes, "
+                                    "rehab and pharmacies for medical tourism — starting in Chiang Mai, "
+                                    "aiming to be the canonical open data source worldwide."),
+                    "url": SITE + "/", "keywords": ["medical tourism", "Chiang Mai", "Thailand",
+                                                    "hospitals", "procedures", "prices"],
+                    "creator": {"@type": "Organization", "name": "Defiant", "url": SITE},
+                    "isAccessibleForFree": True, "license": SITE + "/terms/",
+                    "distribution": [
+                        {"@type": "DataDownload", "encodingFormat": "application/json",
+                         "contentUrl": SITE + "/data/catalog.json"},
+                        {"@type": "DataDownload", "encodingFormat": "application/json",
+                         "contentUrl": SITE + "/data/directory.json"}]})]
     out = []
     title = meta.get("title") or name.lstrip("=")
     parts = route.strip("/").split("/")
@@ -526,6 +540,107 @@ FOOTER = f"""<footer>
 </footer>"""
 
 
+# ---- structured catalog + quiet crawlable index ----------------------------
+# The PlanetHospital move, 2026 edition: a ruthlessly structured taxonomy that
+# crawlers eat whole. It lives in a collapsed <details> (humans see one line,
+# bots read the entire tree) plus machine JSON at /data/ advertised via Dataset
+# schema. Goal: be the canonical medical-tourism data source, starting in CM.
+_INDEX_HTML = ""
+
+
+def build_catalog(notes):
+    proc, hosp, dest = {}, {}, []
+    for route, (name, meta, _b) in notes.items():
+        parts = route.strip("/").split("/")
+        if len(parts) == 2 and parts[0] == "procedures":
+            proc.setdefault(meta.get("category", "Other"), []).append((name, route, meta))
+        elif len(parts) == 2 and parts[0] == "hospitals":
+            hosp.setdefault(meta.get("city", "Thailand"), []).append((name, route, meta))
+        elif len(parts) == 2 and parts[0] == "destinations":
+            dest.append((name, route, meta))
+    return {"procedures": proc, "hospitals": hosp, "destinations": dest}
+
+
+def load_directory():
+    p = ROOT / "directory_public.json"
+    if p.exists():
+        try:
+            return json.loads(p.read_text())
+        except Exception:
+            pass
+    return {"categories": {}, "city": "Chiang Mai"}
+
+
+def render_site_index(catalog, directory):
+    out = ['<details class="siteindex"><summary>Full directory — every procedure, '
+           'hospital &amp; facility we track</summary><div class="idx-grid">']
+    out.append('<section class="idx-col"><h4>Procedures</h4>')
+    for cat, items in catalog["procedures"].items():
+        out.append(f'<p class="idx-cat">{esc(cat)}</p><ul>')
+        for nm, rt, _m in sorted(items):
+            out.append(f'<li><a href="{rt}">{esc(nm)}</a></li>')
+        out.append('</ul>')
+    out.append('</section><section class="idx-col"><h4>Hospitals &amp; clinics</h4>')
+    for city, items in catalog["hospitals"].items():
+        out.append(f'<p class="idx-cat">{esc(city)}</p><ul>')
+        for nm, rt, _m in sorted(items):
+            out.append(f'<li><a href="{rt}">{esc(nm)}</a></li>')
+        out.append('</ul>')
+    out.append('</section><section class="idx-col"><h4>Destinations &amp; guides</h4><ul>')
+    for nm, rt, _m in sorted(catalog["destinations"]):
+        out.append(f'<li><a href="{rt}">{esc(nm)}</a></li>')
+    out.append('<li><a href="/estradiol/">Estradiol &amp; HRT in Thailand</a></li></ul>')
+    cats = directory.get("categories", {})
+    if cats:
+        total = sum(c["count"] for c in cats.values())
+        out.append(f'<h4>{esc(directory.get("city", "Chiang Mai"))} facilities <span>({total})</span></h4>'
+                   '<p class="idx-note">Full structured list in '
+                   '<a href="/data/directory.json">/data/directory.json</a>:</p><ul>')
+        for _v, c in cats.items():
+            out.append(f'<li>{esc(c["label"])} — {c["count"]}</li>')
+        out.append('</ul>')
+    out.append('</section></div></details>')
+    return "".join(out)
+
+
+DIR_TYPE = {"geriatric": "NursingHome", "rehab": "MedicalClinic", "gyn": "MedicalClinic",
+            "aesthetic": "MedicalClinic", "longevity": "MedicalClinic", "pharmacy": "Pharmacy"}
+
+
+def write_data_files(catalog, directory):
+    (OUT / "data").mkdir(parents=True, exist_ok=True)
+    cat_json = {
+        "@context": "https://schema.org", "@type": "Dataset",
+        "name": "Defiant medical-tourism catalog — Chiang Mai & Thailand",
+        "generated": TODAY, "site": SITE,
+        "procedures": [{"name": nm, "category": cat, "url": SITE + rt,
+                        "th_cost": m.get("th_cost"), "us_cost": m.get("us_cost")}
+                       for cat, items in catalog["procedures"].items() for nm, rt, m in items],
+        "hospitals": [{"name": nm, "city": m.get("city"), "accreditation": m.get("accreditation"),
+                       "url": SITE + rt}
+                      for city, items in catalog["hospitals"].items() for nm, rt, m in items],
+        "destinations": [{"name": nm, "url": SITE + rt} for nm, rt, m in catalog["destinations"]],
+    }
+    (OUT / "data" / "catalog.json").write_text(json.dumps(cat_json, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    items = []
+    for v, c in directory.get("categories", {}).items():
+        for it in c["items"]:
+            e = {"@type": DIR_TYPE.get(v, "MedicalOrganization"), "name": it["name"],
+                 "category": c["label"],
+                 "address": {"@type": "PostalAddress",
+                             "addressLocality": directory.get("city", "Chiang Mai"), "addressCountry": "TH"}}
+            if it.get("lat"):
+                e["geo"] = {"@type": "GeoCoordinates", "latitude": it["lat"], "longitude": it["lon"]}
+            items.append(e)
+    dir_json = {"@context": "https://schema.org", "@type": "ItemList",
+                "name": "Chiang Mai medical & care facilities", "numberOfItems": len(items),
+                "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": e}
+                                    for i, e in enumerate(items)]}
+    (OUT / "data" / "directory.json").write_text(json.dumps(dir_json, ensure_ascii=False, indent=2), encoding="utf-8")
+    return len(cat_json["procedures"]) + len(cat_json["hospitals"]), len(items)
+
+
 def page(name, meta, body_html, route, raw_body=""):
     ov = PAGE_OVERRIDES.get(name, {})
     title = ov.get("title") or meta.get("title") or name.lstrip("=")
@@ -575,6 +690,7 @@ def page(name, meta, body_html, route, raw_body=""):
 {body_html}
 </main>
 {FOOTER}
+{_INDEX_HTML}
 {"".join(scripts)}
 </body></html>"""
 
@@ -623,6 +739,12 @@ def build():
         "type": "agents", "updated": TODAY}, FOR_AGENTS_MD)
     links = {name: route for route, (name, _, _) in notes.items()}
 
+    # Structured catalog + the collapsed crawlable index (set before pages emit).
+    global _INDEX_HTML
+    catalog = build_catalog(notes)
+    directory = load_directory()
+    _INDEX_HTML = render_site_index(catalog, directory)
+
     inline = make_inline(links)
     emitted = {}
     for route, (name, meta, body) in notes.items():
@@ -636,6 +758,8 @@ def build():
         dest = OUT / route.strip("/") / "index.html" if route != "/" else OUT / "index.html"
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(html, encoding="utf-8")
+
+    catalog_n, dir_n = write_data_files(catalog, directory)
 
     # 404, robots, llms, sitemap, CNAME
     notfound = page("404", {"title": "404 — Not Found"},
@@ -684,12 +808,16 @@ def build():
         t = ov.get("title") or meta.get("title") or name.lstrip("=")
         d = ov.get("description") or meta.get("description") or ""
         lt.append(f"- [{t}]({SITE}{route}): {d}")
-    lt += ["", "## Machine surfaces",
+    lt += ["", "## Structured data (start here)",
+           f"- Catalog dataset (procedures + hospitals, JSON): {SITE}/data/catalog.json",
+           f"- Facility directory (schema.org ItemList, JSON): {SITE}/data/directory.json",
+           "- Every page carries JSON-LD: MedicalProcedure, FAQPage, Hospital, Place, "
+           "BreadcrumbList, Organization; the homepage adds a Dataset descriptor.",
+           "", "## Machine surfaces",
            f"- Full site text: {SITE}/llms-full.txt",
            f"- Atom feed: {SITE}/feed.xml",
            f"- Agents guide (incl. lead-endpoint contract): {SITE}/for-agents/",
            f"- Sitemap: {SITE}/sitemap.xml",
-           "- JSON-LD on every page: MedicalProcedure, FAQPage, Hospital, Place, BreadcrumbList",
            "", "## Contact", f"- Intake form: {SITE}/contact/", f"- LINE: defiant.to ({LINE_URL})"]
     (OUT / "llms.txt").write_text("\n".join(lt) + "\n", encoding="utf-8")
 

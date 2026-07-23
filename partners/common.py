@@ -18,7 +18,7 @@ DRAFTS = ROOT / "outreach" / "drafts"
 VAULT_PARTNERS = Path.home() / "Documents" / "Defiant" / "Partners"  # NOT under Public Links → never published
 TODAY = date.today().isoformat()
 
-VERTICALS = ["geriatric", "gyn", "longevity", "aesthetic", "pharmacy", "other"]
+VERTICALS = ["geriatric", "rehab", "gyn", "longevity", "aesthetic", "pharmacy", "other"]
 
 # Big chains are the anti-counterfeit answer for hormones; flag them so they
 # rise to the top of the pharmacy list.
@@ -29,6 +29,9 @@ KEYWORDS = {
     "geriatric": ["ผู้สูงอายุ", "คนชรา", "บ้านพักคนชรา", "เนอร์สซิ่ง", "ดูแลผู้ป่วย", "อัลไซเมอร์",
                   "nursing home", "nursing", "elderly", "senior", "geriatr", "memory care",
                   "dementia", "assisted living", "home care"],
+    "rehab": ["บำบัด", "ฟื้นฟู", "เลิกเหล้า", "ยาเสพติด", "กายภาพบำบัด", "ศูนย์บำบัด",
+              "rehab", "rehabilitation", "recovery", "detox", "addiction", "physiotherap",
+              "physical therapy", "substance", "sober"],
     "gyn": ["สูติ", "นรีเวช", "นรีแพทย์", "ผดุงครรภ์", "มีบุตรยาก", "สตรี",
             "gynec", "obstet", "ob-gyn", "obgyn", "women", "fertility", "ivf"],
     "longevity": ["ชะลอวัย", "เวชศาสตร์ฟื้นฟู", "เวลเนส", "ฮอร์โมน", "ดริป", "เซลล์บำบัด",
@@ -42,7 +45,7 @@ KEYWORDS = {
 
 def classify(name: str, name_en: str = "") -> str:
     hay = f"{name} {name_en}".lower()
-    for vert in ["geriatric", "gyn", "longevity", "aesthetic"]:
+    for vert in ["rehab", "geriatric", "gyn", "longevity", "aesthetic"]:
         if any(k in hay for k in KEYWORDS[vert]):
             return vert
     return "other"

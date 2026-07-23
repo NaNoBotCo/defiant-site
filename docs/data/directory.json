@@ -1,0 +1,4264 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Chiang Mai medical & care facilities",
+  "numberOfItems": 224,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "NursingHome",
+        "name": "Helping Hands Nursing Home",
+        "category": "Care homes & elder care",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.767877,
+          "longitude": 98.9552272
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "NursingHome",
+        "name": "Kanya Nursing Home",
+        "category": "Care homes & elder care",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7351824,
+          "longitude": 98.9895664
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "NursingHome",
+        "name": "พีดีเนอร์สซิ่งโฮม ดูแลผู้สูงอายุ",
+        "category": "Care homes & elder care",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.755304,
+          "longitude": 99.012966
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "NursingHome",
+        "name": "ศูนย์เวชศาสตร์ผู้สูงอายุ เชียงใหม่",
+        "category": "Care homes & elder care",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7564237,
+          "longitude": 98.9691645
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Dawn Rehab",
+        "category": "Rehab & recovery",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.6125513,
+          "longitude": 98.9648598
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Physical Therapy Centre",
+        "category": "Rehab & recovery",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7927397,
+          "longitude": 98.9768265
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "The River Rehab",
+        "category": "Rehab & recovery",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8093711,
+          "longitude": 98.9827868
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "ศูนย์ฟื้นฟูสมรรถภาพ",
+        "category": "Rehab & recovery",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7045325,
+          "longitude": 98.8594011
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "สถาบันแมคเคนฯ",
+        "category": "Rehab & recovery",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7284384,
+          "longitude": 98.9865774
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Bangkok Hospital Chiang Mai",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7884908,
+          "longitude": 99.0262035
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Chang Phuak Branch Nakorn Ping Hospital",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8095257,
+          "longitude": 98.9701099
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Chiang Mai IVF Polyclinic",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8132388,
+          "longitude": 98.971762
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Chiangmai Klaimor Hospital",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7607935,
+          "longitude": 98.9720937
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Chiangmai Ram Health Centre",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7930656,
+          "longitude": 98.977055
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Donkaew Community Hospital",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8565983,
+          "longitude": 98.9700942
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Lanna Hospital - New Building",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8153686,
+          "longitude": 98.9940893
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Lanna Hospital Extension",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8154891,
+          "longitude": 98.9937203
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "OPD ศูนย์ศรีพัฒน์",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7905839,
+          "longitude": 98.9708342
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "คลินิกสูติ นรีเวช",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7946798,
+          "longitude": 98.9946857
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "คลินิกหมอวิโรจน์ สูติ-นรีเวช",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7895697,
+          "longitude": 98.979129
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 21,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "ร้านขายยา",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7476656,
+          "longitude": 98.9426803
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "ร้านยาสวนดอก",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7472312,
+          "longitude": 98.9417154
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "ศูนย์ตรวจธาลัสซีเมียภาคเหนือ",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8032998,
+          "longitude": 98.9809241
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "ศูนย์สุขภาพ มช",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7993039,
+          "longitude": 98.9556845
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "ศูนย์ส่งเสริมพัฒนาการเด็กภาคเหนือจังหวัดเชียงใหม่",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8508425,
+          "longitude": 98.9626035
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "ส่งเสริมสขภาพ",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.6693945,
+          "longitude": 99.1364183
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 27,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "อนามัย",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.6524039,
+          "longitude": 99.0000702
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 28,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "อภิชาติ สูติ-นรี คลินิมีบุตรยาก",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7964237,
+          "longitude": 98.976655
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 29,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบานสันกำแพง",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7161131,
+          "longitude": 99.1222671
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาล เชียงใหม่",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8107321,
+          "longitude": 98.9813716
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 31,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาล เชียงใหม่เมดิคอลเซ็นเตอร์",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.780361,
+          "longitude": 98.9884613
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 32,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลกรุงเทพ",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7887297,
+          "longitude": 99.0265356
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 33,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลกองบิน 41",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7781291,
+          "longitude": 98.9721823
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 34,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลค่ายกาวิละ",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7780207,
+          "longitude": 99.0149561
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 35,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลช้างเผือก",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7991122,
+          "longitude": 98.9869438
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 36,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลดอยสะเก็ด",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.868359,
+          "longitude": 99.1286921
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 37,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลดารารัศมี",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.9106965,
+          "longitude": 98.9428876
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 38,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลนครพิงค์",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8517985,
+          "longitude": 98.9664221
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 39,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลนครพิงค์ แผนกผู้ป่วยนอก",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7815617,
+          "longitude": 98.9974776
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 40,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลบ้านธิ",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.6555668,
+          "longitude": 99.1267452
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 41,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลประสาทเชียงใหม่",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7896967,
+          "longitude": 98.9696221
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 42,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลมหาราชนครเชียงใหม่",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7918432,
+          "longitude": 98.9742757
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 43,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลราชเวช",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7668542,
+          "longitude": 99.0042636
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 44,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลลานนา",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8127203,
+          "longitude": 98.9908513
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 45,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลสันทราย",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.92052,
+          "longitude": 98.9938485
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 46,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลสารภี",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.6808651,
+          "longitude": 99.0431754
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 47,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลส่งเสริมสุขภาพตำบล",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8843117,
+          "longitude": 99.0823448
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 48,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลส่งเสริมสุขภาพเชียงใหม่",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.772731,
+          "longitude": 98.9949575
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 49,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลหมอวงศ์",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7842085,
+          "longitude": 99.0127078
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 50,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลหางดง",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.6830741,
+          "longitude": 98.9183624
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 51,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลเชียงใหม่ราม",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7949382,
+          "longitude": 98.9774862
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 52,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลเซ็นทรัลเชียงใหม่เมโมเรียล",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7730014,
+          "longitude": 98.9984639
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 53,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลเทพปัญญา",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8102857,
+          "longitude": 99.0113999
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 54,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลเทศบาลนครเชียงใหม่",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7884952,
+          "longitude": 99.0018075
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 55,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "โรงพยาบาลแมคคอมิก",
+        "category": "Women's health & fertility",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7972332,
+          "longitude": 99.0106672
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 56,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Hair Transplant Center",
+        "category": "Aesthetic & skin",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7956748,
+          "longitude": 98.9737036
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 57,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Ratika Skin Clinic",
+        "category": "Aesthetic & skin",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7940958,
+          "longitude": 98.9730403
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 58,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Skin Centre",
+        "category": "Aesthetic & skin",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7927722,
+          "longitude": 98.9775097
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 59,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Skin clinic",
+        "category": "Aesthetic & skin",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7937472,
+          "longitude": 98.9876169
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 60,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "U-shine Aesthetic Clinic",
+        "category": "Aesthetic & skin",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8129777,
+          "longitude": 98.9739062
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 61,
+      "item": {
+        "@type": "MedicalClinic",
+        "name": "Check up Centre / Anti-aging Centre",
+        "category": "Longevity & wellness",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.79279,
+          "longitude": 98.9771851
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 62,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "89 Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7520427,
+          "longitude": 99.0090231
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 63,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "99 Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7961758,
+          "longitude": 98.9660426
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 64,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "@Barnya Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7431728,
+          "longitude": 99.0139012
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 65,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Amway",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7609694,
+          "longitude": 99.0177916
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 66,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Boots",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7431272,
+          "longitude": 98.9616232
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 67,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "C&R",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7882192,
+          "longitude": 98.9866498
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 68,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "CK Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.800241,
+          "longitude": 98.9753947
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 69,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Citrus Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8047186,
+          "longitude": 98.9848303
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 70,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Daily Drugs",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.6001395,
+          "longitude": 98.8217655
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 71,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Drug & Beauty",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7990736,
+          "longitude": 99.0248265
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 72,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Drug Etc",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7848031,
+          "longitude": 98.9943303
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 73,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Drug Store",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.787101,
+          "longitude": 98.9929895
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 74,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Eve Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7991023,
+          "longitude": 98.9751739
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 75,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Evergreen Pharma",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7722837,
+          "longitude": 98.9723738
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 76,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Fascino",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7889108,
+          "longitude": 98.9736254
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 77,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Fascino Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8070076,
+          "longitude": 99.0217235
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 78,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "First Drug",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7717361,
+          "longitude": 98.9770876
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 79,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Goodwick Drugstore",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8751402,
+          "longitude": 99.0147927
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 80,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Goodwill Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7847121,
+          "longitude": 98.9934548
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 81,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Greensafe",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7468433,
+          "longitude": 98.9417261
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 82,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Home Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.920062,
+          "longitude": 98.9172479
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 83,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Kira Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7660212,
+          "longitude": 99.0827956
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 84,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Lanna Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7815367,
+          "longitude": 98.9877861
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 85,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Maeraming",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7558466,
+          "longitude": 99.0081483
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 86,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Modern Drug",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7906626,
+          "longitude": 98.9784691
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 87,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "NAT Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7877511,
+          "longitude": 98.9825664
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 88,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "PS Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8005384,
+          "longitude": 99.0191037
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 89,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Peera Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7877108,
+          "longitude": 98.992664
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 90,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "PharmFriend",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7850261,
+          "longitude": 98.994161
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 91,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Pharma Choice",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.788894,
+          "longitude": 98.9733408
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 92,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Pharma Mate",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7405659,
+          "longitude": 98.9649486
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 93,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Pharma Square",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.787717,
+          "longitude": 98.9925596
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 94,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Pharma Way",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7696047,
+          "longitude": 99.0299036
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 95,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Pharma \\Choice",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.752983,
+          "longitude": 99.009145
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 96,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "PharmaShop",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7844511,
+          "longitude": 98.998333
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 97,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Pharmacare Plus",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8021268,
+          "longitude": 98.9670372
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 98,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7818029,
+          "longitude": 98.9888526
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 99,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Pharmatist",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7960933,
+          "longitude": 98.9708737
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 100,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Phuping Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.788685,
+          "longitude": 98.9826574
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 101,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Premium Drug",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8154851,
+          "longitude": 98.9824256
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 102,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Prim Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7211941,
+          "longitude": 98.9881133
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 103,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Quality Drug",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7979992,
+          "longitude": 98.9664665
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 104,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Save Drug",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7892627,
+          "longitude": 99.0255643
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 105,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Shandon Pharma",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7889242,
+          "longitude": 98.9724853
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 106,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Smile Drug",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.5741621,
+          "longitude": 99.0022253
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 107,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Sor Pasert Pharmacy",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8098739,
+          "longitude": 98.9845308
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 108,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Super Drug",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7894574,
+          "longitude": 99.0253813
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 109,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "The Pharma C",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7830309,
+          "longitude": 98.9999966
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 110,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Tsuruha",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8026527,
+          "longitude": 98.9670393
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 111,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Vitamin H Pharmacy & Beauty Bar",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7860279,
+          "longitude": 98.9884199
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 112,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Watson",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7017462,
+          "longitude": 98.9321805
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 113,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Watsons",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8026378,
+          "longitude": 98.9670168
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 114,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "Wellcare",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.802707,
+          "longitude": 98.9784539
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 115,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "กนกศักดิ์เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8034336,
+          "longitude": 98.9783298
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 116,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "กล่องยา เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8251209,
+          "longitude": 98.9797246
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 117,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ขายยา",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8105297,
+          "longitude": 99.0023523
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 118,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "คณายา",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7899184,
+          "longitude": 98.9784388
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 119,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "คลังปันยา",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8036538,
+          "longitude": 98.9741317
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 120,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "คลังยาท่าแพ",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7873958,
+          "longitude": 98.9938178
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 121,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "คลินิกยา",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7680303,
+          "longitude": 99.0743307
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 122,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "คาร์โก้ ฟาร์มาซี",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.785294,
+          "longitude": 98.9589603
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 123,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "จ. เจริญ เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7545567,
+          "longitude": 99.0559633
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 124,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "จักรคำเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.5907187,
+          "longitude": 99.0123189
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 125,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "จื้อกิมโอสถ",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7982324,
+          "longitude": 98.9923429
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 126,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "จ่ายยา",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7840503,
+          "longitude": 98.9820794
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 127,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ช.ฟาร์มาซี",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8536493,
+          "longitude": 98.9687085
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 128,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ช.ฟาร์มาซี 2",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.9336621,
+          "longitude": 98.9411457
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 129,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ชาญศิริ เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7428187,
+          "longitude": 99.1220893
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 130,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ช่วงสิงห์เภสัช 2",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8194428,
+          "longitude": 98.9730396
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 131,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ช้างคลานเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7640112,
+          "longitude": 99.0010961
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 132,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ดาราเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8001012,
+          "longitude": 99.0126598
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 133,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ดำรงเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8047949,
+          "longitude": 98.9843219
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 134,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ต้นยางหลวงเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7473124,
+          "longitude": 99.0476864
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 135,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ต้องเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.802947,
+          "longitude": 98.980878
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 136,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ทิพย์รัตน์ เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7364975,
+          "longitude": 99.1371381
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 137,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ธานินเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.803998,
+          "longitude": 98.9847332
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 138,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "บ้านยาสารภี",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7326634,
+          "longitude": 99.019174
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 139,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "บ้านยาเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7655652,
+          "longitude": 99.0782482
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 140,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ปรียาเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7990832,
+          "longitude": 98.9980571
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 141,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ป่าบงเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7446997,
+          "longitude": 99.0520937
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 142,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ผุสดี เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8456546,
+          "longitude": 98.9712059
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 143,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "พัชยาเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8076967,
+          "longitude": 98.9669127
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 144,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "พีทีฟาร์มาซี",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7875351,
+          "longitude": 98.9690256
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 145,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "พีระ",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7877058,
+          "longitude": 98.9927251
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 146,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "พีแอนด์พี",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.9019989,
+          "longitude": 99.0050432
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 147,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "พี่น้องเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.9350509,
+          "longitude": 98.9414503
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 148,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ฟาม่าร์ช้อยช์",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8181257,
+          "longitude": 99.0372486
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 149,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ฟาร์มาเฮล์ท",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8694168,
+          "longitude": 99.1364388
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 150,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ฟาร์ม่า ชอยส์",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8110439,
+          "longitude": 99.011298
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 151,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ฟาร์ม่า ไทม์",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8051699,
+          "longitude": 98.98117
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 152,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ฟาร์ม่าคลับ",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8023883,
+          "longitude": 98.9784296
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 153,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ฟาร์ม่าช้อยซ์",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7705446,
+          "longitude": 99.0699506
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 154,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ฟาสซิโน",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8008421,
+          "longitude": 99.0136692
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 155,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ภิญโญเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8007671,
+          "longitude": 98.9858097
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 156,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ภีชญาเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7699246,
+          "longitude": 99.0060668
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 157,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "มีนาเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.79395,
+          "longitude": 99.0177583
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 158,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "มูลเมืองเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7895034,
+          "longitude": 98.993145
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 159,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "รักยา",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8655889,
+          "longitude": 98.982747
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 160,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ริมกวง เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8303015,
+          "longitude": 99.0522838
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 161,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "รุ่งเรืองฟาร์มาซี",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8004872,
+          "longitude": 98.9858671
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 162,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้าน 56เภสัชกร",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7841852,
+          "longitude": 98.9963991
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 163,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้าน ยาไทยเภสัช 2",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8282363,
+          "longitude": 99.00597
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 164,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านขายของ",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8367266,
+          "longitude": 98.9892887
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 165,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านขายยา",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7851543,
+          "longitude": 99.0028332
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 166,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านขายยา คุณปูน",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8439682,
+          "longitude": 99.0180502
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 167,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านขายยา ชัยดิษฐ์",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7919464,
+          "longitude": 98.9933094
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 168,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านขายยา ต้นโมก",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7875985,
+          "longitude": 98.954652
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 169,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านขายยา ฟาม่าเวย์",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7682035,
+          "longitude": 98.9683026
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 170,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านขายยา สหเวชภัณฑ์",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7428809,
+          "longitude": 99.1224759
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 171,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านขายยา ใส่ใจ",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7919654,
+          "longitude": 98.9573892
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 172,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านยา เอพลัส",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7993703,
+          "longitude": 98.9610408
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 173,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านยาเชียงใหม่",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8081701,
+          "longitude": 98.9735768
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 174,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านยาไทย เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8461115,
+          "longitude": 98.9714809
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 175,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านเภสัชกร ฟาม่าช้อย",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.785733,
+          "longitude": 98.9929202
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 176,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ร้านโชว์ห่วย",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8375544,
+          "longitude": 98.98931
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 177,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ฤตยา เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8054526,
+          "longitude": 98.9931652
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 178,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ว.เภสัชกร",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8041348,
+          "longitude": 98.9833815
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 179,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "วัฒนะโอสถ",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7869074,
+          "longitude": 99.0088698
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 180,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "วิชยนนท์เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7892385,
+          "longitude": 99.0012101
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 181,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "วโรภัณฑ์",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8008276,
+          "longitude": 98.9858009
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 182,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ศุภางค์เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7977103,
+          "longitude": 98.9708459
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 183,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "สบายจัย เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8305274,
+          "longitude": 99.0535176
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 184,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "สมพงษ์การแพทย์",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7443106,
+          "longitude": 99.1202626
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 185,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "สมศักดิ์เภสัช 2",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7906053,
+          "longitude": 98.9613091
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 186,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "สมศักดิ์เภสัช 3",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.804177,
+          "longitude": 98.9836896
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 187,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "สยามชัย เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7810135,
+          "longitude": 98.9884318
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 188,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "สันติสุขเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8440662,
+          "longitude": 99.0740931
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 189,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "สันทรายเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8157427,
+          "longitude": 99.0290042
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 190,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "สันนาเม็งฟาร์ม่า",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8369448,
+          "longitude": 99.0625786
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 191,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "สิริราช เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7440679,
+          "longitude": 99.0762748
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 192,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "สี่ พี่น้อง",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7683368,
+          "longitude": 99.0404472
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 193,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "สุขใจเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.795098,
+          "longitude": 98.970851
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 194,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "หจก.สยามชัยเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7795606,
+          "longitude": 98.9894567
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 195,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "หมอยาสุเทพ",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8057833,
+          "longitude": 98.9594163
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 196,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ห้าแยกเภสัชกร",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8016406,
+          "longitude": 98.9781353
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 197,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "อ.เจริญ เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7394444,
+          "longitude": 99.0833109
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 198,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "อ.เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8939391,
+          "longitude": 99.0095759
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 199,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "อาลียารินเฮ้าส์",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7976926,
+          "longitude": 98.9870456
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 200,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "อีซี่ดรัก",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7694685,
+          "longitude": 98.9985614
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 201,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "อีฟ ฟาร์มาซี",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7829345,
+          "longitude": 98.9818114
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 202,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "อุ่นใจเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8001868,
+          "longitude": 98.9800129
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 203,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "อ้อมเมือง เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7638613,
+          "longitude": 99.0264413
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 204,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เคเค ฟาร์มาซี",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8455406,
+          "longitude": 99.0171642
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 205,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เชิงดอยเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.807432,
+          "longitude": 98.9670693
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 206,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เชียงใหม่ไดเร็ค",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.804351,
+          "longitude": 98.98325
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 207,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เซ็นทรัล ฟาร์ม",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8080743,
+          "longitude": 99.0238249
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 208,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เดชาเวชภัณฑ์",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7920792,
+          "longitude": 98.9933199
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 209,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เพื่อนยาเภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8747764,
+          "longitude": 99.0519436
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 210,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เภสัชกรมานพ",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8452015,
+          "longitude": 98.9718631
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 211,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เภสัชใกล้บ้าน",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7464136,
+          "longitude": 99.117495
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 212,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เมดิก้า ฮับ",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7968757,
+          "longitude": 98.9663344
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 213,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เวชไพศาลฟาร์ม่า",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7762653,
+          "longitude": 98.9990091
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 214,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เวียงบัวฟาร์มาซี",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8062972,
+          "longitude": 98.978439
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 215,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เอส.ฟาร์ม่า",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8039637,
+          "longitude": 98.9812738
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 216,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "เฮือนสมุนไพร",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.6286683,
+          "longitude": 99.0382055
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 217,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "แคร์ เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8084907,
+          "longitude": 98.9640112
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 218,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "แฟมิลี่",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8174421,
+          "longitude": 99.0364359
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 219,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "แม่กวง เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.830827,
+          "longitude": 99.053008
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 220,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "แม่หยวก เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8343823,
+          "longitude": 98.9758421
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 221,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "แม่โจ้เภสัช",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.8938336,
+          "longitude": 99.0096242
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 222,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "โฮม-เมด",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7617001,
+          "longitude": 99.04174
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 223,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "ไผ่ล้อม คลินิก",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7991442,
+          "longitude": 98.9553796
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 224,
+      "item": {
+        "@type": "Pharmacy",
+        "name": "약국",
+        "category": "Pharmacies",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Chiang Mai",
+          "addressCountry": "TH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 18.7912134,
+          "longitude": 98.9597649
+        }
+      }
+    }
+  ]
+}
