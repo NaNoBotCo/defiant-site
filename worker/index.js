@@ -8,6 +8,8 @@
 const ALLOW = [
   "https://defiant.to",
   "https://www.defiant.to",
+  "http://defiant.to",       // interim: before GitHub's TLS cert lands / Enforce HTTPS is on
+  "http://www.defiant.to",
   "http://localhost:8899",
   "http://127.0.0.1:8899",
 ];
