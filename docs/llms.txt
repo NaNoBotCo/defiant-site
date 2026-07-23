@@ -11,6 +11,7 @@
 - [Chiang Mai — Defiant destination guide](https://defiant.to/destinations/chiang-mai/): Our home base.
 - [Phuket — Defiant destination guide](https://defiant.to/destinations/phuket/): Surgery with a sea view — more precisely, surgery at a serious BDMS hospital followed by recovery somewhere your biggest obligation is choosing lunch.
 - [Thailand — Defiant destination guide](https://defiant.to/destinations/thailand/): The country that made medical tourism a real industry.
+- [Estradiol Cream in Thailand — What to Actually Ask For](https://defiant.to/estradiol/): You can't find "estradiol cream" in Thailand because you're asking for the American name. Here's the Thai shelf name for vaginal estrogen cream, face cream, and every other form — plus the legal reality (it's over-the-counter) and where to buy it in Chiang Mai.
 - [For Agents & Bots 🤖](https://defiant.to/for-agents/): Machine-readable surfaces, structured data, and how an AI agent can help its human use Defiant — llms.txt, llms-full.txt, Atom feed, and a documented lead endpoint.
 - [Hospitals & Clinics — the Defiant shortlist](https://defiant.to/hospitals/): The Thai hospitals and specialist clinics Defiant actually routes clients to, by city — with accreditation flags and no advertorial.
 - [Bangkok Hospital Chiang Mai — Chiang Mai](https://defiant.to/hospitals/bangkok-hospital-chiang-mai/): Bangkok Hospital Chiang Mai, Chiang Mai: Private hospital (BDMS network). What it's good at and which procedures Defiant routes there.

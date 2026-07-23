@@ -36,6 +36,18 @@ QUERY = f"""
 out center tags;
 """
 
+# Pharmacies get their own query + forced vertical — they are a fulfilment
+# channel (where clients actually pick up HRT), not a referral clinic.
+PHARMACY_QUERY = f"""
+[out:json][timeout:60];
+(
+  nwr["amenity"="pharmacy"]({BBOX});
+  nwr["healthcare"="pharmacy"]({BBOX});
+  nwr["shop"="chemist"]({BBOX});
+);
+out center tags;
+"""
+
 
 def addr_from(tags):
     bits = [tags.get(k) for k in ("addr:housenumber", "addr:street", "addr:subdistrict",
@@ -43,46 +55,51 @@ def addr_from(tags):
     return " ".join(b for b in bits if b)
 
 
-def run():
-    data, last_err = None, None
+def _fetch(query):
+    last_err = None
     for ep in ENDPOINTS:
         try:
             req = urllib.request.Request(
-                ep, data=("data=" + urllib.parse.quote(QUERY)).encode(),
+                ep, data=("data=" + urllib.parse.quote(query)).encode(),
                 headers={"User-Agent": "defiant-partners/1.0 (+https://defiant.to; contact via site form)"})
             with urllib.request.urlopen(req, timeout=180) as r:
-                data = json.loads(r.read())
-            print(f"(via {ep.split('/')[2]})")
-            break
+                print(f"(via {ep.split('/')[2]})")
+                return json.loads(r.read())
         except Exception as e:
             last_err = e
             print(f"  {ep.split('/')[2]}: {e} — trying next mirror")
-    if data is None:
-        raise SystemExit(f"all Overpass mirrors failed; last error: {last_err}")
-    els = data.get("elements", [])
-    con = connect()
+    raise SystemExit(f"all Overpass mirrors failed; last error: {last_err}")
+
+
+def _ingest(con, els, force_vertical=None):
     n = 0
     for el in els:
         tags = el.get("tags", {})
         name = tags.get("name") or tags.get("name:th") or tags.get("name:en") or ""
         if not name:
             continue
-        lat = el.get("lat") or (el.get("center") or {}).get("lat")
-        lon = el.get("lon") or (el.get("center") or {}).get("lon")
         upsert(con,
                ext_id=f"osm:{el['type']}/{el['id']}",
                name=name,
                name_en=tags.get("name:en") or "",
-               lat=lat, lon=lon,
+               lat=el.get("lat") or (el.get("center") or {}).get("lat"),
+               lon=el.get("lon") or (el.get("center") or {}).get("lon"),
                phone=tags.get("phone") or tags.get("contact:phone") or "",
                website=tags.get("website") or tags.get("contact:website") or "",
                hours=tags.get("opening_hours") or "",
                addr=addr_from(tags),
-               tags=tags, source="overpass")
+               tags=tags, source="overpass", force_vertical=force_vertical)
         n += 1
-    con.commit()
-    print(f"Overpass: {len(els)} elements, {n} named clinics upserted.")
     return n
+
+
+def run():
+    con = connect()
+    clinics = _ingest(con, _fetch(QUERY).get("elements", []))
+    pharm = _ingest(con, _fetch(PHARMACY_QUERY).get("elements", []), force_vertical="pharmacy")
+    con.commit()
+    print(f"Overpass: {clinics} clinics + {pharm} pharmacies upserted.")
+    return clinics + pharm
 
 
 if __name__ == "__main__":

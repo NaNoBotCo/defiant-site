@@ -81,6 +81,7 @@ def collect_notes():
     add(PUB / "=Hospitals.md", "/hospitals/")
     add(PUB / "=Destinations.md", "/destinations/")
     add(PUB / "=Partners.md", "/partners/")
+    add(PUB / "=Estradiol.md", "/estradiol/")
     add(PUB / "=Privacy Policy.md", "/privacy/")
     add(PUB / "=Terms of Service.md", "/terms/")
     add(VAULT / "Mozarts-Ghost.md", "/mozarts-ghost/")
@@ -403,6 +404,26 @@ def jsonld_for(name, meta, route, body):
         out.append(ld({"@context": "https://schema.org", "@type": "WebPage",
                        "name": "For Clinic Partners", "inLanguage": ["th", "en"],
                        "url": SITE + route, "description": meta.get("description", "")}))
+    elif t == "guide":
+        out.append(ld({"@context": "https://schema.org", "@type": "MedicalWebPage",
+                       "name": title, "url": SITE + route,
+                       "description": meta.get("description", ""),
+                       "about": {"@type": "Drug", "name": "Estradiol",
+                                 "nonProprietaryName": "estradiol",
+                                 "alternateName": ["Oestrogel", "Ovestin", "Estrofem", "Progynova"]}}))
+        faq = [
+            {"@type": "Question",
+             "name": "Is estradiol available over the counter in Thailand?",
+             "acceptedAnswer": {"@type": "Answer",
+                "text": "Yes. Estrogen is classed as a 'dangerous drug' (ยาอันตราย) in Thailand — "
+                        "behind-the-counter, no prescription required, dispensed by the pharmacist on duty."}},
+            {"@type": "Question",
+             "name": "What is the Thai name for estradiol vaginal cream?",
+             "acceptedAnswer": {"@type": "Answer",
+                "text": "Ask for Ovestin (estriol vaginal cream), the regional standard equivalent of US "
+                        "Estrace or Premarin vaginal cream. For whole-body estradiol gel, ask for Oestrogel."}},
+        ]
+        out.append(ld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faq}))
     return out
 
 

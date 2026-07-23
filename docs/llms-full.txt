@@ -37,6 +37,7 @@ happened. You get a plan, not a brochure.
 - [[=Procedures|Procedures & honest prices →]]
 - [[=Hospitals|Hospitals & clinics we trust →]]
 - [[=Destinations|Chiang Mai · Bangkok · Phuket →]]
+- [[=Estradiol|Can't find your estradiol cream? Here's the Thai name →]]
 
 ## US expat services
 
@@ -411,6 +412,160 @@ Direct-ish routing from most US hubs via Tokyo/Seoul/Taipei/Doha; strong 4G/5G e
 
 ---
 *Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+
+
+---
+
+# Estradiol Cream in Thailand — What to Actually Ask For
+URL: https://defiant.to/estradiol/
+
+# Estradiol Cream in Thailand — what to actually ask for
+
+You were prescribed estradiol cream back home. You walk into a Thai pharmacy, say
+"Estrace" or "Divigel" or "estradiol," and get a blank look. You leave convinced
+Thailand doesn't have it.
+
+**Thailand has it.** You're asking for the American brand name, and the pharmacist
+is standing three feet from the same molecule under a different label. This page is
+the translation card.
+
+*Not medical advice — Defiant is a concierge, not your doctor. Estrogen is a real
+drug with real risks (see the safety box). But it's your medicine, you have a
+prescription for it, and you have a right to find it. So here's how.*
+
+## First: which "cream" do you actually mean?
+
+"Estradiol cream" in the US means one of **three different things**, and Thailand
+stocks them in three different ways. Figure out which one you're holding:
+
+
+| If your US product is… | You want the Thai equivalent… | Where |
+|---|---|---|
+| **Vaginal** estrogen cream (Estrace cream, Premarin cream) — for dryness, atrophy, painful sex, recurrent UTIs | **Ovestin** (estriol vaginal cream) — the regional standard | Pharmacy, behind the counter |
+| **Face / body** estrogen cream (compounded estriol or estradiol, for menopausal skin) | Compounded to order, or off-label use of the above | Longevity / aesthetic clinic, not a pharmacy shelf |
+| **Systemic** transdermal (Divigel, Estrogel, Climara patch) — whole-body HRT | **Oestrogel** (เอสโตรเจล, estradiol gel) | Pharmacy, behind the counter |
+
+
+The rest of this page walks each one.
+
+---
+
+## 1. Vaginal estradiol cream → ask for **Ovestin**
+
+*This is what most people mean, and it's the easy one.*
+
+The US prescribes **Estrace** (estradiol) or **Premarin** (conjugated estrogens)
+vaginal cream. Thailand's shelf-standard vaginal estrogen cream is **Ovestin**
+(active ingredient **estriol**, 1 mg/g, with an applicator). *Inference —* estriol
+is a gentler estrogen than the estradiol in Estrace, but for vaginal dryness,
+atrophy, and painful sex it does the same job and is what Thai and regional
+gynecologists reach for first.
+
+- **Say to the pharmacist:** "Ovestin" (โอเวสติน) — or show them the phrase card below.
+- **Legal status:** over the counter. No prescription needed (details below).
+- *Inference —* if a specific pharmacy is out, a hospital pharmacy or a
+  gynecology clinic will have it; it is not an exotic product here.
+
+If you specifically need **estradiol** vaginal cream (not estriol), that's more of
+a special-order or clinic conversation — tell us and we'll route it.
+
+---
+
+## 2. Estrogen **face cream** → this one's a clinic conversation
+
+*Tradition / context —* In the US, the estriol or estradiol **face cream** for
+menopausal skin (thinning, dryness, loss of firmness) is made by **compounding
+pharmacies** to a doctor's prescription — it isn't a standard retail product
+anywhere, including Thailand.
+
+What that means here:
+
+- Thailand has **no OTC registered estrogen face cream** to point you at on a shelf.
+- *Inference —* the same molecule is reachable two ways: (a) a **longevity or
+  aesthetic clinic** that compounds or prescribes it, or (b) off-label use of a
+  registered estriol product. Both are real; both should go through a clinician.
+- This is exactly the kind of thing our **[[=Partners|partner clinics]]** in the
+  longevity and aesthetic space can prepare — we're building those relationships
+  now, so if this is your ask, message us and we'll tell you who actually does it.
+
+Straight talk: don't improvise an estrogen face regimen off the internet. The dose
+that's cosmetic on skin can still be systemic. A clinic keeps it safe *and* legal.
+
+---
+
+## 3. Whole-body HRT → the whole shelf is open
+
+If you're on **systemic** estrogen — menopause HRT or gender-affirming — Thailand
+is genuinely permissive, and this is a corner of the manifesto that's just *true*:
+therapies your home pharmacy rations, Thailand sells over the counter for pocket change.
+
+
+| Form | Ask for (Thailand) | Molecule | Notes |
+|---|---|---|---|
+| **Gel** (like Divigel/Estrogel) | **Oestrogel** เอสโตรเจล | 17β-estradiol | 80 g tube; the transdermal answer; on Shopee & in chains |
+| **Pill** | **Estrofem** / **Progynova** | estradiol / estradiol valerate 2 mg | ~under 500 THB/month; widely stocked |
+| **Injection** (GAHT) | **Progynon Depot** | estradiol valerate 10 mg/mL | intramuscular; ampoules |
+| **Patch** | Climara / Estradot | estradiol | *Inference —* stocked less reliably; gel is easier to find |
+
+
+*Anti-counterfeit rule, from every expat who's done this:* **buy from big chain
+pharmacies or hospital pharmacies**, not a random shop or a marketplace seller you
+can't verify.
+
+---
+
+## The legal reality (you're right, it's OTC)
+
+Estrogen in Thailand is classed as a **"dangerous drug"** — ยาอันตราย. That label
+sounds scary but it's just Thailand's *behind-the-counter* category:
+
+- **No prescription required.** A licensed pharmacist simply has to dispense it and
+  ask about your symptoms — that's the whole gate.
+- Bring your US prescription or recent bloodwork anyway. *Inference —* it isn't
+  legally required, but it turns a hesitant pharmacist into a helpful one instantly,
+  especially for higher doses.
+- It is **not** a controlled or special-control substance. This is ordinary
+  behind-the-counter medicine, like the country treats ibuprofen.
+
+## Show this to your pharmacist (บอกเภสัชกร)
+
+> **ดิฉัน/ผมใช้ฮอร์โมนเอสโตรเจนเป็นประจำ ขอซื้อ…**
+> **• Ovestin (ครีมเอสไตรออลสำหรับช่องคลอด)**
+> **• หรือ Oestrogel (เอสโตรเจล เจลเอสตราไดออล)**
+> **มีจำหน่ายไหมคะ/ครับ? ถ้าไม่มี แนะนำร้านหรือโรงพยาบาลที่มีได้ไหมคะ/ครับ**
+
+*(“I use estrogen regularly and would like to buy Ovestin, the estriol vaginal
+cream — or Oestrogel, the estradiol gel. Do you have it? If not, can you point me to
+a pharmacy or hospital that does?”)*
+
+## Before you self-manage — the honest safety box
+
+- **If you have a uterus and use systemic estrogen, you also need a progestogen** —
+  estrogen alone raises endometrial-cancer risk. Vaginal estriol cream (Ovestin) is
+  low-dose and local; systemic gel/pills/injections are the ones this matters for.
+- Estrogen carries **blood-clot, stroke, and hormone-sensitive-cancer** risks that
+  are real and dose-dependent. This is why bloodwork and a clinician matter even
+  where the pharmacy doesn't demand them.
+- **Don't guess doses off a forum.** "It's OTC" means available, not "safe to wing."
+- If you've been stable on a US regimen, you're mostly just re-sourcing the same
+  thing — the easy case. If you're starting fresh, start with a consult.
+
+## Let us make it a non-event
+
+This is core Defiant work: we book you a **Thai gynecologist or HRT-friendly
+doctor**, send an **interpreter** (most pharmacists and many doctors have limited
+English — our translators handle it), get your dose confirmed, and point you at a
+pharmacy that reliably stocks it. You stop hunting; you just pick it up.
+
+**[[=Contact|Book a free intake call]]** — tell us which cream you mean and we'll
+map it to a real Thai product and a real place to get it, this week.
+
+---
+*Sources: MIMS Thailand (Oestrogel / estradiol registrations); Thai FDA "dangerous
+drug" (ยาอันตราย) classification; Besins Healthcare Thailand (Oestrogel);
+manufacturer data for Ovestin (estriol) and Progynon Depot (estradiol valerate);
+PULSE Clinic Thailand. Prices and stock are indicative — confirm at the counter.
+Every clinical claim here is general information, not a prescription.*
 
 
 ---

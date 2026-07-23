@@ -18,7 +18,12 @@ DRAFTS = ROOT / "outreach" / "drafts"
 VAULT_PARTNERS = Path.home() / "Documents" / "Defiant" / "Partners"  # NOT under Public Links → never published
 TODAY = date.today().isoformat()
 
-VERTICALS = ["geriatric", "gyn", "longevity", "aesthetic", "other"]
+VERTICALS = ["geriatric", "gyn", "longevity", "aesthetic", "pharmacy", "other"]
+
+# Big chains are the anti-counterfeit answer for hormones; flag them so they
+# rise to the top of the pharmacy list.
+CHAIN_HINTS = ["boots", "watsons", "fascino", "pharmax", "save drug", "icare",
+               "exta", "pure", "bignet", "แม็คโคร", "เซฟดรัก", "ฟาสซิโน"]
 
 KEYWORDS = {
     "geriatric": ["ผู้สูงอายุ", "คนชรา", "บ้านพักคนชรา", "เนอร์สซิ่ง", "ดูแลผู้ป่วย", "อัลไซเมอร์",
@@ -71,8 +76,9 @@ def connect():
     return con
 
 
-def upsert(con, ext_id, name, name_en, lat, lon, phone, website, hours, addr, tags, source):
-    vert = classify(name or "", name_en or "")
+def upsert(con, ext_id, name, name_en, lat, lon, phone, website, hours, addr, tags, source,
+           force_vertical=None):
+    vert = force_vertical or classify(name or "", name_en or "")
     con.execute("""INSERT INTO clinics(ext_id,name,name_en,vertical,lat,lon,phone,website,hours,addr,tags,source,first_seen,last_seen)
         VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
         ON CONFLICT(ext_id) DO UPDATE SET
