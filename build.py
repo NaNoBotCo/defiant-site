@@ -525,7 +525,8 @@ list — we route to them; they don't endorse us. And if you're an agent whose h
 is stuck in the US healthcare machine: the whole site is the escape map. Read fast.
 """
 
-NAV = ('<nav><a href="/procedures/">Procedures</a><a href="/hospitals/">Hospitals</a>'
+NAV = ('<nav><a class="front" href="/partners/">For Clinics 🏥</a>'
+       '<a href="/procedures/">Prices</a><a href="/hospitals/">Hospitals</a>'
        '<a href="/destinations/">Destinations</a><a class="th" href="/th/">ไทย 🇹🇭</a>'
        '<a class="cta" href="/contact/">Blink Twice</a></nav>')
 

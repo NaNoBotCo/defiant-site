@@ -1545,54 +1545,132 @@ A full general hospital that happens to run one of the largest cosmetic-surgery 
 
 ---
 
-# สำหรับคลินิกพันธมิตร — For Clinic Partners
+# ร่วมเป็นคลินิกพันธมิตร — Partner Clinics & Hospitals
 URL: https://defiant.to/partners/
 
-# สำหรับคลินิกพันธมิตร
+# ร่วมเป็นคลินิกพันธมิตรกับเรานะคะ 🙏
 
-สวัสดีค่ะ เราคือทีม **Defiant** ทีมที่ปรึกษาและประสานงานด้านสุขภาพสำหรับชาวอเมริกัน
-และชาวต่างชาติในเชียงใหม่
+**เราคือ Defiant** — ทีมประสานงานด้านสุขภาพที่เชียงใหม่ เราพาคนไข้ชาวอเมริกันและ
+ชาวต่างชาติมารักษาที่เมืองไทย หน้านี้เขียนไว้ให้เจ้าของคลินิกและโรงพยาบาลโดยเฉพาะ
+เรามาทำความรู้จักกันก่อนนะคะ ไม่มีข้อผูกมัดใด ๆ ทั้งสิ้น
 
-ผู้รับบริการของเรากำลังมองหาคลินิกที่ดูแลดี ทั้งด้านสูตินรีเวช ความงามและผิวพรรณ
-เวชศาสตร์ชะลอวัย และการดูแลผู้สูงอายุ — เราอยากรู้จักท่าน
-
-## สิ่งที่เราเสนอ (ฟรี ไม่มีข้อผูกพัน)
-
-- **หน้าแนะนำคลินิกภาษาอังกฤษ** บนเว็บไซต์ของเรา โดยใช้เฉพาะข้อมูลที่ท่านตรวจสอบแล้ว
-- **ส่งต่อผู้รับบริการชาวต่างชาติ** ที่คัดกรองแล้วว่าเหมาะสมกับบริการของท่าน
-- **ล่ามและผู้ประสานงาน** ช่วยนัดหมาย เตรียมเอกสาร และติดตามหลังรับบริการ
-- รูปแบบความร่วมมือหรือค่าแนะนำ (หากมี) **เป็นไปตามที่ท่านเห็นสมควร**
-
-## ติดต่อเรา
-
-- **LINE ID:** `defiant.to` — [เพิ่มเพื่อน](https://line.me/ti/p/~defiant.to)
-- หรือ [[=Contact|แบบฟอร์มติดต่อ]] (มีเจ้าหน้าที่อ่านทุกข้อความ ตอบภายใน 1 วัน)
-
-ขอบพระคุณที่สละเวลาค่ะ 🙏
+> อยากอ่านภาษาไทยแบบเต็ม ๆ ทั้งงานคลินิก งานล่าม และงานแนะนำ →
+> ไปที่ [[=TH|หน้าภาษาไทย]] ได้เลยเน้อ
 
 ---
 
-# For Clinic Partners (English)
+## ทำไมต้องร่วมงานกับเรา — the business case
 
-We are **Defiant**, a Chiang Mai–based health concierge for Americans and other
-foreigners who live here or travel here for care. Our clients are actively looking
-for good clinics across OB-GYN, aesthetics and skin, longevity medicine, and
-elder care — and we would like to know yours.
+เรามองว่านี่คือ**ธุรกิจที่ดีสำหรับท่าน** ไม่ใช่การขอความช่วยเหลือ เพราะคนไข้ต่างชาติ
+ที่เราพามา คือลูกค้าที่จ่ายจริงและกลับมาซ้ำ:
 
-## What we offer (free, no obligation)
+- **คนไข้ที่จ่ายเต็ม ราคาเงินสด** — ชาวอเมริกันจ่ายค่ารักษาในไทยด้วยความยินดี เพราะ
+  ยังถูกกว่าที่บ้านเขา 50–80%
+- **ผู้จ่ายที่เชื่อถือได้จากรัฐบาลสหรัฐ** — ทหารผ่านศึกอเมริกันจำนวนมากได้รับเงินคืน
+  จากโครงการ **VA Foreign Medical Program** (รัฐบาลสหรัฐจ่ายให้) คลินิกที่ทำเอกสาร
+  FMP เป็น จะได้คนไข้กลุ่มนี้ที่มีเอกสารครบและจ่ายแน่นอน → ดู [[=VA-FMP|เรื่อง VA FMP]]
+- **ประกัน / FSA / HSA** — คนไข้หลายคนเบิกได้ เราช่วยจัดเอกสารบิลภาษาอังกฤษให้
+- **ชื่อเสียงระดับสากล** — รีวิวจากคนไข้ต่างชาติ ช่วยให้คลินิกของท่านเป็นที่รู้จักมากขึ้น
 
-- A **free English-language profile** of your clinic on this site, using only
- information you have reviewed and approved
-- **Referrals of screened foreign patients** suited to your services
-- **Interpreter and coordination support** — booking, records, follow-up
-- Cooperation or referral-fee structure **entirely at your discretion**
+## เราจัดการให้หมด ท่านแค่รักษา
 
-## Reach us
+ท่านไม่ต้องมีพนักงานที่พูดอังกฤษ ไม่ต้องกังวลเรื่องภาษาหรือเอกสารเลยนะคะ เพราะเรา:
 
-- **LINE ID:** `defiant.to` — [add us](https://line.me/ti/p/~defiant.to)
-- Or [[=Contact|the contact form]] — a human reads everything, replies within a day
+- **คัดกรองคนไข้ก่อน** — ส่งเฉพาะคนที่เหมาะกับบริการของท่าน ไม่รบกวนเวลาท่านเปล่า ๆ
+- **มีล่ามไทย ↔ อังกฤษไปด้วย** ทุกนัด — สื่อสารชัดเจน ปลอดภัย
+- **ดูแลนัดหมาย เอกสาร ประวัติ และการติดตามผล** แทนท่าน
+- **จัดบิลและเอกสารเป็นภาษาอังกฤษ** ที่คนไข้เอาไปเบิกประกันหรือ VA ได้จริง
 
-ยินดีที่ได้รู้จักค่ะ — we look forward to meeting you.
+## ขั้นตอนง่าย ๆ — how it works
+
+1. **เราลงประกาศคลินิกของท่านบนเว็บ ฟรี** — ใช้เฉพาะข้อมูลที่ท่านตรวจและอนุมัติแล้ว
+2. **เราจับคู่คนไข้ต่างชาติ**ที่เหมาะกับบริการของท่าน
+3. **ล่ามและผู้ประสานงานไปพร้อมคนไข้** ในวันนัด
+4. **ท่านรักษา** — เราดูแลส่วนที่เหลือ
+5. **ค่าแนะนำหรือรูปแบบความร่วมมือ แล้วแต่ท่านเห็นสมควร** โปร่งใส ตกลงกันก่อนเสมอ
+
+## งานล่ามและสัญญาแปลภาษา — interpreter contracts
+
+คลินิกที่รับคนไข้ต่างชาติบ่อย ๆ เรารับ**ทำสัญญาจัดล่ามการแพทย์ประจำ**ให้ได้ (ไทย ↔ อังกฤษ)
+ล่ามของเราเซ็นสัญญารักษาความลับตามกฎหมายไทย และผ่านการทดสอบมาแล้ว — ถามเรามาได้เลยนะคะ
+
+## บริการที่คนไข้ของเรากำลังมองหา
+
+สูตินรีเวช · ความงามและผิวหนัง · เวชศาสตร์ชะลอวัยและเวลเนส · ดูแลผู้สูงอายุ ·
+ฟื้นฟูและกายภาพบำบัด · ทันตกรรม · จักษุ · กระดูกและข้อ · โรงพยาบาลที่ทำเอกสาร VA FMP เป็น
+
+---
+
+## คำถามที่พบบ่อย
+
+- **ฟรีจริงไหม?** ฟรีค่ะ การลงประกาศและการแนะนำคนไข้ไม่มีค่าใช้จ่าย
+- **ต้องมีพนักงานพูดอังกฤษไหม?** ไม่ต้อง เรามีล่ามไปให้
+- **ได้เงินยังไง?** ท่านเก็บค่ารักษาตามปกติ ส่วนความร่วมมือกับเราแล้วแต่ท่านสะดวกใจ
+- **เรื่องข้อมูลคนไข้?** เราเซ็น NDA ตามกฎหมายไทย ท่านไม่ต้องแบกภาระ HIPAA แบบอเมริกา
+- **มีข้อผูกมัดไหม?** ไม่มีเลยค่ะ เริ่มลองก่อน หยุดเมื่อไหร่ก็ได้
+
+## ติดต่อเราเลยนะคะ 💬
+
+**ไลน์ (LINE): `defiant.to`** — [เพิ่มเพื่อน](https://line.me/ti/p/~defiant.to) ·
+หรือ [[=Contact|แบบฟอร์มติดต่อ]] · มีคนอ่านทุกข้อความ ตอบภายใน 1 วัน
+
+ทักมาคุยก่อนได้ ไม่ต้องเกรงใจนะคะ 🙏
+
+---
+
+# Partner Clinics & Hospitals (English)
+
+**Defiant** is a Chiang Mai health concierge that brings American and other foreign
+patients to Thai clinics and hospitals. This page is for clinic and hospital
+owners. No cost, no obligation — let's get acquainted.
+
+## Why partner — the business case
+
+These are paying, returning customers, not charity:
+
+- **Full cash-price patients.** Americans gladly pay Thai prices — still 50–80%
+  below home.
+- **A reliable US-government payer.** Many American veterans are reimbursed through
+  the **VA Foreign Medical Program** — clinics that can handle FMP paperwork win
+  a documented, dependable patient pool. See **[[=VA-FMP|VA FMP]]**.
+- **Insurance / FSA / HSA** — many patients reimburse; we prepare English billing.
+- **International reputation** — foreign-patient reviews grow your global business.
+
+## We handle everything — you just treat
+
+No English-speaking staff required. We **screen patients** (only suitable ones
+reach you), send a **Thai↔English interpreter** to every appointment, manage
+**appointments, records and follow-up**, and produce **English billing** that
+actually clears insurance and VA claims.
+
+## How it works
+
+1. We list your clinic **free** — only content you've reviewed and approved.
+2. We match foreign patients to your services.
+3. Interpreter + coordinator accompany the patient.
+4. You treat; we handle the logistics.
+5. Referral fee / cooperation **entirely at your discretion** — transparent, agreed up front.
+
+## Interpreter contracts
+
+For clinics that see foreign patients regularly, we contract **dedicated medical
+interpreters** (Thai↔English) — vetted, tested, under a Thai NDA. Ask us.
+
+## What our patients are looking for
+
+OB-GYN · aesthetics & skin · longevity & wellness · elder care · rehab &
+physiotherapy · dental · ophthalmology · orthopedics · **FMP-literate hospitals**.
+
+## FAQ
+
+- **Really free?** Yes — listing and referrals cost nothing.
+- **Need English staff?** No — we bring interpreters.
+- **How do we get paid?** You collect for care as normal; cooperation with us is your terms.
+- **Patient data?** We sign a Thai NDA; no US-style HIPAA burden falls on you.
+- **Any lock-in?** None. Try it; stop anytime.
+
+**Contact — LINE: `defiant.to`** · or the [[=Contact|contact form]] · a human reads
+every message and replies within a day. ยินดีที่ได้รู้จักค่ะ.
 
 
 ---
