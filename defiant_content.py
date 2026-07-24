@@ -192,7 +192,7 @@ PROCEDURES = {
             "Porcelain (e.max, zirconia) veneers with in-house labs — the reason 'Thailand smile "
             "makeover' is a whole genre. A full visible-arch case still costs less than four teeth "
             "at home."),
-        notes="Good veneers require grinding healthy enamel — irreversible. An honest dentist will talk some patients into whitening instead; that's a green flag."),
+        notes="Good veneers require grinding healthy enamel — irreversible. An straight dentist will talk some patients into whitening instead; that's a green flag."),
     "Crowns and Bridges": dict(
         cat="Dental", us="$1,000–$2,500 per unit", th="$300–$700 per unit",
         stay="4–7 nights",
@@ -211,7 +211,7 @@ PROCEDURES = {
         hosps=["Bangkok International Dental Center", "Chiang Mai Ram Hospital"],
         blurb=(
             "Braces and clear aligners priced for people who live here or visit often. For pure "
-            "fly-in patients, aligner systems with remote monitoring can work — honest answer: "
+            "fly-in patients, aligner systems with remote monitoring can work — straight answer: "
             "orthodontics is the weakest fit for one-trip tourism on this whole list."),
         notes="If you're relocating anyway (see the expat services side of the house), this is a great local price."),
 
@@ -241,11 +241,11 @@ PROCEDURES = {
         stay="—",
         hosps=[],
         blurb=(
-            "Honesty box, no sugar: **commercial surrogacy for foreigners is banned in Thailand** "
+            "reality check, no sugar: **commercial surrogacy for foreigners is banned in Thailand** "
             "(2015 ART Act, passed after the Baby Gammy scandal). Anyone selling you Thai "
             "surrogacy today is selling you a crime scene. We keep this page up because people "
             "search for it and deserve a straight answer instead of a scam."),
-        notes="Where clients go instead: US, Canada, Georgia, Mexico (each with its own law and risk profile). Book an intake call if you want the honest map — we'd rather route you right than book you at all."),
+        notes="Where clients go instead: US, Canada, Georgia, Mexico (each with its own law and risk profile). Book an intake call if you want the real map — we'd rather route you right than book you at all."),
     "ICSI (Intracytoplasmic Sperm Injection)": dict(
         cat="Fertility & Reproductive", us="+$1,500–$3,000 on IVF", th="Often bundled; +$500–$1,000",
         stay="Same footprint as IVF",
@@ -276,7 +276,7 @@ PROCEDURES = {
         stay="5–8 nights",
         hosps=["Yanhee International Hospital"],
         blurb=(
-            "Honesty first: banding has fallen out of favor globally (revision and erosion rates); "
+            "straighty first: banding has fallen out of favor globally (revision and erosion rates); "
             "most centers now recommend sleeve or bypass. We list it because it's still asked for, "
             "and band *removal/revision* is its own growing category."),
         notes="If you have an old band causing trouble, revision surgery here costs less than the US removal alone."),
@@ -319,7 +319,7 @@ PROCEDURES = {
         blurb=(
             "Fewer surgeons worldwide do phalloplasty well than any other procedure on this site. "
             "Thailand has credible programs (radial forearm and ALT flap techniques), typically "
-            "staged. We will name the honest trade-offs per surgeon rather than pretend a "
+            "staged. We will name the straight trade-offs per surgeon rather than pretend a "
             "directory page can decide this for you."),
         notes="Multi-stage by design (typically 2–3 trips). Complication management planning — who fixes what, where, covered how — goes in the contract, not in hope."),
     "Body Contouring": dict(
@@ -362,7 +362,7 @@ PROCEDURES = {
         stay="14–21 nights initial; multiple follow-ups",
         hosps=["Rutnin Eye Hospital", "Bangkok Hospital"],
         blurb=(
-            "PK and lamellar (DSAEK/DMEK) grafts. Honest constraint: donor tissue in Thailand "
+            "PK and lamellar (DSAEK/DMEK) grafts. straight constraint: donor tissue in Thailand "
             "flows through the Thai Red Cross eye bank and availability can set your timeline "
             "more than the surgeon's calendar does."),
         notes="Long steroid-drop protocols and rejection surveillance — the back-home ophthalmologist hand-off is part of our checklist, not an afterthought."),
@@ -425,23 +425,23 @@ PROCEDURES = {
         stay="—",
         hosps=[],
         blurb=(
-            "Another honesty box: **deceased-donor organ transplantation in Thailand is restricted "
+            "Another reality check: **deceased-donor organ transplantation in Thailand is restricted "
             "to Thai nationals** — the Red Cross allocation system does not list foreigners, and "
             "reputable hospitals follow it. Transplant-tourism brokers promising Thai livers are "
             "lying to desperate people; we refuse to."),
         notes="Living-donor programs for foreigners exist in other countries with real legal frameworks (e.g., India with a related donor, Turkey, South Korea). Intake call before you spend a dollar anywhere — the scam density in transplant tourism is the worst in the industry."),
 
-    # ---- General Surgery (honesty box)
+    # ---- General Surgery (reality check)
     "Kidney Transplant": dict(
         cat="General Surgery", us="$260,000–$450,000", th="Not available to foreign patients",
         stay="—", hosps=[],
         blurb=(
-            "Honesty box: **kidney transplantation in Thailand is effectively closed to "
+            "reality check: **kidney transplantation in Thailand is effectively closed to "
             "foreigners.** Deceased-donor organs are allocated to Thai nationals through the Red "
             "Cross system, and living-donor programs require documented close kinship reviewed "
             "by committee — a bar a visiting patient cannot clear. Anyone selling you a Thai "
             "kidney is selling you organ trafficking, full stop."),
-        notes="Where the honest map points instead: living-related-donor programs in India, Turkey or Mexico under real legal frameworks, or staying on your US list with Thai-priced dialysis care in between — yes, that's a real strategy, ask us."),
+        notes="Where the real map points instead: living-related-donor programs in India, Turkey or Mexico under real legal frameworks, or staying on your US list with Thai-priced dialysis care in between — yes, that's a real strategy, ask us."),
 
     # ---- Diagnostics & Check-Ups
     "Executive Health Check-Ups": dict(
@@ -587,7 +587,7 @@ PROCEDURES = {
         blurb=("Electrodes, a box with dials, and the claim that your cells' 'frequencies' can "
                "be read and retuned. Widely available in Thai wellness centers."),
         science=("Graded: **no plausible mechanism, no credible trials.** We are a defiant "
-                 "company, not a dishonest one: this one is vibes. If the ritual relaxes you, "
+                 "company, not a disstraight one: this one is vibes. If the ritual relaxes you, "
                  "that's worth something — just not a diagnosis."),
         notes="We'll book it if you want the experience; we will never let a bioresonance readout change your actual medical plan."),
     "EBOO Blood Ozone Dialysis": dict(
@@ -610,7 +610,7 @@ PROCEDURES = {
         science=("Graded: **decades of use, still no convincing controlled evidence** for the "
                  "immune and energy claims. Lower mechanical risk than EBOO by dose and "
                  "simplicity."),
-        notes="Same rule as all ozone: licensed clinic, sterile circuit, honest grade — and it never substitutes for treating an actual diagnosis."),
+        notes="Same rule as all ozone: licensed clinic, sterile circuit, straight grade — and it never substitutes for treating an actual diagnosis."),
     "Therapeutic Plasma Exchange": dict(
         cat="Futuristic Thai Therapies", us="$5,000–$10,000 per session", th="$2,000–$4,000 per session",
         stay="Half-day per session; courses vary",
@@ -655,7 +655,7 @@ PROCEDURES = {
                  "Skin-lightening evidence is small and short-term; no regulator anywhere has "
                  "approved IV glutathione for it. Adverse events cluster at unlicensed "
                  "operators."),
-        notes="No judgment on the goal — it's a huge, normal part of the beauty landscape here. Licensed clinic, honest expectations, and we'll tell you what topical dermatology does better."),
+        notes="No judgment on the goal — it's a huge, normal part of the beauty landscape here. Licensed clinic, straight expectations, and we'll tell you what topical dermatology does better."),
     "IV Laser Therapy": dict(
         cat="Futuristic Thai Therapies", us="Rare / fringe", th="$50–$150 per session",
         stay="Under an hour",
@@ -666,7 +666,7 @@ PROCEDURES = {
         science=("Graded: **mechanistically speculative, clinically unproven.** Photobiomodulation "
                  "is a real research field; running it intravenously has never produced sound "
                  "human outcome trials."),
-        notes="Low-harm at licensed clinics, low-evidence everywhere. We file it with bioresonance: bookable, graded honestly, never a substitute for medicine."),
+        notes="Low-harm at licensed clinics, low-evidence everywhere. We file it with bioresonance: bookable, graded straightly, never a substitute for medicine."),
     "Shockwave Therapy": dict(
         cat="Futuristic Thai Therapies", us="$300–$500 per session", th="$50–$150 per session",
         stay="Sessions over weeks; pairs with a long stay",
@@ -818,7 +818,7 @@ HOSPITALS = {
     "McCormick Hospital": dict(
         city="Chiang Mai", type="Private mission hospital (est. 1888)", jci=False, beds="400",
         blurb=(
-            "Chiang Mai's grand old mission hospital — over 130 years serving the city, honest "
+            "Chiang Mai's grand old mission hospital — over 130 years serving the city, straight "
             "pricing, and deep community trust. Not a medical-tourism showroom; exactly why "
             "locals and long-stayers rate it."),
         strengths=["General medicine & surgery", "Maternity", "Straightforward pricing"]),
@@ -877,7 +877,7 @@ DESTINATIONS = {
         legal=[
             "Best for: dental, orthopedic, cosmetic, screening, and any care with a long recovery tail where housing costs dominate.",
             "For rare-subspecialty surgery, Bangkok's flagship depth sometimes wins — we say so when it does, then fly you back here to recover where it's cheap and quiet.",
-            "**Burning season (roughly Feb–Apr):** air quality gets genuinely bad. If you have respiratory anything, we schedule around it — honesty over occupancy.",
+            "**Burning season (roughly Feb–Apr):** air quality gets genuinely bad. If you have respiratory anything, we schedule around it — straighty over occupancy.",
         ],
         practical=(
             "Hospitals we work with here: [[Bangkok Hospital Chiang Mai]], [[Chiang Mai Ram Hospital]], "

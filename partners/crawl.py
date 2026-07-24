@@ -21,34 +21,60 @@ ENDPOINTS = [
 # Greater Chiang Mai bbox (Mueang + Hang Dong, San Sai, Mae Rim, Saraphi, Doi
 # Saket). Exact tag matches over a bbox are far cheaper for Overpass than a
 # province-area regex — the mirrors 504 on the fancy version when busy.
-BBOX = "18.55,98.75,19.05,99.15"
-QUERY = f"""
-[out:json][timeout:60];
-(
-  nwr["healthcare"="clinic"]({BBOX});
-  nwr["healthcare"="doctor"]({BBOX});
-  nwr["healthcare"="nursing_home"]({BBOX});
-  nwr["healthcare"="rehabilitation"]({BBOX});
-  nwr["healthcare"="hospice"]({BBOX});
-  nwr["amenity"="clinic"]({BBOX});
-  nwr["amenity"="nursing_home"]({BBOX});
-  nwr["social_facility"="nursing_home"]({BBOX});
-  nwr["social_facility"="assisted_living"]({BBOX});
-);
-out center tags;
-"""
+# ALL OF THAILAND, province by province (ISO 3166-2 TH-xx), Isaan included.
+# Each province crawled inside its own admin area — bounded, resumable, politer
+# to Overpass than one country firehose. Full verticals everywhere.
+TH_PROVINCES = {
+    "TH-10": "Bangkok", "TH-11": "Samut Prakan", "TH-12": "Nonthaburi",
+    "TH-13": "Pathum Thani", "TH-14": "Ayutthaya", "TH-15": "Ang Thong",
+    "TH-16": "Lopburi", "TH-17": "Sing Buri", "TH-18": "Chai Nat",
+    "TH-19": "Saraburi", "TH-20": "Chonburi", "TH-21": "Rayong",
+    "TH-22": "Chanthaburi", "TH-23": "Trat", "TH-24": "Chachoengsao",
+    "TH-25": "Prachinburi", "TH-26": "Nakhon Nayok", "TH-27": "Sa Kaeo",
+    "TH-30": "Nakhon Ratchasima", "TH-31": "Buriram", "TH-32": "Surin",
+    "TH-33": "Sisaket", "TH-34": "Ubon Ratchathani", "TH-35": "Yasothon",
+    "TH-36": "Chaiyaphum", "TH-37": "Amnat Charoen", "TH-38": "Bueng Kan",
+    "TH-39": "Nong Bua Lamphu", "TH-40": "Khon Kaen", "TH-41": "Udon Thani",
+    "TH-42": "Loei", "TH-43": "Nong Khai", "TH-44": "Maha Sarakham",
+    "TH-45": "Roi Et", "TH-46": "Kalasin", "TH-47": "Sakon Nakhon",
+    "TH-48": "Nakhon Phanom", "TH-49": "Mukdahan", "TH-50": "Chiang Mai",
+    "TH-51": "Lamphun", "TH-52": "Lampang", "TH-53": "Uttaradit",
+    "TH-54": "Phrae", "TH-55": "Nan", "TH-56": "Phayao", "TH-57": "Chiang Rai",
+    "TH-58": "Mae Hong Son", "TH-60": "Nakhon Sawan", "TH-61": "Uthai Thani",
+    "TH-62": "Kamphaeng Phet", "TH-63": "Tak", "TH-64": "Sukhothai",
+    "TH-65": "Phitsanulok", "TH-66": "Phichit", "TH-67": "Phetchabun",
+    "TH-70": "Ratchaburi", "TH-71": "Kanchanaburi", "TH-72": "Suphan Buri",
+    "TH-73": "Nakhon Pathom", "TH-74": "Samut Sakhon", "TH-75": "Samut Songkhram",
+    "TH-76": "Phetchaburi", "TH-77": "Prachuap Khiri Khan", "TH-80": "Nakhon Si Thammarat",
+    "TH-81": "Krabi", "TH-82": "Phang Nga", "TH-83": "Phuket", "TH-84": "Surat Thani",
+    "TH-85": "Ranong", "TH-86": "Chumphon", "TH-90": "Songkhla", "TH-91": "Satun",
+    "TH-92": "Trang", "TH-93": "Phatthalung", "TH-94": "Pattani", "TH-95": "Yala",
+    "TH-96": "Narathiwat",
+}
 
-# Pharmacies get their own query + forced vertical — they are a fulfilment
-# channel (where clients actually pick up HRT), not a referral clinic.
-PHARMACY_QUERY = f"""
-[out:json][timeout:60];
-(
-  nwr["amenity"="pharmacy"]({BBOX});
-  nwr["healthcare"="pharmacy"]({BBOX});
-  nwr["shop"="chemist"]({BBOX});
-);
-out center tags;
-"""
+
+def _area(iso):
+    return f'area["ISO3166-2"="{iso}"]->.a;'
+
+
+def clinic_query(iso):
+    return (f'[out:json][timeout:180];{_area(iso)}('
+            f'nwr["healthcare"="clinic"](area.a);'
+            f'nwr["healthcare"="doctor"](area.a);'
+            f'nwr["healthcare"="nursing_home"](area.a);'
+            f'nwr["healthcare"="rehabilitation"](area.a);'
+            f'nwr["healthcare"="hospice"](area.a);'
+            f'nwr["amenity"="clinic"](area.a);'
+            f'nwr["amenity"="nursing_home"](area.a);'
+            f'nwr["social_facility"="nursing_home"](area.a);'
+            f'nwr["social_facility"="assisted_living"](area.a););out center tags;')
+
+
+def pharmacy_query(iso):
+    return (f'[out:json][timeout:180];{_area(iso)}('
+            f'nwr["amenity"="pharmacy"](area.a);'
+            f'nwr["healthcare"="pharmacy"](area.a);'
+            f'nwr["shop"="chemist"](area.a););out center tags;')
 
 
 def addr_from(tags):
@@ -133,17 +159,28 @@ def _ingest(con, els, force_vertical=None, city="", country=""):
     return n
 
 
-def run(hubs_only=False):
-    con = connect()
+def crawl_thailand(con, only=None):
+    """Full verticals across every Thai province (Isaan included). Resumable:
+    `only` = set of province names to (re)crawl this pass; None = all 77."""
     total = 0
-    if not hubs_only:
-        # Chiang Mai depth: every vertical.
-        total += _ingest(con, _fetch(QUERY).get("elements", []), city="Chiang Mai", country="Thailand")
-        total += _ingest(con, _fetch(PHARMACY_QUERY).get("elements", []),
-                         force_vertical="pharmacy", city="Chiang Mai", country="Thailand")
-        con.commit()
-        print(f"Chiang Mai: {total} facilities.")
-    # Worldwide hospital sweep.
+    for iso, prov in TH_PROVINCES.items():
+        if only and prov not in only:
+            continue
+        try:
+            got = _ingest(con, _fetch(clinic_query(iso)).get("elements", []),
+                          city=prov, country="Thailand")
+            got += _ingest(con, _fetch(pharmacy_query(iso)).get("elements", []),
+                           force_vertical="pharmacy", city=prov, country="Thailand")
+            con.commit()
+            print(f"{prov}: {got}")
+            total += got
+        except SystemExit as e:
+            print(f"{prov}: SKIPPED ({e})")
+    return total
+
+
+def crawl_hubs(con):
+    total = 0
     for city, country, bbox in HUBS:
         try:
             got = _ingest(con, _fetch(hospital_query(bbox)).get("elements", []),
@@ -153,10 +190,26 @@ def run(hubs_only=False):
             total += got
         except SystemExit as e:
             print(f"{city}, {country}: SKIPPED ({e})")
+    return total
+
+
+# Nightly keeps it light: refresh the North + the worldwide hospital hubs.
+NIGHTLY_NORTH = {"Chiang Mai", "Chiang Rai", "Lamphun", "Lampang", "Nan", "Phrae",
+                 "Phayao", "Mae Hong Son", "Tak", "Sukhothai", "Phitsanulok"}
+
+
+def run(mode="nightly"):
+    con = connect()
+    total = 0
+    if mode == "thailand":
+        total += crawl_thailand(con)          # all 77 provinces, full verticals
+    else:
+        total += crawl_thailand(con, only=NIGHTLY_NORTH)
+    total += crawl_hubs(con)                   # worldwide hospitals
     print(f"TOTAL upserted this run: {total}")
     return total
 
 
 if __name__ == "__main__":
     import sys
-    run(hubs_only="--hubs-only" in sys.argv)
+    run(mode="thailand" if "--thailand" in sys.argv else "nightly")

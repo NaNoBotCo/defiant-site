@@ -106,10 +106,17 @@ header {
 header nav { display: flex; flex-wrap: wrap; gap: .2rem .9rem; margin-left: auto; }
 header nav a { text-decoration: none; font-weight: 700; padding: .35rem .2rem; color: var(--ink); }
 header nav a:hover { color: var(--magenta); }
+header nav a.th {
+  border: 2px solid var(--ink); padding: .3rem .6rem; border-radius: 4px;
+}
+header nav a.th:hover { background: var(--ink); color: #fff; }
 header nav a.cta {
   background: var(--magenta); color: #fff; padding: .4rem .85rem;
   border: 3px solid var(--ink); box-shadow: 4px 4px 0 var(--ink);
 }
+.qr { text-align: center; margin: 2rem 0; }
+.qr img { border: 4px solid var(--ink); box-shadow: 7px 7px 0 var(--magenta); background: #fff; padding: 8px; }
+.qr p { font-size: .9rem; color: #555; margin-top: .7rem; }
 header nav a.cta:hover { background: var(--cyan); color: var(--ink); }
 
 main { max-width: 74ch; margin: 0 auto; padding: 2rem clamp(1rem, 4vw, 2rem) 3.5rem; }

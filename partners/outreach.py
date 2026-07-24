@@ -92,16 +92,32 @@ With respect and thanks for your time,
 NaN — Defiant, Chiang Mai
 LINE: defiant.to · https://defiant.to/partners/"""
 
+# Northern (Lanna) provinces — recipients here get the downhome Kham Mueang
+# register; everyone else stays Central-Thai polite. Kham Mueang aimed at an
+# Isaan or Bangkok clinic reads as out of place, so it is region-scoped.
+NORTHERN = {"Chiang Mai", "Chiang Rai", "Lamphun", "Lampang", "Nan", "Phrae",
+            "Phayao", "Mae Hong Son", "San Kamphaeng", "Uttaradit", "Tak", "Sukhothai"}
+
+REGISTER_NOTE = {
+    "lanna": """[ ] REGISTER — this is a NORTHERN (Lanna) recipient. Render the Thai in
+    warm, downhome **Kham Mueang / คำเมือง**: the polite particle is **เจ้า**
+    (not Central ค่ะ/ครับ), "we" leans **เฮา**, soften with **เน้อ/น่อ**. Keep it
+    sincere, unhurried, a touch old-country — the way a Northern clinic owner
+    actually talks. A wrong note costs credibility, so a native Northern hand
+    should do the final pass. Address respectfully (ป้อ/แม่ + name, or คุณหมอ).""",
+    "central": """[ ] REGISTER — Central-Thai polite (ค่ะ; ครับ if a male coordinator sends).
+    Warm and courteous; match any regional register the recipient uses.""",
+}
+
 TRANSLATOR_NOTES = """--- SEND NOTES (for NaN + translators — do not include in the email) ---
-Clinic record: {name} / {name_en} · vertical: {vertical}
+Clinic record: {name} / {name_en} · {city}, {country} · vertical: {vertical}
 Phone: {phone}   Website: {website}   Hours: {hours}
 Source: {source} ({ext_id})
 
 Translator checklist:
 [ ] Confirm clinic's formal Thai name and honorific for the addressee
     (ผู้อำนวยการ/คุณหมอ + name if known — a named doctor beats a title).
-[ ] Polite particles: letter is written by NaN (ค่ะ). If a male coordinator
-    sends it, switch to ครับ throughout.
+{register_note}
 [ ] Verify the vertical line matches what the clinic actually does.
 [ ] Channel: email if they have one; otherwise LINE OA or a printed letter
     delivered in person works better with many Thai clinics — same text.
@@ -161,12 +177,19 @@ updated: {TODAY}
     DRAFTS.mkdir(parents=True, exist_ok=True)
     draft = DRAFTS / f"{s}.md"
     vert = c["vertical"] if c["vertical"] in VERT_LINE_TH else "other"
+    ck = c.keys()
+    city = (c["city"] if "city" in ck else "") or ""
+    country = (c["country"] if "country" in ck else "") or "Thailand"
+    register = "lanna" if city in NORTHERN else "central"
+    notes_fields = {k: (c[k] if k in ck else "") or "—" for k in
+                    ("name", "name_en", "vertical", "phone", "website", "hours", "source", "ext_id")}
+    notes_fields.update(city=city or "—", country=country or "—",
+                        register_note=REGISTER_NOTE[register])
     draft.write_text(
         LETTER_TH.format(clinic=name, vert_th=VERT_LINE_TH[vert])
         + "\n\n\n═══════════ ENGLISH MIRROR ═══════════\n\n"
         + LETTER_EN.format(clinic_en=name_en or name, vert_en=VERT_LINE_EN[vert])
-        + "\n\n\n" + TRANSLATOR_NOTES.format(**{k: c[k] or "—" for k in
-            ("name", "name_en", "vertical", "phone", "website", "hours", "source", "ext_id")}),
+        + "\n\n\n" + TRANSLATOR_NOTES.format(**notes_fields),
         encoding="utf-8")
 
     con.execute("UPDATE clinics SET status='drafted' WHERE id=?", (clinic_id,))

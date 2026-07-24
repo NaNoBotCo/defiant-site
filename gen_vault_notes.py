@@ -61,7 +61,7 @@ def fm(**kv) -> str:
 
 
 def proc_note(name, d):
-    desc = f"{name} in Thailand: indicative cost {d['th']} vs {d['us']} in the US. Hospitals, stay length, and the honest caveats."
+    desc = f"{name} in Thailand: indicative cost {d['th']} vs {d['us']} in the US. Hospitals, stay length, and the the caveats."
     body = fm(title=f"{name} in Thailand — Cost & Where", description=desc[:250],
               type="procedure", category=d["cat"], us_cost=d["us"], th_cost=d["th"],
               updated=TODAY)
@@ -179,7 +179,7 @@ shortlist the surgeon, get the quote in writing, move your records, book the
 recovery housing, and hand you back to a provider at home who knows what
 happened. You get a plan, not a brochure.
 
-- [[=Procedures|Procedures & honest prices →]]
+- [[=Procedures|Procedures & Prices →]]
 - [[=Hospitals|Hospitals & clinics we trust →]]
 - [[=Destinations|Chiang Mai · Bangkok · Phuket →]]
 
@@ -258,7 +258,7 @@ CONTACT = fm(
 
 **The form is the fast lane.** A human — usually NaN — reads every submission,
 and the first consult is free: you tell us what you're trying to fix, we tell
-you honestly whether Thailand is the answer (sometimes it isn't, and we say so).
+you straightly whether Thailand is the answer (sometimes it isn't, and we say so).
 
 <!-- defiant:form -->
 
