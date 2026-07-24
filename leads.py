@@ -102,6 +102,37 @@ def export_subscribers(cfg):
     print("  (email,name,subscribed_utc,source — ready to import into any sender.)")
 
 
+def show_clinics(cfg):
+    try:
+        data = fetch(cfg, "/clinics-submitted")
+    except Exception as e:
+        print("\n!! Could not reach the Worker:", e)
+        return
+    cl = data.get("clinics", [])
+    last = cfg.get("clinics_seen_ts", 0)
+    new = [c for c in cl if c["ts"] > last]
+    print(f"\n===== {len(cl)} clinic submissions — {len(new)} NEW =====")
+    for c in cl[:50]:
+        when = datetime.datetime.fromtimestamp(c["ts"] / 1000).strftime("%Y-%m-%d %H:%M")
+        flag = "★ NEW " if c["ts"] > last else "      "
+        print(f"\n{flag}[{when}]  {c['name']}   {c.get('area') or ''}")
+        if c.get("services"):
+            print(f"      services: {c['services']}")
+        if c.get("promotions"):
+            print(f"      promos:   {c['promotions']}")
+        contacts = " · ".join(x for x in (
+            (f"LINE {c['line']}" if c.get("line") else ""),
+            (f"tel {c['phone']}" if c.get("phone") else ""),
+            (c.get("website") or "")) if x)
+        if contacts:
+            print(f"      contact:  {contacts}")
+        if c.get("pitch"):
+            print(f"      pitch:    {c['pitch']}")
+    if cl:
+        cfg["clinics_seen_ts"] = max(c["ts"] for c in cl)
+        save_cfg(cfg)
+
+
 def main():
     cfg = load_cfg()
     if not cfg.get("url"):
@@ -114,7 +145,8 @@ def main():
         print(" [2] Leads — table view in browser")
         print(" [3] Show subscribers (the list)")
         print(" [4] Export subscribers → CSV on Desktop")
-        print(" [5] Setup / change URL + token")
+        print(" [5] Show clinic submissions (partner sign-ups)")
+        print(" [6] Setup / change URL + token")
         print(" [0] Quit")
         c = input("> ").strip()
         if c == "1":
@@ -126,6 +158,8 @@ def main():
         elif c == "4":
             export_subscribers(cfg)
         elif c == "5":
+            show_clinics(cfg)
+        elif c == "6":
             cfg = setup(cfg)
         elif c == "0":
             return

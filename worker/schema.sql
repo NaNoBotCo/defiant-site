@@ -29,3 +29,23 @@ CREATE TABLE IF NOT EXISTS subscribers (
   unsub_ts     INTEGER
 );
 CREATE INDEX IF NOT EXISTS idx_subscribers_ts ON subscribers (ts);
+
+-- Clinic self-service submissions — a clinic tells us who they are, what they do,
+-- current promotions. Before/after photos come over LINE (how Thai clinics work).
+CREATE TABLE IF NOT EXISTS clinic_submissions (
+  id          INTEGER PRIMARY KEY AUTOINCREMENT,
+  ts          INTEGER NOT NULL,
+  name        TEXT NOT NULL,
+  services    TEXT,
+  area        TEXT,
+  phone       TEXT,
+  line        TEXT,
+  website     TEXT,
+  promotions  TEXT,
+  pitch       TEXT,
+  ip          TEXT,
+  ua          TEXT,
+  referer     TEXT,
+  status      TEXT DEFAULT 'new'
+);
+CREATE INDEX IF NOT EXISTS idx_clinic_ts ON clinic_submissions (ts);

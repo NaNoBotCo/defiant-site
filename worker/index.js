@@ -151,6 +151,46 @@ th{background:#191919;color:#FBF7EF}h1{font-size:1.6rem}</style>
       return json({ ok: true, count: results.length, subscribers: results });
     }
 
+    if (url.pathname === "/clinic" && req.method === "POST") {
+      let b;
+      try { b = await req.json(); } catch { return json({ ok: false, error: "bad json" }, 400, cors(origin)); }
+
+      if (b.website2) return json({ ok: true }, 200, cors(origin));             // honeypot
+      const elapsed = Date.now() - Number(b.t0 || 0);
+      if (!(elapsed > 3000 && elapsed < 86_400_000)) return json({ ok: true }, 200, cors(origin));
+
+      const name = String(b.name || "").slice(0, 300).trim();
+      if (!name) return json({ ok: false, error: "clinic name required" }, 400, cors(origin));
+      const cut = (s, n) => String(s || "").slice(0, n).trim();
+
+      const ip = req.headers.get("CF-Connecting-IP") || "";
+      const hourAgo = Date.now() - 3_600_000;
+      const { results } = await env.DB
+        .prepare("SELECT COUNT(*) AS n FROM clinic_submissions WHERE ip = ?1 AND ts > ?2")
+        .bind(ip, hourAgo).all();
+      if (results[0].n >= 8) return json({ ok: false, error: "slow down" }, 429, cors(origin));
+
+      await env.DB.prepare(
+        "INSERT INTO clinic_submissions (ts, name, services, area, phone, line, website, promotions, pitch, ip, ua, referer) "
+        + "VALUES (?1,?2,?3,?4,?5,?6,?7,?8,?9,?10,?11,?12)")
+        .bind(Date.now(), name, cut(b.services, 2000), cut(b.area, 400), cut(b.phone, 100),
+              cut(b.line, 100), cut(b.website, 300), cut(b.promotions, 2000), cut(b.pitch, 3000), ip,
+              (req.headers.get("User-Agent") || "").slice(0, 300),
+              (req.headers.get("Referer") || "").slice(0, 300))
+        .run();
+      return json({ ok: true }, 200, cors(origin));
+    }
+
+    if (url.pathname === "/clinics-submitted" && req.method === "GET") {
+      const tok = (req.headers.get("Authorization") || "").replace(/^Bearer\s+/i, "")
+        || url.searchParams.get("token") || "";
+      if (!env.LEADS_TOKEN || tok !== env.LEADS_TOKEN) return json({ ok: false, error: "nope" }, 403);
+      const { results } = await env.DB
+        .prepare("SELECT id, ts, name, services, area, phone, line, website, promotions, pitch, status "
+                 + "FROM clinic_submissions ORDER BY ts DESC LIMIT 500").all();
+      return json({ ok: true, count: results.length, clinics: results });
+    }
+
     return json({ ok: false, error: "not found" }, 404);
   },
 };

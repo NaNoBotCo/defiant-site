@@ -430,6 +430,35 @@ SUBSCRIBE_JS = ("<script>(function(){var f=document.getElementById('sub-form');i
                 "else{throw 0}}).catch(function(){f.querySelector('#sub-err').hidden=false;"
                 "b.disabled=false;b.textContent='KEEP ME POSTED ✊';})});})();</script>")
 
+CLINIC_FORM_HTML = """<form id="clinic-form" class="lead-form">
+<label>ชื่อคลินิก / Clinic name <span class="req">*</span><br><input name="name" required maxlength="300"></label>
+<label>ประเภทและบริการ / Services you offer <span class="req">*</span><br>
+<textarea name="services" required rows="3" maxlength="2000" placeholder="เช่น สูตินรีเวช · ความงาม · ทันตกรรม · ดูแลผู้สูงอายุ · ฟื้นฟู…"></textarea></label>
+<label>พื้นที่ / Area or address<br><input name="area" maxlength="400"></label>
+<label>โทร / Phone<br><input name="phone" maxlength="100"></label>
+<label>LINE ID<br><input name="line" maxlength="100"></label>
+<label>เว็บไซต์ / Website<br><input name="website" maxlength="300"></label>
+<label>โปรโมชั่นตอนนี้ / Current promotions<br><textarea name="promotions" rows="2" maxlength="2000"></textarea></label>
+<label>จุดเด่นของคลินิก / What makes your clinic great<br><textarea name="pitch" rows="3" maxlength="3000"></textarea></label>
+<div class="hp" aria-hidden="true"><label>Website<input name="website2" tabindex="-1" autocomplete="off"></label></div>
+<p class="clinic-note">📸 ส่งรูป <b>before / after</b> และรูปคลินิก ทางไลน์ <b>defiant.to</b> ได้เลยค่ะ — send your before/after and clinic photos to us on LINE.</p>
+<label class="consent"><input name="consent" type="checkbox" required> ยินดีให้ Defiant จัดทำหน้าแนะนำคลินิกให้ฟรี — happy for Defiant to build my clinic a free listing.</label>
+<button type="submit" class="send">ส่งข้อมูล / SUBMIT ✊</button>
+<p id="clinic-ok" hidden><strong>ได้รับข้อมูลแล้วค่ะ 🙏</strong> มีคนอ่านทุกข้อความ จะติดต่อกลับภายใน 1 วัน — got it; a human reaches out within a day.</p>
+<p id="clinic-err" hidden><strong>ส่งไม่สำเร็จ</strong> ลองใหม่ หรือแอดไลน์ defiant.to — didn't go through; try again or add us on LINE.</p>
+</form>"""
+
+CLINIC_JS = ("<script>(function(){var f=document.getElementById('clinic-form');if(!f)return;"
+             "var t0=Date.now();f.addEventListener('submit',function(e){e.preventDefault();"
+             "if(!f.reportValidity())return;var b=f.querySelector('.send');b.disabled=true;b.textContent='…';"
+             f"fetch('{WORKER_URL}/clinic'" + ",{method:'POST',headers:{'Content-Type':'application/json'},"
+             "body:JSON.stringify({name:f.name.value,services:f.services.value,area:f.area.value,"
+             "phone:f.phone.value,line:f.line.value,website:f.website.value,promotions:f.promotions.value,"
+             "pitch:f.pitch.value,website2:f.website2.value,t0:t0})}).then(function(r){return r.json()})"
+             ".then(function(j){if(j.ok){f.querySelector('#clinic-ok').hidden=false;b.textContent='ส่งแล้ว ✊';}"
+             "else{throw 0}}).catch(function(){f.querySelector('#clinic-err').hidden=false;"
+             "b.disabled=false;b.textContent='ส่งข้อมูล / SUBMIT ✊';})});})();</script>")
+
 def ld(obj) -> str:
     return ('<script type="application/ld+json">'
             + json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")
@@ -860,6 +889,9 @@ def page(name, meta, body_html, route, raw_body=""):
     if "<!-- defiant:subscribe -->" in body_html:
         body_html = body_html.replace("<!-- defiant:subscribe -->", SUBSCRIBE_FORM_HTML)
         scripts.append(SUBSCRIBE_JS)
+    if "<!-- defiant:clinicform -->" in body_html:
+        body_html = body_html.replace("<!-- defiant:clinicform -->", CLINIC_FORM_HTML)
+        scripts.append(CLINIC_JS)
     for prod in ("pack", "concierge"):
         marker = f"<!-- defiant:pay:{prod} -->"
         if marker in body_html:
