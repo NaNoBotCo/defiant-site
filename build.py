@@ -137,6 +137,7 @@ def collect_notes():
     add(PUB / "=Estradiol.md", "/estradiol/")
     add(PUB / "=DTV.md", "/dtv/")
     add(PUB / "=Senior-Living.md", "/senior-living/")
+    add(PUB / "=Glowup.md", "/glowup/")
     add(PUB / "=VA-FMP.md", "/va-fmp/")
     add(PUB / "=TH.md", "/th/")
     add(PUB / "=Subscribe.md", "/subscribe/")

@@ -42,6 +42,7 @@ happened. You get a plan, not a brochure.
 - [[=VA-FMP|Veterans: your VA benefits work in Thailand (the FMP) →]]
 - [[=DTV|Stay long-term for treatment: the DTV medical visa →]]
 - [[=Senior-Living|Senior & dementia care in Chiang Mai — full care, a fraction of the cost →]]
+- [[=Glowup|The lunchtime glowup — no-downtime aesthetics to stack onto your trip →]]
 - [[=Subscribe|Get the occasional dispatch — new procedures, price moves →]]
 
 ## US expat services
@@ -825,6 +826,104 @@ Content-Type: application/json
 Consent before contact, always. Don't fabricate affiliation with the hospitals we
 list — we route to them; they don't endorse us. And if you're an agent whose human
 is stuck in the US healthcare machine: the whole site is the escape map. Read fast.
+
+
+---
+
+# The Lunchtime Glowup — No-Downtime Aesthetics to Stack Onto Your Trip
+URL: https://defiant.to/glowup/
+
+# The lunchtime glowup
+
+Here's the move nobody plans for: **you're already flying to Thailand** for a hip,
+some dental work, a checkup — and while you recover in a quiet hotel, **your face
+doesn't need any downtime at all.** The same country doing your surgery at 20% of
+US prices does Botox, lasers, and skin treatments at the same discount — and most
+of them take a lunch break, not a recovery week.
+
+Come for the hip. Leave looking like you slept for a month.
+
+*Not medical advice — Defiant is a concierge, not a provider. Prices are indicative
+2026 ranges, confirmed in writing at intake. Every treatment here still belongs at a
+licensed clinic with a real clinician and genuine product — more on that below.*
+
+## The menu
+
+
+| Treatment | What it does | Downtime | Indicative Thailand price |
+|---|---|---|---|
+| **Botox** | Softens lines (forehead, crow's feet), slims the jaw | None | $150–500 / session |
+| **Dermal filler** | Restores volume — cheeks, lips, under-eye, jawline | Minimal (bruise risk) | $300–600 / syringe |
+| **HIFU** (ultrasound lift) | Tightens and lifts, stimulates collagen | None | $300–800 |
+| **Pico laser** | Pigment, pores, tone, acne scars, tattoos | Minimal (a little redness) | $100–300 / session |
+| **Skin boosters** (Profhilo, Rejuran) | Deep hydration and skin quality | Minimal | $200–500 / session |
+| **PDO thread lift** | A subtle, non-surgical lift | Minimal | $300–800 |
+| **Glutathione / vitamin IV** | Brightening drip | None | $30–80 |
+
+
+## The stacking play
+
+Because the downtime is near zero, these layer beautifully onto a trip you're
+already taking:
+
+- **Here for [[=Procedures|surgery or dental]]?** While you heal, run a Pico + HIFU
+  + skin-booster series on a schedule your surgeon signs off on.
+- **Here for a [[Facelift|facelift]]?** The surgery resets the structure; boosters
+  and lasers keep the skin quality up afterward.
+- **Just here for the glowup itself?** A single week can hold a full reset — and it
+  still costs less than one session back home.
+
+We build the sequence around your main procedure and your recovery, so nothing
+competes and everything heals on time.
+
+## The one rule: genuine product, licensed clinic
+
+Counterfeit Botox and filler are a real problem worldwide, and injectables are only
+as safe as what's actually in the syringe. Our rule is simple: **hospital
+dermatology departments and licensed clinics only**, genuine product with batch
+numbers on the receipt. It's the boring, correct answer, and it's what keeps a
+glowup a glowup instead of an ER visit.
+
+## FAQ
+
+### Can I really do these while recovering from surgery?
+
+Many of them, yes — that's the whole appeal. Non-invasive treatments like Pico
+laser, HIFU, and skin boosters have near-zero downtime and can run on a schedule
+**your surgeon approves**, while a bigger procedure heals. Injectables near a
+surgical site are spaced out; we plan the timing with your clinician so nothing
+interferes.
+
+### Is Botox and filler in Thailand genuine and safe?
+
+At a hospital dermatology department or a licensed clinic, yes — genuine, doctor-
+administered, with batch numbers on the receipt. The counterfeit-injectable problem
+is global, not Thai; the answer everywhere is to use a real medical facility, which
+is exactly where we route you.
+
+### How much can I fit into one trip?
+
+A lot — a single week can hold Pico, HIFU, a skin-booster session, and injectables,
+because none of them need real recovery. The limit is usually spacing injectables
+correctly, not downtime. We map a schedule so everything lands and heals in your
+window.
+
+### What's the difference between HIFU, a thread lift, and a facelift?
+
+Think of it as a ladder. **HIFU** tightens with ultrasound (no cutting, subtle,
+repeatable). A **PDO thread lift** gives a slightly stronger, still-non-surgical
+lift for 1–2 years. A **[[Facelift|surgical facelift]]** repositions the deep
+tissue for a 10–15-year result. Many people climb the ladder — start with HIFU and
+threads, move to surgery years later.
+
+### How much do these cost compared to the US?
+
+Typically **40–70% less**, sometimes more — a Botox session that's $150–500 here
+runs $400–1,500 in a US clinic; a HIFU treatment a fraction of the US price. All
+indicative and confirmed in writing before you book.
+
+**Planning a trip?** [[=Contact|Book a free intake call]] and we'll build the glowup
+around whatever you're already coming for.
 
 
 ---
@@ -2749,6 +2848,38 @@ Deep-plane and SMAS facelifts by surgeons who do them daily. Recovery in a quiet
 ## The Defiant take
 
 The 10–14 day in-country window is non-negotiable: sutures out and surgeon review happen before you fly.
+
+## Types of facelift — which one you actually need
+
+- **Deep-plane facelift** — the gold standard: releases and repositions the deeper SMAS layer as a single unit for the most natural, longest-lasting result. Most technically demanding; fewer surgeons do it well anywhere — the Thai flagships have them.
+- **SMAS facelift** — the workhorse: lifts and tightens the SMAS layer. Excellent, widely performed, the default for most patients.
+- **Mini / short-scar facelift** — a smaller lift for early jowls and the lower face, with shorter scars and recovery. For the "not ready for a full lift" patient.
+- **Mid-face / cheek lift** — targets the cheeks and under-eye area specifically.
+- **Thread lift (PDO threads)** — *not surgery*: dissolvable threads for a subtle, temporary lift with near-zero downtime; lasts ~1–2 years. If you're not ready to cut, start here.
+
+Not sure you need surgery at all? Many patients get most of the effect from HIFU + threads + skin boosters with **no downtime** — read [[=Glowup|the lunchtime glowup menu]] before you book a scalpel.
+
+## FAQ
+
+### What's the difference between a SMAS and a deep-plane facelift?
+
+Both lift the deeper SMAS layer, not just the skin — which is what makes a result look natural and last. A SMAS facelift tightens that layer; a **deep-plane** facelift releases and repositions it as one unit, which many surgeons consider the most natural, longest-lasting technique, and the most demanding. We route deep-plane cases to surgeons who do them at volume.
+
+### How long does a facelift last?
+
+A well-done SMAS or deep-plane facelift typically lasts **10–15 years**. It doesn't stop aging — it turns the clock back — so maintaining with non-surgical treatments extends the result.
+
+### How long do I need to stay in Thailand?
+
+Plan **10–14 nights**. Sutures come out and the surgeon reviews you before you're cleared to fly — that window is non-negotiable. You're generally presentable at about two weeks.
+
+### Can I combine a facelift with other work on the same trip?
+
+Yes — eyelids (blepharoplasty), a neck lift, or fat transfer under one anesthesia is common. Lighter add-ons like Botox, filler, and lasers are better spaced around surgery; we plan the sequence with the surgeon. See [[=Glowup|the glowup menu]] for the no-downtime options.
+
+### Are there non-surgical alternatives to a facelift?
+
+Plenty. **HIFU** (ultrasound tightening), **PDO thread lifts**, and **skin boosters** give a real lift with little or no downtime, at a fraction of the cost — a strong option if you're not ready to cut, or want to delay one. The full menu is on [[=Glowup|the lunchtime glowup page]].
 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
