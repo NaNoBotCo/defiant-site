@@ -586,25 +586,27 @@ def jsonld_for(name, meta, route, body):
                        "name": "For Clinic Partners", "inLanguage": ["th", "en"],
                        "url": SITE + route, "description": meta.get("description", "")}))
     elif t == "guide":
-        out.append(ld({"@context": "https://schema.org", "@type": "MedicalWebPage",
-                       "name": title, "url": SITE + route,
-                       "description": meta.get("description", ""),
-                       "about": {"@type": "Drug", "name": "Estradiol",
-                                 "nonProprietaryName": "estradiol",
-                                 "alternateName": ["Oestrogel", "Ovestin", "Estrofem", "Progynova"]}}))
-        faq = [
-            {"@type": "Question",
-             "name": "Is estradiol available over the counter in Thailand?",
-             "acceptedAnswer": {"@type": "Answer",
-                "text": "Yes. Estrogen is classed as a 'dangerous drug' (ยาอันตราย) in Thailand — "
-                        "behind-the-counter, no prescription required, dispensed by the pharmacist on duty."}},
-            {"@type": "Question",
-             "name": "What is the Thai name for estradiol vaginal cream?",
-             "acceptedAnswer": {"@type": "Answer",
-                "text": "Ask for Ovestin (estriol vaginal cream), the regional standard equivalent of US "
-                        "Estrace or Premarin vaginal cream. For whole-body estradiol gel, ask for Oestrogel."}},
-        ]
-        out.append(ld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faq}))
+        page_ld = {"@context": "https://schema.org", "@type": "MedicalWebPage",
+                   "name": title, "url": SITE + route, "description": meta.get("description", ""),
+                   "lastReviewed": meta.get("updated", TODAY),
+                   "speakable": {"@type": "SpeakableSpecification", "cssSelector": ["h1", ".lead"]}}
+        if name == "=Estradiol":
+            page_ld["about"] = {"@type": "Drug", "name": "Estradiol", "nonProprietaryName": "estradiol",
+                                "alternateName": ["Oestrogel", "Ovestin", "Estrofem", "Progynova"]}
+        out.append(ld(page_ld))
+        if name == "=Estradiol":
+            out.append(ld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                {"@type": "Question",
+                 "name": "Is estradiol available over the counter in Thailand?",
+                 "acceptedAnswer": {"@type": "Answer",
+                    "text": "Yes. Estrogen is classed as a 'dangerous drug' (ยาอันตราย) in Thailand — "
+                            "behind-the-counter, no prescription required, dispensed by the pharmacist on duty."}},
+                {"@type": "Question",
+                 "name": "What is the Thai name for estradiol vaginal cream?",
+                 "acceptedAnswer": {"@type": "Answer",
+                    "text": "Ask for Ovestin (estriol vaginal cream), the regional standard equivalent of US "
+                            "Estrace or Premarin vaginal cream. For whole-body estradiol gel, ask for Oestrogel."}},
+            ]}))
     # Any non-procedure page with a `## FAQ` section gets FAQPage schema too.
     if not any('"@type": "FAQPage"' in s for s in out):
         gfaq = extract_faqs(body)
