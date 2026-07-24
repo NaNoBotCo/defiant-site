@@ -27,6 +27,46 @@ SITE = "https://defiant.to"
 WORKER_URL = "https://defiant-leads.wichaa.workers.dev"  # adjust after `wrangler deploy` if different
 KOFI = "https://ko-fi.com/defiantchiangmai"
 LINE_URL = "https://line.me/ti/p/~defiant.to"
+
+# ---- payment rails -----------------------------------------------------------
+# Ko-fi works today (its checkout takes card + PayPal). The others light up the
+# moment you paste a value below — creating those accounts is yours to do:
+#   * Ko-fi exact-price item: ko-fi.com dashboard → Shop → add item → copy link
+#   * Stripe: dashboard.stripe.com → Payment Links → create ($100 / $1,000) → copy
+#   * PayPal: just your PayPal.me handle (we build paypal.me/<handle>/<amount>)
+#   * Bitcoin: paste a receiving address from your wallet
+PAY = {
+    "kofi_pack": "",         # optional exact Ko-fi $100 shop-item link
+    "kofi_concierge": "",    # optional exact Ko-fi $1,000 link
+    "stripe_pack": "",       # Stripe Payment Link, fixed $100
+    "stripe_concierge": "",  # Stripe Payment Link, fixed $1,000
+    "paypal": "",            # PayPal.me handle ONLY, e.g. defiantchiangmai
+    "btc": "",               # Bitcoin receiving address
+}
+PAY_AMOUNT = {"pack": 100, "concierge": 1000}
+
+
+def render_pay(product):
+    amt = PAY_AMOUNT[product]
+    kofi = PAY.get(f"kofi_{product}") or KOFI
+    btns = [f'<a class="pay pay-kofi" href="{kofi}" rel="noopener" target="_blank">☕ Ko-fi — card or PayPal</a>']
+    if PAY.get(f"stripe_{product}"):
+        btns.append(f'<a class="pay pay-stripe" href="{PAY[f"stripe_{product}"]}" rel="noopener" target="_blank">💳 Card (Stripe)</a>')
+    if PAY.get("paypal"):
+        btns.append(f'<a class="pay pay-paypal" href="https://paypal.me/{PAY["paypal"]}/{amt}" rel="noopener" target="_blank">🅿️ PayPal — ${amt}</a>')
+    if PAY.get("btc"):
+        btns.append(f'<button class="pay pay-btc" type="button" data-btc="{PAY["btc"]}" data-amt="{amt}">₿ Bitcoin</button>')
+    note = ("" if (PAY.get(f"stripe_{product}") and PAY.get("paypal") and PAY.get("btc"))
+            else '<p class="pay-note">Stripe / PayPal / crypto coming online — for now Ko-fi takes '
+                 'card &amp; PayPal instantly, or <a href="/contact/">ask us for an invoice</a>.</p>')
+    return f'<div class="pay-row" data-amount="{amt}">' + "".join(btns) + "</div>" + note
+
+
+PAY_JS = ("<script>(function(){document.querySelectorAll('.pay-btc').forEach(function(b){"
+          "b.addEventListener('click',function(){var a=b.dataset.btc;var d=document.createElement('div');"
+          "d.className='btc-box';d.innerHTML='Send the USD-equivalent in BTC to:<br><code>'+a+'</code><br>"
+          "<a href=\"bitcoin:'+a+'\">open in wallet</a> · then <a href=\"/contact/\">send us the tx</a> so we can confirm.';"
+          "b.replaceWith(d);});});})();</script>")
 FB_PEACOCKS_LAW = ("https://www.facebook.com/skunkhaus/posts/"
                    "pfbid06spJJ7hDXrwjyFjECpMcXNnmuALnsUmiSpbnWnxHAwQnLEdb9LAYCSWTbSXzPAshl")
 TODAY = date(2026, 7, 23).isoformat()
@@ -700,6 +740,12 @@ def page(name, meta, body_html, route, raw_body=""):
     if "<!-- defiant:subscribe -->" in body_html:
         body_html = body_html.replace("<!-- defiant:subscribe -->", SUBSCRIBE_FORM_HTML)
         scripts.append(SUBSCRIBE_JS)
+    for prod in ("pack", "concierge"):
+        marker = f"<!-- defiant:pay:{prod} -->"
+        if marker in body_html:
+            body_html = body_html.replace(marker, render_pay(prod))
+    if 'class="pay-btc"' in body_html:
+        scripts.append(PAY_JS)
     if "<!-- defiant:qr -->" in body_html:
         body_html = body_html.replace("<!-- defiant:qr -->",
             '<div class="qr"><a href="https://line.me/ti/p/~defiant.to">'

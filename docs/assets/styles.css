@@ -220,6 +220,26 @@ footer a:hover { color: var(--magenta); }
 .peacock { color: #555; margin-top: 1rem; }
 .pi { text-decoration: none; color: inherit; opacity: .5; margin-left: .6rem; }
 
+/* ---- payment buttons ------------------------------------------------------ */
+.pay-row { display: flex; flex-wrap: wrap; gap: .7rem; margin: 1rem 0 .4rem; }
+.pay {
+  font-family: "JetBrains Mono", monospace; font-weight: 700; font-size: 1rem;
+  cursor: pointer; text-decoration: none; color: var(--ink);
+  border: 3px solid var(--ink); box-shadow: 4px 4px 0 var(--ink);
+  padding: .7rem 1.1rem; background: #fff;
+}
+.pay:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--ink); }
+.pay-kofi { background: var(--magenta); color: #fff; }
+.pay-stripe { background: var(--purple); color: #fff; }
+.pay-paypal { background: var(--cyan); }
+.pay-btc { background: #f7931a; color: #fff; }
+.pay-note { font-size: .85rem; color: #666; margin: .3rem 0 1rem; }
+.btc-box {
+  border: 3px solid var(--ink); box-shadow: 5px 5px 0 #f7931a; background: #fff;
+  padding: 1rem; margin: 1rem 0; font-size: .9rem; word-break: break-all;
+}
+.btc-box code { background: var(--paper); }
+
 /* ---- quiet crawlable site index (collapsed; bots read it, humans don't) --- */
 .siteindex {
   max-width: 74ch; margin: 0 auto; padding: 0 clamp(1rem, 4vw, 2rem) 2.5rem;
