@@ -128,6 +128,7 @@ def collect_notes():
         notes[route] = (path.stem, meta, body)
 
     add(PUB / "=Home.md", "/")
+    add(PUB / "=About.md", "/about/")
     add(PUB / "=Contact.md", "/contact/")
     add(PUB / "=Procedures.md", "/procedures/")
     add(PUB / "=Hospitals.md", "/hospitals/")
@@ -607,6 +608,10 @@ def jsonld_for(name, meta, route, body):
                     "text": "Ask for Ovestin (estriol vaginal cream), the regional standard equivalent of US "
                             "Estrace or Premarin vaginal cream. For whole-body estradiol gel, ask for Oestrogel."}},
             ]}))
+    elif t == "about":
+        out.append(ld({"@context": "https://schema.org", "@type": "AboutPage",
+                       "name": title, "url": SITE + route, "description": meta.get("description", ""),
+                       "publisher": {"@type": "Organization", "name": "Defiant", "url": SITE}}))
     # Any non-procedure page with a `## FAQ` section gets FAQPage schema too.
     if not any('"@type": "FAQPage"' in s for s in out):
         gfaq = extract_faqs(body)
@@ -681,6 +686,7 @@ FOOTER = f"""<footer>
 <a href="{FB_PEACOCKS_LAW}" rel="noopener" target="_blank">Peacock's Law</a> ·
 <a href="{KOFI}" rel="noopener" target="_blank">Fund the resistance ☕</a> ·
 <a href="{LINE_URL}" rel="noopener" target="_blank">LINE: defiant.to</a> ·
+<a href="/about/">Our story &amp; manifesto</a> ·
 <a href="/th/">ร่วมงานกับเฮา / For Thai partners</a> ·
 <a href="/partners/">คลินิกพันธมิตร / Clinics</a> ·
 <a href="/va-fmp/">Veterans / VA FMP</a> ·
@@ -844,7 +850,7 @@ def page(name, meta, body_html, route, raw_body=""):
                       "team · every price is confirmed in writing before you book.</p>")
 
     scripts = [PARALLAX_JS]
-    if route == "/":
+    if 'id="dobbs-days"' in body_html:
         scripts.append(COUNTER_JS)
     if 'class="reveal"' in body_html:
         scripts.append(REVEAL_JS)
@@ -895,18 +901,24 @@ def page(name, meta, body_html, route, raw_body=""):
 </body></html>"""
 
 
+HERO_CTA = ('<div class="herocta">'
+            '<a class="hbtn hbtn-1" href="/concierge/">See what it costs →</a>'
+            '<a class="hbtn hbtn-2" href="/contact/">Book a free intake call →</a></div>')
+
+
 def home_post(html_body: str) -> str:
+    """Homepage: clean, conversion-first. Just the glitch wordmark — no fist,
+    no portraits; the personality lives on /about now."""
     html_body = html_body.replace(
-        '<h1 id="defiant">DEFIANT</h1>',
-        '<div class="hero"><div class="hero-text"><h1 class="glitch" id="defiant">DEFIANT</h1>', 1)
-    html_body = html_body.replace(
-        "<p>ดิงด่อง เฮลโล เวลคัม</p>",
-        '<p class="thai-garnish">ดิงด่อง เฮลโล เวลคัม</p></div>'
-        '<span class="zine hero-fist"><img src="/assets/images/image01.jpg" '
-        'alt="DEFIANT — raised fist in black, magenta and cyan halftone"></span>'
-        "</div>", 1)
+        '<h1 id="defiant">DEFIANT</h1>', '<h1 class="glitch" id="defiant">DEFIANT</h1>', 1)
+    html_body = html_body.replace("<!-- defiant:herocta -->", HERO_CTA, 1)
+    return html_body
+
+
+def about_post(html_body: str) -> str:
+    """The /about page: manifesto shout, founder portraits, Dobbs counter, flags."""
     html_body = re.sub(
-        r'<h1 id="american-healthcare-is-bullshit">(.*?)</h1>',
+        r'<h2 id="american-healthcare-is-bullshit">(.*?)</h2>',
         r'<h2 class="shout" id="american-healthcare-is-bullshit">\1</h2>', html_body)
     html_body = re.sub(r"([\d,]+)\+ days", r'<span id="dobbs-days">\1+</span> days', html_body, count=1)
     for who, img, alt in [
@@ -954,6 +966,8 @@ def build():
         html_body = md_to_html(body, inline, name)
         if route == "/":
             html_body = home_post(html_body)
+        elif route == "/about/":
+            html_body = about_post(html_body)
         emitted[route] = page(name, meta, html_body, route, body)
 
     for route, html in emitted.items():
