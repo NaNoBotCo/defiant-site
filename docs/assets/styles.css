@@ -220,6 +220,25 @@ footer a:hover { color: var(--magenta); }
 .peacock { color: #555; margin-top: 1rem; }
 .pi { text-decoration: none; color: inherit; opacity: .5; margin-left: .6rem; }
 
+/* ---- key-facts answer capsule (AEO: the passage AI Overviews quote) ------- */
+.keyfacts {
+  border: 3px solid var(--ink); box-shadow: 6px 6px 0 var(--cyan); background: #fff;
+  padding: 1rem 1.2rem 1.1rem; margin: 1.5rem 0 2rem; max-width: 100%;
+}
+.kf-h {
+  font-family: "Alfa Slab One", Impact, sans-serif; text-transform: uppercase;
+  font-size: 1.05rem; line-height: 1.2; color: var(--ink); margin-bottom: .7rem;
+  text-shadow: 1px 1px 0 var(--magenta), -1px -1px 0 var(--purple);
+}
+.kf-row {
+  display: flex; justify-content: space-between; gap: 1rem; align-items: baseline;
+  padding: .4rem 0; border-top: 1px solid #ececec; font-size: .96rem;
+}
+.kf-row:first-of-type { border-top: none; }
+.kf-k { color: #6b6786; }
+.kf-v { font-weight: 700; text-align: right; color: var(--ink); }
+.keyfacts .kf-cta { margin: .8rem 0 0; font-size: .9rem; }
+
 /* ---- payment buttons ------------------------------------------------------ */
 .pay-row { display: flex; flex-wrap: wrap; gap: .7rem; margin: 1rem 0 .4rem; }
 .pay {

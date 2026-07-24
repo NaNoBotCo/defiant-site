@@ -433,6 +433,44 @@ def ld(obj) -> str:
             + "</script>")
 
 
+def _prices(s):
+    return [int(x.replace(",", "")) for x in re.findall(r"\$?([\d,]{3,})", s or "")]
+
+
+def savings_line(us, th):
+    un, tn = _prices(us), _prices(th)
+    if un and tn and max(un) and max(tn):
+        lo = round((1 - max(tn) / max(un)) * 100)
+        hi = round((1 - min(tn) / min(un)) * 100)
+        lo, hi = sorted((lo, hi))
+        if 15 <= lo <= 95 and lo != hi:
+            return f"~{lo}–{hi}% less than the US"
+        if 15 <= lo <= 95:
+            return f"~{lo}% less than the US"
+    return "50–80% less than the US"
+
+
+def render_keyfacts(name, meta, body):
+    """The scannable answer capsule — what a human skims and an AI Overview quotes."""
+    us, th = meta.get("us_cost", ""), meta.get("th_cost", "")
+    m = re.search(r"\*\*Typical trip:\*\*\s*(.+)", body or "")
+    stay = m.group(1).strip() if m else ""
+    rows = [("Procedure", esc(name)),
+            ("Where", "Chiang Mai / Thailand"),
+            ("US price", esc(us) or "—"),
+            ("Thailand price", esc(th) or "—"),
+            ("You save", savings_line(us, th))]
+    if stay:
+        rows.append(("Typical stay", esc(stay)))
+    body_rows = "".join(
+        f'<div class="kf-row"><span class="kf-k">{k}</span><span class="kf-v">{v}</span></div>'
+        for k, v in rows)
+    return (f'<aside class="keyfacts" aria-label="Key facts about {esc(name)} in Thailand">'
+            f'<div class="kf-h">Key facts — {esc(name)} in Thailand</div>{body_rows}'
+            f'<p class="kf-cta"><a href="/concierge/">What we charge →</a> · '
+            f'<a href="/contact/">Free intake →</a></p></aside>')
+
+
 ORG = {"@context": "https://schema.org", "@type": "Organization", "name": "Defiant",
        "alternateName": "Defiant Health", "url": SITE,
        "logo": SITE + "/assets/images/favicon.png",
@@ -478,6 +516,11 @@ def jsonld_for(name, meta, route, body):
     if t == "procedure":
         out.append(ld({"@context": "https://schema.org", "@type": "MedicalProcedure",
                        "name": name, "description": meta.get("description", ""), "url": SITE + route}))
+        out.append(ld({"@context": "https://schema.org", "@type": "MedicalWebPage",
+                       "name": title, "url": SITE + route, "lastReviewed": meta.get("updated", TODAY),
+                       "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".keyfacts"]},
+                       "mainContentOfPage": {"@type": "WebPageElement", "cssSelector": ".keyfacts"},
+                       "about": {"@type": "MedicalProcedure", "name": name}}))
         faq = [{"@type": "Question", "name": f"How much does {name} cost in Thailand?",
                 "acceptedAnswer": {"@type": "Answer",
                                    "text": (f"Indicative 2026 range: {meta.get('th_cost', 'quoted at intake')} in Thailand "
@@ -742,6 +785,8 @@ def page(name, meta, body_html, route, raw_body=""):
         body_html = f"<h1>{esc(title)}</h1>\n" + body_html
     if ov.get("intro"):
         body_html = body_html.replace("</h1>", "</h1>\n<p class=\"lead\">" + ov["intro"] + "</p>", 1)
+    if meta.get("type") == "procedure":
+        body_html = body_html.replace("</h1>", "</h1>\n" + render_keyfacts(name, meta, raw_body), 1)
 
     scripts = [PARALLAX_JS]
     if route == "/":
