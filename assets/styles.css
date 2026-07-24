@@ -231,7 +231,10 @@ footer a:hover { color: var(--magenta); }
 .pay:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--ink); }
 .pay-kofi { background: var(--magenta); color: #fff; }
 .pay-stripe { background: var(--purple); color: #fff; }
-.pay-paypal { background: var(--cyan); }
+.pay-paypal { background: #003087; color: #fff; }
+.pay-cashapp { background: #00d54b; color: #fff; }
+.pay-wise { background: #9fe870; color: #163300; }
+.pay-revolut { background: #0666eb; color: #fff; }
 .pay-btc { background: #f7931a; color: #fff; }
 .pay-note { font-size: .85rem; color: #666; margin: .3rem 0 1rem; }
 .btc-box {

@@ -40,7 +40,10 @@ PAY = {
     "kofi_concierge": "",    # optional exact Ko-fi $1,000 link
     "stripe_pack": "",       # Stripe Payment Link, fixed $100
     "stripe_concierge": "",  # Stripe Payment Link, fixed $1,000
-    "paypal": "",            # PayPal.me handle ONLY, e.g. defiantchiangmai
+    "paypal_url": "https://www.paypal.com/biz/profile/pfauhaus",  # PayPal Business profile
+    "cashapp": "NaNPeacock",  # Cash App $cashtag, without the $ (amount auto-fills)
+    "wise": "",              # Wise payment link (wise.com/pay/me/…)
+    "revolut": "",           # Revolut link (revolut.me/…)
     "btc": "",               # Bitcoin receiving address
 }
 PAY_AMOUNT = {"pack": 100, "concierge": 1000}
@@ -52,13 +55,19 @@ def render_pay(product):
     btns = [f'<a class="pay pay-kofi" href="{kofi}" rel="noopener" target="_blank">☕ Ko-fi — card or PayPal</a>']
     if PAY.get(f"stripe_{product}"):
         btns.append(f'<a class="pay pay-stripe" href="{PAY[f"stripe_{product}"]}" rel="noopener" target="_blank">💳 Card (Stripe)</a>')
-    if PAY.get("paypal"):
-        btns.append(f'<a class="pay pay-paypal" href="https://paypal.me/{PAY["paypal"]}/{amt}" rel="noopener" target="_blank">🅿️ PayPal — ${amt}</a>')
+    if PAY.get("paypal_url"):
+        btns.append(f'<a class="pay pay-paypal" href="{PAY["paypal_url"]}" rel="noopener" target="_blank">🅿️ PayPal — ${amt}</a>')
+    if PAY.get("cashapp"):
+        btns.append(f'<a class="pay pay-cashapp" href="https://cash.app/${PAY["cashapp"]}/{amt}" rel="noopener" target="_blank">💵 Cash App — ${amt}</a>')
+    if PAY.get("wise"):
+        btns.append(f'<a class="pay pay-wise" href="{PAY["wise"]}" rel="noopener" target="_blank">🌐 Wise</a>')
+    if PAY.get("revolut"):
+        btns.append(f'<a class="pay pay-revolut" href="{PAY["revolut"]}" rel="noopener" target="_blank">💠 Revolut</a>')
     if PAY.get("btc"):
         btns.append(f'<button class="pay pay-btc" type="button" data-btc="{PAY["btc"]}" data-amt="{amt}">₿ Bitcoin</button>')
-    note = ("" if (PAY.get(f"stripe_{product}") and PAY.get("paypal") and PAY.get("btc"))
-            else '<p class="pay-note">Stripe / PayPal / crypto coming online — for now Ko-fi takes '
-                 'card &amp; PayPal instantly, or <a href="/contact/">ask us for an invoice</a>.</p>')
+    note = ("" if PAY.get(f"stripe_{product}")
+            else '<p class="pay-note">The buttons above all work now. Want a Stripe card link '
+                 'or crypto instead? <a href="/contact/">Ask us</a>.</p>')
     return f'<div class="pay-row" data-amount="{amt}">' + "".join(btns) + "</div>" + note
 
 
