@@ -135,6 +135,7 @@ def collect_notes():
     add(PUB / "=Partners.md", "/partners/")
     add(PUB / "=Concierge.md", "/concierge/")
     add(PUB / "=Estradiol.md", "/estradiol/")
+    add(PUB / "=DTV.md", "/dtv/")
     add(PUB / "=VA-FMP.md", "/va-fmp/")
     add(PUB / "=TH.md", "/th/")
     add(PUB / "=Subscribe.md", "/subscribe/")

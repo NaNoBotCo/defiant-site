@@ -40,6 +40,7 @@ happened. You get a plan, not a brochure.
 - [[=Destinations|Chiang Mai · Bangkok · Phuket →]]
 - [[=Estradiol|Can't find your estradiol cream? Here's the Thai name →]]
 - [[=VA-FMP|Veterans: your VA benefits work in Thailand (the FMP) →]]
+- [[=DTV|Stay long-term for treatment: the DTV medical visa →]]
 - [[=Subscribe|Get the occasional dispatch — new procedures, price moves →]]
 
 ## US expat services
@@ -540,6 +541,78 @@ Direct-ish routing from most US hubs via Tokyo/Seoul/Taipei/Doha; strong 4G/5G e
 
 ---
 *Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+
+
+---
+
+# The DTV Medical Visa — Stay in Thailand as Long as Your Treatment Takes
+URL: https://defiant.to/dtv/
+
+# The DTV medical visa — stay as long as your treatment takes
+
+Most medical tourists burn a 60-day tourist stamp and race the clock home. You
+don't have to. Thailand's **Destination Thailand Visa (DTV)** has a
+**medical-treatment category** built for exactly this: a **5-year, multiple-entry**
+visa that lets you stay **up to 180 days per visit** (extendable once by another
+180) to get your care done properly.
+
+Dental work across several trips, a surgery plus real recovery, ongoing HRT, rehab,
+a treatment plan that simply doesn't fit in a tourist stamp — this is the visa for it.
+
+*Not legal or immigration advice — Defiant is a concierge, not the Thai MFA. Every
+figure here is from public sources (linked below); the embassy has the final say.
+We run the logistics; we don't issue the visa.*
+
+## What it needs — and exactly where people get stuck
+
+The visa itself is not the hard part. **The paperwork is** — because all of it has
+to come from a Thai clinic that knows how to produce it:
+
+
+| Requirement | The catch |
+|---|---|
+| **Appointment / invitation letter** from a licensed Thai hospital or clinic | On letterhead, signed and stamped — many clinics don't know the format the embassy wants |
+| **Treatment plan** from the physician — diagnosis, procedure, **duration** | A plan of **6+ months** strongly improves approval; it must be signed and stamped |
+| **Clinic registration certificate** proving it's licensed in Thailand | You need the clinic to actually hand this over — some hesitate |
+| **Proof of funds — ฿500,000** | Recent bank statements, or a sponsorship letter |
+
+
+**The bottleneck isn't the visa — it's finding a clinic that produces these
+documents correctly**, without you chasing staff for weeks in a language you don't
+speak. A clinic that fumbles the letter costs you the application.
+
+## Now add insurance, and the clinic list gets even shorter
+
+If you also want to claim any of it back — **VA FMP, US private insurance,
+FSA/HSA** — you need a *second* stack done right: English itemized billing with the
+diagnosis codes your payer demands. A clinic that nails the DTV letter but hands you
+a Thai-language receipt just cost you the claim.
+
+Straight talk on each:
+
+- **VA FMP (veterans):** yes — for service-connected conditions, and a long-stay
+  DTV is perfect for it. See **[[=VA-FMP|the FMP walkthrough]]**.
+- **US private insurance / FSA / HSA:** many plans reimburse international care with
+  the right English documentation. We prepare it in the shape your insurer accepts.
+- **Medicare:** plainly — Original Medicare does **not** travel. It will not cover
+  planned care abroad. That's US law, not a Defiant limitation, and it's a big
+  reason retirees here simply pay cash Thai prices (still a fraction of home). We'll
+  tell you where a claim is real and where it isn't *before* you spend a baht.
+
+## This is the whole job we do
+
+Defiant routes you to a clinic that produces **both** stacks — DTV supporting
+documents *and* claim-ready English billing — coordinates the signed treatment-plan
+letter and the registration certificate, and hands you an application that actually
+goes through. One course of care, one visa, one paperwork trail that holds.
+
+**[[=Contact|Book a free intake call →]]** — tell us the treatment and roughly how
+long, and we'll map the visa *and* the claims before you commit to anything.
+
+---
+*Sources: Thai Ministry of Foreign Affairs DTV checklist; Siam Legal DTV guide;
+US VA Foreign Medical Program; US CMS on Medicare abroad. Immigration rules change —
+confirm current requirements with a Thai embassy or consulate before you apply.*
 
 
 ---
@@ -1700,6 +1773,16 @@ URL: https://defiant.to/partners/
 - **ดูแลนัดหมาย เอกสาร ประวัติ และการติดตามผล** แทนท่าน
 - **จัดบิลและเอกสารเป็นภาษาอังกฤษ** ที่คนไข้เอาไปเบิกประกันหรือ VA ได้จริง
 
+## เอกสารคือคอขวดของท่านหรือเปล่า? เราช่วยได้
+
+คนไข้ต่างชาติจำนวนมากอยากใช้ **วีซ่า DTV ประเภทรักษาพยาบาล** เพื่ออยู่รักษาในไทยระยะยาว
+แต่ติดตรงหา**คลินิกที่ทำเอกสารให้ถูกต้องไม่ได้** — จดหมายเชิญ แผนการรักษาที่เซ็นและ
+ประทับตรา ใบอนุญาตคลินิก และถ้าคนไข้ต้องเบิกประกันสหรัฐ / VA / FMP ก็ยิ่งต้องมีบิล
+ภาษาอังกฤษที่ถูกต้อง
+
+ถ้านี่คือคอขวดของท่าน — **เราช่วยจัดการเอกสารทั้งหมดให้** ท่านแค่รักษา เราดูแลกระดาษ
+และวีซ่าให้เอง แล้วคนไข้กลุ่มนี้ (ที่อยู่ยาวและจ่ายจริง) ก็จะมาหาท่านได้
+
 ## ขั้นตอนง่าย ๆ — how it works
 
 1. **เราลงประกาศคลินิกของท่านบนเว็บ ฟรี** — ใช้เฉพาะข้อมูลที่ท่านตรวจและอนุมัติแล้ว
@@ -1761,6 +1844,15 @@ No English-speaking staff required. We **screen patients** (only suitable ones
 reach you), send a **Thai↔English interpreter** to every appointment, manage
 **appointments, records and follow-up**, and produce **English billing** that
 actually clears insurance and VA claims.
+
+## Is paperwork your bottleneck? We handle it.
+
+Many foreign patients want the **DTV medical visa** to stay long-term for care, but
+can't find a clinic that produces the documents correctly — the invitation letter,
+a signed and stamped treatment plan, the clinic registration certificate, and (for
+US insurance / VA / FMP) claim-ready English billing. If that admin is your
+bottleneck, **we handle the whole paper trail and the visa** — you just treat, and
+these long-staying, paying patients can finally reach you.
 
 ## How it works
 
@@ -4346,6 +4438,10 @@ real client outcomes — ask us for the current one.
 - **We are not the VA and can't change a rating or a decision.** What we do:
  help you register, point you at FMP-ready hospitals, send an interpreter, and
  keep your paperwork clean so claims actually get paid.
+
+*Staying for a longer course of care?* Pair your FMP benefits with the
+**[[=DTV|DTV medical visa]]** — 5 years, multiple entry, up to 180 days a visit,
+built for exactly this. We line up the visa paperwork alongside the FMP claim.
 
 ## Let us handle the maze
 
