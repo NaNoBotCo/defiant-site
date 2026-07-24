@@ -51,20 +51,24 @@ PAY_AMOUNT = {"pack": 100, "concierge": 1000}
 
 def render_pay(product):
     amt = PAY_AMOUNT[product]
-    kofi = PAY.get(f"kofi_{product}") or KOFI
-    btns = [f'<a class="pay pay-kofi" href="{kofi}" rel="noopener" target="_blank">☕ Ko-fi — card or PayPal</a>']
+    disp = f"${amt:,}"                       # $1,000 in labels; URLs stay comma-less
+    r = {"kofi": f'<a class="pay pay-kofi" href="{PAY.get(f"kofi_{product}") or KOFI}" rel="noopener" target="_blank">☕ Ko-fi — card or PayPal</a>'}
     if PAY.get(f"stripe_{product}"):
-        btns.append(f'<a class="pay pay-stripe" href="{PAY[f"stripe_{product}"]}" rel="noopener" target="_blank">💳 Card (Stripe)</a>')
+        r["stripe"] = f'<a class="pay pay-stripe" href="{PAY[f"stripe_{product}"]}" rel="noopener" target="_blank">💳 Card (Stripe)</a>'
     if PAY.get("paypal_url"):
-        btns.append(f'<a class="pay pay-paypal" href="{PAY["paypal_url"]}" rel="noopener" target="_blank">🅿️ PayPal — ${amt}</a>')
+        r["paypal"] = f'<a class="pay pay-paypal" href="{PAY["paypal_url"]}" rel="noopener" target="_blank">🅿️ PayPal — {disp}</a>'
     if PAY.get("cashapp"):
-        btns.append(f'<a class="pay pay-cashapp" href="https://cash.app/${PAY["cashapp"]}/{amt}" rel="noopener" target="_blank">💵 Cash App — ${amt}</a>')
+        r["cashapp"] = f'<a class="pay pay-cashapp" href="https://cash.app/${PAY["cashapp"]}/{amt}" rel="noopener" target="_blank">💵 Cash App — {disp}</a>'
     if PAY.get("wise"):
-        btns.append(f'<a class="pay pay-wise" href="{PAY["wise"]}" rel="noopener" target="_blank">🌐 Wise</a>')
+        r["wise"] = f'<a class="pay pay-wise" href="{PAY["wise"]}" rel="noopener" target="_blank">🌐 Wise</a>'
     if PAY.get("revolut"):
-        btns.append(f'<a class="pay pay-revolut" href="{PAY["revolut"]}" rel="noopener" target="_blank">💠 Revolut</a>')
+        r["revolut"] = f'<a class="pay pay-revolut" href="{PAY["revolut"]}" rel="noopener" target="_blank">💠 Revolut</a>'
     if PAY.get("btc"):
-        btns.append(f'<button class="pay pay-btc" type="button" data-btc="{PAY["btc"]}" data-amt="{amt}">₿ Bitcoin</button>')
+        r["btc"] = f'<button class="pay pay-btc" type="button" data-btc="{PAY["btc"]}" data-amt="{amt}">₿ Bitcoin</button>'
+    # High-ticket leads with PayPal Business (buyer recourse); low-ticket with Cash App (US, one-tap).
+    order = (["paypal", "stripe", "kofi", "cashapp", "wise", "revolut", "btc"] if product == "concierge"
+             else ["cashapp", "kofi", "paypal", "stripe", "wise", "revolut", "btc"])
+    btns = [r[k] for k in order if k in r]
     note = ("" if PAY.get(f"stripe_{product}")
             else '<p class="pay-note">The buttons above all work now. Want a Stripe card link '
                  'or crypto instead? <a href="/contact/">Ask us</a>.</p>')
