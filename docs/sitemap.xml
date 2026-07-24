@@ -3,6 +3,7 @@
   <url><loc>https://defiant.to/</loc><lastmod>2026-07-25</lastmod><priority>1.0</priority></url>
   <url><loc>https://defiant.to/about/</loc><lastmod>2026-07-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://defiant.to/articles/community-flags/</loc><lastmod>2026-07-23</lastmod><priority>0.6</priority></url>
+  <url><loc>https://defiant.to/brain/</loc><lastmod>2026-07-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://defiant.to/concierge/</loc><lastmod>2026-07-24</lastmod><priority>0.8</priority></url>
   <url><loc>https://defiant.to/contact/</loc><lastmod>2026-07-23</lastmod><priority>0.8</priority></url>
   <url><loc>https://defiant.to/destinations/</loc><lastmod>2026-07-23</lastmod><priority>0.8</priority></url>
@@ -38,7 +39,10 @@
   <url><loc>https://defiant.to/hospitals/suporn-clinic/</loc><lastmod>2026-07-23</lastmod><priority>0.6</priority></url>
   <url><loc>https://defiant.to/hospitals/vejthani-hospital/</loc><lastmod>2026-07-23</lastmod><priority>0.6</priority></url>
   <url><loc>https://defiant.to/hospitals/yanhee-international-hospital/</loc><lastmod>2026-07-23</lastmod><priority>0.6</priority></url>
+  <url><loc>https://defiant.to/longevity/</loc><lastmod>2026-07-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://defiant.to/partners/</loc><lastmod>2026-07-24</lastmod><priority>0.8</priority></url>
+  <url><loc>https://defiant.to/pelvic/</loc><lastmod>2026-07-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://defiant.to/physiotherapy/</loc><lastmod>2026-07-25</lastmod><priority>0.8</priority></url>
   <url><loc>https://defiant.to/privacy/</loc><lastmod>2026-07-23</lastmod><priority>0.8</priority></url>
   <url><loc>https://defiant.to/procedures/</loc><lastmod>2026-07-23</lastmod><priority>0.8</priority></url>
   <url><loc>https://defiant.to/procedures/abdominoplasty-tummy-tuck/</loc><lastmod>2026-07-23</lastmod><priority>0.6</priority></url>

@@ -32,6 +32,10 @@ who live here.
 - [[=DTV|Stay long-term for treatment — the DTV medical visa →]]
 - [[=Senior-Living|Senior & dementia care — full care at a fraction of Western cost →]]
 - [[=Glowup|The lunchtime glowup — no-downtime aesthetics to stack on your trip →]]
+- [[=Longevity|Longevity & regenerative medicine — the treatments the US won't approve yet →]]
+- [[=Brain|Brain stimulation — TMS, tDCS & neurofeedback for mood and focus →]]
+- [[=Pelvic|Pelvic & sexual wellness — Emsella, shockwave, PRP shots →]]
+- [[=Physiotherapy|Physiotherapy & rehab — recover where it's affordable and unhurried →]]
 - [[=Estradiol|Can't find your HRT / estradiol? Here's the Thai name →]]
 - [[=Hospitals|The hospitals & clinics we route to →]]
 
@@ -343,6 +347,86 @@ URL: https://defiant.to/articles/community-flags/
  - Green: attraction to nonbinary
 
  - Blue: attraction to men
+
+
+---
+
+# Brain Stimulation in Thailand — TMS, tDCS & Neurofeedback for Mood and Focus
+URL: https://defiant.to/brain/
+
+# The magnetic and electrical things they do to your brain
+
+There's a whole class of treatments that nudge your brain with magnetic fields or
+tiny electrical currents — to lift depression, sharpen focus, or steady mood. Some
+of it is established medicine. Some of it is the frontier the US hasn't caught up to.
+Thailand offers both, and we'll tell you which is which.
+
+*Not medical advice — Defiant is a concierge, not a clinic. Mood and cognition are
+serious; this is information, not treatment. We route to real medical facilities with
+real clinicians, never a wellness booth with a headset.*
+
+## What's actually on offer
+
+- **TMS (transcranial magnetic stimulation)** — *Evidence: established.* Magnetic
+  pulses to targeted brain regions. **FDA-approved for depression** (since 2008), and
+  for OCD and smoking cessation. This is real, mainstream psychiatry — just far
+  cheaper and more accessible in Thailand than a US course, which insurance loves to
+  deny.
+- **tDCS (transcranial direct current stimulation)** — *Evidence: early, promising.*
+  A gentle current to modulate cortical activity, studied for mood, focus, and
+  cognition. The US hasn't approved it for enhancement — but the mechanism is real
+  and the research is active. "Not approved" here means "the FDA is slow," not
+  "doesn't work." You decide.
+- **Neurofeedback** — *Evidence: mixed, plausible.* EEG-based training that teaches
+  you to shift your own brain states, used for ADHD, anxiety, and focus. Evidence is
+  uneven and the field oversells; done at a serious clinic it's a real tool, not
+  magic.
+
+## The "smarter and happier" question, straight
+
+**Happier** has the stronger case: TMS for depression is genuine, established
+medicine. **Smarter** is the frontier — tDCS and neurofeedback for cognitive
+enhancement are early science, not settled, and anyone promising a genius upgrade is
+selling you a headset. What's true: the mechanisms are real, the US is dragging its
+feet, and Thailand lets you try the emerging stuff at a fraction of the cost. We just
+won't pretend the early stuff is proven.
+
+## Why Thailand
+
+A full TMS course in the US runs thousands and fights your insurer the whole way.
+Here it's a fraction of that, available without the gatekeeping, at real hospitals.
+For the emerging treatments, Thailand simply lets you access them — under regulation,
+with a clinician — years before the US will.
+
+## FAQ
+
+### Does TMS really work for depression?
+
+Yes — TMS is FDA-approved for treatment-resistant depression and backed by solid
+evidence. It's established psychiatry, not a wellness fad. Thailand's advantage is
+cost and access, not a different treatment.
+
+### Can brain stimulation actually make me smarter?
+
+Straight answer: the cognitive-enhancement side (tDCS, neurofeedback for "focus" and
+"IQ") is **early, unsettled science** — real mechanisms, promising signals, no
+guarantees, and plenty of overselling. It may pan out; it isn't proven yet. We'll
+tell you exactly where the evidence stands so you're deciding, not being sold.
+
+### Is it safe?
+
+TMS and tDCS have strong safety records at proper clinics with correct screening —
+which is the whole point of using a real medical facility rather than a consumer
+gadget. Certain conditions (seizure history, metal implants) matter; screening
+happens first. We route accordingly.
+
+### How much does a TMS course cost versus the US?
+
+Typically a fraction of US pricing, which routinely runs into five figures per
+course and gets denied by insurers. Quoted in writing before you start.
+
+**Want to explore it?** [[=Contact|Book a free intake call]] — tell us what you're
+after (relief, focus, or just curious) and we'll map real clinics and real evidence.
 
 
 ---
@@ -912,6 +996,29 @@ licensed clinic with a real clinician and genuine product — more on that below
 | **Glutathione / vitamin IV** | Brightening drip | None | $30–80 |
 
 
+## Skin tightening — the deepest menu in Asia
+
+Thailand offers more skin-tightening modalities than almost anywhere, and they aren't
+interchangeable:
+
+- **HIFU** (Ultherapy and generics) — focused ultrasound, tightens deep, no downtime.
+- **RF (radiofrequency)** — heat-based: **Thermage** (one big session), **Morpheus8**
+  and RF-microneedling (tightening plus texture, minimal downtime), **Sofwave** and
+  newer devices.
+- **Thread lifts (PDO)** — a mechanical, non-surgical lift under the skin.
+
+Which one depends on your skin, budget, and how much (if any) downtime you'll accept.
+We match the device to the face, not the marketing — and none of it needs a recovery
+week. Not enough lift? That's when a [[Facelift|surgical facelift]] enters the
+conversation.
+
+## Tattoo removal
+
+**Pico laser** shatters ink into particles your body clears — all colours, including
+the stubborn blues and greens older lasers couldn't touch. It takes several sessions
+spaced weeks apart, so it suits repeat trips or a longer stay. Thailand's per-session
+price is a fraction of US laser-clinic rates.
+
 ## The stacking play
 
 Because the downtime is near zero, these layer beautifully onto a trip you're
@@ -966,6 +1073,19 @@ repeatable). A **PDO thread lift** gives a slightly stronger, still-non-surgical
 lift for 1–2 years. A **[[Facelift|surgical facelift]]** repositions the deep
 tissue for a 10–15-year result. Many people climb the ladder — start with HIFU and
 threads, move to surgery years later.
+
+### What's the best skin-tightening treatment?
+
+There isn't one "best" — it depends on your skin and how much downtime you'll take.
+HIFU and Thermage tighten deep with zero downtime; Morpheus8 and RF-microneedling add
+texture and take a few days; thread lifts give a mechanical lift. We match the device
+to your face rather than to whatever a clinic is promoting this month.
+
+### Does tattoo removal really get all the ink out?
+
+Modern Pico lasers clear most tattoos, including the colours older lasers struggled
+with, over several sessions spaced weeks apart. Full clearance depends on the ink,
+age, and colours — we set clear expectations before you start, not after.
 
 ### How much do these cost compared to the US?
 
@@ -1888,6 +2008,100 @@ A full general hospital that happens to run one of the largest cosmetic-surgery 
 
 ---
 
+# Longevity & Regenerative Medicine in Thailand — The Treatments the US Won't Approve Yet
+URL: https://defiant.to/longevity/
+
+# Longevity medicine in Thailand
+
+Here's the thing the US healthcare system won't tell you: **"not FDA-approved" is not
+the same as "doesn't work."** The FDA is slow, conservative, and — as our
+[[=About|manifesto]] puts it plainly — captured. A treatment with a real mechanism
+and promising early data can sit in that gap for a decade while the rest of the
+world uses it.
+
+Thailand is where a lot of that medicine actually happens — under Ministry of Public
+Health regulation, at a fraction of US cost, at real hospitals rather than
+back-alley clinics. This page is the map. We tell you where the evidence is solid,
+where it's early, and where it's frankly hype — and then **you decide**, which is
+more than the FDA lets you do at home.
+
+*Not medical advice — Defiant is a concierge, not a provider. "Regenerative" is a
+frontier: mechanisms are real, evidence ranges from strong to early, and results
+vary. We route only to regulated facilities with named physicians and published
+protocols — and we will not send you anywhere selling a "cure."*
+
+## PRP & growth factors
+
+Your own blood, spun down to concentrate the platelets and growth factors your body
+already uses to heal, then re-injected where you need repair.
+
+- **Joints & tendons** — *Evidence: real and growing.* PRP for knee osteoarthritis
+  and stubborn tendon injuries has genuine trials behind it; many orthopedic patients
+  get meaningful relief. See also [[Shockwave Therapy]] for tendons.
+- **Face ("vampire facial") & hair** — *Evidence: emerging.* Popular, plausible
+  mechanism (your own growth factors stimulating collagen and follicles), results
+  real but variable. Pairs naturally with [[=Glowup|the glowup menu]].
+- **Growth-factor & exosome therapies** — *Evidence: early frontier.* The next layer
+  — see [[Exosome Therapy]] and [[Peptide Injections]]. Exciting biology, few
+  approved indications anywhere, which is exactly why the US restricts it and
+  Thailand lets you access it with eyes open.
+
+## The regenerative & longevity menu
+
+Thailand runs the treatments the US rations or bans outright. Each has its own page
+with the evidence graded straight:
+
+- [[Stem Cell Therapy]] — regenerative frontier; strongest for orthopedic use
+- [[NAD+ IV Therapy]] — the longevity crowd's favorite drip
+- [[Hyperbaric Oxygen Therapy (HBOT)]] — proven for its indications, researched for more
+- [[Peptide Injections]] — BPC-157, TB-500 and the recovery-peptide alphabet
+- [[Exosome Therapy]] — cell-free regenerative signaling
+- [[Whole-Body Cryotherapy]] — recovery and mood
+- [[Therapeutic Plasma Exchange]] — the "plasma dilution" longevity bet
+- [[NK Cell Therapy]] — immune-cell expansion
+
+## Why Thailand, straight up
+
+The US makes you wait a decade and charges you for the privilege. Thailand gives you
+**regulated access now, at 20–40% of the cost**, and we make sure it's a real
+hospital with a real doctor and a written protocol — not an Instagram clinic
+promising to reverse aging. That difference is the entire service.
+
+## FAQ
+
+### Is regenerative medicine in Thailand legal and safe?
+
+Yes — Thailand's Ministry of Public Health regulates it, and reputable hospitals
+work within that framework. "Safe" depends entirely on the facility: our rule is a
+regulated hospital or licensed clinic, a named physician, and a published protocol.
+We blacklist anyone promising a cure, and so should you.
+
+### Does "not FDA-approved" mean it doesn't work?
+
+No. The FDA is famously slow and cautious, and plenty of treatments with real
+mechanisms and solid overseas track records aren't approved in the US — for
+regulatory and commercial reasons, not because they fail. That said, "early
+evidence" is real too: we tell you which bucket each treatment is in so you're
+deciding with open eyes, not marketing.
+
+### How much does longevity treatment cost versus the US?
+
+Typically **20–40% of US or where-it's-even-available pricing**, and often the US
+doesn't offer it at all. Every program is quoted in writing before you commit.
+
+### Can I combine longevity treatments with a trip I'm already taking?
+
+Absolutely — many clients stack a regenerative program onto a surgery recovery, a
+[[=Glowup|glowup]], or a longer [[=DTV|DTV visa]] stay. We build the schedule around
+your main reason for coming.
+
+**Curious?** [[=Contact|Book a free intake call]] — tell us what you're chasing
+(joints, energy, skin, the long game) and we'll map the real options and real
+evidence.
+
+
+---
+
 # ร่วมเป็นคลินิกพันธมิตร — Partner Clinics & Hospitals
 URL: https://defiant.to/partners/
 
@@ -2040,6 +2254,144 @@ physiotherapy · dental · ophthalmology · orthopedics · **FMP-literate hospit
 
 **Contact — LINE: `defiant.to`** · or the [[=Contact|contact form]] · a human reads
 every message and replies within a day. ยินดีที่ได้รู้จักค่ะ.
+
+
+---
+
+# Pelvic & Sexual Wellness in Thailand — Emsella, Shockwave, PRP Shots
+URL: https://defiant.to/pelvic/
+
+# Sprucing up the undercarriage
+
+Nobody back home will give you a straight, un-embarrassed conversation about pelvic
+floor, incontinence, or sexual function — and if they do, the treatments cost a
+fortune or aren't offered at all. Thailand treats this like any other wellness
+service: matter-of-fact, private, affordable. Here's the no-nonsense menu and
+where the evidence actually stands.
+
+*Not medical advice — Defiant is a concierge, not a clinic. This is grown-up
+information. We route to licensed medical facilities with real clinicians, and treat
+your privacy as the whole point.*
+
+## The menu
+
+- **Emsella — the "EMS chair"** — *Evidence: solid for incontinence.* You sit
+  (fully clothed) on a chair that fires electromagnetic pulses to contract your
+  pelvic-floor muscles thousands of times per session. **FDA-cleared for urinary
+  incontinence**, and increasingly used for pelvic-floor strength and sexual
+  wellness. Zero downtime, no anesthesia — the most established thing on this list.
+- **Low-intensity shockwave (Li-ESWT) for erectile function** — *Evidence:
+  emerging, promising.* Acoustic waves aimed at improving blood flow. Not FDA-
+  approved for ED (used off-label), but there are real trials and a plausible
+  mechanism. The US drags; Thailand offers it now. You decide with open eyes.
+- **PRP shots — the P-shot & O-shot** — *Evidence: early.* Your own platelet-rich
+  plasma injected for sexual wellness (see [[=Longevity|PRP & growth factors]]).
+  Popular, plausible, evidence still thin — real, not miraculous.
+
+## Why Thailand
+
+The US either won't discuss it, doesn't offer it, or charges specialist prices with a
+side of shame. Thailand's private clinics do this work routinely, discreetly, and at
+a fraction of the cost — and we make sure it's a licensed medical facility, not a spa
+with a machine it doesn't understand.
+
+## FAQ
+
+### Does the Emsella chair actually work?
+
+For urinary incontinence and pelvic-floor strength, yes — it's FDA-cleared and
+backed by real evidence, and it's completely non-invasive (you stay clothed, there's
+no downtime). Its use for sexual wellness is newer but built on the same real
+mechanism.
+
+### Is shockwave for ED legitimate?
+
+It's **emerging** — promising trials and a real mechanism (improving blood flow), but
+not FDA-approved for ED, so it's used off-label. That's the FDA being slow, not proof
+it fails; it's also not a guarantee. We'll tell you exactly where the evidence sits so
+you choose knowingly.
+
+### Is any of this awkward or invasive?
+
+Emsella is done fully clothed, sitting in a chair. The others are quick clinic
+procedures. Thai clinics handle this discreetly and without judgment — genuinely one
+of the easier things to get done here. Your privacy is the service.
+
+### How much does it cost compared to the US?
+
+A fraction — and several of these the US barely offers. Emsella sessions, shockwave
+courses, and PRP shots are all quoted in writing before you commit.
+
+**Want a private conversation?** [[=Contact|Book a free intake call]] — discreet, no
+judgment, straight answers.
+
+
+---
+
+# Physiotherapy & Rehab in Thailand — Recover Where It's Affordable and Unhurried
+URL: https://defiant.to/physiotherapy/
+
+# Physiotherapy & rehab in Thailand
+
+This is the un-flashy one on the wellness list, and maybe the most useful. Physio
+isn't frontier science — it's established, evidence-based medicine. The difference in
+Thailand isn't the treatment; it's that you get **more of it, at a fraction of the
+cost, with a therapist who actually has time for you.**
+
+Back home, physio is 15 rushed minutes between six other patients, rationed by your
+insurer. Here it's an hour of one-on-one, daily if you need it, for what a single US
+session costs — because labour, not quality, is what's cheap.
+
+*Not medical advice — Defiant is a concierge, not a clinic. We route to licensed
+physiotherapists and rehab centres and coordinate the plan with your surgeon.*
+
+## What it's for
+
+- **Post-surgery rehab** — the recovery that decides whether your new [[Knee Replacement|knee]],
+  [[Hip Replacement|hip]], or [[Spinal Surgery|spine]] surgery actually works. Pair
+  it with the procedure and recover where it's cheap and quiet.
+- **Sports & orthopedic injuries** — tendons, joints, backs; often alongside
+  [[Shockwave Therapy]] for stubborn cases.
+- **Neuro rehabilitation** — stroke and neurological recovery, where intensive daily
+  therapy (affordable here, rationed at home) genuinely changes outcomes.
+- **Chronic pain & mobility** — the long, patient work that needs consistent hands-on
+  time.
+
+## Why it pairs perfectly with a trip
+
+Every surgery has a recovery tail, and that tail is where physio lives. Come for the
+[[=Procedures|procedure]], stay on a longer [[=DTV|DTV visa]] if you need weeks of
+rehab, and recover with daily one-on-one therapy in a Thai hotel instead of fighting
+your insurer for a third session at home. We build the whole arc — surgery, physio,
+housing — as one plan.
+
+## FAQ
+
+### Is physiotherapy in Thailand as good as at home?
+
+The technique is the same evidence-based physiotherapy — the profession is
+licensed and trained to international standards. What's different is **volume and
+attention**: you get more sessions, longer, one-on-one, because it costs a fraction
+of Western rates. For recovery, more quality therapy time is exactly what improves
+outcomes.
+
+### How much does physio cost compared to the US?
+
+Often a fraction — a full hour of one-on-one therapy for around what a rushed US
+copay-plus-session runs, without the insurer rationing how many you're "allowed."
+
+### Can I do rehab after surgery I had at home?
+
+Yes — many people fly in specifically for intensive rehab after a surgery done
+elsewhere. We coordinate with your surgeon's protocol and build a daily plan.
+
+### How long should I plan to stay for rehab?
+
+Depends on the case — a knee might want a few weeks, neuro rehab longer. For longer
+courses we set up the [[=DTV|DTV visa]] so you can stay as long as recovery needs.
+
+**Planning a recovery?** [[=Contact|Book a free intake call]] and we'll build the
+surgery-plus-rehab plan around you.
 
 
 ---
