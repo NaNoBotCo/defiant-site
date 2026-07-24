@@ -80,6 +80,7 @@ def collect_notes():
     add(PUB / "=Hospitals.md", "/hospitals/")
     add(PUB / "=Destinations.md", "/destinations/")
     add(PUB / "=Partners.md", "/partners/")
+    add(PUB / "=Concierge.md", "/concierge/")
     add(PUB / "=Estradiol.md", "/estradiol/")
     add(PUB / "=VA-FMP.md", "/va-fmp/")
     add(PUB / "=TH.md", "/th/")
@@ -526,8 +527,8 @@ is stuck in the US healthcare machine: the whole site is the escape map. Read fa
 """
 
 NAV = ('<nav><a class="front" href="/partners/">For Clinics 🏥</a>'
-       '<a href="/procedures/">Prices</a><a href="/hospitals/">Hospitals</a>'
-       '<a href="/destinations/">Destinations</a><a class="th" href="/th/">ไทย 🇹🇭</a>'
+       '<a href="/procedures/">Prices</a><a href="/concierge/">Concierge</a>'
+       '<a href="/hospitals/">Hospitals</a><a class="th" href="/th/">ไทย 🇹🇭</a>'
        '<a class="cta" href="/contact/">Blink Twice</a></nav>')
 
 FOOTER = f"""<footer>

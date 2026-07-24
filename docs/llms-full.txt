@@ -35,6 +35,7 @@ recovery housing, and hand you back to a provider at home who knows what
 happened. You get a plan, not a brochure.
 
 - [[=Procedures|Procedures & real prices →]]
+- [[=Concierge|What it costs — concierge $1,000, or a DIY pack for $100 →]]
 - [[=Hospitals|Hospitals & clinics we trust →]]
 - [[=Destinations|Chiang Mai · Bangkok · Phuket →]]
 - [[=Estradiol|Can't find your estradiol cream? Here's the Thai name →]]
@@ -288,6 +289,118 @@ URL: https://defiant.to/articles/community-flags/
  - Green: attraction to nonbinary
 
  - Blue: attraction to men
+
+
+---
+
+# What It Costs — Concierge Packages & Radical Price Transparency
+URL: https://defiant.to/concierge/
+
+# What it costs. All of it.
+
+In America, you can't get a price. You call the hospital, you ask what a knee
+costs, and nobody — not the front desk, not billing, not your own insurer — will
+give you a straight number until the bill arrives and it's too late to argue.
+
+**Thailand is the opposite.** Clinics post their prices on the wall. Hospitals
+publish rate cards. They run promotions and openly undercut each other, because
+here, price is something you're *allowed* to know. That transparency is the whole
+reason care costs a fraction of what it does back home — and it's the thing Defiant
+is built around.
+
+So here's our half of the deal, in the same spirit: **exactly what we charge, in
+public, with no markup hidden inside a "package."**
+
+## How we price — radical transparency
+
+- **You always see the clinic's real price.** We gather actual quotes from multiple
+  clinics so you watch the price battle happen. We don't bury it.
+- **Our fee is a flat, published number — not a cut of your procedure.** We don't
+  make more when you spend more, so we have zero reason to steer you to the
+  expensive room. We route you to the *best* clinic, not the highest-paying one.
+- **If a clinic pays us a referral fee, that's their cost, not added to yours** —
+  and we'll tell you which ones do.
+
+That's the entire pitch: the straight-dealing broker America won't give you, in
+the one country that already runs on posted prices.
+
+---
+
+## 🥇 Defiant Concierge — $1,000
+
+Full white-glove. One flat fee covers the whole trip, start to finish:
+
+- **A dedicated human coordinator** (real person, reachable, not a chatbot)
+- **A professional medical interpreter with you at every appointment** — an actual
+  trained translator, so nothing about your body gets lost in Google Translate
+- **Real-price quotes gathered from multiple clinics** so you choose with the
+  numbers in front of you
+- **All the logistics:** appointments booked, records moved, English itemized
+  billing prepared for your insurance or VA claim
+- **Airport pickup and local transport help**
+- **Recovery-stay and accommodation setup**
+- **Aftercare follow-up** once you're home, and a hand-off to a provider there
+
+*One patient, one procedure trip. See expansion items below to tailor it.*
+
+**[[=Contact|Book a free intake call →]]** — we scope your trip, quote it straight,
+and you decide. No fee until you say go.
+
+### Expansion items — à la carte, prices posted
+
+Add only what you need. Everything here is published, not "call for pricing":
+
+
+| Add-on | Price |
+|---|---|
+| Extra interpreter day (beyond appointment days) | $120 / day |
+| VA-FMP paperwork handling (registration + claim prep) | $250 |
+| Additional procedure coordinated on the same trip | $150 |
+| Extended recovery concierge (check-ins, errands, meds) | $300 / week |
+| Companion / family coordination & support | $200 |
+| Airport medical transport (wheelchair, stretcher, nurse) | from $80 |
+| Long-stay / relocation add-on (visa, banking, housing) | quoted |
+
+
+*Prices are starting rates, confirmed in writing at booking.*
+
+---
+
+## 🛠️ Build-Your-Own Virtual Pack — $100
+
+Doing it yourself, but want the intel without a month of research and forum lurking?
+This is the DIY tier — **delivered digitally, no trip required:**
+
+- **The real Chiang Mai price for your procedure** — researched, not the inflated
+  "always on sale" sticker
+- **A vetted shortlist of clinics *with their actual prices*** so you can run the
+  price battle yourself
+- **The "what to ask / what to avoid" checklist** for your specific procedure
+- **Thai phrase cards** for the clinic counter and the pharmacy
+- **The relevant Defiant guides** (HRT / estradiol, VA-FMP, and more as they apply)
+- **Copy-paste message templates** to contact clinics, in Thai and English
+- **One round of email Q&A** with a human
+
+**$100, and it credits toward the full Concierge** if you upgrade later — so it's
+never money wasted.
+
+**[[=Contact|Get your pack →]]** — tell us the procedure, we build it, you decide.
+
+---
+
+## Why not just DIY for free?
+
+You can — the whole site is free, and we mean it (see [[=Procedures|the prices]],
+[[=Estradiol|the guides]], [[=VA-FMP|the VA-FMP walkthrough]]). The pack and the
+concierge exist for the two things a website can't do: **a real translator in the
+room**, and **someone who's done this a hundred times handling the parts that go
+wrong.** Pay for that, or don't. Either way you'll know the real price — which is
+more than America ever told you.
+
+---
+*Every figure here is a published Defiant rate. Clinic and procedure prices are
+indicative ranges confirmed in writing before you book — see the individual
+[[=Procedures|procedure pages]]. We are a concierge, not a healthcare provider.*
 
 
 ---
