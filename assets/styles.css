@@ -220,6 +220,17 @@ footer a:hover { color: var(--magenta); }
 .peacock { color: #555; margin-top: 1rem; }
 .pi { text-decoration: none; color: inherit; opacity: .5; margin-left: .6rem; }
 
+/* ---- trust tokens --------------------------------------------------------- */
+.accred {
+  display: inline-block; margin: 0 0 1rem; padding: .3rem .7rem;
+  background: var(--cyan); color: var(--ink); font-weight: 700; font-size: .9rem;
+  border: 2px solid var(--ink);
+}
+.reviewed {
+  margin: 2.5rem 0 0; padding-top: 1rem; border-top: 2px solid #eee;
+  font-size: .82rem; color: #7a7690; font-style: italic;
+}
+
 /* ---- key-facts answer capsule (AEO: the passage AI Overviews quote) ------- */
 .keyfacts {
   border: 3px solid var(--ink); box-shadow: 6px 6px 0 var(--cyan); background: #fff;

@@ -136,6 +136,7 @@ def collect_notes():
     add(PUB / "=Concierge.md", "/concierge/")
     add(PUB / "=Estradiol.md", "/estradiol/")
     add(PUB / "=DTV.md", "/dtv/")
+    add(PUB / "=Senior-Living.md", "/senior-living/")
     add(PUB / "=VA-FMP.md", "/va-fmp/")
     add(PUB / "=TH.md", "/th/")
     add(PUB / "=Subscribe.md", "/subscribe/")
@@ -471,6 +472,38 @@ def render_keyfacts(name, meta, body):
             f'<a href="/contact/">Free intake →</a></p></aside>')
 
 
+_MONTHS = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
+def fmt_date(iso):
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", iso or "")
+    if not m:
+        return iso or ""
+    y, mo, d = m.groups()
+    return f"{int(d)} {_MONTHS[int(mo)]} {y}"
+
+
+def extract_faqs(body):
+    """Pull a `## FAQ` (or `## Frequently asked…`) section: ### question → answer."""
+    m = re.search(r"^##\s*(?:FAQ|Frequently asked[^\n]*)$", body or "", re.M | re.I)
+    if not m:
+        return []
+    sec = body[m.end():]
+    nxt = re.search(r"^##\s", sec, re.M)      # stop at the next H2 (h3 questions are kept)
+    if nxt:
+        sec = sec[:nxt.start()]
+    out = []
+    for qm in re.finditer(r"^###\s*(.+?)\s*$([\s\S]*?)(?=^###\s|\Z)", sec, re.M):
+        q = qm.group(1).strip()
+        a = qm.group(2)
+        a = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", a)   # [text](url) -> text
+        a = re.sub(r"[*_`>#]|<!--.*?-->", "", a)
+        a = " ".join(a.split())
+        if q and a:
+            out.append((q, a[:900]))
+    return out
+
+
 ORG = {"@context": "https://schema.org", "@type": "Organization", "name": "Defiant",
        "alternateName": "Defiant Health", "url": SITE,
        "logo": SITE + "/assets/images/favicon.png",
@@ -532,6 +565,9 @@ def jsonld_for(name, meta, route, body):
             faq.append({"@type": "Question", "name": f"Where is {name} done in Thailand?",
                         "acceptedAnswer": {"@type": "Answer",
                                            "text": "Facilities Defiant routes to: " + ", ".join(hs) + "."}})
+        for q, a in extract_faqs(body):
+            faq.append({"@type": "Question", "name": q,
+                        "acceptedAnswer": {"@type": "Answer", "text": a}})
         out.append(ld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faq}))
     elif t == "hospital":
         out.append(ld({"@context": "https://schema.org", "@type": "Hospital", "name": name,
@@ -568,6 +604,14 @@ def jsonld_for(name, meta, route, body):
                         "Estrace or Premarin vaginal cream. For whole-body estradiol gel, ask for Oestrogel."}},
         ]
         out.append(ld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faq}))
+    # Any non-procedure page with a `## FAQ` section gets FAQPage schema too.
+    if not any('"@type": "FAQPage"' in s for s in out):
+        gfaq = extract_faqs(body)
+        if gfaq:
+            out.append(ld({"@context": "https://schema.org", "@type": "FAQPage",
+                           "mainEntity": [{"@type": "Question", "name": q,
+                                           "acceptedAnswer": {"@type": "Answer", "text": a}}
+                                          for q, a in gfaq]}))
     return out
 
 
@@ -787,6 +831,14 @@ def page(name, meta, body_html, route, raw_body=""):
         body_html = body_html.replace("</h1>", "</h1>\n<p class=\"lead\">" + ov["intro"] + "</p>", 1)
     if meta.get("type") == "procedure":
         body_html = body_html.replace("</h1>", "</h1>\n" + render_keyfacts(name, meta, raw_body), 1)
+    # Trust tokens: accreditation badge (hospitals) + a reviewed-date freshness stamp.
+    if meta.get("type") == "hospital" and meta.get("accreditation"):
+        body_html = body_html.replace(
+            "</h1>", f'</h1>\n<p class="accred">✔ {esc(meta["accreditation"])}-accredited '
+                     "· re-verified at intake</p>", 1)
+    if meta.get("type") in ("procedure", "guide", "hospital", "destination", "pricing") and meta.get("updated"):
+        body_html += (f'\n<p class="reviewed">Reviewed {fmt_date(meta["updated"])} by the Defiant '
+                      "team · every price is confirmed in writing before you book.</p>")
 
     scripts = [PARALLAX_JS]
     if route == "/":
