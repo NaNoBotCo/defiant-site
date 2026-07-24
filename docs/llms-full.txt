@@ -1,14 +1,14 @@
-# Defiant — Medical Tourism Concierge in Chiang Mai (Real Prices, Real Translator)
+# Defiant — Medical Tourism Concierge in Chiang Mai (Pay What the Locals Pay)
 URL: https://defiant.to/
 
 # DEFIANT
 
-## World-class care in Thailand. Real prices. A translator in the room.
+## World-class care in Thailand. Pay what the locals pay.
 
 Get the treatment you need in Chiang Mai for **50–80% less than the US** — surgery,
 dental, HRT, senior care, a glowup — with a **professional interpreter at every
-appointment** and **every price on the table** before you commit. We're the fixers
-who live here.
+appointment** and **every price on the table** before you commit. **No foreigner
+premium: you pay what a Thai patient pays.** We're the fixers who live here.
 
 
 
@@ -18,15 +18,19 @@ who live here.
   vetted — verified at intake, not just advertised.
 - **Flat fee, prices posted.** We charge a **published fee, not a cut of your
   procedure** — so we send you to the *best* clinic, never the highest-paying one.
-- **A real human answers.** Message us and a person — usually a founder — replies
-  within a day. No bot, no call-center.
+- **A human answers.** Message us and a person — usually a founder — replies within
+  a day. No bot, no call-center.
+- **No foreigner premium — just a language barrier.** Thai clinics post their prices
+  everywhere — on posters, in ads — and openly undercut each other to win you. You
+  pay what a Thai patient pays; the only way you'd feel ripped off is not being able
+  to read the sign. That's what our translators are for.
 - **We tell you when the answer is no.** Surrogacy is banned here; Medicare doesn't
   travel; ADHD stimulants are restricted. We say so, in public, before you spend a
   baht. Straight answers are the whole product.
 
 ## What are you here for?
 
-- [[=Procedures|Procedures & real prices — US vs Thailand →]]
+- [[=Procedures|Procedures & prices — US vs Thailand →]]
 - [[=Concierge|What it costs — $1,000 full concierge or a $100 DIY pack →]]
 - [[=VA-FMP|Veterans: your VA benefits work here (the FMP) →]]
 - [[=DTV|Stay long-term for treatment — the DTV medical visa →]]
@@ -53,9 +57,9 @@ who live here.
 ## Radical price transparency
 
 America won't tell you what care costs until the bill arrives. Thailand posts it on
-the wall and clinics compete openly. We do the same — real prices, our flat fee in
-public, no markup hidden inside a "package." That's the thing the US owes you and
-never gives: [[=Concierge|here's exactly what we charge →]]
+the wall and clinics compete openly. We do the same — the prices out in the open, our
+flat fee in public, no markup hidden inside a "package." That's the thing the US owes
+you and never gives: [[=Concierge|here's exactly what we charge →]]
 
 ## More than medicine
 
@@ -451,7 +455,7 @@ public, with no markup hidden inside a "package."**
 
 ## How we price — radical transparency
 
-- **You always see the clinic's real price.** We gather actual quotes from multiple
+- **You always see the clinic's posted price.** We gather actual quotes from multiple
   clinics so you watch the price battle happen. We don't bury it.
 - **Our fee is a flat, published number — not a cut of your procedure.** We don't
   make more when you spend more, so we have zero reason to steer you to the
@@ -538,8 +542,8 @@ You can — the whole site is free, and we mean it (see [[=Procedures|the prices
 [[=Estradiol|the guides]], [[=VA-FMP|the VA-FMP walkthrough]]). The pack and the
 concierge exist for the two things a website can't do: **a real translator in the
 room**, and **someone who's done this a hundred times handling the parts that go
-wrong.** Pay for that, or don't. Either way you'll know the real price — which is
-more than America ever told you.
+wrong.** Pay for that, or don't. Either way you'll know what it actually costs —
+which is more than America ever told you.
 
 ---
 *Every figure here is a published Defiant rate. Clinic and procedure prices are
