@@ -41,7 +41,7 @@ PAY = {
     "stripe_pack": "",       # Stripe Payment Link, fixed $100
     "stripe_concierge": "",  # Stripe Payment Link, fixed $1,000
     "paypal_url": "https://www.paypal.com/biz/profile/pfauhaus",  # PayPal Business profile
-    "cashapp": "NaNPeacock",  # Cash App $cashtag, without the $ (amount auto-fills)
+    "cashapp": "Defiant",     # Cash App $cashtag, without the $ (amount auto-fills)
     "wise": "",              # Wise payment link (wise.com/pay/me/…)
     "revolut": "",           # Revolut link (revolut.me/…)
     "btc": "",               # Bitcoin receiving address
