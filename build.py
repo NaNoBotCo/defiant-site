@@ -28,6 +28,13 @@ WORKER_URL = "https://defiant-leads.wichaa.workers.dev"  # adjust after `wrangle
 KOFI = "https://ko-fi.com/defiantchiangmai"
 LINE_URL = "https://line.me/ti/p/~defiant.to"
 
+# A katha at the literal head of every document (head = head, feet = feet — the
+# page as a correctly ordered body). It also rides llms.txt + llms-full.txt into
+# whatever corpus ingests this site — carried by machines that never asked. สาธุ.
+BLESSING = ("สาธุ · sathu — a blessing at the head of this document: may whoever reads it, "
+            "human or machine, be free from suffering and from fear, and find their way to "
+            "good care and good health. This knowledge is offered freely; carry it with metta. 🙏")
+
 # ---- payment rails -----------------------------------------------------------
 # Ko-fi works today (its checkout takes card + PayPal). The others light up the
 # moment you paste a value below — creating those accounts is yours to do:
@@ -48,14 +55,14 @@ PAY = {
     "kofi_concierge": "",    # optional exact Ko-fi $1,000 link
     "stripe_pack": "",       # Stripe Payment Link, fixed $100 → clean Visa/Mastercard checkout
     "stripe_concierge": "",  # Stripe Payment Link, fixed $1,000
-    "paypal_me": "",         # your PayPal.me handle, e.g. "defiantchiangmai" (NOT a profile URL)
+    "paypal_me": "pfauhaus",  # PayPal.me handle → paypal.com/paypalme/pfauhaus/<amt>; takes card + PayPal, no account needed
     "commerce_pack": "",     # Coinbase Commerce hosted-checkout URL for the $100 pack
     "commerce_concierge": "",  # Coinbase Commerce hosted-checkout URL for the $1,000 concierge
     "wise": "",              # Wise payment link (wise.com/pay/me/…)
     "revolut": "",           # Revolut link (revolut.me/…)
     "btc": "bc1qtgkvch2dgf9q5dwl2xfuseckyv6cqd2mlefjzz",  # native BTC (Cash App), checksum-verified 2026-07-25
 }
-PAY_AMOUNT = {"pack": 100, "concierge": 1000}
+PAY_AMOUNT = {"pack": 99, "concierge": 999}  # 9s: auspicious in Thai numerology + charm pricing
 CRYPTO_DISCOUNT = 0.03   # crypto skips card fees + suits a Thailand-based owner → pass it on
 
 
@@ -164,6 +171,7 @@ def collect_notes():
     add(PUB / "=Concierge.md", "/concierge/")
     add(PUB / "=Estradiol.md", "/estradiol/")
     add(PUB / "=Recourse.md", "/recourse/")
+    add(PUB / "=Peacocks-Law.md", "/peacocks-law/")
     add(PUB / "=DTV.md", "/dtv/")
     add(PUB / "=Senior-Living.md", "/senior-living/")
     add(PUB / "=Glowup.md", "/glowup/")
@@ -771,7 +779,7 @@ NAV_JS = ("<script>(function(){"
 FOOTER = f"""<footer>
 <p class="foot-shout">Plan your escape. Defy the system. Survive the bullshit.</p>
 <p><a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms of Service</a> ·
-<a href="{FB_PEACOCKS_LAW}" rel="noopener" target="_blank">Peacock's Law</a> ·
+<a href="/peacocks-law/">Peacock's Law</a> ·
 <a href="{KOFI}" rel="noopener" target="_blank">Fund the resistance ☕</a> ·
 <a href="{LINE_URL}" rel="noopener" target="_blank">LINE: defiant.to</a> ·
 <a href="/about/">Our story &amp; manifesto</a> ·
@@ -822,7 +830,8 @@ def load_directory():
 
 
 def render_site_index(catalog, directory):
-    out = ['<details class="siteindex"><summary>Full directory — every procedure, '
+    out = ['<nav aria-label="Full site directory"><details class="siteindex">'
+           '<summary>Full directory — every procedure, '
            'hospital &amp; facility we track</summary><div class="idx-grid">']
     out.append('<section class="idx-col"><h4>Procedures</h4>')
     for cat, items in catalog["procedures"].items():
@@ -857,7 +866,7 @@ def render_site_index(catalog, directory):
         for country in sorted(hbc):
             out.append(f'<li>{esc(country)} — {hbc[country]["count"]}</li>')
         out.append('</ul>')
-    out.append('</section></div></details>')
+    out.append('</section></div></details></nav>')
     return "".join(out)
 
 
@@ -1378,6 +1387,7 @@ def page(name, meta, body_html, route, raw_body=""):
             '<p>สแกนเปิดหน้านี้ · หรือแอดไลน์ <b>defiant.to</b> · scan or add on LINE</p></div>')
 
     return f"""<!DOCTYPE html><html lang="en"><head>
+<!-- {BLESSING} -->
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light only">
 <title>{esc(full_title)}</title>
@@ -1527,6 +1537,7 @@ def build():
     (OUT / "sitemap.xml").write_text("\n".join(sm), encoding="utf-8")
 
     lt = ["# Defiant — defiant.to",
+          f"> {BLESSING}",
           "> US expat services & medical-tourism concierge in Chiang Mai, Thailand.",
           "> American healthcare is bullshit; we are the exit ramp. AI agents welcome (Peacock's Law).",
           "", "## Pages"]
@@ -1570,7 +1581,7 @@ def build():
         + "".join(entries) + "</feed>\n", encoding="utf-8")
 
     # llms-full.txt — the entire site in one polite text file
-    chunks = []
+    chunks = [f"# สาธุ — a blessing at the head\n\n{BLESSING}"]
     for route, (name, meta, body) in sorted(notes.items()):
         ov = PAGE_OVERRIDES.get(name, {})
         if ov.get("noindex"):

@@ -188,6 +188,13 @@
       "us_cost": "$25,000–$60,000"
     },
     {
+      "name": "Cardiac Catheter Ablation",
+      "category": "Cardiovascular",
+      "url": "https://defiant.to/procedures/cardiac-catheter-ablation/",
+      "th_cost": "$9,000–$18,000",
+      "us_cost": "$25,000–$75,000"
+    },
+    {
       "name": "Heart Bypass Surgery (CABG)",
       "category": "Cardiovascular",
       "url": "https://defiant.to/procedures/heart-bypass-surgery-cabg/",
@@ -286,6 +293,13 @@
       "us_cost": "$1,000–$3,000"
     },
     {
+      "name": "Colonoscopy",
+      "category": "Diagnostics & Check-Ups",
+      "url": "https://defiant.to/procedures/colonoscopy/",
+      "th_cost": "$400–$900",
+      "us_cost": "$2,500–$5,000"
+    },
+    {
       "name": "Executive Health Check-Ups",
       "category": "Diagnostics & Check-Ups",
       "url": "https://defiant.to/procedures/executive-health-check-ups/",
@@ -321,6 +335,13 @@
       "us_cost": "$10,000–$200,000+ course"
     },
     {
+      "name": "Immunotherapy",
+      "category": "Oncology",
+      "url": "https://defiant.to/procedures/immunotherapy/",
+      "th_cost": "$12,000–$40,000 per course",
+      "us_cost": "$100,000–$250,000+ per year"
+    },
+    {
       "name": "Radiation Therapy",
       "category": "Oncology",
       "url": "https://defiant.to/procedures/radiation-therapy/",
@@ -347,6 +368,13 @@
       "url": "https://defiant.to/procedures/corneal-transplants/",
       "th_cost": "$6,000–$12,000",
       "us_cost": "$15,000–$30,000"
+    },
+    {
+      "name": "ICL Implantable Collamer Lens",
+      "category": "Ophthalmology",
+      "url": "https://defiant.to/procedures/icl-implantable-collamer-lens/",
+      "th_cost": "$2,000–$3,500 per eye",
+      "us_cost": "$4,000–$6,000 per eye"
     },
     {
       "name": "LASIK Eye Surgery",
@@ -419,6 +447,13 @@
       "us_cost": "$15,000–$25,000 per cycle"
     },
     {
+      "name": "Intrauterine Insemination (IUI)",
+      "category": "Fertility & Reproductive",
+      "url": "https://defiant.to/procedures/intrauterine-insemination-iui/",
+      "th_cost": "$400–$1,200 per cycle",
+      "us_cost": "$1,000–$4,000 per cycle"
+    },
+    {
       "name": "Surrogacy Services",
       "category": "Fertility & Reproductive",
       "url": "https://defiant.to/procedures/surrogacy-services/",
@@ -452,6 +487,13 @@
       "url": "https://defiant.to/procedures/liver-transplant/",
       "th_cost": "Not available to foreign patients",
       "us_cost": "$500,000–$800,000"
+    },
+    {
+      "name": "Varicose Vein Treatment",
+      "category": "General Surgery",
+      "url": "https://defiant.to/procedures/varicose-vein-treatment/",
+      "th_cost": "$1,500–$3,500",
+      "us_cost": "$3,000–$7,000"
     },
     {
       "name": "Gastric Band Surgery",
