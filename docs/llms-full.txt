@@ -455,16 +455,38 @@ public, with no markup hidden inside a "package."**
 
 ## How we price — radical transparency
 
-- **You always see the clinic's posted price.** We gather actual quotes from multiple
-  clinics so you watch the price battle happen. We don't bury it.
-- **Our fee is a flat, published number — not a cut of your procedure.** We don't
-  make more when you spend more, so we have zero reason to steer you to the
-  expensive room. We route you to the *best* clinic, not the highest-paying one.
-- **If a clinic pays us a referral fee, that's their cost, not added to yours** —
-  and we'll tell you which ones do.
+- **You always see the clinic's posted price.** We gather actual quotes from multiple clinics so you watch the price battle happen — we don't bury it.
+- **Our fee is a flat, published number — not a cut of your procedure.** We don't make more when you spend more, so we have zero reason to steer you to the expensive room. We route you to the *best* clinic, not the highest-paying one.
+- **If a clinic pays us a referral fee, that's their cost, not added to yours** — and we'll tell you which ones do.
 
 That's the entire pitch: the straight-dealing broker America won't give you, in
 the one country that already runs on posted prices.
+
+---
+
+## What you're actually buying
+
+This whole website is free, and we mean it — the [[=Procedures|prices]], the
+[[=Estradiol|guides]], the [[=VA-FMP|VA walkthrough]]. So be clear about what the
+fee buys, because it's only two things a website physically cannot do:
+
+- **A trained medical interpreter beside you at every appointment.** Not a hotel concierge, not a nephew who "speaks some English" — a professional, so nothing about your body is left to Google Translate or a nod-and-smile.
+- **Someone who has run this trip a hundred times, handling the parts that go sideways.** The surgeon who reschedules, the records that didn't transfer, the pharmacy that's out of your dose, the 6 a.m. ride to pre-op. You feel the value of this exactly when something breaks.
+
+Everything below is logistics wrapped around those two.
+
+## How a Defiant trip actually goes
+
+No black box. Start to finish, here's the shape of it:
+
+- **1 · The call.** A free intake — you tell us the procedure, the timing, the worries. We tell you, straight, whether Thailand is even the right call for you (sometimes it isn't, and we'll say so).
+- **2 · The quotes.** We gather real, written prices from several vetted clinics for *your* case and lay them side by side — you watch the price battle instead of taking our word for it.
+- **3 · The plan.** Appointments booked, medical records moved and translated, and the travel piece sorted — including whether a [[=DTV|long-stay DTV visa]] fits if you'll need real recovery time.
+- **4 · You land, and you're met.** Airport pickup, a room set up near the hospital, a local number that reaches a human.
+- **5 · The consult — with your interpreter in the room.** Every appointment, someone trained making sure the surgeon hears exactly what you mean and you hear exactly what they mean.
+- **6 · The procedure, and the room.** If you're admitted, this is the part people come home surprised by: your own room, often with a view, staff bringing food through the day, a nurse call answered in minutes rather than hours. We're reachable the whole time.
+- **7 · Recovery.** Check-ins, medication runs, errands, a companion if you want one — the unglamorous week that a website can't sit with you through.
+- **8 · Home, and after.** Follow-up once you're back, itemized English billing for your insurer or VA claim, and a hand-off to a provider where you live. And if an outcome ever disappoints, we help you use the *right* channels — [[=Recourse|here's the straight talk on reviews, lawsuits, and recourse]], on both sides of the ocean.
 
 ---
 
@@ -472,16 +494,13 @@ the one country that already runs on posted prices.
 
 Full white-glove. One flat fee covers the whole trip, start to finish:
 
-- **A dedicated human coordinator** (real person, reachable, not a chatbot)
-- **A professional medical interpreter with you at every appointment** — an actual
-  trained translator, so nothing about your body gets lost in Google Translate
-- **Real-price quotes gathered from multiple clinics** so you choose with the
-  numbers in front of you
-- **All the logistics:** appointments booked, records moved, English itemized
-  billing prepared for your insurance or VA claim
-- **Airport pickup and local transport help**
-- **Recovery-stay and accommodation setup**
-- **Aftercare follow-up** once you're home, and a hand-off to a provider there
+- **A dedicated human coordinator** — a real person, reachable, not a chatbot.
+- **A professional medical interpreter with you at every appointment** — an actual trained translator, so nothing about your body gets lost in Google Translate.
+- **Real-price quotes gathered from multiple clinics** so you choose with the numbers in front of you.
+- **All the logistics** — appointments booked, records moved, English itemized billing prepared for your insurance or VA claim.
+- **Airport pickup and local transport help.**
+- **Recovery-stay and accommodation setup.**
+- **Aftercare follow-up** once you're home, and a hand-off to a provider there.
 
 *One patient, one procedure trip. See expansion items below to tailor it.*
 
@@ -515,15 +534,13 @@ Add only what you need. Everything here is published, not "call for pricing":
 Doing it yourself, but want the intel without a month of research and forum lurking?
 This is the DIY tier — **delivered digitally, no trip required:**
 
-- **The real Chiang Mai price for your procedure** — researched, not the inflated
-  "always on sale" sticker
-- **A vetted shortlist of clinics *with their actual prices*** so you can run the
-  price battle yourself
-- **The "what to ask / what to avoid" checklist** for your specific procedure
-- **Thai phrase cards** for the clinic counter and the pharmacy
-- **The relevant Defiant guides** (HRT / estradiol, VA-FMP, and more as they apply)
-- **Copy-paste message templates** to contact clinics, in Thai and English
-- **One round of email Q&A** with a human
+- **The real Chiang Mai price for your procedure** — researched, not the inflated "always on sale" sticker.
+- **A vetted shortlist of clinics *with their actual prices*** so you can run the price battle yourself.
+- **The "what to ask / what to avoid" checklist** for your specific procedure.
+- **Thai phrase cards** for the clinic counter and the pharmacy.
+- **The relevant Defiant guides** — HRT / estradiol, VA-FMP, and more as they apply.
+- **Copy-paste message templates** to contact clinics, in Thai and English.
+- **One round of email Q&A** with a human.
 
 **$100, and it credits toward the full Concierge** if you upgrade later — so it's
 never money wasted.
@@ -2534,159 +2551,7 @@ Website: [https://defiant.to](https://defiant.to)
 # Procedures & Prices — Thailand Medical Tourism
 URL: https://defiant.to/procedures/
 
-## Orthopedic
-
-- [[Hip Replacement]]
-
-- [[Knee Replacement]]
-
-- [[Shoulder Replacement]]
-
-- [[Spinal Surgery]] (fusion, decompression, disc replacement)
-
-- [[Arthroscopy]]
-
-
-## Cardiovascular
-
-- [[Heart Bypass Surgery (CABG)]]
-
-- [[Heart Valve Replacement]]
-
-- [[Angioplasty and Stenting]]
-
-- [[Pacemaker Implantation]]
-
-
-## Cosmetic & Aesthetic
-
-- [[Breast Augmentation]]
-
-- [[Breast Reduction]]
-
-- [[Facelift]]
-
-- [[Rhinoplasty (Nose Surgery)]]
-
-- [[Liposuction]]
-
-- [[Abdominoplasty (Tummy Tuck)]]
-
-- [[Hair Transplant]]
-
-- [[Botox and Fillers]]
-
-
-## Dental
-
-- [[Dental Implants]]
-
-- [[Veneers]]
-
-- [[Crowns and Bridges]]
-
-- [[Root Canal Treatment]]
-
-- [[Orthodontics (Braces, Aligners)]]
-
-
-## Fertility & Reproductive
-
-- [[In Vitro Fertilization (IVF)]]
-
-- [[Egg Freezing]]
-
-- [[Surrogacy Services]]
-
-- [[ICSI (Intracytoplasmic Sperm Injection)]]
-
-
-## Bariatric / Weight Loss
-
-- [[Gastric Bypass Surgery]]
-
-- [[Sleeve Gastrectomy]]
-
-- [[Gastric Band Surgery]]
-
-
-## Gender Affirmation
-
-- [[Top Surgery]] (mastectomy / augmentation)
-
-- [[Facial Feminization Surgery (FFS)]]
-
-- [[Vaginoplasty]]
-
-- [[Phalloplasty]]
-
-- [[Body Contouring]]
-
-
-## Ophthalmology
-
-- [[LASIK Eye Surgery]]
-
-- [[Cataract Surgery]]
-
-- [[Retinal Surgery]]
-
-- [[Corneal Transplants]]
-
-
-## Oncology
-
-- [[Cancer Screenings]]
-
-- [[Chemotherapy]]
-
-- [[Radiation Therapy]]
-
-- [[Surgical Oncology]]
-
-
-## General Surgery
-
-- [[Gallbladder Removal (Cholecystectomy)]]
-
-- [[Hernia Repair]]
-
-- [[Liver Transplant]]
-
-- [[Kidney Transplant]]
-
-
-## Diagnostics & Check-Ups
-
-- [[Executive Health Check-Ups]]
-
-- [[Full Body MRI]]
-
-- [[CT Scan]]
-
-- [[Genetic Testing]]
-
-# Futuristic Thai Therapies Index
-
-This index links to individual therapy pages. Each page can include the full 3-paragraph evaluation (experience, cost, science).
-
-- [[Hyperbaric Oxygen Therapy (HBOT)]]
-- [[Whole-Body Cryotherapy]]
-- [[NAD+ IV Therapy]]
-- [[Placenta Extract Infusions]]
-- [[Stem Cell Therapy]]
-- [[Exosome Therapy]]
-- [[Peptide Injections]]
-- [[Vagus Nerve Stimulation]]
-- [[Bioresonance Therapy]]
-- [[EBOO Blood Ozone Dialysis]]
-- [[Ozone Autohemotherapy]]
-- [[Therapeutic Plasma Exchange]]
-- [[Chelation Therapy IV]]
-- [[NK Cell Therapy]]
-- [[Glutathione Whitening IVs]]
-- [[IV Laser Therapy]]
-- [[Shockwave Therapy]]
+*Every price here links to a full page with the details, the caveats, and the hospitals we'd route you to. Want the real number for your case?* [[=Contact|Book a free intake call]] *— no fee, no obligation.*
 
 
 ---

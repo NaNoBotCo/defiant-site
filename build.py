@@ -35,13 +35,20 @@ LINE_URL = "https://line.me/ti/p/~defiant.to"
 #   * Stripe: dashboard.stripe.com → Payment Links → create ($100 / $1,000) → copy
 #   * PayPal: just your PayPal.me handle (we build paypal.me/<handle>/<amount>)
 #   * Bitcoin: paste a receiving address from your wallet
+# Visa / Mastercard / PayPal / Bitcoin — the four rails NaN asked for.
+# Card + PayPal work TODAY through Ko-fi's checkout (it takes Visa, Mastercard and
+# PayPal). Each field below is inert until you paste your own value — creating the
+# accounts is yours to do (a financial step Claude won't take for you):
+#   * Stripe   : dashboard.stripe.com → Payment Links → make a fixed $100 and $1,000 → paste
+#   * PayPal   : your PayPal.me handle only (we build paypal.me/<handle>/<amount>)
+#   * Ko-fi $  : ko-fi.com dashboard → Shop → add a $100 and $1,000 item → paste the links
+#   * Bitcoin  : paste a receiving address from your own wallet
 PAY = {
-    "kofi_pack": "",         # optional exact Ko-fi $100 shop-item link
+    "kofi_pack": "",         # optional exact Ko-fi $100 shop-item link (else base tip page)
     "kofi_concierge": "",    # optional exact Ko-fi $1,000 link
-    "stripe_pack": "",       # Stripe Payment Link, fixed $100
+    "stripe_pack": "",       # Stripe Payment Link, fixed $100 → clean Visa/Mastercard checkout
     "stripe_concierge": "",  # Stripe Payment Link, fixed $1,000
-    "paypal_url": "https://www.paypal.com/biz/profile/pfauhaus",  # PayPal Business profile
-    "cashapp": "Defiant",     # Cash App $cashtag, without the $ (amount auto-fills)
+    "paypal_me": "",         # your PayPal.me handle, e.g. "defiantchiangmai" (NOT a profile URL)
     "wise": "",              # Wise payment link (wise.com/pay/me/…)
     "revolut": "",           # Revolut link (revolut.me/…)
     "btc": "",               # Bitcoin receiving address
@@ -52,26 +59,31 @@ PAY_AMOUNT = {"pack": 100, "concierge": 1000}
 def render_pay(product):
     amt = PAY_AMOUNT[product]
     disp = f"${amt:,}"                       # $1,000 in labels; URLs stay comma-less
-    r = {"kofi": f'<a class="pay pay-kofi" href="{PAY.get(f"kofi_{product}") or KOFI}" rel="noopener" target="_blank">☕ Ko-fi — card or PayPal</a>'}
+    r = {}
+    # Cards: a clean Stripe fixed-price link if present. If a PayPal.me handle is
+    # set it becomes the card+PayPal button (PayPal.me lets guests pay by Visa /
+    # Mastercard without an account). Otherwise Ko-fi's checkout is the working
+    # fallback — it takes Visa, Mastercard AND PayPal today.
     if PAY.get(f"stripe_{product}"):
-        r["stripe"] = f'<a class="pay pay-stripe" href="{PAY[f"stripe_{product}"]}" rel="noopener" target="_blank">💳 Card (Stripe)</a>'
-    if PAY.get("paypal_url"):
-        r["paypal"] = f'<a class="pay pay-paypal" href="{PAY["paypal_url"]}" rel="noopener" target="_blank">🅿️ PayPal — {disp}</a>'
-    if PAY.get("cashapp"):
-        r["cashapp"] = f'<a class="pay pay-cashapp" href="https://cash.app/${PAY["cashapp"]}/{amt}" rel="noopener" target="_blank">💵 Cash App — {disp}</a>'
+        r["stripe"] = f'<a class="pay pay-stripe" href="{PAY[f"stripe_{product}"]}" rel="noopener" target="_blank">💳 Visa · Mastercard — {disp}</a>'
+    if PAY.get("paypal_me"):
+        r["paypal"] = f'<a class="pay pay-paypal" href="https://www.paypal.com/paypalme/{PAY["paypal_me"]}/{amt}" rel="noopener" target="_blank">🅿️ PayPal · card — {disp}</a>'
+    if not r:  # nothing bespoke configured yet — Ko-fi covers all three
+        r["kofi"] = f'<a class="pay pay-kofi" href="{PAY.get(f"kofi_{product}") or KOFI}" rel="noopener" target="_blank">💳 Visa · Mastercard · PayPal — secure checkout</a>'
     if PAY.get("wise"):
         r["wise"] = f'<a class="pay pay-wise" href="{PAY["wise"]}" rel="noopener" target="_blank">🌐 Wise</a>'
     if PAY.get("revolut"):
         r["revolut"] = f'<a class="pay pay-revolut" href="{PAY["revolut"]}" rel="noopener" target="_blank">💠 Revolut</a>'
     if PAY.get("btc"):
         r["btc"] = f'<button class="pay pay-btc" type="button" data-btc="{PAY["btc"]}" data-amt="{amt}">₿ Bitcoin</button>'
-    # High-ticket leads with PayPal Business (buyer recourse); low-ticket with Cash App (US, one-tap).
-    order = (["paypal", "stripe", "kofi", "cashapp", "wise", "revolut", "btc"] if product == "concierge"
-             else ["cashapp", "kofi", "paypal", "stripe", "wise", "revolut", "btc"])
+    order = ["stripe", "paypal", "kofi", "wise", "revolut", "btc"]
     btns = [r[k] for k in order if k in r]
-    note = ("" if PAY.get(f"stripe_{product}")
-            else '<p class="pay-note">The buttons above all work now. Want a Stripe card link '
-                 'or crypto instead? <a href="/contact/">Ask us</a>.</p>')
+    # Be straight about what's live vs. what still needs a pasted value.
+    note = ('<p class="pay-note">Visa, Mastercard &amp; PayPal all work now — secure '
+            'checkout, no account needed.'
+            + ('' if PAY.get("btc")
+               else ' Want to pay in <b>Bitcoin</b>? <a href="/contact/">Ask us</a> for a wallet address.')
+            + '</p>')
     return f'<div class="pay-row" data-amount="{amt}">' + "".join(btns) + "</div>" + note
 
 
@@ -741,6 +753,7 @@ FOOTER = f"""<footer>
 _INDEX_HTML = ""
 _HOSP_BLOCK = ""
 _HOSP_MD = ""
+_PRICE_BLOCK = ""
 
 
 def build_catalog(notes):
@@ -1060,6 +1073,159 @@ def build_hospitals_block(notes, directory, catalog):
     return html, hospitals_markdown(recs, pcat)
 
 
+def collect_procedure_records(notes):
+    """Every procedure with its US vs Thailand price, a computed savings band, its
+    category, and which hospitals route it — the data the 'Prices' page never showed."""
+    # procedure -> hospitals that route it
+    where = {}
+    for route, (name, meta, body) in notes.items():
+        if meta.get("type") != "hospital":
+            continue
+        for pn in _note_section(body, "Procedures we route here"):
+            where.setdefault(pn, []).append((name, route))
+    recs = []
+    for route, (name, meta, _b) in notes.items():
+        if meta.get("type") != "procedure":
+            continue
+        us, th = meta.get("us_cost", ""), meta.get("th_cost", "")
+        un, tn = _prices(us), _prices(th)
+        pct = None
+        if un and tn and max(un) and max(tn):
+            lo = round((1 - max(tn) / max(un)) * 100)
+            hi = round((1 - min(tn) / min(un)) * 100)
+            lo, hi = sorted((lo, hi))
+            # Only claim a % when the whole band is credible (matches savings_line).
+            # Outside it, the US/TH strings are usually different units (course vs
+            # cycle, program vs session) — show the raw numbers, not a shiny badge.
+            if 15 <= lo and hi <= 95:
+                pct = [lo, hi]
+        recs.append({
+            "name": name, "url": route, "cat": meta.get("category", "Other"),
+            "us": us, "th": th, "pct": pct,
+            "where": [{"n": n, "u": u} for n, u in where.get(name, [])],
+        })
+    recs.sort(key=lambda r: (-(r["pct"][0] if r["pct"] else -1), r["name"]))
+    return recs
+
+
+PRICE_CSS = """<style>
+.pricex{--pk:var(--magenta,#ff179e);--cy:var(--cyan,#00d6d6);--pp:var(--purple,#7a1fd6)}
+.pricex *{box-sizing:border-box}
+.pricex .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;margin:1.4rem 0}
+.pricex .stat{border:3px solid var(--ink);background:#fff;box-shadow:5px 5px 0 var(--ink);padding:.7rem .8rem}
+.pricex .stat .n{font-size:1.9rem;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.pricex .stat.pk .n{color:var(--pk)}.pricex .stat.cy .n{color:var(--pp)}
+.pricex .stat .l{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:#555;margin-top:.3rem}
+.pricex .ctl{background:var(--bg);padding:.7rem 0;border-bottom:3px solid var(--ink);margin-bottom:1rem}
+.pricex .rw{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin-bottom:.5rem}
+.pricex .rw:last-child{margin-bottom:0}
+.pricex input[type=search]{flex:1;min-width:190px;font:inherit;padding:.55rem .7rem;border:3px solid var(--ink);background:#fff}
+.pricex input[type=search]:focus{outline:none;box-shadow:4px 4px 0 var(--cy)}
+.pricex .lbl{font-size:.66rem;text-transform:uppercase;letter-spacing:.13em;color:#555}
+.pricex .tag{font:inherit;font-size:.78rem;border:2px solid var(--ink);background:#fff;padding:.3rem .65rem;cursor:pointer}
+.pricex .tag:hover{background:var(--pk);color:#fff}
+.pricex .tag[aria-pressed=true]{background:var(--ink);color:#fff}
+.pricex .cnt{font-size:.8rem;color:#555;margin:.2rem 0 1rem}
+.pricex .prow{border:3px solid var(--ink);background:#fff;box-shadow:6px 6px 0 var(--ink);padding:.85rem 1rem;margin-bottom:.8rem;display:grid;grid-template-columns:1fr auto;gap:.5rem 1rem;align-items:start}
+.pricex .pname{font-size:1.12rem;font-weight:700;line-height:1.2}
+.pricex .pname a{text-decoration:none;border-bottom:3px solid var(--cy)}
+.pricex .pname a:hover{color:var(--pk);border-color:var(--pk)}
+.pricex .pcat{display:inline-block;font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--pp);border:1px solid var(--pp);padding:.05rem .4rem;margin-left:.5rem;vertical-align:middle}
+.pricex .save{grid-row:1;grid-column:2;justify-self:end;font-size:1.15rem;font-weight:800;color:var(--pk);white-space:nowrap;font-variant-numeric:tabular-nums}
+.pricex .save small{display:block;font-size:.58rem;font-weight:700;letter-spacing:.1em;color:#555;text-transform:uppercase;text-align:right}
+.pricex .pcompare{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:.4rem .9rem;align-items:baseline;font-size:.95rem}
+.pricex .us{color:#777}.pricex .us s{text-decoration-color:var(--pk);text-decoration-thickness:2px}
+.pricex .th{font-weight:700}.pricex .th b{color:var(--pk)}
+.pricex .tag2{font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#777}
+.pricex .pwhere{grid-column:1/-1;font-size:.76rem;color:#555;border-top:1px dashed #ccc;padding-top:.5rem;margin-top:.15rem}
+.pricex .pwhere a{color:var(--pp);text-decoration:none;border-bottom:1px solid var(--cy)}
+.pricex .pwhere a:hover{color:var(--pk)}
+.pricex .empty{color:#555;padding:2rem;text-align:center}
+.pricex .disc{font-size:.76rem;color:#555;background:var(--paper,#f3f3f3);border:2px solid var(--ink);padding:.7rem .9rem;margin:1.4rem 0 0}
+@media(max-width:640px){.pricex .stats{grid-template-columns:repeat(2,1fr)}.pricex .prow{grid-template-columns:1fr}.pricex .save{grid-column:1;justify-self:start}}
+</style>"""
+
+PRICE_JS = """<script>(function(){
+var W=document.getElementById('pricex');if(!W)return;var D=W._data;var P=D.p;
+var $=function(s){return W.querySelector(s)};var fCat=null,sort='save';
+function tags(sel,vals,get,set){var box=$(sel);vals.forEach(function(v){var b=document.createElement('button');b.className='tag';b.textContent=v;b.onclick=function(){set(get()===v?null:v);render()};box.appendChild(b)})}
+tags('#catrow',D.cats,function(){return fCat},function(v){fCat=v});
+$('#q').addEventListener('input',render);
+$('#sortsave').onclick=function(){sort='save';syncsort();render()};
+$('#sortaz').onclick=function(){sort='az';syncsort();render()};
+function syncsort(){$('#sortsave').setAttribute('aria-pressed',sort==='save');$('#sortaz').setAttribute('aria-pressed',sort==='az')}
+function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
+function refresh(){W.querySelectorAll('#catrow .tag').forEach(function(b){b.setAttribute('aria-pressed',fCat===b.textContent)})}
+function saveHtml(p){if(!p.pct)return '<span class="save">see below<small>vs US</small></span>';var t=p.pct[0]===p.pct[1]?('~'+p.pct[0]+'%'):('~'+p.pct[0]+'\\u2013'+p.pct[1]+'%');return '<span class="save">'+t+'<small>less than US</small></span>'}
+function compareHtml(p){var us=p.us?'<span class="us"><span class="tag2">US</span> <s>'+esc(p.us)+'</s></span>':'';var th=p.th?'<span class="th"><span class="tag2">Thailand</span> <b>'+esc(p.th)+'</b></span>':'';return us+th}
+function whereHtml(p){if(!p.where.length)return '';return '<div class="pwhere">Routes to: '+p.where.map(function(w){return '<a href="'+w.u+'">'+esc(w.n)+'</a>'}).join(' \\u00b7 ')+'</div>'}
+function render(){refresh();var q=$('#q').value.trim().toLowerCase();
+ var rows=P.filter(function(p){if(fCat&&p.cat!==fCat)return false;if(q){var h=(p.name+' '+p.cat+' '+p.us+' '+p.th).toLowerCase();if(h.indexOf(q)<0)return false}return true});
+ if(sort==='az')rows=rows.slice().sort(function(a,b){return a.name.localeCompare(b.name)});
+ else rows=rows.slice().sort(function(a,b){return (b.pct?b.pct[0]:-1)-(a.pct?a.pct[0]:-1)||a.name.localeCompare(b.name)});
+ $('#cnt').textContent=rows.length+' of '+P.length+' procedures priced'+(fCat?' \\u00b7 '+fCat:'');
+ $('#rows').innerHTML=rows.length?rows.map(function(p){return '<div class="prow"><div class="pname"><a href="'+p.url+'">'+esc(p.name)+'</a><span class="pcat">'+esc(p.cat)+'</span></div>'+saveHtml(p)+'<div class="pcompare">'+compareHtml(p)+'</div>'+whereHtml(p)+'</div>'}).join(''):'<div class="empty">No procedures match. <button class="tag" id="clr">Clear</button></div>';
+ var clr=$('#clr');if(clr)clr.onclick=function(){fCat=null;$('#q').value='';render()};
+}
+render();
+})();</script>"""
+
+
+def _price_fallback_rows(recs):
+    out = []
+    for p in recs:
+        if p["pct"]:
+            t = f'~{p["pct"][0]}%' if p["pct"][0] == p["pct"][1] else f'~{p["pct"][0]}–{p["pct"][1]}%'
+            save = f'<span class="save">{t}<small>less than US</small></span>'
+        else:
+            save = '<span class="save">see below<small>vs US</small></span>'
+        comp = ((f'<span class="us"><span class="tag2">US</span> <s>{esc(p["us"])}</s></span>' if p["us"] else "")
+                + (f'<span class="th"><span class="tag2">Thailand</span> <b>{esc(p["th"])}</b></span>' if p["th"] else ""))
+        where = ("" if not p["where"] else '<div class="pwhere">Routes to: '
+                 + " · ".join(f'<a href="{w["u"]}">{esc(w["n"])}</a>' for w in p["where"]) + "</div>")
+        out.append(f'<div class="prow"><div class="pname"><a href="{p["url"]}">{esc(p["name"])}</a>'
+                   f'<span class="pcat">{esc(p["cat"])}</span></div>{save}'
+                   f'<div class="pcompare">{comp}</div>{where}</div>')
+    return "".join(out)
+
+
+def build_prices_block(notes):
+    recs = collect_procedure_records(notes)
+    cats = []
+    for r in recs:
+        if r["cat"] not in cats:
+            cats.append(r["cat"])
+    priced = [r for r in recs if r["pct"]]
+    typical = ""
+    if priced:
+        mids = sorted((p["pct"][0] + p["pct"][1]) // 2 for p in priced)
+        med = mids[len(mids) // 2]
+        typical = f"~{med}%"
+    data = {"p": recs, "cats": cats}
+    blob = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+    stats = [("pk", len(recs), "procedures priced"),
+             ("", len(cats), "specialties"),
+             ("cy", typical or "50–80%", "typical saving vs US"),
+             ("", "$0", "hidden fees")]
+    statrow = "".join(f'<div class="stat {c}"><div class="n">{n}</div><div class="l">{l}</div></div>'
+                      for c, n, l in stats)
+    html = f"""{PRICE_CSS}
+<div class="pricex" id="pricex">
+<div class="stats">{statrow}</div>
+<div class="ctl">
+ <div class="rw"><input type="search" id="q" placeholder="Search a procedure — “facelift”, “knee”, “IVF”…" aria-label="Search procedures">
+ <span class="lbl">Sort</span><button class="tag" id="sortsave" aria-pressed="true">Biggest saving</button><button class="tag" id="sortaz" aria-pressed="false">A–Z</button></div>
+ <div class="rw" id="catrow"><span class="lbl">Specialty</span></div>
+</div>
+<div class="cnt" id="cnt">{len(recs)} of {len(recs)} procedures priced</div>
+<div id="rows">{_price_fallback_rows(recs)}</div>
+<p class="disc">Every figure is an <b>indicative 2026 range</b>, not a quote — US prices vary wildly by insurer and Thai prices move with promotions and exchange rates. We confirm the real number in writing, from actual clinic quotes, before you book anything. <a href="/concierge/">See exactly what we charge →</a></p>
+</div>
+<script>document.getElementById('pricex')._data={blob};</script>
+{PRICE_JS}"""
+    return html
+
+
 DIR_TYPE = {"geriatric": "NursingHome", "rehab": "MedicalClinic", "gyn": "MedicalClinic",
             "aesthetic": "MedicalClinic", "longevity": "MedicalClinic", "pharmacy": "Pharmacy"}
 
@@ -1155,6 +1321,8 @@ def page(name, meta, body_html, route, raw_body=""):
         scripts.append(CLINIC_JS)
     if "<!-- defiant:hospindex -->" in body_html:
         body_html = body_html.replace("<!-- defiant:hospindex -->", _HOSP_BLOCK)
+    if "<!-- defiant:priceindex -->" in body_html:
+        body_html = body_html.replace("<!-- defiant:priceindex -->", _PRICE_BLOCK)
     for prod in ("pack", "concierge"):
         marker = f"<!-- defiant:pay:{prod} -->"
         if marker in body_html:
@@ -1249,11 +1417,12 @@ def build():
     links = {name: route for route, (name, _, _) in notes.items()}
 
     # Structured catalog + the collapsed crawlable index (set before pages emit).
-    global _INDEX_HTML, _HOSP_BLOCK, _HOSP_MD
+    global _INDEX_HTML, _HOSP_BLOCK, _HOSP_MD, _PRICE_BLOCK
     catalog = build_catalog(notes)
     directory = load_directory()
     _INDEX_HTML = render_site_index(catalog, directory)
     _HOSP_BLOCK, _HOSP_MD = build_hospitals_block(notes, directory, catalog)
+    _PRICE_BLOCK = build_prices_block(notes)
 
     inline = make_inline(links)
     emitted = {}
