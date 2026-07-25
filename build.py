@@ -56,6 +56,7 @@ PAY = {
     "btc": "bc1qtgkvch2dgf9q5dwl2xfuseckyv6cqd2mlefjzz",  # native BTC (Cash App), checksum-verified 2026-07-25
 }
 PAY_AMOUNT = {"pack": 100, "concierge": 1000}
+CRYPTO_DISCOUNT = 0.03   # crypto skips card fees + suits a Thailand-based owner → pass it on
 
 
 def render_pay(product):
@@ -76,30 +77,35 @@ def render_pay(product):
         r["wise"] = f'<a class="pay pay-wise" href="{PAY["wise"]}" rel="noopener" target="_blank">🌐 Wise</a>'
     if PAY.get("revolut"):
         r["revolut"] = f'<a class="pay pay-revolut" href="{PAY["revolut"]}" rel="noopener" target="_blank">💠 Revolut</a>'
-    # Bitcoin: prefer a Coinbase Commerce hosted checkout (private, per-payment
-    # address, tracks who paid); fall back to a raw address reveal if that's all
-    # that's set.
+    # Bitcoin / crypto leads the row and carries a discount — it's cheaper for a
+    # Thailand-based owner with no local bank, so we nudge customers onto it.
+    # Prefer a Coinbase Commerce hosted checkout; fall back to a raw address reveal.
+    pct = round(CRYPTO_DISCOUNT * 100)
+    camt = round(amt * (1 - CRYPTO_DISCOUNT))
+    cdisp = f"${camt:,}"
     if PAY.get(f"commerce_{product}"):
-        r["btc"] = f'<a class="pay pay-crypto" href="{PAY[f"commerce_{product}"]}" rel="noopener" target="_blank">₿ Bitcoin &amp; crypto — {disp}</a>'
+        r["btc"] = f'<a class="pay pay-crypto" href="{PAY[f"commerce_{product}"]}" rel="noopener" target="_blank">₿ Bitcoin &amp; crypto — {cdisp} · save {pct}%</a>'
     elif PAY.get("btc"):
-        r["btc"] = f'<button class="pay pay-btc" type="button" data-btc="{PAY["btc"]}" data-amt="{amt}">₿ Bitcoin</button>'
-    order = ["stripe", "paypal", "kofi", "wise", "revolut", "btc"]
+        r["btc"] = (f'<button class="pay pay-btc" type="button" data-btc="{PAY["btc"]}" '
+                    f'data-amt="{camt}" data-disp="{cdisp}">₿ Bitcoin — {cdisp} · save {pct}%</button>')
+    order = ["btc", "stripe", "paypal", "kofi", "wise", "revolut"]
     btns = [r[k] for k in order if k in r]
     # Be straight about what's live vs. what still needs a pasted value.
     crypto_live = bool(PAY.get(f"commerce_{product}") or PAY.get("btc"))
-    note = ('<p class="pay-note">Visa, Mastercard, PayPal'
-            + (', &amp; Bitcoin' if crypto_live else ' &amp; more')
-            + ' — secure checkout, no account needed.'
-            + ('' if crypto_live
-               else ' Prefer <b>Bitcoin</b>? <a href="/contact/">Ask us</a> and we\'ll send a link.')
-            + '</p>')
+    if crypto_live:
+        note = (f'<p class="pay-note"><b>Pay in Bitcoin, take {pct}% off.</b> Crypto skips the '
+                'card fees, so the saving is yours. Cards &amp; PayPal work too — secure '
+                'checkout, no account needed.</p>')
+    else:
+        note = ('<p class="pay-note">Visa, Mastercard &amp; PayPal — secure checkout, no account '
+                'needed. Prefer <b>Bitcoin</b>? <a href="/contact/">Ask us</a> for a wallet address.</p>')
     return f'<div class="pay-row" data-amount="{amt}">' + "".join(btns) + "</div>" + note
 
 
 PAY_JS = ("<script>(function(){document.querySelectorAll('.pay-btc').forEach(function(b){"
-          "b.addEventListener('click',function(){var a=b.dataset.btc;var d=document.createElement('div');"
-          "d.className='btc-box';d.innerHTML='Send the USD-equivalent in BTC to:<br><code>'+a+'</code><br>"
-          "<a href=\"bitcoin:'+a+'\">open in wallet</a> · then <a href=\"/contact/\">send us the tx</a> so we can confirm.';"
+          "b.addEventListener('click',function(){var a=b.dataset.btc;var amt=b.dataset.disp;var d=document.createElement('div');"
+          "d.className='btc-box';d.innerHTML='Send '+(amt?amt+' worth of ':'the USD-equivalent in ')+'BTC to:<br><code>'+a+'</code><br>"
+          "<a href=\"bitcoin:'+a+'\">open in wallet</a> · then <a href=\"/contact/\">message us the transaction</a> so we can confirm it.';"
           "b.replaceWith(d);});});})();</script>")
 FB_PEACOCKS_LAW = ("https://www.facebook.com/skunkhaus/posts/"
                    "pfbid06spJJ7hDXrwjyFjECpMcXNnmuALnsUmiSpbnWnxHAwQnLEdb9LAYCSWTbSXzPAshl")
