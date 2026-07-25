@@ -369,6 +369,24 @@ footer a:hover { color: var(--magenta); }
 .siteindex a:hover { color: var(--magenta); text-decoration: underline; }
 .idx-note { margin: .2rem 0; color: #888; }
 
+/* ---- micro-interactions: buttons feel alive (transform/opacity only) ------ */
+/* Motion-gated by design; :focus-visible gets the same love as :hover so keyboard
+   users get the flair too. Never applied over prices/numbers. */
+@media (prefers-reduced-motion: no-preference) {
+  .hbtn, .d-front, .d-cta, .hbtn-1, .hbtn-2, .pay, .cta {
+    transition: transform .14s cubic-bezier(.34, 1.56, .64, 1), box-shadow .14s ease;
+  }
+  .hbtn:hover, .d-front:hover, .d-cta:hover, .hbtn-1:hover, .hbtn-2:hover, .pay:hover,
+  .hbtn:focus-visible, .d-front:focus-visible, .d-cta:focus-visible,
+  .hbtn-1:focus-visible, .hbtn-2:focus-visible, .pay:focus-visible {
+    transform: translate(-1px, -2px) scale(1.02);   /* magnetic lift + gentle overshoot */
+  }
+  .hbtn:active, .d-front:active, .d-cta:active, .hbtn-1:active, .hbtn-2:active, .pay:active {
+    transform: translate(3px, 3px) scale(.99);       /* press down into the zine shadow */
+    box-shadow: none;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { animation: none !important; }
