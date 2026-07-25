@@ -61,7 +61,7 @@ def fm(**kv) -> str:
 
 
 def proc_note(name, d):
-    desc = f"{name} in Thailand: indicative cost {d['th']} vs {d['us']} in the US. Hospitals, stay length, and the the caveats."
+    desc = f"{name} in Thailand: indicative cost {d['th']} vs {d['us']} in the US. Hospitals, stay length, and the caveats."
     body = fm(title=f"{name} in Thailand — Cost & Where", description=desc[:250],
               type="procedure", category=d["cat"], us_cost=d["us"], th_cost=d["th"],
               updated=TODAY)

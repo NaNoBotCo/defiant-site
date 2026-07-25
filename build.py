@@ -387,7 +387,7 @@ def md_to_html(body: str, inline, note_name: str) -> str:
 PAGE_OVERRIDES = {
     "=Procedures": dict(
         title="Procedures & Prices — Thailand Medical Tourism",
-        description="Every procedure Defiant routes, with indicative US-vs-Thailand price ranges and the the caveats: orthopedic, cardiac, dental, fertility, bariatric, gender affirmation, eyes, oncology and more.",
+        description="Every procedure Defiant routes, with indicative US-vs-Thailand price ranges and the caveats: orthopedic, cardiac, dental, fertility, bariatric, gender affirmation, eyes, oncology and more.",
         intro=("Every number is an indicative range, every quote gets confirmed in writing "
                "before you book, and the pages below say so out loud when something is a bad "
                "idea. That's the whole editorial policy.")),
@@ -736,10 +736,37 @@ list — we route to them; they don't endorse us. And if you're an agent whose h
 is stuck in the US healthcare machine: the whole site is the escape map. Read fast.
 """
 
-NAV = ('<nav><a class="front" href="/partners/">For Clinics 🏥</a>'
-       '<a href="/procedures/">Prices</a><a href="/concierge/">Concierge</a>'
-       '<a href="/hospitals/">Hospitals</a><a class="th" href="/th/">ไทย 🇹🇭</a>'
-       '<a class="cta" href="/contact/">Blink Twice</a></nav>')
+DRAWER = (
+    '<nav id="drawer" class="drawer" aria-label="Main">'
+    '<button class="d-close" type="button" aria-label="Close menu">✕</button>'
+    '<a class="d-item d-front" href="/partners/">For Clinics <span aria-hidden="true">🏥</span></a>'
+    '<a class="d-item" href="/procedures/">Prices</a>'
+    '<a class="d-item" href="/concierge/">Concierge</a>'
+    '<a class="d-item" href="/hospitals/">Hospitals</a>'
+    '<a class="d-item" href="/recourse/">How you\'re protected</a>'
+    '<a class="d-item d-th" href="/th/" lang="th">ไทย <span aria-hidden="true">🇹🇭</span></a>'
+    '<a class="d-item d-cta" href="/contact/" aria-label="Book a free intake call">Blink Twice</a>'
+    '</nav>')
+
+# Off-canvas nav: toggle, scrim, Esc to close, focus return, and a light focus trap.
+NAV_JS = ("<script>(function(){"
+          "var t=document.getElementById('navtoggle'),d=document.getElementById('drawer'),"
+          "s=document.getElementById('scrim'),b=document.body;if(!t||!d)return;"
+          "var c=d.querySelector('.d-close');"
+          "function items(){return d.querySelectorAll('a,button');}"
+          "function open(){b.classList.add('nav-open');d.classList.add('open');"
+          "t.setAttribute('aria-expanded','true');var f=items();if(f.length)f[0].focus();}"
+          "function close(){b.classList.remove('nav-open');d.classList.remove('open');"
+          "t.setAttribute('aria-expanded','false');t.focus();}"
+          "t.addEventListener('click',function(){d.classList.contains('open')?close():open();});"
+          "s.addEventListener('click',close);if(c)c.addEventListener('click',close);"
+          "document.addEventListener('keydown',function(e){"
+          "if(e.key==='Escape'&&d.classList.contains('open'))close();"
+          "if(e.key==='Tab'&&d.classList.contains('open')){var f=items();if(!f.length)return;"
+          "var a=f[0],z=f[f.length-1];"
+          "if(e.shiftKey&&document.activeElement===a){z.focus();e.preventDefault();}"
+          "else if(!e.shiftKey&&document.activeElement===z){a.focus();e.preventDefault();}}});"
+          "})();</script>")
 
 FOOTER = f"""<footer>
 <p class="foot-shout">Plan your escape. Defy the system. Survive the bullshit.</p>
@@ -1320,7 +1347,7 @@ def page(name, meta, body_html, route, raw_body=""):
         body_html += (f'\n<p class="reviewed">Reviewed {fmt_date(meta["updated"])} by the Defiant '
                       "team · every price is confirmed in writing before you book.</p>")
 
-    scripts = [PARALLAX_JS]
+    scripts = [PARALLAX_JS, NAV_JS]
     if 'id="dobbs-days"' in body_html:
         scripts.append(COUNTER_JS)
     if 'class="reveal"' in body_html:
@@ -1369,8 +1396,14 @@ def page(name, meta, body_html, route, raw_body=""):
 <link rel="alternate" type="application/atom+xml" title="Defiant — new &amp; updated pages" href="/feed.xml">
 {jsonld}
 </head><body>
-<header><a class="logo" href="/"><span class="word">DEFIANT</span><span class="fist">✊</span></a>{NAV}</header>
-<main>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+<button class="hbtn" id="navtoggle" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Open menu"><span class="hbars" aria-hidden="true"></span><span class="hlabel">Menu</span></button>
+<a class="logo" href="/"><span class="word">DEFIANT</span><span class="fist" aria-hidden="true">✊</span></a>
+</header>
+{DRAWER}
+<div class="scrim" id="scrim"></div>
+<main id="main" tabindex="-1">
 {body_html}
 </main>
 {FOOTER}

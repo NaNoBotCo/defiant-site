@@ -91,11 +91,19 @@ a { color: var(--purple); text-underline-offset: 3px; text-decoration-thickness:
 a:hover { color: var(--magenta); }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--cyan); outline-offset: 2px; }
 
-/* ---- header / nav ---------------------------------------------------- */
+/* ---- skip link ------------------------------------------------------- */
+.skip {
+  position: fixed; top: .5rem; left: .5rem; z-index: 200;
+  background: var(--ink); color: #fff; padding: .6rem 1rem; font-weight: 700;
+  border: 3px solid var(--magenta); transform: translateY(-160%);
+}
+.skip:focus { transform: none; }
+
+/* ---- header (masthead: hamburger + logo, no menu bar) ---------------- */
 header {
-  position: sticky; top: 0; z-index: 10;
-  display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.4rem;
-  padding: .8rem clamp(1rem, 4vw, 2.5rem);
+  position: sticky; top: 0; z-index: 30;
+  display: flex; align-items: center; gap: 1rem;
+  padding: .7rem clamp(1rem, 4vw, 2.5rem);
   border-bottom: 4px solid var(--ink);
   background: rgba(255, 255, 255, .92);
   backdrop-filter: blur(6px);
@@ -103,29 +111,82 @@ header {
 .logo { font-size: 1.6rem; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: .3rem; }
 .logo .word { text-shadow: .04em 0 var(--magenta), -.04em 0 var(--cyan); }
 .logo .fist { -webkit-text-fill-color: initial; }
-header nav { display: flex; flex-wrap: wrap; gap: .2rem .9rem; margin-left: auto; }
-header nav a { text-decoration: none; font-weight: 700; padding: .35rem .2rem; color: var(--ink); }
-header nav a:hover { color: var(--magenta); }
-header nav a.th {
-  border: 2px solid var(--ink); padding: .3rem .6rem; border-radius: 4px;
+
+/* hamburger button */
+.hbtn {
+  display: inline-flex; align-items: center; gap: .5rem;
+  font: inherit; font-weight: 700; cursor: pointer;
+  background: #fff; color: var(--ink);
+  border: 3px solid var(--ink); box-shadow: 3px 3px 0 var(--ink);
+  padding: .45rem .7rem;
 }
-header nav a.th:hover { background: var(--ink); color: #fff; }
-header nav a.cta {
-  background: var(--magenta); color: #fff; padding: .4rem .85rem;
-  border: 3px solid var(--ink); box-shadow: 4px 4px 0 var(--ink);
+.hbtn:hover { background: var(--cyan); }
+.hbtn .hbars, .hbtn .hbars::before, .hbtn .hbars::after {
+  display: block; width: 20px; height: 3px; background: currentColor;
+  transition: transform .25s ease, opacity .2s ease;
 }
-/* B2B front door — the primary invitation for clinics. */
-header nav a.front {
-  background: var(--cyan); color: var(--ink); padding: .4rem .85rem;
-  border: 3px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); margin-right: .3rem;
+.hbtn .hbars { position: relative; }
+.hbtn .hbars::before, .hbtn .hbars::after { content: ""; position: absolute; left: 0; }
+.hbtn .hbars::before { top: -6px; }
+.hbtn .hbars::after { top: 6px; }
+/* bars morph to an X when the drawer is open */
+body.nav-open .hbtn .hbars { background: transparent; }
+body.nav-open .hbtn .hbars::before { transform: translateY(6px) rotate(45deg); }
+body.nav-open .hbtn .hbars::after { transform: translateY(-6px) rotate(-45deg); }
+
+/* ---- off-canvas drawer / sidebar ------------------------------------- */
+.drawer {
+  position: fixed; inset: 0 auto 0 0; z-index: 50;
+  width: min(84vw, 300px);
+  display: flex; flex-direction: column; gap: .55rem;
+  padding: 1.4rem 1.1rem;
+  background: var(--paper); border-right: 4px solid var(--ink);
+  box-shadow: 10px 0 0 rgba(11,11,11,.12);
+  transform: translateX(-102%);
+  transition: transform .28s cubic-bezier(.4, 0, .2, 1);
+  overflow-y: auto; overscroll-behavior: contain;
 }
-header nav a.front:hover { background: var(--magenta); color: #fff; }
+.drawer.open { transform: translateX(0); }
+.d-close {
+  align-self: flex-end; font: inherit; font-size: 1.3rem; line-height: 1; cursor: pointer;
+  background: none; border: 0; color: var(--ink); padding: .2rem .4rem; margin: -.4rem -.2rem .2rem 0;
+}
+.d-close:hover { color: var(--magenta); }
+.d-item {
+  text-decoration: none; font-weight: 700; font-size: 1.12rem; color: var(--ink);
+  padding: .7rem .6rem; border: 3px solid transparent; border-radius: 4px;
+}
+.d-item:hover, .d-item:focus-visible { border-color: var(--ink); background: #fff; color: var(--magenta); }
+.d-front { background: var(--cyan); color: var(--ink); border-color: var(--ink); box-shadow: 3px 3px 0 var(--ink); }
+.d-front:hover { background: var(--magenta); color: #fff; }
+.d-cta { background: var(--magenta); color: #fff; border-color: var(--ink); box-shadow: 3px 3px 0 var(--ink); margin-top: .3rem; }
+.d-cta:hover { background: var(--cyan); color: var(--ink); }
+.d-th { border-color: var(--ink); }
+
+/* scrim behind the overlay drawer */
+.scrim {
+  position: fixed; inset: 0; z-index: 45; background: rgba(10, 10, 10, .45);
+  opacity: 0; visibility: hidden; transition: opacity .28s ease;
+}
+body.nav-open { overflow: hidden; }
+body.nav-open .scrim { opacity: 1; visibility: visible; }
+
+/* wide screens: dock the drawer as a permanent sidebar, hide the hamburger */
+@media (min-width: 1100px) {
+  body { padding-left: 300px; }
+  .drawer { transform: none; box-shadow: none; }
+  .drawer .d-close { display: none; }
+  .scrim { display: none; }
+  .hbtn { display: none; }
+  body.nav-open { overflow: auto; }
+}
+
 .qr { text-align: center; margin: 2rem 0; }
 .qr img { border: 4px solid var(--ink); box-shadow: 7px 7px 0 var(--magenta); background: #fff; padding: 8px; }
 .qr p { font-size: .9rem; color: #555; margin-top: .7rem; }
-header nav a.cta:hover { background: var(--cyan); color: var(--ink); }
 
 main { max-width: 74ch; margin: 0 auto; padding: 2rem clamp(1rem, 4vw, 2rem) 3.5rem; }
+main:focus { outline: none; }
 
 /* ---- hero ------------------------------------------------------------ */
 .hero { display: grid; grid-template-columns: 1fr; gap: 1.2rem; align-items: center; margin-bottom: 1rem; }
@@ -308,5 +369,13 @@ footer a:hover { color: var(--magenta); }
 .siteindex a:hover { color: var(--magenta); text-decoration: underline; }
 .idx-note { margin: .2rem 0; color: #888; }
 
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation: none !important; } }
-@media print { header nav, footer, .lead-form { display: none; } body::before { display: none; } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation: none !important; }
+  .drawer, .scrim, .hbtn .hbars, .hbtn .hbars::before, .hbtn .hbars::after { transition: none !important; }
+}
+@media print {
+  header, .drawer, .scrim, .hbtn, .skip, footer, .lead-form { display: none !important; }
+  body { padding-left: 0 !important; }
+  body::before { display: none; }
+}
