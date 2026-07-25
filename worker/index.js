@@ -108,6 +108,7 @@ th{background:#191919;color:#FBF7EF}h1{font-size:1.6rem}</style>
 
       const email = String(b.email || "").slice(0, 300).trim().toLowerCase();
       const name = String(b.name || "").slice(0, 200).trim();
+      const frequency = b.frequency === "daily" ? "daily" : "weekly";   // weekly is the default
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
         return json({ ok: false, error: "valid email required" }, 400, cors(origin));
 
@@ -120,8 +121,8 @@ th{background:#191919;color:#FBF7EF}h1{font-size:1.6rem}</style>
 
       // INSERT OR IGNORE: re-subscribing with the same email is a silent no-op (UNIQUE email).
       await env.DB
-        .prepare("INSERT OR IGNORE INTO subscribers (ts, email, name, source, ip, ua, referer, status) VALUES (?1,?2,?3,?4,?5,?6,?7,'active')")
-        .bind(Date.now(), email, name, String(b.source || "site").slice(0, 60), ip,
+        .prepare("INSERT OR IGNORE INTO subscribers (ts, email, name, source, frequency, ip, ua, referer, status) VALUES (?1,?2,?3,?4,?5,?6,?7,?8,'active')")
+        .bind(Date.now(), email, name, String(b.source || "site").slice(0, 60), frequency, ip,
               (req.headers.get("User-Agent") || "").slice(0, 300),
               (req.headers.get("Referer") || "").slice(0, 300))
         .run();
@@ -134,7 +135,7 @@ th{background:#191919;color:#FBF7EF}h1{font-size:1.6rem}</style>
       if (!env.LEADS_TOKEN || tok !== env.LEADS_TOKEN) return json({ ok: false, error: "nope" }, 403);
 
       const { results } = await env.DB
-        .prepare("SELECT id, ts, email, name, source, status FROM subscribers WHERE status = 'active' ORDER BY ts DESC LIMIT 10000")
+        .prepare("SELECT id, ts, email, name, source, frequency, status FROM subscribers WHERE status = 'active' ORDER BY ts DESC LIMIT 10000")
         .all();
 
       if (url.searchParams.get("format") === "csv") {

@@ -79,6 +79,16 @@ Defiant was founded by three American expats who got their own care in Thailand 
 got tired of watching friends back home get crushed by US medical bills. Disabled,
 queer, DEIA, and relentlessly organized. [[=About|Read the story — and the manifesto →]]
 
+<div class="dispatch-band">
+
+## 📨 The Dispatch — the prices, in your inbox
+
+New prices, new procedures, new guides — pulled straight from the site and sent to you. **Weekly digest by default; flip to daily if you want every update the same day.** Your email lives in our own database, never a third party's.
+
+
+
+</div>
+
 ## Get in touch
 
 Chiang Mai, Thailand · working with clients across every US time zone.

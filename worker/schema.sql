@@ -20,6 +20,7 @@ CREATE TABLE IF NOT EXISTS subscribers (
   email        TEXT NOT NULL UNIQUE,
   name         TEXT,
   source       TEXT,
+  frequency    TEXT DEFAULT 'weekly',    -- weekly (default) | daily
   ip           TEXT,
   ua           TEXT,
   referer      TEXT,
@@ -29,6 +30,9 @@ CREATE TABLE IF NOT EXISTS subscribers (
   unsub_ts     INTEGER
 );
 CREATE INDEX IF NOT EXISTS idx_subscribers_ts ON subscribers (ts);
+-- Migration for an already-deployed table (run once; harmless if the column exists):
+--   wrangler d1 execute defiant-leads --remote --command \
+--     "ALTER TABLE subscribers ADD COLUMN frequency TEXT DEFAULT 'weekly'"
 
 -- Clinic self-service submissions — a clinic tells us who they are, what they do,
 -- current promotions. Before/after photos come over LINE (how Thai clinics work).

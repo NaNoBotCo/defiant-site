@@ -454,7 +454,11 @@ SUBSCRIBE_FORM_HTML = """<form id="sub-form" class="lead-form">
 <input name="email" type="email" required maxlength="300" autocomplete="email" placeholder="you@example.com"></label>
 <label>Name (optional)<br><input name="name" maxlength="200" autocomplete="name"></label>
 <div class="hp" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
-<label class="consent"><input name="consent" type="checkbox" required> Yes, email me the occasional Defiant dispatch. I can unsubscribe anytime.</label>
+<fieldset class="freq"><legend>How often?</legend>
+<label class="radio"><input type="radio" name="frequency" value="weekly" checked> Weekly digest <span class="dim">— the default</span></label>
+<label class="radio"><input type="radio" name="frequency" value="daily"> Daily <span class="dim">— every new page, same day</span></label>
+</fieldset>
+<label class="consent"><input name="consent" type="checkbox" required> Yes, email me the Defiant dispatch. I can unsubscribe anytime.</label>
 <button type="submit" class="send">KEEP ME POSTED ✊</button>
 <p id="sub-ok" hidden><strong>You're on the list.</strong> No spam, no selling your name — it lives in our own database, not a third party's.</p>
 <p id="sub-err" hidden><strong>That didn't go through.</strong> Try again in a moment, or reach us on the <a href="/contact/">contact page</a>.</p>
@@ -465,7 +469,8 @@ SUBSCRIBE_JS = ("<script>(function(){var f=document.getElementById('sub-form');i
                 "if(!f.reportValidity())return;var b=f.querySelector('.send');b.disabled=true;b.textContent='…';"
                 f"fetch('{WORKER_URL}/subscribe'" + ",{method:'POST',headers:{'Content-Type':'application/json'},"
                 "body:JSON.stringify({email:f.email.value,name:f.name.value,website:f.website.value,"
-                "source:'subscribe-page',t0:t0})}).then(function(r){return r.json()}).then(function(j){"
+                "frequency:(f.frequency&&f.frequency.value)||'weekly',source:'subscribe-page',t0:t0})})"
+                ".then(function(r){return r.json()}).then(function(j){"
                 "if(j.ok){f.querySelector('#sub-ok').hidden=false;b.textContent='ON THE LIST ✊';}"
                 "else{throw 0}}).catch(function(){f.querySelector('#sub-err').hidden=false;"
                 "b.disabled=false;b.textContent='KEEP ME POSTED ✊';})});})();</script>")
