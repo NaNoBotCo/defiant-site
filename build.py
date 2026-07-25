@@ -1333,6 +1333,22 @@ def _card_for(route):
     return "/assets/images/share.jpg"
 
 
+def _card_alt(route, meta, title):
+    """Descriptive alt text for the share image — the accessibility hook."""
+    t = meta.get("type", "")
+    nm = title.split(" — ")[0].split(" | ")[0]
+    if t == "procedure":
+        return (f"Defiant share card — {nm}: US {meta.get('us_cost','')} "
+                f"versus Thailand {meta.get('th_cost','')}.").replace("  ", " ")
+    if t == "hospital":
+        acc = meta.get("accreditation", "")
+        return (f"Defiant share card — {nm}, {meta.get('city','Thailand')}"
+                + (f", {acc}-accredited" if acc else "") + ".")
+    if route == "/concierge/":
+        return "Defiant share card — what it costs: $999 full concierge or a $99 DIY pack."
+    return f"Defiant share card — {title}."
+
+
 def page(name, meta, body_html, route, raw_body=""):
     ov = PAGE_OVERRIDES.get(name, {})
     title = ov.get("title") or meta.get("title") or name.lstrip("=")
@@ -1386,6 +1402,14 @@ def page(name, meta, body_html, route, raw_body=""):
             '<img src="/assets/images/qr-th.png" alt="QR code — defiant.to/th" width="220" height="220"></a>'
             '<p>สแกนเปิดหน้านี้ · หรือแอดไลน์ <b>defiant.to</b> · scan or add on LINE</p></div>')
 
+    _art = {"procedure", "guide", "hospital", "pricing", "destination"}
+    og_type = "article" if meta.get("type") in _art else "website"
+    modified = meta.get("updated", TODAY)
+    card_url = f"{SITE}{_card_for(route)}"
+    card_alt = esc(_card_alt(route, meta, title))
+    art_time = (f'<meta property="article:modified_time" content="{modified}T00:00:00Z">'
+                f'<meta property="article:published_time" content="{modified}T00:00:00Z">'
+                if og_type == "article" else "")
     return f"""<!DOCTYPE html><html lang="en"><head>
 <!-- {BLESSING} -->
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -1394,10 +1418,18 @@ def page(name, meta, body_html, route, raw_body=""):
 <meta name="description" content="{esc(desc)}">
 {'<meta name="robots" content="noindex">' if noindex else ''}
 <link rel="canonical" href="{SITE}{route}">
-<meta property="og:site_name" content="Defiant"><meta property="og:type" content="website">
+<meta property="og:site_name" content="Defiant"><meta property="og:type" content="{og_type}">
+<meta property="og:locale" content="en_US">
 <meta property="og:title" content="{esc(full_title)}"><meta property="og:description" content="{esc(desc)}">
-<meta property="og:url" content="{SITE}{route}"><meta property="og:image" content="{SITE}{_card_for(route)}">
+<meta property="og:url" content="{SITE}{route}">
+<meta property="og:image" content="{card_url}"><meta property="og:image:secure_url" content="{card_url}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{card_alt}">
+{art_time}
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(full_title)}"><meta name="twitter:description" content="{esc(desc)}">
+<meta name="twitter:image" content="{card_url}"><meta name="twitter:image:alt" content="{card_alt}">
 <link rel="icon" type="image/png" href="/assets/images/favicon.png">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
