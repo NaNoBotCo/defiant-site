@@ -136,6 +136,7 @@ def collect_notes():
     add(PUB / "=Partners.md", "/partners/")
     add(PUB / "=Concierge.md", "/concierge/")
     add(PUB / "=Estradiol.md", "/estradiol/")
+    add(PUB / "=Recourse.md", "/recourse/")
     add(PUB / "=DTV.md", "/dtv/")
     add(PUB / "=Senior-Living.md", "/senior-living/")
     add(PUB / "=Glowup.md", "/glowup/")
@@ -738,6 +739,8 @@ FOOTER = f"""<footer>
 # bots read the entire tree) plus machine JSON at /data/ advertised via Dataset
 # schema. Goal: be the canonical medical-tourism data source, starting in CM.
 _INDEX_HTML = ""
+_HOSP_BLOCK = ""
+_HOSP_MD = ""
 
 
 def build_catalog(notes):
@@ -801,6 +804,260 @@ def render_site_index(catalog, directory):
         out.append('</ul>')
     out.append('</section></div></details>')
     return "".join(out)
+
+
+def _note_section(body, header):
+    """Pull the bullet items under a '## header' as plain strings (wikilinks stripped)."""
+    m = re.search(r'##\s*' + re.escape(header) + r'\s*\n(.*?)(?=\n##|\Z)', body, re.S | re.I)
+    if not m:
+        return []
+    items = []
+    for line in m.group(1).splitlines():
+        line = line.strip()
+        if re.fullmatch(r'[-*_]{3,}', line):  # horizontal rule → end of list
+            break
+        if not line.startswith('- '):  # real bullet only (dash + space)
+            continue
+        txt = re.sub(r'\[\[([^\]|]+)(\|[^\]]+)?\]\]', r'\1', line[2:].strip()).strip()
+        if txt:
+            items.append(txt)
+    return items
+
+
+def collect_hospital_records(notes):
+    """Every hospital dossier as a structured record: city, accreditation, type,
+    strong suits, and the procedures it routes (with links). Feeds the rich index."""
+    proc_route = {name: route for route, (name, meta, _b) in notes.items()
+                  if meta.get("type") == "procedure"}
+    recs = []
+    for route, (name, meta, body) in notes.items():
+        if meta.get("type") != "hospital":
+            continue
+        typ = re.search(r'\| Type \| ([^\|]+)\|', body)
+        scale = re.search(r'\| Scale \| ([^\|]+)\|', body)
+        intro = body.split('<!--')[0].strip().split('\n\n')[0].strip() if body else ""
+        procs = []
+        for pn in _note_section(body, "Procedures we route here"):
+            procs.append({"n": pn, "u": proc_route.get(pn, "")})
+        recs.append({
+            "name": name, "url": route, "city": meta.get("city", "Thailand"),
+            "acc": meta.get("accreditation", ""), "type": (typ.group(1).strip() if typ else ""),
+            "scale": (scale.group(1).strip() if scale else ""), "intro": intro,
+            "suits": _note_section(body, "Strong suits"), "procs": procs,
+        })
+    recs.sort(key=lambda r: (r["city"] != "Chiang Mai", r["city"], r["name"]))
+    return recs
+
+
+HOSP_CSS = """<style>
+.hospx{--pk:var(--magenta,#ff179e);--cy:var(--cyan,#00d6d6);--pp:var(--purple,#7a1fd6)}
+.hospx *{box-sizing:border-box}
+.hospx .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;margin:1.4rem 0}
+.hospx .stat{border:3px solid var(--ink);background:#fff;box-shadow:5px 5px 0 var(--ink);padding:.7rem .8rem}
+.hospx .stat .n{font-size:1.9rem;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.hospx .stat.pk .n{color:var(--pk)}.hospx .stat.cy .n{color:var(--pp)}
+.hospx .stat .l{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:#555;margin-top:.3rem}
+.hospx .ctl{background:var(--bg);padding:.7rem 0;border-bottom:3px solid var(--ink);margin-bottom:1rem}
+.hospx .rw{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin-bottom:.5rem}
+.hospx .rw:last-child{margin-bottom:0}
+.hospx input[type=search]{flex:1;min-width:190px;font:inherit;padding:.55rem .7rem;border:3px solid var(--ink);background:#fff}
+.hospx input[type=search]:focus{outline:none;box-shadow:4px 4px 0 var(--cy)}
+.hospx .lbl{font-size:.66rem;text-transform:uppercase;letter-spacing:.13em;color:#555}
+.hospx .tag{font:inherit;font-size:.8rem;border:2px solid var(--ink);background:#fff;padding:.32rem .7rem;cursor:pointer}
+.hospx .tag:hover{background:var(--pk);color:#fff}
+.hospx .tag[aria-pressed=true]{background:var(--ink);color:#fff}
+.hospx .vt{display:inline-flex;border:3px solid var(--ink)}
+.hospx .vt button{font:inherit;font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;border:0;background:#fff;padding:.5rem .8rem;cursor:pointer}
+.hospx .vt button[aria-pressed=true]{background:var(--ink);color:#fff}
+.hospx .cnt{font-size:.8rem;color:#555;margin:.2rem 0 1rem}
+.hospx .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem}
+.hospx .card{border:3px solid var(--ink);background:#fff;box-shadow:7px 7px 0 var(--ink);padding:1rem;display:flex;flex-direction:column;gap:.55rem}
+.hospx .card h3{margin:0;font-size:1.15rem;line-height:1.15}
+.hospx .card h3 a{text-decoration:none;border-bottom:3px solid var(--cy)}
+.hospx .card h3 a:hover{color:var(--pk);border-color:var(--pk)}
+.hospx .meta{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;font-size:.72rem;color:#555}
+.hospx .city{text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:var(--ink)}
+.hospx .badge{font-size:.66rem;font-weight:700;letter-spacing:.05em;padding:.12rem .45rem;text-transform:uppercase;border:2px solid}
+.hospx .badge.jci{color:var(--pp);border-color:var(--cy);background:#eafcff}
+.hospx .badge.ha{color:var(--pk);border-color:var(--pk);background:#fff0f7}
+.hospx .intro{font-size:.86rem;line-height:1.45;color:#333;margin:0}
+.hospx .sl{font-size:.62rem;text-transform:uppercase;letter-spacing:.13em;color:#777;margin-top:.15rem}
+.hospx .chips{display:flex;flex-wrap:wrap;gap:.35rem}
+.hospx .chip{font-size:.74rem;padding:.2rem .55rem;border:2px solid var(--ink)}
+.hospx .chip.suit{border-color:var(--cy);color:var(--pp);background:#f2feff}
+.hospx a.chip.proc{text-decoration:none;color:var(--ink);border-style:dashed;background:#fff}
+.hospx a.chip.proc:hover{border-color:var(--pk);color:var(--pk);border-style:solid}
+.hospx a.chip.proc.on{background:var(--pk);color:#fff;border-color:var(--pk);border-style:solid}
+.hospx .needrow{border:3px solid var(--ink);background:#fff;box-shadow:5px 5px 0 var(--ink);padding:.8rem 1rem;margin-bottom:.8rem}
+.hospx .needrow .p{font-size:1.05rem;font-weight:700}
+.hospx .needrow .p a{text-decoration:none;border-bottom:2px solid var(--cy)}
+.hospx .needrow .pc{font-size:.66rem;text-transform:uppercase;letter-spacing:.1em;color:var(--pp);margin:.1rem 0 .5rem}
+.hospx .hs{display:flex;flex-wrap:wrap;gap:.4rem}
+.hospx .hpill{font-size:.78rem;padding:.2rem .55rem;border:2px solid var(--ink);text-decoration:none;color:var(--ink)}
+.hospx .hpill:hover{background:var(--pk);color:#fff}
+.hospx .hpill b{color:var(--pk);font-weight:700}.hospx .hpill:hover b{color:#fff}
+.hospx .empty{grid-column:1/-1;color:#555;padding:2rem;text-align:center}
+.hospx .beyond{margin-top:2.4rem;border:3px solid var(--ink);background:var(--paper,#f3f3f3);padding:1.3rem}
+.hospx .beyond h2{margin:.1rem 0 .3rem;font-size:1.3rem;border:0}
+.hospx .beyond p{font-size:.86rem;color:#333;margin:0 0 1rem;max-width:64ch}
+.hospx .dirg{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.6rem}
+.hospx .dc{border:2px solid var(--ink);background:#fff;padding:.6rem .7rem}
+.hospx .dc .dn{font-size:1.5rem;font-weight:700;font-variant-numeric:tabular-nums}
+.hospx .dc .dl{font-size:.72rem;color:#555}
+.hospx .note{font-size:.74rem;color:#555;margin-top:1rem;border-top:2px dashed var(--ink);padding-top:.8rem}
+.hospx .needwrap{display:none}
+@media(max-width:640px){.hospx .stats{grid-template-columns:repeat(2,1fr)}}
+</style>"""
+
+HOSP_JS = """<script>(function(){
+var W=document.getElementById('hospx');if(!W)return;var D=W._data;
+var H=D.h,inv={};H.forEach(function(h){h.procs.forEach(function(p){(inv[p.n]=inv[p.n]||[]).push(h)})});
+var $=function(s){return W.querySelector(s)};
+var fCity=null,fAcc=null,fProc=null,view='h';
+function tags(sel,vals,get,set){var box=$(sel);vals.forEach(function(v){var b=document.createElement('button');b.className='tag';b.textContent=v;b.onclick=function(){set(get()===v?null:v);render()};box.appendChild(b)})}
+tags('#cityrow',D.cities,function(){return fCity},function(v){fCity=v});
+tags('#accrow',D.accs,function(){return fAcc},function(v){fAcc=v});
+$('#q').addEventListener('input',render);
+$('#vh').onclick=function(){view='h';sync();render()};
+$('#vn').onclick=function(){view='n';sync();render()};
+function sync(){$('#vh').setAttribute('aria-pressed',view==='h');$('#vn').setAttribute('aria-pressed',view==='n');$('#grid').style.display=view==='h'?'grid':'none';$('#needwrap').style.display=view==='n'?'block':'none'}
+function refresh(){[['#cityrow',function(){return fCity}],['#accrow',function(){return fAcc}]].forEach(function(x){W.querySelectorAll(x[0]+' .tag').forEach(function(b){b.setAttribute('aria-pressed',x[1]()===b.textContent)})})}
+function badge(a){return a==='JCI'?'<span class="badge jci">JCI</span>':(a?'<span class="badge ha">'+a+'</span>':'')}
+function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
+function matchH(h,q){if(fCity&&h.city!==fCity)return false;if(fAcc&&h.acc!==fAcc)return false;if(fProc&&!h.procs.some(function(p){return p.n===fProc}))return false;if(q){var hay=(h.name+' '+h.intro+' '+h.suits.join(' ')+' '+h.procs.map(function(p){return p.n}).join(' ')).toLowerCase();if(hay.indexOf(q)<0)return false}return true}
+function render(){refresh();var q=$('#q').value.trim().toLowerCase();
+ if(view==='h'){var rows=H.filter(function(h){return matchH(h,q)});
+  $('#cnt').textContent=rows.length+' of '+H.length+' hospitals'+(fProc?' \\u00b7 offering \\u201c'+fProc+'\\u201d':'');
+  $('#grid').innerHTML=rows.length?rows.map(function(h){return '<div class="card"><h3><a href="'+h.url+'">'+esc(h.name)+'</a></h3>'+
+   '<div class="meta"><span class="city">'+esc(h.city)+'</span>'+badge(h.acc)+'<span>'+esc(h.type)+'</span></div>'+
+   '<p class="intro">'+esc(h.intro)+'</p>'+
+   (h.suits.length?'<div class="sl">Strong suits</div><div class="chips">'+h.suits.map(function(s){return '<span class="chip suit">'+esc(s)+'</span>'}).join('')+'</div>':'')+
+   (h.procs.length?'<div class="sl">Routes here ('+h.procs.length+')</div><div class="chips">'+h.procs.map(function(p){return '<a class="chip proc'+(p.n===fProc?' on':'')+'" href="'+(p.u||'#')+'" data-p="'+esc(p.n)+'">'+esc(p.n)+'</a>'}).join('')+'</div>':'')+
+   '</div>'}).join(''):'<div class="empty">No hospital matches. <button class="tag" id="clr">Clear filters</button></div>';
+  W.querySelectorAll('a.chip.proc').forEach(function(c){c.onclick=function(e){e.preventDefault();fProc=fProc===c.getAttribute('data-p')?null:c.getAttribute('data-p');render()}});
+  var clr=$('#clr');if(clr)clr.onclick=function(){fCity=fAcc=fProc=null;$('#q').value='';render()};
+ }else{var procs=Object.keys(inv).sort(function(a,b){return inv[b].length-inv[a].length||a.localeCompare(b)});
+  if(q)procs=procs.filter(function(p){return p.toLowerCase().indexOf(q)>=0||inv[p].some(function(h){return h.name.toLowerCase().indexOf(q)>=0})});
+  if(fCity)procs=procs.filter(function(p){return inv[p].some(function(h){return h.city===fCity})});
+  $('#cnt').textContent=procs.length+' procedures \\u00b7 pick one to see where it\\u2019s done';
+  $('#needwrap').innerHTML=procs.map(function(p){var hs=inv[p];if(fCity)hs=hs.filter(function(h){return h.city===fCity});var cat=D.pcat[p]||'';var u=hs[0]?hs[0].procs.filter(function(x){return x.n===p})[0]:null;u=u?u.u:'';
+   return '<div class="needrow"><div class="p">'+(u?'<a href="'+u+'">'+esc(p)+'</a>':esc(p))+'</div>'+(cat?'<div class="pc">'+esc(cat)+'</div>':'')+
+    '<div class="hs">'+hs.map(function(h){return '<a class="hpill" href="'+h.url+'">'+esc(h.name)+' <b>\\u00b7 '+esc(h.city)+'</b></a>'}).join('')+'</div></div>'}).join('')||'<div class="empty">No procedures match.</div>';
+ }}
+sync();render();
+})();</script>"""
+
+
+def _hosp_fallback_cards(recs):
+    """Server-rendered cards — what no-JS crawlers and AI agents see before the
+    interactive layer boots. JS replaces this with the same default view."""
+    out = []
+    for h in recs:
+        badge = (f'<span class="badge {"jci" if h["acc"]=="JCI" else "ha"}">{esc(h["acc"])}</span>'
+                 if h["acc"] else "")
+        suits = ("".join(f'<span class="chip suit">{esc(s)}</span>' for s in h["suits"]))
+        procs = ("".join(f'<a class="chip proc" href="{p["u"] or "#"}">{esc(p["n"])}</a>'
+                         for p in h["procs"]))
+        out.append(
+            f'<div class="card"><h3><a href="{h["url"]}">{esc(h["name"])}</a></h3>'
+            f'<div class="meta"><span class="city">{esc(h["city"])}</span>{badge}'
+            f'<span>{esc(h["type"])}</span></div><p class="intro">{esc(h["intro"])}</p>'
+            + (f'<div class="sl">Strong suits</div><div class="chips">{suits}</div>' if suits else "")
+            + (f'<div class="sl">Routes here ({len(h["procs"])})</div><div class="chips">{procs}</div>'
+               if procs else "")
+            + '</div>')
+    return "".join(out)
+
+
+def hospitals_markdown(recs, pcat):
+    """Plain-markdown hospital directory for llms-full.txt — richer than the old
+    flat list: each dossier carries its strong suits and the procedures it routes."""
+    out = []
+    seen_city = []
+    for h in sorted(recs, key=lambda r: (r["city"] != "Chiang Mai", r["city"], r["name"])):
+        if h["city"] not in seen_city:
+            seen_city.append(h["city"])
+            out.append(f"\n## {h['city']}\n")
+        acc = f" · {h['acc']}" if h["acc"] else ""
+        out.append(f"### {h['name']}{acc}")
+        if h["intro"]:
+            out.append(h["intro"])
+        if h["suits"]:
+            out.append("Strong suits: " + ", ".join(h["suits"]) + ".")
+        if h["procs"]:
+            out.append("Routes here: " + ", ".join(f"[{p['n']}]({p['u']})" for p in h["procs"]) + ".")
+        out.append("")
+    return "\n".join(out).strip()
+
+
+def build_hospitals_block(notes, directory, catalog):
+    recs = collect_hospital_records(notes)
+    pcat = {}
+    for cat, items in catalog["procedures"].items():
+        for nm, _rt, _m in items:
+            pcat[nm] = cat
+    cities, accs = [], []
+    for r in recs:
+        if r["city"] not in cities:
+            cities.append(r["city"])
+        if r["acc"] and r["acc"] not in accs:
+            accs.append(r["acc"])
+    total_routes = sum(len(r["procs"]) for r in recs)
+    inv = {}
+    for r in recs:
+        for p in r["procs"]:
+            inv.setdefault(p["n"], 0)
+            inv[p["n"]] += 1
+    shared = sum(1 for v in inv.values() if v > 1)
+    data = {"h": recs, "cities": cities, "accs": accs, "pcat": pcat}
+    blob = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+
+    cats = directory.get("categories", {})
+    hbc = directory.get("hospitals_by_country", {})
+    ww_total = sum(c["count"] for c in hbc.values()) if hbc else 0
+    dir_grand = ww_total + sum(c["count"] for c in cats.values())
+    local = esc(directory.get("local_city", "Chiang Mai"))
+    dircells = "".join(
+        f'<div class="dc"><div class="dn">{c["count"]}</div><div class="dl">{esc(c["label"])}</div></div>'
+        for c in sorted(cats.values(), key=lambda c: -c["count"]))
+
+    stats = [("pk", len(recs), "vetted dossiers"),
+             ("", total_routes, "procedure routes"),
+             ("cy", shared, "procedures at 2+ hospitals"),
+             ("", f"{dir_grand:,}", "facilities crawled")]
+    statrow = "".join(
+        f'<div class="stat {c}"><div class="n">{n}</div><div class="l">{l}</div></div>'
+        for c, n, l in stats)
+
+    ww_line = ""
+    if hbc:
+        top = sorted(hbc.items(), key=lambda kv: -kv[1]["count"])[:5]
+        ww_line = (f' Worldwide the crawl also holds <b>{ww_total:,} hospitals across {len(hbc)} countries</b> — '
+                   + ", ".join(f'{esc(k)} ({v["count"]:,})' for k, v in top)
+                   + ", and more.")
+
+    html = f"""{HOSP_CSS}
+<div class="hospx" id="hospx">
+<div class="stats">{statrow}</div>
+<div class="ctl">
+ <div class="rw"><input type="search" id="q" placeholder="Search hospital, specialty, or procedure…" aria-label="Search hospitals and procedures">
+ <span class="vt"><button id="vh" aria-pressed="true">By hospital</button><button id="vn" aria-pressed="false">By need</button></span></div>
+ <div class="rw" id="cityrow"><span class="lbl">City</span></div>
+ <div class="rw" id="accrow"><span class="lbl">Accreditation</span></div>
+</div>
+<div class="cnt" id="cnt">{len(recs)} of {len(recs)} hospitals</div>
+<div class="grid" id="grid">{_hosp_fallback_cards(recs)}</div>
+<div class="needwrap" id="needwrap"></div>
+<div class="beyond">
+ <h2>Beyond the shortlist</h2>
+ <p>The dossiers above are the curated referral list — the ones we would send a friend to. Underneath sits the corpus we track: <b>{dir_grand:,}</b> facilities in all.{ww_line} In {local} alone:</p>
+ <div class="dirg">{dircells}</div>
+ <p class="note">These aren’t mass-published (thin-content penalty), but they power “search near you” routing and the machine-readable <a href="/data/directory.json">/data/directory.json</a> — the spine of the #1-data-source play.</p>
+</div>
+</div>
+<script>document.getElementById('hospx')._data={blob};</script>
+{HOSP_JS}"""
+    return html, hospitals_markdown(recs, pcat)
 
 
 DIR_TYPE = {"geriatric": "NursingHome", "rehab": "MedicalClinic", "gyn": "MedicalClinic",
@@ -896,6 +1153,8 @@ def page(name, meta, body_html, route, raw_body=""):
     if "<!-- defiant:clinicform -->" in body_html:
         body_html = body_html.replace("<!-- defiant:clinicform -->", CLINIC_FORM_HTML)
         scripts.append(CLINIC_JS)
+    if "<!-- defiant:hospindex -->" in body_html:
+        body_html = body_html.replace("<!-- defiant:hospindex -->", _HOSP_BLOCK)
     for prod in ("pack", "concierge"):
         marker = f"<!-- defiant:pay:{prod} -->"
         if marker in body_html:
@@ -990,10 +1249,11 @@ def build():
     links = {name: route for route, (name, _, _) in notes.items()}
 
     # Structured catalog + the collapsed crawlable index (set before pages emit).
-    global _INDEX_HTML
+    global _INDEX_HTML, _HOSP_BLOCK, _HOSP_MD
     catalog = build_catalog(notes)
     directory = load_directory()
     _INDEX_HTML = render_site_index(catalog, directory)
+    _HOSP_BLOCK, _HOSP_MD = build_hospitals_block(notes, directory, catalog)
 
     inline = make_inline(links)
     emitted = {}
@@ -1099,6 +1359,7 @@ def build():
         if ov.get("noindex"):
             continue
         t = ov.get("title") or meta.get("title") or name.lstrip("=")
+        body = body.replace("<!-- defiant:hospindex -->", _HOSP_MD)
         clean = re.sub(r"<!--.*?-->", "", body, flags=re.S)
         clean = re.sub(r"%%BTN:[^%]*%%", "(reveal button on site)", clean)
         chunks.append(f"# {t}\nURL: {SITE}{route}\n\n{clean.strip()}\n")

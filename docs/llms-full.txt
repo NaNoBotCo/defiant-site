@@ -1106,41 +1106,131 @@ around whatever you're already coming for.
 # Hospitals & Clinics — the Defiant shortlist
 URL: https://defiant.to/hospitals/
 
-The shortlist, not the phone book. Every facility here is one we would send a friend to — which is the entire methodology.
-
-## Bangkok
-
-- [[Bumrungrad International Hospital]] — Private international hospital · JCI
-- [[Bangkok Hospital]] — Private flagship (BDMS network) · JCI
-- [[Samitivej Sukhumvit Hospital]] — Private international hospital (BDMS) · JCI
-- [[BNH Hospital]] — Private hospital (est. 1898) · JCI
-- [[MedPark Hospital]] — Private tertiary hospital (opened 2020) · JCI
-- [[Vejthani Hospital]] — Private international hospital · JCI
-- [[Praram 9 Hospital]] — Private hospital · JCI
-- [[Phyathai 2 Hospital]] — Private hospital (Phyathai group) · JCI
-- [[Yanhee International Hospital]] — Private hospital — cosmetic & GA surgery at scale · JCI
-- [[Kamol Cosmetic Hospital]] — Specialist cosmetic & gender-affirmation hospital · Thai HA
-- [[Preecha Aesthetic Institute]] — Specialist plastic-surgery institute · Thai HA
-- [[Jetanin Institute]] — Specialist fertility hospital · JCI
-- [[Superior A.R.T.]] — Specialist IVF & genetics center · Thai HA
-- [[Rutnin Eye Hospital]] — Specialist eye hospital (est. 1964) · JCI
-- [[Bangkok International Dental Center]] — Specialist dental center · Thai HA
-
-## Chonburi
-
-- [[Suporn Clinic]] — Specialist GA surgery clinic · Thai HA
+The shortlist, not the phone book. Every facility here is one we would send a friend to — which is the entire methodology. Browse it by the thing you actually came in knowing: your **procedure**, your **city**, or the **accreditation** you trust.
 
 ## Chiang Mai
 
-- [[Bangkok Hospital Chiang Mai]] — Private hospital (BDMS network) · JCI
-- [[Chiang Mai Ram Hospital]] — Private hospital · Thai HA
-- [[McCormick Hospital]] — Private mission hospital (est. 1888) · Thai HA
-- [[Sriphat Medical Center]] — Private wing of Chiang Mai University Faculty of Medicine · Thai HA
-- [[Lanna Hospital]] — Private hospital · Thai HA
+### Bangkok Hospital Chiang Mai · JCI
+The shiny BDMS outpost in our home city — modern plant, international patient desk, and the strongest specialist bench in the north for cardiac and orthopedic work. Where we point visitors who want Bangkok-grade facilities without Bangkok.
+Strong suits: Orthopedics, Cardiology & cath lab, Health screening, International patient services.
+Routes here: [Hip Replacement](/procedures/hip-replacement/), [Knee Replacement](/procedures/knee-replacement/), [Arthroscopy](/procedures/arthroscopy/), [Angioplasty and Stenting](/procedures/angioplasty-and-stenting/), [Dental Implants](/procedures/dental-implants/), [Veneers](/procedures/veneers/), [Crowns and Bridges](/procedures/crowns-and-bridges/), [Cancer Screenings](/procedures/cancer-screenings/), [Gallbladder Removal (Cholecystectomy)](/procedures/gallbladder-removal-cholecystectomy/), [Hernia Repair](/procedures/hernia-repair/).
+
+### Chiang Mai Ram Hospital · Thai HA
+The workhorse private hospital of Chiang Mai and the one long-term expats actually use — big specialist roster, 24/7 everything, prices a clear step below Bangkok. Thai hospital accreditation (HA) rather than JCI; ask us what that difference does and doesn't mean.
+Strong suits: General & laparoscopic surgery, Orthopedics & sports medicine, Cosmetic procedures, Emergency care.
+Routes here: [Arthroscopy](/procedures/arthroscopy/), [Breast Augmentation](/procedures/breast-augmentation/), [Liposuction](/procedures/liposuction/), [Botox and Fillers](/procedures/botox-and-fillers/), [Dental Implants](/procedures/dental-implants/), [Crowns and Bridges](/procedures/crowns-and-bridges/), [Root Canal Treatment](/procedures/root-canal-treatment/), [Orthodontics (Braces, Aligners)](/procedures/orthodontics-braces-aligners/), [Gallbladder Removal (Cholecystectomy)](/procedures/gallbladder-removal-cholecystectomy/), [Hernia Repair](/procedures/hernia-repair/).
+
+### Lanna Hospital · Thai HA
+Established mid-size private hospital on the Superhighway — competent, quick, and often the sharpest quote in town for imaging, checkups and routine surgery.
+Strong suits: Health checkups & imaging, General surgery, Value pricing.
+
+### McCormick Hospital · Thai HA
+Chiang Mai's grand old mission hospital — over 130 years serving the city, straight pricing, and deep community trust. Not a medical-tourism showroom; exactly why locals and long-stayers rate it.
+Strong suits: General medicine & surgery, Maternity, Straightforward pricing.
+
+### Rajavej Hospital · Thai HA
+Rajavej Hospital (โรงพยาบาลราชเวชเชียงใหม่) is a private general hospital in Chiang
+Mai. We list it for one specific, essential reason: **it is, in our experience,
+the best hospital in Chiang Mai for US veterans using the VA Foreign Medical
+Program.** If you're a vet, that single fact outweighs a lot of brochure shine.
+
+### Sriphat Medical Center · Thai HA
+The private-service arm of CMU's medical school (alongside Maharaj Nakorn / Suan Dok hospital) — professor-level specialists at private-clinic convenience. For complex diagnostics in the north, this is where the deep bench lives. Also: it's แถวหลังมอ — right in our neighborhood.
+Strong suits: University-professor specialists, Complex diagnostics, Oncology & hematology, Orthopedics.
+Routes here: [Hip Replacement](/procedures/hip-replacement/), [Knee Replacement](/procedures/knee-replacement/).
+
+
+## Bangkok
+
+### BNH Hospital · JCI
+Bangkok's oldest private hospital, founded 1898 to treat foreign residents — medical tourism before the phrase existed. Boutique-scale, strong in spine, women's health and fertility, with the unhurried feel big flagships can't fake.
+Strong suits: Spine center, Fertility & IVF, Women's health, Orthopedics.
+
+### Bangkok Hospital · JCI
+Flagship of BDMS, Thailand's largest private hospital group. The campus includes the Bangkok Heart Hospital and Wattanosoth Cancer Hospital — dedicated cardiac and oncology facilities rather than departments. If your case is complex and multi-disciplinary, this is one of the two default answers in Bangkok.
+Strong suits: Cardiac surgery & intervention, Oncology (Wattanosoth), Neurosurgery & spine, Trauma & orthopedics.
+Routes here: [Hip Replacement](/procedures/hip-replacement/), [Knee Replacement](/procedures/knee-replacement/), [Shoulder Replacement](/procedures/shoulder-replacement/), [Spinal Surgery](/procedures/spinal-surgery/), [Heart Bypass Surgery (CABG)](/procedures/heart-bypass-surgery-cabg/), [Heart Valve Replacement](/procedures/heart-valve-replacement/), [Angioplasty and Stenting](/procedures/angioplasty-and-stenting/), [Pacemaker Implantation](/procedures/pacemaker-implantation/), [Cataract Surgery](/procedures/cataract-surgery/), [Retinal Surgery](/procedures/retinal-surgery/), [Corneal Transplants](/procedures/corneal-transplants/), [Cancer Screenings](/procedures/cancer-screenings/), [Chemotherapy](/procedures/chemotherapy/), [Radiation Therapy](/procedures/radiation-therapy/), [Surgical Oncology](/procedures/surgical-oncology/).
+
+### Bangkok International Dental Center · Thai HA
+One of the largest dedicated dental-tourism facilities in Asia — implantology, full-mouth rehabilitation and cosmetic dentistry with in-house labs and same-week turnarounds built for fly-in patients.
+Strong suits: Implants & All-on-X, Veneers & smile makeovers, Full-mouth rehabilitation.
+Routes here: [Dental Implants](/procedures/dental-implants/), [Veneers](/procedures/veneers/), [Crowns and Bridges](/procedures/crowns-and-bridges/), [Root Canal Treatment](/procedures/root-canal-treatment/), [Orthodontics (Braces, Aligners)](/procedures/orthodontics-braces-aligners/).
+
+### Bumrungrad International Hospital · JCI
+The name Americans know. One of the first hospitals outside the US to be JCI-accredited (2002) and still the reference point for international patient care in Asia — 30+ specialty centers, interpreters for dozens of languages, and an international-patient wing that processes more foreign patients than some countries' entire systems.
+Strong suits: Executive health screening, Cardiology, Orthopedics, Oncology (Horizon Center), Complex multi-specialty cases.
+Routes here: [Hip Replacement](/procedures/hip-replacement/), [Knee Replacement](/procedures/knee-replacement/), [Shoulder Replacement](/procedures/shoulder-replacement/), [Spinal Surgery](/procedures/spinal-surgery/), [Arthroscopy](/procedures/arthroscopy/), [Heart Bypass Surgery (CABG)](/procedures/heart-bypass-surgery-cabg/), [Heart Valve Replacement](/procedures/heart-valve-replacement/), [Angioplasty and Stenting](/procedures/angioplasty-and-stenting/), [Pacemaker Implantation](/procedures/pacemaker-implantation/), [Hair Transplant](/procedures/hair-transplant/), [In Vitro Fertilization (IVF)](/procedures/in-vitro-fertilization-ivf/), [ICSI (Intracytoplasmic Sperm Injection)](/procedures/icsi-intracytoplasmic-sperm-injection/), [Gastric Bypass Surgery](/procedures/gastric-bypass-surgery/), [Sleeve Gastrectomy](/procedures/sleeve-gastrectomy/), [LASIK Eye Surgery](/procedures/lasik-eye-surgery/), [Cataract Surgery](/procedures/cataract-surgery/), [Cancer Screenings](/procedures/cancer-screenings/), [Chemotherapy](/procedures/chemotherapy/), [Radiation Therapy](/procedures/radiation-therapy/), [Surgical Oncology](/procedures/surgical-oncology/), [Gallbladder Removal (Cholecystectomy)](/procedures/gallbladder-removal-cholecystectomy/), [Hernia Repair](/procedures/hernia-repair/), [Stem Cell Therapy](/procedures/stem-cell-therapy/).
+
+### Jetanin Institute · JCI
+Thailand's best-known dedicated IVF hospital — full in-house embryology, PGT lab, and decades of protocol depth. Operates strictly within the Thai ART Act, which is what you want from an embryo lab.
+Strong suits: IVF & ICSI, PGT-A genetic testing, Egg freezing.
+Routes here: [In Vitro Fertilization (IVF)](/procedures/in-vitro-fertilization-ivf/), [Egg Freezing](/procedures/egg-freezing/), [ICSI (Intracytoplasmic Sperm Injection)](/procedures/icsi-intracytoplasmic-sperm-injection/).
+
+### Kamol Cosmetic Hospital · Thai HA
+Founded by Dr. Kamol Pansritum, one of the most experienced gender-affirming surgeons worldwide (tens of thousands of GA procedures across a career). A purpose-built GA and cosmetic hospital: FFS, vaginoplasty, top surgery, body work — this is a destination facility for exactly the care US legislatures are busy criminalizing.
+Strong suits: Vaginoplasty & GA surgery, Facial feminization (FFS), Top surgery, Body contouring.
+Routes here: [Facelift](/procedures/facelift/), [Rhinoplasty (Nose Surgery)](/procedures/rhinoplasty-nose-surgery/), [Liposuction](/procedures/liposuction/), [Top Surgery](/procedures/top-surgery/), [Facial Feminization Surgery (FFS)](/procedures/facial-feminization-surgery-ffs/), [Vaginoplasty](/procedures/vaginoplasty/), [Phalloplasty](/procedures/phalloplasty/), [Body Contouring](/procedures/body-contouring/).
+
+### MedPark Hospital · JCI
+The new heavyweight — purpose-built in 2020 around complex tertiary care, staffed heavily with university-hospital professors, and priced aggressively to win exactly the complicated cases other private hospitals refer out. Serious medicine, new building, ambitions to match.
+Strong suits: Complex oncology, Cardiac & structural heart, Nephrology & transplant medicine, Critical care.
+Routes here: [Spinal Surgery](/procedures/spinal-surgery/), [Heart Bypass Surgery (CABG)](/procedures/heart-bypass-surgery-cabg/), [Heart Valve Replacement](/procedures/heart-valve-replacement/), [Pacemaker Implantation](/procedures/pacemaker-implantation/), [Gastric Bypass Surgery](/procedures/gastric-bypass-surgery/), [Sleeve Gastrectomy](/procedures/sleeve-gastrectomy/), [Cancer Screenings](/procedures/cancer-screenings/), [Chemotherapy](/procedures/chemotherapy/), [Radiation Therapy](/procedures/radiation-therapy/), [Surgical Oncology](/procedures/surgical-oncology/), [Stem Cell Therapy](/procedures/stem-cell-therapy/).
+
+### Phyathai 2 Hospital · JCI
+Solid all-rounder in the Phyathai/Paolo network with an established international patient center — frequently the sharper-priced quote on mid-complexity surgical work in Bangkok.
+Strong suits: Orthopedics, Cardiology, General surgery, Health checkups.
+
+### Praram 9 Hospital · JCI
+Mid-size private hospital known for cardiology and kidney care at prices a notch below the famous names — a value pick for cardiac intervention with JCI paperwork intact.
+Strong suits: Cardiology & cath lab, Nephrology & dialysis, Health screening.
+Routes here: [Heart Bypass Surgery (CABG)](/procedures/heart-bypass-surgery-cabg/), [Angioplasty and Stenting](/procedures/angioplasty-and-stenting/).
+
+### Preecha Aesthetic Institute · Thai HA
+The lineage institution — Dr. Preecha Tiewtranon trained a large share of Thailand's GA surgeons and the institute carries five decades of technique history. Boutique scale, operating with partner hospitals for major cases.
+Strong suits: Gender affirmation surgery, Facial plastic surgery, Revision & complex aesthetic cases.
+Routes here: [Breast Augmentation](/procedures/breast-augmentation/), [Breast Reduction](/procedures/breast-reduction/), [Facelift](/procedures/facelift/), [Rhinoplasty (Nose Surgery)](/procedures/rhinoplasty-nose-surgery/), [Liposuction](/procedures/liposuction/), [Abdominoplasty (Tummy Tuck)](/procedures/abdominoplasty-tummy-tuck/), [Top Surgery](/procedures/top-surgery/), [Facial Feminization Surgery (FFS)](/procedures/facial-feminization-surgery-ffs/), [Vaginoplasty](/procedures/vaginoplasty/), [Phalloplasty](/procedures/phalloplasty/), [Body Contouring](/procedures/body-contouring/).
+
+### Rutnin Eye Hospital · JCI
+Thailand's oldest dedicated eye hospital — everything from LASIK to vitreoretinal surgery under one roof, with subspecialists you'd otherwise chase across three US referrals.
+Strong suits: LASIK/refractive, Cataract & premium IOL, Retina & vitreous, Cornea.
+Routes here: [LASIK Eye Surgery](/procedures/lasik-eye-surgery/), [Cataract Surgery](/procedures/cataract-surgery/), [Retinal Surgery](/procedures/retinal-surgery/), [Corneal Transplants](/procedures/corneal-transplants/).
+
+### Samitivej Sukhumvit Hospital · JCI
+The expat-neighborhood hospital of Bangkok — strong women's health, pediatrics, and surgical departments with a service culture calibrated for foreign residents. Often the comfortable choice for mid-complexity surgical work.
+Strong suits: Women's health, Plastic & reconstructive surgery, GI & general surgery, Pediatrics.
+Routes here: [Breast Augmentation](/procedures/breast-augmentation/), [Breast Reduction](/procedures/breast-reduction/), [Abdominoplasty (Tummy Tuck)](/procedures/abdominoplasty-tummy-tuck/), [Botox and Fillers](/procedures/botox-and-fillers/), [In Vitro Fertilization (IVF)](/procedures/in-vitro-fertilization-ivf/), [Egg Freezing](/procedures/egg-freezing/).
+
+### Superior A.R.T. · Thai HA
+Australian-partnered assisted-reproduction center (Sydney IVF lineage) with a strong genetics lab — the technical-credentials pick for PGT-heavy cases.
+Strong suits: IVF with advanced genetics (PGT), Egg freezing, Recurrent-loss workups.
+Routes here: [In Vitro Fertilization (IVF)](/procedures/in-vitro-fertilization-ivf/), [Egg Freezing](/procedures/egg-freezing/), [ICSI (Intracytoplasmic Sperm Injection)](/procedures/icsi-intracytoplasmic-sperm-injection/).
+
+### Vejthani Hospital · JCI
+Quietly one of the highest-volume medical-tourism hospitals in Bangkok, with particular depth in orthopedics (joint replacement packages are a house specialty) and a large Middle Eastern and Central Asian patient base — which tells you their international logistics are battle-tested.
+Strong suits: Joint replacement packages, Spine surgery, Dental center, General surgery.
+Routes here: [Hip Replacement](/procedures/hip-replacement/), [Knee Replacement](/procedures/knee-replacement/), [Shoulder Replacement](/procedures/shoulder-replacement/), [Spinal Surgery](/procedures/spinal-surgery/), [Arthroscopy](/procedures/arthroscopy/).
+
+### Yanhee International Hospital · JCI
+A full general hospital that happens to run one of the largest cosmetic-surgery operations on the planet — dozens of plastic surgeons, published package prices, and four decades of gender-affirming surgical experience. High-volume, process-driven, unpretentious about it.
+Strong suits: Cosmetic surgery at volume, Gender affirmation surgery, Bariatric surgery, Hair transplant.
+Routes here: [Breast Augmentation](/procedures/breast-augmentation/), [Breast Reduction](/procedures/breast-reduction/), [Facelift](/procedures/facelift/), [Rhinoplasty (Nose Surgery)](/procedures/rhinoplasty-nose-surgery/), [Liposuction](/procedures/liposuction/), [Abdominoplasty (Tummy Tuck)](/procedures/abdominoplasty-tummy-tuck/), [Hair Transplant](/procedures/hair-transplant/), [Botox and Fillers](/procedures/botox-and-fillers/), [Gastric Bypass Surgery](/procedures/gastric-bypass-surgery/), [Sleeve Gastrectomy](/procedures/sleeve-gastrectomy/), [Gastric Band Surgery](/procedures/gastric-band-surgery/), [Top Surgery](/procedures/top-surgery/), [Vaginoplasty](/procedures/vaginoplasty/), [Body Contouring](/procedures/body-contouring/).
+
+
+## Chonburi
+
+### Suporn Clinic · Thai HA
+Internationally famous vaginoplasty practice (Dr. Suporn's technique is cited in the surgical literature; practice continued by Dr. Bank). Long waitlists, strict requirements, devoted alumni community — the definition of destination surgery.
+Strong suits: Vaginoplasty (signature technique), Structured long-stay recovery program.
+Routes here: [Vaginoplasty](/procedures/vaginoplasty/).
+
 
 ## Phuket
 
-- [[Bangkok Hospital Phuket]] — Private hospital (BDMS network) · JCI
+### Bangkok Hospital Phuket · JCI
+The serious hospital of the beach south — full surgical services with an international patient machine tuned by decades of tourist trauma and planned procedures alike. Anchor for recover-by-the-sea itineraries.
+Strong suits: Cosmetic surgery packages, Orthopedics, International patient services, Recovery-holiday logistics.
+
+*Wondering how you'd know if a place were bad — when the reviews are legally censored and you can't easily sue? Read [[=Recourse|Reviews, lawsuits, and why Thai care stays good anyway]].*
 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
@@ -4700,6 +4790,236 @@ Fun, cheap, probably mildly useful, definitely not medicine. We file it under re
 
 ---
 *Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+
+
+---
+
+# If It Goes Wrong — Reviews, Lawsuits, and Why Thai Care Stays Good Anyway
+URL: https://defiant.to/recourse/
+
+# If It Goes Wrong
+
+You've seen the thread. Someone posts three photos — a hairline that won't lie
+flat, an ear tugged a half-inch too far forward, a scar that healed wide and
+shiny — and asks the group: *can I sue?* The replies are always the same.
+Everyone's sorry. Nobody says yes. *That sucks. Don't bother with the courts.*
+
+That thread is usually about an American surgeon. Which raises the quieter
+question people ask us before they book a flight: if it's already this hard to be
+made whole at home, what happens if I have it done in **Thailand** — where I've
+heard you can be *arrested* for leaving a bad review?
+
+Both halves of that fear are real. Neither means what people think it means.
+Here is the whole picture, with nothing sanded off.
+
+---
+
+## First, the American comfort — which is mostly a story
+
+The belief underneath medical tourism anxiety is that back home, at least, the
+courts have your back. For elective cosmetic surgery, they mostly don't.
+
+A bad aesthetic result is not, by itself, malpractice. To win you have to prove
+**negligence** — that the surgeon breached the standard of care — not merely that
+you dislike the outcome. A known complication, honestly disclosed and consented
+to, generally isn't actionable at all. Juries are unsympathetic to elective work
+("you chose this to look better"), damages for a cosmetic case tend to run low,
+and a contingency lawyer does the math and passes. On top of that, a growing share
+of US cosmetic chains bury an **arbitration clause** in the intake paperwork — you
+sign away the jury, the dispute is resolved privately, and the details never reach
+daylight.
+
+So the support-group verdict — *don't bother with the courts* — isn't defeatism.
+It's an accurate reading of the odds. The American courthouse is a comfort object
+for elective surgery, not a remedy.
+
+Hold that thought, because it changes the comparison entirely.
+
+## What Thai law actually says
+
+Thailand has **criminal** defamation, which the US effectively does not. Under the
+Penal Code, imputing a fact that damages someone's reputation is an offense
+(Section 326); doing it by publication — which includes a public post or review —
+raises the ceiling to **two years' imprisonment and/or a 200,000-baht fine**
+(Section 328). And truth is only a partial shield: Section 330 lets you prove a
+statement true *only if* it also served the public interest. A true account of a
+purely private grievance can still be defamation.
+
+This is not theoretical. In 2020 an American guest, unhappy over a corkage
+dispute, left scathing reviews of a Koh Chang resort; the resort filed criminal
+defamation charges, he was arrested and held two days, and the case only ended in a
+mediated settlement. TripAdvisor took the unusual step of stamping a warning on the
+hotel's own listing.
+
+*One correction to the usual scare story:* people often say a bad review is a
+**cybercrime**. The 2017 amendment to the Computer Crimes Act actually *narrowed*
+that — ordinary defamation was pulled out of the "false computer data" section,
+which now targets fraud and security-grade falsehoods. The exposure is real, but
+it lives in the defamation statute, not a hacking law. Precision matters when
+you're weighing a risk.
+
+The practical effect is unavoidable: negative reviews carry legal teeth, so a lot
+of them never get written, and the ones that do get quietly pulled. **That wall of
+five-star reviews is partly a product of the law, not purely of satisfaction.**
+Anyone who tells you otherwise is selling something. We won't.
+
+## The part nobody expects: you *can* sue — more easily than at home
+
+Here's where the story turns. The thing you'd assume — that a foreigner can't get
+a Thai court to hear a malpractice claim — is wrong, and it's wrong in a
+surprising direction.
+
+Thailand treats a patient as a **consumer**. Under the Consumer Case Procedure Act,
+a medical-negligence claim (built on Section 420 of the Civil and Commercial Code,
+the wrongful-act provision) gets you a faster track, **no court filing fee**, and —
+the striking part — the **burden of proof shifts to the hospital** for matters
+within its control. That is a *more* patient-friendly civil posture than most
+American plaintiffs get. Separately, you can file an ethics complaint with the
+**Medical Council of Thailand**; it doesn't bind a court, but a finding in your
+favor strengthens a case.
+
+So the real asymmetry between the two countries isn't courthouse access. It's
+**speech**. Picture the mirror:
+
+- **America** gives you a loud microphone — post the photos, name the surgeon, warn
+  the world — attached to courts that, for elective work, rarely pay out.
+- **Thailand** gives you a courtroom that on paper works *better* for you — no fee,
+  the burden on the hospital — attached to a microphone the defamation law keeps
+  switched low.
+
+Two systems, each broken in the opposite place. Neither one hands you the thing you
+actually want after a bad surgery: to be made whole *and* to warn the next person.
+And — this is the part that should reorganize how you plan — **neither courthouse
+un-does the surgery.** The remedy is always money, late and partial, on either side
+of the Pacific.
+
+## So why is the care, so often, genuinely good?
+
+This is the honest puzzle, and the reason we wanted to write the page. Strip out
+the censored reviews and the weak deterrent, and you'd predict a market full of
+hidden bad work. Instead the median experience is not just fine but *warm* — the
+private room, the food carried in all day, the window with a view, the doctor who
+listens to what you tell him and doesn't argue with it. People come home glowing,
+and mostly they aren't being naive.
+
+We won't pretend to a tidy answer. But the discipline that keeps standards up is
+real; it's just diffuse, and it doesn't live where an American expects it — in the
+courtroom or on the review page. Our best reading, marked as reading:
+
+- ***Inference —*** **Accreditation is the audit that replaces the lawsuit.** A top
+  hospital's JCI or Thai HA status, and its standing in the international-patient
+  market, is worth far more than any single verdict. A scandal that reaches foreign
+  media, or a lost accreditation, is a catastrophe a lawsuit never approaches. That
+  external gaze does what a plaintiff would.
+- ***Inference —*** **Volume makes hands.** Thai specialists in cosmetic,
+  gender-affirmation, and dental work often carry case volumes a Western surgeon
+  never sees — repetition that translates directly into technical skill.
+- ***Inference —*** **The reputation signal didn't vanish; it moved.** Chilled off
+  the public review page, it flows through referral chains, facilitators, expat
+  forums hosted safely overseas, and LINE groups. Word of mouth carries what Google
+  can't hold.
+- ***Inference —*** **Face is an enforcement mechanism without a plaintiff.** In a
+  culture where reputation among peers is a standing asset, a botched job that
+  becomes known is a real and lasting cost — no lawsuit required to make it sting.
+- ***Inference —*** **The pleasant consult is partly the absence of fear.** An
+  American doctor second-guesses you, over-tests, and hedges in part because he is
+  afraid of *you* — defensive medicine is litigation's shadow. Thailand's
+  lower-litigation air is a large reason the visit feels like care instead of a
+  deposition. That is a genuine gift, and — being straight about it — a genuine
+  trade: the same air that relaxes the room thins one lever of accountability.
+- ***Inference —*** **The lunch doesn't buy the prescription.** Direct-to-consumer
+  drug advertising is essentially a US (and New Zealand) peculiarity; Thai
+  formularies lean on generics and cost-and-effect. Medicine there more often
+  tracks what works than what a rep is promoting this quarter.
+
+None of these is a courtroom. All of them are things you can check *before* you
+book. Which is the whole point.
+
+## The part we won't soft-pedal
+
+If it does go wrong for you here, be clear-eyed about two things. Your recourse is
+real but **slow and modest** — a consumer case can take a year or more and won't
+make you rich. And your ability to publicly warn others is **genuinely
+constrained** — do not post the photos or name the clinic from inside Thailand
+without a Thai lawyer's guidance, because the person facing charges could be you.
+
+What you *can* do, safely, if an outcome disappoints:
+
+- Raise it first with the hospital's **international-patient office** — the good ones
+  have real authority to revise, re-do, or refund to protect their standing.
+- File with the **Medical Council of Thailand** — a professional ethics channel,
+  not a defamation risk.
+- Talk to a **licensed Thai lawyer** about a consumer case before you talk to the
+  internet.
+- Tell **us**. A facilitator that placed you somewhere bad has every incentive — and
+  the relationships — to make it right quietly, and to never send the next person
+  there.
+
+## The takeaway
+
+Because no court on either side of the ocean reliably un-does a bad surgery, the
+only protection that actually works is the kind you buy *before*, not after:
+accreditation you verified yourself, a surgeon whose volume is real, unretouched
+results from actual patients rather than the website gallery, and a referral trail
+that survives a censored review page. In a market where the reviews are quietly
+edited, front-loaded diligence isn't the cautious option — it's the *only* option.
+
+That is, not by accident, exactly what a facilitator is for.
+
+**Want the diligence done for you?** [[=Contact|Book a free intake call]] — we'll
+tell you what we know about a clinic, including the parts the reviews can't.
+
+## FAQ
+
+### Can I sue a hospital or surgeon for malpractice in Thailand?
+
+Yes. Thai law treats a patient as a consumer, and the Consumer Case Procedure Act
+lets you bring a medical-negligence claim with no court filing fee, on a faster
+track, with the burden of proof shifted onto the provider for matters in its
+control — in some ways a friendlier civil posture than a US plaintiff gets. The
+catch is that awards tend to be modest and cases slow. Get a licensed Thai lawyer;
+this page is general information, not legal advice.
+
+### Is it true you can go to prison for leaving a bad review in Thailand?
+
+The exposure is real. Thailand has criminal defamation, and publishing a
+reputation-damaging statement can carry up to two years' imprisonment and a fine
+(Penal Code Section 328). Truth alone isn't a full defense unless the statement also
+served the public interest. A well-known 2020 case saw an American arrested over
+hotel reviews. It usually ends in settlement rather than prison — but "usually" is
+not a plan. Assume public criticism carries legal risk here.
+
+### If I have a bad result, can I post the photos to warn other people?
+
+Not without care. In the US you generally can (your courts are the weak part, not
+your speech). In Thailand a public post naming a clinic can expose *you* to a
+defamation complaint. Use the safe channels — the hospital's patient office, the
+Medical Council of Thailand, a Thai lawyer, and your facilitator — and get counsel
+before you publish anything.
+
+### If the reviews are censored, how am I supposed to trust a place?
+
+By not leaning on the reviews. The signal a five-star wall can't give you lives
+elsewhere: international accreditation (JCI, Thai HA), a surgeon's real case volume,
+unretouched before-and-afters from actual patients, and a referral trail from people
+who've been through it. That's the diligence this page — and this service — exists
+to do.
+
+### What keeps standards high if lawsuits barely happen?
+
+Our reading: accreditation acts as the audit a lawsuit would, high case volumes
+build skill, reputation still travels through referral networks even when it's off
+the review page, face-culture makes a known botch genuinely costly, and a
+lower-fear consult produces less defensive, more attentive medicine. We can't prove
+it's any single one of these — but the discipline is real, and it isn't the
+courtroom.
+
+---
+*Not legal advice and not medical advice. Defiant is a concierge and logistics
+service — not a law firm, not a healthcare provider. Laws change and every case is
+specific; consult a licensed Thai attorney and licensed physicians before acting.
+The legal specifics here reflect Thai statute as of 2026 and are offered as general
+orientation, not counsel.*
 
 
 ---
