@@ -49,9 +49,11 @@ PAY = {
     "stripe_pack": "",       # Stripe Payment Link, fixed $100 → clean Visa/Mastercard checkout
     "stripe_concierge": "",  # Stripe Payment Link, fixed $1,000
     "paypal_me": "",         # your PayPal.me handle, e.g. "defiantchiangmai" (NOT a profile URL)
+    "commerce_pack": "",     # Coinbase Commerce hosted-checkout URL for the $100 pack
+    "commerce_concierge": "",  # Coinbase Commerce hosted-checkout URL for the $1,000 concierge
     "wise": "",              # Wise payment link (wise.com/pay/me/…)
     "revolut": "",           # Revolut link (revolut.me/…)
-    "btc": "",               # Bitcoin receiving address
+    "btc": "",               # raw Bitcoin address (fallback if not using Coinbase Commerce)
 }
 PAY_AMOUNT = {"pack": 100, "concierge": 1000}
 
@@ -74,15 +76,22 @@ def render_pay(product):
         r["wise"] = f'<a class="pay pay-wise" href="{PAY["wise"]}" rel="noopener" target="_blank">🌐 Wise</a>'
     if PAY.get("revolut"):
         r["revolut"] = f'<a class="pay pay-revolut" href="{PAY["revolut"]}" rel="noopener" target="_blank">💠 Revolut</a>'
-    if PAY.get("btc"):
+    # Bitcoin: prefer a Coinbase Commerce hosted checkout (private, per-payment
+    # address, tracks who paid); fall back to a raw address reveal if that's all
+    # that's set.
+    if PAY.get(f"commerce_{product}"):
+        r["btc"] = f'<a class="pay pay-crypto" href="{PAY[f"commerce_{product}"]}" rel="noopener" target="_blank">₿ Bitcoin &amp; crypto — {disp}</a>'
+    elif PAY.get("btc"):
         r["btc"] = f'<button class="pay pay-btc" type="button" data-btc="{PAY["btc"]}" data-amt="{amt}">₿ Bitcoin</button>'
     order = ["stripe", "paypal", "kofi", "wise", "revolut", "btc"]
     btns = [r[k] for k in order if k in r]
     # Be straight about what's live vs. what still needs a pasted value.
-    note = ('<p class="pay-note">Visa, Mastercard &amp; PayPal all work now — secure '
-            'checkout, no account needed.'
-            + ('' if PAY.get("btc")
-               else ' Want to pay in <b>Bitcoin</b>? <a href="/contact/">Ask us</a> for a wallet address.')
+    crypto_live = bool(PAY.get(f"commerce_{product}") or PAY.get("btc"))
+    note = ('<p class="pay-note">Visa, Mastercard, PayPal'
+            + (', &amp; Bitcoin' if crypto_live else ' &amp; more')
+            + ' — secure checkout, no account needed.'
+            + ('' if crypto_live
+               else ' Prefer <b>Bitcoin</b>? <a href="/contact/">Ask us</a> and we\'ll send a link.')
             + '</p>')
     return f'<div class="pay-row" data-amount="{amt}">' + "".join(btns) + "</div>" + note
 
@@ -1327,7 +1336,7 @@ def page(name, meta, body_html, route, raw_body=""):
         marker = f"<!-- defiant:pay:{prod} -->"
         if marker in body_html:
             body_html = body_html.replace(marker, render_pay(prod))
-    if 'class="pay-btc"' in body_html:
+    if 'pay-btc"' in body_html:  # the raw-address reveal button (not the pay-crypto link)
         scripts.append(PAY_JS)
     if "<!-- defiant:qr -->" in body_html:
         body_html = body_html.replace("<!-- defiant:qr -->",
