@@ -53,7 +53,7 @@ PAY = {
     "commerce_concierge": "",  # Coinbase Commerce hosted-checkout URL for the $1,000 concierge
     "wise": "",              # Wise payment link (wise.com/pay/me/…)
     "revolut": "",           # Revolut link (revolut.me/…)
-    "btc": "",               # raw Bitcoin address (fallback if not using Coinbase Commerce)
+    "btc": "bc1qtgkvch2dgf9q5dwl2xfuseckyv6cqd2mlefjzz",  # native BTC (Cash App), checksum-verified 2026-07-25
 }
 PAY_AMOUNT = {"pack": 100, "concierge": 1000}
 
