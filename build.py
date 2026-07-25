@@ -1346,6 +1346,9 @@ def _card_alt(route, meta, title):
                 + (f", {acc}-accredited" if acc else "") + ".")
     if route == "/concierge/":
         return "Defiant share card — what it costs: $999 full concierge or a $99 DIY pack."
+    if route == "/th/" or t == "b2b":
+        return ("การ์ด Defiant สำหรับคนไทย — คลินิก ล่าม และโอกาสสร้างรายได้ · "
+                "สแกน QR แอดไลน์ defiant.to")
     return f"Defiant share card — {title}."
 
 
@@ -1410,16 +1413,25 @@ def page(name, meta, body_html, route, raw_body=""):
     art_time = (f'<meta property="article:modified_time" content="{modified}T00:00:00Z">'
                 f'<meta property="article:published_time" content="{modified}T00:00:00Z">'
                 if og_type == "article" else "")
-    return f"""<!DOCTYPE html><html lang="en"><head>
+    is_thai = route == "/th/" or meta.get("type") == "b2b"
+    page_lang = "th" if is_thai else "en"
+    og_locale = "th_TH" if is_thai else "en_US"
+    og_alt_locale = "en_US" if is_thai else "th_TH"
+    # hreflang only between the two language front doors (home ↔ Thai B2B page)
+    hreflang = ('<link rel="alternate" hreflang="en" href="' + SITE + '/">'
+                '<link rel="alternate" hreflang="th" href="' + SITE + '/th/">'
+                '<link rel="alternate" hreflang="x-default" href="' + SITE + '/">'
+                if route in ("/", "/th/") else "")
+    return f"""<!DOCTYPE html><html lang="{page_lang}"><head>
 <!-- {BLESSING} -->
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light only">
 <title>{esc(full_title)}</title>
 <meta name="description" content="{esc(desc)}">
 {'<meta name="robots" content="noindex">' if noindex else ''}
-<link rel="canonical" href="{SITE}{route}">
+<link rel="canonical" href="{SITE}{route}">{hreflang}
 <meta property="og:site_name" content="Defiant"><meta property="og:type" content="{og_type}">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="{og_locale}"><meta property="og:locale:alternate" content="{og_alt_locale}">
 <meta property="og:title" content="{esc(full_title)}"><meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{SITE}{route}">
 <meta property="og:image" content="{card_url}"><meta property="og:image:secure_url" content="{card_url}">

@@ -31,6 +31,13 @@ PAPER = (255, 255, 255)
 
 IMPACT = "/System/Library/Fonts/Supplemental/Impact.ttf"
 MENLO = "/System/Library/Fonts/Menlo.ttc"
+# Thai faces that shape correctly in Pillow WITHOUT libraqm (tone marks + vowels
+# stack right). Krungthep = punchy display; SukhumvitSet = clean body. (Thonburi
+# breaks without raqm — do not use.)
+THAI_DISP = "/System/Library/Fonts/Supplemental/Krungthep.ttf"
+THAI_BODY = "/System/Library/Fonts/Supplemental/SukhumvitSet.ttc"
+LINE_GREEN = (6, 199, 85)
+QR_PATH = ROOT / "assets" / "images" / "qr-th.png"
 
 
 def font(path, size, index=0):
@@ -184,6 +191,38 @@ def render_generic(slug, eyebrow, title, subtitle):
     img.save(CARDS / f"{slug}.png", "PNG")
 
 
+def render_thai(slug):
+    """LINE-native card for the Thai B2B page: Kham Mueang headline + a scannable QR
+    + the LINE ID in brand green. Thais share on LINE and scan QRs — build for that."""
+    img = Image.new("RGB", (W, H), PAPER)
+    d = ImageDraw.Draw(img)
+    base(d)
+    # eyebrow + headline (Krungthep display), left column, room for the QR at right
+    d.text((65, 128), "สำหรับคนไทย · คลินิก · ล่าม · พันธมิตร",
+           font=font(THAI_BODY, 30), fill=MAGENTA)
+    head = ["เฮาส่งคนไข้ต่างชาติ", "มาหาเจ้า"]
+    hf = font(THAI_DISP, 82)
+    y = 172
+    for ln in head:
+        d.text((69, y + 3), ln, font=hf, fill=CYAN)
+        d.text((65, y), ln, font=hf, fill=INK)
+        y += 96
+    for i, ln in enumerate(["ลงคลินิกฟรี · มีล่ามไปด้วย", "แนะนำได้ส่วนแบ่ง · ไม่มีข้อผูกมัด"]):
+        d.text((65, y + 20 + i * 44), ln, font=font(THAI_BODY, 30), fill=GREY)
+    # QR block, right side
+    try:
+        qr = Image.open(QR_PATH).convert("RGB").resize((250, 250), Image.NEAREST)
+        qx, qy = W - 300, 175
+        d.rectangle([qx - 14, qy - 14, qx + 264, qy + 300], fill=(255, 255, 255), outline=INK, width=4)
+        img.paste(qr, (qx, qy))
+        d.text((qx + 4, qy + 258), "สแกนแอดไลน์เลยเจ้า", font=font(THAI_BODY, 26), fill=INK)
+    except Exception:
+        pass
+    d.text((W - 300, H - 58), "LINE: defiant.to", font=font(MENLO, 26, index=1), fill=LINE_GREEN)
+    d.text((65, H - 58), "defiant.to", font=font(MENLO, 26, index=1), fill=INK)
+    img.save(CARDS / f"{slug}.png", "PNG")
+
+
 def card_slug(route):
     return route.strip("/").replace("/", "-") or "home"
 
@@ -192,7 +231,9 @@ def build_one(route, name, meta):
     slug = card_slug(route)
     t = meta.get("type", "")
     nm = name.lstrip("=")
-    if route == "/":
+    if route == "/th/" or t == "b2b":
+        render_thai(slug)
+    elif route == "/":
         render_generic(slug, "US expat services · medical tourism",
                        "Pay what the locals pay", "Chiang Mai, Thailand — plan your escape.")
     elif t == "procedure":
