@@ -24,8 +24,8 @@ from build import collect_notes, PAGE_OVERRIDES, build_catalog, savings_line, _p
 
 ROOT = Path(__file__).resolve().parent
 DESKTOP = Path.home() / "Desktop"
-CONFIG = Path.home() / ".config" / "defiant" / "leads.json"   # {url, token} from the leads setup
-FROM = "Defiant <dispatch@defiant.to>"                          # change to your verified sender
+CONFIG = Path.home() / ".config" / "defiant" / "leads.json"   # {url, token, resend_key, from}
+DEFAULT_FROM = "Defiant <dispatch@send.defiant.to>"           # verified subdomain sender
 MAGENTA, CYAN, INK, GREY = "#ff179e", "#00d6d6", "#0b0b0b", "#666"
 
 
@@ -173,14 +173,34 @@ def fetch_recipients(kind):
     return [s["email"] for s in subs if (s.get("frequency", "weekly") != "daily")]
 
 
+def wire_resend():
+    """Save the Resend API key + sender into the local config — you type the key, it
+    never passes through anyone else. (Stored in ~/.config/defiant/leads.json.)"""
+    c = cfg()
+    key = input("  Paste your Resend API key (starts re_…): ").strip()
+    if not key.startswith("re_"):
+        print("  ✗ that doesn't look like a Resend key (should start 're_'). Nothing saved.\n"); return
+    frm = input(f"  Sender [{DEFAULT_FROM}]: ").strip() or DEFAULT_FROM
+    c["resend_key"] = key
+    c["from"] = frm
+    CONFIG.parent.mkdir(parents=True, exist_ok=True)
+    CONFIG.write_text(json.dumps(c, indent=2))
+    try:
+        os.chmod(CONFIG, 0o600)
+    except Exception:
+        pass
+    print(f"  ✓ saved. Sender: {frm}\n")
+
+
 def send_via_resend(subject, html, text, recipients):
     key = os.environ.get("RESEND_API_KEY") or cfg().get("resend_key")
+    frm = cfg().get("from") or DEFAULT_FROM
     if not key:
-        raise RuntimeError("No RESEND_API_KEY (env or leads.json). Sending is not wired yet.")
+        raise RuntimeError("No Resend key yet — run menu option 5 to paste it in.")
     ok = 0
     ctx = ssl.create_default_context()
     for to in recipients:
-        body = json.dumps({"from": FROM, "to": [to], "subject": subject,
+        body = json.dumps({"from": frm, "to": [to], "subject": subject,
                            "html": html, "text": text}).encode()
         req = urllib.request.Request("https://api.resend.com/emails", data=body,
                                      headers={"Authorization": "Bearer " + key,
@@ -197,10 +217,23 @@ def menu():
     print("\n\033[1m✊ DEFIANT NEWSLETTER\033[0m — generate from the site, review, then send\n")
     print("  1) Preview WEEKLY digest  (last 7 days → Desktop)")
     print("  2) Preview DAILY issue    (last 1 day → Desktop)")
-    print("  3) Send WEEKLY   (needs RESEND_API_KEY + verified sender)")
-    print("  4) Send DAILY    (needs RESEND_API_KEY + verified sender)")
+    print("  3) Send WEEKLY   (to your weekly subscribers)")
+    print("  4) Send DAILY    (to your daily subscribers)")
+    print("  5) Wire Resend key + sender  (do this once)")
+    print("  6) Send a TEST to one address (try it on yourself first)")
     print("  q) quit\n")
     ch = input("  choose: ").strip().lower()
+    if ch == "5":
+        wire_resend(); return
+    if ch == "6":
+        to = input("  Test recipient email: ").strip()
+        subject, html, text = build_issue(7, "weekly")
+        try:
+            ok = send_via_resend("[TEST] " + subject, html, text, [to])
+            print(f"\n  ✓ sent {ok}/1 — check {to}\n")
+        except Exception as e:
+            print(f"\n  ✗ {e}\n")
+        return
     if ch in ("1", "2"):
         kind, days = ("weekly", 7) if ch == "1" else ("daily", 1)
         subject, html, text = build_issue(days, kind)
