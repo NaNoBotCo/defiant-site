@@ -782,6 +782,11 @@ NAV_JS = ("<script>(function(){"
           "})();</script>")
 
 FOOTER = f"""<footer>
+<div class="sponsor-panel">
+<span class="tag3">sponsor</span>
+<a class="pitch2" href="https://motdang.net" rel="noopener">มดแดง Mot Dang — the Chiang Mai · Chiang Rai city directory, the 1997 way</a>
+<a class="buyad2" href="{LINE_URL}" rel="noopener" target="_blank">buy an ad here</a>
+</div>
 <p class="foot-shout">Plan your escape. Defy the system. Survive the bullshit.</p>
 <p><a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms of Service</a> ·
 <a href="/peacocks-law/">Peacock's Law</a> ·

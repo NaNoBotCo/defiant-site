@@ -291,6 +291,17 @@ footer a { color: var(--purple); font-weight: 700; }
 footer a:hover { color: var(--magenta); }
 .peacock { color: #555; margin-top: 1rem; }
 .pi { text-decoration: none; color: inherit; opacity: .5; margin-left: .6rem; }
+.sponsor-panel {
+  border: 2px solid var(--ink); border-radius: 10px; background: #fff;
+  padding: .7rem 1.1rem; margin: 0 0 1.3rem; font-size: .9rem;
+}
+.sponsor-panel .tag3 {
+  display: block; font-size: .68rem; letter-spacing: .12em; text-transform: uppercase;
+  color: #777; margin-bottom: .15rem;
+}
+.sponsor-panel a.pitch2 { color: var(--purple); font-weight: 700; text-decoration: none; }
+.sponsor-panel a.pitch2:hover { color: var(--magenta); }
+.sponsor-panel a.buyad2 { color: #777; font-size: .8rem; margin-left: .6rem; text-decoration: underline dotted; }
 
 /* ---- homepage hero CTAs --------------------------------------------------- */
 .herocta { display: flex; flex-wrap: wrap; gap: .8rem; margin: 1.6rem 0 .5rem; }
