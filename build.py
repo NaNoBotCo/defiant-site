@@ -14,6 +14,7 @@ import re
 import shutil
 import sys
 import urllib.parse
+import urllib.request
 from datetime import date
 from pathlib import Path
 
@@ -27,6 +28,11 @@ SITE = "https://defiant.to"
 WORKER_URL = "https://defiant-leads.wichaa.workers.dev"  # adjust after `wrangler deploy` if different
 KOFI = "https://ko-fi.com/defiantchiangmai"
 LINE_URL = "https://line.me/ti/p/~defiant.to"
+
+# IndexNow: one ping tells Bing, Yandex, Seznam & Naver about every URL at once —
+# no per-engine webmaster console needed. Key is public by design (it just proves
+# we control the domain, via the key file below); doesn't need to be secret.
+INDEXNOW_KEY = "3845ff248fe34deab8d36c548e4e86fc"
 
 # A katha at the literal head of every document (head = head, feet = feet — the
 # page as a correctly ordered body). It also rides llms.txt + llms-full.txt into
@@ -1589,6 +1595,21 @@ def build():
         sm.append(f"  <url><loc>{SITE}{route}</loc><lastmod>{lm}</lastmod><priority>{pri}</priority></url>")
     sm.append("</urlset>")
     (OUT / "sitemap.xml").write_text("\n".join(sm), encoding="utf-8")
+    sitemap_urls = [line.split("<loc>")[1].split("</loc>")[0] for line in sm if "<loc>" in line]
+
+    (OUT / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
+    try:
+        req = urllib.request.Request(
+            "https://api.indexnow.org/indexnow",
+            data=json.dumps({
+                "host": "defiant.to", "key": INDEXNOW_KEY,
+                "keyLocation": f"{SITE}/{INDEXNOW_KEY}.txt", "urlList": sitemap_urls,
+            }).encode(),
+            headers={"Content-Type": "application/json; charset=utf-8"}, method="POST")
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            print(f"  IndexNow: {resp.status} ({len(sitemap_urls)} urls submitted to Bing/Yandex/Seznam/Naver)")
+    except Exception as e:
+        print(f"  IndexNow: skipped ({e})")
 
     lt = ["# Defiant — defiant.to",
           f"> {BLESSING}",
