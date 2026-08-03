@@ -22,5 +22,11 @@ else
   git commit -q -m "Nightly directory refresh $(date '+%Y-%m-%d')
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>" >> "$LOG" 2>&1
-  if git push -q >> "$LOG" 2>&1; then echo "  pushed ✓" >> "$LOG"; else echo "  PUSH FAILED" >> "$LOG"; fi
+  # Take the shared github-push lane around the push ITSELF, not around the
+  # whole job. The crawl ahead of this walks 23 hubs at up to 180s apiece and
+  # never touches GitHub; holding the lane for all of it once stalled every
+  # other repo's push for half an hour. Waits its turn, then rolls.
+  TOWER="$HOME/Developer/claude code projects/bot-tower/tower.py"
+  if /usr/bin/python3 "$TOWER" wrap github-push --patience 45 -- git push -q >> "$LOG" 2>&1
+  then echo "  pushed ✓" >> "$LOG"; else echo "  PUSH FAILED" >> "$LOG"; fi
 fi
