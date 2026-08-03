@@ -11,3 +11,7 @@ partners/cache/
 GEMBA-*.md
 ROADMAP*.md
 *.internal.md
+
+# machine-local Claude config — ports and paths, not portable
+.claude/settings.local.json
+.claude/launch.json
