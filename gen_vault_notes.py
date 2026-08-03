@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the Defiant directory as Obsidian notes inside ~/Documents/Defiant.
+"""Generate the Defiant directory as Obsidian notes inside ~/Vaults/Defiant.
 
 Vault-first doctrine: after this runs once, THE VAULT IS CANONICAL. NaN edits
 notes in Obsidian; build.py compiles the vault into the defiant.to site; the
@@ -21,7 +21,7 @@ from pathlib import Path
 
 from defiant_content import PROCEDURES, HOSPITALS, DESTINATIONS
 
-VAULT = Path.home() / "Documents" / "Defiant"
+VAULT = Path(os.environ.get("DEFIANT_VAULT") or (Path.home() / "Vaults" / "Defiant"))
 PUB = VAULT / "Public Links"
 ART = PUB / "Articles"
 TODAY = "2026-07-23"

@@ -2,7 +2,7 @@
 """Dossiers + bilingual intro letters for clinic outreach. DRAFTS ONLY — no sending.
 
 promote(clinic_id):
-  1. writes a vault dossier  ~/Documents/Defiant/Partners/<Name>.md
+  1. writes a vault dossier  ~/Vaults/Defiant/Partners/<Name>.md
      (outside Public Links → never reaches the site or Obsidian Publish)
   2. writes a Thai-first letter draft  partners/outreach/drafts/<slug>.md
   3. sets status → drafted

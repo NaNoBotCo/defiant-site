@@ -2,7 +2,7 @@
 """Content database for the Defiant directory — procedures, hospitals, destinations.
 
 Single-purpose: gen_vault_notes.py reads these dicts and writes Obsidian notes
-into the vault at ~/Documents/Defiant. After generation THE VAULT IS CANONICAL;
+into the vault at ~/Vaults/Defiant. After generation THE VAULT IS CANONICAL;
 this file is provenance + regeneration seed only (regeneration never overwrites
 an existing note).
 

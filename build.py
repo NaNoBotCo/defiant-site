@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compile the Defiant vault (~/Documents/Defiant) into the defiant.to site.
+"""Compile the Defiant vault (~/Vaults/Defiant) into the defiant.to site.
 
 Stdlib only. Vault is canonical: edit notes in Obsidian, run `python3 build.py`,
 commit docs/. The build fails loudly on unresolved wikilinks or broken internal
@@ -10,6 +10,7 @@ Usage:  python3 build.py            build into docs/
         python3 build.py --check    build + report only (same thing, alias)
 """
 import json
+import os
 import re
 import shutil
 import sys
@@ -19,7 +20,13 @@ from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-VAULT = Path.home() / "Documents" / "Defiant"
+# The vault lives outside ~/Documents on purpose. macOS guards Documents,
+# Desktop and Downloads behind Full Disk Access, which a launchd job does not
+# have — so the nightly build read the vault fine by hand and died every night
+# unattended with "Operation not permitted", refusing to publish for eleven
+# nights running. ~/Vaults is ordinary ground that any process can read.
+# DEFIANT_VAULT overrides, for a checkout that keeps it somewhere else.
+VAULT = Path(os.environ.get("DEFIANT_VAULT") or (Path.home() / "Vaults" / "Defiant"))
 PUB = VAULT / "Public Links"
 ART = PUB / "Articles"
 OUT = ROOT / "docs"

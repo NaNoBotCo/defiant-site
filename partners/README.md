@@ -42,7 +42,7 @@ relationship, dharmically. Offer: free English profile on defiant.to, screened
 referrals, interpreter support, terms at the clinic's discretion.
 
 The public landing the letters point to is `/partners/` (bilingual), built from
-`~/Documents/Defiant/Public Links/=Partners.md`.
+`~/Vaults/Defiant/Public Links/=Partners.md`.
 
 ## Pipeline statuses
 

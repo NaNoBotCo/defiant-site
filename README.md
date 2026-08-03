@@ -1,10 +1,10 @@
 # defiant-site — the machinery behind defiant.to
 
-**Vault-first.** The Obsidian vault at `~/Documents/Defiant` is the single source
+**Vault-first.** The Obsidian vault at `~/Vaults/Defiant` is the single source
 of truth. Edit notes there (Obsidian is the CMS); everything else is compilation.
 
 ```
-~/Documents/Defiant  (Obsidian vault — CANONICAL)
+~/Vaults/Defiant  (Obsidian vault — CANONICAL)
         │
         ├── Obsidian Publish  →  publish.obsidian.md/defiant   (the Notebook — push from Obsidian)
         │
