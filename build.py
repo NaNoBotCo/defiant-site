@@ -356,7 +356,17 @@ def md_to_html(body: str, inline, note_name: str) -> str:
             flush_para(); close_list()
             if re.fullmatch(r"\|[\s:|-]+\|?", s):
                 continue
-            table.append([c.strip() for c in s.strip("|").split("|")])
+            # Pipes that are not column separators. Two kinds, both of which
+            # used to tear a cell in half — putting a boundary through the
+            # middle of a link and printing its brackets on the page:
+            #   \|            the standard markdown escape for a literal pipe
+            #   [[a|label]]   a wikilink carrying its own pipe
+            # Hide both while the row is cut into cells, then restore them as
+            # plain pipes so inline() sees the link whole.
+            row = s.strip("|").replace(r"\|", "\x00")
+            row = re.sub(r"\[\[[^\]\n]*\]\]",
+                         lambda m: m.group(0).replace("|", "\x00"), row)
+            table.append([c.strip().replace("\x00", "|") for c in row.split("|")])
             continue
         flush_table()
 
@@ -565,6 +575,30 @@ def fmt_date(iso):
     return f"{int(d)} {_MONTHS[int(mo)]} {y}"
 
 
+def strip_md(t: str) -> str:
+    """Markdown → plain prose, for the places that cannot hold HTML: JSON-LD
+    answer text, meta descriptions, card blurbs, the agent exports.
+
+    Wikilinks come first and matter most: a vault note says
+    `[[=Contact|Book a free intake call]]`, and every one of these that slipped
+    through was published verbatim — brackets, pipe and all — into FAQ
+    structured data Google reads back as the answer. Take the label after the
+    pipe (what a reader was meant to see), or the target when there is none.
+
+    Also collapses the vault's hard-wrapped lines into one flowing line, so a
+    blurb lifted out of a note does not carry its 80-column newlines into a
+    meta tag or a JSON string.
+    """
+    t = t or ""
+    t = re.sub(r"<!--[\s\S]*?-->", "", t)
+    t = re.sub(r"\[\[[^\]|\n]*\|([^\]\n]*)\]\]", r"\1", t)   # [[target|label]] -> label
+    t = re.sub(r"\[\[([^\]\n]*)\]\]", r"\1", t)              # [[target]]       -> target
+    t = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", t)           # [text](url)      -> text
+    t = re.sub(r"%%BTN:[^|%]+\|([^%]+)%%", r"\1", t)         # reveal button    -> its label
+    t = re.sub(r"[*_`>#]", "", t)
+    return " ".join(t.split())
+
+
 def extract_faqs(body):
     """Pull a `## FAQ` (or `## Frequently asked…`) section: ### question → answer."""
     m = re.search(r"^##\s*(?:FAQ|Frequently asked[^\n]*)$", body or "", re.M | re.I)
@@ -576,11 +610,8 @@ def extract_faqs(body):
         sec = sec[:nxt.start()]
     out = []
     for qm in re.finditer(r"^###\s*(.+?)\s*$([\s\S]*?)(?=^###\s|\Z)", sec, re.M):
-        q = qm.group(1).strip()
-        a = qm.group(2)
-        a = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", a)   # [text](url) -> text
-        a = re.sub(r"[*_`>#]|<!--.*?-->", "", a)
-        a = " ".join(a.split())
+        q = strip_md(qm.group(1))
+        a = strip_md(qm.group(2))
         if q and a:
             out.append((q, a[:900]))
     return out
@@ -915,7 +946,12 @@ def collect_hospital_records(notes):
             continue
         typ = re.search(r'\| Type \| ([^\|]+)\|', body)
         scale = re.search(r'\| Scale \| ([^\|]+)\|', body)
-        intro = body.split('<!--')[0].strip().split('\n\n')[0].strip() if body else ""
+        # The dossier's opening paragraph, as plain prose. It is escaped (never
+        # rendered) by all three consumers — the index cards, the _data blob the
+        # viewer draws from, and the agent export — so any markdown left in it
+        # is printed literally: one hospital's "**it is, in our experience, the
+        # best…**" shipped with its asterisks showing.
+        intro = strip_md(body.split('<!--')[0].strip().split('\n\n')[0]) if body else ""
         procs = []
         for pn in _note_section(body, "Procedures we route here"):
             procs.append({"n": pn, "u": proc_route.get(pn, "")})

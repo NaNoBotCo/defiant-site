@@ -4423,7 +4423,7 @@
           {
             "name": "Clínica Centenario",
             "lat": 4.6056685,
-            "lon": -74.0833591
+            "lon": -74.0833605
           },
           {
             "name": "Clínica Colombia",
@@ -4622,8 +4622,8 @@
           },
           {
             "name": "Hospital El Carmen",
-            "lat": 4.5835716,
-            "lon": -74.1319651
+            "lat": 4.5835619,
+            "lon": -74.1319733
           },
           {
             "name": "Hospital El Tunal",
@@ -4959,8 +4959,8 @@
           },
           {
             "name": "Centro De Salud Picacho",
-            "lat": 6.2971042,
-            "lon": -75.5830432
+            "lat": 6.2970911,
+            "lon": -75.5830237
           },
           {
             "name": "Centro Médico Nueva Vida",
@@ -5321,8 +5321,8 @@
         "San José": [
           {
             "name": "Banco Nacional de Sangre",
-            "lat": 9.9194757,
-            "lon": -84.0535239
+            "lat": 9.9194725,
+            "lon": -84.0535134
           },
           {
             "name": "Centro Medico Familiar",
@@ -5342,7 +5342,7 @@
           {
             "name": "Centro de Desarrollo Social Dr. Guillermo Padilla Castro",
             "lat": 9.9225293,
-            "lon": -84.0699685
+            "lon": -84.0699756
           },
           {
             "name": "Clínica CCSS Alajuelita",
@@ -11832,8 +11832,8 @@
           },
           {
             "name": "Dr.Bhats Eye Hospital",
-            "lat": 13.1185204,
-            "lon": 80.1523131
+            "lat": 13.1175413,
+            "lon": 80.1539406
           },
           {
             "name": "Dr.Duraiswami Eye Hospital",
@@ -12747,7 +12747,7 @@
           },
           {
             "name": "MIOT Hospital",
-            "lat": 13.022354,
+            "lat": 13.022338,
             "lon": 80.1863211
           },
           {
@@ -15118,11 +15118,6 @@
             "lon": 77.245588
           },
           {
-            "name": "Bawana Dispensary",
-            "lat": 28.8012625,
-            "lon": 77.0374388
-          },
-          {
             "name": "Bawasher Hospital",
             "lat": 28.6742139,
             "lon": 77.1761804
@@ -15224,13 +15219,8 @@
           },
           {
             "name": "CK Birla Hospital Gurgaon",
-            "lat": 28.4236654,
-            "lon": 77.0615586
-          },
-          {
-            "name": "CK Birla Hospital Sector 51",
-            "lat": 28.423721,
-            "lon": 77.0614059
+            "lat": 28.4236925,
+            "lon": 77.0615979
           },
           {
             "name": "CRPF Composite Hospital",
@@ -15264,7 +15254,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.4746541,
+            "lat": 28.473978,
             "lon": 77.2158554
           },
           {
@@ -16149,8 +16139,8 @@
           },
           {
             "name": "Hans Charitable Hospital",
-            "lat": 28.7002703,
-            "lon": 77.2083671
+            "lat": 28.7003162,
+            "lon": 77.2083336
           },
           {
             "name": "Hardik Hospital",
@@ -19005,6 +18995,11 @@
             "lon": 72.8591392
           },
           {
+            "name": "Aditya Ortho Spine Clinic",
+            "lat": 19.2563883,
+            "lon": 72.9732809
+          },
+          {
             "name": "Aditya Orthopedic Hospital",
             "lat": 19.2135618,
             "lon": 72.977964
@@ -20258,6 +20253,11 @@
             "name": "Dr. Nisars Eye Care Centre",
             "lat": 18.9590608,
             "lon": 72.8116697
+          },
+          {
+            "name": "Dr. R. N. Cooper General Hospital Blood Bank",
+            "lat": 19.1078504,
+            "lon": 72.8359866
           },
           {
             "name": "Dr. Rane hospital maternity & surgical",
@@ -24408,8 +24408,8 @@
           },
           {
             "name": "KPJ Tawakkal KL Specialist Hospital",
-            "lat": 3.1773236,
-            "lon": 101.6986585
+            "lat": 3.1773153,
+            "lon": 101.6986639
           },
           {
             "name": "Kiara Medical Centre",
@@ -26289,7 +26289,7 @@
             "lon": 103.7229451
           },
           {
-            "name": "Woodlands Health Campus",
+            "name": "Woodlands Hospital",
             "lat": 1.424561,
             "lon": 103.7945949
           },
@@ -27854,8 +27854,8 @@
           },
           {
             "name": "Hospital Clínic de Barcelona. Seu Plató",
-            "lat": 41.4013125,
-            "lon": 2.1422688
+            "lat": 41.401314,
+            "lon": 2.1422817
           },
           {
             "name": "Hospital Duran i Reynals",
@@ -27988,6 +27988,11 @@
             "name": "Bangprakok 9 International Hospital",
             "lat": 13.6819541,
             "lon": 100.474626
+          },
+          {
+            "name": "Camillian Hospital",
+            "lat": 13.7391614,
+            "lon": 100.5835244
           },
           {
             "name": "Chaophya Hospital",
@@ -28400,11 +28405,6 @@
             "lon": 100.5349465
           },
           {
-            "name": "โรงพยาบาลคามิลเลียน",
-            "lat": 13.7391614,
-            "lon": 100.5835244
-          },
-          {
             "name": "โรงพยาบาลจักษุ รัตนิน",
             "lat": 13.7465043,
             "lon": 100.5631219
@@ -28643,11 +28643,6 @@
             "name": "โรงพยาบาลมิชชั่น",
             "lat": 13.7577321,
             "lon": 100.5191274
-          },
-          {
-            "name": "โรงพยาบาลมิตรประชา",
-            "lat": 13.711638,
-            "lon": 100.4318286
           },
           {
             "name": "โรงพยาบาลมิตรภาพ",
@@ -28915,6 +28910,11 @@
             "lon": 100.5123052
           },
           {
+            "name": "โรงพยาบาลเพชรเกษม 2",
+            "lat": 13.7118679,
+            "lon": 100.431882
+          },
+          {
             "name": "โรงพยาบาลเมดพาร์ค",
             "lat": 13.7217239,
             "lon": 100.5566062
@@ -28940,7 +28940,7 @@
             "lon": 100.5177517
           },
           {
-            "name": "โรงพยาบาลเวชธานี อินเตอร์เนชันแนล",
+            "name": "โรงพยาบาลเวชธานี",
             "lat": 13.7721804,
             "lon": 100.6369087
           },
@@ -29584,12 +29584,12 @@
           },
           {
             "name": "Acıbadem Kozyatağı Hastanesi",
-            "lat": 40.9766911,
-            "lon": 29.0931138
+            "lat": 40.9766931,
+            "lon": 29.093092
           },
           {
             "name": "Acıbadem Maslak Hastanesi",
-            "lat": 41.1274286,
+            "lat": 41.1273992,
             "lon": 29.0251976
           },
           {
@@ -29839,8 +29839,8 @@
           },
           {
             "name": "Bezmialem Üniversitesi İlhan Varank Yerleşkesi",
-            "lat": 41.0949722,
-            "lon": 28.8647834
+            "lat": 41.0949834,
+            "lon": 28.8648036
           },
           {
             "name": "Biruni Üniversitesi Tıp Fakültesi Hastanesi",
@@ -30464,8 +30464,8 @@
           },
           {
             "name": "Seyrantepe Hamidiye Etfal Eğitim ve Araştırma Hastanesi",
-            "lat": 41.1036745,
-            "lon": 28.9961075
+            "lat": 41.1036639,
+            "lon": 28.996234
           },
           {
             "name": "Sultanbeyli Avrupa Göz Hastanesi",
