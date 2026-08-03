@@ -4959,8 +4959,8 @@
           },
           {
             "name": "Centro De Salud Picacho",
-            "lat": 6.2970911,
-            "lon": -75.5830237
+            "lat": 6.2971042,
+            "lon": -75.5830432
           },
           {
             "name": "Centro Médico Nueva Vida",
@@ -5677,6 +5677,11 @@
             "lon": 19.0785067
           },
           {
+            "name": "Magyar Honvédség Egészségügyi Központ",
+            "lat": 47.5307038,
+            "lon": 19.0727558
+          },
+          {
             "name": "Manninger Jenő Országos Traumatológiai Intézet",
             "lat": 47.496434,
             "lon": 19.0815906
@@ -5887,20 +5892,15 @@
             "lon": 19.0132429
           },
           {
-            "name": "Észak-Pesti Centrumkórház - Honvédkórház",
-            "lat": 47.5307017,
-            "lon": 19.0727241
-          },
-          {
             "name": "Újpesti Szakorvosi Rendelőintézet",
-            "lat": 47.5656077,
-            "lon": 19.1005111
+            "lat": 47.5656122,
+            "lon": 19.1005185
           }
         ]
       }
     },
     "India": {
-      "count": 3658,
+      "count": 3659,
       "cities": {
         "Bengaluru": [
           {
@@ -15118,6 +15118,11 @@
             "lon": 77.245588
           },
           {
+            "name": "Bawana Dispensary",
+            "lat": 28.8012625,
+            "lon": 77.0374388
+          },
+          {
             "name": "Bawasher Hospital",
             "lat": 28.6742139,
             "lon": 77.1761804
@@ -15254,7 +15259,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.473978,
+            "lat": 28.4746541,
             "lon": 77.2158554
           },
           {
@@ -16139,8 +16144,8 @@
           },
           {
             "name": "Hans Charitable Hospital",
-            "lat": 28.7003162,
-            "lon": 77.2083336
+            "lat": 28.7002703,
+            "lon": 77.2083671
           },
           {
             "name": "Hardik Hospital",
@@ -24408,8 +24413,8 @@
           },
           {
             "name": "KPJ Tawakkal KL Specialist Hospital",
-            "lat": 3.1773153,
-            "lon": 101.6986639
+            "lat": 3.1773236,
+            "lon": 101.6986585
           },
           {
             "name": "Kiara Medical Centre",
@@ -25444,8 +25449,8 @@
           },
           {
             "name": "Hospital Star Médica Tlalnepantla",
-            "lat": 19.5371979,
-            "lon": -99.2049885
+            "lat": 19.5372169,
+            "lon": -99.20505
           },
           {
             "name": "Hospital Tehuantepec",
@@ -27784,7 +27789,7 @@
           },
           {
             "name": "Capio Hospital Universitari Sagrat Cor",
-            "lat": 41.3889427,
+            "lat": 41.3889465,
             "lon": 2.1456033
           },
           {
@@ -27854,8 +27859,8 @@
           },
           {
             "name": "Hospital Clínic de Barcelona. Seu Plató",
-            "lat": 41.401314,
-            "lon": 2.1422817
+            "lat": 41.4013125,
+            "lon": 2.1422688
           },
           {
             "name": "Hospital Duran i Reynals",
@@ -29123,8 +29128,8 @@
           },
           {
             "name": "โรงพยาบาล เชียงใหม่เมดิคอลเซ็นเตอร์",
-            "lat": 18.7803819,
-            "lon": 98.988465
+            "lat": 18.780361,
+            "lon": 98.9884613
           },
           {
             "name": "โรงพยาบาลกองบิน 41",
@@ -29377,7 +29382,7 @@
       }
     },
     "Turkey": {
-      "count": 327,
+      "count": 328,
       "cities": {
         "Antalya": [
           {
@@ -29409,6 +29414,11 @@
             "name": "Aşır Aksu Ek Hizmet Binası",
             "lat": 36.9493437,
             "lon": 30.627863
+          },
+          {
+            "name": "Dr. Halil ILGIN",
+            "lat": 36.8735322,
+            "lon": 30.6426173
           },
           {
             "name": "Dünya Göz",
@@ -29584,12 +29594,12 @@
           },
           {
             "name": "Acıbadem Kozyatağı Hastanesi",
-            "lat": 40.9766931,
-            "lon": 29.093092
+            "lat": 40.9766911,
+            "lon": 29.0931138
           },
           {
             "name": "Acıbadem Maslak Hastanesi",
-            "lat": 41.1273992,
+            "lat": 41.1274286,
             "lon": 29.0251976
           },
           {
@@ -29839,8 +29849,8 @@
           },
           {
             "name": "Bezmialem Üniversitesi İlhan Varank Yerleşkesi",
-            "lat": 41.0949834,
-            "lon": 28.8648036
+            "lat": 41.0949722,
+            "lon": 28.8647834
           },
           {
             "name": "Biruni Üniversitesi Tıp Fakültesi Hastanesi",
@@ -30464,8 +30474,8 @@
           },
           {
             "name": "Seyrantepe Hamidiye Etfal Eğitim ve Araştırma Hastanesi",
-            "lat": 41.1036639,
-            "lon": 28.996234
+            "lat": 41.1036745,
+            "lon": 28.9961075
           },
           {
             "name": "Sultanbeyli Avrupa Göz Hastanesi",
