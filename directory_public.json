@@ -4423,7 +4423,7 @@
           {
             "name": "Clínica Centenario",
             "lat": 4.6056685,
-            "lon": -74.0833605
+            "lon": -74.0833591
           },
           {
             "name": "Clínica Colombia",
@@ -4622,8 +4622,8 @@
           },
           {
             "name": "Hospital El Carmen",
-            "lat": 4.5835619,
-            "lon": -74.1319733
+            "lat": 4.5835716,
+            "lon": -74.1319651
           },
           {
             "name": "Hospital El Tunal",
@@ -5321,8 +5321,8 @@
         "San José": [
           {
             "name": "Banco Nacional de Sangre",
-            "lat": 9.9194757,
-            "lon": -84.0535239
+            "lat": 9.9194725,
+            "lon": -84.0535134
           },
           {
             "name": "Centro Medico Familiar",
@@ -5342,7 +5342,7 @@
           {
             "name": "Centro de Desarrollo Social Dr. Guillermo Padilla Castro",
             "lat": 9.9225293,
-            "lon": -84.0699685
+            "lon": -84.0699756
           },
           {
             "name": "Clínica CCSS Alajuelita",
@@ -5677,6 +5677,11 @@
             "lon": 19.0785067
           },
           {
+            "name": "Magyar Honvédség Egészségügyi Központ",
+            "lat": 47.5307038,
+            "lon": 19.0727558
+          },
+          {
             "name": "Manninger Jenő Országos Traumatológiai Intézet",
             "lat": 47.496434,
             "lon": 19.0815906
@@ -5887,20 +5892,15 @@
             "lon": 19.0132429
           },
           {
-            "name": "Észak-Pesti Centrumkórház - Honvédkórház",
-            "lat": 47.5307017,
-            "lon": 19.0727241
-          },
-          {
             "name": "Újpesti Szakorvosi Rendelőintézet",
-            "lat": 47.5656077,
-            "lon": 19.1005111
+            "lat": 47.5656122,
+            "lon": 19.1005185
           }
         ]
       }
     },
     "India": {
-      "count": 3664,
+      "count": 3665,
       "cities": {
         "Bengaluru": [
           {
@@ -6892,11 +6892,6 @@
             "name": "Divakars speciality Hospital",
             "lat": 12.9100629,
             "lon": 77.5924585
-          },
-          {
-            "name": "Divisional Railway Hospital",
-            "lat": 12.9798353,
-            "lon": 77.5651105
           },
           {
             "name": "Divya Drishti Eye Hospital, Vijayanagar",
@@ -9074,6 +9069,11 @@
             "lon": 77.6146819
           },
           {
+            "name": "Railways Hospital",
+            "lat": 12.9798353,
+            "lon": 77.5651105
+          },
+          {
             "name": "Rainbow Children's Hospital",
             "lat": 12.9753078,
             "lon": 77.697834
@@ -10270,8 +10270,8 @@
           },
           {
             "name": "Svastha Hospital",
-            "lat": 12.9659169,
-            "lon": 77.749386
+            "lat": 12.9659234,
+            "lon": 77.7494061
           },
           {
             "name": "Swamy Hospital",
@@ -10869,11 +10869,6 @@
             "name": "Al Elaj Accupressure and Health Centre",
             "lat": 12.9569609,
             "lon": 80.1424509
-          },
-          {
-            "name": "Amalya Eye Hospital",
-            "lat": 13.0877615,
-            "lon": 80.2423476
           },
           {
             "name": "Amma Hospital",
@@ -11541,6 +11536,11 @@
             "lon": 80.1315486
           },
           {
+            "name": "Deepam Eye Hospital",
+            "lat": 13.0877615,
+            "lon": 80.2423476
+          },
+          {
             "name": "Deepam Hospital",
             "lat": 12.9294095,
             "lon": 80.1174378
@@ -11782,8 +11782,8 @@
           },
           {
             "name": "Dr. Sathish Kumar Institute Of Child Health and Hospital for Children",
-            "lat": 12.937277,
-            "lon": 80.1390208
+            "lat": 12.9372891,
+            "lon": 80.1390198
           },
           {
             "name": "Dr. Seshiah Diabetes Research Institute and Dr. Balaji Diabetes Care Centre",
@@ -11831,9 +11831,9 @@
             "lon": 80.259169
           },
           {
-            "name": "Dr.Agarwals Eye Hospital",
-            "lat": 12.9832681,
-            "lon": 80.2176077
+            "name": "Dr.Agarwals Eye Hospital - Velacherry",
+            "lat": 12.9832366,
+            "lon": 80.217509
           },
           {
             "name": "Dr.Bala Subramanian",
@@ -11842,8 +11842,8 @@
           },
           {
             "name": "Dr.Bhats Eye Hospital",
-            "lat": 13.1185204,
-            "lon": 80.1523131
+            "lat": 13.1175413,
+            "lon": 80.1539406
           },
           {
             "name": "Dr.Duraiswami Eye Hospital",
@@ -12029,6 +12029,11 @@
             "name": "Good Shepard hospital",
             "lat": 12.9810842,
             "lon": 80.2343492
+          },
+          {
+            "name": "Goverment dental hospital & collage",
+            "lat": 13.0829605,
+            "lon": 80.281264
           },
           {
             "name": "Government Hospital",
@@ -12437,8 +12442,13 @@
           },
           {
             "name": "K.H.M. Hospital",
-            "lat": 13.0844992,
-            "lon": 80.2130591
+            "lat": 13.129327,
+            "lon": 80.2152624
+          },
+          {
+            "name": "K.H.M.Hospital",
+            "lat": 13.0844424,
+            "lon": 80.2130723
           },
           {
             "name": "K.J. Hospital",
@@ -12519,11 +12529,6 @@
             "name": "Kanamapet Government Hospital",
             "lat": 13.0298989,
             "lon": 80.2261208
-          },
-          {
-            "name": "Kanchi Kamakoti Childs Trust Hospital",
-            "lat": 13.0573425,
-            "lon": 80.2458975
           },
           {
             "name": "Kannimaram Hospital",
@@ -12762,7 +12767,7 @@
           },
           {
             "name": "MIOT Hospital",
-            "lat": 13.022354,
+            "lat": 13.022338,
             "lon": 80.1863211
           },
           {
@@ -12999,6 +13004,11 @@
             "name": "Nandhini Hospital",
             "lat": 12.9784706,
             "lon": 80.2247932
+          },
+          {
+            "name": "Nanthini Hospital",
+            "lat": 12.9326457,
+            "lon": 80.2320063
           },
           {
             "name": "Narayanaa Hospital",
@@ -13986,7 +13996,7 @@
             "lon": 80.1810857
           },
           {
-            "name": "Srushti Hospital, Ramapuram",
+            "name": "Srushti Hospital, Kanchipuram",
             "lat": 13.0353484,
             "lon": 80.1822808
           },
@@ -14039,6 +14049,11 @@
             "name": "Subha Hospital",
             "lat": 13.1113868,
             "lon": 80.2923493
+          },
+          {
+            "name": "Subhiksha Hospital",
+            "lat": 12.9740991,
+            "lon": 80.1387607
           },
           {
             "name": "Sudar Hospital",
@@ -14146,11 +14161,6 @@
             "lon": 80.116819
           },
           {
-            "name": "Tamil Nadu Government Dental College & Hospital, Chennai",
-            "lat": 13.084889,
-            "lon": 80.2826483
-          },
-          {
             "name": "Tamil Nadu Government Multi Super Speciality Hospital",
             "lat": 13.0693752,
             "lon": 80.2741496
@@ -14189,6 +14199,11 @@
             "name": "The Best Hospital Private Ltd",
             "lat": 13.0535089,
             "lon": 80.2195494
+          },
+          {
+            "name": "The Child Trust Medical Research Foundation",
+            "lat": 13.0573425,
+            "lon": 80.2458975
           },
           {
             "name": "The Crescent Hospital",
@@ -14596,19 +14611,9 @@
             "lon": 80.2583254
           },
           {
-            "name": "சுபிக்ஷா மருத்துவமனை",
-            "lat": 12.9740991,
-            "lon": 80.1387607
-          },
-          {
             "name": "சைதாப்பேட்டை அரசு மருத்துவமனை",
             "lat": 13.0204577,
             "lon": 80.2240451
-          },
-          {
-            "name": "நந்தினி மருத்துவமனை",
-            "lat": 12.9327959,
-            "lon": 80.2315475
           },
           {
             "name": "புனித இஸ்பேல் மருத்துவமனை",
@@ -15284,7 +15289,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.4746541,
+            "lat": 28.473978,
             "lon": 77.2158554
           },
           {
@@ -24438,8 +24443,8 @@
           },
           {
             "name": "KPJ Tawakkal KL Specialist Hospital",
-            "lat": 3.1773236,
-            "lon": 101.6986585
+            "lat": 3.1773153,
+            "lon": 101.6986639
           },
           {
             "name": "Kiara Medical Centre",
@@ -24594,7 +24599,12 @@
         ],
         "Penang": [
           {
-            "name": "Gleneagles Pulau Pinang",
+            "name": "Georgetown Specialist Hospital",
+            "lat": 5.4025526,
+            "lon": 100.3035505
+          },
+          {
+            "name": "Gleneagles Penang",
             "lat": 5.4268203,
             "lon": 100.3199443
           },
@@ -24607,11 +24617,6 @@
             "name": "Hospital Lam Wah Ee",
             "lat": 5.3911917,
             "lon": 100.3042286
-          },
-          {
-            "name": "Hospital Pakar Georgetown",
-            "lat": 5.4025526,
-            "lon": 100.3035505
           },
           {
             "name": "Hospital Pulau Pinang",
@@ -24664,7 +24669,7 @@
             "lon": 100.3083329
           },
           {
-            "name": "iTCM Healthcare Centre",
+            "name": "iTCM Healthcare Centre 爱康中医诊所",
             "lat": 5.4240233,
             "lon": 100.3177625
           }
