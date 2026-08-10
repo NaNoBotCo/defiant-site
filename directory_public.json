@@ -4429,7 +4429,7 @@
           {
             "name": "Clínica Centenario",
             "lat": 4.6056685,
-            "lon": -74.0833605
+            "lon": -74.0833591
           },
           {
             "name": "Clínica Colombia",
@@ -4628,8 +4628,8 @@
           },
           {
             "name": "Hospital El Carmen",
-            "lat": 4.5835619,
-            "lon": -74.1319733
+            "lat": 4.5835716,
+            "lon": -74.1319651
           },
           {
             "name": "Hospital El Tunal",
@@ -4965,8 +4965,8 @@
           },
           {
             "name": "Centro De Salud Picacho",
-            "lat": 6.2970911,
-            "lon": -75.5830237
+            "lat": 6.2971042,
+            "lon": -75.5830432
           },
           {
             "name": "Centro Médico Nueva Vida",
@@ -5327,8 +5327,8 @@
         "San José": [
           {
             "name": "Banco Nacional de Sangre",
-            "lat": 9.9194757,
-            "lon": -84.0535239
+            "lat": 9.9194725,
+            "lon": -84.0535134
           },
           {
             "name": "Centro Medico Familiar",
@@ -5348,7 +5348,7 @@
           {
             "name": "Centro de Desarrollo Social Dr. Guillermo Padilla Castro",
             "lat": 9.9225293,
-            "lon": -84.0699685
+            "lon": -84.0699756
           },
           {
             "name": "Clínica CCSS Alajuelita",
@@ -5899,14 +5899,14 @@
           },
           {
             "name": "Újpesti Szakorvosi Rendelőintézet",
-            "lat": 47.5656077,
-            "lon": 19.1005111
+            "lat": 47.5656122,
+            "lon": 19.1005185
           }
         ]
       }
     },
     "India": {
-      "count": 3666,
+      "count": 3667,
       "cities": {
         "Bengaluru": [
           {
@@ -6898,6 +6898,11 @@
             "name": "Divakars speciality Hospital",
             "lat": 12.9100629,
             "lon": 77.5924585
+          },
+          {
+            "name": "Divisional Railway Hospital",
+            "lat": 12.9798353,
+            "lon": 77.5651105
           },
           {
             "name": "Divya Drishti Eye Hospital, Vijayanagar",
@@ -9073,11 +9078,6 @@
             "name": "Rahul Maternity & Child Health Centre",
             "lat": 12.9596227,
             "lon": 77.6146819
-          },
-          {
-            "name": "Railways Hospital",
-            "lat": 12.9798353,
-            "lon": 77.5651105
           },
           {
             "name": "Rainbow Children's Hospital",
@@ -15295,7 +15295,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.473978,
+            "lat": 28.4746541,
             "lon": 77.2158554
           },
           {
@@ -16387,6 +16387,11 @@
             "name": "Jay Hospital",
             "lat": 28.6085349,
             "lon": 76.9861235
+          },
+          {
+            "name": "Jayprakash Infotech",
+            "lat": 28.6094967,
+            "lon": 77.2116967
           },
           {
             "name": "Jeevan Anmol Hospital",
@@ -18834,6 +18839,11 @@
             "lon": 77.0031618
           },
           {
+            "name": "Yashoda Medicity",
+            "lat": 28.6462502,
+            "lon": 77.377579
+          },
+          {
             "name": "Yashoda Super Speciality Hospital, Anand Vihar",
             "lat": 28.6450931,
             "lon": 77.3287535
@@ -19287,8 +19297,8 @@
           },
           {
             "name": "Apollo Spectra Hospitals",
-            "lat": 18.9703842,
-            "lon": 72.8146155
+            "lat": 18.9703476,
+            "lon": 72.8146181
           },
           {
             "name": "Arihant Eye Care Centre, Borivali",
@@ -19357,8 +19367,8 @@
           },
           {
             "name": "Ashirwad Hospital and Polyclinic",
-            "lat": 19.0521558,
-            "lon": 72.9092518
+            "lat": 19.0521469,
+            "lon": 72.9091445
           },
           {
             "name": "Ashirwad Maternity and Nursing Home",
@@ -19617,8 +19627,8 @@
           },
           {
             "name": "Borivali Surgical Hospital LLP",
-            "lat": 19.2371999,
-            "lon": 72.8620019
+            "lat": 19.2372069,
+            "lon": 72.8619335
           },
           {
             "name": "Borivali West",
@@ -20042,8 +20052,8 @@
           },
           {
             "name": "Dr Gupte Lying-In Surgical Hospital",
-            "lat": 19.0716269,
-            "lon": 72.837659
+            "lat": 19.0716358,
+            "lon": 72.837663
           },
           {
             "name": "Dr Haresh Shah Prabhat Maternity and Surgical Nursing Home",
@@ -20277,8 +20287,8 @@
           },
           {
             "name": "Dr. Muddebihalkar Hospital and Iccu",
-            "lat": 19.186815,
-            "lon": 72.9537385
+            "lat": 19.1869703,
+            "lon": 72.9538925
           },
           {
             "name": "Dr. Nadeem Rais Endocrinologist",
@@ -20676,14 +20686,9 @@
             "lon": 72.8639666
           },
           {
-            "name": "Gleneagles Hospital Super Speciality and Transplant Center",
+            "name": "Global Hospital Super Speciality and Transplant Center",
             "lat": 18.9994432,
             "lon": 72.8405011
-          },
-          {
-            "name": "Global Hospital Super Speciality and Transplant Center",
-            "lat": 18.9994082,
-            "lon": 72.8404522
           },
           {
             "name": "Godrej Memorial Hospital, Mumbai",
@@ -20923,7 +20928,7 @@
           {
             "name": "INHS Asvini Naval Hospital",
             "lat": 18.9002886,
-            "lon": 72.8149856
+            "lon": 72.8149353
           },
           {
             "name": "Icon Hospital and Research Centre",
@@ -20997,8 +21002,8 @@
           },
           {
             "name": "J. J. Hospital",
-            "lat": 18.9638574,
-            "lon": 72.8347891
+            "lat": 18.9638278,
+            "lon": 72.834781
           },
           {
             "name": "J. K. Child Health Care and Nicu",
@@ -21162,8 +21167,8 @@
           },
           {
             "name": "K B H B Charitable Ophthalmic and E.N.T Hospital",
-            "lat": 19.0023454,
-            "lon": 72.840422
+            "lat": 19.0023334,
+            "lon": 72.8404665
           },
           {
             "name": "K B Haji Bachooali Charitable Ophthalmic and E N T H",
@@ -21702,8 +21707,8 @@
           },
           {
             "name": "Masina Hospital",
-            "lat": 18.9746274,
-            "lon": 72.8355699
+            "lat": 18.9746049,
+            "lon": 72.8355792
           },
           {
             "name": "Masoom Child Hospital",
@@ -21786,7 +21791,7 @@
             "lon": 72.9134181
           },
           {
-            "name": "Metropol Hospital and Icu",
+            "name": "Metro Hospital and Icu",
             "lat": 19.2358192,
             "lon": 72.9755159
           },
@@ -22282,8 +22287,8 @@
           },
           {
             "name": "Parekh Eye Hospital",
-            "lat": 19.0554536,
-            "lon": 72.8356392
+            "lat": 19.0554466,
+            "lon": 72.8357264
           },
           {
             "name": "Parel Institute Of Orthopaedic Specialities",
@@ -23242,8 +23247,8 @@
           },
           {
             "name": "Shreedhar Hospital",
-            "lat": 19.0196086,
-            "lon": 72.8337321
+            "lat": 19.0196078,
+            "lon": 72.8337315
           },
           {
             "name": "Shreeji Hospital (Kandivli)",
@@ -23347,8 +23352,8 @@
           },
           {
             "name": "Sir H. N. Hospital & Research Centre;Sir H.N Reliance foundation hospital",
-            "lat": 18.9589651,
-            "lon": 72.8201232
+            "lat": 18.9587707,
+            "lon": 72.8200485
           },
           {
             "name": "Sirvi Medical",
@@ -23657,8 +23662,8 @@
           },
           {
             "name": "Tata Memorial Cancer Hospital",
-            "lat": 19.0056725,
-            "lon": 72.8430551
+            "lat": 19.0056387,
+            "lon": 72.8430619
           },
           {
             "name": "Tata Memorial Hospital",
@@ -23882,8 +23887,8 @@
           },
           {
             "name": "Varad Medical Centre",
-            "lat": 19.0146877,
-            "lon": 72.8274786
+            "lat": 19.0146725,
+            "lon": 72.8275685
           },
           {
             "name": "Vardann Multi Speciality Hospital",
@@ -23962,8 +23967,8 @@
           },
           {
             "name": "Vinayak Maternity and General Hospital",
-            "lat": 19.1946888,
-            "lon": 72.8332024
+            "lat": 19.1946863,
+            "lon": 72.8334036
           },
           {
             "name": "Vinod Sharma Memorial Medical Centre",
@@ -24610,7 +24615,7 @@
         ],
         "Penang": [
           {
-            "name": "Gleneagles Penang",
+            "name": "Gleneagles Pulau Pinang",
             "lat": 5.4268203,
             "lon": 100.3199443
           },
@@ -24680,7 +24685,7 @@
             "lon": 100.3083329
           },
           {
-            "name": "iTCM Healthcare Centre 爱康中医诊所",
+            "name": "iTCM Healthcare Centre",
             "lat": 5.4240233,
             "lon": 100.3177625
           }
@@ -25090,8 +25095,8 @@
           },
           {
             "name": "Hospital CAMI",
-            "lat": 19.4239068,
-            "lon": -99.1050215
+            "lat": 19.4240166,
+            "lon": -99.1051123
           },
           {
             "name": "Hospital Cardiologia",
@@ -25450,8 +25455,8 @@
           },
           {
             "name": "Hospital San Ángel Inn Chapultepec",
-            "lat": 19.4218977,
-            "lon": -99.1729447
+            "lat": 19.4218984,
+            "lon": -99.1729441
           },
           {
             "name": "Hospital Santa Coleta",
@@ -25490,8 +25495,8 @@
           },
           {
             "name": "Hospital Star Médica Tlalnepantla",
-            "lat": 19.5372169,
-            "lon": -99.20505
+            "lat": 19.5371979,
+            "lon": -99.2049885
           },
           {
             "name": "Hospital Tehuantepec",
@@ -25560,8 +25565,8 @@
           },
           {
             "name": "Hospital de la Luz",
-            "lat": 19.4349687,
-            "lon": -99.1569588
+            "lat": 19.4349624,
+            "lon": -99.1569548
           },
           {
             "name": "Hospital de traumatología y ortopedia No 2 \"villa coapa\"",
@@ -25645,8 +25650,8 @@
           },
           {
             "name": "IMSS Hospital General de Zona 48 S. Pedro Xalpa",
-            "lat": 19.4814534,
-            "lon": -99.2119591
+            "lat": 19.4817435,
+            "lon": -99.2128033
           },
           {
             "name": "IMSS UMA Unidad Medica Ambulatoria",
@@ -27393,7 +27398,7 @@
           },
           {
             "name": "원자력병원",
-            "lat": 37.6292947,
+            "lat": 37.629282,
             "lon": 127.0830818
           },
           {
@@ -27768,8 +27773,8 @@
           },
           {
             "name": "해정병원",
-            "lat": 37.5758192,
-            "lon": 126.9849944
+            "lat": 37.5760692,
+            "lon": 126.9852705
           },
           {
             "name": "햇빛여성병원",
@@ -28706,11 +28711,6 @@
             "lon": 100.5191274
           },
           {
-            "name": "โรงพยาบาลมิตรประชา",
-            "lat": 13.711638,
-            "lon": 100.4318286
-          },
-          {
             "name": "โรงพยาบาลมิตรภาพ",
             "lat": 13.7284992,
             "lon": 100.4945505
@@ -28976,6 +28976,11 @@
             "lon": 100.5123052
           },
           {
+            "name": "โรงพยาบาลเพชรเกษม 2",
+            "lat": 13.7118679,
+            "lon": 100.431882
+          },
+          {
             "name": "โรงพยาบาลเมดพาร์ค",
             "lat": 13.7217239,
             "lon": 100.5566062
@@ -29001,7 +29006,7 @@
             "lon": 100.5177517
           },
           {
-            "name": "โรงพยาบาลเวชธานี อินเตอร์เนชันแนล",
+            "name": "โรงพยาบาลเวชธานี",
             "lat": 13.7721804,
             "lon": 100.6369087
           },
@@ -29665,8 +29670,8 @@
           },
           {
             "name": "Acıbadem Kozyatağı Hastanesi",
-            "lat": 40.9766931,
-            "lon": 29.093092
+            "lat": 40.9766754,
+            "lon": 29.0930673
           },
           {
             "name": "Acıbadem Maslak Hastanesi",
@@ -29940,8 +29945,8 @@
           },
           {
             "name": "Central Hospital",
-            "lat": 40.9659101,
-            "lon": 29.1002119
+            "lat": 40.9659307,
+            "lon": 29.1003003
           },
           {
             "name": "Cerrahpaşa Tıp Fakültesi",
@@ -30680,8 +30685,8 @@
           },
           {
             "name": "Yeşilköy Prof. Dr. Murat Dilmener Acil Durum Hastanesi",
-            "lat": 40.9702444,
-            "lon": 28.8081552
+            "lat": 40.9702946,
+            "lon": 28.8081522
           },
           {
             "name": "Zeynep Kamil Kadın Ve Çocuk Hastalıkları Eğitim Ve Araştırma Hastanesi",
@@ -31127,8 +31132,8 @@
           },
           {
             "name": "Al Shoala Building",
-            "lat": 25.2564236,
-            "lon": 55.3313679
+            "lat": 25.2564222,
+            "lon": 55.33137
           },
           {
             "name": "Alma Polyclinic",
