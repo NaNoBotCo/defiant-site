@@ -4435,7 +4435,7 @@
           {
             "name": "Clínica Centenario",
             "lat": 4.6056685,
-            "lon": -74.0833605
+            "lon": -74.0833591
           },
           {
             "name": "Clínica Colombia",
@@ -4634,8 +4634,8 @@
           },
           {
             "name": "Hospital El Carmen",
-            "lat": 4.5835619,
-            "lon": -74.1319733
+            "lat": 4.5835716,
+            "lon": -74.1319651
           },
           {
             "name": "Hospital El Tunal",
@@ -5691,7 +5691,7 @@
           {
             "name": "Magyar Honvédség Egészségügyi Központ",
             "lat": 47.5307038,
-            "lon": 19.0727451
+            "lon": 19.0727558
           },
           {
             "name": "Manninger Jenő Országos Traumatológiai Intézet",
@@ -5905,14 +5905,14 @@
           },
           {
             "name": "Újpesti Szakorvosi Rendelőintézet",
-            "lat": 47.5656077,
-            "lon": 19.1005111
+            "lat": 47.5656122,
+            "lon": 19.1005185
           }
         ]
       }
     },
     "India": {
-      "count": 3668,
+      "count": 3669,
       "cities": {
         "Bengaluru": [
           {
@@ -9983,7 +9983,7 @@
           {
             "name": "Sri Sathya Sai Institute of Higher Medical Sciences",
             "lat": 12.9808814,
-            "lon": 77.7303048
+            "lon": 77.7303132
           },
           {
             "name": "Sri Shankara Cancer Hospital And Research Centre (A Service Unit Of Sscf)",
@@ -14730,6 +14730,11 @@
             "lon": 76.9342183
           },
           {
+            "name": "Aayana Clinic",
+            "lat": 28.5508879,
+            "lon": 77.2003883
+          },
+          {
             "name": "Abhinav Hospital",
             "lat": 28.4104443,
             "lon": 77.2921107
@@ -15301,7 +15306,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.473978,
+            "lat": 28.4746541,
             "lon": 77.2158554
           },
           {
@@ -16186,8 +16191,8 @@
           },
           {
             "name": "Hans Charitable Hospital",
-            "lat": 28.7003162,
-            "lon": 77.2083336
+            "lat": 28.7002703,
+            "lon": 77.2083671
           },
           {
             "name": "Hardik Hospital",
@@ -24626,11 +24631,6 @@
         ],
         "Penang": [
           {
-            "name": "Georgetown Specialist Hospital",
-            "lat": 5.4025526,
-            "lon": 100.3035505
-          },
-          {
             "name": "Gleneagles Penang",
             "lat": 5.4268203,
             "lon": 100.3199443
@@ -24644,6 +24644,11 @@
             "name": "Hospital Lam Wah Ee",
             "lat": 5.3911917,
             "lon": 100.3042286
+          },
+          {
+            "name": "Hospital Pakar Georgetown",
+            "lat": 5.4025526,
+            "lon": 100.3035505
           },
           {
             "name": "Hospital Pulau Pinang",
@@ -25106,8 +25111,8 @@
           },
           {
             "name": "Hospital CAMI",
-            "lat": 19.4239068,
-            "lon": -99.1050215
+            "lat": 19.4240166,
+            "lon": -99.1051123
           },
           {
             "name": "Hospital Cardiologia",
@@ -25506,8 +25511,8 @@
           },
           {
             "name": "Hospital Star Médica Tlalnepantla",
-            "lat": 19.5372169,
-            "lon": -99.20505
+            "lat": 19.5371979,
+            "lon": -99.2049885
           },
           {
             "name": "Hospital Tehuantepec",
@@ -27861,7 +27866,7 @@
           },
           {
             "name": "Capio Hospital Universitari Sagrat Cor",
-            "lat": 41.3889427,
+            "lat": 41.3889465,
             "lon": 2.1456033
           },
           {
@@ -27931,8 +27936,8 @@
           },
           {
             "name": "Hospital Clínic de Barcelona. Seu Plató",
-            "lat": 41.401314,
-            "lon": 2.1422817
+            "lat": 41.4013125,
+            "lon": 2.1422688
           },
           {
             "name": "Hospital Duran i Reynals",
@@ -28722,11 +28727,6 @@
             "lon": 100.5191274
           },
           {
-            "name": "โรงพยาบาลมิตรประชา",
-            "lat": 13.711638,
-            "lon": 100.4318286
-          },
-          {
             "name": "โรงพยาบาลมิตรภาพ",
             "lat": 13.7284992,
             "lon": 100.4945505
@@ -28992,6 +28992,11 @@
             "lon": 100.5123052
           },
           {
+            "name": "โรงพยาบาลเพชรเกษม 2",
+            "lat": 13.7118679,
+            "lon": 100.431882
+          },
+          {
             "name": "โรงพยาบาลเมดพาร์ค",
             "lat": 13.7217239,
             "lon": 100.5566062
@@ -29017,7 +29022,7 @@
             "lon": 100.5177517
           },
           {
-            "name": "โรงพยาบาลเวชธานี อินเตอร์เนชันแนล",
+            "name": "โรงพยาบาลเวชธานี",
             "lat": 13.7721804,
             "lon": 100.6369087
           },
@@ -29686,7 +29691,7 @@
           },
           {
             "name": "Acıbadem Maslak Hastanesi",
-            "lat": 41.1274286,
+            "lat": 41.1273992,
             "lon": 29.0251976
           },
           {
@@ -30551,8 +30556,8 @@
           },
           {
             "name": "Sarıyer İsmail Akgün Devlet Hastanesi",
-            "lat": 41.1694361,
-            "lon": 29.0566989
+            "lat": 41.1694193,
+            "lon": 29.0567119
           },
           {
             "name": "Saygı Hastanesi",
