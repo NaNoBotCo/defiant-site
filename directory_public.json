@@ -4705,7 +4705,7 @@
           },
           {
             "name": "Hospital Santa Clara",
-            "lat": 4.5916902,
+            "lat": 4.5916716,
             "lon": -74.0924836
           },
           {
@@ -5339,8 +5339,8 @@
         "San José": [
           {
             "name": "Banco Nacional de Sangre",
-            "lat": 9.9194757,
-            "lon": -84.0535239
+            "lat": 9.9194725,
+            "lon": -84.0535134
           },
           {
             "name": "Centro Medico Familiar",
@@ -5360,7 +5360,7 @@
           {
             "name": "Centro de Desarrollo Social Dr. Guillermo Padilla Castro",
             "lat": 9.9225293,
-            "lon": -84.0699685
+            "lon": -84.0699756
           },
           {
             "name": "Clínica CCSS Alajuelita",
@@ -5918,7 +5918,7 @@
       }
     },
     "India": {
-      "count": 3667,
+      "count": 3668,
       "cities": {
         "Bengaluru": [
           {
@@ -6073,8 +6073,8 @@
           },
           {
             "name": "Amrik Hospital",
-            "lat": 12.9829065,
-            "lon": 77.7478025
+            "lat": 12.9828993,
+            "lon": 77.7478126
           },
           {
             "name": "Amrutha Healthcare",
@@ -6778,8 +6778,8 @@
           },
           {
             "name": "Command Hospital (Air Force)",
-            "lat": 12.9638649,
-            "lon": 77.6279636
+            "lat": 12.9638769,
+            "lon": 77.627935
           },
           {
             "name": "Corporation Hospital",
@@ -6910,6 +6910,11 @@
             "name": "Divakars speciality Hospital",
             "lat": 12.9100629,
             "lon": 77.5924585
+          },
+          {
+            "name": "Divisional Railway Hospital",
+            "lat": 12.9798353,
+            "lon": 77.5651105
           },
           {
             "name": "Divya Drishti Eye Hospital, Vijayanagar",
@@ -7338,8 +7343,8 @@
           },
           {
             "name": "Government Homeopathic Hospital",
-            "lat": 12.9830337,
-            "lon": 77.5365274
+            "lat": 12.9830546,
+            "lon": 77.536518
           },
           {
             "name": "Government Hospital",
@@ -9087,11 +9092,6 @@
             "lon": 77.6146819
           },
           {
-            "name": "Railways Hospital",
-            "lat": 12.9798353,
-            "lon": 77.5651105
-          },
-          {
             "name": "Rainbow Children's Hospital",
             "lat": 12.9753078,
             "lon": 77.697834
@@ -9989,7 +9989,7 @@
           {
             "name": "Sri Sathya Sai Institute of Higher Medical Sciences",
             "lat": 12.9808814,
-            "lon": 77.7303132
+            "lon": 77.7303048
           },
           {
             "name": "Sri Shankara Cancer Hospital And Research Centre (A Service Unit Of Sscf)",
@@ -10114,7 +10114,7 @@
           {
             "name": "St. Theresa's Hospital",
             "lat": 13.0067504,
-            "lon": 77.5529489
+            "lon": 77.5529389
           },
           {
             "name": "St.John's Medical College Hospital",
@@ -10288,8 +10288,8 @@
           },
           {
             "name": "Svastha Hospital",
-            "lat": 12.9659234,
-            "lon": 77.7494061
+            "lat": 12.9659169,
+            "lon": 77.749386
           },
           {
             "name": "Swamy Hospital",
@@ -15307,7 +15307,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.473978,
+            "lat": 28.4746541,
             "lon": 77.2158554
           },
           {
@@ -19309,8 +19309,8 @@
           },
           {
             "name": "Apollo Spectra Hospitals",
-            "lat": 18.9703476,
-            "lon": 72.8146181
+            "lat": 18.9703842,
+            "lon": 72.8146155
           },
           {
             "name": "Arihant Eye Care Centre, Borivali",
@@ -19379,8 +19379,8 @@
           },
           {
             "name": "Ashirwad Hospital and Polyclinic",
-            "lat": 19.0521469,
-            "lon": 72.9091445
+            "lat": 19.0521558,
+            "lon": 72.9092518
           },
           {
             "name": "Ashirwad Maternity and Nursing Home",
@@ -19639,8 +19639,8 @@
           },
           {
             "name": "Borivali Surgical Hospital LLP",
-            "lat": 19.2372069,
-            "lon": 72.8619335
+            "lat": 19.2371999,
+            "lon": 72.8620019
           },
           {
             "name": "Borivali West",
@@ -20064,8 +20064,8 @@
           },
           {
             "name": "Dr Gupte Lying-In Surgical Hospital",
-            "lat": 19.0716358,
-            "lon": 72.837663
+            "lat": 19.0716269,
+            "lon": 72.837659
           },
           {
             "name": "Dr Haresh Shah Prabhat Maternity and Surgical Nursing Home",
@@ -20299,8 +20299,8 @@
           },
           {
             "name": "Dr. Muddebihalkar Hospital and Iccu",
-            "lat": 19.1869703,
-            "lon": 72.9538925
+            "lat": 19.186815,
+            "lon": 72.9537385
           },
           {
             "name": "Dr. Nadeem Rais Endocrinologist",
@@ -20698,9 +20698,14 @@
             "lon": 72.8639666
           },
           {
-            "name": "Global Hospital Super Speciality and Transplant Center",
+            "name": "Gleneagles Hospital Super Speciality and Transplant Center",
             "lat": 18.9994432,
             "lon": 72.8405011
+          },
+          {
+            "name": "Global Hospital Super Speciality and Transplant Center",
+            "lat": 18.9994082,
+            "lon": 72.8404522
           },
           {
             "name": "Godrej Memorial Hospital, Mumbai",
@@ -20940,7 +20945,7 @@
           {
             "name": "INHS Asvini Naval Hospital",
             "lat": 18.9002886,
-            "lon": 72.8149353
+            "lon": 72.8149856
           },
           {
             "name": "Icon Hospital and Research Centre",
@@ -21014,8 +21019,8 @@
           },
           {
             "name": "J. J. Hospital",
-            "lat": 18.9638278,
-            "lon": 72.834781
+            "lat": 18.9638574,
+            "lon": 72.8347891
           },
           {
             "name": "J. K. Child Health Care and Nicu",
@@ -21179,8 +21184,8 @@
           },
           {
             "name": "K B H B Charitable Ophthalmic and E.N.T Hospital",
-            "lat": 19.0023334,
-            "lon": 72.8404665
+            "lat": 19.0023454,
+            "lon": 72.840422
           },
           {
             "name": "K B Haji Bachooali Charitable Ophthalmic and E N T H",
@@ -21719,8 +21724,8 @@
           },
           {
             "name": "Masina Hospital",
-            "lat": 18.9746049,
-            "lon": 72.8355792
+            "lat": 18.9746274,
+            "lon": 72.8355699
           },
           {
             "name": "Masoom Child Hospital",
@@ -21803,7 +21808,7 @@
             "lon": 72.9134181
           },
           {
-            "name": "Metro Hospital and Icu",
+            "name": "Metropol Hospital and Icu",
             "lat": 19.2358192,
             "lon": 72.9755159
           },
@@ -22299,8 +22304,8 @@
           },
           {
             "name": "Parekh Eye Hospital",
-            "lat": 19.0554466,
-            "lon": 72.8357264
+            "lat": 19.0554536,
+            "lon": 72.8356392
           },
           {
             "name": "Parel Institute Of Orthopaedic Specialities",
@@ -23259,8 +23264,8 @@
           },
           {
             "name": "Shreedhar Hospital",
-            "lat": 19.0196078,
-            "lon": 72.8337315
+            "lat": 19.0196086,
+            "lon": 72.8337321
           },
           {
             "name": "Shreeji Hospital (Kandivli)",
@@ -23364,8 +23369,8 @@
           },
           {
             "name": "Sir H. N. Hospital & Research Centre;Sir H.N Reliance foundation hospital",
-            "lat": 18.9587707,
-            "lon": 72.8200485
+            "lat": 18.9589651,
+            "lon": 72.8201232
           },
           {
             "name": "Sirvi Medical",
@@ -23674,8 +23679,8 @@
           },
           {
             "name": "Tata Memorial Cancer Hospital",
-            "lat": 19.0056387,
-            "lon": 72.8430619
+            "lat": 19.0056725,
+            "lon": 72.8430551
           },
           {
             "name": "Tata Memorial Hospital",
@@ -23899,8 +23904,8 @@
           },
           {
             "name": "Varad Medical Centre",
-            "lat": 19.0146725,
-            "lon": 72.8275685
+            "lat": 19.0146877,
+            "lon": 72.8274786
           },
           {
             "name": "Vardann Multi Speciality Hospital",
@@ -23979,8 +23984,8 @@
           },
           {
             "name": "Vinayak Maternity and General Hospital",
-            "lat": 19.1946863,
-            "lon": 72.8334036
+            "lat": 19.1946888,
+            "lon": 72.8332024
           },
           {
             "name": "Vinod Sharma Memorial Medical Centre",
@@ -24371,8 +24376,8 @@
           },
           {
             "name": "Hospital Ortopedik ALTY",
-            "lat": 3.1599064,
-            "lon": 101.7226821
+            "lat": 3.1599191,
+            "lon": 101.7226834
           },
           {
             "name": "Hospital Pakar Al-Islam",
@@ -24471,8 +24476,8 @@
           },
           {
             "name": "KPJ Tawakkal KL Specialist Hospital",
-            "lat": 3.1773153,
-            "lon": 101.6986639
+            "lat": 3.1773236,
+            "lon": 101.6986585
           },
           {
             "name": "Kiara Medical Centre",
@@ -24592,7 +24597,7 @@
           {
             "name": "Sunway Medical Centre",
             "lat": 3.0663754,
-            "lon": 101.6085527
+            "lon": 101.6085333
           },
           {
             "name": "Sunway Medical Centre Velocity",
@@ -27785,8 +27790,8 @@
           },
           {
             "name": "해정병원",
-            "lat": 37.5758192,
-            "lon": 126.9849944
+            "lat": 37.5760692,
+            "lon": 126.9852705
           },
           {
             "name": "햇빛여성병원",
@@ -29101,8 +29106,8 @@
           },
           {
             "name": "Lanna Hospital - New Building",
-            "lat": 18.8153754,
-            "lon": 98.9940726
+            "lat": 18.8153686,
+            "lon": 98.9940893
           },
           {
             "name": "Lanna Hospital Extension",
@@ -29201,8 +29206,8 @@
           },
           {
             "name": "โรงพยาบาล เชียงใหม่เมดิคอลเซ็นเตอร์",
-            "lat": 18.780361,
-            "lon": 98.9884613
+            "lat": 18.7803819,
+            "lon": 98.988465
           },
           {
             "name": "โรงพยาบาลกองบิน 41",
@@ -29682,12 +29687,12 @@
           },
           {
             "name": "Acıbadem Kozyatağı Hastanesi",
-            "lat": 40.9766911,
-            "lon": 29.0931138
+            "lat": 40.9766931,
+            "lon": 29.093092
           },
           {
             "name": "Acıbadem Maslak Hastanesi",
-            "lat": 41.1274286,
+            "lat": 41.1273992,
             "lon": 29.0251976
           },
           {
@@ -29906,14 +29911,9 @@
             "lon": 28.9158289
           },
           {
-            "name": "Beykoz Devlet Hastanesi",
-            "lat": 41.1176139,
-            "lon": 29.0982065
-          },
-          {
-            "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Hizmet Birimi",
-            "lat": 41.1106101,
-            "lon": 29.0862362
+            "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Binası",
+            "lat": 41.1106214,
+            "lon": 29.0862207
           },
           {
             "name": "Beykoz Devlet Hastanesi Toplum Ruh Sağlığı Merkezi",
@@ -29942,8 +29942,8 @@
           },
           {
             "name": "Bezmialem Üniversitesi İlhan Varank Yerleşkesi",
-            "lat": 41.0949722,
-            "lon": 28.8647834
+            "lat": 41.0949834,
+            "lon": 28.8648036
           },
           {
             "name": "Biruni Üniversitesi Tıp Fakültesi Hastanesi",
@@ -30557,8 +30557,8 @@
           },
           {
             "name": "Sarıyer İsmail Akgün Devlet Hastanesi",
-            "lat": 41.1694361,
-            "lon": 29.0566989
+            "lat": 41.1694193,
+            "lon": 29.0567119
           },
           {
             "name": "Saygı Hastanesi",
@@ -30572,8 +30572,8 @@
           },
           {
             "name": "Seyrantepe Hamidiye Etfal Eğitim ve Araştırma Hastanesi",
-            "lat": 41.1036745,
-            "lon": 28.9961075
+            "lat": 41.1036639,
+            "lon": 28.996234
           },
           {
             "name": "Sultanbeyli Avrupa Göz Hastanesi",
@@ -30999,6 +30999,11 @@
             "name": "İlgi Hastanesi",
             "lat": 41.0209094,
             "lon": 28.8666912
+          },
+          {
+            "name": "İstanbul Beykoz (Paşabahçe) Devlet Hastanesi",
+            "lat": 41.1176714,
+            "lon": 29.0981565
           },
           {
             "name": "İstanbul Bezmialem Vakıf Üniversitesi Valide Sultan Gureba Hastanesi",
