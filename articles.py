@@ -323,12 +323,122 @@ def block_pharmacy_cm(_topic):
 def block_festivals_window(_topic):
     f = jread(MOT / "festival_dates.json")
     rows = [r for r in f.get("rows", []) if r.get("status") == "announced"]
+    if not rows:
+        return (f"*No festival dates are officially announced right now ({f.get('generated', TODAY)}). "
+                f"When organizers publish, the confirmed dates appear here automatically — "
+                f"the fixed national holidays above never move.*")
     out = ["| Festival | Announced dates |", "|---|---|"]
     for r in rows[:10]:
         out.append(f"| {r.get('en') or r.get('name')} | {r.get('when') or r.get('date') or ''} |")
     out.append(f"\n*Announced dates only, each traced to an official source — "
                f"from the household festival canon, {f.get('generated', TODAY)}.*")
     return "\n".join(out)
+
+
+# Fixed-date national holidays that move hospital calendars. Lunar observances
+# shift year to year and ride in via the announced-dates block instead.
+THAI_HOLIDAYS = [
+    ("Jan 1", "New Year's Day", "Elective clinics thin; ERs normal"),
+    ("Apr 13–15", "Songkran (Thai New Year)", "The big one — elective slates pause, travel peaks, water everywhere"),
+    ("May 1", "Labour Day", "Private-sector holiday; hospital OPD mostly normal"),
+    ("May 4", "Coronation Day", "Government offices closed; visa desks too"),
+    ("Jun 3", "Queen Suthida's Birthday", "Public holiday"),
+    ("Jul 28", "King's Birthday", "Public holiday"),
+    ("Aug 12", "Mother's Day (Queen Sirikit's Birthday)", "Public holiday"),
+    ("Oct 13", "King Bhumibol Memorial Day", "Public holiday"),
+    ("Oct 23", "Chulalongkorn Day", "Public holiday"),
+    ("Dec 5", "Father's Day (King Bhumibol's Birthday)", "Public holiday"),
+    ("Dec 10", "Constitution Day", "Public holiday"),
+    ("Dec 31", "New Year's Eve", "Travel peaks; book transport early"),
+]
+
+
+def block_thai_holidays(_topic):
+    lines = ["| Date | Holiday | What it means for a medical trip |", "|---|---|---|"]
+    for d, name, note in THAI_HOLIDAYS:
+        lines.append(f"| **{d}** | {name} | {note} |")
+    lines.append("\n*Fixed-date national holidays. Buddhist observances (Makha Bucha, "
+                 "Visakha Bucha, Asalha Bucha, Loy Krathong / Yi Peng) follow the lunar "
+                 f"calendar — announced dates appear below when official. Verified {TODAY}.*")
+    return "\n".join(lines)
+
+
+def _dist_rows(items, n=8):
+    """Nearest-N table rows for bare directory items ({name, lat, lon/lng})."""
+    rows = []
+    for p in items:
+        lat, lon = p.get("lat"), p.get("lon", p.get("lng"))
+        if isinstance(lat, (int, float)) and isinstance(lon, (int, float)) \
+                and 18.55 <= lat <= 19.15 and 98.75 <= lon <= 99.25:
+            rows.append((_km(lat, lon), p))
+    rows.sort(key=lambda x: x[0])
+    return rows[:n]
+
+
+def _directory_cat(name):
+    d = jread(ROOT / "directory_public.json")
+    return d.get("categories", {}).get(name, {})
+
+
+def block_rehab_cm(_topic):
+    cat = _directory_cat("rehab")
+    rows = _dist_rows(cat.get("items", []), n=10)
+    lines = [f"**{cat.get('count', 0)} rehabilitation and physical-therapy facilities** are on "
+             f"Defiant's mapped directory. The closest to Tha Phae Gate:", "",
+             "| Clinic | From Tha Phae Gate |", "|---|---|"]
+    for km, p in rows:
+        lines.append(f"| {_s(p, 'name', 'name_en') or '(unnamed on the map)'} | ~{km:.1f} km |")
+    lines.append(f"\n*From Defiant's nightly OpenStreetMap refresh, straight-line distances, {TODAY}. "
+                 f"Hospital physio departments ride on [the hospital guide](/articles/chiang-mai-hospitals/).*")
+    return "\n".join(lines)
+
+
+def block_geriatric_cm(_topic):
+    cat = _directory_cat("geriatric")
+    rows = _dist_rows(cat.get("items", []), n=11)
+    lines = [f"**{cat.get('count', 0)} senior-care and geriatric facilities** sit on Defiant's mapped "
+             f"directory around Chiang Mai:", "", "| Facility | From Tha Phae Gate |", "|---|---|"]
+    for km, p in rows:
+        lines.append(f"| {_s(p, 'name', 'name_en') or '(unnamed on the map)'} | ~{km:.1f} km |")
+    lines.append(f"\n*From Defiant's nightly OpenStreetMap refresh, {TODAY}. Distance matters twice "
+                 f"here — for the family visit, and for the [hospital run](/articles/chiang-mai-hospitals/).*")
+    return "\n".join(lines)
+
+
+def block_womens_health_cm(_topic):
+    g = jread(PROJECTS / "cm-womens-health" / "dist" / "cm-womens-health.geojson")
+    feats = g.get("features", [])
+    pts = []
+    for f in feats:
+        p = f.get("properties", {})
+        if isinstance(p.get("lat"), (int, float)):
+            pts.append(p)
+    near = sorted(pts, key=lambda p: _km(p["lat"], p["lng"]))[:8]
+    lines = [f"**{len(feats)} women's-health facilities** are mapped across Chiang Mai in the "
+             f"household's dedicated dataset — OB-GYN clinics, hospital women's centers, "
+             f"fertility and screening services. The nearest to the old city:", "",
+             "| Facility | From Tha Phae Gate |", "|---|---|"]
+    for p in near:
+        name = _s(p, "nameEn", "name")
+        th = _s(p, "nameTh")
+        th_bit = f" ({th})" if th and th != name else ""
+        lines.append(f"| **{name}**{th_bit} | ~{_km(p['lat'], p['lng']):.1f} km |")
+    lines.append(f"\n*From the household's Chiang Mai women's-health dataset, refreshed {TODAY}. "
+                 f"A missing clinic is a [fixable report](/contact/).*")
+    return "\n".join(lines)
+
+
+def block_dental_prices(_topic):
+    from defiant_content import PROCEDURES
+    lines = ["| Procedure | United States | Thailand | Trip shape |", "|---|---|---|---|"]
+    for name, d in PROCEDURES.items():
+        if d.get("cat") == "Dental":
+            slug_ = slug(name)
+            lines.append(f"| [{name}](/procedures/{slug_}/) | {d['us']} | **{d['th']}** | {d.get('stay', '')} |")
+    lines.append(f"\n*Defiant's standing indicative ranges — 2026 published-aggregator figures, "
+                 f"every quote confirmed in writing at intake. Full detail on "
+                 f"[[=Procedures|the procedure pages]]. Verified {TODAY}.*")
+    return "\n".join(lines)
 
 
 def block_articles_hub(_topic):
@@ -365,6 +475,11 @@ BLOCKS = {
     "massage-cm": block_massage_cm,
     "pharmacy-cm": block_pharmacy_cm,
     "festivals-window": block_festivals_window,
+    "thai-holidays": block_thai_holidays,
+    "rehab-cm": block_rehab_cm,
+    "geriatric-cm": block_geriatric_cm,
+    "womens-health-cm": block_womens_health_cm,
+    "dental-prices": block_dental_prices,
 }
 
 

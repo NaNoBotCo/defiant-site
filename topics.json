@@ -131,11 +131,12 @@
       "intent": "transactional",
       "title": "Dental Implants in Thailand: Real Prices, Real Timelines",
       "desc": "What dental implants cost in Thailand in 2026 — the spread, the two-trip timeline, brand names, and how quotes get confirmed in writing before you fly.",
-      "status": "idea",
+      "status": "drafted",
       "card_stat": "-70%",
       "card_stat_label": "vs. quoted US implant prices, indicative 2026",
       "card_hook": "The spread, the timeline, and the questions that keep it real.",
       "blocks": [
+        "dental-prices",
         "fx-line"
       ],
       "refresh_days": 90
@@ -152,7 +153,7 @@
       "intent": "transactional",
       "title": "Health Checkup Packages in Chiang Mai: What ฿ Buys You",
       "desc": "Annual physicals and full checkup packages at Chiang Mai's private hospitals — what each tier includes, indicative prices, and how to book without a runaround.",
-      "status": "idea",
+      "status": "drafted",
       "card_stat": "1 day",
       "card_stat_label": "full results, same-week readout",
       "card_hook": "Tiers, inclusions, indicative prices — booked in one email.",
@@ -174,13 +175,13 @@
       "intent": "informational",
       "title": "The Festival Calendar That Should Schedule Your Surgery",
       "desc": "Thai festivals move hospital calendars: what slows during Songkran and Yi Peng, what never closes, and the announced dates to plan a smooth medical trip around.",
-      "status": "idea",
+      "status": "drafted",
       "card_stat": "33",
       "card_stat_label": "festivals on the canon calendar",
       "card_hook": "Plan the trip the calendar already wrote.",
       "blocks": [
-        "festivals-window",
-        "fx-line"
+        "thai-holidays",
+        "festivals-window"
       ],
       "refresh_days": 30
     },
@@ -194,13 +195,14 @@
       ],
       "competition": "medium",
       "intent": "commercial",
-      "title": "Physical Therapy in Chiang Mai: Rehab at Rates You Can Repeat",
-      "desc": "Session-rate physiotherapy in Chiang Mai — mapped clinics, what a session costs, and how surgery-plus-rehab trips get sequenced.",
-      "status": "idea",
-      "card_stat": "฿-first",
-      "card_stat_label": "session rates posted, not gatekept",
-      "card_hook": "Rehab you can afford to finish.",
+      "title": "Physical Therapy in Chiang Mai: The Clinic Map and the Session Math",
+      "desc": "Physiotherapy in Chiang Mai by the numbers — mapped rehab clinics, what a session costs, how many you'll need, and how surgery-plus-rehab trips get sequenced.",
+      "status": "drafted",
+      "card_stat": "15",
+      "card_stat_label": "rehab and physio facilities mapped in Chiang Mai",
+      "card_hook": "The clinic map and the session math — rehab you can finish.",
       "blocks": [
+        "rehab-cm",
         "fx-line"
       ],
       "refresh_days": 90
@@ -208,20 +210,22 @@
     {
       "slug": "senior-care-chiang-mai",
       "note": "Senior Care Options in Chiang Mai",
-      "keyword": "assisted living chiang mai",
+      "keyword": "how to choose nursing home chiang mai",
       "alt_keywords": [
-        "retirement care thailand",
-        "dementia care chiang mai cost"
+        "visiting senior care thailand",
+        "vetting assisted living chiang mai",
+        "dementia care questions to ask"
       ],
       "competition": "medium",
       "intent": "commercial",
-      "title": "Senior Care in Chiang Mai: The Options, Priced in Daylight",
-      "desc": "Assisted living and long-stay senior care around Chiang Mai — the mapped facilities, indicative monthly rates, and the questions families ask too late.",
-      "status": "idea",
-      "card_stat": "24h",
-      "card_stat_label": "staffed care at Chiang Mai monthly rates",
-      "card_hook": "The options, priced in daylight.",
+      "title": "Choosing Senior Care in Chiang Mai: The Vetting Visit, Step by Step",
+      "desc": "How families choose well in Chiang Mai — the mapped senior-care facilities, the walk-through checklist, and the questions that make good homes shine.",
+      "status": "drafted",
+      "card_stat": "11",
+      "card_stat_label": "senior-care facilities mapped around Chiang Mai",
+      "card_hook": "The walk-through checklist families wish they'd carried.",
       "blocks": [
+        "geriatric-cm",
         "fx-line"
       ],
       "refresh_days": 90
@@ -229,19 +233,20 @@
     {
       "slug": "dtv-medical-runs",
       "note": "Using the DTV for Medical Trips",
-      "keyword": "dtv visa thailand medical",
+      "keyword": "medical tourism follow up care",
       "alt_keywords": [
-        "destination thailand visa treatment",
-        "medical visa thailand"
+        "dental implant second trip thailand",
+        "dtv visa return visits",
+        "aftercare medical tourism"
       ],
       "competition": "medium",
       "intent": "informational",
-      "title": "The DTV as a Medical Visa: Five Years of Coming Back",
-      "desc": "How the Destination Thailand Visa works for treatment trips — the medical activity category, stay math, and sequencing follow-ups across visits.",
-      "status": "idea",
+      "title": "Return Trips, Done Right: Follow-Up Care and the DTV Rhythm",
+      "desc": "Real treatment calendars need return trips — implants, orthodontics, surveillance scans. How follow-up care works across borders, and how the DTV makes the rhythm easy.",
+      "status": "drafted",
       "card_stat": "5 yrs",
-      "card_stat_label": "multi-entry runway for treatment and follow-ups",
-      "card_hook": "One visa, every follow-up visit.",
+      "card_stat_label": "of return trips on one DTV — the follow-up visa",
+      "card_hook": "Treatment calendars, records that travel, and the visa rhythm.",
       "blocks": [
         "fx-line"
       ],
@@ -259,11 +264,12 @@
       "intent": "commercial",
       "title": "Women's Health in Chiang Mai: Mapped, Phoned, and Priced",
       "desc": "Gynecology, screening, and women's clinics across Chiang Mai — the mapped facilities, who answers in English, and what routine visits cost.",
-      "status": "idea",
+      "status": "drafted",
       "card_stat": "258",
       "card_stat_label": "women's health facilities mapped in Chiang Mai",
       "card_hook": "Mapped, phoned, priced — care without the scavenger hunt.",
       "blocks": [
+        "womens-health-cm",
         "fx-line"
       ],
       "refresh_days": 60
