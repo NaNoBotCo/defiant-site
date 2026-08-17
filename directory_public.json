@@ -5339,8 +5339,8 @@
         "San José": [
           {
             "name": "Banco Nacional de Sangre",
-            "lat": 9.9194725,
-            "lon": -84.0535134
+            "lat": 9.9194757,
+            "lon": -84.0535239
           },
           {
             "name": "Centro Medico Familiar",
@@ -5360,7 +5360,7 @@
           {
             "name": "Centro de Desarrollo Social Dr. Guillermo Padilla Castro",
             "lat": 9.9225293,
-            "lon": -84.0699756
+            "lon": -84.0699685
           },
           {
             "name": "Clínica CCSS Alajuelita",
@@ -24376,8 +24376,8 @@
           },
           {
             "name": "Hospital Ortopedik ALTY",
-            "lat": 3.1599191,
-            "lon": 101.7226834
+            "lat": 3.1599064,
+            "lon": 101.7226821
           },
           {
             "name": "Hospital Pakar Al-Islam",
@@ -24476,8 +24476,8 @@
           },
           {
             "name": "KPJ Tawakkal KL Specialist Hospital",
-            "lat": 3.1773236,
-            "lon": 101.6986585
+            "lat": 3.1773153,
+            "lon": 101.6986639
           },
           {
             "name": "Kiara Medical Centre",
@@ -24597,7 +24597,7 @@
           {
             "name": "Sunway Medical Centre",
             "lat": 3.0663754,
-            "lon": 101.6085333
+            "lon": 101.6085527
           },
           {
             "name": "Sunway Medical Centre Velocity",
@@ -25112,8 +25112,8 @@
           },
           {
             "name": "Hospital CAMI",
-            "lat": 19.4239068,
-            "lon": -99.1050215
+            "lat": 19.4240166,
+            "lon": -99.1051123
           },
           {
             "name": "Hospital Cardiologia",
@@ -25512,8 +25512,8 @@
           },
           {
             "name": "Hospital Star Médica Tlalnepantla",
-            "lat": 19.5372169,
-            "lon": -99.20505
+            "lat": 19.5371979,
+            "lon": -99.2049885
           },
           {
             "name": "Hospital Tehuantepec",
@@ -26367,7 +26367,7 @@
             "lon": 103.7229451
           },
           {
-            "name": "Woodlands Health Campus",
+            "name": "Woodlands Hospital",
             "lat": 1.424561,
             "lon": 103.7945949
           },
@@ -27867,7 +27867,7 @@
           },
           {
             "name": "Capio Hospital Universitari Sagrat Cor",
-            "lat": 41.3889427,
+            "lat": 41.3889465,
             "lon": 2.1456033
           },
           {
@@ -27937,8 +27937,8 @@
           },
           {
             "name": "Hospital Clínic de Barcelona. Seu Plató",
-            "lat": 41.401314,
-            "lon": 2.1422817
+            "lat": 41.4013125,
+            "lon": 2.1422688
           },
           {
             "name": "Hospital Duran i Reynals",
@@ -28728,6 +28728,11 @@
             "lon": 100.5191274
           },
           {
+            "name": "โรงพยาบาลมิตรประชา",
+            "lat": 13.711638,
+            "lon": 100.4318286
+          },
+          {
             "name": "โรงพยาบาลมิตรภาพ",
             "lat": 13.7284992,
             "lon": 100.4945505
@@ -28993,11 +28998,6 @@
             "lon": 100.5123052
           },
           {
-            "name": "โรงพยาบาลเพชรเกษม 2",
-            "lat": 13.7118679,
-            "lon": 100.431882
-          },
-          {
             "name": "โรงพยาบาลเมดพาร์ค",
             "lat": 13.7217239,
             "lon": 100.5566062
@@ -29023,7 +29023,7 @@
             "lon": 100.5177517
           },
           {
-            "name": "โรงพยาบาลเวชธานี",
+            "name": "โรงพยาบาลเวชธานี อินเตอร์เนชันแนล",
             "lat": 13.7721804,
             "lon": 100.6369087
           },
@@ -29106,8 +29106,8 @@
           },
           {
             "name": "Lanna Hospital - New Building",
-            "lat": 18.8153686,
-            "lon": 98.9940893
+            "lat": 18.8153754,
+            "lon": 98.9940726
           },
           {
             "name": "Lanna Hospital Extension",
@@ -29206,8 +29206,8 @@
           },
           {
             "name": "โรงพยาบาล เชียงใหม่เมดิคอลเซ็นเตอร์",
-            "lat": 18.7803819,
-            "lon": 98.988465
+            "lat": 18.780361,
+            "lon": 98.9884613
           },
           {
             "name": "โรงพยาบาลกองบิน 41",
@@ -29687,8 +29687,8 @@
           },
           {
             "name": "Acıbadem Kozyatağı Hastanesi",
-            "lat": 40.9766931,
-            "lon": 29.093092
+            "lat": 40.9766754,
+            "lon": 29.0930673
           },
           {
             "name": "Acıbadem Maslak Hastanesi",
@@ -29962,8 +29962,8 @@
           },
           {
             "name": "Central Hospital",
-            "lat": 40.9659101,
-            "lon": 29.1002119
+            "lat": 40.9659307,
+            "lon": 29.1003003
           },
           {
             "name": "Cerrahpaşa Tıp Fakültesi",
@@ -30702,8 +30702,8 @@
           },
           {
             "name": "Yeşilköy Prof. Dr. Murat Dilmener Acil Durum Hastanesi",
-            "lat": 40.9702444,
-            "lon": 28.8081552
+            "lat": 40.9702946,
+            "lon": 28.8081522
           },
           {
             "name": "Zeynep Kamil Kadın Ve Çocuk Hastalıkları Eğitim Ve Araştırma Hastanesi",
