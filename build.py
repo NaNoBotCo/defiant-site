@@ -203,6 +203,23 @@ def collect_notes():
     flags = ART / "Various LGBTQIA+ Community Flags and their meanings.md"
     if flags.exists():
         add(flags, "/articles/community-flags/")
+    # The article engine (articles.py + topics.json): every loose note in
+    # Articles/ becomes /articles/<slug>/. topics.json may pin a custom slug;
+    # scaffold drafts carry a "prose pending" line and are skipped until real.
+    art_slugs = {}
+    topics_file = ROOT / "topics.json"
+    if topics_file.exists():
+        for t in json.loads(topics_file.read_text())["topics"]:
+            art_slugs[t["note"]] = t["slug"]
+    hub = PUB / "=Articles.md"
+    if hub.exists():
+        add(hub, "/articles/")
+    for p in sorted(ART.glob("*.md")):
+        if p == flags:
+            continue
+        if "prose pending" in p.read_text():
+            continue
+        add(p, f"/articles/{art_slugs.get(p.stem, slug(p.stem))}/")
     for sub, prefix in [("Procedures", "/procedures/"), ("Hospitals", "/hospitals/"),
                         ("Destinations", "/destinations/")]:
         d = ART / sub
@@ -800,6 +817,7 @@ DRAWER = (
     '<a class="d-item" href="/procedures/">Prices</a>'
     '<a class="d-item" href="/concierge/">Concierge</a>'
     '<a class="d-item" href="/hospitals/">Hospitals</a>'
+    '<a class="d-item" href="/articles/">Guides</a>'
     '<a class="d-item" href="/recourse/">How you\'re protected</a>'
     '<a class="d-item d-th" href="/th/" lang="th">ไทย <span aria-hidden="true">🇹🇭</span></a>'
     '<a class="d-item d-cta" href="/contact/" aria-label="Book a free intake call">Blink Twice</a>'

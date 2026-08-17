@@ -191,6 +191,32 @@ def render_generic(slug, eyebrow, title, subtitle):
     img.save(CARDS / f"{slug}.png", "PNG")
 
 
+def render_stat(slug, title, stat, stat_label, hook):
+    """Article card — the number IS the marketing. Big stat in a highlighter
+    box, the claim beside it, title up top, hook at the foot."""
+    img = Image.new("RGB", (W, H), PAPER)
+    d = ImageDraw.Draw(img)
+    base(d)
+    y = title_block(d, "FIELD GUIDE — CHIANG MAI", title, y=150, max_lines=2, top=88)
+    sy = max(y + 30, 330)
+    sf = font(IMPACT, 150)
+    tw = d.textlength(stat, font=sf)
+    d.rectangle([49, sy - 10, 49 + tw + 60, sy + 160], fill=MARK, outline=INK, width=5)
+    d.text((79, sy), stat, font=sf, fill=INK)
+    lx = 49 + tw + 100
+    lf = font(MENLO, 30, index=1)
+    ly = sy + 18
+    for ln in wrap(d, stat_label, lf, W - lx - 60)[:3]:
+        d.text((lx, ly), ln, font=lf, fill=INK)
+        ly += 42
+    hf = font(MENLO, 26)
+    hy = sy + 186
+    for ln in wrap(d, hook, hf, W - 130)[:1]:
+        d.text((65, hy), ln, font=hf, fill=GREY)
+    footer(d)
+    img.save(CARDS / f"{slug}.png", "PNG")
+
+
 def render_thai(slug):
     """LINE-native card for the Thai B2B page: Kham Mueang headline + a scannable QR
     + the LINE ID in brand green. Thais share on LINE and scan QRs — build for that."""
@@ -227,10 +253,26 @@ def card_slug(route):
     return route.strip("/").replace("/", "-") or "home"
 
 
+import json as _json
+
+_TOPICS_BY_ROUTE = {}
+try:
+    for _t in _json.loads((ROOT / "topics.json").read_text())["topics"]:
+        _TOPICS_BY_ROUTE[f"/articles/{_t['slug']}/"] = _t
+except Exception:
+    pass
+
+
 def build_one(route, name, meta):
     slug = card_slug(route)
     t = meta.get("type", "")
     nm = name.lstrip("=")
+    topic = _TOPICS_BY_ROUTE.get(route)
+    if topic and topic.get("card_stat"):
+        title = (meta.get("title", nm)).split(" — ")[0].split(" | ")[0]
+        render_stat(slug, title, topic["card_stat"], topic.get("card_stat_label", ""),
+                    topic.get("card_hook", ""))
+        return
     if route == "/th/" or t == "b2b":
         render_thai(slug)
     elif route == "/":

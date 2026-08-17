@@ -1,0 +1,272 @@
+{
+  "_doc": "Defiant article engine registry. One entry per target keyword. articles.py reads this; topics never overwrite prose — only <!-- defiant:auto:* --> blocks refresh. Titles stay auspicious (standing brand rule). status: idea → drafted → live.",
+  "topics": [
+    {
+      "slug": "chiang-mai-hospitals",
+      "note": "Chiang Mai Hospitals for Foreigners",
+      "keyword": "chiang mai hospital for foreigners",
+      "alt_keywords": [
+        "best hospital chiang mai",
+        "chiang mai private hospital",
+        "english speaking hospital chiang mai"
+      ],
+      "competition": "high",
+      "intent": "commercial",
+      "title": "Chiang Mai Hospitals for Foreigners: The Working Guide",
+      "desc": "Every private hospital a foreigner actually uses in Chiang Mai — ER phone numbers, landmarks, what each is good at, and live air quality. Kept current.",
+      "status": "drafted",
+      "card_stat": "24/7",
+      "card_stat_label": "ER phone numbers that answer in English",
+      "card_hook": "Every hospital foreigners use in Chiang Mai — mapped, phoned, kept current.",
+      "blocks": [
+        "hospitals-cm",
+        "air-strip",
+        "fx-line"
+      ],
+      "refresh_days": 30
+    },
+    {
+      "slug": "burning-season",
+      "note": "Burning Season in Chiang Mai",
+      "keyword": "chiang mai burning season",
+      "alt_keywords": [
+        "chiang mai air quality",
+        "chiang mai pm2.5",
+        "when is burning season chiang mai"
+      ],
+      "competition": "high",
+      "intent": "informational",
+      "title": "Burning Season in Chiang Mai: Dates, Numbers, and the Clean-Air Playbook",
+      "desc": "When burning season starts and ends in Chiang Mai, today's PM2.5 reading, and the playbook locals use — masks, purifiers, clinics, and when to schedule medical travel.",
+      "status": "drafted",
+      "card_stat": "LIVE",
+      "card_stat_label": "PM2.5 for Chiang Mai on the page right now",
+      "card_hook": "Dates, live PM2.5, and the playbook — not panic, a plan.",
+      "blocks": [
+        "air-strip",
+        "air-history",
+        "fx-line"
+      ],
+      "refresh_days": 7
+    },
+    {
+      "slug": "massage-chiang-mai",
+      "note": "Massage in Chiang Mai",
+      "keyword": "massage chiang mai",
+      "alt_keywords": [
+        "best massage chiang mai",
+        "thai massage chiang mai price",
+        "chiang mai spa"
+      ],
+      "competition": "high",
+      "intent": "commercial",
+      "title": "Massage in Chiang Mai: 294 Shops, Sorted by a Local",
+      "desc": "Thai massage in Chiang Mai without the guesswork — 294 mapped shops, posted rates, every massage type in Thai and English, and the etiquette nobody writes down.",
+      "status": "drafted",
+      "card_stat": "294",
+      "card_stat_label": "massage shops mapped in Chiang Mai",
+      "card_hook": "Every type explained, posted rates, sorted by neighborhood.",
+      "blocks": [
+        "massage-cm",
+        "fx-line"
+      ],
+      "refresh_days": 45
+    },
+    {
+      "slug": "thailand-emergency-numbers",
+      "note": "Thailand Emergency Numbers",
+      "keyword": "thailand emergency number",
+      "alt_keywords": [
+        "ambulance thailand",
+        "emergency number chiang mai",
+        "tourist police thailand"
+      ],
+      "competition": "medium",
+      "intent": "informational",
+      "title": "Thailand Emergency Numbers: The One-Page Card That Works",
+      "desc": "1669 is the ambulance. 1155 is the tourist police who answer in English. The full card — national numbers, Chiang Mai ER phones, and the Thai phrases that get help moving.",
+      "status": "drafted",
+      "card_stat": "1669",
+      "card_stat_label": "the number that sends an ambulance anywhere in Thailand",
+      "card_hook": "Save this card before you need it. Numbers, ERs, phrases.",
+      "blocks": [
+        "er-numbers",
+        "er-cm-table"
+      ],
+      "refresh_days": 90
+    },
+    {
+      "slug": "pharmacies-chiang-mai",
+      "note": "Pharmacies in Chiang Mai",
+      "keyword": "pharmacy chiang mai",
+      "alt_keywords": [
+        "24 hour pharmacy chiang mai",
+        "what can you buy at thai pharmacy",
+        "prescription thailand"
+      ],
+      "competition": "medium",
+      "intent": "commercial",
+      "title": "Pharmacies in Chiang Mai: What You Can Buy, and Where, at 2 a.m.",
+      "desc": "How Thai pharmacies work for foreigners — what's over the counter, what needs a prescription, posted prices, and the mapped Chiang Mai pharmacies foreigners rely on.",
+      "status": "drafted",
+      "card_stat": "OTC",
+      "card_stat_label": "most meds, posted prices, pharmacist on duty",
+      "card_hook": "What the green cross gets you — and what still needs a doctor.",
+      "blocks": [
+        "pharmacy-cm",
+        "fx-line"
+      ],
+      "refresh_days": 60
+    },
+    {
+      "slug": "dental-implants-thailand-cost",
+      "note": "Dental Implants in Thailand",
+      "keyword": "dental implants thailand cost",
+      "alt_keywords": [
+        "thailand dental prices",
+        "veneers thailand",
+        "dental work chiang mai"
+      ],
+      "competition": "high",
+      "intent": "transactional",
+      "title": "Dental Implants in Thailand: Real Prices, Real Timelines",
+      "desc": "What dental implants cost in Thailand in 2026 — the spread, the two-trip timeline, brand names, and how quotes get confirmed in writing before you fly.",
+      "status": "idea",
+      "card_stat": "-70%",
+      "card_stat_label": "vs. quoted US implant prices, indicative 2026",
+      "card_hook": "The spread, the timeline, and the questions that keep it real.",
+      "blocks": [
+        "fx-line"
+      ],
+      "refresh_days": 90
+    },
+    {
+      "slug": "health-checkup-chiang-mai",
+      "note": "Health Checkup Packages in Chiang Mai",
+      "keyword": "health checkup package chiang mai",
+      "alt_keywords": [
+        "full body checkup thailand price",
+        "annual physical chiang mai"
+      ],
+      "competition": "medium",
+      "intent": "transactional",
+      "title": "Health Checkup Packages in Chiang Mai: What ฿ Buys You",
+      "desc": "Annual physicals and full checkup packages at Chiang Mai's private hospitals — what each tier includes, indicative prices, and how to book without a runaround.",
+      "status": "idea",
+      "card_stat": "1 day",
+      "card_stat_label": "full results, same-week readout",
+      "card_hook": "Tiers, inclusions, indicative prices — booked in one email.",
+      "blocks": [
+        "hospitals-cm",
+        "fx-line"
+      ],
+      "refresh_days": 90
+    },
+    {
+      "slug": "songkran-medical-timing",
+      "note": "Scheduling Medical Travel Around Thai Festivals",
+      "keyword": "songkran dates thailand",
+      "alt_keywords": [
+        "thai holidays hospital closed",
+        "best time medical tourism thailand"
+      ],
+      "competition": "medium",
+      "intent": "informational",
+      "title": "The Festival Calendar That Should Schedule Your Surgery",
+      "desc": "Thai festivals move hospital calendars: what slows during Songkran and Yi Peng, what never closes, and the announced dates to plan a smooth medical trip around.",
+      "status": "idea",
+      "card_stat": "33",
+      "card_stat_label": "festivals on the canon calendar",
+      "card_hook": "Plan the trip the calendar already wrote.",
+      "blocks": [
+        "festivals-window",
+        "fx-line"
+      ],
+      "refresh_days": 30
+    },
+    {
+      "slug": "physiotherapy-chiang-mai",
+      "note": "Physical Therapy in Chiang Mai",
+      "keyword": "physiotherapy chiang mai",
+      "alt_keywords": [
+        "physical therapy thailand cost",
+        "rehab chiang mai"
+      ],
+      "competition": "medium",
+      "intent": "commercial",
+      "title": "Physical Therapy in Chiang Mai: Rehab at Rates You Can Repeat",
+      "desc": "Session-rate physiotherapy in Chiang Mai — mapped clinics, what a session costs, and how surgery-plus-rehab trips get sequenced.",
+      "status": "idea",
+      "card_stat": "฿-first",
+      "card_stat_label": "session rates posted, not gatekept",
+      "card_hook": "Rehab you can afford to finish.",
+      "blocks": [
+        "fx-line"
+      ],
+      "refresh_days": 90
+    },
+    {
+      "slug": "senior-care-chiang-mai",
+      "note": "Senior Care Options in Chiang Mai",
+      "keyword": "assisted living chiang mai",
+      "alt_keywords": [
+        "retirement care thailand",
+        "dementia care chiang mai cost"
+      ],
+      "competition": "medium",
+      "intent": "commercial",
+      "title": "Senior Care in Chiang Mai: The Options, Priced in Daylight",
+      "desc": "Assisted living and long-stay senior care around Chiang Mai — the mapped facilities, indicative monthly rates, and the questions families ask too late.",
+      "status": "idea",
+      "card_stat": "24h",
+      "card_stat_label": "staffed care at Chiang Mai monthly rates",
+      "card_hook": "The options, priced in daylight.",
+      "blocks": [
+        "fx-line"
+      ],
+      "refresh_days": 90
+    },
+    {
+      "slug": "dtv-medical-runs",
+      "note": "Using the DTV for Medical Trips",
+      "keyword": "dtv visa thailand medical",
+      "alt_keywords": [
+        "destination thailand visa treatment",
+        "medical visa thailand"
+      ],
+      "competition": "medium",
+      "intent": "informational",
+      "title": "The DTV as a Medical Visa: Five Years of Coming Back",
+      "desc": "How the Destination Thailand Visa works for treatment trips — the medical activity category, stay math, and sequencing follow-ups across visits.",
+      "status": "idea",
+      "card_stat": "5 yrs",
+      "card_stat_label": "multi-entry runway for treatment and follow-ups",
+      "card_hook": "One visa, every follow-up visit.",
+      "blocks": [
+        "fx-line"
+      ],
+      "refresh_days": 90
+    },
+    {
+      "slug": "womens-health-chiang-mai",
+      "note": "Womens Health Care in Chiang Mai",
+      "keyword": "gynecologist chiang mai",
+      "alt_keywords": [
+        "womens clinic chiang mai",
+        "obgyn chiang mai english"
+      ],
+      "competition": "medium",
+      "intent": "commercial",
+      "title": "Women's Health in Chiang Mai: Mapped, Phoned, and Priced",
+      "desc": "Gynecology, screening, and women's clinics across Chiang Mai — the mapped facilities, who answers in English, and what routine visits cost.",
+      "status": "idea",
+      "card_stat": "258",
+      "card_stat_label": "women's health facilities mapped in Chiang Mai",
+      "card_hook": "Mapped, phoned, priced — care without the scavenger hunt.",
+      "blocks": [
+        "fx-line"
+      ],
+      "refresh_days": 60
+    }
+  ]
+}
