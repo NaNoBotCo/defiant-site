@@ -32,7 +32,7 @@ fi
 
 # The QA gate decides whether tonight's build goes out the door.
 if python3 articles.py qa >> "$LOG" 2>&1; then
-  if /bin/zsh "$MIRROR/deploy.sh" defiant >> "$LOG" 2>&1
+  if /bin/bash "$MIRROR/deploy.sh" defiant >> "$LOG" 2>&1
   then echo "  deployed ✓ (Cloudflare Pages)" >> "$LOG"
   else echo "  DEPLOY FAILED" >> "$LOG"; fi
 else

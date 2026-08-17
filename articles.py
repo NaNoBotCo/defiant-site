@@ -613,7 +613,7 @@ def ship(deploy=True):
         return 1
     if deploy:
         lane = PROJECTS / "cloudflare-mirror" / "deploy.sh"
-        return run(["/bin/zsh", str(lane), "defiant"], cwd=lane.parent)
+        return run(["/bin/bash", str(lane), "defiant"], cwd=lane.parent)
     return 0
 
 
