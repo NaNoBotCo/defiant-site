@@ -5675,7 +5675,7 @@
             "lon": 19.1036918
           },
           {
-            "name": "Kútvölgyi Klinika",
+            "name": "Kútvölgyi Kórház",
             "lat": 47.5109269,
             "lon": 19.0052041
           },
@@ -5693,11 +5693,6 @@
             "name": "Madarász Utcai Gyermekkórház Szakrendelő",
             "lat": 47.5484124,
             "lon": 19.0785067
-          },
-          {
-            "name": "Magyar Honvédség Egészségügyi Központ",
-            "lat": 47.5307038,
-            "lon": 19.0727558
           },
           {
             "name": "Manninger Jenő Országos Traumatológiai Intézet",
@@ -5910,9 +5905,14 @@
             "lon": 19.0132429
           },
           {
+            "name": "Észak-Pesti Centrumkórház - Honvédkórház",
+            "lat": 47.5307017,
+            "lon": 19.0727241
+          },
+          {
             "name": "Újpesti Szakorvosi Rendelőintézet",
-            "lat": 47.5656122,
-            "lon": 19.1005185
+            "lat": 47.5656077,
+            "lon": 19.1005111
           }
         ]
       }
@@ -6073,8 +6073,8 @@
           },
           {
             "name": "Amrik Hospital",
-            "lat": 12.9828993,
-            "lon": 77.7478126
+            "lat": 12.9829065,
+            "lon": 77.7478025
           },
           {
             "name": "Amrutha Healthcare",
@@ -6778,8 +6778,8 @@
           },
           {
             "name": "Command Hospital (Air Force)",
-            "lat": 12.9638769,
-            "lon": 77.627935
+            "lat": 12.9638649,
+            "lon": 77.6279636
           },
           {
             "name": "Corporation Hospital",
@@ -6910,11 +6910,6 @@
             "name": "Divakars speciality Hospital",
             "lat": 12.9100629,
             "lon": 77.5924585
-          },
-          {
-            "name": "Divisional Railway Hospital",
-            "lat": 12.9798353,
-            "lon": 77.5651105
           },
           {
             "name": "Divya Drishti Eye Hospital, Vijayanagar",
@@ -7343,8 +7338,8 @@
           },
           {
             "name": "Government Homeopathic Hospital",
-            "lat": 12.9830546,
-            "lon": 77.536518
+            "lat": 12.9830337,
+            "lon": 77.5365274
           },
           {
             "name": "Government Hospital",
@@ -9092,6 +9087,11 @@
             "lon": 77.6146819
           },
           {
+            "name": "Railways Hospital",
+            "lat": 12.9798353,
+            "lon": 77.5651105
+          },
+          {
             "name": "Rainbow Children's Hospital",
             "lat": 12.9753078,
             "lon": 77.697834
@@ -9989,7 +9989,7 @@
           {
             "name": "Sri Sathya Sai Institute of Higher Medical Sciences",
             "lat": 12.9808814,
-            "lon": 77.7303048
+            "lon": 77.7303132
           },
           {
             "name": "Sri Shankara Cancer Hospital And Research Centre (A Service Unit Of Sscf)",
@@ -10114,7 +10114,7 @@
           {
             "name": "St. Theresa's Hospital",
             "lat": 13.0067504,
-            "lon": 77.5529389
+            "lon": 77.5529489
           },
           {
             "name": "St.John's Medical College Hospital",
@@ -10288,8 +10288,8 @@
           },
           {
             "name": "Svastha Hospital",
-            "lat": 12.9659169,
-            "lon": 77.749386
+            "lat": 12.9659234,
+            "lon": 77.7494061
           },
           {
             "name": "Swamy Hospital",
@@ -15307,7 +15307,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.4746541,
+            "lat": 28.473978,
             "lon": 77.2158554
           },
           {
@@ -24376,8 +24376,8 @@
           },
           {
             "name": "Hospital Ortopedik ALTY",
-            "lat": 3.1599064,
-            "lon": 101.7226821
+            "lat": 3.1599191,
+            "lon": 101.7226834
           },
           {
             "name": "Hospital Pakar Al-Islam",
@@ -24597,7 +24597,7 @@
           {
             "name": "Sunway Medical Centre",
             "lat": 3.0663754,
-            "lon": 101.6085527
+            "lon": 101.6085333
           },
           {
             "name": "Sunway Medical Centre Velocity",
@@ -24632,7 +24632,12 @@
         ],
         "Penang": [
           {
-            "name": "Gleneagles Pulau Pinang",
+            "name": "Georgetown Specialist Hospital",
+            "lat": 5.4025526,
+            "lon": 100.3035505
+          },
+          {
+            "name": "Gleneagles Penang",
             "lat": 5.4268203,
             "lon": 100.3199443
           },
@@ -24645,11 +24650,6 @@
             "name": "Hospital Lam Wah Ee",
             "lat": 5.3911917,
             "lon": 100.3042286
-          },
-          {
-            "name": "Hospital Pakar Georgetown",
-            "lat": 5.4025526,
-            "lon": 100.3035505
           },
           {
             "name": "Hospital Pulau Pinang",
@@ -24702,7 +24702,7 @@
             "lon": 100.3083329
           },
           {
-            "name": "iTCM Healthcare Centre",
+            "name": "iTCM Healthcare Centre 爱康中医诊所",
             "lat": 5.4240233,
             "lon": 100.3177625
           }
@@ -27790,8 +27790,8 @@
           },
           {
             "name": "해정병원",
-            "lat": 37.5760692,
-            "lon": 126.9852705
+            "lat": 37.5758192,
+            "lon": 126.9849944
           },
           {
             "name": "햇빛여성병원",
@@ -27867,7 +27867,7 @@
           },
           {
             "name": "Capio Hospital Universitari Sagrat Cor",
-            "lat": 41.3889465,
+            "lat": 41.3889427,
             "lon": 2.1456033
           },
           {
@@ -27937,8 +27937,8 @@
           },
           {
             "name": "Hospital Clínic de Barcelona. Seu Plató",
-            "lat": 41.4013125,
-            "lon": 2.1422688
+            "lat": 41.401314,
+            "lon": 2.1422817
           },
           {
             "name": "Hospital Duran i Reynals",
@@ -28071,11 +28071,6 @@
             "name": "Bangprakok 9 International Hospital",
             "lat": 13.6819541,
             "lon": 100.474626
-          },
-          {
-            "name": "Camillian Hospital",
-            "lat": 13.7391614,
-            "lon": 100.5835244
           },
           {
             "name": "Chaophya Hospital",
@@ -28488,6 +28483,11 @@
             "lon": 100.5349465
           },
           {
+            "name": "โรงพยาบาลคามิลเลียน",
+            "lat": 13.7391614,
+            "lon": 100.5835244
+          },
+          {
             "name": "โรงพยาบาลจักษุ รัตนิน",
             "lat": 13.7465043,
             "lon": 100.5631219
@@ -28834,7 +28834,7 @@
           },
           {
             "name": "โรงพยาบาลศิริราช",
-            "lat": 13.757852,
+            "lat": 13.7578511,
             "lon": 100.4854072
           },
           {
@@ -29687,8 +29687,8 @@
           },
           {
             "name": "Acıbadem Kozyatağı Hastanesi",
-            "lat": 40.9766754,
-            "lon": 29.0930673
+            "lat": 40.9766931,
+            "lon": 29.093092
           },
           {
             "name": "Acıbadem Maslak Hastanesi",
@@ -29942,8 +29942,8 @@
           },
           {
             "name": "Bezmialem Üniversitesi İlhan Varank Yerleşkesi",
-            "lat": 41.0949834,
-            "lon": 28.8648036
+            "lat": 41.0949722,
+            "lon": 28.8647834
           },
           {
             "name": "Biruni Üniversitesi Tıp Fakültesi Hastanesi",
@@ -29962,8 +29962,8 @@
           },
           {
             "name": "Central Hospital",
-            "lat": 40.9659307,
-            "lon": 29.1003003
+            "lat": 40.9659101,
+            "lon": 29.1002119
           },
           {
             "name": "Cerrahpaşa Tıp Fakültesi",
@@ -30702,8 +30702,8 @@
           },
           {
             "name": "Yeşilköy Prof. Dr. Murat Dilmener Acil Durum Hastanesi",
-            "lat": 40.9702946,
-            "lon": 28.8081522
+            "lat": 40.9702444,
+            "lon": 28.8081552
           },
           {
             "name": "Zeynep Kamil Kadın Ve Çocuk Hastalıkları Eğitim Ve Araştırma Hastanesi",
