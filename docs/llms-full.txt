@@ -249,7 +249,11 @@ Real treatment calendars need return trips — implants, orthodontics, surveilla
 Gynecology, screening, and women's clinics across Chiang Mai — the mapped facilities, who answers in English, and what routine visits cost.
 *Reviewed 2026-08-17.*
 
-*12 working guides — every number dated, every table refreshed from the household's own instruments. Last engine pass: 2026-08-19.*
+### [Stellate Ganglion Block in Thailand: The Ten-Minute Injection That Turns Down the Alarm](/articles/stellate-ganglion-block-thailand/)
+A sympathetic nerve block used for PTSD, hot flashes, and nerve pain — how it works, what the evidence supports, what the appointment is like, and where to ask in Thailand.
+*Reviewed 2026-08-19.*
+
+*13 working guides — every number dated, every table refreshed from the household's own instruments. Last engine pass: 2026-08-20.*
 
 
 ---
@@ -269,19 +273,19 @@ That's the whole calendar. Everything else is numbers and playbook — both belo
 ## Today's number
 
 
-> **Chiang Mai air right now:** PM2.5 **9.4 µg/m³** — Very good (US AQI 60). Observed 2026-08-19 09:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
+> **Chiang Mai air right now:** PM2.5 **17.8 µg/m³** — Good (US AQI 60). Observed 2026-08-19 20:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
 
 
 
 | Date | PM2.5 (µg/m³) | Band |
 |---|---|---|
-| 2026-08-13 | 13.9 | Very good |
 | 2026-08-14 | 12.3 | Very good |
 | 2026-08-15 | 15.7 | Good |
 | 2026-08-16 | 10.7 | Very good |
 | 2026-08-17 | 11.5 | Very good |
 | 2026-08-18 | 16.8 | Good |
-| 2026-08-19 | 13.3 | Very good |
+| 2026-08-19 | 13.1 | Very good |
+| 2026-08-20 | 6.5 | Very good |
 
 *The last seven observed days, same model, generated 2026-08-19.*
 
@@ -357,7 +361,7 @@ If it's frightening — chest, breath, head, blood — call **1669** (free, nati
 | **St. Peter Eye Hospital** (โรงพยาบาลตาเซนต์ปีเตอร์) | 053 225 011 | ~2.7 km | Eyes only — cataract and retina work at Chiang Mai prices |
 | **Chiang Mai Neurological Hospital** (โรงพยาบาลประสาทเชียงใหม่) | — | ~2.5 km | Public specialty center for brain and nerve care |
 
-*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-08-19. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
+*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-08-20. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
 
 
 A note on reading it: *private* here (Bangkok, Ram, Lanna, Rajavej, Theppanya, Central Memorial, McCormick) means English at the desk, short queues, card machines, and bills that are real but published. *Public* (Maharaj "Suan Dok", Nakornping) means the deepest specialists in the North at Thai prices, with Thai-first queues that reward patience and a translator — [[=Translators|we know several]].
@@ -384,7 +388,7 @@ A note on reading it: *private* here (Bangkok, Ram, Lanna, Rajavej, Theppanya, C
 Respiratory visits track the smoke calendar. If you're planning care with a breathing component — or timing a surgery with a recovery window — read the [burning season guide](/articles/burning-season/) alongside this one.
 
 
-> **Chiang Mai air right now:** PM2.5 **9.4 µg/m³** — Very good (US AQI 60). Observed 2026-08-19 09:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
+> **Chiang Mai air right now:** PM2.5 **17.8 µg/m³** — Good (US AQI 60). Observed 2026-08-19 20:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
 
 
 ## FAQ
@@ -600,7 +604,7 @@ Dental implants are the procedure that built Thai medical tourism, and the arith
 | [Root Canal Treatment](/procedures/root-canal-treatment/) | $1,000–$2,000 | **$250–$600** | 3–5 nights |
 | [Orthodontics (Braces, Aligners)](/procedures/orthodontics-braces-aligners/) | $4,000–$8,000 | **$1,500–$3,500** | Multi-visit over months — expat/long-stay play, not a fly-in |
 
-*Defiant's standing indicative ranges — 2026 published-aggregator figures, every quote confirmed in writing at intake. Full detail on [[=Procedures|the procedure pages]]. Verified 2026-08-19.*
+*Defiant's standing indicative ranges — 2026 published-aggregator figures, every quote confirmed in writing at intake. Full detail on [[=Procedures|the procedure pages]]. Verified 2026-08-20.*
 
 
 
@@ -758,7 +762,7 @@ Package medicine has one caveat worth saying plainly: screening menus love tests
 | **St. Peter Eye Hospital** (โรงพยาบาลตาเซนต์ปีเตอร์) | 053 225 011 | ~2.7 km | Eyes only — cataract and retina work at Chiang Mai prices |
 | **Chiang Mai Neurological Hospital** (โรงพยาบาลประสาทเชียงใหม่) | — | ~2.5 km | Public specialty center for brain and nerve care |
 
-*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-08-19. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
+*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-08-20. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
 
 
 Every private hospital on the table runs a checkup center; Bangkok Hospital Chiang Mai and Chiang Mai Ram have the biggest package menus, Sriphat brings university faculty to the readout, and McCormick prices gentlest. The [hospital guide](/articles/chiang-mai-hospitals/) covers who's good at what beyond the checkup counter.
@@ -818,7 +822,7 @@ All three, below.
 | **Chai Massage** | 093 250 8068 | ~1.0 km from Tha Phae Gate |
 | **Chiang Mai Foot Massage** | 093 239 3000 | ~0.3 km from Tha Phae Gate |
 
-*Counts and rows from [Mot Dang](https://motdang.net)'s curated set, 2026-08-19. The full map is free: [motdang.net](https://motdang.net).*
+*Counts and rows from [Mot Dang](https://motdang.net)'s curated set, 2026-08-20. The full map is free: [motdang.net](https://motdang.net).*
 
 
 ## The menu, decoded
@@ -921,7 +925,7 @@ Two practical notes. Bring the **generic name** (the international one, not the 
 | Goodwill Pharmacy | ~0.3 km |
 | Drug Etc | ~0.3 km |
 
-*From Defiant's nightly OpenStreetMap refresh, distances computed straight-line, 2026-08-19. A missing shop is a [fixable report](/contact/).*
+*From Defiant's nightly OpenStreetMap refresh, distances computed straight-line, 2026-08-20. A missing shop is a [fixable report](/contact/).*
 
 
 ## When the pharmacy is the wrong counter
@@ -971,7 +975,7 @@ Rehab is arithmetic. A knee replacement wants a course of sessions, not a sessio
 | ศูนย์ฟื้นฟูสมรรถภาพ | ~16.8 km |
 | Dawn Rehab | ~19.7 km |
 
-*From Defiant's nightly OpenStreetMap refresh, straight-line distances, 2026-08-19. Hospital physio departments ride on [the hospital guide](/articles/chiang-mai-hospitals/).*
+*From Defiant's nightly OpenStreetMap refresh, straight-line distances, 2026-08-20. Hospital physio departments ride on [the hospital guide](/articles/chiang-mai-hospitals/).*
 
 
 Three doors, three flavors:
@@ -1047,7 +1051,7 @@ Here's the checklist. Good homes answer all of it gladly — that's rather the p
 | Kanya Nursing Home | ~5.8 km |
 | สถานสงเคราะห์คนชราวัยทองนิเวศน์ | ~38.7 km |
 
-*From Defiant's nightly OpenStreetMap refresh, 2026-08-19. Distance matters twice here — for the family visit, and for the [hospital run](/articles/chiang-mai-hospitals/).*
+*From Defiant's nightly OpenStreetMap refresh, 2026-08-20. Distance matters twice here — for the family visit, and for the [hospital run](/articles/chiang-mai-hospitals/).*
 
 
 ## The vetting visit, step by step
@@ -1129,7 +1133,7 @@ Thai hospitals never close. Emergency rooms run through every holiday on the cal
 | **Dec 10** | Constitution Day | Public holiday |
 | **Dec 31** | New Year's Eve | Travel peaks; book transport early |
 
-*Fixed-date national holidays. Buddhist observances (Makha Bucha, Visakha Bucha, Asalha Bucha, Loy Krathong / Yi Peng) follow the lunar calendar — announced dates appear below when official. Verified 2026-08-19.*
+*Fixed-date national holidays. Buddhist observances (Makha Bucha, Visakha Bucha, Asalha Bucha, Loy Krathong / Yi Peng) follow the lunar calendar — announced dates appear below when official. Verified 2026-08-20.*
 
 
 
@@ -1179,6 +1183,123 @@ Yes — immigration and government offices close on every official holiday. Exte
 
 ---
 
+# "Stellate Ganglion Block in Thailand: The Ten-Minute Injection That Turns Down the Alarm"
+URL: https://defiant.to/articles/stellate-ganglion-block-thailand/
+
+There is a knot of nerve tissue at the base of your neck, roughly level with the top of your collarbone, called the stellate ganglion. It is a junction box for the sympathetic nervous system — the branch that runs your fight-or-flight response, your heart rate, your flushing, your sweating, and the sensation people describe as *bracing for something*.
+
+A stellate ganglion block is a small volume of local anesthetic placed around that junction box under ultrasound guidance. The needle goes in, the sympathetic traffic to your head, neck, and upper chest quiets down for a few hours, and in a meaningful number of people something stays quieter for far longer than the anesthetic itself lasts.
+
+It is one of the stranger procedures in modern medicine, and one of the more interesting. It is also a fraction of the US price here.
+
+## What the sympathetic nervous system has to do with any of this
+
+The reason a neck injection turns up in conversations about trauma, menopause, and pain is that all three route through the same wiring.
+
+Sympathetic outflow to the head and upper body passes through the cervicothoracic chain. Turn the volume down at that junction and you affect a surprising spread of things at once: vascular tone in the face and scalp, the thermoregulatory flushing behind a hot flash, the baseline arousal that makes a startle response fire early, and the sympathetic maintenance of certain pain states.
+
+The leading hypothesis for why relief outlasts the anesthetic is that the block gives an overactive system a period of quiet long enough to reset its own set point — and, in the trauma literature specifically, that reduced sympathetic input dampens amygdala reactivity. That remains a hypothesis. The clinical effect is measured more confidently than the mechanism is explained, which is a normal state of affairs in medicine and worth saying plainly.
+
+## What it's used for, graded
+
+Defiant grades the science on every procedure page, and this one has genuinely different evidence at different indications. Treating them as one thing is where most of the internet goes wrong.
+
+| Use | Evidence | Read |
+|---|---|---|
+| Upper-limb and facial nerve pain, CRPS | **Established** | The original indication. Decades of use, both diagnostic and therapeutic. |
+| Refractory ventricular arrhythmia | **Established, narrow** | A cardiology rescue technique in specialist hands. Not an outpatient request. |
+| PTSD | **Reasonable** | Several randomized trials, results mixed but net positive. Adopted within US military and veterans' medicine. |
+| Menopausal hot flashes | **Promising, small** | Multiple small randomized trials show reduced frequency and severity, studied especially in women who cannot take estrogen. |
+| Shingles pain, phantom limb, Raynaud's | **Supportive** | Long clinical tradition, smaller literature. |
+| Dysautonomia, POTS, post-viral autonomic syndromes | **Experimental** | Case series and small cohorts, much of it post-COVID. Mechanistically coherent, not yet proven. |
+
+If a clinic markets this as a cure for a long list of conditions, that is a signal about the clinic. The procedure is real; the indication list is where care is required.
+
+## What the appointment is actually like
+
+This is the part nobody describes well, so here it is in order.
+
+You lie on your back with your head turned slightly away from the side being treated. The area is cleaned and numbed. The doctor — an anesthesiologist, almost always — uses ultrasound to see the vessels, the thyroid, and the muscle planes, then places a thin needle to the front of the transverse process of the sixth or seventh cervical vertebra and injects a few millilitres of local anesthetic.
+
+Needle time is under ten minutes. You are awake throughout.
+
+Then the odd part. Within a few minutes your eyelid on that side droops, the pupil narrows, that nostril congests, your eye may water, and the side of your face feels warm and flushed. This is Horner's syndrome, and far from being a complication it is the confirmation that the block landed where it was aimed. Your voice may go hoarse and swallowing may feel strange, because the anesthetic spreads near the nerve that runs your larynx.
+
+All of it wears off over a few hours. You are observed for a while, told not to eat or drink until swallowing feels normal, and told not to drive yourself home.
+
+For trauma indications the common protocol is right-sided, and often two blocks rather than one — the second days to a couple of weeks after the first.
+
+## Risks, stated straight
+
+Ultrasound guidance changed the risk profile of this procedure substantially, because the operator can see the carotid, the vertebral artery, the lung apex, and the thyroid rather than working from surface landmarks alone.
+
+Genuine risks remain and belong in the conversation: injection into a blood vessel, bleeding around the airway, and puncture of the top of the lung. All are uncommon; all are why this belongs to an anesthesiologist with an ultrasound and a proper facility rather than to a wellness clinic with a treatment room. Temporary hoarseness, a heavy-feeling arm, and the Horner's picture are expected effects, not problems.
+
+Ask two questions when you book: is it ultrasound-guided, and how many does this doctor do a year. Both answers should come easily.
+
+## How long it lasts
+
+Wide range, and the range is the truth. Some people get weeks. Some get months. A year of benefit from a single block is on the good end of reported outcomes but well within what happens.
+
+Because the procedure is repeatable and comparatively inexpensive here, a durable responder can simply have it again when the effect fades. That arithmetic looks very different in Thailand than it does under a US deductible, and it is a large part of why this article exists.
+
+## What it costs
+
+In the United States a single block commonly runs several hundred to a couple of thousand dollars, and coverage is inconsistent — pain and cardiac indications are often covered, trauma and vasomotor indications frequently are not, which puts the full amount on the patient.
+
+Thai pricing for interventional pain procedures typically lands at a small fraction of the US figure, in line with how the rest of this site's price comparisons run. Defiant does not publish a baht number it has not collected, and quotes for this specific procedure are being gathered now — this line updates when they land. Ask for the quote in writing, and ask whether it covers the anesthesiologist, the ultrasound, the facility, and the observation period as one number or four.
+
+
+*Currency on this page: ฿100 ≈ $3.02 / €2.61 / £2.23 — Bank of Thailand mid rate, 2026-08-17. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
+
+
+## Where to ask in Thailand
+
+This is a pain-medicine procedure, so the department you want is anesthesiology, and the clinic you want is a คลินิกระงับปวด (*khlínìk rá-ngáp pùat* — pain clinic). Ask for it by the English name; the term is standard among Thai anesthesiologists and does not need translating.
+
+**In Chiang Mai**, the strongest odds are with the university teaching hospital's anesthesiology service, which carries the widest interventional range in the north; the large private hospitals are the faster route when they have a pain specialist on staff. Availability moves with individual doctors rather than with buildings, so the question to ask is *which doctor*, not *which hospital*. [The hospital guide](/articles/chiang-mai-hospitals/) has the phone numbers.
+
+**In Bangkok**, the major teaching hospitals and the international private hospitals all run established interventional pain services, and this is a routine part of their repertoire. If Chiang Mai comes back thin, a Bangkok trip is short and the appointment is a single day.
+
+**Bring your records.** A documented prior response to a stellate ganglion block is the single most useful thing you can hand a new doctor. It converts a long explanation into one line of history and changes the whole tenor of the consultation.
+
+## When it is the wrong door
+
+A block quiets a signal. It does not do the work that the signal was pointing at.
+
+For trauma, the strongest results in the literature come when a block is paired with therapy rather than substituting for it — the quiet period is what makes the other work possible. For hot flashes, hormone therapy and the non-hormonal options are first-line for most people, and this is the interesting second door, particularly for women who cannot take estrogen. For orthostatic symptoms, get the measurements first: a ten-minute stand test with a blood-pressure cuff costs nothing and tells a doctor more than a paragraph of description.
+
+And anything that is undiagnosed should be diagnosed before it is blocked.
+
+*Not medical advice — a briefing on a procedure. Every decision here belongs to you and a licensed doctor who has examined you.*
+
+## FAQ
+
+### Is a stellate ganglion block painful?
+Less than most people expect. The skin is numbed first, and needle time is under ten minutes. The strange part is the hours afterward — a drooping eyelid and a warm, flushed face — rather than the injection itself.
+
+### How long does a stellate ganglion block last?
+Anywhere from weeks to a year or more. The anesthetic itself wears off the same day; any benefit past that comes from the system settling at a lower baseline. Repeat blocks are routine when the effect fades.
+
+### Is it available in Thailand?
+Yes, as a pain-medicine procedure at hospitals with an interventional anesthesiology service. Bangkok's major centers do it routinely; in Chiang Mai it depends on which pain specialists are currently practising, so ask for a named doctor.
+
+### Does it work for PTSD?
+The randomized evidence is mixed but net positive, and it is used within US military and veterans' medicine. It works best alongside therapy rather than instead of it, and it does not help everyone.
+
+### Can it help hot flashes?
+Several small randomized trials say yes, with reduced frequency and severity. It is studied most in women who cannot take estrogen. The evidence base is real but smaller than the hormone-therapy literature.
+
+### Why does my eyelid droop afterwards?
+Because the block worked. Horner's syndrome — droopy lid, small pupil, stuffy nostril, warm face on that side — is the expected confirmation that the anesthetic reached the ganglion. It resolves within hours.
+
+---
+
+**Considering a trip built around this?** The [[=Concierge|concierge desk]] finds the named doctor, gets the quote in writing, and puts the observation window and the follow-up block in the same itinerary rather than leaving you to discover them. Questions cost nothing: (reveal button on site)
+
+
+---
+
 # Thailand Emergency Numbers: The One-Page Card That Works
 URL: https://defiant.to/articles/thailand-emergency-numbers/
 
@@ -1194,7 +1315,7 @@ Thailand does not use 911, and the number that matters most — **1669**, the na
 | **191** | Police | Any emergency, Thai-first |
 | **199** | Fire & rescue | 24 h |
 
-*National numbers, verified 2026-08-19. Save 1669 before you need it.*
+*National numbers, verified 2026-08-20. Save 1669 before you need it.*
 
 
 **1669** dispatches free public ambulances nationwide, 24 hours. The operators work Thai-first: speak slowly, lead with *where you are* — hotel name, road, district — and hand the phone to any Thai speaker nearby if you can. Hotel front desks make this call flawlessly; "call 1669 for me" is a complete sentence.
@@ -1217,7 +1338,7 @@ Private-hospital ambulances also run 24 h and often arrive faster in town; call 
 | Nakornping Hospital | **— (use 1669)** | ~7.7 km |
 | Theppanya Hospital | **053 852 990** | ~3.2 km |
 
-*Curated by residents, cross-checked against the household map, 2026-08-19. If a line changes, [tell us](/contact/) and it gets fixed the same week.*
+*Curated by residents, cross-checked against the household map, 2026-08-20. If a line changes, [tell us](/contact/) and it gets fixed the same week.*
 
 
 The full picture of who's good at what — public vs private, billing, insurance — lives on [the hospital guide](/articles/chiang-mai-hospitals/).
@@ -1281,7 +1402,7 @@ The household mapped the whole landscape. Here it is.
 | **Dr. Som** | ~0.3 km |
 | **Tha Phae Clinic** (ท่าแพ คลีนิค) | ~0.4 km |
 
-*From the household's Chiang Mai women's-health dataset, refreshed 2026-08-19. A missing clinic is a [fixable report](/contact/).*
+*From the household's Chiang Mai women's-health dataset, refreshed 2026-08-20. A missing clinic is a [fixable report](/contact/).*
 
 
 ## The three doors

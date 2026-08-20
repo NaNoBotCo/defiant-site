@@ -23,7 +23,14 @@
         "air-strip",
         "fx-line"
       ],
-      "refresh_days": 30
+      "refresh_days": 30,
+      "tags": [
+        "service/hospital",
+        "place/chiang-mai",
+        "audience/expat",
+        "audience/emergency",
+        "evidence/n-a"
+      ]
     },
     {
       "slug": "burning-season",
@@ -47,7 +54,14 @@
         "air-history",
         "fx-line"
       ],
-      "refresh_days": 7
+      "refresh_days": 7,
+      "tags": [
+        "condition/respiratory",
+        "place/chiang-mai",
+        "season/burning-season",
+        "audience/expat",
+        "evidence/n-a"
+      ]
     },
     {
       "slug": "massage-chiang-mai",
@@ -70,7 +84,15 @@
         "massage-cm",
         "fx-line"
       ],
-      "refresh_days": 45
+      "refresh_days": 45,
+      "tags": [
+        "procedure/bodywork",
+        "system/musculoskeletal",
+        "place/chiang-mai",
+        "audience/traveler",
+        "cost/under-100usd",
+        "evidence/n-a"
+      ]
     },
     {
       "slug": "thailand-emergency-numbers",
@@ -93,7 +115,14 @@
         "er-numbers",
         "er-cm-table"
       ],
-      "refresh_days": 90
+      "refresh_days": 90,
+      "tags": [
+        "service/emergency",
+        "place/thailand",
+        "audience/emergency",
+        "audience/expat",
+        "evidence/n-a"
+      ]
     },
     {
       "slug": "pharmacies-chiang-mai",
@@ -116,7 +145,13 @@
         "pharmacy-cm",
         "fx-line"
       ],
-      "refresh_days": 60
+      "refresh_days": 60,
+      "tags": [
+        "service/pharmacy",
+        "place/chiang-mai",
+        "audience/expat",
+        "evidence/n-a"
+      ]
     },
     {
       "slug": "dental-implants-thailand-cost",
@@ -139,7 +174,14 @@
         "dental-prices",
         "fx-line"
       ],
-      "refresh_days": 90
+      "refresh_days": 90,
+      "tags": [
+        "procedure/dental",
+        "place/thailand",
+        "audience/traveler",
+        "cost/1000-5000usd",
+        "evidence/established"
+      ]
     },
     {
       "slug": "health-checkup-chiang-mai",
@@ -161,7 +203,15 @@
         "hospitals-cm",
         "fx-line"
       ],
-      "refresh_days": 90
+      "refresh_days": 90,
+      "tags": [
+        "procedure/screening",
+        "place/chiang-mai",
+        "audience/expat",
+        "audience/traveler",
+        "cost/under-1000usd",
+        "evidence/established"
+      ]
     },
     {
       "slug": "songkran-medical-timing",
@@ -183,7 +233,14 @@
         "thai-holidays",
         "festivals-window"
       ],
-      "refresh_days": 30
+      "refresh_days": 30,
+      "tags": [
+        "service/logistics",
+        "season/festival",
+        "place/thailand",
+        "audience/traveler",
+        "evidence/n-a"
+      ]
     },
     {
       "slug": "physiotherapy-chiang-mai",
@@ -205,7 +262,14 @@
         "rehab-cm",
         "fx-line"
       ],
-      "refresh_days": 90
+      "refresh_days": 90,
+      "tags": [
+        "procedure/rehab",
+        "system/musculoskeletal",
+        "place/chiang-mai",
+        "audience/expat",
+        "evidence/established"
+      ]
     },
     {
       "slug": "senior-care-chiang-mai",
@@ -228,7 +292,14 @@
         "geriatric-cm",
         "fx-line"
       ],
-      "refresh_days": 90
+      "refresh_days": 90,
+      "tags": [
+        "service/senior-care",
+        "place/chiang-mai",
+        "audience/senior",
+        "audience/expat",
+        "evidence/n-a"
+      ]
     },
     {
       "slug": "dtv-medical-runs",
@@ -250,7 +321,14 @@
       "blocks": [
         "fx-line"
       ],
-      "refresh_days": 90
+      "refresh_days": 90,
+      "tags": [
+        "service/visa",
+        "place/thailand",
+        "audience/expat",
+        "audience/traveler",
+        "evidence/n-a"
+      ]
     },
     {
       "slug": "womens-health-chiang-mai",
@@ -272,7 +350,52 @@
         "womens-health-cm",
         "fx-line"
       ],
-      "refresh_days": 60
+      "refresh_days": 60,
+      "tags": [
+        "condition/womens-health",
+        "procedure/screening",
+        "system/reproductive",
+        "place/chiang-mai",
+        "audience/expat",
+        "evidence/n-a"
+      ]
+    },
+    {
+      "slug": "stellate-ganglion-block-thailand",
+      "note": "Stellate Ganglion Block in Thailand",
+      "keyword": "stellate ganglion block thailand",
+      "alt_keywords": [
+        "stellate ganglion block cost",
+        "stellate ganglion block for ptsd",
+        "nerve block for hot flashes",
+        "sgb thailand"
+      ],
+      "competition": "low",
+      "intent": "commercial",
+      "title": "Stellate Ganglion Block in Thailand: The Ten-Minute Injection That Turns Down the Alarm",
+      "desc": "A sympathetic nerve block used for PTSD, hot flashes, and nerve pain — how it works, what the evidence supports, what the appointment is like, and where to ask in Thailand.",
+      "status": "drafted",
+      "card_stat": "10 min",
+      "card_stat_label": "Needle time — awake, ultrasound-guided",
+      "card_hook": "A nerve block for PTSD, hot flashes, and nerve pain — graded by evidence, priced without theatre.",
+      "blocks": [
+        "fx-line"
+      ],
+      "refresh_days": 90,
+      "tags": [
+        "procedure/nerve-block",
+        "condition/ptsd",
+        "condition/menopause",
+        "condition/dysautonomia",
+        "condition/chronic-pain",
+        "system/autonomic",
+        "evidence/mixed",
+        "place/chiang-mai",
+        "place/bangkok",
+        "audience/expat",
+        "cost/under-1000usd",
+        "audience/traveler"
+      ]
     }
   ]
 }

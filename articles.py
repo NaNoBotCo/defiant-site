@@ -685,6 +685,8 @@ def qa(verbose=True):
         if not problems and not warns:
             print("  ✓ clean")
         print(f"\n{len(problems)} blocking · {len(warns)} advisory")
+    problems.extend(tag_check())
+
     return problems, warns
 
 
@@ -733,12 +735,215 @@ def ship(deploy=True):
 
 
 # ---------------------------------------------------------------- menu
+# ---------------------------------------------------------------- tag registry
+# tags.json is a CURATED controlled vocabulary, not a folksonomy. A tag that
+# does not resolve to a term there fails QA — that gate is the whole difference
+# between an ontology and a tag cloud. Aliases are the intake ramp: search
+# phrasings and Thai spellings map inward without entering the vocabulary.
+# Counts are always derived, never stored.
+
+def load_tags():
+    return json.loads((ROOT / "tags.json").read_text())
+
+
+def tag_alias_map(reg):
+    """alias or canonical slug -> canonical term."""
+    m = {}
+    for term, spec in reg["terms"].items():
+        m[term] = term
+        m[term.split("/", 1)[1]] = term          # bare leaf, when unambiguous
+        for a in spec.get("aliases", []):
+            m[a.lower().strip()] = term
+    return m
+
+
+def resolve_tag(raw, amap):
+    return amap.get(raw.lower().strip())
+
+
+def note_tags(body):
+    m = re.search(r"^tags:\s*(.+)$", body, re.M)
+    if not m:
+        return []
+    return [t.strip() for t in m.group(1).split(",") if t.strip()]
+
+
+def set_note_tags(path, tags):
+    """Write tags: into frontmatter, creating the line if absent. Prose untouched."""
+    body = path.read_text()
+    line = "tags: " + ", ".join(tags)
+    if re.search(r"^tags:\s*.+$", body, re.M):
+        body = re.sub(r"^tags:\s*.+$", line, body, count=1, flags=re.M)
+    else:                                        # insert as last frontmatter key
+        end = body.find("\n---", 4)
+        if not body.startswith("---\n") or end < 0:
+            return False
+        body = body[:end] + "\n" + line + body[end:]
+    path.write_text(body)
+    return True
+
+
+def tag_backfill(apply=True):
+    """topics.json is the source of truth for a topic's tags; push them to notes."""
+    reg, amap = load_tags(), None
+    amap = tag_alias_map(reg)
+    changed, skipped = [], []
+    for t in load_topics():
+        tags = t.get("tags") or []
+        if not tags:
+            skipped.append((t["slug"], "no tags in topics.json")); continue
+        bad = [x for x in tags if not resolve_tag(x, amap)]
+        if bad:
+            skipped.append((t["slug"], f"unknown: {', '.join(bad)}")); continue
+        p = ART / f"{t['note']}.md"
+        if not p.exists():
+            skipped.append((t["slug"], "note missing")); continue
+        canon = sorted({resolve_tag(x, amap) for x in tags})
+        if note_tags(p.read_text()) == canon:
+            continue
+        if apply:
+            set_note_tags(p, canon)
+        changed.append((t["slug"], len(canon)))
+    for s, n in changed:
+        print(f"  tagged  {s}  ({n})")
+    for s, why in skipped:
+        print(f"  skipped {s}  — {why}")
+    print(f"\n{len(changed)} note(s) {'updated' if apply else 'would change'}, {len(skipped)} skipped")
+    return changed, skipped
+
+
+def tag_audit():
+    """Yahoo-directory view: Term (count), plus everything wrong."""
+    reg = load_tags()
+    amap = tag_alias_map(reg)
+    facets, terms = reg["facets"], reg["terms"]
+    counts, unknown, untagged, facet_gaps = {}, [], [], []
+
+    notes = sorted(ART.glob("*.md")) + sorted(ART.rglob("*/*.md"))
+    by_type = {}
+    for p in notes:
+        raw = p.read_text()
+        ntype = (re.search(r"^type:\s*(.+)$", raw, re.M) or [None, "article"])[1].strip()
+        tags = note_tags(raw)
+        by_type.setdefault(ntype, [0, 0])
+        by_type[ntype][1] += 1
+        if not tags:
+            if ntype == "guide":
+                untagged.append(p.stem)
+            continue
+        by_type[ntype][0] += 1
+        seen = {}
+        for raw in tags:
+            term = resolve_tag(raw, amap)
+            if not term:
+                unknown.append((p.stem, raw)); continue
+            counts[term] = counts.get(term, 0) + 1
+            f = term.split("/", 1)[0]
+            seen.setdefault(f, []).append(term)
+        for f, got in seen.items():
+            if not facets[f].get("multi") and len(got) > 1:
+                facet_gaps.append((p.stem, f, got))
+
+    for f, spec in facets.items():
+        rows = sorted(((t, counts.get(t, 0)) for t in terms if t.startswith(f + "/")),
+                      key=lambda r: (-r[1], r[0]))
+        live = [r for r in rows if r[1]]
+        print(f"\n{spec['label']}  ({len(live)}/{len(rows)} in use)")
+        for t, c in rows:
+            label = terms[t].get("label", t)
+            print(f"    {label:22} {'(' + str(c) + ')' if c else '·'}")
+
+    print()
+    if unknown:
+        print(f"UNKNOWN TAGS ({len(unknown)}) — these fail QA:")
+        for n, t in unknown:
+            print(f"    {n}: {t}")
+    if facet_gaps:
+        print(f"SINGLE-VALUE FACET VIOLATIONS ({len(facet_gaps)}):")
+        for n, f, got in facet_gaps:
+            print(f"    {n}: {f} has {got}")
+    if untagged:
+        print(f"UNTAGGED NOTES ({len(untagged)}):")
+        for n in untagged:
+            print(f"    {n}")
+    print("Coverage by note type:")
+    for nt, (done, total) in sorted(by_type.items()):
+        bar = "backlog" if done == 0 else ("complete" if done == total else f"{total-done} to go")
+        print(f"    {nt:12} {done:3}/{total:<4} {bar}")
+    print()
+    orphans = [t for t in terms if not counts.get(t)]
+    if orphans:
+        print(f"\nDefined but unused ({len(orphans)}): {', '.join(orphans)}")
+    if not (unknown or facet_gaps or untagged):
+        print("Vocabulary clean — every tag resolves, every note tagged.")
+    return unknown, facet_gaps, untagged
+
+
+def tag_check(paths=None):
+    """QA hook: returns list of problem strings."""
+    reg = load_tags()
+    amap = tag_alias_map(reg)
+    out = []
+    for t in load_topics():
+        if t["status"] == "idea":
+            continue
+        p = ART / f"{t['note']}.md"
+        if not p.exists():
+            continue
+        tags = note_tags(p.read_text())
+        if not tags:
+            out.append(f"{t['slug']}: no tags in frontmatter")
+            continue
+        for raw in tags:
+            if not resolve_tag(raw, amap):
+                out.append(f"{t['slug']}: tag “{raw}” is not in tags.json")
+        seen = {}
+        for raw in tags:
+            term = resolve_tag(raw, amap)
+            if term:
+                seen.setdefault(term.split("/", 1)[0], []).append(term)
+        for f, got in seen.items():
+            if not reg["facets"][f].get("multi") and len(got) > 1:
+                out.append(f"{t['slug']}: facet “{f}” is single-value but has {len(got)}")
+    return out
+
+
+TAG_MENU = """
+TAGS
+  1) Audit — Term (count) by facet, plus everything wrong
+  2) Backfill — push topics.json tags into note frontmatter
+  3) Dry run — show what backfill would change
+  4) Vocabulary — list every term with its aliases
+  0) Back
+"""
+
+
+def tags_menu():
+    while True:
+        print(TAG_MENU)
+        try:
+            pick = input("> ").strip()
+        except EOFError:
+            return
+        if pick == "1": tag_audit()
+        elif pick == "2": tag_backfill(apply=True)
+        elif pick == "3": tag_backfill(apply=False)
+        elif pick == "4":
+            reg = load_tags()
+            for term, spec in sorted(reg["terms"].items()):
+                al = ", ".join(spec.get("aliases", []))
+                print(f"  {term:28} {spec.get('label','')}" + (f"   ← {al}" if al else ""))
+        elif pick in ("0", ""): return
+
+
+
 MENU = """
 DEFIANT ARTICLE ENGINE
   1) Board — every topic, its status, its keyword
   2) Refresh — rebuild data packs + auto blocks in notes (prose untouched)
   3) Scaffold — create notes for topics that have none
   4) QA gate — every check, loud
+  7) Tags — audit, backfill, vocabulary
   5) Preflight — cards + site build + QA (no deploy)
   6) Ship — refresh, QA, cards, build, deploy to Cloudflare
   0) Exit
@@ -750,6 +955,7 @@ def main():
     cmds = {"board": board, "packs": build_packs, "refresh": lambda: (build_packs(), refresh_notes()),
             "scaffold": scaffold_notes, "qa": lambda: sys.exit(1 if qa()[0] else 0),
             "cards": lambda: run([sys.executable, "make_cards.py"]),
+            "tags": tag_audit, "tag-backfill": tag_backfill,
             "preflight": lambda: ship(deploy=False), "ship": ship, "all": ship}
     if args:
         fn = cmds.get(args[0])
@@ -767,6 +973,7 @@ def main():
         elif pick == "2": build_packs(); refresh_notes()
         elif pick == "3": scaffold_notes()
         elif pick == "4": qa()
+        elif pick == "7": tags_menu()
         elif pick == "5": ship(deploy=False)
         elif pick == "6": ship()
         elif pick == "0" or pick == "": return
