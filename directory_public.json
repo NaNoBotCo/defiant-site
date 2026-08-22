@@ -5918,7 +5918,7 @@
       }
     },
     "India": {
-      "count": 3668,
+      "count": 3670,
       "cities": {
         "Bengaluru": [
           {
@@ -11444,6 +11444,11 @@
             "lon": 80.2592924
           },
           {
+            "name": "Chennai Urology & Robotics Institute",
+            "lat": 12.9520249,
+            "lon": 80.2412332
+          },
+          {
             "name": "Cherish Hospital",
             "lat": 13.1297067,
             "lon": 80.1309846
@@ -12227,6 +12232,11 @@
             "name": "Health Centre",
             "lat": 13.0136347,
             "lon": 80.2393232
+          },
+          {
+            "name": "Helios Advanced Skin Hair & Laser Clinic Pvt Ltd",
+            "lat": 13.0347504,
+            "lon": 80.2547353
           },
           {
             "name": "Helios Hospital Pvt Ltd",
@@ -29475,7 +29485,7 @@
       }
     },
     "Turkey": {
-      "count": 329,
+      "count": 330,
       "cities": {
         "Antalya": [
           {
@@ -29687,12 +29697,12 @@
           },
           {
             "name": "Acıbadem Kozyatağı Hastanesi",
-            "lat": 40.9766931,
-            "lon": 29.093092
+            "lat": 40.9766911,
+            "lon": 29.0931138
           },
           {
             "name": "Acıbadem Maslak Hastanesi",
-            "lat": 41.1273992,
+            "lat": 41.1274286,
             "lon": 29.0251976
           },
           {
@@ -29911,9 +29921,14 @@
             "lon": 28.9158289
           },
           {
-            "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Binası",
-            "lat": 41.1106214,
-            "lon": 29.0862207
+            "name": "Beykoz Devlet Hastanesi",
+            "lat": 41.1176139,
+            "lon": 29.0982065
+          },
+          {
+            "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Hizmet Birimi",
+            "lat": 41.1106101,
+            "lon": 29.0862362
           },
           {
             "name": "Beykoz Devlet Hastanesi Toplum Ruh Sağlığı Merkezi",
@@ -29942,8 +29957,8 @@
           },
           {
             "name": "Bezmialem Üniversitesi İlhan Varank Yerleşkesi",
-            "lat": 41.0949834,
-            "lon": 28.8648036
+            "lat": 41.0949722,
+            "lon": 28.8647834
           },
           {
             "name": "Biruni Üniversitesi Tıp Fakültesi Hastanesi",
@@ -30184,6 +30199,11 @@
             "name": "Haydarpaşa Numune Hastanesi Yeldeğirmeni Semt Polikliniği",
             "lat": 40.9930708,
             "lon": 29.0290091
+          },
+          {
+            "name": "Hayvan Hastanesi",
+            "lat": 40.9941604,
+            "lon": 28.721652
           },
           {
             "name": "Hospital Türk",
@@ -30557,8 +30577,8 @@
           },
           {
             "name": "Sarıyer İsmail Akgün Devlet Hastanesi",
-            "lat": 41.1694193,
-            "lon": 29.0567119
+            "lat": 41.1694361,
+            "lon": 29.0566989
           },
           {
             "name": "Saygı Hastanesi",
@@ -30572,8 +30592,8 @@
           },
           {
             "name": "Seyrantepe Hamidiye Etfal Eğitim ve Araştırma Hastanesi",
-            "lat": 41.1036639,
-            "lon": 28.996234
+            "lat": 41.1036745,
+            "lon": 28.9961075
           },
           {
             "name": "Sultanbeyli Avrupa Göz Hastanesi",
@@ -30999,11 +31019,6 @@
             "name": "İlgi Hastanesi",
             "lat": 41.0209094,
             "lon": 28.8666912
-          },
-          {
-            "name": "İstanbul Beykoz (Paşabahçe) Devlet Hastanesi",
-            "lat": 41.1176714,
-            "lon": 29.0981565
           },
           {
             "name": "İstanbul Bezmialem Vakıf Üniversitesi Valide Sultan Gureba Hastanesi",
