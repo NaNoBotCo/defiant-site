@@ -5918,7 +5918,7 @@
       }
     },
     "India": {
-      "count": 3670,
+      "count": 3671,
       "cities": {
         "Bengaluru": [
           {
@@ -10109,7 +10109,7 @@
           {
             "name": "St. Philomena's Hospital",
             "lat": 12.9649568,
-            "lon": 77.6111375
+            "lon": 77.6111852
           },
           {
             "name": "St. Theresa's Hospital",
@@ -10660,6 +10660,11 @@
             "name": "Vijayashree Hospitals",
             "lat": 12.8579673,
             "lon": 77.5892687
+          },
+          {
+            "name": "Vikram Aura Hospitals",
+            "lat": 12.9656576,
+            "lon": 77.6097218
           },
           {
             "name": "Vinayaka Health Care and Maternity Home",
@@ -27877,7 +27882,7 @@
           },
           {
             "name": "Capio Hospital Universitari Sagrat Cor",
-            "lat": 41.3889427,
+            "lat": 41.3889465,
             "lon": 2.1456033
           },
           {
@@ -27947,8 +27952,8 @@
           },
           {
             "name": "Hospital Clínic de Barcelona. Seu Plató",
-            "lat": 41.401314,
-            "lon": 2.1422817
+            "lat": 41.4013125,
+            "lon": 2.1422688
           },
           {
             "name": "Hospital Duran i Reynals",
