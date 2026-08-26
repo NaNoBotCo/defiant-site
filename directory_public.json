@@ -74,16 +74,10 @@
         }
       ]
     },
-    "rehab": {
-      "label": "Rehab & recovery",
-      "count": 15,
+    "physio": {
+      "label": "Physiotherapy & physical rehab",
+      "count": 7,
       "items": [
-        {
-          "name": "Dawn Rehab",
-          "name_en": "",
-          "lat": 18.6125513,
-          "lon": 98.9648598
-        },
         {
           "name": "Phetcharat Physical Therapy Clinic",
           "name_en": "",
@@ -109,24 +103,6 @@
           "lon": 98.9768265
         },
         {
-          "name": "Rehab Scandinavia",
-          "name_en": "",
-          "lat": 12.9327825,
-          "lon": 100.9956208
-        },
-        {
-          "name": "Siam Rehab",
-          "name_en": "",
-          "lat": 20.1123753,
-          "lon": 99.7738558
-        },
-        {
-          "name": "The River Rehab",
-          "name_en": "",
-          "lat": 18.8093711,
-          "lon": 98.9827868
-        },
-        {
           "name": "คลินิกเทคนิคการแพทย์และกายภาพบำบัด",
           "name_en": "KKU Medical Technology and Physical Therapy Clinic",
           "lat": 16.434083,
@@ -143,7 +119,43 @@
           "name_en": "Phys Clinic",
           "lat": 12.7222455,
           "lon": 101.0788373
+        }
+      ]
+    },
+    "addiction": {
+      "label": "Addiction medicine & recovery",
+      "count": 4,
+      "items": [
+        {
+          "name": "Dawn Rehab",
+          "name_en": "Dawn Rehab",
+          "lat": 18.6125513,
+          "lon": 98.9648598
         },
+        {
+          "name": "Rehab Scandinavia",
+          "name_en": "",
+          "lat": 12.9327825,
+          "lon": 100.9956208
+        },
+        {
+          "name": "Siam Rehab",
+          "name_en": "",
+          "lat": 20.1123753,
+          "lon": 99.7738558
+        },
+        {
+          "name": "The River Rehab",
+          "name_en": "The River Rehab",
+          "lat": 18.8093711,
+          "lon": 98.9827868
+        }
+      ]
+    },
+    "rehab": {
+      "label": "Rehabilitation (general)",
+      "count": 4,
+      "items": [
         {
           "name": "ศูนย์ฟื้นฟูสมรรถภาพ",
           "name_en": "Suan Prung Rehabilitation Center",
@@ -4325,7 +4337,7 @@
   },
   "hospitals_by_country": {
     "Colombia": {
-      "count": 200,
+      "count": 201,
       "cities": {
         "Bogotá": [
           {
@@ -4367,6 +4379,11 @@
             "name": "Centro Médico Colsubsidio",
             "lat": 4.7011962,
             "lon": -74.1202387
+          },
+          {
+            "name": "Centro Médico Colsubsidio Calle 63",
+            "lat": 4.6506299,
+            "lon": -74.0722228
           },
           {
             "name": "Centro Médico Plan Premium Sanitas",
@@ -29677,8 +29694,8 @@
           },
           {
             "name": "Acıbadem Ataşehir Hastanesi",
-            "lat": 40.9945826,
-            "lon": 29.1270666
+            "lat": 40.9942682,
+            "lon": 29.1269208
           },
           {
             "name": "Acıbadem Dr. Şinasi Can (Kadıköy) Hastanesi",

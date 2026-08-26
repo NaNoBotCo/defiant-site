@@ -20,7 +20,9 @@ OUT = ROOT / "directory_public.json"
 # Which crawled verticals become public directory categories, and their labels.
 PUBLIC = {
     "geriatric": "Care homes & elder care",
-    "rehab": "Rehab & recovery",
+    "physio": "Physiotherapy & physical rehab",
+    "addiction": "Addiction medicine & recovery",
+    "rehab": "Rehabilitation (general)",
     "gyn": "Women's health & fertility",
     "aesthetic": "Aesthetic & skin",
     "longevity": "Longevity & wellness",

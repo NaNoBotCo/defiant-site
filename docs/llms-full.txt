@@ -41,12 +41,16 @@ premium: you pay what a Thai patient pays.** We're the fixers who live here.
 - [[=VA-FMP|Veterans: your VA benefits work here (the FMP) →]]
 - [[=DTV|Stay long-term for treatment — the DTV medical visa →]]
 - [[=Senior-Living|Senior & dementia care — full care at a fraction of Western cost →]]
+- [[=Retirement|Active retirement — a life in Chiang Mai, not a facility →]]
+- [[=Recovery|Convalescence — the gap between hospital discharge and well →]]
+- [[=Addiction|Addiction medicine — the doors, named plainly, ranked never →]]
 - [[=Glowup|The lunchtime glowup — no-downtime aesthetics to stack on your trip →]]
 - [[=Longevity|Longevity & regenerative medicine — the treatments the US won't approve yet →]]
 - [[=Brain|Brain stimulation — TMS, tDCS & neurofeedback for mood and focus →]]
 - [[=Pelvic|Pelvic & sexual wellness — Emsella, shockwave, PRP shots →]]
 - [[=Physiotherapy|Physiotherapy & rehab — recover where it's affordable and unhurried →]]
 - [[=Estradiol|Can't find your HRT / estradiol? Here's the Thai name →]]
+- [[=Diabetes|Diabetes & endocrine care — the clinics that state it, with sources →]]
 - [[=Hospitals|The hospitals & clinics we route to →]]
 
 ## How it works
@@ -195,6 +199,114 @@ paperwork, the doctors. Working with clients across every US time zone.
 
 ---
 
+# Addiction Medicine in Chiang Mai — The Doors, Named Plainly
+URL: https://defiant.to/addiction/
+
+# Addiction medicine in Chiang Mai — the doors, named plainly
+
+Northern Thailand is, quietly, one of the places people come to get treatment
+for addiction. This page is a map of the doors, not a review of them:
+**it ranks nothing and recommends nothing — each facility speaks for
+itself.** It is substance-agnostic and judgment-free; whatever brought you
+here, the vocabulary and the questions below work the same.
+
+*Not medical advice — Defiant is a concierge, not a clinic, and treatment
+decisions belong to you and clinicians. Nothing here evaluates any approach
+or predicts any outcome.*
+
+## The shape of what exists
+
+Two kinds of door, broadly:
+
+**Private residential facilities.** Defiant's mapped directory (nightly
+OpenStreetMap refresh) currently carries four named addiction-medicine
+residentials in the North and beyond. Contact details below are what the map
+itself carries — source: OpenStreetMap.
+
+| Facility | Where | Contact (per OpenStreetMap) |
+|---|---|---|
+| **Dawn Rehab** | Chiang Mai | — |
+| **The River Rehab** | Chiang Mai | +66 95 687 1017 · theriverrehab.com |
+| **Siam Rehab** | Mae Chan, Chiang Rai | +66 97 943 6477 · siamrehab.com |
+| **Rehab Scandinavia** | Chonburi | rehabscandinavia.com |
+
+**The state and hospital route.** Chiang Mai's public psychiatric hospital,
+Suan Prung, operates a rehabilitation centre (ศูนย์ฟื้นฟูสมรรถภาพ, on the
+map as **Suan Prung Rehabilitation Center**) — the public-system door, in
+Thai. **McKean Rehabilitation Center** (สถาบันแมคเคนฯ, mckeanhosp.org), the
+century-old mission institution south of the city, carries "rehabilitation"
+in its very name; what its rehabilitation services cover today is a question
+for its own pages, which we have not yet read (see below).
+
+## The words to know
+
+- **บำบัด** (*bambat*) — treatment, therapy. The umbrella word; ศูนย์บำบัด is
+  a treatment centre.
+- **เลิกเหล้า** (*loek lao* — literally "quit liquor") — to stop drinking.
+  The plain, everyday phrase; you will see it on public-health posters.
+- **ยาเสพติด** (*ya sep tit* — literally "drug one is stuck to") — narcotics,
+  addictive drugs. ศูนย์บำบัดยาเสพติด is a drug-treatment centre.
+- **ศูนย์ฟื้นฟู** (*sun fuen fu*) — rehabilitation centre; ฟื้นฟู is
+  "restore/rehabilitate" and also names Suan Prung's unit above.
+
+## What to ask any facility
+
+Questions, not endorsements — the same list works at every door:
+
+1. **Licensing.** What license does the facility hold, from which Thai
+   authority, and will they show it in writing?
+2. **Medical supervision.** Who is medically responsible on site — physicians,
+   nurses — at what hours, and what is the arrangement with the nearest
+   hospital?
+3. **Detox handling.** If medically supervised withdrawal is part of your
+   situation, where does it physically happen and under whose care?
+4. **Aftercare.** What happens after discharge — follow-up structure,
+   coordination with a provider at home?
+5. **The full price, itemised, in writing** — the standing rule for every
+   facility on this site.
+
+## What we have not read yet
+
+Every named facility above is on this page because it is on the map — not
+because we have completed a sourced read of its own website. Pending
+first-hand reads, the same treatment [[=Diabetes|the diabetes page]] got:
+Dawn Rehab, The River Rehab, Siam Rehab, Rehab Scandinavia, Suan Prung's
+rehabilitation centre, and McKean Rehabilitation Center. Until each read is
+done, this page states only what the map states and lets each facility
+describe itself.
+
+## FAQ
+
+### Which facility is the best one?
+
+This page does not rank facilities and will not — it ranks nothing and
+recommends nothing. The useful work is matching your specific situation
+(medical needs, language, budget, duration) against what each facility states
+about itself, and asking the questions above. That matching is a
+conversation, not a league table.
+
+### Does treatment in Thailand work in English?
+
+The private residentials listed above market internationally; the state route
+via Suan Prung runs in Thai. Language is one of the first questions to ask
+any facility directly — and interpreters are [[=Translators|a thing Defiant
+does]].
+
+### Can Defiant arrange the logistics around treatment?
+
+The travel, visa, interpreter, and paperwork layer — yes; that is what a
+concierge is. The clinical choice stays between you and the facility.
+[[=Contact|Message us]] or see [[=Concierge|what the concierge costs]].
+
+### What if I just need the medical system, not a residential program?
+
+Then start at [[=Hospitals|the hospital guide]] — psychiatric and internal
+medicine departments are ordinary hospital doors, and เลิกเหล้า / ยาเสพติด
+are words every information desk understands.
+
+
+---
+
 # Guides — Working Answers from Chiang Mai
 URL: https://defiant.to/articles/
 
@@ -253,7 +365,7 @@ Gynecology, screening, and women's clinics across Chiang Mai — the mapped faci
 A sympathetic nerve block used for PTSD, hot flashes, and nerve pain — how it works, what the evidence supports, what the appointment is like, and where to ask in Thailand.
 *Reviewed 2026-08-19.*
 
-*13 working guides — every number dated, every table refreshed from the household's own instruments. Last engine pass: 2026-08-26.*
+*13 working guides — every number dated, every table refreshed from the household's own instruments. Last engine pass: 2026-08-27.*
 
 
 ---
@@ -273,21 +385,21 @@ That's the whole calendar. Everything else is numbers and playbook — both belo
 ## Today's number
 
 
-> **Chiang Mai air right now:** PM2.5 **16.1 µg/m³** — Good (US AQI 53). Observed 2026-08-26 05:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
+> **Chiang Mai air right now:** PM2.5 **12.6 µg/m³** — Very good (US AQI 56). Observed 2026-08-27 03:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
 
 
 
 | Date | PM2.5 (µg/m³) | Band |
 |---|---|---|
-| 2026-08-20 | 10 | Very good |
 | 2026-08-21 | 9.2 | Very good |
 | 2026-08-22 | 6.9 | Very good |
 | 2026-08-23 | 8.9 | Very good |
 | 2026-08-24 | 11 | Very good |
-| 2026-08-25 | 9.4 | Very good |
-| 2026-08-26 | 11.7 | Very good |
+| 2026-08-25 | 9.7 | Very good |
+| 2026-08-26 | 12.9 | Very good |
+| 2026-08-27 | 9.5 | Very good |
 
-*The last seven observed days, same model, generated 2026-08-26.*
+*The last seven observed days, same model, generated 2026-08-27.*
 
 
 Two scales float around town: US AQI (the colored 0–500 number) and micrograms of PM2.5 per cubic meter, which is what Thailand's Pollution Control Department bands run on. This page reports **µg/m³ first** because that's what the Thai advisories, school closure decisions, and your purifier's display all speak.
@@ -361,7 +473,7 @@ If it's frightening — chest, breath, head, blood — call **1669** (free, nati
 | **St. Peter Eye Hospital** (โรงพยาบาลตาเซนต์ปีเตอร์) | 053 225 011 | ~2.7 km | Eyes only — cataract and retina work at Chiang Mai prices |
 | **Chiang Mai Neurological Hospital** (โรงพยาบาลประสาทเชียงใหม่) | — | ~2.5 km | Public specialty center for brain and nerve care |
 
-*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-08-26. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
+*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-08-27. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
 
 
 A note on reading it: *private* here (Bangkok, Ram, Lanna, Rajavej, Theppanya, Central Memorial, McCormick) means English at the desk, short queues, card machines, and bills that are real but published. *Public* (Maharaj "Suan Dok", Nakornping) means the deepest specialists in the North at Thai prices, with Thai-first queues that reward patience and a translator — [[=Translators|we know several]].
@@ -388,7 +500,7 @@ A note on reading it: *private* here (Bangkok, Ram, Lanna, Rajavej, Theppanya, C
 Respiratory visits track the smoke calendar. If you're planning care with a breathing component — or timing a surgery with a recovery window — read the [burning season guide](/articles/burning-season/) alongside this one.
 
 
-> **Chiang Mai air right now:** PM2.5 **16.1 µg/m³** — Good (US AQI 53). Observed 2026-08-26 05:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
+> **Chiang Mai air right now:** PM2.5 **12.6 µg/m³** — Very good (US AQI 56). Observed 2026-08-27 03:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
 
 
 ## FAQ
@@ -604,7 +716,7 @@ Dental implants are the procedure that built Thai medical tourism, and the arith
 | [Root Canal Treatment](/procedures/root-canal-treatment/) | $1,000–$2,000 | **$250–$600** | 3–5 nights |
 | [Orthodontics (Braces, Aligners)](/procedures/orthodontics-braces-aligners/) | $4,000–$8,000 | **$1,500–$3,500** | Multi-visit over months — expat/long-stay play, not a fly-in |
 
-*Defiant's standing indicative ranges — 2026 published-aggregator figures, every quote confirmed in writing at intake. Full detail on [[=Procedures|the procedure pages]]. Verified 2026-08-26.*
+*Defiant's standing indicative ranges — 2026 published-aggregator figures, every quote confirmed in writing at intake. Full detail on [[=Procedures|the procedure pages]]. Verified 2026-08-27.*
 
 
 
@@ -762,7 +874,7 @@ Package medicine has one caveat worth saying plainly: screening menus love tests
 | **St. Peter Eye Hospital** (โรงพยาบาลตาเซนต์ปีเตอร์) | 053 225 011 | ~2.7 km | Eyes only — cataract and retina work at Chiang Mai prices |
 | **Chiang Mai Neurological Hospital** (โรงพยาบาลประสาทเชียงใหม่) | — | ~2.5 km | Public specialty center for brain and nerve care |
 
-*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-08-26. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
+*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-08-27. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
 
 
 Every private hospital on the table runs a checkup center; Bangkok Hospital Chiang Mai and Chiang Mai Ram have the biggest package menus, Sriphat brings university faculty to the readout, and McCormick prices gentlest. The [hospital guide](/articles/chiang-mai-hospitals/) covers who's good at what beyond the checkup counter.
@@ -822,7 +934,7 @@ All three, below.
 | **Chai Massage** | 093 250 8068 | ~1.0 km from Tha Phae Gate |
 | **Chiang Mai Foot Massage** | 093 239 3000 | ~0.3 km from Tha Phae Gate |
 
-*Counts and rows from [Mot Dang](https://motdang.net)'s curated set, 2026-08-26. The full map is free: [motdang.net](https://motdang.net).*
+*Counts and rows from [Mot Dang](https://motdang.net)'s curated set, 2026-08-27. The full map is free: [motdang.net](https://motdang.net).*
 
 
 ## The menu, decoded
@@ -925,7 +1037,7 @@ Two practical notes. Bring the **generic name** (the international one, not the 
 | Goodwill Pharmacy | ~0.3 km |
 | Drug Etc | ~0.3 km |
 
-*From Defiant's nightly OpenStreetMap refresh, distances computed straight-line, 2026-08-26. A missing shop is a [fixable report](/contact/).*
+*From Defiant's nightly OpenStreetMap refresh, distances computed straight-line, 2026-08-27. A missing shop is a [fixable report](/contact/).*
 
 
 ## When the pharmacy is the wrong counter
@@ -965,17 +1077,13 @@ Rehab is arithmetic. A knee replacement wants a course of sessions, not a sessio
 ## The clinics, mapped
 
 
-**15 rehabilitation and physical-therapy facilities** are on Defiant's mapped directory. The closest to Tha Phae Gate:
+**7 physiotherapy and physical-rehab facilities** are on Defiant's mapped directory. The closest to Tha Phae Gate:
 
 | Clinic | From Tha Phae Gate |
 |---|---|
 | Physical Therapy Centre | ~1.8 km |
-| The River Rehab | ~2.7 km |
-| สถาบันแมคเคนฯ | ~6.6 km |
-| ศูนย์ฟื้นฟูสมรรถภาพ | ~16.8 km |
-| Dawn Rehab | ~19.7 km |
 
-*From Defiant's nightly OpenStreetMap refresh, straight-line distances, 2026-08-26. Hospital physio departments ride on [the hospital guide](/articles/chiang-mai-hospitals/).*
+*From Defiant's nightly OpenStreetMap refresh, straight-line distances, 2026-08-27. Hospital physio departments ride on [the hospital guide](/articles/chiang-mai-hospitals/).*
 
 
 Three doors, three flavors:
@@ -1051,7 +1159,7 @@ Here's the checklist. Good homes answer all of it gladly — that's rather the p
 | Kanya Nursing Home | ~5.8 km |
 | สถานสงเคราะห์คนชราวัยทองนิเวศน์ | ~38.7 km |
 
-*From Defiant's nightly OpenStreetMap refresh, 2026-08-26. Distance matters twice here — for the family visit, and for the [hospital run](/articles/chiang-mai-hospitals/).*
+*From Defiant's nightly OpenStreetMap refresh, 2026-08-27. Distance matters twice here — for the family visit, and for the [hospital run](/articles/chiang-mai-hospitals/).*
 
 
 ## The vetting visit, step by step
@@ -1133,7 +1241,7 @@ Thai hospitals never close. Emergency rooms run through every holiday on the cal
 | **Dec 10** | Constitution Day | Public holiday |
 | **Dec 31** | New Year's Eve | Travel peaks; book transport early |
 
-*Fixed-date national holidays. Buddhist observances (Makha Bucha, Visakha Bucha, Asalha Bucha, Loy Krathong / Yi Peng) follow the lunar calendar — announced dates appear below when official. Verified 2026-08-26.*
+*Fixed-date national holidays. Buddhist observances (Makha Bucha, Visakha Bucha, Asalha Bucha, Loy Krathong / Yi Peng) follow the lunar calendar — announced dates appear below when official. Verified 2026-08-27.*
 
 
 
@@ -1315,7 +1423,7 @@ Thailand does not use 911, and the number that matters most — **1669**, the na
 | **191** | Police | Any emergency, Thai-first |
 | **199** | Fire & rescue | 24 h |
 
-*National numbers, verified 2026-08-26. Save 1669 before you need it.*
+*National numbers, verified 2026-08-27. Save 1669 before you need it.*
 
 
 **1669** dispatches free public ambulances nationwide, 24 hours. The operators work Thai-first: speak slowly, lead with *where you are* — hotel name, road, district — and hand the phone to any Thai speaker nearby if you can. Hotel front desks make this call flawlessly; "call 1669 for me" is a complete sentence.
@@ -1338,7 +1446,7 @@ Private-hospital ambulances also run 24 h and often arrive faster in town; call 
 | Nakornping Hospital | **— (use 1669)** | ~7.7 km |
 | Theppanya Hospital | **053 852 990** | ~3.2 km |
 
-*Curated by residents, cross-checked against the household map, 2026-08-26. If a line changes, [tell us](/contact/) and it gets fixed the same week.*
+*Curated by residents, cross-checked against the household map, 2026-08-27. If a line changes, [tell us](/contact/) and it gets fixed the same week.*
 
 
 The full picture of who's good at what — public vs private, billing, insurance — lives on [the hospital guide](/articles/chiang-mai-hospitals/).
@@ -1402,7 +1510,7 @@ The household mapped the whole landscape. Here it is.
 | **Dr. Som** | ~0.3 km |
 | **Tha Phae Clinic** (ท่าแพ คลีนิค) | ~0.4 km |
 
-*From the household's Chiang Mai women's-health dataset, refreshed 2026-08-26. A missing clinic is a [fixable report](/contact/).*
+*From the household's Chiang Mai women's-health dataset, refreshed 2026-08-27. A missing clinic is a [fixable report](/contact/).*
 
 
 ## The three doors
@@ -1542,6 +1650,133 @@ course and gets denied by insurers. Quoted in writing before you start.
 
 **Want to explore it?** [[=Contact|Book a free intake call]] — tell us what you're
 after (relief, focus, or just curious) and we'll map real clinics and real evidence.
+
+
+---
+
+# CBT in Chiang Mai — Cognitive Behavioural Therapy in English, With Sources
+URL: https://defiant.to/cbt/
+
+# CBT in Chiang Mai — talk therapy you can actually book
+
+Cognitive behavioural therapy is the most-studied talk therapy there is, and
+the question people actually type — *is there an English-speaking therapist in
+Chiang Mai?* — has a better answer than the forums suggest. This page is the
+map of who **states CBT on their own page**, read from each provider's own
+site on 2026-08-26, with the source attached. Nobody is ranked and nobody paid
+to be here.
+
+*Not medical advice — Defiant is a concierge, not a clinic. Mood is serious;
+this is information about which doors exist and what they say about
+themselves, not treatment and not a recommendation of any medication or
+against one.*
+
+## The words to know
+
+**การบำบัดทางความคิดและพฤติกรรม** (*kan bambat thang khwam-khit lae
+phruettikam* — treatment by thought and behaviour) is CBT; on clinic pages it
+often just appears as "CBT". Two titles readers conflate: a **จิตแพทย์**
+(*chit-ta-phaet*, psychiatrist) is the medical doctor who can prescribe; a
+**นักจิตวิทยา** (*nak-chit-ta-witthaya*, psychologist) or counsellor is who
+sits with you for the weekly talk-therapy work. Many people use both; they are
+different desks.
+
+## Who states CBT, on their own page
+
+### Counselling Thailand — English-first, prices published
+
+A private practice at 53 Chonpratan Road, Suthep, working in **English and
+Thai**, whose own page lists CBT among its methods and — rare in this trade —
+publishes its prices: **2,675 baht for 60 minutes, 3,745 baht for 90**
+(its page's figures; confirm when you book). Monday–Saturday 8am–8pm,
+in person or online.
+
+- **Phone / WhatsApp:** 098-776-8857 · +66 98 776 8857
+- **Source:** [counsellingthailand.com/therapy-chiang-mai](https://counsellingthailand.com/therapy-chiang-mai/)
+
+### Chiang Mai Holistic — the multilingual door
+
+A therapy centre at 17/8 Canal Road, Suthep, listing CBT among its modalities,
+with **bilingual English–Thai therapists in person** and more languages online
+(Mandarin, Malay, Indonesian, Tagalog, Hindi). Monday–Saturday 9am–9pm,
+Sunday from noon. No prices published.
+
+- **Contact:** info@chiangmaiholistic.com · WhatsApp +66 83 248 1250
+- **Source:** [chiangmaiholistic.com](https://www.chiangmaiholistic.com/outpatient-counselling-chiang-mai.php)
+
+### Counseling Chiang Mai — online-first
+
+States CBT, DBT, ACT and mindfulness-based approaches in English and Thai,
+with a free consultation call first. It publishes **no street address or
+phone** — contact runs through its site form, sessions in person "in a private
+setting" or online.
+
+- **Source:** [chiangmaicounseling.com](https://chiangmaicounseling.com/cbt-counseling-chiang-mai/)
+
+### Suan Prung Psychiatric Hospital (โรงพยาบาลสวนปรุง) — the public anchor
+
+The Department of Mental Health's regional psychiatric hospital, and the one
+public institution whose own service page names
+**การบำบัดทางความคิดและพฤติกรรม** — CBT — inside its psychiatric home-ward
+programme. It also states a child-and-adolescent clinic (ages 12–18,
+Mon/Wed/Fri 08:00–16:00, Tue mornings) and a counselling service run by
+psychiatric nurses. Working language is Thai; bring a Thai speaker or ask
+Defiant to sit with you.
+
+- **Phone:** 053-908500 · counselling service ext. 60317, 60323
+- **Source:** [suanprung.go.th](https://www.suanprung.go.th/SP2025/service.php)
+
+### Nakornping Hospital (โรงพยาบาลนครพิงค์) — the public psychiatric clinic
+
+The provincial public hospital's own clinic page states a full psychiatric
+outpatient clinic — depression, anxiety, insomnia, mood disorders — staffed by
+psychiatrists and **clinical psychologists**, in building 16 (the blue
+building), floor 1, Mon–Fri 08:00–16:00. Its page names the clinic and the
+psychologists but not CBT itself, so we print exactly that much.
+Public-hospital pricing and queues; Thai-first.
+
+- **Phone:** 053-999200 ext. 2801, 2809
+- **Source:** [nkp-hospital.go.th](https://www.nkp-hospital.go.th/th/clinic.php)
+
+## How to choose, plainly
+
+- **You want weekly English-language CBT:** the three private practices above
+  are the doors that say so themselves. Ask each the same two questions: *is
+  my therapist trained in CBT specifically*, and *what does a course of 8–12
+  sessions cost*. A practice that publishes prices has already answered half.
+- **You may also need prescriptions** (or an evaluation): that is a
+  psychiatrist — Nakornping's clinic, Suan Prung, or a private จิตแพทย์
+  clinic. Therapy and prescribing can run in parallel at different desks.
+- **Budget matters:** public hospitals cost a fraction of private sessions;
+  the trade is queues and Thai as the working language.
+- **If substances are part of the picture:** CBT is a core tool there too,
+  and both public hospitals above state substance-treatment clinics on the
+  same pages. The doors for that work are mapped on
+  [[=Addiction|the addiction page]].
+- **Depression that has not moved with talk or medication:** TMS is
+  established, FDA-approved psychiatry and Thailand does it well — that story
+  is on [[=Brain|the brain-stimulation page]].
+
+## The checklist before the first session
+
+1. **Ask the CBT question directly** — มีบริการบำบัดแบบ CBT ไหม (*mi borikan
+   bambat baep CBT mai*) — do you offer CBT? A door that says จิตเวช
+   (psychiatry) has not necessarily said talk therapy.
+2. **Bring your story on paper** if you have one: prior diagnoses, what you
+   have tried, current medication by molecule name — the same lesson as our
+   [[=Estradiol|estradiol page]].
+3. **Itemised receipts** — แยกรายการ (*yaek rai kan*) — every session, if any
+   insurer or the VA will ever see this. Veterans: FMP reimburses
+   service-connected care abroad; the walkthrough is [[=VA-FMP]].
+4. *Inference —* teletherapy across borders is an ordinary thing in this trade
+   now; every practice above offers online sessions, so a first video call
+   before you commit to a therapist is a reasonable ask anywhere.
+
+## Want it handled?
+
+Defiant can make the first contact, sit the language gap for the public
+hospitals, and keep the paperwork straight. [[=Concierge|That's the concierge
+page]] — or start with [[=Contact|a message]].
 
 
 ---
@@ -1814,6 +2049,119 @@ Direct-ish routing from most US hubs via Tokyo/Seoul/Taipei/Doha; strong 4G/5G e
 
 ---
 
+# Diabetes Care in Chiang Mai — Ongoing Management, Not a Procedure
+URL: https://defiant.to/diabetes/
+
+# Diabetes care in Chiang Mai — ongoing management, not a procedure
+
+Most medical-tourism pages sell you a surgery: fly in, fix, fly out. Diabetes is
+the opposite kind of medicine — a chronic condition that needs a clinic that
+knows you, quarterly labs, and a pharmacy that always has your medication. That
+is exactly the kind of care Thailand quietly does well for people who live here,
+and this page is the map of who actually states a diabetes/endocrine clinic in
+Chiang Mai — read from each hospital's own website, with the source attached.
+
+*Not medical advice — Defiant is a concierge, not your doctor. Nothing here
+tells you what to take or how much. It tells you which doors exist, what they
+say about themselves, and how to walk in.*
+
+## The word to know
+
+**เบาหวาน** (*bao wan* — literally "sweet urine") is diabetes. The department
+you want is **ต่อมไร้ท่อ** (*tom rai tho*, endocrine — the same clinic handles
+thyroid and hormones), usually inside **อายุรกรรม** (*ayurakam*, internal
+medicine). Say "clinic bao wan" at any hospital information desk and you will
+be pointed correctly.
+
+## Who states a diabetes/endocrine clinic, on their own page
+
+Everything below was read from each institution's own website on 2026-08-26.
+A hospital that is absent here is not a "no" — it just hasn't said it anywhere
+a fetch can read.
+
+### Sriphat Medical Center (ศูนย์ศรีพัฒน์) — the university option
+
+The private wing of Chiang Mai University's Faculty of Medicine. Its services
+page lists **ระบบต่อมไร้ท่อ (โรคเบาหวาน, ไทรอยด์)** — an endocrine clinic for
+diabetes and thyroid, described as being for chronic disease "requiring
+continuous treatment," which is the phrase you want to see. Floors 2–3 of the
+outpatient building. It names four endocrine specialists on the same page.
+
+- **Phone:** 053-934613, 053-934434 · call center 053-936900-1
+- **Source:** [sriphat.med.cmu.ac.th/th/service/detail/6](https://sriphat.med.cmu.ac.th/th/service/detail/6)
+
+### McCormick Hospital (โรงพยาบาลแมคคอร์มิค) — the mission hospital
+
+States a department of **Endocrinology and Metabolism**
+(อายุรกรรมโรคต่อมไร้ท่อและเมตะบอลิสม) covering thyroid, adrenal, pituitary,
+diabetes, obesity, calcium and osteoporosis.
+
+- **Phone:** 053-921777 ext. 1111
+- **Source:** [mccormickhospital.com](https://www.mccormickhospital.com/web/medical)
+
+### Rajavej Chiang Mai Hospital (โรงพยาบาลราชเวช) — the FMP-fluent one
+
+States a **คลินิกต่อมไร้ท่อ** (endocrine clinic), Mondays 17:00–19:00, inside
+a general internal-medicine department open daily 08:00–20:00. Rajavej is also
+the Chiang Mai hospital that publishes its own **TRICARE and VA Foreign Medical
+Program page** with a named desk — if you are a US veteran managing diabetes
+under FMP, this combination matters more than any brochure. See [[=VA-FMP]].
+
+- **Source:** [rajavejchiangmai.com](https://rajavejchiangmai.com/บริการทางการแพทย์/)
+
+### Hugsa Medical, Klang Wiang (ฮักษา กลางเวียง) — the clinic-sized door
+
+Not a hospital: a general clinic inside the old city with its own
+**คลินิกเบาหวาน ไทรอยด์ ต่อมไร้ท่อ** page — diabetes, thyroid, endocrine —
+open daily 10:00–18:00. For routine follow-ups and labs without a hospital's
+queue, a clinic that publishes a diabetes page of its own is worth knowing.
+
+- **Phone:** 093-309-9988
+- **Source:** [hugsamedical.com/คลินิกเบาหวาน](https://hugsamedical.com/คลินิกเบาหวาน/)
+
+### Nakornping Hospital (โรงพยาบาลนครพิงค์) — the public route
+
+The provincial public hospital states specialist internal-medicine clinics
+including **โรคเบาหวาน** — diabetes — **by appointment only** (รับเฉพาะนัด).
+Public-hospital pricing, public-hospital queues; the door exists and says so.
+
+- **Source:** [nkp-hospital.go.th](https://www.nkp-hospital.go.th/)
+
+### Bangkok Hospital Chiang Mai — reported, but unreadable
+
+A diabetes centre at Bangkok Hospital Chiang Mai is reported to exist, but the
+hospital's site renders nothing readable to a fetch, so we will not put words
+in its mouth. **Call 1719** and ask for the diabetes clinic.
+
+## The ongoing-care checklist
+
+What turns a visit into a care relationship, whichever door you pick:
+
+1. **Bring your records.** Your latest HbA1c, medication list, and any
+   complications history. The Thai word for treatment history is
+   **ประวัติการรักษา** (*prawat kan raksa*). Flying in with your supply —
+   insulin in carry-on, prescriptions in your name — has its own rules:
+   [[=Flying-With-Meds|the airport medication page]].
+2. **Ask for an itemised receipt** — **แยกรายการ** (*yaek rai kan*) — every
+   visit. It is what an insurer, FMP, or your accountant will actually read.
+3. **Veterans:** FMP reimburses service-connected care abroad — benefits
+   letter first, then the provider files or you do. The walkthrough is at
+   [[=VA-FMP]], and Rajavej (above) is the local hospital that publishes its
+   own FMP page.
+4. *Inference —* pharmacies in Chiang Mai routinely stock common oral diabetes
+   medications, and hospital pharmacies dispense insulin; bring your
+   prescription and generic (molecule) name, not your home brand name — the
+   same lesson as our [[=Estradiol|estradiol page]].
+
+## Want it handled?
+
+Defiant can book the first appointment, send your records ahead, and sit the
+paperwork next to you. [[=Concierge|That's the concierge page]] — or start
+with [[=Contact|a message]].
+
+
+---
+
 # The DTV Medical Visa — Stay in Thailand as Long as Your Treatment Takes
 URL: https://defiant.to/dtv/
 
@@ -1827,6 +2175,8 @@ visa that lets you stay **up to 180 days per visit** (extendable once by another
 
 Dental work across several trips, a surgery plus real recovery, ongoing HRT, rehab,
 a treatment plan that simply doesn't fit in a tourist stamp — this is the visa for it.
+A multi-entry life also means medication crossing the border both ways, repeatedly —
+[[=Flying-With-Meds|the airport medication rules]] are their own page.
 
 *Not legal or immigration advice — Defiant is a concierge, not the Thai MFA. Every
 figure here is from public sources (linked below); the embassy has the final say.
@@ -2036,6 +2386,187 @@ drug" (ยาอันตราย) classification; Besins Healthcare Thailand (
 manufacturer data for Ovestin (estriol) and Progynon Depot (estradiol valerate);
 PULSE Clinic Thailand. Prices and stock are indicative — confirm at the counter.
 Every clinical claim here is general information, not a prescription.*
+
+
+---
+
+# Flying With Your Meds — Thailand's Airport Rules, Both Directions
+URL: https://defiant.to/flying-with-meds/
+
+# Flying with your meds — Thailand's airport rules, both directions
+
+Nobody standing at the baggage carousel with a bag full of prescriptions should
+be guessing. The rules exist, they are published in English by Thailand's own
+Food and Drug Administration, and for most travelers they are easier than the
+forums make them sound. This page is those rules, read from the FDA's own
+traveler guidance — [inbound, version 5, dated 21 September 2024](https://permitfortraveler.fda.moph.go.th/nct_permit_main/Upload/Guidance%20for%20Travelers%20who%20travel%20into%20Thailand_21092024.pdf)
+and [outbound, version 4, dated 29 January 2021](https://permitfortraveler.fda.moph.go.th/nct_permit_main/Upload/Guidance_for_Travelers_who_travel_out_of_Thailand.pdf) —
+with the source attached to every claim. Rules change; the FDA itself says to
+re-check [the permit portal](https://permitfortraveler.fda.moph.go.th/nct_permit_main/)
+before each trip.
+
+*Not medical advice and not legal advice — Defiant holds no view on what anyone
+should take. This page is about paperwork and borders: which lane your bottle
+goes through and what document it needs.*
+
+## Arriving in Thailand: the three lanes
+
+Which lane you are in depends on what Thai law calls your medicine — not what
+your home country calls it. The FDA runs a
+[check-the-drug search](https://permitfortraveler.fda.moph.go.th/nct_permit_main/Main/FRM_checkdrug_index)
+where you type the generic (molecule) name and get the authority's own answer
+about your own bottle. Use it before you book anything.
+
+### Lane 1 — ordinary prescription medicine: bring it, with papers
+
+Most medication is in this lane: blood-pressure pills, statins, thyroid,
+metformin, insulin, hormones, antidepressants that aren't controlled. The FDA's
+guidance treats medicine as **personal belongings** — green channel, nothing to
+declare — when it is for your own use, **no more than a 30-day supply**, and
+accompanied by a prescription or doctor's certificate in your name. Keep it in
+the original, labeled packaging and keep the prescription with you for the
+whole stay.
+
+*Inference —* the published traveler guidance speaks to the 30-day lane and is
+silent on longer supplies of non-controlled medicine. If you're moving here
+with six months of refills, the clean plays are: carry full documentation for
+all of it, or land with 30 days and have a Thai doctor re-prescribe — most
+common molecules are on Thai shelves, usually cheaper. Our
+[[=Estradiol|estradiol page]] shows how that translation works in practice:
+bring the molecule name, not the US brand name.
+
+### Lane 2 — psychotropics (Schedule II, III, IV): papers to 30 days, permit past it
+
+This is the lane people fall into without knowing it: alprazolam, diazepam,
+clonazepam, lorazepam, zolpidem, zopiclone, temazepam, midazolam,
+methylphenidate, phentermine, phenobarbital — even pseudoephedrine. The FDA's
+stated rule has two tiers:
+
+- **Up to a 30-day supply** — no permit. Carry a certificate or prescription from the prescribing physician with the details listed below, and you're legal.
+- **A 31-to-90-day supply** — you need a **Form IC-2 permit** from the Thai FDA, applied for **at least 15 days before** you land.
+
+### Lane 3 — narcotics (Schedule II, III): permit always, red channel
+
+Opioid and opioid-adjacent medication — codeine, morphine, oxycodone,
+hydrocodone, fentanyl, methadone, pethidine, tapentadol, diphenoxylate — needs
+the **Form IC-2 permit no matter the quantity**, up to a maximum **90-day
+supply**, under the Ministerial Regulation that took effect 21 September 2024.
+On arrival you go through the **red channel** and present the medication,
+permit, and medical documents together.
+
+### The never lane
+
+Some substances cannot enter Thailand with any paperwork, because Thai law
+classes them as having no medical use here. The FDA names **amphetamine and
+dextroamphetamine** — that is Adderall and its relatives, prescribed daily by
+US doctors and flatly non-importable here — plus Schedule I psychotropics such
+as **dronabinol (THC), GHB, and psilocin**. If your treatment depends on one of
+these, the FDA's own advice is to talk to your doctor about alternatives before
+you travel; a Thai psychiatrist can prescribe methylphenidate, which is legal
+here under Lane 2 rules. Don't test this lane. Thai drug law is not a
+negotiation.
+
+## How the Form IC-2 permit actually works
+
+The FDA's stated process, from the guidance document:
+
+- Apply online at [permitfortraveler.fda.moph.go.th](https://permitfortraveler.fda.moph.go.th/nct_permit_main/) **at least 15 days before arrival**; processing takes about **3 working days** once your application is complete.
+- The FDA's own words: use a **PC or laptop with Chrome** — the application cannot be completed on a phone.
+- The permit arrives **by email**. Print it or show the file on your phone; you do not mail original documents anywhere — keep them with you while traveling.
+- At the airport, present medication + permit + medical documents at the **red channel**.
+- If you obtained an import permit on the way in, the FDA states you do **not** need a separate export permit to carry the same medicine home.
+
+## What the prescription has to say
+
+For every controlled lane, the FDA requires a prescription or signed medical
+document containing, exactly:
+
+- Your name and address
+- The diagnosed condition
+- The medication names, strengths, instructions for use, and the reason prescribed
+- The dosage and total amount prescribed
+- The prescribing physician's name, address, and license number
+
+A pharmacy label alone doesn't carry all five. Ask your doctor for a travel
+letter that does — it costs a phone call at home and saves an argument at a
+customs desk.
+
+## Leaving Thailand with Thai-prescribed medicine
+
+The return trip has its own rules, and for medical tourists this is the half
+that matters — you came for treatment, and you're flying home with the
+medication that follows it.
+
+- **Ordinary Thai prescriptions** — keep the hospital or pharmacy label and the receipt. The Thai side is easy; **your destination country's law is the one that bites**. The US lets residents bring in personal-use medication with a prescription; check your own country's rules before assuming.
+- **Psychotropics prescribed here** (the Lane 2 list above) — up to a **30-day supply with the prescription**, no Thai permit required.
+- **Narcotics prescribed here** (Category 2 — the opioid list) — a **Form OC-2 permit** from the Thai FDA, applied for on the same portal **at least two weeks before departure**, up to a 90-day supply. The FDA states the OC-2 also covers whatever remains when you return to Thailand — built for exactly the treated-here, home-for-a-while, back-for-follow-up rhythm our [[=DTV|DTV guide]] describes.
+
+### Bought legally here ≠ flies legally
+
+Chiang Mai will sell you cannabis products in a storefront and kratom at a
+market stall. None of it crosses the border. The FDA's outbound guidance states
+that import and export of cannabis-made medicinal products is prohibited, and
+whatever your destination country thinks of either substance applies on top.
+The rule of thumb that never fails: anything you'd hesitate to hand a customs
+officer with a smile, don't pack.
+
+## The security belt is a different checkpoint
+
+Customs cares what the substance is; security screening cares that it's a
+liquid. Thai airports follow the standard 100ml carry-on rule, with a stated
+exemption: **medication in liquid, gel, or aerosol form over 100ml is allowed
+when accompanied by documentation bearing your name** — a doctor's note or the
+prescription label — and it gets a secondary check at the belt.
+
+*Inference —* temperature-sensitive medication like insulin belongs in your
+carry-on regardless: checked baggage holds freeze, bake, and disappear. A
+cool-bag with your name on the prescription has boarded thousands of flights.
+
+## FAQ
+
+### Do I need any permit for regular medication like blood-pressure pills?
+
+No. Non-controlled medication up to a 30-day supply travels as personal
+belongings — original packaging plus a prescription or doctor's letter in your
+name. Green channel.
+
+### Is Adderall really banned in Thailand?
+
+For import, yes. The Thai FDA lists amphetamine and dextroamphetamine as
+prohibited with no medical use in Thailand — no permit exists for them.
+Methylphenidate is legal here as a Schedule II psychotropic: importable to 30
+days with a prescription, and prescribable by a Thai psychiatrist.
+
+### What about my sleeping pills or anxiety medication?
+
+Most (zolpidem, alprazolam, diazepam, and relatives) are Thai-scheduled
+psychotropics: up to a 30-day supply needs only the prescription; 31 to 90
+days needs the Form IC-2 permit filed at least 15 days before you fly.
+
+### How do I check my specific medicine?
+
+Type the generic name into the Thai FDA's own
+[check-the-drug tool](https://permitfortraveler.fda.moph.go.th/nct_permit_main/Main/FRM_checkdrug_index).
+That answer outranks this page, your pharmacist, and every forum thread.
+
+### Can I take medicine a Thai hospital prescribed back home with me?
+
+Yes — ordinary prescriptions travel with their label and receipt, Thai-scheduled
+psychotropics to 30 days with the prescription, and opioid-class medication
+with a Form OC-2 permit applied for two weeks before departure. Then your home
+country's import rules apply at the other end.
+
+## The part a website can't do
+
+The permit portal is real but bureaucratic, the timing is unforgiving, and the
+prescription-detail requirements are exact. If you're coming for treatment,
+Defiant folds this into the trip plan: we flag which of your medications need
+which lane, get the paperwork lined up against your dates, and make sure the
+letter your doctor writes actually contains the five things Thai customs wants
+to read. [[=Concierge|That's the concierge page]] — or start with
+[[=Contact|a message]].
+
+Questions the FDA answers directly: tnarcotics@fda.moph.go.th · +66 2590 7346.
 
 
 ---
@@ -6245,10 +6776,206 @@ orientation, not counsel.*
 
 ---
 
+# Convalescence in Chiang Mai — The Gap Between Discharge and Well
+URL: https://defiant.to/recovery/
+
+# Recovering in Chiang Mai — the gap between discharge and well
+
+Hospitals everywhere discharge you when you are *stable*, not when you are
+*well*. The weeks between those two states — after surgery, after an illness,
+after a stroke — are convalescence, and most Western healthcare systems
+quietly hand that whole phase back to you and your family. Chiang Mai is a
+genuinely good place to spend it: physiotherapy is affordable and unhurried,
+short-stay care exists, housing is quiet and cheap by Western standards, and
+the [[=Hospitals|hospital you came from]] stays ten minutes away.
+
+*Not medical advice — Defiant is a concierge, not a clinic. Your surgeon's
+discharge plan leads; we build the logistics around it.*
+
+## What convalescence needs, and where it lives here
+
+- **Therapy.** The engine of most recoveries is daily, hands-on
+  physiotherapy — the thing rationed at home and abundant here.
+  **7 physiotherapy and physical-rehab facilities** sit on Defiant's mapped
+  directory (nightly OpenStreetMap refresh), beyond the physio departments
+  inside the hospitals themselves. The full case for doing rehab here is
+  [[=Physiotherapy|its own page]].
+- **A place that can watch you.** For recoveries that need nursing eyes —
+  wound care, mobility help, someone at night — Chiang Mai's care homes are
+  the door. **11 senior-care and geriatric facilities** are on the mapped
+  directory; some take short recuperation stays as well as long-term
+  residents. Which ones state that, at what price, is a facility-by-facility
+  question we check at intake — see [[=Senior-Living|the senior-living page]]
+  for how that sector works.
+- **General rehabilitation centres.** The directory also maps facilities that
+  state rehabilitation without specifying a discipline — in Chiang Mai that
+  includes **McKean Rehabilitation Center** (สถาบันแมคเคนฯ, mckeanhosp.org)
+  and the **Suan Prung Rehabilitation Center** (ศูนย์ฟื้นฟูสมรรถภาพ).
+  Facts here are from the OpenStreetMap crawl; neither institution's own
+  pages have had our sourced read yet (see below).
+- **Time and housing.** A recovery measured in weeks wants a
+  [[=DTV|long-stay visa]] and a quiet ground-floor room, not a hotel
+  checkout date. We arrange both.
+
+## The words to know
+
+- **พักฟื้น** (*phak fuen* — literally "rest-recover") — to convalesce. A
+  สถานพักฟื้น is a convalescent home; the word to use when asking whether a
+  facility takes recuperation stays.
+- **กายภาพบำบัด** (*kayaphap bambat*) — physiotherapy. The department sign to
+  look for in any hospital.
+- **ศูนย์ดูแล** (*sun dulae*) — care centre. The generic sign on private care
+  facilities.
+- **ผู้ป่วยติดเตียง** (*phu puai tit tiang* — literally "patient stuck to the
+  bed") — a bed-bound patient. Blunt, standard Thai; the phrase that tells a
+  facility exactly what level of care you are asking about.
+
+## What we have not read yet
+
+This page is built from Defiant's own directory (OpenStreetMap-derived) and
+the site's existing guides. The first-hand, sourced reads still pending — the
+same treatment [[=Diabetes|the diabetes page]] got — are: McKean
+Rehabilitation Center's own service pages; Suan Prung Rehabilitation Center's
+own statements; and which of the 11 mapped geriatric facilities state
+short-stay convalescent care on their own pages, with prices. Until each is
+read, this page names them without putting words in their mouths.
+
+## FAQ
+
+### Can I fly home right after surgery instead?
+
+Ask your surgeon, not us — fitness to fly is a medical call that depends on
+the procedure. What we can say is that many procedures come with a
+no-fly window, and Chiang Mai is an inexpensive, pleasant place to sit one
+out with daily physio instead of a hotel ceiling.
+
+### Is there such a thing as a convalescent home in Chiang Mai?
+
+The concept exists — สถานพักฟื้น (*sathan phak fuen*) is the Thai term — and
+several care homes take short recuperation stays alongside long-term
+residents. Which specific facilities state it, and at what price, is checked
+per case at intake rather than published unverified here.
+
+### Who coordinates my recovery plan?
+
+Your surgeon's protocol leads. Defiant books the physio course, the housing,
+the interpreter, and the follow-up appointments around it, and hands your
+records to a provider back home when you leave — the same arc described on
+[[=Physiotherapy|the physiotherapy page]].
+
+**Planning a recovery?** [[=Contact|Book a free intake call]] and we'll build
+the discharge-to-well plan around your case.
+
+
+---
+
+# Active Retirement in Chiang Mai — A Life, Not a Facility
+URL: https://defiant.to/retirement/
+
+# Active retirement in Chiang Mai — a life, not a facility
+
+When people hear "retiring to Thailand" they picture one of two extremes: a
+beach bar or a nursing home. Chiang Mai's actual retirement scene is the wide
+middle neither picture shows — **independent living**: your own apartment or
+house, a routine of golf mornings, temple fairs, volunteer shifts, language
+classes, and long café afternoons, with world-class hospitals a short drive
+away for the day you want them and [[=Senior-Living|full care]] as a separate,
+later door — not the front door.
+
+*Not legal or financial advice — Defiant is a concierge. Visa rules change and
+are verified at intake, not recited from memory.*
+
+## What "active" means here
+
+- **You keep your own address.** Condos and houses rent long-term; nobody is
+  handing you a call button. When more care is eventually needed, that is a
+  different page — [[=Senior-Living|senior living & dementia care]] — and the
+  move can wait until it is actually true.
+- **The rhythm suits a retiree.** Chiang Mai runs on early mornings and slow
+  hot afternoons. Markets open at dawn; golf tees off before the heat; the
+  smart season for arriving is the cool months (roughly November–February).
+- **Healthcare is close, not resident.** Routine care works on an outpatient
+  basis at the [[=Hospitals|hospitals we route to]] — a checkup, a
+  [[=Diabetes|diabetes clinic]], [[=Physiotherapy|physio]] — without living
+  inside a medical institution.
+- **The social layer exists.** Expat clubs, volunteer organizations, temple
+  communities, and university events give a newcomer somewhere to show up
+  weekly. We point members at the doors that fit them at intake.
+
+## The visa doors
+
+There are several distinct doors, and picking the right one is most of the
+paperwork battle:
+
+- **[[=DTV|The DTV]]** — the long-stay visa we already document in full,
+  including its medical-treatment track. Five years, multiple entry, up to 180
+  days per visit. For many "not quite ready to emigrate" retirees this is the
+  practical first door.
+- **Non-immigrant O-A and O-X ("retirement") visas** — these categories exist
+  and are the classic retirement route for applicants 50+. *We have not yet
+  done our sourced write-up of their current financial and insurance
+  requirements, so this page will not recite numbers from memory — that is
+  exactly how stale visa advice gets published.* Ask us at intake and we
+  verify against the current official requirements, in writing.
+
+## The words to know
+
+- **เกษียณ** (*kasian*) — retire, retirement. From the same Sanskrit-derived
+  formal register as most Thai officialese; you will see it on bank and visa
+  paperwork.
+- **ผู้สูงอายุ** (*phu sung ayu* — literally "person of high age") — elder,
+  senior. The polite term on every hospital sign and discount schedule.
+- **ดูแลผู้สูงอายุ** (*dulae phu sung ayu*) — elder care. The phrase to search
+  or say when you *do* want the care layer — it is the name of the industry
+  covered on [[=Senior-Living|the senior-living page]].
+
+## What we have not read yet
+
+In keeping with how this site works — we publish what we can source, and say
+so when we can't — the following belong on this page and are pending a
+first-hand, sourced pass: current O-A/O-X financial and insurance thresholds
+from the official immigration sources; a cost-of-living table built from
+receipts rather than folklore. Until then, those subjects get a conversation
+at intake, not a recitation here.
+
+## FAQ
+
+### Is retiring in Chiang Mai the same as moving into a care home?
+
+No — that is the whole point of this page. Active retirement here means
+independent living in your own rented home, with hospitals nearby and social
+life on tap. Residential care is a separate, later decision, documented at
+[[=Senior-Living|senior living & dementia care]].
+
+### Which visa should I retire on?
+
+It depends on age, funds, and how permanent you want to be. The
+[[=DTV|DTV]] suits long trial stays; the O-A/O-X retirement categories exist
+for 50+ applicants and we verify their current requirements case by case
+rather than publishing numbers that go stale. Free intake call; straight
+answer.
+
+### What about when I eventually need more care?
+
+That is the door we built first: [[=Senior-Living|the senior-living page]]
+covers full nursing and dementia care in Chiang Mai, and
+[[=Physiotherapy|physiotherapy]] and [[=Hospitals|the hospital guide]] cover
+the medical layer in between.
+
+**Thinking about it?** [[=Contact|Book a free intake call]] — tell us the
+timeline and we'll tell you which doors are actually open.
+
+
+---
+
 # Senior Living & Dementia Care in Chiang Mai — Full Care at a Fraction of the Cost
 URL: https://defiant.to/senior-living/
 
 # Senior living in Chiang Mai — the option nobody told your family about
+
+*Not ready for a facility? [[=Retirement|Active retirement]] is the
+independent-living page; [[=Recovery|convalescence]] covers short recovery
+stays after surgery or illness.*
 
 Full-time nursing care for an aging parent costs **$5,000–12,000+ a month** in the
 US, UK, or Australia — often for a shared room, understaffed, on a waitlist. In

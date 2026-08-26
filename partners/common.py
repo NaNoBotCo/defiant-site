@@ -18,20 +18,30 @@ DRAFTS = ROOT / "outreach" / "drafts"
 VAULT_PARTNERS = Path.home() / "Documents" / "Defiant" / "Partners"  # NOT under Public Links → never published
 TODAY = date.today().isoformat()
 
-VERTICALS = ["hospital", "geriatric", "rehab", "gyn", "longevity", "aesthetic", "pharmacy", "other"]
+VERTICALS = ["hospital", "geriatric", "physio", "addiction", "rehab", "gyn", "longevity",
+             "aesthetic", "pharmacy", "other"]
 
 # Big chains are the anti-counterfeit answer for hormones; flag them so they
 # rise to the top of the pharmacy list.
 CHAIN_HINTS = ["boots", "watsons", "fascino", "pharmax", "save drug", "icare",
                "exta", "pure", "bignet", "แม็คโคร", "เซฟดรัก", "ฟาสซิโน"]
 
+# Facilities whose names alone don't say "addiction" but which are known addiction-
+# medicine residentials (from the crawl itself); name-matched so they classify right.
+KNOWN_ADDICTION = ["dawn rehab", "the river rehab", "siam rehab", "rehab scandinavia",
+                   "the cabin"]
+
 KEYWORDS = {
     "geriatric": ["ผู้สูงอายุ", "คนชรา", "บ้านพักคนชรา", "เนอร์สซิ่ง", "ดูแลผู้ป่วย", "อัลไซเมอร์",
                   "nursing home", "nursing", "elderly", "senior", "geriatr", "memory care",
                   "dementia", "assisted living", "home care"],
-    "rehab": ["บำบัด", "ฟื้นฟู", "เลิกเหล้า", "ยาเสพติด", "กายภาพบำบัด", "ศูนย์บำบัด",
-              "rehab", "rehabilitation", "recovery", "detox", "addiction", "physiotherap",
-              "physical therapy", "substance", "sober"],
+    # physio must be checked before the generic rehab fallback: กายภาพบำบัด contains บำบัด.
+    "physio": ["กายภาพบำบัด", "physiotherap", "physical therapy"],
+    "addiction": ["เลิกเหล้า", "เลิกยา", "ยาเสพติด", "ศูนย์บำบัดยาเสพติด", "detox", "addiction",
+                  "sober", "substance"],
+    # generic fallback ONLY — ambiguous ฟื้นฟู/บำบัด/rehabilitation names that state
+    # neither physio nor addiction; keeps state/medical rehab centres from orphaning.
+    "rehab": ["บำบัด", "ฟื้นฟู", "ศูนย์บำบัด", "rehab", "rehabilitation"],
     "gyn": ["สูติ", "นรีเวช", "นรีแพทย์", "ผดุงครรภ์", "มีบุตรยาก", "สตรี",
             "gynec", "obstet", "ob-gyn", "obgyn", "women", "fertility", "ivf"],
     "longevity": ["ชะลอวัย", "เวชศาสตร์ฟื้นฟู", "เวลเนส", "ฮอร์โมน", "ดริป", "เซลล์บำบัด",
@@ -45,7 +55,10 @@ KEYWORDS = {
 
 def classify(name: str, name_en: str = "") -> str:
     hay = f"{name} {name_en}".lower()
-    for vert in ["rehab", "geriatric", "gyn", "longevity", "aesthetic"]:
+    if any(k in hay for k in KNOWN_ADDICTION):
+        return "addiction"
+    # order matters: physio and addiction before the generic rehab fallback
+    for vert in ["physio", "addiction", "geriatric", "gyn", "longevity", "aesthetic", "rehab"]:
         if any(k in hay for k in KEYWORDS[vert]):
             return vert
     return "other"

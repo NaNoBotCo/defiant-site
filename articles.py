@@ -381,15 +381,31 @@ def _directory_cat(name):
 
 
 def block_rehab_cm(_topic):
-    cat = _directory_cat("rehab")
+    # consumer is the physiotherapy article — reads the physio category since the
+    # addiction/physio split (addiction facilities ride on block_addiction_cm).
+    cat = _directory_cat("physio")
     rows = _dist_rows(cat.get("items", []), n=10)
-    lines = [f"**{cat.get('count', 0)} rehabilitation and physical-therapy facilities** are on "
+    lines = [f"**{cat.get('count', 0)} physiotherapy and physical-rehab facilities** are on "
              f"Defiant's mapped directory. The closest to Tha Phae Gate:", "",
              "| Clinic | From Tha Phae Gate |", "|---|---|"]
     for km, p in rows:
         lines.append(f"| {_s(p, 'name', 'name_en') or '(unnamed on the map)'} | ~{km:.1f} km |")
     lines.append(f"\n*From Defiant's nightly OpenStreetMap refresh, straight-line distances, {TODAY}. "
                  f"Hospital physio departments ride on [the hospital guide](/articles/chiang-mai-hospitals/).*")
+    return "\n".join(lines)
+
+
+def block_addiction_cm(_topic):
+    cat = _directory_cat("addiction")
+    rows = _dist_rows(cat.get("items", []), n=10)
+    lines = [f"**{cat.get('count', 0)} addiction-medicine and recovery facilities** are on "
+             f"Defiant's mapped directory (several sit outside the Chiang Mai box). "
+             f"Those inside it, from Tha Phae Gate:", "",
+             "| Facility | From Tha Phae Gate |", "|---|---|"]
+    for km, p in rows:
+        lines.append(f"| {_s(p, 'name', 'name_en') or '(unnamed on the map)'} | ~{km:.1f} km |")
+    lines.append(f"\n*From Defiant's nightly OpenStreetMap refresh, straight-line distances, {TODAY}. "
+                 f"Listing here is presence on the map, not a recommendation.*")
     return "\n".join(lines)
 
 
@@ -477,6 +493,7 @@ BLOCKS = {
     "festivals-window": block_festivals_window,
     "thai-holidays": block_thai_holidays,
     "rehab-cm": block_rehab_cm,
+    "addiction-cm": block_addiction_cm,
     "geriatric-cm": block_geriatric_cm,
     "womens-health-cm": block_womens_health_cm,
     "dental-prices": block_dental_prices,
