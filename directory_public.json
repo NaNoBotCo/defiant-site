@@ -5935,7 +5935,7 @@
       }
     },
     "India": {
-      "count": 3671,
+      "count": 3674,
       "cities": {
         "Bengaluru": [
           {
@@ -7282,6 +7282,11 @@
             "name": "GM Hospital",
             "lat": 12.9929463,
             "lon": 77.5386927
+          },
+          {
+            "name": "GM Hospital, Nagarabhavi",
+            "lat": 12.9613237,
+            "lon": 77.511726
           },
           {
             "name": "Ganesh Nursing Home, Bengaluru Urban",
@@ -8769,6 +8774,11 @@
             "lon": 77.6432944
           },
           {
+            "name": "Ovum Women & Child Speciality Hospital",
+            "lat": 12.9072685,
+            "lon": 77.64555
+          },
+          {
             "name": "Oxford Hospital",
             "lat": 12.9312101,
             "lon": 77.5756907
@@ -8802,11 +8812,6 @@
             "name": "Padmavathi Hospital, Bengaluru Urban",
             "lat": 12.9817311,
             "lon": 77.5333714
-          },
-          {
-            "name": "Panacea Hospital, Nagarabhavi",
-            "lat": 12.9613237,
-            "lon": 77.511726
           },
           {
             "name": "Panchamukhi Specialityu Hospital",
@@ -10911,11 +10916,6 @@
             "lon": 80.1424509
           },
           {
-            "name": "Amalya Eye Hospital",
-            "lat": 13.0877615,
-            "lon": 80.2423476
-          },
-          {
             "name": "Amma Hospital",
             "lat": 13.0626045,
             "lon": 80.2305209
@@ -11586,6 +11586,11 @@
             "lon": 80.1315486
           },
           {
+            "name": "Deepam Eye Hospital",
+            "lat": 13.0877615,
+            "lon": 80.2423476
+          },
+          {
             "name": "Deepam Hospital",
             "lat": 12.9294095,
             "lon": 80.1174378
@@ -11827,8 +11832,8 @@
           },
           {
             "name": "Dr. Sathish Kumar Institute Of Child Health and Hospital for Children",
-            "lat": 12.937277,
-            "lon": 80.1390208
+            "lat": 12.9372891,
+            "lon": 80.1390198
           },
           {
             "name": "Dr. Seshiah Diabetes Research Institute and Dr. Balaji Diabetes Care Centre",
@@ -11876,9 +11881,9 @@
             "lon": 80.259169
           },
           {
-            "name": "Dr.Agarwals Eye Hospital",
-            "lat": 12.9832681,
-            "lon": 80.2176077
+            "name": "Dr.Agarwals Eye Hospital - Velacherry",
+            "lat": 12.9832366,
+            "lon": 80.217509
           },
           {
             "name": "Dr.Bala Subramanian",
@@ -12074,6 +12079,11 @@
             "name": "Good Shepard hospital",
             "lat": 12.9810842,
             "lon": 80.2343492
+          },
+          {
+            "name": "Goverment dental hospital & collage",
+            "lat": 13.0829605,
+            "lon": 80.281264
           },
           {
             "name": "Government Hospital",
@@ -12487,8 +12497,13 @@
           },
           {
             "name": "K.H.M. Hospital",
-            "lat": 13.0844992,
-            "lon": 80.2130591
+            "lat": 13.129327,
+            "lon": 80.2152624
+          },
+          {
+            "name": "K.H.M.Hospital",
+            "lat": 13.0844424,
+            "lon": 80.2130723
           },
           {
             "name": "K.J. Hospital",
@@ -12569,11 +12584,6 @@
             "name": "Kanamapet Government Hospital",
             "lat": 13.0298989,
             "lon": 80.2261208
-          },
-          {
-            "name": "Kanchi Kamakoti Childs Trust Hospital",
-            "lat": 13.0573425,
-            "lon": 80.2458975
           },
           {
             "name": "Kannimaram Hospital",
@@ -13049,6 +13059,11 @@
             "name": "Nandhini Hospital",
             "lat": 12.9784706,
             "lon": 80.2247932
+          },
+          {
+            "name": "Nanthini Hospital",
+            "lat": 12.9326457,
+            "lon": 80.2320063
           },
           {
             "name": "Narayanaa Hospital",
@@ -14036,7 +14051,7 @@
             "lon": 80.1810857
           },
           {
-            "name": "Srushti Hospital, Ramapuram",
+            "name": "Srushti Hospital, Kanchipuram",
             "lat": 13.0353484,
             "lon": 80.1822808
           },
@@ -14089,6 +14104,11 @@
             "name": "Subha Hospital",
             "lat": 13.1113868,
             "lon": 80.2923493
+          },
+          {
+            "name": "Subhiksha Hospital",
+            "lat": 12.9740991,
+            "lon": 80.1387607
           },
           {
             "name": "Sudar Hospital",
@@ -14196,11 +14216,6 @@
             "lon": 80.116819
           },
           {
-            "name": "Tamil Nadu Government Dental College & Hospital, Chennai",
-            "lat": 13.084889,
-            "lon": 80.2826483
-          },
-          {
             "name": "Tamil Nadu Government Multi Super Speciality Hospital",
             "lat": 13.0693752,
             "lon": 80.2741496
@@ -14239,6 +14254,11 @@
             "name": "The Best Hospital Private Ltd",
             "lat": 13.0535089,
             "lon": 80.2195494
+          },
+          {
+            "name": "The Child Trust Medical Research Foundation",
+            "lat": 13.0573425,
+            "lon": 80.2458975
           },
           {
             "name": "The Crescent Hospital",
@@ -14646,19 +14666,9 @@
             "lon": 80.2583254
           },
           {
-            "name": "சுபிக்ஷா மருத்துவமனை",
-            "lat": 12.9740991,
-            "lon": 80.1387607
-          },
-          {
             "name": "சைதாப்பேட்டை அரசு மருத்துவமனை",
             "lat": 13.0204577,
             "lon": 80.2240451
-          },
-          {
-            "name": "நந்தினி மருத்துவமனை",
-            "lat": 12.9327959,
-            "lon": 80.2315475
           },
           {
             "name": "புனித இஸ்பேல் மருத்துவமனை",
@@ -17656,6 +17666,11 @@
             "name": "Qrg Hospital",
             "lat": 28.4162674,
             "lon": 77.3189551
+          },
+          {
+            "name": "R G Hospitals",
+            "lat": 28.5540733,
+            "lon": 77.2440645
           },
           {
             "name": "R K Hospital, Gurgaon",
