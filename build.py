@@ -195,6 +195,7 @@ def collect_notes():
     add(PUB / "=Brain.md", "/brain/")
     add(PUB / "=Pelvic.md", "/pelvic/")
     add(PUB / "=Diabetes.md", "/diabetes/")
+    add(PUB / "=Biologics.md", "/biologics/")
     add(PUB / "=Flying-With-Meds.md", "/flying-with-meds/")
     add(PUB / "=CBT.md", "/cbt/")
     add(PUB / "=Physiotherapy.md", "/physiotherapy/")

@@ -50,6 +50,7 @@ premium: you pay what a Thai patient pays.** We're the fixers who live here.
 - [[=Pelvic|Pelvic & sexual wellness — Emsella, shockwave, PRP shots →]]
 - [[=Physiotherapy|Physiotherapy & rehab — recover where it's affordable and unhurried →]]
 - [[=Estradiol|Can't find your HRT / estradiol? Here's the Thai name →]]
+- [[=Biologics|Biologics — the $18,000 psoriasis shot at Thai prices →]]
 - [[=Diabetes|Diabetes & endocrine care — the clinics that state it, with sources →]]
 - [[=Hospitals|The hospitals & clinics we route to →]]
 
@@ -1574,6 +1575,318 @@ Yes — ask at booking rather than after. Private hospitals and established clin
 
 ---
 
+# Biologics in Thailand — The $18,000 Shot That Sells for $1,200 Here
+URL: https://defiant.to/biologics/
+
+# Biologics in Thailand — the same syringe, a different bill
+
+An American on Ilumya pays about **$17,552 a syringe** at the US cash price
+([drugs.com's published figure](https://www.drugs.com/price-guide/ilumya)), four
+syringes a year, and fights the insurer for every one of them. The rumor that the
+same drug costs "under $2,000" in Thailand turns out to be **true and undersold**: a
+Thai dermatology clinic publishes ILUMYA at **42,000 baht — about $1,200 — per
+injection**, on a price list anyone can read
+([Crystal Clinic's psoriasis page](https://www.crystalclinic.net/service/psoriasis/)).
+Same molecule, same brand name, registered with
+[Thailand's own FDA](http://pertento.fda.moph.go.th/FDA_SEARCH_DRUG/SEARCH_DRUG/pop-up_drug.aspx?Newcode_U=U1DR1C1072660000311C),
+with a Thai-language package insert on file at
+[MIMS Thailand](https://mimsshst.blob.core.windows.net/drug-resources/TH/treatmentguideline/attachment/Ilumya_Artwork_PI_TH.pdf).
+
+This page is the roster — drug by drug, for every major biologic, read from Thai FDA
+registrations, MIMS Thailand, the Thai dermatology literature, and clinics' own
+published price lists, with the source attached to every number. Prices are as
+published or as patients reported them, labeled which; confirm in writing before you
+fly.
+
+*Not medical advice — Defiant is a concierge, not your dermatologist. Nothing here
+says what anyone should inject, switch to, or stop; a biologic is serious medicine
+and staying on the right one is a conversation between you and a physician. This
+page is about where the same molecule is sold, what the sellers publish, and what
+the border rules actually say.*
+
+## The arithmetic, up front
+
+Ilumya is dosed once every twelve weeks — four injections a year.
+
+- **US cash price:** ~$17,552 × 4 = **~$70,000 a year** (before the insurance fight).
+- **Thai published price:** 42,000 baht × 4 = 168,000 baht ≈ **$4,800 a year**, plus
+  a dermatologist consult and first-time labs (roughly 5,000–12,000 baht, once) and
+  a hospital's administration fee when they inject it (patients report ~2,000–3,000
+  baht a visit).
+
+Four round-trip tickets fit inside that difference several times over. That is the
+whole page in two bullets; everything below is the detail, the exceptions, and the
+paperwork.
+
+## The words to know
+
+**ยาชีววัตถุ** (*yaa chee-wa-wat-thu* — "biological medicine") is a biologic; the
+psoriasis kind lives in the **แผนกผิวหนัง** (*pha-naek phiu-nang*, dermatology
+department) of a hospital, or a stand-alone **คลินิกผิวหนัง** (*khlinik phiu-nang*,
+dermatology clinic). Psoriasis itself is **โรคสะเก็ดเงิน** (*rok sa-ket ngoen* —
+"silver-scale disease," which is better naming than the Greek managed). As with
+[[=Estradiol|the estradiol lesson]], walk in with the **molecule name** —
+tildrakizumab, secukinumab, dupilumab — not the US brand; sometimes the Thai market
+carries a different label for the identical drug (secukinumab circulates here both
+as Cosentyx and as **Scapho**, its Asian trade name).
+
+## The roster — what Thailand stocks, drug by drug
+
+The anchor source is the Thai dermatology profession itself: a 2025 review by four
+Thai university dermatologists lists exactly which psoriasis biologics are
+["currently available in Thailand"](https://apjai-journal.org/wp-content/uploads/2025/10/7_AP-240425-2072.pdf)
+(*Asian Pacific Journal of Allergy and Immunology* 43:410–421). Cross-checked
+against MIMS Thailand registrations and published Thai prices:
+
+
+
+| Molecule (US brand) | In Thailand? | Thai price sighting | US list per dose |
+|---|---|---|---|
+| tildrakizumab (**Ilumya**) | ✅ as ILUMYA | **42,000 baht/100mg** — published clinic list | ~$17,552 |
+| secukinumab (**Cosentyx**) | ✅ also as Scapho | **11,000 baht/150mg** published; 13,882 baht/monthly dose patient-reported at a government hospital; ~24,000 baht/300mg patient-reported at Bumrungrad | ~$3,968/150mg pen |
+| ixekizumab (**Taltz**) | ✅ | **25,000 baht/80mg** — published clinic list | ~$7,262 |
+| guselkumab (**Tremfya**) | ✅ | **85,000 baht/100mg** published; 70,000 baht patient-reported at the government Institute of Dermatology | ~$14,566 |
+| ustekinumab (**Stelara**) | ✅ | not yet sighted — ask for a written quote | ~$25,497/90mg |
+| adalimumab (**Humira**) | ✅ + biosimilar Amgevita | not yet sighted — ask for a written quote | ~$3,461/pen |
+| etanercept (**Enbrel**) | ✅ | not yet sighted | ~$1,850/50mg |
+| infliximab (**Remicade**) | ✅ + biosimilar Remsima | 27,547 baht/vial patient-reported (Bangkok, 2019); 34,000 baht/vial reported at Chiangmai Ram | infusion, varies |
+| golimumab (**Simponi**) | ✅ | not yet sighted | ~$6,600/pen |
+| dupilumab (**Dupixent**) | ✅ | not yet sighted — Thai hospitals publish explainers but not prices | ~$2,000/pen ($3,993/carton of 2) |
+| omalizumab (**Xolair**) | ✅ | 27,000–40,000 baht/dose patient-reported (Vichaiyut, Bumrungrad) | ~$1,165/150mg |
+| mepolizumab (**Nucala**) | ✅ | not yet sighted | ~$4,000 |
+| benralizumab (**Fasenra**) | ✅ | not yet sighted | ~$5,800 |
+| vedolizumab (**Entyvio**) | ✅ | not yet sighted | ~$3,639/pen |
+| tocilizumab (**Actemra**) | ✅ | not yet sighted | varies |
+| rituximab (**MabThera**) | ✅ — on Thailand's essential-medicines list | government reference ~17,100 baht/150mg-vial equivalent | varies |
+| denosumab (**Prolia**) | ✅ | **16,335 baht all-in package** (drug + doctor + fees) — published hospital package, Bangkok | ~$1,827 |
+| erenumab / galcanezumab / fremanezumab / eptinezumab (the migraine CGRP shots) | ✅ all four | Bangkok neurology clinics publish injection pricing | $700–800/month |
+| semaglutide (**Ozempic / Wegovy**) | ✅ | starter pen 11,000–15,500 baht published; prescription required, no way around it | ~$1,000/month |
+| tirzepatide (**Mounjaro**) | ✅ (launched May 2025) | ask for a written quote | ~$1,080/month |
+| pembrolizumab (**Keytruda**) | ✅ | ~278,000–556,000 baht/cycle at private oncology | ~$11,500/cycle |
+
+
+
+**Published** = a price list you can read yourself today. **Patient-reported** = a
+number a real patient posted with a date and a hospital name — useful, dated, and
+not a quote. Every biologic on this table is prescription medicine dispensed through
+hospitals and clinics; none of it sits on a pharmacy shelf.
+
+### And the ones Thailand does not have — we tell you when the answer is no
+
+- **Bimzelx** (bimekizumab), **Sotyktu** (deucravacitinib), **Tezspire**
+  (tezepelumab), **Evenity** (romosozumab), **Ocrevus**, **Tysabri**, **Cimzia** —
+  no Thai registration we could find. If you're on one of these, Thailand is not
+  currently your refill.
+- **Skyrizi** (risankizumab) is ambiguous: MIMS Thailand carries the molecule
+  monograph, but the Thai dermatologists' available-in-Thailand table omits it and
+  no Thai seller surfaces. Treat it as unavailable until a hospital quotes you in
+  writing.
+- A switch from an unavailable biologic to an available one is exactly the decision
+  this page refuses to make for you — that conversation belongs to you, your US
+  prescriber, and the Thai dermatologist, ideally before anyone books anything.
+
+## How a cash patient walks in
+
+Thai dermatologists prescribe biologics the same way US ones do — after their own
+workup. Expect the standard pre-biologic panel (blood count, liver and kidney
+function, hepatitis B and C, HIV, a TB test, chest X-ray — the same list
+[Siriraj's hospital site describes](https://www.siphhospital.com/th/news/article/share/biologics-psoriasis)),
+roughly 5,000–12,000 baht at private rates, then the drug per dose. Patients
+already mid-therapy report smooth continuation: one described walking into
+Bumrungrad on Cosentyx and walking out with the next dose — the two pens at
+24,000 baht plus about 2,200 baht in nursing and hospital charges
+([ASEAN NOW psoriasis thread](https://aseannow.com/topic/1116740-psoriasis-treatment-in-thailand/),
+July 2024). Bring your records: the diagnosis, what you've failed, what you're on,
+your last labs.
+
+Three kinds of desk, three price levels:
+
+- **Private hospitals** (Bumrungrad, Bangkok Hospital, Samitivej, and their peers) —
+  walk-in, English-speaking, same-week, and the highest markup on the drug itself.
+- **University and government hospitals** (Siriraj, Chulalongkorn, Ramathibodi; in
+  Chiang Mai, Maharaj/Suandok and its private wing Sriphat) — foreigners register as
+  cash patients with a passport and pay the posted price. The cheapest secukinumab
+  sighting on record — 13,882 baht for the monthly dose — came from a government
+  hospital. The trade: early queues, more Thai, longer waits for a first
+  appointment.
+- **The Institute of Dermatology** (สถาบันโรคผิวหนัง) in Bangkok — the government's
+  dedicated skin hospital, where a patient reported Tremfya at 70,000 baht against
+  the private clinic's 85,000.
+
+## Chiang Mai specifically
+
+The published numbers above come mostly from Bangkok and the provinces; Chiang
+Mai's own counters are thinner on paper. What exists: Chiangmai Ram was the source
+of the 34,000-baht Remicade vial report; Sriphat Medical Center is the university
+hospital's private wing and the natural first appointment for a farang cash patient
+with a chronic condition. No Chiang Mai desk publishes a biologic price list we can
+link yet — so this is exactly the case for a written quote before you fly, which is
+[[=Concierge|the kind of thing we do for a living]].
+
+## Four trips a year — or one visa
+
+A quarterly biologic sets a rhythm: fly in, inject, fly home, repeat. At Ilumya
+prices the four-trip version still wins by tens of thousands of dollars. But
+Thailand also built a visa for exactly this rhythm — the DTV medical track lets you
+stay long-term for treatment instead of commuting to it. If the math of your life
+allows it, one residence beats four itineraries: [[=DTV|here's how the DTV works]].
+
+## Flying home with it
+
+The precise version, because forums get this wrong in both directions:
+
+- **What US law says:** importing drugs not FDA-approved for US sale is prohibited —
+  and a Thai-market box of a US-approved drug legally counts as unapproved (foreign
+  facility, foreign labeling). FDA's personal-importation discretion (the ~90-day
+  policy) was written for drugs *unavailable* in the US, which a psoriasis biologic
+  is not. So: no, there is no rule that blesses it.
+- **What actually happens:** CBP's own traveler guidance runs looser — declare it,
+  original packaging, prescription and doctor's letter in your name, personal
+  quantity. Enforcement attention goes to mail shipments and commercial quantities.
+  We found no documented case of a traveler's declared personal biologic being
+  seized — and also no promise it can't be. It is discretion, not a right. Decide
+  with eyes open.
+- **The cold chain is the real gatekeeper.** Every drug on this page lives at
+  2–8°C, and each has a published once-only room-temperature allowance:
+  **Ilumya — 30 days** (one of the most travel-tolerant biologics made), Stelara 30
+  days, Skyrizi / Dupixent / Humira 14 days, Entyvio 7 days, Taltz ~5 days, Cosentyx
+  4 days, Xolair 48 hours, **Tremfya 4 hours** (effectively untransportable without
+  a validated cooler). Read the leaflet in your own box before trusting any number
+  here — labels change, and the leaflet outranks this page.
+- **At the checkpoint:** medically necessary liquids and gel ice packs are exempt
+  from the 100ml rule, even part-melted, syringes fly with the medicine, and all of
+  it rides carry-on — a checked hold can freeze a biologic, which ruins it as surely
+  as heat. The Thailand-side rules, both directions, live on our
+  [[=Flying-With-Meds|flying-with-meds page]].
+
+## Bringing yours in
+
+Coming the other way — arriving in Thailand with your own biologic mid-course — is
+the easy direction. A biologic is ordinary prescription medicine to Thai customs
+(ยาอันตราย, "dangerous drug" class — a pharmacy term, not an accusation), not a
+controlled substance: the 30-day personal lane applies. Original packaging,
+prescription or doctor's letter in your name, carry-on with a cool-bag.
+*Inference —* the guidance counts days of supply, and nobody has published how that
+counts a single syringe that covers twelve weeks; carry the prescription showing
+the dosing interval and let the paper do the talking. The full lane-by-lane
+walkthrough is [[=Flying-With-Meds|here]].
+
+## The other maps — India and China, briefly
+
+- **India** became the 36th Ilumya market in December 2025 — launched by Sun Pharma,
+  the drug's own maker, at **₹84,375 (~$1,000) per dose**
+  ([Business Standard](https://www.business-standard.com/companies/news/sun-pharma-launches-ilumya-india-psoriasis-treatment-125120100301_1.html)).
+  India also runs the world's deepest biosimilar shelf: adalimumab from ~₹5,000
+  (~$60) a syringe, rituximab, omalizumab, denosumab biosimilars at similar
+  fractions — legitimate, at licensed pharmacies, with an Indian prescription.
+  Notably, what India *doesn't* legally stock: Skyrizi, Taltz, and Tremfya are
+  unregistered there.
+- **China's** hospital prices after national reimbursement negotiations are lower
+  still on paper — secukinumab about ¥870 (~$120) per 150mg — but those are prices
+  inside the Chinese hospital system, and we found no clean path for a visiting
+  foreigner; treat China as a data point, not a plan.
+- **The B2B marketplaces are the wrong door.** IndiaMART and Alibaba both return
+  listings for these molecules — including sellers offering drugs that aren't
+  registered in their own country, "manufacturer" claims that are provably false,
+  and prices 88% below the legal maximum, which is not a bargain but a tell. The
+  two best-documented cases of marketplace-sourced injectables ended in a
+  [WHO alert for falsified Ozempic](https://www.who.int/news/item/19-06-2024-medical-product-alert-n-2-2024--falsified-ozempic-(semaglutide))
+  and a
+  [CDC investigation of counterfeit Botox](https://www.cdc.gov/han/2024/han00507.html).
+  An injectable with no verifiable cold chain and no licensed seller is not the
+  same product at a better price; it is a different product. The clean channel is a
+  licensed clinic in a country where the drug is registered — which is exactly what
+  Thailand is, at prices already in India's neighborhood.
+
+## What your US insurance will and won't do
+
+Straight answers, before you book anything:
+
+- **Medicare cannot pay** for drugs dispensed abroad — by statute, not by mood.
+  Private plans almost never cover foreign pharmacies; a few reimburse
+  out-of-network claims with receipts (FEHB plans for federal employees genuinely
+  do). **HSA and FSA money cannot** be used for medicine bought in another country.
+  Plan to self-pay Thai prices; that is the premise of the math, and the math holds
+  anyway.
+- **Veterans:** if your condition is service-connected, the FMP reimburses care
+  abroad — the walkthrough is at [[=VA-FMP|our FMP page]].
+- **Before you fly, know what you're leaving on the table at home.** With
+  *commercial* insurance, the manufacturer copay cards ($0–$5/dose for Ilumya,
+  Skyrizi, Tremfya) can beat any airfare — Medicare and Tricare patients are
+  excluded from those by federal rule, which is often exactly why people end up
+  reading pages like this one. Uninsured under 400% of the federal poverty line:
+  Sun Pharma's Ilumya Support program exists. Denied or delayed coverage on
+  Bimzelx: UCB hands it over at **$15/dose for up to two years** while you appeal.
+  And Humira and Stelara now have US biosimilars at 80–92% off list. Sometimes the
+  answer is a program, not a plane — we'd rather tell you that than sell you a
+  trip.
+
+## FAQ
+
+### Is Ilumya really available in Thailand?
+
+Yes — registered with the Thai FDA under the ILUMYA brand, with a Thai package
+insert, listed by Thai dermatologists among the biologics available in the country,
+and published on at least one clinic's price list at 42,000 baht per 100mg
+injection.
+
+### Do I need a Thai prescription?
+
+Yes. Every drug on this page is prescription medicine dispensed through hospitals
+and specialty clinics. A Thai dermatologist will do their own workup (or read your
+records and recent labs) and prescribe; patients mid-therapy report this as routine.
+
+### Can I skip the doctor and buy it at a pharmacy?
+
+No — and you wouldn't want to. Biologics need an unbroken 2–8°C cold chain and are
+not retail-shelf products in Thailand. The hospital pharmacy hands it over cold and
+injects it properly. Anyone offering these molecules outside that channel is
+offering provenance you cannot verify.
+
+### Is it the same drug as at home?
+
+Same molecule, same originator manufacturer, in Thai-registered packaging — that's
+what the Thai FDA registration means. Where Thailand carries a different trade name
+(Scapho for Cosentyx) or a biosimilar (Amgevita for Humira, Remsima for Remicade),
+this page says so.
+
+### Can I take a year's supply back to the US?
+
+US law doesn't authorize it, and the FDA's 90-day discretion policy technically
+doesn't cover drugs that are available in the US. In practice, declared personal
+quantities with a prescription pass; commercial quantities and mail shipments are
+where enforcement lives. The fuller answer, including each drug's
+out-of-refrigeration window, is in the flying-home section above.
+
+### What does a year of Ilumya in Thailand actually cost?
+
+At the published clinic price: 168,000 baht for four injections, plus one workup
+(~5,000–12,000 baht) and small per-visit fees — call it **$5,000–6,000 all-in**,
+against roughly $70,000 US cash. Get every number in writing before you fly; prices
+here are as published or as patients reported them, not quotes.
+
+## Want it handled?
+
+Defiant can get you the written quote from a named hospital — the drug, the
+administration fee, the consult, in baht, on letterhead — book the dermatologist,
+send your records ahead, and sit the language gap with you. A quarterly rhythm is
+the easiest kind of trip to run twice and then run on rails.
+[[=Concierge|That's the concierge page]] — or start with [[=Contact|a message]].
+
+---
+*Sources: Thai FDA drug registrations (pertento.fda.moph.go.th / ndi.fda.moph.go.th);
+MIMS Thailand product listings; Chularojanamontri et al., Asian Pac J Allergy
+Immunol 2025;43:410–421 (the available-in-Thailand table); Crystal Clinic published
+psoriasis price list; ASEAN NOW patient reports (2019–2024, dated inline); HDmall
+package listings; drugs.com and manufacturer disclosures for US list prices; US FDA
+personal-importation policy and CBP traveler guidance; each drug's US prescribing
+information for storage windows; WHO Medical Product Alert N°2/2024; CDC HAN-00507.
+Prices move and labels change — every figure here is as published on its source
+date, and a written quote from the hospital outranks this page.*
+
+
+---
+
 # Brain Stimulation in Thailand — TMS, tDCS & Neurofeedback for Mood and Focus
 URL: https://defiant.to/brain/
 
@@ -2347,6 +2660,10 @@ sounds scary but it's just Thailand's *behind-the-counter* category:
 - It is **not** a controlled or special-control substance. This is ordinary
  behind-the-counter medicine, like the country treats ibuprofen.
 
+The molecule-not-brand lesson scales all the way up, by the way: the same
+walk-in-and-ask logic applies to the $18,000-a-shot class of medicine —
+[[=Biologics|the biologics page]] is this page with more zeros.
+
 ## Show this to your pharmacist (บอกเภสัชกร)
 
 > **ดิฉัน/ผมใช้ฮอร์โมนเอสโตรเจนเป็นประจำ ขอซื้อ…**
@@ -2521,6 +2838,9 @@ prescription label — and it gets a secondary check at the belt.
 *Inference —* temperature-sensitive medication like insulin belongs in your
 carry-on regardless: checked baggage holds freeze, bake, and disappear. A
 cool-bag with your name on the prescription has boarded thousands of flights.
+Flying with a refrigerated biologic — Ilumya, Cosentyx, Dupixent and their
+class — has its own per-drug clock; the hour-by-hour table is on
+[[=Biologics|the biologics page]].
 
 ## FAQ
 
