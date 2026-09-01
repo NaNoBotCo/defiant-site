@@ -646,7 +646,7 @@
     },
     "pharmacy": {
       "label": "Pharmacies",
-      "count": 615,
+      "count": 616,
       "items": [
         {
           "name": "1988 Pharmacy",
@@ -3407,6 +3407,12 @@
           "name_en": "Hong Ya Pharmacy",
           "lat": 16.5377972,
           "lon": 104.0527502
+        },
+        {
+          "name": "ร้านขายยา อ.เภสัช (สาขาท่าโพธิ์)",
+          "name_en": "",
+          "lat": 16.7608021,
+          "lon": 100.2016868
         },
         {
           "name": "ร้านขายยา เภสัชโบว์",
