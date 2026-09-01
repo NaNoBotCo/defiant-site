@@ -514,13 +514,19 @@
     },
     "aesthetic": {
       "label": "Aesthetic & skin",
-      "count": 16,
+      "count": 17,
       "items": [
         {
           "name": "Begift The Aesthetic Clinic",
           "name_en": "",
           "lat": 7.841614,
           "lon": 98.3349672
+        },
+        {
+          "name": "Clinic",
+          "name_en": "Ponsarin Aesthetic and MedicalSpa",
+          "lat": 18.780001,
+          "lon": 98.9994758
         },
         {
           "name": "Dheva Clinic Aesthetics & Surgery (Dermatology)",
@@ -26130,8 +26136,8 @@
           },
           {
             "name": "Buangkok Green Medical Park",
-            "lat": 1.3821353,
-            "lon": 103.8847334
+            "lat": 1.3823589,
+            "lon": 103.8847677
           },
           {
             "name": "Bukit Merah Joint Testing & Vaccination Centre",
@@ -28096,7 +28102,7 @@
       }
     },
     "Thailand": {
-      "count": 283,
+      "count": 284,
       "cities": {
         "Bangkok": [
           {
@@ -28453,11 +28459,6 @@
             "name": "โรงพยาบาล สินแพทย์ รามอินทรา",
             "lat": 13.8342802,
             "lon": 100.6666008
-          },
-          {
-            "name": "โรงพยาบาล อินทรารัตน์",
-            "lat": 13.8309941,
-            "lon": 100.6725234
           },
           {
             "name": "โรงพยาบาล เปาโล เมโมเรี่ยล",
@@ -28955,6 +28956,11 @@
             "lon": 100.6841823
           },
           {
+            "name": "โรงพยาบาลสินแพทย์ รามอินทรา",
+            "lat": 13.833689,
+            "lon": 100.6665379
+          },
+          {
             "name": "โรงพยาบาลสิรินธร",
             "lat": 13.7176626,
             "lon": 100.7065976
@@ -28983,6 +28989,11 @@
             "name": "โรงพยาบาลอนันต์พัฒนา 2",
             "lat": 13.798235,
             "lon": 100.4766494
+          },
+          {
+            "name": "โรงพยาบาลอินทรารัตน์",
+            "lat": 13.8309941,
+            "lon": 100.6725234
           },
           {
             "name": "โรงพยาบาลฮั้วยันฮัม",
@@ -29522,7 +29533,7 @@
       }
     },
     "Turkey": {
-      "count": 330,
+      "count": 331,
       "cities": {
         "Antalya": [
           {
@@ -30416,6 +30427,11 @@
             "name": "Medicana",
             "lat": 41.0243078,
             "lon": 29.0825509
+          },
+          {
+            "name": "Medicana Ataköy Hastanesi",
+            "lat": 40.976209,
+            "lon": 28.8560397
           },
           {
             "name": "Medicana Ataşehir Hastanesi",
