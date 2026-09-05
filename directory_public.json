@@ -4470,7 +4470,7 @@
           {
             "name": "Clínica Centenario",
             "lat": 4.6056685,
-            "lon": -74.0833605
+            "lon": -74.0833591
           },
           {
             "name": "Clínica Colombia",
@@ -4669,8 +4669,8 @@
           },
           {
             "name": "Hospital El Carmen",
-            "lat": 4.5835619,
-            "lon": -74.1319733
+            "lat": 4.5835716,
+            "lon": -74.1319651
           },
           {
             "name": "Hospital El Tunal",
@@ -4734,7 +4734,7 @@
           },
           {
             "name": "Hospital Santa Clara",
-            "lat": 4.5916716,
+            "lat": 4.5916902,
             "lon": -74.0924836
           },
           {
@@ -4924,8 +4924,8 @@
           },
           {
             "name": "UPA Lourdes",
-            "lat": 4.589292,
-            "lon": -74.0739066
+            "lat": 4.5893068,
+            "lon": -74.0739448
           },
           {
             "name": "UPA Rionegro",
@@ -15356,7 +15356,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.4746541,
+            "lat": 28.473978,
             "lon": 77.2158554
           },
           {
@@ -24535,8 +24535,8 @@
           },
           {
             "name": "KPJ Tawakkal KL Specialist Hospital",
-            "lat": 3.1773236,
-            "lon": 101.6986585
+            "lat": 3.1773153,
+            "lon": 101.6986639
           },
           {
             "name": "Kiara Medical Centre",
@@ -26147,8 +26147,8 @@
           },
           {
             "name": "Buangkok Green Medical Park",
-            "lat": 1.3823589,
-            "lon": 103.8847677
+            "lat": 1.3821353,
+            "lon": 103.8847334
           },
           {
             "name": "Bukit Merah Joint Testing & Vaccination Centre",
@@ -26426,7 +26426,7 @@
             "lon": 103.7229451
           },
           {
-            "name": "Woodlands Hospital",
+            "name": "Woodlands Health Campus",
             "lat": 1.424561,
             "lon": 103.7945949
           },
@@ -27474,7 +27474,7 @@
           },
           {
             "name": "원자력병원",
-            "lat": 37.6292947,
+            "lat": 37.629282,
             "lon": 127.0830818
           },
           {
@@ -27849,8 +27849,8 @@
           },
           {
             "name": "해정병원",
-            "lat": 37.5758192,
-            "lon": 126.9849944
+            "lat": 37.5760692,
+            "lon": 126.9852705
           },
           {
             "name": "햇빛여성병원",
@@ -27926,7 +27926,7 @@
           },
           {
             "name": "Capio Hospital Universitari Sagrat Cor",
-            "lat": 41.3889427,
+            "lat": 41.3889465,
             "lon": 2.1456033
           },
           {
@@ -28113,7 +28113,7 @@
       }
     },
     "Thailand": {
-      "count": 284,
+      "count": 283,
       "cities": {
         "Bangkok": [
           {
@@ -28130,6 +28130,11 @@
             "name": "Bangprakok 9 International Hospital",
             "lat": 13.6819541,
             "lon": 100.474626
+          },
+          {
+            "name": "Camillian Hospital",
+            "lat": 13.7391614,
+            "lon": 100.5835244
           },
           {
             "name": "Chaophya Hospital",
@@ -28472,6 +28477,11 @@
             "lon": 100.6666008
           },
           {
+            "name": "โรงพยาบาล อินทรารัตน์",
+            "lat": 13.8309941,
+            "lon": 100.6725234
+          },
+          {
             "name": "โรงพยาบาล เปาโล เมโมเรี่ยล",
             "lat": 13.5983927,
             "lon": 100.6146528
@@ -28535,11 +28545,6 @@
             "name": "โรงพยาบาลคณะทันตแพทยศาสตร์",
             "lat": 13.7432919,
             "lon": 100.5349465
-          },
-          {
-            "name": "โรงพยาบาลคามิลเลียน",
-            "lat": 13.7391614,
-            "lon": 100.5835244
           },
           {
             "name": "โรงพยาบาลจักษุ รัตนิน",
@@ -28893,7 +28898,7 @@
           },
           {
             "name": "โรงพยาบาลศิริราช",
-            "lat": 13.7578511,
+            "lat": 13.757852,
             "lon": 100.4854072
           },
           {
@@ -28967,11 +28972,6 @@
             "lon": 100.6841823
           },
           {
-            "name": "โรงพยาบาลสินแพทย์ รามอินทรา",
-            "lat": 13.833689,
-            "lon": 100.6665379
-          },
-          {
             "name": "โรงพยาบาลสิรินธร",
             "lat": 13.7176626,
             "lon": 100.7065976
@@ -29000,11 +29000,6 @@
             "name": "โรงพยาบาลอนันต์พัฒนา 2",
             "lat": 13.798235,
             "lon": 100.4766494
-          },
-          {
-            "name": "โรงพยาบาลอินทรารัตน์",
-            "lat": 13.8309941,
-            "lon": 100.6725234
           },
           {
             "name": "โรงพยาบาลฮั้วยันฮัม",
@@ -29544,7 +29539,7 @@
       }
     },
     "Turkey": {
-      "count": 331,
+      "count": 332,
       "cities": {
         "Antalya": [
           {
@@ -30803,6 +30798,11 @@
             "name": "balıklı rum hastanesi vakfı",
             "lat": 40.9996039,
             "lon": 28.9175398
+          },
+          {
+            "name": "erenköy ruh ve sinir sağlığı merkezi çekmeköy ek hizmet binası",
+            "lat": 41.0143219,
+            "lon": 29.1926929
           },
           {
             "name": "istanbul Eğitim ve Araştırma Hastanesi Poliklinikleri",

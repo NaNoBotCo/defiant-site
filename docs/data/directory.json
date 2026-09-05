@@ -14060,7 +14060,7 @@
         "geo": {
           "@type": "GeoCoordinates",
           "latitude": 4.6056685,
-          "longitude": -74.0833605
+          "longitude": -74.0833591
         }
       }
     },
@@ -14819,8 +14819,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 4.5835619,
-          "longitude": -74.1319733
+          "latitude": 4.5835716,
+          "longitude": -74.1319651
         }
       }
     },
@@ -15066,7 +15066,7 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 4.5916716,
+          "latitude": 4.5916902,
           "longitude": -74.0924836
         }
       }
@@ -15788,8 +15788,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 4.589292,
-          "longitude": -74.0739066
+          "latitude": 4.5893068,
+          "longitude": -74.0739448
         }
       }
     },
@@ -55327,7 +55327,7 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 28.4746541,
+          "latitude": 28.473978,
           "longitude": 77.2158554
         }
       }
@@ -90173,8 +90173,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 3.1773236,
-          "longitude": 101.6986585
+          "latitude": 3.1773153,
+          "longitude": 101.6986639
         }
       }
     },
@@ -96215,8 +96215,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 1.3823589,
-          "longitude": 103.8847677
+          "latitude": 1.3821353,
+          "longitude": 103.8847334
         }
       }
     },
@@ -97270,7 +97270,7 @@
       "position": 5120,
       "item": {
         "@type": "Hospital",
-        "name": "Woodlands Hospital",
+        "name": "Woodlands Health Campus",
         "category": "Hospital",
         "address": {
           "@type": "PostalAddress",
@@ -101231,7 +101231,7 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 37.6292947,
+          "latitude": 37.629282,
           "longitude": 127.0830818
         }
       }
@@ -102656,8 +102656,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 37.5758192,
-          "longitude": 126.9849944
+          "latitude": 37.5760692,
+          "longitude": 126.9852705
         }
       }
     },
@@ -102922,7 +102922,7 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 41.3889427,
+          "latitude": 41.3889465,
           "longitude": 2.1456033
         }
       }
@@ -103673,6 +103673,25 @@
       "position": 5457,
       "item": {
         "@type": "Hospital",
+        "name": "Camillian Hospital",
+        "category": "Hospital",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bangkok",
+          "addressCountry": "Thailand"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 13.7391614,
+          "longitude": 100.5835244
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5458,
+      "item": {
+        "@type": "Hospital",
         "name": "Chaophya Hospital",
         "category": "Hospital",
         "address": {
@@ -103689,7 +103708,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5458,
+      "position": 5459,
       "item": {
         "@type": "Hospital",
         "name": "Chularat 3 Hospital",
@@ -103708,7 +103727,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5459,
+      "position": 5460,
       "item": {
         "@type": "Hospital",
         "name": "HE Clinic for men",
@@ -103727,7 +103746,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5460,
+      "position": 5461,
       "item": {
         "@type": "Hospital",
         "name": "Home for the Blind",
@@ -103746,7 +103765,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5461,
+      "position": 5462,
       "item": {
         "@type": "Hospital",
         "name": "Hospital central GENERAL",
@@ -103765,7 +103784,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5462,
+      "position": 5463,
       "item": {
         "@type": "Hospital",
         "name": "Huachiew TCM",
@@ -103784,7 +103803,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5463,
+      "position": 5464,
       "item": {
         "@type": "Hospital",
         "name": "KMB Hospital",
@@ -103803,7 +103822,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5464,
+      "position": 5465,
       "item": {
         "@type": "Hospital",
         "name": "Kudos By Tarakorn",
@@ -103822,7 +103841,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5465,
+      "position": 5466,
       "item": {
         "@type": "Hospital",
         "name": "Mandarin Clinic Rama 4",
@@ -103841,7 +103860,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5466,
+      "position": 5467,
       "item": {
         "@type": "Hospital",
         "name": "PMG Hospital",
@@ -103860,7 +103879,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5467,
+      "position": 5468,
       "item": {
         "@type": "Hospital",
         "name": "Petcharavej Hospital",
@@ -103879,7 +103898,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5468,
+      "position": 5469,
       "item": {
         "@type": "Hospital",
         "name": "Phyathai 3 Hospital",
@@ -103898,7 +103917,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5469,
+      "position": 5470,
       "item": {
         "@type": "Hospital",
         "name": "Prachachuen MRI",
@@ -103917,7 +103936,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5470,
+      "position": 5471,
       "item": {
         "@type": "Hospital",
         "name": "Prodenta Dental Clinic",
@@ -103936,7 +103955,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5471,
+      "position": 5472,
       "item": {
         "@type": "Hospital",
         "name": "Pruksa Clinic",
@@ -103955,7 +103974,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5472,
+      "position": 5473,
       "item": {
         "@type": "Hospital",
         "name": "Public Health Center 11",
@@ -103974,7 +103993,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5473,
+      "position": 5474,
       "item": {
         "@type": "Hospital",
         "name": "Ratchakru Medical Center",
@@ -103993,7 +104012,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5474,
+      "position": 5475,
       "item": {
         "@type": "Hospital",
         "name": "S-Smart Clinic",
@@ -104012,7 +104031,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5475,
+      "position": 5476,
       "item": {
         "@type": "Hospital",
         "name": "Saint Carlos Hospital",
@@ -104031,7 +104050,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5476,
+      "position": 5477,
       "item": {
         "@type": "Hospital",
         "name": "Serene Hospital",
@@ -104050,7 +104069,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5477,
+      "position": 5478,
       "item": {
         "@type": "Hospital",
         "name": "Smile Together Clinic",
@@ -104069,7 +104088,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5478,
+      "position": 5479,
       "item": {
         "@type": "Hospital",
         "name": "Synphaet Hospital Lamlukka",
@@ -104088,7 +104107,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5479,
+      "position": 5480,
       "item": {
         "@type": "Hospital",
         "name": "WellMed clinic",
@@ -104107,7 +104126,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5480,
+      "position": 5481,
       "item": {
         "@type": "Hospital",
         "name": "charisma",
@@ -104126,7 +104145,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5481,
+      "position": 5482,
       "item": {
         "@type": "Hospital",
         "name": "mandarin clinic rama 2",
@@ -104145,7 +104164,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5482,
+      "position": 5483,
       "item": {
         "@type": "Hospital",
         "name": "serithai animalclinic",
@@ -104164,7 +104183,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5483,
+      "position": 5484,
       "item": {
         "@type": "Hospital",
         "name": "คลินิกตจแพทย์",
@@ -104183,7 +104202,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5484,
+      "position": 5485,
       "item": {
         "@type": "Hospital",
         "name": "จิรเวชชาญไชย คลินิกการแพทย์แผนไทย",
@@ -104202,7 +104221,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5485,
+      "position": 5486,
       "item": {
         "@type": "Hospital",
         "name": "ทัณฑสถานโรงพยาบาลราชทัณฑ์",
@@ -104221,7 +104240,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5486,
+      "position": 5487,
       "item": {
         "@type": "Hospital",
         "name": "รพ เกษมราษฎร์ บางแค",
@@ -104240,7 +104259,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5487,
+      "position": 5488,
       "item": {
         "@type": "Hospital",
         "name": "รพ.ตา หู คอ จมูก",
@@ -104259,7 +104278,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5488,
+      "position": 5489,
       "item": {
         "@type": "Hospital",
         "name": "รพ.บ้านแพ้ว พร้อมมิตร",
@@ -104278,7 +104297,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5489,
+      "position": 5490,
       "item": {
         "@type": "Hospital",
         "name": "รพ.เฉพาะทางด้านกระดูกสันหลังและข้อ S-Spine and Joint Hospital",
@@ -104297,7 +104316,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5490,
+      "position": 5491,
       "item": {
         "@type": "Hospital",
         "name": "รพ.เมืองสมุทรปากน้ำ",
@@ -104316,7 +104335,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5491,
+      "position": 5492,
       "item": {
         "@type": "Hospital",
         "name": "ศศิรักษ์คลินิกเวชกรรม",
@@ -104335,7 +104354,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5492,
+      "position": 5493,
       "item": {
         "@type": "Hospital",
         "name": "ศุนย์แพทย์ครอบครัวและชุมชน อบต.บางแก้ว",
@@ -104354,7 +104373,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5493,
+      "position": 5494,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์การแพทย์ปัญญานันทภิกขุ ชลประทาน มหาวิทยาลัยศรีนครินทรวิโรฒ",
@@ -104373,7 +104392,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5494,
+      "position": 5495,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์บริการสาธารณสุข 23 สี่พระยา",
@@ -104392,7 +104411,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5495,
+      "position": 5496,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์บริการสาธารณสุข 24 บางเขน",
@@ -104411,7 +104430,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5496,
+      "position": 5497,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์บริการสาธารณสุข 4 ดินแดง",
@@ -104430,7 +104449,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5497,
+      "position": 5498,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์บริการสาธารณสุข 52 สามเสนนอก",
@@ -104449,7 +104468,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5498,
+      "position": 5499,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์บริการสาธารณสุข 56 ทับเจริญ",
@@ -104468,7 +104487,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5499,
+      "position": 5500,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์บริการสาธารณสุข 59 ทุ่งครุ",
@@ -104487,7 +104506,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5500,
+      "position": 5501,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์บริการสาธารณะสุข 3 บางซื่อ",
@@ -104506,7 +104525,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5501,
+      "position": 5502,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์บริการสาธารณะสุข 67 ทวีวัฒนา",
@@ -104525,7 +104544,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5502,
+      "position": 5503,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์บริการเครื่องช่วยฟังอินทิเม็กซ์",
@@ -104544,7 +104563,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5503,
+      "position": 5504,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์สุขภาพช่องปากขั้นสูง",
@@ -104563,7 +104582,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5504,
+      "position": 5505,
       "item": {
         "@type": "Hospital",
         "name": "สถานพยาบาล",
@@ -104582,7 +104601,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5505,
+      "position": 5506,
       "item": {
         "@type": "Hospital",
         "name": "สถานพยาบาลแพทย์แผนจีน มหาวิทยาลัยราชภัฏจันทรเกษม",
@@ -104601,7 +104620,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5506,
+      "position": 5507,
       "item": {
         "@type": "Hospital",
         "name": "สถานีกาชาดที่ 11 วิเศษนิยม",
@@ -104620,7 +104639,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5507,
+      "position": 5508,
       "item": {
         "@type": "Hospital",
         "name": "สถาบันบำราศนราดูร",
@@ -104639,7 +104658,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5508,
+      "position": 5509,
       "item": {
         "@type": "Hospital",
         "name": "สถาบันประสาทวิทยา",
@@ -104658,7 +104677,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5509,
+      "position": 5510,
       "item": {
         "@type": "Hospital",
         "name": "สถาบันมะเร็งแห่งชาติ",
@@ -104677,7 +104696,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5510,
+      "position": 5511,
       "item": {
         "@type": "Hospital",
         "name": "สถาบันราชานุกูล",
@@ -104696,7 +104715,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5511,
+      "position": 5512,
       "item": {
         "@type": "Hospital",
         "name": "สถาบันสิรินธรฯ",
@@ -104715,7 +104734,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5512,
+      "position": 5513,
       "item": {
         "@type": "Hospital",
         "name": "สถาบันสุขภาพเด็กแห่งชาติมหาราชินี",
@@ -104734,7 +104753,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5513,
+      "position": 5514,
       "item": {
         "@type": "Hospital",
         "name": "สถาบันโรคทรวงอก",
@@ -104753,7 +104772,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5514,
+      "position": 5515,
       "item": {
         "@type": "Hospital",
         "name": "สถาบันโรคผิวหนัง",
@@ -104772,7 +104791,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5515,
+      "position": 5516,
       "item": {
         "@type": "Hospital",
         "name": "สำนักแพทย์และอนามัย การท่าเรือฯ",
@@ -104791,7 +104810,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5516,
+      "position": 5517,
       "item": {
         "@type": "Hospital",
         "name": "สินแพทย์ เมดิคอล เซนเตอร์",
@@ -104810,7 +104829,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5517,
+      "position": 5518,
       "item": {
         "@type": "Hospital",
         "name": "สุขุมาลอนามัย สถานีกาชาดที่ 2",
@@ -104829,7 +104848,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5518,
+      "position": 5519,
       "item": {
         "@type": "Hospital",
         "name": "โณงพยาบาลเกษมราษฎร์ อินเตอร์เนชั่นแนล รัตนาธิเบศร์",
@@ -104848,7 +104867,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5519,
+      "position": 5520,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล จุฬารัตน์ 9",
@@ -104867,7 +104886,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5520,
+      "position": 5521,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล นวมินทร์ 9",
@@ -104886,7 +104905,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5521,
+      "position": 5522,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล พญาไท 1",
@@ -104905,7 +104924,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5522,
+      "position": 5523,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล รามคำแหง",
@@ -104924,7 +104943,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5523,
+      "position": 5524,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล วิภาราม",
@@ -104943,7 +104962,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5524,
+      "position": 5525,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล สินแพทย์ รามอินทรา",
@@ -104962,7 +104981,26 @@
     },
     {
       "@type": "ListItem",
-      "position": 5525,
+      "position": 5526,
+      "item": {
+        "@type": "Hospital",
+        "name": "โรงพยาบาล อินทรารัตน์",
+        "category": "Hospital",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bangkok",
+          "addressCountry": "Thailand"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 13.8309941,
+          "longitude": 100.6725234
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5527,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล เปาโล เมโมเรี่ยล",
@@ -104981,7 +105019,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5526,
+      "position": 5528,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล เปาโลพระประแดง",
@@ -105000,7 +105038,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5527,
+      "position": 5529,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล เพชรเวช",
@@ -105019,7 +105057,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5528,
+      "position": 5530,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล เสรีรักษ์",
@@ -105038,7 +105076,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5529,
+      "position": 5531,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลกรุงธน 2",
@@ -105057,7 +105095,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5530,
+      "position": 5532,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลกรุงเทพ",
@@ -105076,7 +105114,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5531,
+      "position": 5533,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลกรุงเทพคริสเตียน",
@@ -105095,7 +105133,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5532,
+      "position": 5534,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลกรุงไทย",
@@ -105114,7 +105152,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5533,
+      "position": 5535,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลกรุณาพิทักษ์",
@@ -105133,7 +105171,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5534,
+      "position": 5536,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลกลาง",
@@ -105152,7 +105190,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5535,
+      "position": 5537,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลกล้วยน้ำไท",
@@ -105171,7 +105209,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5536,
+      "position": 5538,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลการไฟฟ้านครหลวง",
@@ -105190,7 +105228,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5537,
+      "position": 5539,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลคณะทันตแพทยศาสตร์",
@@ -105209,26 +105247,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5538,
-      "item": {
-        "@type": "Hospital",
-        "name": "โรงพยาบาลคามิลเลียน",
-        "category": "Hospital",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Bangkok",
-          "addressCountry": "Thailand"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 13.7391614,
-          "longitude": 100.5835244
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 5539,
+      "position": 5540,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลจักษุ รัตนิน",
@@ -105247,7 +105266,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5540,
+      "position": 5541,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลจุฬาภรณ์",
@@ -105266,7 +105285,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5541,
+      "position": 5542,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลจุฬาลงกรณ์",
@@ -105285,7 +105304,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5542,
+      "position": 5543,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลชุมชน นาควัชระอุทิศ",
@@ -105304,7 +105323,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5543,
+      "position": 5544,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลดับเบิลยูไอเอชอินเตอร์เนชั่นแนล",
@@ -105323,7 +105342,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5544,
+      "position": 5545,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลตากสิน",
@@ -105342,7 +105361,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5545,
+      "position": 5546,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลตำรวจ",
@@ -105361,7 +105380,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5546,
+      "position": 5547,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลทศมินทราธิราช",
@@ -105380,7 +105399,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5547,
+      "position": 5548,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลธนบุรี",
@@ -105399,7 +105418,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5548,
+      "position": 5549,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลธนบุรีทวีวัฒนา",
@@ -105418,7 +105437,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5549,
+      "position": 5550,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลธนบุรีบำรุงเมือง",
@@ -105437,7 +105456,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5550,
+      "position": 5551,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลนครธน",
@@ -105456,7 +105475,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5551,
+      "position": 5552,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลนนทเวช",
@@ -105475,7 +105494,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5552,
+      "position": 5553,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลนพรัตนราชธานี",
@@ -105494,7 +105513,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5553,
+      "position": 5554,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลนวเวช",
@@ -105513,7 +105532,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5554,
+      "position": 5555,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบางกรวย",
@@ -105532,7 +105551,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5555,
+      "position": 5556,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบางกรวย 2",
@@ -105551,7 +105570,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5556,
+      "position": 5557,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบางจาก",
@@ -105570,7 +105589,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5557,
+      "position": 5558,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบางนากรุงเทพมหานคร",
@@ -105589,7 +105608,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5558,
+      "position": 5559,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบางบัวทอง",
@@ -105608,7 +105627,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5559,
+      "position": 5560,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบางปะกอก 1",
@@ -105627,7 +105646,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5560,
+      "position": 5561,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบางปะกอก 8",
@@ -105646,7 +105665,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5561,
+      "position": 5562,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบางพลี",
@@ -105665,7 +105684,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5562,
+      "position": 5563,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบางมด",
@@ -105684,7 +105703,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5563,
+      "position": 5564,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบางโพ",
@@ -105703,7 +105722,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5564,
+      "position": 5565,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบางใหญ่",
@@ -105722,7 +105741,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5565,
+      "position": 5566,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบางไผ่",
@@ -105741,7 +105760,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5566,
+      "position": 5567,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบำรุงราษฎร์",
@@ -105760,7 +105779,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5567,
+      "position": 5568,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบีเอ็นเอช",
@@ -105779,7 +105798,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5568,
+      "position": 5569,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบีแคร์เมดิคอลเซ็นเตอร์",
@@ -105798,7 +105817,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5569,
+      "position": 5570,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบุรฉัตรไชยากร",
@@ -105817,7 +105836,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5570,
+      "position": 5571,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบุษราคัมจิตการุณย์",
@@ -105836,7 +105855,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5571,
+      "position": 5572,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลปากเกร็ด",
@@ -105855,7 +105874,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5572,
+      "position": 5573,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลปิยะเวท",
@@ -105874,7 +105893,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5573,
+      "position": 5574,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลผิวหนังอโศก",
@@ -105893,7 +105912,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5574,
+      "position": 5575,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลผู้สูงอายุบางขุนเทียน",
@@ -105912,7 +105931,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5575,
+      "position": 5576,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลพญาไท 1",
@@ -105931,7 +105950,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5576,
+      "position": 5577,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลพญาไท 2",
@@ -105950,7 +105969,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5577,
+      "position": 5578,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลพญาไท นวมินทร์",
@@ -105969,7 +105988,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5578,
+      "position": 5579,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลพญาไท พหลโยธิน",
@@ -105988,7 +106007,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5579,
+      "position": 5580,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลพระนั่งเกล้า",
@@ -106007,7 +106026,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5580,
+      "position": 5581,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลพระมงกุฎเกล้า",
@@ -106026,7 +106045,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5581,
+      "position": 5582,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลพระราม 9",
@@ -106045,7 +106064,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5582,
+      "position": 5583,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลพระสมุทรเจดีย์วาทยานนท์",
@@ -106064,7 +106083,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5583,
+      "position": 5584,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลพริ้นซ์ สุวรรณภูมิ",
@@ -106083,7 +106102,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5584,
+      "position": 5585,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลพานาซีพระราม 2",
@@ -106102,7 +106121,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5585,
+      "position": 5586,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลภูมิพลอดุลยเดช",
@@ -106121,7 +106140,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5586,
+      "position": 5587,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลมงกุฎวัฒนะ",
@@ -106140,7 +106159,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5587,
+      "position": 5588,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลมิชชั่น",
@@ -106159,7 +106178,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5588,
+      "position": 5589,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลมิตรประชา",
@@ -106178,7 +106197,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5589,
+      "position": 5590,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลมิตรภาพ",
@@ -106197,7 +106216,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5590,
+      "position": 5591,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลมิราเคิล อ๊อฟไลท์",
@@ -106216,7 +106235,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5591,
+      "position": 5592,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลมเหสักข์",
@@ -106235,7 +106254,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5592,
+      "position": 5593,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลยันฮี",
@@ -106254,7 +106273,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5593,
+      "position": 5594,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลยุวประสาทไวทโยปถัมถ์",
@@ -106273,7 +106292,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5594,
+      "position": 5595,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลรัชดา-ท่าพระ",
@@ -106292,7 +106311,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5595,
+      "position": 5596,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลราช ประชาสมาสัย",
@@ -106311,7 +106330,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5596,
+      "position": 5597,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลราชพิพัฒน์",
@@ -106330,7 +106349,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5597,
+      "position": 5598,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลราชวิถี",
@@ -106349,7 +106368,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5598,
+      "position": 5599,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลรามาธิบดี",
@@ -106368,7 +106387,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5599,
+      "position": 5600,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลรามาสุขสวัสดิ์",
@@ -106387,7 +106406,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5600,
+      "position": 5601,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลราษฎร์บูรณะ",
@@ -106406,7 +106425,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5601,
+      "position": 5602,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลลาดพร้าว",
@@ -106425,7 +106444,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5602,
+      "position": 5603,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลวิชัยยุทธ",
@@ -106444,7 +106463,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5603,
+      "position": 5604,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลวิชัยเวช อินเตอร์เนชั่นแนล หนองแขม",
@@ -106463,7 +106482,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5604,
+      "position": 5605,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลวิภารามปากเกร็ด",
@@ -106482,7 +106501,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5605,
+      "position": 5606,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลวิภาวดี",
@@ -106501,7 +106520,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5606,
+      "position": 5607,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลวิมุต",
@@ -106520,7 +106539,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5607,
+      "position": 5608,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลศรีธัญญา",
@@ -106539,7 +106558,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5608,
+      "position": 5609,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลศิครินทร์",
@@ -106558,7 +106577,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5609,
+      "position": 5610,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลศิริราช",
@@ -106570,14 +106589,14 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 13.7578511,
+          "latitude": 13.757852,
           "longitude": 100.4854072
         }
       }
     },
     {
       "@type": "ListItem",
-      "position": 5610,
+      "position": 5611,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลศิริราช ปิยมหาราชการุณย์",
@@ -106596,7 +106615,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5611,
+      "position": 5612,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลศูนย์การแพทย์วิชัยยุทธ",
@@ -106615,7 +106634,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5612,
+      "position": 5613,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสงฆ์",
@@ -106634,7 +106653,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5613,
+      "position": 5614,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสถาบันโรคไตภูมิราชนครินทร์",
@@ -106653,7 +106672,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5614,
+      "position": 5615,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมิติเวช",
@@ -106672,7 +106691,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5615,
+      "position": 5616,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมิติเวช สุขุมวิท",
@@ -106691,7 +106710,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5616,
+      "position": 5617,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมิติเวชธนบุรี",
@@ -106710,7 +106729,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5617,
+      "position": 5618,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมุทรปราการ",
@@ -106729,7 +106748,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5618,
+      "position": 5619,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมเด็จพระปิ่นเกล้า",
@@ -106748,7 +106767,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5619,
+      "position": 5620,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมเด็จพระมหารัชมังคลาจารย์ วรปุญญมหาเถระ",
@@ -106767,7 +106786,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5620,
+      "position": 5621,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมเด็จเจ้าพระยา",
@@ -106786,7 +106805,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5621,
+      "position": 5622,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสยาม",
@@ -106805,7 +106824,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5622,
+      "position": 5623,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสวนเบญจกิติเฉลิมพระเกียรติ 84 พรรษา",
@@ -106824,7 +106843,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5623,
+      "position": 5624,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสายไหม",
@@ -106838,25 +106857,6 @@
           "@type": "GeoCoordinates",
           "latitude": 13.9234182,
           "longitude": 100.6841823
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 5624,
-      "item": {
-        "@type": "Hospital",
-        "name": "โรงพยาบาลสินแพทย์ รามอินทรา",
-        "category": "Hospital",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Bangkok",
-          "addressCountry": "Thailand"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 13.833689,
-          "longitude": 100.6665379
         }
       }
     },
@@ -106979,25 +106979,6 @@
       "position": 5631,
       "item": {
         "@type": "Hospital",
-        "name": "โรงพยาบาลอินทรารัตน์",
-        "category": "Hospital",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Bangkok",
-          "addressCountry": "Thailand"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 13.8309941,
-          "longitude": 100.6725234
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 5632,
-      "item": {
-        "@type": "Hospital",
         "name": "โรงพยาบาลฮั้วยันฮัม",
         "category": "Hospital",
         "address": {
@@ -107014,7 +106995,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5633,
+      "position": 5632,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเกษมราษฎร์ ประชาชื่น",
@@ -107033,7 +107014,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5634,
+      "position": 5633,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเกษมราษฎร์ รามคำแหง",
@@ -107052,7 +107033,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5635,
+      "position": 5634,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเกษมราษฏร์ รัตนาธิเบศร์",
@@ -107071,7 +107052,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5636,
+      "position": 5635,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเจตนิน",
@@ -107090,7 +107071,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5637,
+      "position": 5636,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเจริญกรุงประชารักษ์",
@@ -107109,7 +107090,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5638,
+      "position": 5637,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเซนต์หลุยส์",
@@ -107128,7 +107109,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5639,
+      "position": 5638,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเซ็นทรัล เยอเนอรัล",
@@ -107147,7 +107128,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5640,
+      "position": 5639,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเซ็ลทรัลปาร์ค",
@@ -107166,7 +107147,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5641,
+      "position": 5640,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเดชา",
@@ -107185,7 +107166,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5642,
+      "position": 5641,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเด็ก สินแพทย์",
@@ -107204,7 +107185,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5643,
+      "position": 5642,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเทียนฟ้ามูลนิธิ",
@@ -107223,7 +107204,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5644,
+      "position": 5643,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเมดพาร์ค",
@@ -107242,7 +107223,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5645,
+      "position": 5644,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเมืองสมุทร",
@@ -107261,7 +107242,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5646,
+      "position": 5645,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเมืองสมุทรปู่เจ้าสมิงพราย",
@@ -107280,7 +107261,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5647,
+      "position": 5646,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเมโย",
@@ -107299,7 +107280,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5648,
+      "position": 5647,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเลิดสิน",
@@ -107318,7 +107299,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5649,
+      "position": 5648,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเวชธานี อินเตอร์เนชันแนล",
@@ -107337,7 +107318,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5650,
+      "position": 5649,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเวิลด์เมดิคอล",
@@ -107356,7 +107337,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5651,
+      "position": 5650,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเอส วาย เอช",
@@ -107375,7 +107356,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5652,
+      "position": 5651,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลแพทย์ปัญญา",
@@ -107394,7 +107375,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5653,
+      "position": 5652,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลโรคปอดกรุงเทพ",
@@ -107413,7 +107394,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5654,
+      "position": 5653,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลไทยนครินทร์",
@@ -107432,7 +107413,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5655,
+      "position": 5654,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล​ทหารผ่านศึก​",
@@ -107451,7 +107432,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5656,
+      "position": 5655,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล​เทพธารินทร์",
@@ -107470,7 +107451,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5657,
+      "position": 5656,
       "item": {
         "@type": "Hospital",
         "name": "Bangkok Hospital",
@@ -107489,7 +107470,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5658,
+      "position": 5657,
       "item": {
         "@type": "Hospital",
         "name": "Bangkok Hospital Chiang Mai",
@@ -107508,7 +107489,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5659,
+      "position": 5658,
       "item": {
         "@type": "Hospital",
         "name": "Chang Phuak Branch Nakorn Ping Hospital",
@@ -107527,7 +107508,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5660,
+      "position": 5659,
       "item": {
         "@type": "Hospital",
         "name": "Chiangmai Klaimor Hospital",
@@ -107546,7 +107527,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5661,
+      "position": 5660,
       "item": {
         "@type": "Hospital",
         "name": "Chiangmai Ram Health Centre",
@@ -107565,7 +107546,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5662,
+      "position": 5661,
       "item": {
         "@type": "Hospital",
         "name": "Dental Buddy Clinic (เดนทัลบัดดี้คลินิก)",
@@ -107584,7 +107565,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5663,
+      "position": 5662,
       "item": {
         "@type": "Hospital",
         "name": "Donkaew Community Hospital",
@@ -107603,7 +107584,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5664,
+      "position": 5663,
       "item": {
         "@type": "Hospital",
         "name": "Lamphun Klaimor Hospital",
@@ -107622,7 +107603,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5665,
+      "position": 5664,
       "item": {
         "@type": "Hospital",
         "name": "Lanna Hospital - New Building",
@@ -107641,7 +107622,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5666,
+      "position": 5665,
       "item": {
         "@type": "Hospital",
         "name": "Lanna Hospital Extension",
@@ -107660,7 +107641,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5667,
+      "position": 5666,
       "item": {
         "@type": "Hospital",
         "name": "MIlada Thai-Chinese Medical Clinic",
@@ -107679,7 +107660,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5668,
+      "position": 5667,
       "item": {
         "@type": "Hospital",
         "name": "Mountain View Hospital",
@@ -107698,7 +107679,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5669,
+      "position": 5668,
       "item": {
         "@type": "Hospital",
         "name": "OPD Sriphat Center",
@@ -107717,7 +107698,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5670,
+      "position": 5669,
       "item": {
         "@type": "Hospital",
         "name": "Pring Lamphun Hospital",
@@ -107736,7 +107717,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5671,
+      "position": 5670,
       "item": {
         "@type": "Hospital",
         "name": "San Sai Hospital - Main Building",
@@ -107755,7 +107736,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5672,
+      "position": 5671,
       "item": {
         "@type": "Hospital",
         "name": "Suan Prung Psychiatric Hospital",
@@ -107774,7 +107755,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5673,
+      "position": 5672,
       "item": {
         "@type": "Hospital",
         "name": "animal hospital",
@@ -107793,7 +107774,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5674,
+      "position": 5673,
       "item": {
         "@type": "Hospital",
         "name": "ร้านขายยา",
@@ -107812,7 +107793,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5675,
+      "position": 5674,
       "item": {
         "@type": "Hospital",
         "name": "ร้านยาสวนดอก",
@@ -107831,7 +107812,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5676,
+      "position": 5675,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์สุขภาพ มช",
@@ -107850,7 +107831,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5677,
+      "position": 5676,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์ส่งเสริมพัฒนาการเด็กภาคเหนือจังหวัดเชียงใหม่",
@@ -107869,7 +107850,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5678,
+      "position": 5677,
       "item": {
         "@type": "Hospital",
         "name": "ศูนย์เวชศาสตร์ผู้สูงอายุ เชียงใหม่",
@@ -107888,7 +107869,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5679,
+      "position": 5678,
       "item": {
         "@type": "Hospital",
         "name": "ส่งเสริมสขภาพ",
@@ -107907,7 +107888,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5680,
+      "position": 5679,
       "item": {
         "@type": "Hospital",
         "name": "อนามัย",
@@ -107926,7 +107907,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5681,
+      "position": 5680,
       "item": {
         "@type": "Hospital",
         "name": "เหมืองง่าคลินิกเวชกรรม",
@@ -107945,7 +107926,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5682,
+      "position": 5681,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบานสันกำแพง",
@@ -107964,7 +107945,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5683,
+      "position": 5682,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล สันป่าตอง",
@@ -107983,7 +107964,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5684,
+      "position": 5683,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล เชียงใหม่",
@@ -108002,7 +107983,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5685,
+      "position": 5684,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาล เชียงใหม่เมดิคอลเซ็นเตอร์",
@@ -108021,7 +108002,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5686,
+      "position": 5685,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลกองบิน 41",
@@ -108040,7 +108021,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5687,
+      "position": 5686,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลค่ายกาวิละ",
@@ -108059,7 +108040,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5688,
+      "position": 5687,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลช้างเผือก",
@@ -108078,7 +108059,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5689,
+      "position": 5688,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลดอยสะเก็ด",
@@ -108097,7 +108078,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5690,
+      "position": 5689,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลดารารัศมี",
@@ -108116,7 +108097,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5691,
+      "position": 5690,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลตาเซนต์ปีเตอร์",
@@ -108135,7 +108116,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5692,
+      "position": 5691,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลธัญญารักษ์เชียงใหม่",
@@ -108154,7 +108135,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5693,
+      "position": 5692,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลนครพิงค์",
@@ -108173,7 +108154,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5694,
+      "position": 5693,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลนครพิงค์ แผนกผู้ป่วยนอก",
@@ -108192,7 +108173,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5695,
+      "position": 5694,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลบ้านธิ",
@@ -108211,7 +108192,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5696,
+      "position": 5695,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลประสาทเชียงใหม่",
@@ -108230,7 +108211,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5697,
+      "position": 5696,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลมหาราชนครเชียงใหม่",
@@ -108249,7 +108230,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5698,
+      "position": 5697,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลราชเวช",
@@ -108268,7 +108249,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5699,
+      "position": 5698,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลลานนา",
@@ -108287,7 +108268,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5700,
+      "position": 5699,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลลำพูน",
@@ -108306,7 +108287,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5701,
+      "position": 5700,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสันทราย",
@@ -108325,7 +108306,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5702,
+      "position": 5701,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสารภี",
@@ -108344,7 +108325,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5703,
+      "position": 5702,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสิริเวช",
@@ -108363,7 +108344,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5704,
+      "position": 5703,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลส่งเสริมสุขภาพตำบล",
@@ -108382,7 +108363,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5705,
+      "position": 5704,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลส่งเสริมสุขภาพเชียงใหม่",
@@ -108401,7 +108382,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5706,
+      "position": 5705,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลหมอวงศ์",
@@ -108420,7 +108401,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5707,
+      "position": 5706,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลหริภุญชัยเมมโมเรียล",
@@ -108439,7 +108420,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5708,
+      "position": 5707,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลหางดง",
@@ -108458,7 +108439,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5709,
+      "position": 5708,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเชียงใหม่ราม",
@@ -108477,7 +108458,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5710,
+      "position": 5709,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเซ็นทรัลนิคมลำพูน",
@@ -108496,7 +108477,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5711,
+      "position": 5710,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเซ็นทรัลเชียงใหม่เมโมเรียล",
@@ -108515,7 +108496,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5712,
+      "position": 5711,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเทพปัญญา",
@@ -108534,7 +108515,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5713,
+      "position": 5712,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเทศบาลนครเชียงใหม่",
@@ -108553,7 +108534,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5714,
+      "position": 5713,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลแมคคอมิก",
@@ -108572,7 +108553,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5715,
+      "position": 5714,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลแม่วาง",
@@ -108591,7 +108572,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5716,
+      "position": 5715,
       "item": {
         "@type": "Hospital",
         "name": "Bangkok Hospital Phuket",
@@ -108610,7 +108591,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5717,
+      "position": 5716,
       "item": {
         "@type": "Hospital",
         "name": "Chalong Hospital",
@@ -108629,7 +108610,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5718,
+      "position": 5717,
       "item": {
         "@type": "Hospital",
         "name": "CityCare",
@@ -108648,7 +108629,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5719,
+      "position": 5718,
       "item": {
         "@type": "Hospital",
         "name": "Dr. Bangla Clinic",
@@ -108667,7 +108648,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5720,
+      "position": 5719,
       "item": {
         "@type": "Hospital",
         "name": "FamilyDen Dental Clinic",
@@ -108686,7 +108667,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5721,
+      "position": 5720,
       "item": {
         "@type": "Hospital",
         "name": "Healthplus medical clinic",
@@ -108705,7 +108686,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5722,
+      "position": 5721,
       "item": {
         "@type": "Hospital",
         "name": "MHCP Medical Health Clinic",
@@ -108724,7 +108705,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5723,
+      "position": 5722,
       "item": {
         "@type": "Hospital",
         "name": "Phoenix medical centre",
@@ -108743,7 +108724,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5724,
+      "position": 5723,
       "item": {
         "@type": "Hospital",
         "name": "Phuket Provincial Hospital",
@@ -108762,7 +108743,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5725,
+      "position": 5724,
       "item": {
         "@type": "Hospital",
         "name": "Siam International Clinic",
@@ -108781,7 +108762,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5726,
+      "position": 5725,
       "item": {
         "@type": "Hospital",
         "name": "Thalang hospital",
@@ -108800,7 +108781,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5727,
+      "position": 5726,
       "item": {
         "@type": "Hospital",
         "name": "ตึกอเนกประสงค์ 14 ชั้น;อาคารศูนย์แพทย์ (โรงพยาบาลวชิระภูเก็ต);ที่จอดรถโรงพยาบาลวชิระภูเก็ต",
@@ -108819,7 +108800,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5728,
+      "position": 5727,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลกรุงเทพ ภูเก็ต",
@@ -108838,7 +108819,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5729,
+      "position": 5728,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลฉลอง",
@@ -108857,7 +108838,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5730,
+      "position": 5729,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลดีบุก",
@@ -108876,7 +108857,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5731,
+      "position": 5730,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลถลาง",
@@ -108895,7 +108876,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5732,
+      "position": 5731,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลป่าตอง",
@@ -108914,7 +108895,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5733,
+      "position": 5732,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลมิชชั่น ภูเก็ต",
@@ -108933,7 +108914,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5734,
+      "position": 5733,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลวชิระภูเก็ต",
@@ -108952,7 +108933,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5735,
+      "position": 5734,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสิริโรจน์",
@@ -108971,7 +108952,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5736,
+      "position": 5735,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลองค์การบริหารส่วนจังหวัดภูเก็ต",
@@ -108990,7 +108971,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5737,
+      "position": 5736,
       "item": {
         "@type": "Hospital",
         "name": "ไม้ขาว",
@@ -109009,7 +108990,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5738,
+      "position": 5737,
       "item": {
         "@type": "Hospital",
         "name": "ASV Yaşam Hastanesi",
@@ -109028,7 +109009,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5739,
+      "position": 5738,
       "item": {
         "@type": "Hospital",
         "name": "Akdeniz Üniversitesi Hastanesi",
@@ -109047,7 +109028,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5740,
+      "position": 5739,
       "item": {
         "@type": "Hospital",
         "name": "Antalya Atatürk Devlet Hastanesi",
@@ -109066,7 +109047,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5741,
+      "position": 5740,
       "item": {
         "@type": "Hospital",
         "name": "Antalya Eğitim Ve Araştırma Hastanesi",
@@ -109085,7 +109066,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5742,
+      "position": 5741,
       "item": {
         "@type": "Hospital",
         "name": "Atatürk Devlet Hastanesi Semt Polikliniği",
@@ -109104,7 +109085,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5743,
+      "position": 5742,
       "item": {
         "@type": "Hospital",
         "name": "Aşır Aksu Ek Hizmet Binası",
@@ -109123,7 +109104,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5744,
+      "position": 5743,
       "item": {
         "@type": "Hospital",
         "name": "Dr. Halil ILGIN",
@@ -109142,7 +109123,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5745,
+      "position": 5744,
       "item": {
         "@type": "Hospital",
         "name": "Dünya Göz",
@@ -109161,7 +109142,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5746,
+      "position": 5745,
       "item": {
         "@type": "Hospital",
         "name": "Eye Surgery Antalya",
@@ -109180,7 +109161,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5747,
+      "position": 5746,
       "item": {
         "@type": "Hospital",
         "name": "Kepez Devlet Hastanesi",
@@ -109199,7 +109180,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5748,
+      "position": 5747,
       "item": {
         "@type": "Hospital",
         "name": "Land of Smile",
@@ -109218,7 +109199,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5749,
+      "position": 5748,
       "item": {
         "@type": "Hospital",
         "name": "MedStar Topçular Hastanesi",
@@ -109237,7 +109218,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5750,
+      "position": 5749,
       "item": {
         "@type": "Hospital",
         "name": "Medical Park",
@@ -109256,7 +109237,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5751,
+      "position": 5750,
       "item": {
         "@type": "Hospital",
         "name": "Medstar Antalya Hastanesi",
@@ -109275,7 +109256,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5752,
+      "position": 5751,
       "item": {
         "@type": "Hospital",
         "name": "Memorial Antalya Hastanesi",
@@ -109294,7 +109275,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5753,
+      "position": 5752,
       "item": {
         "@type": "Hospital",
         "name": "Opera Yaşam Hastanesi",
@@ -109313,7 +109294,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5754,
+      "position": 5753,
       "item": {
         "@type": "Hospital",
         "name": "Uncalı Meydan Hastanesi",
@@ -109332,7 +109313,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5755,
+      "position": 5754,
       "item": {
         "@type": "Hospital",
         "name": "cinsel saglık hattı merkezi",
@@ -109351,7 +109332,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5756,
+      "position": 5755,
       "item": {
         "@type": "Hospital",
         "name": "Çallı Meydan Tıp Merkezi",
@@ -109370,7 +109351,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5757,
+      "position": 5756,
       "item": {
         "@type": "Hospital",
         "name": "Özel Akdeniz Şifa Hastanesi",
@@ -109389,7 +109370,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5758,
+      "position": 5757,
       "item": {
         "@type": "Hospital",
         "name": "Özel Antalya Anadolu Hastanesi",
@@ -109408,7 +109389,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5759,
+      "position": 5758,
       "item": {
         "@type": "Hospital",
         "name": "Özel Lara Anadolu Hastanesi",
@@ -109427,7 +109408,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5760,
+      "position": 5759,
       "item": {
         "@type": "Hospital",
         "name": "Özel Ofm Hastanesi",
@@ -109446,7 +109427,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5761,
+      "position": 5760,
       "item": {
         "@type": "Hospital",
         "name": "Özel Olimpos Hastanesi",
@@ -109465,7 +109446,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5762,
+      "position": 5761,
       "item": {
         "@type": "Hospital",
         "name": "Özel Rich Hastanesi",
@@ -109484,7 +109465,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5763,
+      "position": 5762,
       "item": {
         "@type": "Hospital",
         "name": "Özel Vitale Kadın ve Doğum Hastanesi",
@@ -109503,7 +109484,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5764,
+      "position": 5763,
       "item": {
         "@type": "Hospital",
         "name": "Özel Yaşam Hastanesi, Antalya (Life Hospital)",
@@ -109522,7 +109503,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5765,
+      "position": 5764,
       "item": {
         "@type": "Hospital",
         "name": "112 Acil Anadolu Komuta Kontrol Merkezi",
@@ -109541,7 +109522,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5766,
+      "position": 5765,
       "item": {
         "@type": "Hospital",
         "name": "ARES Psikolojik Danışmanlık Merkezi",
@@ -109560,7 +109541,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5767,
+      "position": 5766,
       "item": {
         "@type": "Hospital",
         "name": "ATÜ Erişkin Psikiyatri Poliklinikleri, Hasta Hakları, Sosyal İnceleme",
@@ -109579,7 +109560,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5768,
+      "position": 5767,
       "item": {
         "@type": "Hospital",
         "name": "Academic Hospital",
@@ -109598,7 +109579,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5769,
+      "position": 5768,
       "item": {
         "@type": "Hospital",
         "name": "Acil Tıp Kliniği",
@@ -109617,7 +109598,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5770,
+      "position": 5769,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem",
@@ -109636,7 +109617,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5771,
+      "position": 5770,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem Altunizade Hastanesi",
@@ -109655,7 +109636,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5772,
+      "position": 5771,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem Ataşehir Cerrahi Tıp Merkezi",
@@ -109674,7 +109655,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5773,
+      "position": 5772,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem Ataşehir Hastanesi",
@@ -109693,7 +109674,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5774,
+      "position": 5773,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem Dr. Şinasi Can (Kadıköy) Hastanesi",
@@ -109712,7 +109693,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5775,
+      "position": 5774,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem Fulya Hastanesi",
@@ -109731,7 +109712,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5776,
+      "position": 5775,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem Hospital",
@@ -109750,7 +109731,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5777,
+      "position": 5776,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem International Hospital",
@@ -109769,7 +109750,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5778,
+      "position": 5777,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem Kadıköy Hastanesi",
@@ -109788,7 +109769,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5779,
+      "position": 5778,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem Kozyatağı Hastanesi",
@@ -109807,7 +109788,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5780,
+      "position": 5779,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem Maslak Hastanesi",
@@ -109826,7 +109807,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5781,
+      "position": 5780,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem Taksim Hastanesi",
@@ -109845,7 +109826,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5782,
+      "position": 5781,
       "item": {
         "@type": "Hospital",
         "name": "Acıbadem Üniversitesi Hastanesi",
@@ -109864,7 +109845,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5783,
+      "position": 5782,
       "item": {
         "@type": "Hospital",
         "name": "Aile Hastanesi",
@@ -109883,7 +109864,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5784,
+      "position": 5783,
       "item": {
         "@type": "Hospital",
         "name": "Aksa",
@@ -109902,7 +109883,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5785,
+      "position": 5784,
       "item": {
         "@type": "Hospital",
         "name": "Aksoy Hastanesi",
@@ -109921,7 +109902,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5786,
+      "position": 5785,
       "item": {
         "@type": "Hospital",
         "name": "Aksu Özel Göztepe Hastanesi",
@@ -109940,7 +109921,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5787,
+      "position": 5786,
       "item": {
         "@type": "Hospital",
         "name": "Aktif International Hastanesi Bahçelievler",
@@ -109959,7 +109940,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5788,
+      "position": 5787,
       "item": {
         "@type": "Hospital",
         "name": "Aktif International Hospital",
@@ -109978,7 +109959,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5789,
+      "position": 5788,
       "item": {
         "@type": "Hospital",
         "name": "Alibey Hastanesi",
@@ -109997,7 +109978,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5790,
+      "position": 5789,
       "item": {
         "@type": "Hospital",
         "name": "Alpha Hair Central",
@@ -110016,7 +109997,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5791,
+      "position": 5790,
       "item": {
         "@type": "Hospital",
         "name": "Amerikan Hastanesi",
@@ -110035,7 +110016,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5792,
+      "position": 5791,
       "item": {
         "@type": "Hospital",
         "name": "Arnavutköy Devlet Hastanesi",
@@ -110054,7 +110035,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5793,
+      "position": 5792,
       "item": {
         "@type": "Hospital",
         "name": "AsMed",
@@ -110073,7 +110054,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5794,
+      "position": 5793,
       "item": {
         "@type": "Hospital",
         "name": "Ataköy Hastanesi",
@@ -110092,7 +110073,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5795,
+      "position": 5794,
       "item": {
         "@type": "Hospital",
         "name": "Ataşehir Ağız ve Diş Sağlığı Hastanesi",
@@ -110111,7 +110092,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5796,
+      "position": 5795,
       "item": {
         "@type": "Hospital",
         "name": "Ataşehir Florence Nightingale",
@@ -110130,7 +110111,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5797,
+      "position": 5796,
       "item": {
         "@type": "Hospital",
         "name": "Ataşehir Memorial Hastanesi",
@@ -110149,7 +110130,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5798,
+      "position": 5797,
       "item": {
         "@type": "Hospital",
         "name": "Avcılar Murat Kölük Devlet Hastanesi",
@@ -110168,7 +110149,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5799,
+      "position": 5798,
       "item": {
         "@type": "Hospital",
         "name": "Avicenna Hastanesi",
@@ -110187,7 +110168,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5800,
+      "position": 5799,
       "item": {
         "@type": "Hospital",
         "name": "Avrupa Özel Şafak Hastanesi",
@@ -110206,7 +110187,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5801,
+      "position": 5800,
       "item": {
         "@type": "Hospital",
         "name": "Bahat Özel Hastanesi",
@@ -110225,7 +110206,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5802,
+      "position": 5801,
       "item": {
         "@type": "Hospital",
         "name": "Bahceci",
@@ -110244,7 +110225,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5803,
+      "position": 5802,
       "item": {
         "@type": "Hospital",
         "name": "Bahçelievler Devlet Hastanesi",
@@ -110263,7 +110244,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5804,
+      "position": 5803,
       "item": {
         "@type": "Hospital",
         "name": "Bakırköy 4 Nolu Aile Sağlığı Merkezi",
@@ -110282,7 +110263,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5805,
+      "position": 5804,
       "item": {
         "@type": "Hospital",
         "name": "Bakırköy Dr. Sadi Konuk Eğitim ve Araştırma Hastanesi",
@@ -110301,7 +110282,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5806,
+      "position": 5805,
       "item": {
         "@type": "Hospital",
         "name": "Bakırköy Dr. Sadi Konuk Eğitim ve Araştırma Hastanesi Bahçelievler Polikliniği",
@@ -110320,7 +110301,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5807,
+      "position": 5806,
       "item": {
         "@type": "Hospital",
         "name": "Bakırköy Prof. Dr. Mazhar Osman Ruh Sağlığı ve Sinir Hastalıkları Eğitim ve Araştırma Hastanesi",
@@ -110339,7 +110320,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5808,
+      "position": 5807,
       "item": {
         "@type": "Hospital",
         "name": "Baltalimanı Hastanesi",
@@ -110358,7 +110339,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5809,
+      "position": 5808,
       "item": {
         "@type": "Hospital",
         "name": "Bayrampaşa 1 Nolu Yabancı Uyruklular Polikliniği",
@@ -110377,7 +110358,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5810,
+      "position": 5809,
       "item": {
         "@type": "Hospital",
         "name": "Bayrampaşa Devlet Hastanesi",
@@ -110396,7 +110377,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5811,
+      "position": 5810,
       "item": {
         "@type": "Hospital",
         "name": "Bayrampaşa Göz Hastanesi",
@@ -110415,7 +110396,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5812,
+      "position": 5811,
       "item": {
         "@type": "Hospital",
         "name": "Bayrampaşa İlçe Sağlık Müdürlüğü",
@@ -110434,7 +110415,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5813,
+      "position": 5812,
       "item": {
         "@type": "Hospital",
         "name": "Bayındır Hastanesi İçerenköy",
@@ -110453,7 +110434,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5814,
+      "position": 5813,
       "item": {
         "@type": "Hospital",
         "name": "Bayındır Levent Tıp Merkezi",
@@ -110472,7 +110453,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5815,
+      "position": 5814,
       "item": {
         "@type": "Hospital",
         "name": "Bağcılar 28 Nolu Aile Sağlığı Merkezi",
@@ -110491,7 +110472,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5816,
+      "position": 5815,
       "item": {
         "@type": "Hospital",
         "name": "Bağcılar Eğitim ve Araştırma Hastanesi",
@@ -110510,7 +110491,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5817,
+      "position": 5816,
       "item": {
         "@type": "Hospital",
         "name": "Bağcılar Meydan TRSM",
@@ -110529,7 +110510,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5818,
+      "position": 5817,
       "item": {
         "@type": "Hospital",
         "name": "Bağcılar İşitme Engelli Rehabilitasyon Merkezi",
@@ -110548,7 +110529,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5819,
+      "position": 5818,
       "item": {
         "@type": "Hospital",
         "name": "Başakşehir Devlet Hastanesi",
@@ -110567,7 +110548,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5820,
+      "position": 5819,
       "item": {
         "@type": "Hospital",
         "name": "Başakşehir Tıp Merkezi",
@@ -110586,7 +110567,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5821,
+      "position": 5820,
       "item": {
         "@type": "Hospital",
         "name": "Başakşehir Çam ve Sakura Şehir Hastanesi",
@@ -110605,7 +110586,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5822,
+      "position": 5821,
       "item": {
         "@type": "Hospital",
         "name": "Başkent Üniversitesi İstanbul Sağlık Uygulama ve Araştırma Merkezi Hastanesi",
@@ -110624,7 +110605,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5823,
+      "position": 5822,
       "item": {
         "@type": "Hospital",
         "name": "Belde Tıp Merkezi",
@@ -110643,7 +110624,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5824,
+      "position": 5823,
       "item": {
         "@type": "Hospital",
         "name": "Beykoz Devlet Hastanesi",
@@ -110662,7 +110643,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5825,
+      "position": 5824,
       "item": {
         "@type": "Hospital",
         "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Hizmet Birimi",
@@ -110681,7 +110662,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5826,
+      "position": 5825,
       "item": {
         "@type": "Hospital",
         "name": "Beykoz Devlet Hastanesi Toplum Ruh Sağlığı Merkezi",
@@ -110700,7 +110681,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5827,
+      "position": 5826,
       "item": {
         "@type": "Hospital",
         "name": "Beyoglu",
@@ -110719,7 +110700,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5828,
+      "position": 5827,
       "item": {
         "@type": "Hospital",
         "name": "Beyoğlu Göz Hastanesi",
@@ -110738,7 +110719,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5829,
+      "position": 5828,
       "item": {
         "@type": "Hospital",
         "name": "Bezmialem Vakıf Üniversitesi Tıp Fakültesi Acil Tıp",
@@ -110757,7 +110738,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5830,
+      "position": 5829,
       "item": {
         "@type": "Hospital",
         "name": "Bezmialem Üniversitesi Dragos Hastanesi",
@@ -110776,7 +110757,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5831,
+      "position": 5830,
       "item": {
         "@type": "Hospital",
         "name": "Bezmialem Üniversitesi İlhan Varank Yerleşkesi",
@@ -110795,7 +110776,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5832,
+      "position": 5831,
       "item": {
         "@type": "Hospital",
         "name": "Biruni Üniversitesi Tıp Fakültesi Hastanesi",
@@ -110814,7 +110795,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5833,
+      "position": 5832,
       "item": {
         "@type": "Hospital",
         "name": "Bolluca Sağlık Ocağı",
@@ -110833,7 +110814,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5834,
+      "position": 5833,
       "item": {
         "@type": "Hospital",
         "name": "Cemal Pamuk Aile Sağlığı Merkezi",
@@ -110852,7 +110833,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5835,
+      "position": 5834,
       "item": {
         "@type": "Hospital",
         "name": "Central Hospital",
@@ -110871,7 +110852,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5836,
+      "position": 5835,
       "item": {
         "@type": "Hospital",
         "name": "Cerrahpaşa Tıp Fakültesi",
@@ -110890,7 +110871,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5837,
+      "position": 5836,
       "item": {
         "@type": "Hospital",
         "name": "Dayıoğlu Tıp Merkezi",
@@ -110909,7 +110890,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5838,
+      "position": 5837,
       "item": {
         "@type": "Hospital",
         "name": "Delta Hospital",
@@ -110928,7 +110909,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5839,
+      "position": 5838,
       "item": {
         "@type": "Hospital",
         "name": "Diş Sağlık Merkezi",
@@ -110947,7 +110928,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5840,
+      "position": 5839,
       "item": {
         "@type": "Hospital",
         "name": "Doktor Levent Polikliniği",
@@ -110966,7 +110947,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5841,
+      "position": 5840,
       "item": {
         "@type": "Hospital",
         "name": "Dora Hospital",
@@ -110985,7 +110966,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5842,
+      "position": 5841,
       "item": {
         "@type": "Hospital",
         "name": "Dr. Lütfi Kırdar Kartal Eğitim ve Araştırma Hastanesi",
@@ -111004,7 +110985,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5843,
+      "position": 5842,
       "item": {
         "@type": "Hospital",
         "name": "Dr. Siyami Ersek Göğüs Kalp ve Damar Cerrahisi Eğitim ve Araştırma Hastanesi",
@@ -111023,7 +111004,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5844,
+      "position": 5843,
       "item": {
         "@type": "Hospital",
         "name": "Dünya Göz Suadiye",
@@ -111042,7 +111023,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5845,
+      "position": 5844,
       "item": {
         "@type": "Hospital",
         "name": "Dünyagöz",
@@ -111061,7 +111042,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5846,
+      "position": 5845,
       "item": {
         "@type": "Hospital",
         "name": "Dűnyagöz",
@@ -111080,7 +111061,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5847,
+      "position": 5846,
       "item": {
         "@type": "Hospital",
         "name": "ENT Clinic-Dr. Selcuk Guney",
@@ -111099,7 +111080,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5848,
+      "position": 5847,
       "item": {
         "@type": "Hospital",
         "name": "Emsey Hastanesi",
@@ -111118,7 +111099,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5849,
+      "position": 5848,
       "item": {
         "@type": "Hospital",
         "name": "Erdem Hastanesi",
@@ -111137,7 +111118,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5850,
+      "position": 5849,
       "item": {
         "@type": "Hospital",
         "name": "Erenköy Fizik Tedavi ve Reahabilitasyon Hastanesi",
@@ -111156,7 +111137,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5851,
+      "position": 5850,
       "item": {
         "@type": "Hospital",
         "name": "Erenköy Fizik Tedavi ve Rehabilitasyon Hastanesi",
@@ -111175,7 +111156,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5852,
+      "position": 5851,
       "item": {
         "@type": "Hospital",
         "name": "Erenköy Polikliniği",
@@ -111194,7 +111175,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5853,
+      "position": 5852,
       "item": {
         "@type": "Hospital",
         "name": "Erenköy Ruh ve Sinir Hastalıkları Eğitim ve Araştırma Hastanesi",
@@ -111213,7 +111194,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5854,
+      "position": 5853,
       "item": {
         "@type": "Hospital",
         "name": "Ersoy Hastanesi",
@@ -111232,7 +111213,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5855,
+      "position": 5854,
       "item": {
         "@type": "Hospital",
         "name": "Esenler Kadın Doğum Hastanesi",
@@ -111251,7 +111232,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5856,
+      "position": 5855,
       "item": {
         "@type": "Hospital",
         "name": "Esenler Kadın Doğum ve Çocuk Hastalıkları Hastanesi",
@@ -111270,7 +111251,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5857,
+      "position": 5856,
       "item": {
         "@type": "Hospital",
         "name": "Estepalace Clinic",
@@ -111289,7 +111270,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5858,
+      "position": 5857,
       "item": {
         "@type": "Hospital",
         "name": "Esthetica",
@@ -111308,7 +111289,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5859,
+      "position": 5858,
       "item": {
         "@type": "Hospital",
         "name": "Ethica Hastanesi",
@@ -111327,7 +111308,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5860,
+      "position": 5859,
       "item": {
         "@type": "Hospital",
         "name": "Eyüp Kemerburgaz Aile Sağlığı Merkezi",
@@ -111346,7 +111327,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5861,
+      "position": 5860,
       "item": {
         "@type": "Hospital",
         "name": "Eyüpsultan Devlet Hastanesi",
@@ -111365,7 +111346,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5862,
+      "position": 5861,
       "item": {
         "@type": "Hospital",
         "name": "FSM Tıp Merkezi",
@@ -111384,7 +111365,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5863,
+      "position": 5862,
       "item": {
         "@type": "Hospital",
         "name": "Fatih Medical Park Hastanesi",
@@ -111403,7 +111384,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5864,
+      "position": 5863,
       "item": {
         "@type": "Hospital",
         "name": "Fatih Sultan Mehmet Eğitim ve Araştırma Hastanesi",
@@ -111422,7 +111403,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5865,
+      "position": 5864,
       "item": {
         "@type": "Hospital",
         "name": "Florence Nightingale",
@@ -111441,7 +111422,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5866,
+      "position": 5865,
       "item": {
         "@type": "Hospital",
         "name": "Florence Nightingale Hastanesi",
@@ -111460,7 +111441,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5867,
+      "position": 5866,
       "item": {
         "@type": "Hospital",
         "name": "Fransız Lape Hastanesi",
@@ -111479,7 +111460,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5868,
+      "position": 5867,
       "item": {
         "@type": "Hospital",
         "name": "GAZİOSMANPAŞA 24 NOLU ASM",
@@ -111498,7 +111479,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5869,
+      "position": 5868,
       "item": {
         "@type": "Hospital",
         "name": "Gaziosmanpaşa Fizik Tedavi Rehabilitasyon Eğitim ve Araştırma Hastanesi",
@@ -111517,7 +111498,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5870,
+      "position": 5869,
       "item": {
         "@type": "Hospital",
         "name": "Gaziosmanpaşa Özel Başarı Hastanesi",
@@ -111536,7 +111517,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5871,
+      "position": 5870,
       "item": {
         "@type": "Hospital",
         "name": "Girne Aile Sağlığı Merkezi",
@@ -111555,7 +111536,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5872,
+      "position": 5871,
       "item": {
         "@type": "Hospital",
         "name": "Göztepe Prof. Dr. Süleyman Yalçın Şehir Hastanesi",
@@ -111574,7 +111555,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5873,
+      "position": 5872,
       "item": {
         "@type": "Hospital",
         "name": "Güney Hastanesi",
@@ -111593,7 +111574,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5874,
+      "position": 5873,
       "item": {
         "@type": "Hospital",
         "name": "Hasanpaşa Aile Sağlığı Merkezi",
@@ -111612,7 +111593,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5875,
+      "position": 5874,
       "item": {
         "@type": "Hospital",
         "name": "Haseki Eğitim Ve Araştırma Hastanesi",
@@ -111631,7 +111612,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5876,
+      "position": 5875,
       "item": {
         "@type": "Hospital",
         "name": "Haydarpaşa Numune Eğitim ve Araştırma Hastanesi",
@@ -111650,7 +111631,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5877,
+      "position": 5876,
       "item": {
         "@type": "Hospital",
         "name": "Haydarpaşa Numune Eğitim ve Araştırma Hastanesi Tıbbiye Binası",
@@ -111669,7 +111650,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5878,
+      "position": 5877,
       "item": {
         "@type": "Hospital",
         "name": "Haydarpaşa Numune Hastanesi",
@@ -111688,7 +111669,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5879,
+      "position": 5878,
       "item": {
         "@type": "Hospital",
         "name": "Haydarpaşa Numune Hastanesi Yeldeğirmeni Semt Polikliniği",
@@ -111707,7 +111688,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5880,
+      "position": 5879,
       "item": {
         "@type": "Hospital",
         "name": "Hayvan Hastanesi",
@@ -111726,7 +111707,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5881,
+      "position": 5880,
       "item": {
         "@type": "Hospital",
         "name": "Hospital Türk",
@@ -111745,7 +111726,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5882,
+      "position": 5881,
       "item": {
         "@type": "Hospital",
         "name": "Infinity Smiles Ağız ve Diş Sağlığı Polikliniği",
@@ -111764,7 +111745,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5883,
+      "position": 5882,
       "item": {
         "@type": "Hospital",
         "name": "Istanbul Faculty of Medicine",
@@ -111783,7 +111764,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5884,
+      "position": 5883,
       "item": {
         "@type": "Hospital",
         "name": "Istanbul Faculty of Medicine Neurology Building",
@@ -111802,7 +111783,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5885,
+      "position": 5884,
       "item": {
         "@type": "Hospital",
         "name": "Kadıköy Belediyesi Dr. Rana Beşe Sağlık Polikinliği",
@@ -111821,7 +111802,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5886,
+      "position": 5885,
       "item": {
         "@type": "Hospital",
         "name": "Kadıköy Florence Nightingale Tıp Merkezi",
@@ -111840,7 +111821,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5887,
+      "position": 5886,
       "item": {
         "@type": "Hospital",
         "name": "Kadıköy Verem Savaş Dispanseri",
@@ -111859,7 +111840,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5888,
+      "position": 5887,
       "item": {
         "@type": "Hospital",
         "name": "Kanuni Sultan Süleyman Eğitim ve Araştırma Hastanesi",
@@ -111878,7 +111859,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5889,
+      "position": 5888,
       "item": {
         "@type": "Hospital",
         "name": "Karakoy Sahil Saglik Denetleme Merkezi",
@@ -111897,7 +111878,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5890,
+      "position": 5889,
       "item": {
         "@type": "Hospital",
         "name": "Kartal Dr Lütfi Kırdar Eğitim ve Araştırma Hastane Polİklİnİklerİ",
@@ -111916,7 +111897,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5891,
+      "position": 5890,
       "item": {
         "@type": "Hospital",
         "name": "Kartal Dr. Lütfi Kırdar Eğitim ve Araştırma Hastanesi KADİR REZZAN HAS ADATEPE POLİKLİNİĞİ",
@@ -111935,7 +111916,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5892,
+      "position": 5891,
       "item": {
         "@type": "Hospital",
         "name": "Kasım Paşa Asker Hastanesi",
@@ -111954,7 +111935,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5893,
+      "position": 5892,
       "item": {
         "@type": "Hospital",
         "name": "Kağıthane Kızılay Hastanesi",
@@ -111973,7 +111954,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5894,
+      "position": 5893,
       "item": {
         "@type": "Hospital",
         "name": "Koç Üniversitesi Hastanesi",
@@ -111992,7 +111973,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5895,
+      "position": 5894,
       "item": {
         "@type": "Hospital",
         "name": "Kurtköy Ersoy Hastanesi",
@@ -112011,7 +111992,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5896,
+      "position": 5895,
       "item": {
         "@type": "Hospital",
         "name": "Küçükbakkalköy Aile Sağlığı Merkezi",
@@ -112030,7 +112011,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5897,
+      "position": 5896,
       "item": {
         "@type": "Hospital",
         "name": "Küçükçekmece Ağız ve Diş Sağlığı Merkezi",
@@ -112049,7 +112030,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5898,
+      "position": 5897,
       "item": {
         "@type": "Hospital",
         "name": "Kızılay Altıntepe Tıp Merkezi",
@@ -112068,7 +112049,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5899,
+      "position": 5898,
       "item": {
         "@type": "Hospital",
         "name": "Lema Clinic",
@@ -112087,7 +112068,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5900,
+      "position": 5899,
       "item": {
         "@type": "Hospital",
         "name": "Liv Hospital",
@@ -112106,7 +112087,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5901,
+      "position": 5900,
       "item": {
         "@type": "Hospital",
         "name": "Liv Hospital Ulus",
@@ -112125,7 +112106,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5902,
+      "position": 5901,
       "item": {
         "@type": "Hospital",
         "name": "Lokman Hekim Hastanesi",
@@ -112144,7 +112125,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5903,
+      "position": 5902,
       "item": {
         "@type": "Hospital",
         "name": "MASHAR OSMAN PSİKİYATRİ",
@@ -112163,7 +112144,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5904,
+      "position": 5903,
       "item": {
         "@type": "Hospital",
         "name": "MEDILIFE HASTANESİ",
@@ -112182,7 +112163,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5905,
+      "position": 5904,
       "item": {
         "@type": "Hospital",
         "name": "Maltepe 4 Nolu Aile Hekimliği",
@@ -112201,7 +112182,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5906,
+      "position": 5905,
       "item": {
         "@type": "Hospital",
         "name": "Maltepe Altayçeşme Devlet Hastanesi",
@@ -112220,7 +112201,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5907,
+      "position": 5906,
       "item": {
         "@type": "Hospital",
         "name": "Maltepe Üniversitesi Hastanesi",
@@ -112239,7 +112220,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5908,
+      "position": 5907,
       "item": {
         "@type": "Hospital",
         "name": "Maltepe Üniversitesi Kadın Doğum ve Çocuk Hastanesi",
@@ -112258,7 +112239,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5909,
+      "position": 5908,
       "item": {
         "@type": "Hospital",
         "name": "Marmara Tıp Merkezi",
@@ -112277,7 +112258,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5910,
+      "position": 5909,
       "item": {
         "@type": "Hospital",
         "name": "Marmara Üniversitesi Prof. Dr. Asaf Ataseven Hastanesi",
@@ -112296,7 +112277,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5911,
+      "position": 5910,
       "item": {
         "@type": "Hospital",
         "name": "Medical Park",
@@ -112315,7 +112296,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5912,
+      "position": 5911,
       "item": {
         "@type": "Hospital",
         "name": "Medical Park Göztepe",
@@ -112334,7 +112315,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5913,
+      "position": 5912,
       "item": {
         "@type": "Hospital",
         "name": "Medical Park Hastanesi Ataşehir",
@@ -112353,7 +112334,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5914,
+      "position": 5913,
       "item": {
         "@type": "Hospital",
         "name": "Medical Park İstanbul Onkoloji Hastanesi",
@@ -112372,7 +112353,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5915,
+      "position": 5914,
       "item": {
         "@type": "Hospital",
         "name": "Medicana",
@@ -112391,7 +112372,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5916,
+      "position": 5915,
       "item": {
         "@type": "Hospital",
         "name": "Medicana Ataköy Hastanesi",
@@ -112410,7 +112391,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5917,
+      "position": 5916,
       "item": {
         "@type": "Hospital",
         "name": "Medicana Ataşehir Hastanesi",
@@ -112429,7 +112410,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5918,
+      "position": 5917,
       "item": {
         "@type": "Hospital",
         "name": "Medicana Böbrek Nakil Merkezi",
@@ -112448,7 +112429,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5919,
+      "position": 5918,
       "item": {
         "@type": "Hospital",
         "name": "Medicana Kadıköy",
@@ -112467,7 +112448,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5920,
+      "position": 5919,
       "item": {
         "@type": "Hospital",
         "name": "Medicana Zincirlikuyu Hastanesi",
@@ -112486,7 +112467,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5921,
+      "position": 5920,
       "item": {
         "@type": "Hospital",
         "name": "Medicana Çamlıca Hastanesi",
@@ -112505,7 +112486,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5922,
+      "position": 5921,
       "item": {
         "@type": "Hospital",
         "name": "Medient",
@@ -112524,7 +112505,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5923,
+      "position": 5922,
       "item": {
         "@type": "Hospital",
         "name": "Medilife Çapa Hastanesi",
@@ -112543,7 +112524,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5924,
+      "position": 5923,
       "item": {
         "@type": "Hospital",
         "name": "Medipol",
@@ -112562,7 +112543,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5925,
+      "position": 5924,
       "item": {
         "@type": "Hospital",
         "name": "Medipol Mega Hastaneler Kompleksi",
@@ -112581,7 +112562,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5926,
+      "position": 5925,
       "item": {
         "@type": "Hospital",
         "name": "Medipol Üniversitesi Esenler Hastanesi",
@@ -112600,7 +112581,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5927,
+      "position": 5926,
       "item": {
         "@type": "Hospital",
         "name": "Medipol Üniversitesi Fındıkzade Hastanesi",
@@ -112619,7 +112600,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5928,
+      "position": 5927,
       "item": {
         "@type": "Hospital",
         "name": "Medipol Üniversitesi Sefaköy Sağlık Uygulama Merkezi Hastanesi",
@@ -112638,7 +112619,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5929,
+      "position": 5928,
       "item": {
         "@type": "Hospital",
         "name": "Medipol Üniversitesi Çamlıca Hastanesi",
@@ -112657,7 +112638,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5930,
+      "position": 5929,
       "item": {
         "@type": "Hospital",
         "name": "Medistanbul Hastanesi",
@@ -112676,7 +112657,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5931,
+      "position": 5930,
       "item": {
         "@type": "Hospital",
         "name": "Megapol Hastanesi",
@@ -112695,7 +112676,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5932,
+      "position": 5931,
       "item": {
         "@type": "Hospital",
         "name": "Mehmet Akif Ersoy Göğüs Kalp Ve Damar Cerrahisi Eğitim Ve Araştırma Hastanesi",
@@ -112714,7 +112695,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5933,
+      "position": 5932,
       "item": {
         "@type": "Hospital",
         "name": "Mehmet Toprak Hastanesi",
@@ -112733,7 +112714,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5934,
+      "position": 5933,
       "item": {
         "@type": "Hospital",
         "name": "Memorial",
@@ -112752,7 +112733,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5935,
+      "position": 5934,
       "item": {
         "@type": "Hospital",
         "name": "Memorial Bahçelievler Hastanesi",
@@ -112771,7 +112752,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5936,
+      "position": 5935,
       "item": {
         "@type": "Hospital",
         "name": "Memorial Şişli Hastanesi",
@@ -112790,7 +112771,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5937,
+      "position": 5936,
       "item": {
         "@type": "Hospital",
         "name": "Moodist Psikiyatri ve Nöroloji Hastanesi",
@@ -112809,7 +112790,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5938,
+      "position": 5937,
       "item": {
         "@type": "Hospital",
         "name": "Neolife",
@@ -112828,7 +112809,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5939,
+      "position": 5938,
       "item": {
         "@type": "Hospital",
         "name": "Nisa Hastanesi",
@@ -112847,7 +112828,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5940,
+      "position": 5939,
       "item": {
         "@type": "Hospital",
         "name": "Nisa Hastanesi Acil",
@@ -112866,7 +112847,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5941,
+      "position": 5940,
       "item": {
         "@type": "Hospital",
         "name": "Okmeydanı Profesör Doktor Cemil Taşçıoğlu Şehir Hastanesi",
@@ -112885,7 +112866,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5942,
+      "position": 5941,
       "item": {
         "@type": "Hospital",
         "name": "Op. Dr. Arash Jafari",
@@ -112904,7 +112885,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5943,
+      "position": 5942,
       "item": {
         "@type": "Hospital",
         "name": "Or-Ayahim Özel Balat Hastanesi",
@@ -112923,7 +112904,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5944,
+      "position": 5943,
       "item": {
         "@type": "Hospital",
         "name": "Orion Surgery Center",
@@ -112942,7 +112923,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5945,
+      "position": 5944,
       "item": {
         "@type": "Hospital",
         "name": "Patológia",
@@ -112961,7 +112942,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5946,
+      "position": 5945,
       "item": {
         "@type": "Hospital",
         "name": "Psikiyatri Acil",
@@ -112980,7 +112961,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5947,
+      "position": 5946,
       "item": {
         "@type": "Hospital",
         "name": "S.B.Ü. Haydarpaşa Numune Hastanesi Validebağ Semt Polikliniği",
@@ -112999,7 +112980,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5948,
+      "position": 5947,
       "item": {
         "@type": "Hospital",
         "name": "SBÜ Bağcılar Eğitim ve Araştırma Hastanesi Güneşli Semt Polikliniğ",
@@ -113018,7 +112999,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5949,
+      "position": 5948,
       "item": {
         "@type": "Hospital",
         "name": "SBÜ Sultan Abdülhamid Han Eğitim ve Araştırma Hastanesi",
@@ -113037,7 +113018,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5950,
+      "position": 5949,
       "item": {
         "@type": "Hospital",
         "name": "SBÜ Süreyyapaşa Göğüs Hastalıkları Hastanesi",
@@ -113056,7 +113037,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5951,
+      "position": 5950,
       "item": {
         "@type": "Hospital",
         "name": "Sancaktepe Prof. Dr. Feriha Öz Acil Durum Hastanesi",
@@ -113075,7 +113056,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5952,
+      "position": 5951,
       "item": {
         "@type": "Hospital",
         "name": "Sancaktepe Sağlıklı Yaşam Köyü",
@@ -113094,7 +113075,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5953,
+      "position": 5952,
       "item": {
         "@type": "Hospital",
         "name": "Sancaktepe Şehit Prof.Dr. İlhan Varank Eğitim Ve Araştırma Hastanesi",
@@ -113113,7 +113094,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5954,
+      "position": 5953,
       "item": {
         "@type": "Hospital",
         "name": "Sante Plus Hastanesi",
@@ -113132,7 +113113,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5955,
+      "position": 5954,
       "item": {
         "@type": "Hospital",
         "name": "Sarıyer Hamidiye Etfal Eğitim ve Araştırma Hastanesi",
@@ -113151,7 +113132,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5956,
+      "position": 5955,
       "item": {
         "@type": "Hospital",
         "name": "Sarıyer İsmail Akgün Devlet Hastanesi",
@@ -113170,7 +113151,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5957,
+      "position": 5956,
       "item": {
         "@type": "Hospital",
         "name": "Saygı Hastanesi",
@@ -113189,7 +113170,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5958,
+      "position": 5957,
       "item": {
         "@type": "Hospital",
         "name": "Saygı Hastanesi Ayak Sağlığı Birimi",
@@ -113208,7 +113189,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5959,
+      "position": 5958,
       "item": {
         "@type": "Hospital",
         "name": "Seyrantepe Hamidiye Etfal Eğitim ve Araştırma Hastanesi",
@@ -113227,7 +113208,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5960,
+      "position": 5959,
       "item": {
         "@type": "Hospital",
         "name": "Sultanbeyli Avrupa Göz Hastanesi",
@@ -113246,7 +113227,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5961,
+      "position": 5960,
       "item": {
         "@type": "Hospital",
         "name": "Sultanbeyli Devlet Hastanesi",
@@ -113265,7 +113246,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5962,
+      "position": 5961,
       "item": {
         "@type": "Hospital",
         "name": "Sultanbeyli Dünyagöz Hastanesi",
@@ -113284,7 +113265,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5963,
+      "position": 5962,
       "item": {
         "@type": "Hospital",
         "name": "Sultangazi Haseki Eğitim ve Araştırma Hastanesi",
@@ -113303,7 +113284,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5964,
+      "position": 5963,
       "item": {
         "@type": "Hospital",
         "name": "Sultangazi İlçe Sağlık Müdürlüğü",
@@ -113322,7 +113303,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5965,
+      "position": 5964,
       "item": {
         "@type": "Hospital",
         "name": "Sultantepe ASM",
@@ -113341,7 +113322,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5966,
+      "position": 5965,
       "item": {
         "@type": "Hospital",
         "name": "Surp Pırgiç Ermeni Hastanesi",
@@ -113360,7 +113341,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5967,
+      "position": 5966,
       "item": {
         "@type": "Hospital",
         "name": "SÜLEYMANİYE KADIN DOĞUM VE ÇOCUK HASTANESİ",
@@ -113379,7 +113360,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5968,
+      "position": 5967,
       "item": {
         "@type": "Hospital",
         "name": "T.C. Sağlık Bakanlığı Esenler 8 No'lu Aile Sağlığı Merkezi",
@@ -113398,7 +113379,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5969,
+      "position": 5968,
       "item": {
         "@type": "Hospital",
         "name": "T.C. Sağlık Bakanlığı İstanbul Tacirler Eğitim Vakfı Sultanbeyli İlçe Devlet Hastanesi Merkez Polikliniği",
@@ -113417,7 +113398,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5970,
+      "position": 5969,
       "item": {
         "@type": "Hospital",
         "name": "Taksim Eğitim ve Araştırma Hastanesi",
@@ -113436,7 +113417,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5971,
+      "position": 5970,
       "item": {
         "@type": "Hospital",
         "name": "Tepe Özel Kliniği",
@@ -113455,7 +113436,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5972,
+      "position": 5971,
       "item": {
         "@type": "Hospital",
         "name": "Türkiye Hastanesi",
@@ -113474,7 +113455,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5973,
+      "position": 5972,
       "item": {
         "@type": "Hospital",
         "name": "Veni Vidi Göz",
@@ -113493,7 +113474,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5974,
+      "position": 5973,
       "item": {
         "@type": "Hospital",
         "name": "Vera Tıp Merkezi",
@@ -113512,7 +113493,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5975,
+      "position": 5974,
       "item": {
         "@type": "Hospital",
         "name": "Yakacık Kadın, Doğum ve Çocuk Hastalıkları Hastanesi",
@@ -113531,7 +113512,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5976,
+      "position": 5975,
       "item": {
         "@type": "Hospital",
         "name": "Yakacık Tıp Merkezi",
@@ -113550,7 +113531,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5977,
+      "position": 5976,
       "item": {
         "@type": "Hospital",
         "name": "Yavuz Selim Devlet Hastanesi Poliklinikleri",
@@ -113569,7 +113550,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5978,
+      "position": 5977,
       "item": {
         "@type": "Hospital",
         "name": "Yaşar Hastanesi",
@@ -113588,7 +113569,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5979,
+      "position": 5978,
       "item": {
         "@type": "Hospital",
         "name": "Yedikule Göğüs Hastalıkları ve Göğüs Cerrahisi Eğitim ve Araştırma Hastanesi",
@@ -113607,7 +113588,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5980,
+      "position": 5979,
       "item": {
         "@type": "Hospital",
         "name": "Yedikule Göğüş Hastalıkları Hastanesi",
@@ -113626,7 +113607,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5981,
+      "position": 5980,
       "item": {
         "@type": "Hospital",
         "name": "Yedikule Surp PIRGIÇ ERMENI Hastanesi",
@@ -113645,7 +113626,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5982,
+      "position": 5981,
       "item": {
         "@type": "Hospital",
         "name": "Yedikule Surp Pırgiç Ermeni Hastanesi",
@@ -113664,7 +113645,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5983,
+      "position": 5982,
       "item": {
         "@type": "Hospital",
         "name": "Yeditepe Üniversitesi Kozyatağı Hastanesi",
@@ -113683,7 +113664,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5984,
+      "position": 5983,
       "item": {
         "@type": "Hospital",
         "name": "Yeditepe Üniversitesi İhtisas Hastanesi",
@@ -113702,7 +113683,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5985,
+      "position": 5984,
       "item": {
         "@type": "Hospital",
         "name": "Yeşilköy Prof. Dr. Murat Dilmener Acil Durum Hastanesi",
@@ -113721,7 +113702,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5986,
+      "position": 5985,
       "item": {
         "@type": "Hospital",
         "name": "Zeynep Kamil Kadın Ve Çocuk Hastalıkları Eğitim Ve Araştırma Hastanesi",
@@ -113740,7 +113721,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5987,
+      "position": 5986,
       "item": {
         "@type": "Hospital",
         "name": "Zeytinburnu Yesiltepe Aile Sağlık Merkezi",
@@ -113759,7 +113740,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5988,
+      "position": 5987,
       "item": {
         "@type": "Hospital",
         "name": "balıklı rum hastanesi vakfı",
@@ -113773,6 +113754,25 @@
           "@type": "GeoCoordinates",
           "latitude": 40.9996039,
           "longitude": 28.9175398
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5988,
+      "item": {
+        "@type": "Hospital",
+        "name": "erenköy ruh ve sinir sağlığı merkezi çekmeköy ek hizmet binası",
+        "category": "Hospital",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Istanbul",
+          "addressCountry": "Turkey"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.0143219,
+          "longitude": 29.1926929
         }
       }
     },
