@@ -1,10 +1,10 @@
 {
  "slug": "burning-season",
  "keyword": "chiang mai burning season",
- "generated": "2026-09-06",
+ "generated": "2026-09-07",
  "blocks": {
-  "air-strip": "> **Chiang Mai air right now:** PM2.5 **10.7 µg/m³** — Very good (US AQI 56). Observed 2026-09-05 19:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.",
-  "air-history": "| Date | PM2.5 (µg/m³) | Band |\n|---|---|---|\n| 2026-08-31 | 11.6 | Very good |\n| 2026-09-01 | 15.6 | Good |\n| 2026-09-02 | 15.5 | Good |\n| 2026-09-03 | 12.8 | Very good |\n| 2026-09-04 | 14.4 | Very good |\n| 2026-09-05 | 12.1 | Very good |\n| 2026-09-06 | 6.8 | Very good |\n\n*The last seven observed days, same model, generated 2026-09-05.*",
+  "air-strip": "> **Chiang Mai air right now:** PM2.5 **16.6 µg/m³** — Good (US AQI 58). Observed 2026-09-06 07:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.",
+  "air-history": "| Date | PM2.5 (µg/m³) | Band |\n|---|---|---|\n| 2026-09-01 | 15.6 | Good |\n| 2026-09-02 | 15.5 | Good |\n| 2026-09-03 | 12.8 | Very good |\n| 2026-09-04 | 14.4 | Very good |\n| 2026-09-05 | 12.1 | Very good |\n| 2026-09-06 | 13.6 | Very good |\n| 2026-09-07 | 6.6 | Very good |\n\n*The last seven observed days, same model, generated 2026-09-06.*",
   "fx-line": "*Currency on this page: ฿100 ≈ $3.04 / €2.61 / £2.24 — Bank of Thailand mid rate, 2026-09-04. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*"
  }
 }
