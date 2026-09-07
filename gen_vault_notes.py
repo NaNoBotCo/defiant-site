@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Defiant directory as Obsidian notes inside ~/Vaults/Defiant.
 
-Vault-first doctrine: after this runs once, THE VAULT IS CANONICAL. NaN edits
+Vault-first: after this runs once, THE VAULT IS CANONICAL. NaN edits
 notes in Obsidian; build.py compiles the vault into the defiant.to site; the
 same notes can be pushed to Obsidian Publish. This script is additive and
 idempotent — it NEVER overwrites an existing non-empty note (re-running after

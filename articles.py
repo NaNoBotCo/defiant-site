@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Defiant article engine — the content pipeline behind /articles/.
 
-Doctrine (same as the rest of the repo):
+Conventions (same as the rest of the repo):
   * The vault is canonical. This engine NEVER touches hand-written prose.
     It only (a) creates notes that don't exist yet, and (b) rewrites the
     machine-owned spans between <!-- defiant:auto:NAME --> markers.
   * Every number on the site carries its date. Auto blocks stamp themselves.
   * Data comes from the household's own instruments first (dogfooding):
       mot-dang canonical places, air, finance/fx, festival dates,
-      defiant's own directory_public.json. No trackers, no analytics, ever.
+      defiant's own directory_public.json.
   * topics.json is the registry: one entry per target keyword. Status flows
     idea → drafted → live. The QA gate is the door between drafted and live.
 
@@ -682,7 +682,7 @@ def qa(verbose=True):
             if "application/ld+json" not in html:
                 warns.append(f"{tag}: no JSON-LD on built page")
             if re.search(r"<script[^>]+src=", html):
-                problems.append(f"{tag}: external script on built page (no third-party JS, ever)")
+                problems.append(f"{tag}: external script on built page")
         card = ROOT / "assets" / "cards" / f"articles-{t['slug']}.png"
         if card.exists():
             kb = card.stat().st_size // 1024
