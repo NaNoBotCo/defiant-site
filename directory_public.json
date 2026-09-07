@@ -4470,7 +4470,7 @@
           {
             "name": "Clínica Centenario",
             "lat": 4.6056685,
-            "lon": -74.0833605
+            "lon": -74.0833591
           },
           {
             "name": "Clínica Colombia",
@@ -4669,8 +4669,8 @@
           },
           {
             "name": "Hospital El Carmen",
-            "lat": 4.5835619,
-            "lon": -74.1319733
+            "lat": 4.5835716,
+            "lon": -74.1319651
           },
           {
             "name": "Hospital El Tunal",
@@ -4924,8 +4924,8 @@
           },
           {
             "name": "UPA Lourdes",
-            "lat": 4.589292,
-            "lon": -74.0739066
+            "lat": 4.5893068,
+            "lon": -74.0739448
           },
           {
             "name": "UPA Rionegro",
@@ -5368,8 +5368,8 @@
         "San José": [
           {
             "name": "Banco Nacional de Sangre",
-            "lat": 9.9194757,
-            "lon": -84.0535239
+            "lat": 9.9194725,
+            "lon": -84.0535134
           },
           {
             "name": "Centro Medico Familiar",
@@ -5947,7 +5947,7 @@
       }
     },
     "India": {
-      "count": 3675,
+      "count": 3676,
       "cities": {
         "Bengaluru": [
           {
@@ -15225,6 +15225,11 @@
             "lon": 77.245588
           },
           {
+            "name": "Bawana Dispensary",
+            "lat": 28.8012625,
+            "lon": 77.0374388
+          },
+          {
             "name": "Bawasher Hospital",
             "lat": 28.6742139,
             "lon": 77.1761804
@@ -15366,7 +15371,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.473978,
+            "lat": 28.4746541,
             "lon": 77.2158554
           },
           {
@@ -15845,6 +15850,11 @@
             "lon": 77.0822963
           },
           {
+            "name": "Dr. Ram Manohar Lohia Hospital",
+            "lat": 28.6260617,
+            "lon": 77.2007463
+          },
+          {
             "name": "Dr. Shreya Shivangi (MDS)",
             "lat": 28.5659736,
             "lon": 77.3984228
@@ -16246,8 +16256,8 @@
           },
           {
             "name": "Hans Charitable Hospital",
-            "lat": 28.7003162,
-            "lon": 77.2083336
+            "lat": 28.7002703,
+            "lon": 77.2083671
           },
           {
             "name": "Hardik Hospital",
@@ -17763,11 +17773,6 @@
             "name": "Ram Lal Kundan Lal Orthopaedic Hospital",
             "lat": 28.6179569,
             "lon": 77.2866841
-          },
-          {
-            "name": "Ram Manohar Lohia Hospital",
-            "lat": 28.6260617,
-            "lon": 77.2007463
           },
           {
             "name": "Rama Hospital & Nursing Home",
@@ -24440,8 +24445,8 @@
           },
           {
             "name": "Hospital Ortopedik ALTY",
-            "lat": 3.1599064,
-            "lon": 101.7226821
+            "lat": 3.1599191,
+            "lon": 101.7226834
           },
           {
             "name": "Hospital Pakar Al-Islam",
@@ -24540,8 +24545,8 @@
           },
           {
             "name": "KPJ Tawakkal KL Specialist Hospital",
-            "lat": 3.1773153,
-            "lon": 101.6986639
+            "lat": 3.1773236,
+            "lon": 101.6986585
           },
           {
             "name": "Kiara Medical Centre",
@@ -24661,7 +24666,7 @@
           {
             "name": "Sunway Medical Centre",
             "lat": 3.0663754,
-            "lon": 101.6085527
+            "lon": 101.6085333
           },
           {
             "name": "Sunway Medical Centre Velocity",
@@ -24696,11 +24701,6 @@
         ],
         "Penang": [
           {
-            "name": "Georgetown Specialist Hospital",
-            "lat": 5.4025526,
-            "lon": 100.3035505
-          },
-          {
             "name": "Gleneagles Penang",
             "lat": 5.4268203,
             "lon": 100.3199443
@@ -24714,6 +24714,11 @@
             "name": "Hospital Lam Wah Ee",
             "lat": 5.3911917,
             "lon": 100.3042286
+          },
+          {
+            "name": "Hospital Pakar Georgetown",
+            "lat": 5.4025526,
+            "lon": 100.3035505
           },
           {
             "name": "Hospital Pulau Pinang",
@@ -27854,8 +27859,8 @@
           },
           {
             "name": "해정병원",
-            "lat": 37.5760692,
-            "lon": 126.9852705
+            "lat": 37.5758192,
+            "lon": 126.9849944
           },
           {
             "name": "햇빛여성병원",
@@ -29761,8 +29766,8 @@
           },
           {
             "name": "Acıbadem Kozyatağı Hastanesi",
-            "lat": 40.9766931,
-            "lon": 29.093092
+            "lat": 40.9766754,
+            "lon": 29.0930673
           },
           {
             "name": "Acıbadem Maslak Hastanesi",
@@ -30036,8 +30041,8 @@
           },
           {
             "name": "Central Hospital",
-            "lat": 40.9659101,
-            "lon": 29.1002119
+            "lat": 40.9659307,
+            "lon": 29.1003003
           },
           {
             "name": "Cerrahpaşa Tıp Fakültesi",
@@ -30786,8 +30791,8 @@
           },
           {
             "name": "Yeşilköy Prof. Dr. Murat Dilmener Acil Durum Hastanesi",
-            "lat": 40.9702444,
-            "lon": 28.8081552
+            "lat": 40.9702946,
+            "lon": 28.8081522
           },
           {
             "name": "Zeynep Kamil Kadın Ve Çocuk Hastalıkları Eğitim Ve Araştırma Hastanesi",
