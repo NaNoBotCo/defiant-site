@@ -367,7 +367,7 @@ Gynecology, screening, and women's clinics across Chiang Mai — the mapped faci
 A sympathetic nerve block used for PTSD, hot flashes, and nerve pain — how it works, what the evidence supports, what the appointment is like, and where to ask in Thailand.
 *Reviewed 2026-08-19.*
 
-*13 working guides — every number dated, every table refreshed from the household's own instruments. Last engine pass: 2026-09-10.*
+*13 working guides — every number dated, every table refreshed from the household's own instruments. Last engine pass: 2026-09-11.*
 
 
 ---
@@ -387,19 +387,19 @@ That's the whole calendar. Everything else is numbers and playbook — both belo
 ## Today's number
 
 
-> **Chiang Mai air right now:** PM2.5 **8.8 µg/m³** — Very good (US AQI 41). Observed 2026-09-10 03:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
+> **Chiang Mai air right now:** PM2.5 **11.5 µg/m³** — Very good (US AQI 47). Observed 2026-09-10 16:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
 
 
 
 | Date | PM2.5 (µg/m³) | Band |
 |---|---|---|
-| 2026-09-04 | 14.4 | Very good |
 | 2026-09-05 | 12.1 | Very good |
 | 2026-09-06 | 14.9 | Very good |
 | 2026-09-07 | 8.7 | Very good |
 | 2026-09-08 | 7.5 | Very good |
-| 2026-09-09 | 7 | Very good |
-| 2026-09-10 | 10.5 | Very good |
+| 2026-09-09 | 7.5 | Very good |
+| 2026-09-10 | 8.9 | Very good |
+| 2026-09-11 | 14 | Very good |
 
 *The last seven observed days, same model, generated 2026-09-10.*
 
@@ -475,7 +475,7 @@ If it's frightening — chest, breath, head, blood — call **1669** (free, nati
 | **St. Peter Eye Hospital** (โรงพยาบาลตาเซนต์ปีเตอร์) | 053 225 011 | ~2.7 km | Eyes only — cataract and retina work at Chiang Mai prices |
 | **Chiang Mai Neurological Hospital** (โรงพยาบาลประสาทเชียงใหม่) | — | ~2.5 km | Public specialty center for brain and nerve care |
 
-*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-09-10. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
+*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-09-11. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
 
 
 A note on reading it: *private* here (Bangkok, Ram, Lanna, Rajavej, Theppanya, Central Memorial, McCormick) means English at the desk, short queues, card machines, and bills that are real but published. *Public* (Maharaj "Suan Dok", Nakornping) means the deepest specialists in the North at Thai prices, with Thai-first queues that reward patience and a translator — [[=Translators|we know several]].
@@ -502,7 +502,7 @@ A note on reading it: *private* here (Bangkok, Ram, Lanna, Rajavej, Theppanya, C
 Respiratory visits track the smoke calendar. If you're planning care with a breathing component — or timing a surgery with a recovery window — read the [burning season guide](/articles/burning-season/) alongside this one.
 
 
-> **Chiang Mai air right now:** PM2.5 **8.8 µg/m³** — Very good (US AQI 41). Observed 2026-09-10 03:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
+> **Chiang Mai air right now:** PM2.5 **11.5 µg/m³** — Very good (US AQI 47). Observed 2026-09-10 16:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
 
 
 ## FAQ
@@ -718,7 +718,7 @@ Dental implants are the procedure that built Thai medical tourism, and the arith
 | [Root Canal Treatment](/procedures/root-canal-treatment/) | $1,000–$2,000 | **$250–$600** | 3–5 nights |
 | [Orthodontics (Braces, Aligners)](/procedures/orthodontics-braces-aligners/) | $4,000–$8,000 | **$1,500–$3,500** | Multi-visit over months — expat/long-stay play, not a fly-in |
 
-*Defiant's standing indicative ranges — 2026 published-aggregator figures, every quote confirmed in writing at intake. Full detail on [[=Procedures|the procedure pages]]. Verified 2026-09-10.*
+*Defiant's standing indicative ranges — 2026 published-aggregator figures, every quote confirmed in writing at intake. Full detail on [[=Procedures|the procedure pages]]. Verified 2026-09-11.*
 
 
 
@@ -876,7 +876,7 @@ Package medicine has one caveat worth saying plainly: screening menus love tests
 | **St. Peter Eye Hospital** (โรงพยาบาลตาเซนต์ปีเตอร์) | 053 225 011 | ~2.7 km | Eyes only — cataract and retina work at Chiang Mai prices |
 | **Chiang Mai Neurological Hospital** (โรงพยาบาลประสาทเชียงใหม่) | — | ~2.5 km | Public specialty center for brain and nerve care |
 
-*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-09-10. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
+*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-09-11. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
 
 
 Every private hospital on the table runs a checkup center; Bangkok Hospital Chiang Mai and Chiang Mai Ram have the biggest package menus, Sriphat brings university faculty to the readout, and McCormick prices gentlest. The [hospital guide](/articles/chiang-mai-hospitals/) covers who's good at what beyond the checkup counter.
@@ -936,7 +936,7 @@ All three, below.
 | **2eyes Studio ต่อขนตา สักคิ้วแม่สาย** | 084 655 2441 | 315 หมู่7 ต.แม่สาย อ.แม่สาย จ.เชียงราย |
 | **2eyes studio สักคิ้ว ต่อขนตาแม่สาย** | 084 655 2441 | ~206.5 km from Tha Phae Gate |
 
-*Counts and rows from [Mot Dang](https://motdang.net)'s curated set, 2026-09-10. The full map is free: [motdang.net](https://motdang.net).*
+*Counts and rows from [Mot Dang](https://motdang.net)'s curated set, 2026-09-11. The full map is free: [motdang.net](https://motdang.net).*
 
 
 ## The menu, decoded
@@ -1039,7 +1039,7 @@ Two practical notes. Bring the **generic name** (the international one, not the 
 | Goodwill Pharmacy | ~0.3 km |
 | Drug Etc | ~0.3 km |
 
-*From Defiant's nightly OpenStreetMap refresh, distances computed straight-line, 2026-09-10. A missing shop is a [fixable report](/contact/).*
+*From Defiant's nightly OpenStreetMap refresh, distances computed straight-line, 2026-09-11. A missing shop is a [fixable report](/contact/).*
 
 
 ## When the pharmacy is the wrong counter
@@ -1085,7 +1085,7 @@ Rehab is arithmetic. A knee replacement wants a course of sessions, not a sessio
 |---|---|
 | Physical Therapy Centre | ~1.8 km |
 
-*From Defiant's nightly OpenStreetMap refresh, straight-line distances, 2026-09-10. Hospital physio departments ride on [the hospital guide](/articles/chiang-mai-hospitals/).*
+*From Defiant's nightly OpenStreetMap refresh, straight-line distances, 2026-09-11. Hospital physio departments ride on [the hospital guide](/articles/chiang-mai-hospitals/).*
 
 
 Three settings, three flavors:
@@ -1161,7 +1161,7 @@ Here's the checklist. Good homes answer all of it gladly — that's rather the p
 | Kanya Nursing Home | ~5.8 km |
 | สถานสงเคราะห์คนชราวัยทองนิเวศน์ | ~38.7 km |
 
-*From Defiant's nightly OpenStreetMap refresh, 2026-09-10. Distance matters twice here — for the family visit, and for the [hospital run](/articles/chiang-mai-hospitals/).*
+*From Defiant's nightly OpenStreetMap refresh, 2026-09-11. Distance matters twice here — for the family visit, and for the [hospital run](/articles/chiang-mai-hospitals/).*
 
 
 ## The vetting visit, step by step
@@ -1243,7 +1243,7 @@ Thai hospitals never close. Emergency rooms run through every holiday on the cal
 | **Dec 10** | Constitution Day | Public holiday |
 | **Dec 31** | New Year's Eve | Travel peaks; book transport early |
 
-*Fixed-date national holidays. Buddhist observances (Makha Bucha, Visakha Bucha, Asalha Bucha, Loy Krathong / Yi Peng) follow the lunar calendar — announced dates appear below when official. Verified 2026-09-10.*
+*Fixed-date national holidays. Buddhist observances (Makha Bucha, Visakha Bucha, Asalha Bucha, Loy Krathong / Yi Peng) follow the lunar calendar — announced dates appear below when official. Verified 2026-09-11.*
 
 
 
@@ -1425,7 +1425,7 @@ Thailand does not use 911, and the number that matters most — **1669**, the na
 | **191** | Police | Any emergency, Thai-first |
 | **199** | Fire & rescue | 24 h |
 
-*National numbers, verified 2026-09-10. Save 1669 before you need it.*
+*National numbers, verified 2026-09-11. Save 1669 before you need it.*
 
 
 **1669** dispatches free public ambulances nationwide, 24 hours. The operators work Thai-first: speak slowly, lead with *where you are* — hotel name, road, district — and hand the phone to any Thai speaker nearby if you can. Hotel front desks make this call flawlessly; "call 1669 for me" is a complete sentence.
@@ -1448,7 +1448,7 @@ Private-hospital ambulances also run 24 h and often arrive faster in town; call 
 | Nakornping Hospital | **053 999 235** | ~7.7 km |
 | Theppanya Hospital | **053 852 990** | ~3.2 km |
 
-*Curated by residents, cross-checked against the household map, 2026-09-10. If a line changes, [tell us](/contact/) and it gets fixed the same week.*
+*Curated by residents, cross-checked against the household map, 2026-09-11. If a line changes, [tell us](/contact/) and it gets fixed the same week.*
 
 
 The full picture of who's good at what — public vs private, billing, insurance — lives on [the hospital guide](/articles/chiang-mai-hospitals/).
@@ -1512,7 +1512,7 @@ The household mapped the whole landscape. Here it is.
 | **Dr. Som** | ~0.3 km |
 | **Tha Phae Clinic** (ท่าแพ คลีนิค) | ~0.4 km |
 
-*From the household's Chiang Mai women's-health dataset, refreshed 2026-09-10. A missing clinic is a [fixable report](/contact/).*
+*From the household's Chiang Mai women's-health dataset, refreshed 2026-09-11. A missing clinic is a [fixable report](/contact/).*
 
 
 ## The three ways in
