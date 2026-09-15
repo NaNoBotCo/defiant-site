@@ -4924,8 +4924,8 @@
           },
           {
             "name": "UPA Lourdes",
-            "lat": 4.589292,
-            "lon": -74.0739066
+            "lat": 4.5893068,
+            "lon": -74.0739448
           },
           {
             "name": "UPA Rionegro",
@@ -6212,8 +6212,8 @@
           },
           {
             "name": "Apollo Speciality Hospital",
-            "lat": 12.9362818,
-            "lon": 77.5843424
+            "lat": 12.9363683,
+            "lon": 77.5843165
           },
           {
             "name": "Apollo Specialty Hospital",
@@ -7037,8 +7037,8 @@
           },
           {
             "name": "Dr. Agarwal's Eye Hospital",
-            "lat": 12.9103586,
-            "lon": 77.600474
+            "lat": 12.9103373,
+            "lon": 77.6004789
           },
           {
             "name": "Dr. Agrawal's Eye Hospital",
@@ -7187,8 +7187,8 @@
           },
           {
             "name": "Employees' State Insurance Corporation Model Hospital",
-            "lat": 12.9909528,
-            "lon": 77.5534579
+            "lat": 12.9909672,
+            "lon": 77.5535011
           },
           {
             "name": "Endocrine Speciality Centre",
@@ -8302,8 +8302,8 @@
           },
           {
             "name": "Manipal Hospitals",
-            "lat": 12.9583496,
-            "lon": 77.7454332
+            "lat": 12.9583372,
+            "lon": 77.7454453
           },
           {
             "name": "Manipal Hospitals Whitefield",
@@ -24721,7 +24721,7 @@
         ],
         "Penang": [
           {
-            "name": "Gleneagles Penang",
+            "name": "Gleneagles Pulau Pinang",
             "lat": 5.4268203,
             "lon": 100.3199443
           },
@@ -24791,7 +24791,7 @@
             "lon": 100.3083329
           },
           {
-            "name": "iTCM Healthcare Centre 爱康中医诊所",
+            "name": "iTCM Healthcare Centre",
             "lat": 5.4240233,
             "lon": 100.3177625
           }
@@ -27728,9 +27728,9 @@
             "lon": 127.0485153
           },
           {
-            "name": "청화여성병원",
-            "lat": 37.507169,
-            "lon": 126.9403096
+            "name": "청화병원",
+            "lat": 37.5071575,
+            "lon": 126.9403122
           },
           {
             "name": "초록나무요양병원",
@@ -29210,8 +29210,8 @@
           },
           {
             "name": "Lanna Hospital - New Building",
-            "lat": 18.8153686,
-            "lon": 98.9940893
+            "lat": 18.8153754,
+            "lon": 98.9940726
           },
           {
             "name": "Lanna Hospital Extension",
@@ -29579,7 +29579,7 @@
       }
     },
     "Turkey": {
-      "count": 335,
+      "count": 337,
       "cities": {
         "Antalya": [
           {
@@ -29761,8 +29761,8 @@
           },
           {
             "name": "Acıbadem Ataşehir Hastanesi",
-            "lat": 40.9945826,
-            "lon": 29.1270666
+            "lat": 40.9942682,
+            "lon": 29.1269208
           },
           {
             "name": "Acıbadem Dr. Şinasi Can (Kadıköy) Hastanesi",
@@ -30015,9 +30015,14 @@
             "lon": 28.9158289
           },
           {
-            "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Binası",
-            "lat": 41.1106214,
-            "lon": 29.0862207
+            "name": "Beykoz Devlet Hastanesi",
+            "lat": 41.1176139,
+            "lon": 29.0982065
+          },
+          {
+            "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Hizmet Birimi",
+            "lat": 41.1106101,
+            "lon": 29.0862362
           },
           {
             "name": "Beykoz Devlet Hastanesi Toplum Ruh Sağlığı Merkezi",
@@ -30288,6 +30293,11 @@
             "name": "Haydarpaşa Numune Hastanesi Yeldeğirmeni Semt Polikliniği",
             "lat": 40.9930708,
             "lon": 29.0290091
+          },
+          {
+            "name": "Haydarpaşa Numune Hastanesi Ünalan Ek Hizmet Binası",
+            "lat": 40.9972306,
+            "lon": 29.0650495
           },
           {
             "name": "Hayvan Hastanesi",
@@ -30676,8 +30686,8 @@
           },
           {
             "name": "Sarıyer İsmail Akgün Devlet Hastanesi",
-            "lat": 41.1694193,
-            "lon": 29.0567119
+            "lat": 41.1694361,
+            "lon": 29.0566989
           },
           {
             "name": "Saygı Hastanesi",
@@ -31045,6 +31055,11 @@
             "lon": 28.959974
           },
           {
+            "name": "Özel Rumeli Hastanesi",
+            "lat": 41.0078241,
+            "lon": 28.7982803
+          },
+          {
             "name": "Özel Safa Hastanesi",
             "lat": 41.022723,
             "lon": 28.8572036
@@ -31133,11 +31148,6 @@
             "name": "İlgi Hastanesi",
             "lat": 41.0209094,
             "lon": 28.8666912
-          },
-          {
-            "name": "İstanbul Beykoz (Paşabahçe) Devlet Hastanesi",
-            "lat": 41.1176714,
-            "lon": 29.0981565
           },
           {
             "name": "İstanbul Bezmialem Vakıf Üniversitesi Valide Sultan Gureba Hastanesi",
