@@ -42,6 +42,9 @@ FLEET_ROW = fleet.row_html(
     "defiant", label="Also ours", cls="fleet",
     roster=fleet.load(pathlib.Path(__file__).resolve().parent / "data" / "fleet.json"),
     ids=("care-abroad", "motdang", "wichaa", "amulet-atlas", "hongdam", "offramp", "index"))
+SUPPORT_ROW = fleet.support_html(
+    contact=False,
+    roster=fleet.load(pathlib.Path(__file__).resolve().parent / "data" / "fleet.json"))
 LINE_URL = "https://line.me/ti/p/~defiant.to"
 
 # IndexNow: one ping tells Bing, Yandex, Seznam & Naver about every URL at once —
@@ -880,6 +883,7 @@ FOOTER = f"""<footer>
 <a class="pi" href="/mozarts-ghost/" aria-label="secret">π</a></p>
 <p>© 2025–2026 Defiant · Chiang Mai, Thailand · <span lang="th">ดีไฟแอนท์</span></p>
 {FLEET_ROW}
+{SUPPORT_ROW}
 </footer>"""
 
 

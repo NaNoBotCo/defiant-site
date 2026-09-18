@@ -421,3 +421,5 @@ footer a:hover { color: var(--magenta); }
 /* the roster of sibling sites, rendered by fleet.py */
 .fleet { margin: .8rem 0 0; font-size: .85rem; line-height: 2; opacity: .85 }
 .fleet a { margin: 0 .35rem; white-space: nowrap }
+.support { margin: .45rem 0 0; font-size: .85rem; opacity: .85 }
+.support a { margin: 0 .3rem }
