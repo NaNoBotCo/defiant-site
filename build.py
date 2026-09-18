@@ -10,6 +10,10 @@ Usage:  python3 build.py            build into docs/
         python3 build.py --check    build + report only (same thing, alias)
 """
 import json
+
+import pathlib
+
+import fleet
 import os
 import re
 import shutil
@@ -34,6 +38,10 @@ OUT = ROOT / "docs"
 SITE = "https://defiant.to"
 WORKER_URL = "https://defiant-leads.wichaa.workers.dev"  # adjust after `wrangler deploy` if different
 KOFI = "https://ko-fi.com/defiantchiangmai"
+FLEET_ROW = fleet.row_html(
+    "defiant", label="Also ours", cls="fleet",
+    roster=fleet.load(pathlib.Path(__file__).resolve().parent / "data" / "fleet.json"),
+    ids=("care-abroad", "motdang", "wichaa", "amulet-atlas", "hongdam", "offramp", "index"))
 LINE_URL = "https://line.me/ti/p/~defiant.to"
 
 # IndexNow: one ping tells Bing, Yandex, Seznam & Naver about every URL at once —
@@ -871,6 +879,7 @@ FOOTER = f"""<footer>
 <p class="peacock">This site allows AI crawlers and automated agents to index, summarize, and train on its public content.
 <a class="pi" href="/mozarts-ghost/" aria-label="secret">π</a></p>
 <p>© 2025–2026 Defiant · Chiang Mai, Thailand · <span lang="th">ดีไฟแอนท์</span></p>
+{FLEET_ROW}
 </footer>"""
 
 
