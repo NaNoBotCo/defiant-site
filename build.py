@@ -1523,7 +1523,7 @@ def page(name, meta, body_html, route, raw_body=""):
                 '<link rel="alternate" hreflang="th" href="' + SITE + '/th/">'
                 '<link rel="alternate" hreflang="x-default" href="' + SITE + '/">'
                 if route in ("/", "/th/") else "")
-    return f"""<!DOCTYPE html><html lang="{page_lang}"><head>
+    return f"""<!DOCTYPE html><html lang="{page_lang}" class="notranslate" translate="no"><head>
 <!-- {BLESSING} -->
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light only">
@@ -1550,6 +1550,9 @@ def page(name, meta, body_html, route, raw_body=""):
 <link rel="stylesheet" href="/assets/styles.css">
 <link rel="alternate" type="application/atom+xml" title="Defiant — new &amp; updated pages" href="/feed.xml">
 {jsonld}
+<meta name="google" content="notranslate">
+<meta name="robots" content="notranslate">
+<script>if(/[.]translate[.]goog$/.test(location.hostname))location.replace("https://"+location.hostname.slice(0,-15).replace(/--/g,"~").replace(/-/g,".").replace(/~/g,"-")+location.pathname+location.search.replace(/([?&])_x_tr_[^&]*/g,"$1").replace(/[?&]+$/,"").replace(/[?]&+/,"?")+location.hash)</script>
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header>
@@ -1755,6 +1758,7 @@ def build():
 
     (OUT / "CNAME").write_text("defiant.to\n", encoding="utf-8")
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
+    (OUT / "_headers").write_text("/*\n  X-Robots-Tag: notranslate\n", encoding="utf-8")
 
     # ---------------- checks
     problems = []
