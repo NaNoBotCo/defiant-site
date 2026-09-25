@@ -4470,7 +4470,7 @@
           {
             "name": "Clínica Centenario",
             "lat": 4.6056685,
-            "lon": -74.0833605
+            "lon": -74.0833591
           },
           {
             "name": "Clínica Colombia",
@@ -4669,8 +4669,8 @@
           },
           {
             "name": "Hospital El Carmen",
-            "lat": 4.5835619,
-            "lon": -74.1319733
+            "lat": 4.5835716,
+            "lon": -74.1319651
           },
           {
             "name": "Hospital El Tunal",
@@ -4734,7 +4734,7 @@
           },
           {
             "name": "Hospital Santa Clara",
-            "lat": 4.5916716,
+            "lat": 4.5916902,
             "lon": -74.0924836
           },
           {
@@ -4924,8 +4924,8 @@
           },
           {
             "name": "UPA Lourdes",
-            "lat": 4.589292,
-            "lon": -74.0739066
+            "lat": 4.5893068,
+            "lon": -74.0739448
           },
           {
             "name": "UPA Rionegro",
@@ -5368,8 +5368,8 @@
         "San José": [
           {
             "name": "Banco Nacional de Sangre",
-            "lat": 9.9194757,
-            "lon": -84.0535239
+            "lat": 9.9194725,
+            "lon": -84.0535134
           },
           {
             "name": "Centro Medico Familiar",
@@ -5389,7 +5389,7 @@
           {
             "name": "Centro de Desarrollo Social Dr. Guillermo Padilla Castro",
             "lat": 9.9225293,
-            "lon": -84.0699685
+            "lon": -84.0699756
           },
           {
             "name": "Clínica CCSS Alajuelita",
@@ -5947,7 +5947,7 @@
       }
     },
     "India": {
-      "count": 3683,
+      "count": 3685,
       "cities": {
         "Bengaluru": [
           {
@@ -5997,8 +5997,8 @@
           },
           {
             "name": "Abhaya Hospital",
-            "lat": 12.9462798,
-            "lon": 77.5947839
+            "lat": 12.9462857,
+            "lon": 77.5947772
           },
           {
             "name": "Abhilash Hospital And Sara Rehabilitation Centre",
@@ -6212,8 +6212,8 @@
           },
           {
             "name": "Apollo Speciality Hospital",
-            "lat": 12.9362818,
-            "lon": 77.5843424
+            "lat": 12.9363683,
+            "lon": 77.5843165
           },
           {
             "name": "Apollo Specialty Hospital",
@@ -6387,8 +6387,8 @@
           },
           {
             "name": "BBMP Maternity Hospital",
-            "lat": 12.9491979,
-            "lon": 77.596808
+            "lat": 12.9491888,
+            "lon": 77.5968148
           },
           {
             "name": "BBMP Primary Health Center",
@@ -7037,8 +7037,8 @@
           },
           {
             "name": "Dr. Agarwal's Eye Hospital",
-            "lat": 12.9103586,
-            "lon": 77.600474
+            "lat": 12.9103373,
+            "lon": 77.6004789
           },
           {
             "name": "Dr. Agrawal's Eye Hospital",
@@ -7187,8 +7187,8 @@
           },
           {
             "name": "Employees' State Insurance Corporation Model Hospital",
-            "lat": 12.9909528,
-            "lon": 77.5534579
+            "lat": 12.9909672,
+            "lon": 77.5535011
           },
           {
             "name": "Endocrine Speciality Centre",
@@ -7299,6 +7299,11 @@
             "name": "GM Hospital",
             "lat": 12.9929463,
             "lon": 77.5386927
+          },
+          {
+            "name": "GM Hospital, Nagarabhavi",
+            "lat": 12.9613237,
+            "lon": 77.511726
           },
           {
             "name": "Ganesh Nursing Home, Bengaluru Urban",
@@ -7422,7 +7427,7 @@
           },
           {
             "name": "Government Veterinary Hospital",
-            "lat": 12.9641529,
+            "lat": 12.964165,
             "lon": 77.5676947
           },
           {
@@ -8297,8 +8302,8 @@
           },
           {
             "name": "Manipal Hospitals",
-            "lat": 12.9583496,
-            "lon": 77.7454332
+            "lat": 12.9583372,
+            "lon": 77.7454453
           },
           {
             "name": "Manipal Hospitals Whitefield",
@@ -8607,8 +8612,8 @@
           },
           {
             "name": "Narayana Multispeciality Hospital",
-            "lat": 12.9082086,
-            "lon": 77.6435134
+            "lat": 12.9081745,
+            "lon": 77.643511
           },
           {
             "name": "Narayana Nethralaya",
@@ -8627,7 +8632,7 @@
           },
           {
             "name": "National Institute of Mental Health and NeuroSciences",
-            "lat": 12.937639,
+            "lat": 12.9376156,
             "lon": 77.5971954
           },
           {
@@ -8802,8 +8807,8 @@
           },
           {
             "name": "PESU HOSPITAL",
-            "lat": 12.8628027,
-            "lon": 77.6663559
+            "lat": 12.8627925,
+            "lon": 77.6662881
           },
           {
             "name": "PMC Hospital",
@@ -8824,11 +8829,6 @@
             "name": "Padmavathi Hospital, Bengaluru Urban",
             "lat": 12.9817311,
             "lon": 77.5333714
-          },
-          {
-            "name": "Panacea Hospital, Nagarabhavi",
-            "lat": 12.9613237,
-            "lon": 77.511726
           },
           {
             "name": "Panchamukhi Specialityu Hospital",
@@ -9402,8 +9402,8 @@
           },
           {
             "name": "Sagar Hospitals",
-            "lat": 12.9279005,
-            "lon": 77.5998446
+            "lat": 12.9278986,
+            "lon": 77.599855
           },
           {
             "name": "Sahasra Hospital",
@@ -9928,7 +9928,7 @@
           {
             "name": "Sri Jayadeva Institute Of Cardiology",
             "lat": 12.918526,
-            "lon": 77.599254
+            "lon": 77.599265
           },
           {
             "name": "Sri Kalabyraveshwara Swamy Ayurvedic Medical College hospital",
@@ -10028,7 +10028,7 @@
           {
             "name": "Sri Sathya Sai Institute of Higher Medical Sciences",
             "lat": 12.9808814,
-            "lon": 77.7303132
+            "lon": 77.7303048
           },
           {
             "name": "Sri Shankara Cancer Hospital And Research Centre (A Service Unit Of Sscf)",
@@ -10148,7 +10148,7 @@
           {
             "name": "St. Philomena's Hospital",
             "lat": 12.9649568,
-            "lon": 77.6111375
+            "lon": 77.6111852
           },
           {
             "name": "St. Theresa's Hospital",
@@ -15371,7 +15371,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.4746541,
+            "lat": 28.473978,
             "lon": 77.2158554
           },
           {
@@ -19832,7 +19832,7 @@
             "lon": 72.8431331
           },
           {
-            "name": "City Hospital and Reserch Centre",
+            "name": "City Hospital and Research Centre",
             "lat": 19.0810411,
             "lon": 72.8819647
           },
@@ -19867,6 +19867,11 @@
             "lon": 72.8210971
           },
           {
+            "name": "CritiCare Asia Hospital, Kurla",
+            "lat": 19.0760113,
+            "lon": 72.8861368
+          },
+          {
             "name": "CritiCare Hospital",
             "lat": 19.1180803,
             "lon": 72.8505516
@@ -19880,11 +19885,6 @@
             "name": "Criticare Superspeciality Hospital",
             "lat": 19.2017129,
             "lon": 72.9652409
-          },
-          {
-            "name": "Crtiti Care Asia Hospital",
-            "lat": 19.0760113,
-            "lon": 72.8861368
           },
           {
             "name": "Crystal Hospitals",
@@ -20210,6 +20210,11 @@
             "name": "Dr Phadkes Maternity and Surgical Hospital",
             "lat": 19.132605,
             "lon": 72.8696693
+          },
+          {
+            "name": "Dr Priyanka Shukla | Gynecologist in Borivali",
+            "lat": 19.2302304,
+            "lon": 72.8456167
           },
           {
             "name": "Dr Sanjay Soni Dental Clinic",
@@ -21703,8 +21708,8 @@
           },
           {
             "name": "Maher Maternity and Nursing Home, Mumbai",
-            "lat": 19.1703693,
-            "lon": 72.9588425
+            "lat": 19.1704446,
+            "lon": 72.9588558
           },
           {
             "name": "Maheshwari Multispeciality Hospital",
@@ -22185,6 +22190,11 @@
             "name": "New Nari Hospital",
             "lat": 19.1794965,
             "lon": 72.8606797
+          },
+          {
+            "name": "New Noor Hospital",
+            "lat": 19.0762084,
+            "lon": 72.8780034
           },
           {
             "name": "New Ratna Hospital",
@@ -24077,7 +24087,7 @@
             "lon": 72.9207404
           },
           {
-            "name": "Vimala Dermatological Centra",
+            "name": "Vimala Dermatological Center",
             "lat": 19.1378081,
             "lon": 72.8094838
           },
@@ -26202,8 +26212,8 @@
           },
           {
             "name": "Buangkok Green Medical Park",
-            "lat": 1.3823589,
-            "lon": 103.8847677
+            "lat": 1.3821353,
+            "lon": 103.8847334
           },
           {
             "name": "Bukit Merah Joint Testing & Vaccination Centre",
@@ -26481,7 +26491,7 @@
             "lon": 103.7229451
           },
           {
-            "name": "Woodlands Hospital",
+            "name": "Woodlands Health Campus",
             "lat": 1.424561,
             "lon": 103.7945949
           },
@@ -27748,9 +27758,9 @@
             "lon": 127.0485153
           },
           {
-            "name": "청화여성병원",
-            "lat": 37.507169,
-            "lon": 126.9403096
+            "name": "청화병원",
+            "lat": 37.5071575,
+            "lon": 126.9403122
           },
           {
             "name": "초록나무요양병원",
@@ -27904,8 +27914,8 @@
           },
           {
             "name": "해정병원",
-            "lat": 37.5760692,
-            "lon": 126.9852705
+            "lat": 37.5758192,
+            "lon": 126.9849944
           },
           {
             "name": "햇빛여성병원",
@@ -27970,7 +27980,7 @@
             "lon": 2.1431984
           },
           {
-            "name": "4- Hospital Traumatología, Rehabilitació Cremats Vall Hebron",
+            "name": "4-  Hospital Traumatología, Rehabilitació Cremats Vall Hebron",
             "lat": 41.4273607,
             "lon": 2.13983
           },
