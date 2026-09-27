@@ -1795,7 +1795,7 @@ walkthrough is [[=Flying-With-Meds|here]].
   registered in their own country, "manufacturer" claims that are provably false,
   and prices 88% below the legal maximum, which is not a bargain but a tell. The
   two best-documented cases of marketplace-sourced injectables ended in a
-  [WHO alert for falsified Ozempic](https://www.who.int/news/item/19-06-2024-medical-product-alert-n-2-2024--falsified-ozempic-(semaglutide))
+  [WHO alert for falsified Ozempic](https://www.who.int/news/item/19-06-2024-medical-product-alert-n-2-2024--falsified-ozempic-%28semaglutide%29)
   and a
   [CDC investigation of counterfeit Botox](https://www.cdc.gov/han/2024/han00507.html).
   An injectable with no verifiable cold chain and no licensed seller is not the
@@ -2310,6 +2310,8 @@ Our home base. Northern Thailand's university city — calm, walkable neighborho
 ## Practical
 
 Hospitals we work with here: [[Bangkok Hospital Chiang Mai]], [[Chiang Mai Ram Hospital]], [[McCormick Hospital]], [[Sriphat Medical Center]], [[Lanna Hospital]]. Find us แถวหลังมอ — behind the university, where the good coffee is.
+
+City directory: [เชียงใหม่ · Chiang Mai](https://motdang.net/cm/index.html) · [เชียงราย · Chiang Rai](https://motdang.net/cr/index.html)
 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
