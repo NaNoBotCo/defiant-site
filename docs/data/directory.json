@@ -14060,7 +14060,7 @@
         "geo": {
           "@type": "GeoCoordinates",
           "latitude": 4.6056685,
-          "longitude": -74.0833605
+          "longitude": -74.0833591
         }
       }
     },
@@ -14819,8 +14819,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 4.5835619,
-          "longitude": -74.1319733
+          "latitude": 4.5835716,
+          "longitude": -74.1319651
         }
       }
     },
@@ -15788,8 +15788,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 4.589292,
-          "longitude": -74.0739066
+          "latitude": 4.5893068,
+          "longitude": -74.0739448
         }
       }
     },
@@ -16007,25 +16007,6 @@
       "position": 843,
       "item": {
         "@type": "Hospital",
-        "name": "CENTRO POLICLÍNICO S.A.",
-        "category": "Hospital",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Medellín",
-          "addressCountry": "Colombia"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 6.2486808,
-          "longitude": -75.5652647
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 844,
-      "item": {
-        "@type": "Hospital",
         "name": "CIS Comfama Itagüí",
         "category": "Hospital",
         "address": {
@@ -16042,7 +16023,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 845,
+      "position": 844,
       "item": {
         "@type": "Hospital",
         "name": "Carisma Centro de Rehabilitación",
@@ -16061,7 +16042,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 846,
+      "position": 845,
       "item": {
         "@type": "Hospital",
         "name": "Cemev IPS Itagüí",
@@ -16080,7 +16061,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 847,
+      "position": 846,
       "item": {
         "@type": "Hospital",
         "name": "Centro De Salud Picacho",
@@ -16099,7 +16080,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 848,
+      "position": 847,
       "item": {
         "@type": "Hospital",
         "name": "Centro Médico Nueva Vida",
@@ -16113,6 +16094,25 @@
           "@type": "GeoCoordinates",
           "latitude": 6.2840212,
           "longitude": -75.5842167
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 848,
+      "item": {
+        "@type": "Hospital",
+        "name": "Centro Policlínico S.a.",
+        "category": "Hospital",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Medellín",
+          "addressCountry": "Colombia"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 6.2486808,
+          "longitude": -75.5652647
         }
       }
     },
@@ -17071,25 +17071,6 @@
       "position": 899,
       "item": {
         "@type": "Hospital",
-        "name": "SOMA",
-        "category": "Hospital",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Medellín",
-          "addressCountry": "Colombia"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 6.2488833,
-          "longitude": -75.5645579
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 900,
-      "item": {
-        "@type": "Hospital",
         "name": "Salud SURA",
         "category": "Hospital",
         "address": {
@@ -17106,7 +17087,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 901,
+      "position": 900,
       "item": {
         "@type": "Hospital",
         "name": "Salud Total",
@@ -17125,7 +17106,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 902,
+      "position": 901,
       "item": {
         "@type": "Hospital",
         "name": "Santa Ana Hospital Infantil",
@@ -17144,7 +17125,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 903,
+      "position": 902,
       "item": {
         "@type": "Hospital",
         "name": "Savia Salud",
@@ -17163,7 +17144,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 904,
+      "position": 903,
       "item": {
         "@type": "Hospital",
         "name": "Savia salud EPS",
@@ -17177,6 +17158,25 @@
           "@type": "GeoCoordinates",
           "latitude": 6.2271867,
           "longitude": -75.5744281
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 904,
+      "item": {
+        "@type": "Hospital",
+        "name": "Soma",
+        "category": "Hospital",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Medellín",
+          "addressCountry": "Colombia"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 6.2488833,
+          "longitude": -75.5645579
         }
       }
     },
@@ -90962,7 +90962,7 @@
       "position": 4788,
       "item": {
         "@type": "Hospital",
-        "name": "Gleneagles Pulau Pinang",
+        "name": "Gleneagles Penang",
         "category": "Hospital",
         "address": {
           "@type": "PostalAddress",
@@ -91228,7 +91228,7 @@
       "position": 4802,
       "item": {
         "@type": "Hospital",
-        "name": "iTCM Healthcare Centre",
+        "name": "iTCM Healthcare Centre 爱康中医诊所",
         "category": "Hospital",
         "address": {
           "@type": "PostalAddress",
@@ -106504,6 +106504,25 @@
       "position": 5606,
       "item": {
         "@type": "Hospital",
+        "name": "โรงพยาบาลมิตรประชา",
+        "category": "Hospital",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bangkok",
+          "addressCountry": "Thailand"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 13.711638,
+          "longitude": 100.4318286
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5607,
+      "item": {
+        "@type": "Hospital",
         "name": "โรงพยาบาลมิตรภาพ",
         "category": "Hospital",
         "address": {
@@ -106520,7 +106539,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5607,
+      "position": 5608,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลมิราเคิล อ๊อฟไลท์",
@@ -106539,7 +106558,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5608,
+      "position": 5609,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลมเหสักข์",
@@ -106558,7 +106577,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5609,
+      "position": 5610,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลยันฮี",
@@ -106577,7 +106596,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5610,
+      "position": 5611,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลยุวประสาทไวทโยปถัมถ์",
@@ -106596,7 +106615,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5611,
+      "position": 5612,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลรัชดา-ท่าพระ",
@@ -106615,7 +106634,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5612,
+      "position": 5613,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลราช ประชาสมาสัย",
@@ -106634,7 +106653,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5613,
+      "position": 5614,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลราชพิพัฒน์",
@@ -106653,7 +106672,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5614,
+      "position": 5615,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลราชวิถี",
@@ -106672,7 +106691,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5615,
+      "position": 5616,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลรามาธิบดี",
@@ -106691,7 +106710,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5616,
+      "position": 5617,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลรามาสุขสวัสดิ์",
@@ -106710,7 +106729,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5617,
+      "position": 5618,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลราษฎร์บูรณะ",
@@ -106729,7 +106748,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5618,
+      "position": 5619,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลลาดพร้าว",
@@ -106748,7 +106767,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5619,
+      "position": 5620,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลวิชัยยุทธ",
@@ -106767,7 +106786,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5620,
+      "position": 5621,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลวิชัยเวช อินเตอร์เนชั่นแนล หนองแขม",
@@ -106786,7 +106805,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5621,
+      "position": 5622,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลวิภารามปากเกร็ด",
@@ -106805,7 +106824,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5622,
+      "position": 5623,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลวิภาวดี",
@@ -106824,7 +106843,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5623,
+      "position": 5624,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลวิมุต",
@@ -106843,7 +106862,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5624,
+      "position": 5625,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลศรีธัญญา",
@@ -106862,7 +106881,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5625,
+      "position": 5626,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลศิครินทร์",
@@ -106881,7 +106900,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5626,
+      "position": 5627,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลศิริราช",
@@ -106900,7 +106919,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5627,
+      "position": 5628,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลศิริราช ปิยมหาราชการุณย์",
@@ -106919,7 +106938,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5628,
+      "position": 5629,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลศูนย์การแพทย์วิชัยยุทธ",
@@ -106938,7 +106957,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5629,
+      "position": 5630,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสงฆ์",
@@ -106957,7 +106976,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5630,
+      "position": 5631,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสถาบันโรคไตภูมิราชนครินทร์",
@@ -106976,7 +106995,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5631,
+      "position": 5632,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมิติเวช",
@@ -106995,7 +107014,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5632,
+      "position": 5633,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมิติเวช สุขุมวิท",
@@ -107014,7 +107033,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5633,
+      "position": 5634,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมิติเวชธนบุรี",
@@ -107033,7 +107052,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5634,
+      "position": 5635,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมุทรปราการ",
@@ -107052,7 +107071,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5635,
+      "position": 5636,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมเด็จพระปิ่นเกล้า",
@@ -107071,7 +107090,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5636,
+      "position": 5637,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมเด็จพระมหารัชมังคลาจารย์ วรปุญญมหาเถระ",
@@ -107090,7 +107109,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5637,
+      "position": 5638,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสมเด็จเจ้าพระยา",
@@ -107109,7 +107128,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5638,
+      "position": 5639,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสยาม",
@@ -107128,7 +107147,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5639,
+      "position": 5640,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสวนเบญจกิติเฉลิมพระเกียรติ 84 พรรษา",
@@ -107147,7 +107166,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5640,
+      "position": 5641,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสายไหม",
@@ -107166,7 +107185,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5641,
+      "position": 5642,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสิรินธร",
@@ -107185,7 +107204,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5642,
+      "position": 5643,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลสุขุมวิท",
@@ -107204,7 +107223,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5643,
+      "position": 5644,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลส่งเสริมสุขภาพตำบลวัดบางปิ้ง",
@@ -107223,7 +107242,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5644,
+      "position": 5645,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลส้ตว์ M. A. H.",
@@ -107242,7 +107261,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5645,
+      "position": 5646,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลหัวเฉียว",
@@ -107261,7 +107280,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5646,
+      "position": 5647,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลอนันต์พัฒนา 2",
@@ -107280,7 +107299,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5647,
+      "position": 5648,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลฮั้วยันฮัม",
@@ -107299,7 +107318,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5648,
+      "position": 5649,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเกษมราษฎร์ ประชาชื่น",
@@ -107318,7 +107337,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5649,
+      "position": 5650,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเกษมราษฎร์ รามคำแหง",
@@ -107337,7 +107356,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5650,
+      "position": 5651,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเกษมราษฏร์ รัตนาธิเบศร์",
@@ -107356,7 +107375,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5651,
+      "position": 5652,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเจตนิน",
@@ -107375,7 +107394,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5652,
+      "position": 5653,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเจริญกรุงประชารักษ์",
@@ -107394,7 +107413,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5653,
+      "position": 5654,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเซนต์หลุยส์",
@@ -107413,7 +107432,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5654,
+      "position": 5655,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเซ็นทรัล เยอเนอรัล",
@@ -107432,7 +107451,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5655,
+      "position": 5656,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเซ็ลทรัลปาร์ค",
@@ -107451,7 +107470,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5656,
+      "position": 5657,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเดชา",
@@ -107470,7 +107489,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5657,
+      "position": 5658,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเด็ก สินแพทย์",
@@ -107489,7 +107508,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5658,
+      "position": 5659,
       "item": {
         "@type": "Hospital",
         "name": "โรงพยาบาลเทียนฟ้ามูลนิธิ",
@@ -107503,25 +107522,6 @@
           "@type": "GeoCoordinates",
           "latitude": 13.7382455,
           "longitude": 100.5123052
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 5659,
-      "item": {
-        "@type": "Hospital",
-        "name": "โรงพยาบาลเพชรเกษม 2",
-        "category": "Hospital",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Bangkok",
-          "addressCountry": "Thailand"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 13.7118679,
-          "longitude": 100.431882
         }
       }
     },
@@ -107625,7 +107625,7 @@
       "position": 5665,
       "item": {
         "@type": "Hospital",
-        "name": "โรงพยาบาลเวชธานี",
+        "name": "โรงพยาบาลเวชธานี อินเตอร์เนชันแนล",
         "category": "Hospital",
         "address": {
           "@type": "PostalAddress",

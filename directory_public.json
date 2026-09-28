@@ -4470,7 +4470,7 @@
           {
             "name": "Clínica Centenario",
             "lat": 4.6056685,
-            "lon": -74.0833605
+            "lon": -74.0833591
           },
           {
             "name": "Clínica Colombia",
@@ -4669,8 +4669,8 @@
           },
           {
             "name": "Hospital El Carmen",
-            "lat": 4.5835619,
-            "lon": -74.1319733
+            "lat": 4.5835716,
+            "lon": -74.1319651
           },
           {
             "name": "Hospital El Tunal",
@@ -4924,8 +4924,8 @@
           },
           {
             "name": "UPA Lourdes",
-            "lat": 4.589292,
-            "lon": -74.0739066
+            "lat": 4.5893068,
+            "lon": -74.0739448
           },
           {
             "name": "UPA Rionegro",
@@ -4985,11 +4985,6 @@
         ],
         "Medellín": [
           {
-            "name": "CENTRO POLICLÍNICO S.A.",
-            "lat": 6.2486808,
-            "lon": -75.5652647
-          },
-          {
             "name": "CIS Comfama Itagüí",
             "lat": 6.17512,
             "lon": -75.607182
@@ -5013,6 +5008,11 @@
             "name": "Centro Médico Nueva Vida",
             "lat": 6.2840212,
             "lon": -75.5842167
+          },
+          {
+            "name": "Centro Policlínico S.a.",
+            "lat": 6.2486808,
+            "lon": -75.5652647
           },
           {
             "name": "Centro de Fracturas Cefra S.a.",
@@ -5265,11 +5265,6 @@
             "lon": -75.5867116
           },
           {
-            "name": "SOMA",
-            "lat": 6.2488833,
-            "lon": -75.5645579
-          },
-          {
             "name": "Salud SURA",
             "lat": 6.2287433,
             "lon": -75.574097
@@ -5293,6 +5288,11 @@
             "name": "Savia salud EPS",
             "lat": 6.2271867,
             "lon": -75.5744281
+          },
+          {
+            "name": "Soma",
+            "lat": 6.2488833,
+            "lon": -75.5645579
           },
           {
             "name": "Unidad Hospitalaria Castilla Jaime Tobón Arbeláez",
@@ -24746,7 +24746,7 @@
         ],
         "Penang": [
           {
-            "name": "Gleneagles Pulau Pinang",
+            "name": "Gleneagles Penang",
             "lat": 5.4268203,
             "lon": 100.3199443
           },
@@ -24816,7 +24816,7 @@
             "lon": 100.3083329
           },
           {
-            "name": "iTCM Healthcare Centre",
+            "name": "iTCM Healthcare Centre 爱康中医诊所",
             "lat": 5.4240233,
             "lon": 100.3177625
           }
@@ -28877,6 +28877,11 @@
             "lon": 100.5191274
           },
           {
+            "name": "โรงพยาบาลมิตรประชา",
+            "lat": 13.711638,
+            "lon": 100.4318286
+          },
+          {
             "name": "โรงพยาบาลมิตรภาพ",
             "lat": 13.7284992,
             "lon": 100.4945505
@@ -29142,11 +29147,6 @@
             "lon": 100.5123052
           },
           {
-            "name": "โรงพยาบาลเพชรเกษม 2",
-            "lat": 13.7118679,
-            "lon": 100.431882
-          },
-          {
             "name": "โรงพยาบาลเมดพาร์ค",
             "lat": 13.7217239,
             "lon": 100.5566062
@@ -29172,7 +29172,7 @@
             "lon": 100.5177517
           },
           {
-            "name": "โรงพยาบาลเวชธานี",
+            "name": "โรงพยาบาลเวชธานี อินเตอร์เนชันแนล",
             "lat": 13.7721804,
             "lon": 100.6369087
           },
