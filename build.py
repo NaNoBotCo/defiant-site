@@ -1453,6 +1453,19 @@ def _card_alt(route, meta, title):
     return f"Defiant share card — {title}."
 
 
+AFF = json.loads((ROOT / "data" / "affiliate.json").read_text(encoding="utf-8"))
+# slot -> (note name, the sentence the paid link follows); data/affiliate.json is written by affiliate-slots/sync.py
+AFF_AFTER = {"df-spine-flight": ("Spinal Surgery", "then buy the ticket.")}
+
+
+def paid(slot):
+    s = AFF["slots"].get(slot) or {}
+    if not s.get("url"):
+        return ""
+    return (f' <a href="{esc(s["url"])}" rel="sponsored nofollow noopener" target="_blank">{esc(s["en"])}</a>'
+            f' <small class="paid">{esc(AFF["label_en"])}</small>')
+
+
 def page(name, meta, body_html, route, raw_body=""):
     ov = PAGE_OVERRIDES.get(name, {})
     title = ov.get("title") or meta.get("title") or name.lstrip("=")
@@ -1465,6 +1478,9 @@ def page(name, meta, body_html, route, raw_body=""):
         body_html = f"<h1>{esc(title)}</h1>\n" + body_html
     if ov.get("intro"):
         body_html = body_html.replace("</h1>", "</h1>\n<p class=\"lead\">" + ov["intro"] + "</p>", 1)
+    for slot, (note, after) in AFF_AFTER.items():
+        if name == note and after in body_html:
+            body_html = body_html.replace(after, after + paid(slot), 1)
     if meta.get("type") == "procedure":
         body_html = body_html.replace("</h1>", "</h1>\n" + render_keyfacts(name, meta, raw_body), 1)
     # Trust tokens: accreditation badge (hospitals) + a reviewed-date freshness stamp.
