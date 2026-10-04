@@ -29,10 +29,9 @@ DOBBS = date(2022, 6, 24)
 DAYS = (date(2026, 7, 23) - DOBBS).days  # static floor; site swaps in live JS
 
 DISCLAIMER = (
-    "*Not medical advice. Defiant is a concierge and logistics service, not a "
-    "healthcare provider — treatment decisions belong to you and licensed "
-    "physicians. Every number on this page is an indicative 2026 range, "
-    "confirmed in writing before you book anything.*")
+    "*Defiant is a concierge and logistics service, not a healthcare provider. "
+    "Numbers on this page are indicative 2026 ranges, confirmed in writing "
+    "before booking.*")
 
 CTA = ("**Ready to price this for real?** [[=Contact|Book a free intake call]] "
        "— no fee, no obligation, no bullshit.")
@@ -77,7 +76,8 @@ def proc_note(name, d):
         body += "\n".join(f"- [[{h}]]" for h in d["hosps"]) + "\n\n"
     if d.get("science"):
         body += f"## The science, graded\n\n{d['science']}\n\n"
-    body += f"## The Defiant take\n\n{d['notes']}\n\n"
+    if d.get("notes"):
+        body += f"## The Defiant take\n\n{d['notes']}\n\n"
     body += CTA + "\n\n---\n" + DISCLAIMER + "\n"
     return body
 

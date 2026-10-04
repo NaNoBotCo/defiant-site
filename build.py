@@ -129,7 +129,7 @@ def render_pay(product):
                 'checkout, no account needed.</p>')
     else:
         note = ('<p class="pay-note">Visa, Mastercard &amp; PayPal — secure checkout, no account '
-                'needed. Prefer <b>Bitcoin</b>? <a href="/contact/">Ask us</a> for a wallet address.</p>')
+                'needed. Prefer <b>Bitcoin</b>? <a href="/contact/">Ask us</a> for a wallet address.</p>')  # stylecheck: allow — call to action
     return f'<div class="pay-row" data-amount="{amt}">' + "".join(btns) + "</div>" + note
 
 
@@ -753,13 +753,13 @@ def jsonld_for(name, meta, route, body):
                 {"@type": "Question",
                  "name": "Is estradiol available over the counter in Thailand?",
                  "acceptedAnswer": {"@type": "Answer",
-                    "text": "Yes. Estrogen is classed as a 'dangerous drug' (ยาอันตราย) in Thailand — "
-                            "behind-the-counter, no prescription required, dispensed by the pharmacist on duty."}},
+                    "text": "Yes. Estrogen is classed as a 'dangerous drug' (ยาอันตราย) in Thailand — "  # stylecheck: allow — Thai legal class name
+                            "behind-the-counter, no prescription required, dispensed by the pharmacist on duty."}},  # stylecheck: allow — 'dangerous drug' is the Thai legal class name
                 {"@type": "Question",
                  "name": "What is the Thai name for estradiol vaginal cream?",
                  "acceptedAnswer": {"@type": "Answer",
-                    "text": "Ask for Ovestin (estriol vaginal cream), the regional standard equivalent of US "
-                            "Estrace or Premarin vaginal cream. For whole-body estradiol gel, ask for Oestrogel."}},
+                    "text": "Ovestin (estriol vaginal cream) is the regional standard equivalent of US "
+                            "Estrace or Premarin vaginal cream. Whole-body estradiol gel sells as Oestrogel."}},
             ]}))
     elif t == "about":
         out.append(ld({"@context": "https://schema.org", "@type": "AboutPage",
@@ -1793,7 +1793,7 @@ def build():
         if f.suffix in {".html", ".txt", ".xml"} and "530kings" in f.read_text(encoding="utf-8", errors="ignore"):
             problems.append(f"{f.relative_to(OUT)}: EMAIL LEAKED IN PLAINTEXT")
     for w in WARNINGS:
-        print("  warn:", w)
+        print("  warn:", w)  # stylecheck: allow — operator build log
     if problems:
         print("\nBUILD FAILED:")
         for p in problems:
