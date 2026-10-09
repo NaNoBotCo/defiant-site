@@ -5957,7 +5957,7 @@
       }
     },
     "India": {
-      "count": 3687,
+      "count": 3688,
       "cities": {
         "Bengaluru": [
           {
@@ -6294,6 +6294,11 @@
             "name": "Aster CMI Hospital",
             "lat": 13.0545318,
             "lon": 77.5918707
+          },
+          {
+            "name": "Aster DM Healthcare",
+            "lat": 12.9886866,
+            "lon": 77.7337079
           },
           {
             "name": "Aster RV Hospital",
@@ -24786,6 +24791,11 @@
             "lon": 100.3035505
           },
           {
+            "name": "Hospital Pantai Pulau Pinang",
+            "lat": 5.3211772,
+            "lon": 100.2822678
+          },
+          {
             "name": "Hospital Pulau Pinang",
             "lat": 5.4170065,
             "lon": 100.3112543
@@ -24809,11 +24819,6 @@
             "name": "Optimax Eye Specialist Hospital",
             "lat": 5.3990544,
             "lon": 100.3042545
-          },
-          {
-            "name": "Pantai Hospital Penang",
-            "lat": 5.3211772,
-            "lon": 100.2822678
           },
           {
             "name": "Pantai Integrated Rehab (Satellite)",
@@ -31408,8 +31413,8 @@
           },
           {
             "name": "Al Shoala Building",
-            "lat": 25.2564236,
-            "lon": 55.3313679
+            "lat": 25.2564222,
+            "lon": 55.33137
           },
           {
             "name": "Alma Polyclinic",
