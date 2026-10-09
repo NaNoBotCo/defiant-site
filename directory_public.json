@@ -5363,13 +5363,18 @@
       }
     },
     "Costa Rica": {
-      "count": 30,
+      "count": 32,
       "cities": {
         "San José": [
           {
             "name": "Banco Nacional de Sangre",
             "lat": 9.9194757,
             "lon": -84.0535239
+          },
+          {
+            "name": "Blue Medical",
+            "lat": 9.940541,
+            "lon": -84.1424373
           },
           {
             "name": "Centro Medico Familiar",
@@ -5445,6 +5450,11 @@
             "name": "Hospital CIMA San José",
             "lat": 9.9396026,
             "lon": -84.1443414
+          },
+          {
+            "name": "Hospital Cima",
+            "lat": 9.9397246,
+            "lon": -84.144395
           },
           {
             "name": "Hospital Clínica Bíblica",
@@ -15376,7 +15386,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.473978,
+            "lat": 28.4746541,
             "lon": 77.2158554
           },
           {
@@ -29856,8 +29866,8 @@
           },
           {
             "name": "Acıbadem Ataşehir Hastanesi",
-            "lat": 40.9942682,
-            "lon": 29.1269208
+            "lat": 40.9945826,
+            "lon": 29.1270666
           },
           {
             "name": "Acıbadem Dr. Şinasi Can (Kadıköy) Hastanesi",
@@ -29886,7 +29896,7 @@
           },
           {
             "name": "Acıbadem Kozyatağı Hastanesi",
-            "lat": 40.9766927,
+            "lat": 40.9766911,
             "lon": 29.0931138
           },
           {
@@ -29961,8 +29971,8 @@
           },
           {
             "name": "Ataköy Hastanesi",
-            "lat": 40.9925405,
-            "lon": 28.8406425
+            "lat": 40.9925302,
+            "lon": 28.8406431
           },
           {
             "name": "Ataşehir Ağız ve Diş Sağlığı Hastanesi",
@@ -29981,7 +29991,7 @@
           },
           {
             "name": "Avcılar Murat Kölük Devlet Hastanesi",
-            "lat": 40.9847659,
+            "lat": 40.9847531,
             "lon": 28.7312802
           },
           {
@@ -30110,14 +30120,9 @@
             "lon": 28.9158289
           },
           {
-            "name": "Beykoz Devlet Hastanesi",
-            "lat": 41.1176139,
-            "lon": 29.0982065
-          },
-          {
-            "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Hizmet Birimi",
-            "lat": 41.1106101,
-            "lon": 29.0862362
+            "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Binası",
+            "lat": 41.1106214,
+            "lon": 29.0862207
           },
           {
             "name": "Beykoz Devlet Hastanesi Toplum Ruh Sağlığı Merkezi",
@@ -30267,7 +30272,7 @@
           {
             "name": "Erenköy Ruh ve Sinir Hastalıkları Eğitim ve Araştırma Hastanesi",
             "lat": 40.9750143,
-            "lon": 29.0887494
+            "lon": 29.0887569
           },
           {
             "name": "Ersoy Hastanesi",
@@ -30781,8 +30786,8 @@
           },
           {
             "name": "Sante Plus Hastanesi",
-            "lat": 40.9984202,
-            "lon": 28.8943061
+            "lat": 40.9984177,
+            "lon": 28.8943472
           },
           {
             "name": "Sarıyer Hamidiye Etfal Eğitim ve Araştırma Hastanesi",
@@ -30791,8 +30796,8 @@
           },
           {
             "name": "Sarıyer İsmail Akgün Devlet Hastanesi",
-            "lat": 41.1694361,
-            "lon": 29.0566989
+            "lat": 41.1694193,
+            "lon": 29.0567119
           },
           {
             "name": "Saygı Hastanesi",
@@ -30916,8 +30921,8 @@
           },
           {
             "name": "Yedikule Göğüş Hastalıkları Hastanesi",
-            "lat": 41.0017833,
-            "lon": 28.9164448
+            "lat": 41.0021036,
+            "lon": 28.9152374
           },
           {
             "name": "Yedikule Surp PIRGIÇ ERMENI Hastanesi",
@@ -31255,6 +31260,11 @@
             "lon": 28.8666912
           },
           {
+            "name": "İstanbul Beykoz (Paşabahçe) Devlet Hastanesi",
+            "lat": 41.1176714,
+            "lon": 29.0981565
+          },
+          {
             "name": "İstanbul Bezmialem Vakıf Üniversitesi Valide Sultan Gureba Hastanesi",
             "lat": 41.0185641,
             "lon": 28.9359844
@@ -31341,8 +31351,8 @@
           },
           {
             "name": "İstanbulum Tıp Merkezi",
-            "lat": 41.1033788,
-            "lon": 28.8617105
+            "lat": 41.1034186,
+            "lon": 28.8616773
           },
           {
             "name": "İstinye Devlet Hastanesi",
