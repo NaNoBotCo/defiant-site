@@ -1,0 +1,35 @@
+FRONTIER — how a run makes one staged article (Mon + Thu, task defiant-frontier)
+
+Nan, 2026-10-10: "automatically generate compelling articles for defiant.to ... the bleeding edge of medicine, and you can find it in thailand even when it's scarce in the west. Health goals vary widely, so be inclusive." Her picks the same day: held for her word, two a week, doodle in risograph magenta and cyan with halftone.
+
+Repo: ~/Developer/claude code projects/defiant-site/
+
+1. Trials. python3 frontier.py harvest, then python3 frontier.py brief (it picks the goal; brief <goal> to choose). The brief lands in frontier/staging/<date>-<goal>/brief.json: every ClinicalTrials.gov study with a Thai site for that goal. Registry coverage of Thai trials is partial; the Thai Clinical Trials Registry (thaiclinicaltrials.org, TCTR) holds the rest.
+
+2. Research. One story per article: the therapy, device or drug a reader can reach in Thailand that is scarce, slow or dear at home. Sources: the brief, the ClinicalTrials.gov MCP (get_trial_details), TCTR, Thai FDA, hospital and university pages, peer-reviewed papers, Thai-language news. Ledger in research.md beside the brief: one line per claim, source URL, source date, confidence. A number without a source stays out.
+
+3. Write. One note, <Title>.md, in the staging folder, in the shape of the vault's Articles/ notes (Stellate Ganglion Block in Thailand.md is the model): front matter title, description, type: guide, updated, keyword, tags (one evidence/ tag; new terms go into tags.json terms with label and gloss). 1,400-2,200 words. The doodle goes right under the opening paragraph as ![[doodle:<piece-name>]]. End with ## Sources, numbered, each with its date.
+   Her standing words that govern the copy:
+   - framing for new treatments: open and optimistic; mechanism, early evidence, why the US has not approved it, the risk picture, then the reader decides. No cure words. (her correction 2026-07-25)
+   - facts only: no warnings, cautions, safety notes or unasked advice in reader copy. (her word 2026-10-04)
+   - every procedure and claim graded on the site's evidence scale: established, reasonable, mixed, experimental. (her =Procedures.md spec)
+   - prices with their date and source; Thai prices in baht with USD beside them.
+   - trials: NCT or TCTR number, phase, status, Thai sites and cities, who can enrol as the registry states it.
+   - ~/.claude/STYLE.md for every word; python3 ~/.claude/bin/stylecheck.py on the note.
+   - defiant.to is the concierge: one line near the end names what it does for this treatment, in the site's voice, no pitch.
+
+4. Draw. New piece frontier/doodle/src/canvas-core/frontier<Name>.ts on the kit in defiantRiso.ts (frontierCarT.ts is the model): one idea, one focal subject, real anatomy or device reference named in the header comment, 1200x630, loop 480 ticks, something moving every second, a tap reaction, reduced motion = the rest frame. Wrap it as frontier<Name>Film.ts + src/hosts/page-frontier<Name>Film.ts, then:
+     cd frontier/doodle
+     node tools/still.mjs frontier<Name>Film --frame 240        # look at it; fix what a proud illustrator would not ship
+     cp out/still-frontier<Name>Film-240.png ../staging/<slug>/card.png
+     node tools/build-defiant.mjs
+     (copy assets/doodles/defiant.mjs into out/site/assets/doodles/, point out/site/index.html at the piece)
+     node tools/check-defiant.mjs frontier-<name>               # no errors, the tap plays
+   Write the piece's tag name (frontier-<name>) into the staging folder as piece.txt, and the article's URL slug as route.txt.
+
+5. Gate. python3 frontier.py qa <slug> until green.
+
+6. Hold. Add one A item to ~/Desktop/1 — NEXT UP/QUEUE.txt:
+     - BUILT <date> · FRONTIER: <title>. <one line: the treatment, the Thai angle>. Staged frontier/staging/<slug>/. Word to ship: "ship <slug>" (runs python3 frontier.py ship <slug>; the 03:30 nightly deploys). Card: <path to card.png>.
+   Give the note and the card go/ links (python3 ~/Desktop/catalog/engine/shortlink.py add <path> <short>).
+   Nothing goes into the vault until she says the word.

@@ -1,0 +1,268 @@
+{
+ "_doc": "Health goals the frontier engine rotates through. terms = ClinicalTrials.gov condition queries, each run with location Thailand.",
+ "goals": [
+  {
+   "id": "blood-gene-therapy",
+   "label": "Thalassemia, sickle cell and blood disorders",
+   "terms": [
+    "thalassemia",
+    "sickle cell",
+    "hemophilia",
+    "aplastic anemia"
+   ]
+  },
+  {
+   "id": "cell-therapy-cancer",
+   "label": "Cancer: CAR-T, cell and immune therapies",
+   "terms": [
+    "lymphoma",
+    "leukemia",
+    "multiple myeloma",
+    "solid tumor immunotherapy"
+   ]
+  },
+  {
+   "id": "cancer-common",
+   "label": "Cancers: breast, lung, liver, bile duct, cervical, colorectal",
+   "terms": [
+    "breast cancer",
+    "lung cancer",
+    "hepatocellular carcinoma",
+    "cholangiocarcinoma",
+    "cervical cancer",
+    "colorectal cancer",
+    "nasopharyngeal carcinoma"
+   ]
+  },
+  {
+   "id": "longevity",
+   "label": "Aging, frailty and longevity",
+   "terms": [
+    "aging",
+    "frailty",
+    "sarcopenia",
+    "osteoporosis"
+   ]
+  },
+  {
+   "id": "gender-affirming",
+   "label": "Gender-affirming care",
+   "terms": [
+    "gender dysphoria",
+    "transgender",
+    "gender incongruence"
+   ]
+  },
+  {
+   "id": "fertility",
+   "label": "Fertility, IVF and pregnancy",
+   "terms": [
+    "infertility",
+    "in vitro fertilization",
+    "polycystic ovary syndrome",
+    "endometriosis",
+    "preeclampsia"
+   ]
+  },
+  {
+   "id": "menopause-hormones",
+   "label": "Menopause and hormones",
+   "terms": [
+    "menopause",
+    "hot flashes",
+    "hypogonadism",
+    "testosterone deficiency"
+   ]
+  },
+  {
+   "id": "metabolic",
+   "label": "Diabetes, weight and fatty liver",
+   "terms": [
+    "type 2 diabetes",
+    "obesity",
+    "type 1 diabetes",
+    "fatty liver",
+    "MASH"
+   ]
+  },
+  {
+   "id": "heart",
+   "label": "Heart and blood vessels",
+   "terms": [
+    "heart failure",
+    "atrial fibrillation",
+    "coronary artery disease",
+    "hypertension",
+    "stroke"
+   ]
+  },
+  {
+   "id": "brain",
+   "label": "Parkinson's, dementia, stroke recovery, MS, ALS",
+   "terms": [
+    "parkinson disease",
+    "alzheimer disease",
+    "dementia",
+    "multiple sclerosis",
+    "amyotrophic lateral sclerosis",
+    "spinal cord injury",
+    "stroke rehabilitation"
+   ]
+  },
+  {
+   "id": "mental-health",
+   "label": "Depression, PTSD, anxiety, psychedelic and neuromodulation",
+   "terms": [
+    "depression",
+    "post traumatic stress disorder",
+    "anxiety",
+    "bipolar",
+    "schizophrenia"
+   ]
+  },
+  {
+   "id": "addiction",
+   "label": "Addiction and recovery",
+   "terms": [
+    "alcohol use disorder",
+    "methamphetamine",
+    "opioid use disorder",
+    "smoking cessation"
+   ]
+  },
+  {
+   "id": "pain-joints",
+   "label": "Pain, joints, spine and sports injuries",
+   "terms": [
+    "osteoarthritis",
+    "knee osteoarthritis",
+    "low back pain",
+    "chronic pain",
+    "rotator cuff",
+    "tendinopathy"
+   ]
+  },
+  {
+   "id": "autoimmune",
+   "label": "Autoimmune: lupus, rheumatoid, psoriasis, IBD",
+   "terms": [
+    "lupus",
+    "rheumatoid arthritis",
+    "psoriasis",
+    "ulcerative colitis",
+    "crohn disease",
+    "atopic dermatitis"
+   ]
+  },
+  {
+   "id": "hiv-sexual-health",
+   "label": "HIV prevention, PrEP and sexual health",
+   "terms": [
+    "HIV",
+    "PrEP",
+    "HPV",
+    "syphilis",
+    "erectile dysfunction"
+   ]
+  },
+  {
+   "id": "infection-vaccines",
+   "label": "Dengue, TB, malaria, hepatitis and new vaccines",
+   "terms": [
+    "dengue",
+    "tuberculosis",
+    "malaria",
+    "hepatitis B",
+    "hepatitis C",
+    "melioidosis",
+    "influenza vaccine"
+   ]
+  },
+  {
+   "id": "kidney-liver",
+   "label": "Kidney and liver disease, transplant",
+   "terms": [
+    "chronic kidney disease",
+    "kidney transplantation",
+    "cirrhosis",
+    "liver transplantation"
+   ]
+  },
+  {
+   "id": "eyes-ears",
+   "label": "Eyes and hearing",
+   "terms": [
+    "myopia",
+    "macular degeneration",
+    "diabetic retinopathy",
+    "glaucoma",
+    "hearing loss"
+   ]
+  },
+  {
+   "id": "skin-hair-aesthetics",
+   "label": "Skin, hair, scars and aesthetics",
+   "terms": [
+    "alopecia",
+    "vitiligo",
+    "acne",
+    "scar",
+    "melasma",
+    "skin aging"
+   ]
+  },
+  {
+   "id": "rare-genetic",
+   "label": "Rare and genetic disease",
+   "terms": [
+    "rare disease",
+    "spinal muscular atrophy",
+    "duchenne",
+    "lysosomal storage",
+    "mucopolysaccharidosis"
+   ]
+  },
+  {
+   "id": "kids",
+   "label": "Children's medicine",
+   "terms": [
+    "pediatric",
+    "neonatal",
+    "autism",
+    "ADHD",
+    "cerebral palsy"
+   ]
+  },
+  {
+   "id": "rehab-disability",
+   "label": "Rehabilitation, prosthetics and disability",
+   "terms": [
+    "rehabilitation",
+    "amputation",
+    "prosthesis",
+    "robotic rehabilitation"
+   ]
+  },
+  {
+   "id": "lungs-sleep",
+   "label": "Lungs, asthma, COPD and sleep",
+   "terms": [
+    "asthma",
+    "COPD",
+    "sleep apnea",
+    "insomnia",
+    "long COVID"
+   ]
+  },
+  {
+   "id": "teeth-mouth",
+   "label": "Teeth, gums and mouth",
+   "terms": [
+    "periodontitis",
+    "dental implant",
+    "oral cancer",
+    "cleft lip"
+   ]
+  }
+ ]
+}

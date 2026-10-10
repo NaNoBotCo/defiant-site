@@ -169,7 +169,10 @@ def parse_note(path: Path):
             for ln in raw[4:end].splitlines():
                 if ":" in ln:
                     k, _, v = ln.partition(":")
-                    meta[k.strip()] = v.strip()
+                    v = v.strip()
+                    if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'":
+                        v = v[1:-1]  # YAML-quoted value: the quotes are not part of the title
+                    meta[k.strip()] = v
             raw = raw[end + 4:]
     return meta, raw.strip("\n")
 
@@ -430,6 +433,13 @@ def md_to_html(body: str, inline, note_name: str) -> str:
             if lst != "ul":
                 close_list(); html.append("<ul>"); lst = "ul"
             html.append(f"<li>{inline(m.group(1))}</li>"); continue
+        m = re.match(r"^!\[\[doodle:([a-z0-9-]+)\]\]$", s)
+        if m:
+            # a frontier doodle (frontier/doodle → assets/doodles/defiant.mjs); tap it
+            flush_para(); close_list()
+            html.append(f'<figure class="doodle"><ani-doodle piece="{m.group(1)}"></ani-doodle></figure>'
+                        '<script type="module" src="/assets/doodles/defiant.mjs"></script>')
+            continue
         m = re.match(r"^!\[\[([^\]]+)\]\]$", s)
         if m:
             flush_para(); close_list()
@@ -1630,6 +1640,8 @@ def build():
     shutil.copy2(ROOT / "assets" / "styles.css", OUT / "assets" / "styles.css")
     if (ROOT / "assets" / "cards").exists():
         shutil.copytree(ROOT / "assets" / "cards", OUT / "assets" / "cards")
+    if (ROOT / "assets" / "doodles").exists():
+        shutil.copytree(ROOT / "assets" / "doodles", OUT / "assets" / "doodles")
 
     notes = collect_notes()
     notes["/for-agents/"] = ("For Agents & Bots", {
