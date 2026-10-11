@@ -4349,7 +4349,7 @@
   },
   "hospitals_by_country": {
     "Colombia": {
-      "count": 201,
+      "count": 202,
       "cities": {
         "Bogotá": [
           {
@@ -4656,6 +4656,11 @@
             "name": "Guapetones Clínica Veterinaria",
             "lat": 4.7244125,
             "lon": -74.0492933
+          },
+          {
+            "name": "HCO - Unidad Pediatrica",
+            "lat": 4.6160742,
+            "lon": -74.0770651
           },
           {
             "name": "HCO-CAMI Samper Mendoza",
@@ -24505,7 +24510,7 @@
           },
           {
             "name": "Hospital Kuala Lumpur",
-            "lat": 3.170834,
+            "lat": 3.1707992,
             "lon": 101.7023382
           },
           {
@@ -24996,8 +25001,8 @@
           },
           {
             "name": "Centro Medico Nacional Siglo XXI",
-            "lat": 19.4091815,
-            "lon": -99.1528235
+            "lat": 19.4091857,
+            "lon": -99.1529042
           },
           {
             "name": "Centro Médico ABC",
@@ -25251,13 +25256,13 @@
           },
           {
             "name": "Hospital CAMI",
-            "lat": 19.4240166,
-            "lon": -99.1051123
+            "lat": 19.4239068,
+            "lon": -99.1050215
           },
           {
             "name": "Hospital Cardiologia",
-            "lat": 19.4087696,
-            "lon": -99.1520993
+            "lat": 19.4087707,
+            "lon": -99.1521075
           },
           {
             "name": "Hospital Carso 3",
@@ -25266,8 +25271,8 @@
           },
           {
             "name": "Hospital Central Militar",
-            "lat": 19.4373297,
-            "lon": -99.216189
+            "lat": 19.4373188,
+            "lon": -99.2161734
           },
           {
             "name": "Hospital Central Norte Pemex",
@@ -25516,8 +25521,8 @@
           },
           {
             "name": "Hospital Pediatria",
-            "lat": 19.4076298,
-            "lon": -99.1521016
+            "lat": 19.4079564,
+            "lon": -99.152088
           },
           {
             "name": "Hospital Pediatrico Azcapotzalco",
@@ -25656,13 +25661,13 @@
           },
           {
             "name": "Hospital Star Médica Tlalnepantla",
-            "lat": 19.5371979,
-            "lon": -99.2049885
+            "lat": 19.5372169,
+            "lon": -99.20505
           },
           {
             "name": "Hospital Tehuantepec",
-            "lat": 19.4050112,
-            "lon": -99.1625655
+            "lat": 19.4051065,
+            "lon": -99.1624768
           },
           {
             "name": "Hospital Trinidad",
@@ -25681,8 +25686,8 @@
           },
           {
             "name": "Hospital de Especialidades Isfam",
-            "lat": 19.4316953,
-            "lon": -99.2247544
+            "lat": 19.4316974,
+            "lon": -99.2247512
           },
           {
             "name": "Hospital de Gineco Pediatría 3A",
