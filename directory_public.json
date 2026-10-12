@@ -5373,8 +5373,8 @@
         "San José": [
           {
             "name": "Banco Nacional de Sangre",
-            "lat": 9.9194725,
-            "lon": -84.0535134
+            "lat": 9.9194757,
+            "lon": -84.0535239
           },
           {
             "name": "Blue Medical",
@@ -24510,7 +24510,7 @@
           },
           {
             "name": "Hospital Kuala Lumpur",
-            "lat": 3.1707992,
+            "lat": 3.170834,
             "lon": 101.7023382
           },
           {
@@ -24620,8 +24620,8 @@
           },
           {
             "name": "KPJ Tawakkal KL Specialist Hospital",
-            "lat": 3.1773236,
-            "lon": 101.6986585
+            "lat": 3.1773153,
+            "lon": 101.6986639
           },
           {
             "name": "Kiara Medical Centre",
@@ -24710,7 +24710,7 @@
           },
           {
             "name": "Pusat Perubatan Universiti Malaya",
-            "lat": 3.1124965,
+            "lat": 3.1125008,
             "lon": 101.6545759
           },
           {
@@ -25001,8 +25001,8 @@
           },
           {
             "name": "Centro Medico Nacional Siglo XXI",
-            "lat": 19.4091857,
-            "lon": -99.1529042
+            "lat": 19.4091815,
+            "lon": -99.1528235
           },
           {
             "name": "Centro Médico ABC",
@@ -25256,13 +25256,13 @@
           },
           {
             "name": "Hospital CAMI",
-            "lat": 19.4239068,
-            "lon": -99.1050215
+            "lat": 19.4240166,
+            "lon": -99.1051123
           },
           {
             "name": "Hospital Cardiologia",
-            "lat": 19.4087707,
-            "lon": -99.1521075
+            "lat": 19.4087696,
+            "lon": -99.1520993
           },
           {
             "name": "Hospital Carso 3",
@@ -25271,8 +25271,8 @@
           },
           {
             "name": "Hospital Central Militar",
-            "lat": 19.4373188,
-            "lon": -99.2161734
+            "lat": 19.4373297,
+            "lon": -99.216189
           },
           {
             "name": "Hospital Central Norte Pemex",
@@ -25521,8 +25521,8 @@
           },
           {
             "name": "Hospital Pediatria",
-            "lat": 19.4079564,
-            "lon": -99.152088
+            "lat": 19.4076298,
+            "lon": -99.1521016
           },
           {
             "name": "Hospital Pediatrico Azcapotzalco",
@@ -25661,13 +25661,13 @@
           },
           {
             "name": "Hospital Star Médica Tlalnepantla",
-            "lat": 19.5372169,
-            "lon": -99.20505
+            "lat": 19.5371979,
+            "lon": -99.2049885
           },
           {
             "name": "Hospital Tehuantepec",
-            "lat": 19.4051065,
-            "lon": -99.1624768
+            "lat": 19.4050112,
+            "lon": -99.1625655
           },
           {
             "name": "Hospital Trinidad",
@@ -25686,8 +25686,8 @@
           },
           {
             "name": "Hospital de Especialidades Isfam",
-            "lat": 19.4316974,
-            "lon": -99.2247512
+            "lat": 19.4316953,
+            "lon": -99.2247544
           },
           {
             "name": "Hospital de Gineco Pediatría 3A",
@@ -26247,8 +26247,8 @@
           },
           {
             "name": "Buangkok Green Medical Park",
-            "lat": 1.3823589,
-            "lon": 103.8847677
+            "lat": 1.3821353,
+            "lon": 103.8847334
           },
           {
             "name": "Bukit Merah Joint Testing & Vaccination Centre",
@@ -26352,8 +26352,8 @@
           },
           {
             "name": "Jurong Medical Centre",
-            "lat": 1.3407483,
-            "lon": 103.7045253
+            "lat": 1.3407464,
+            "lon": 103.7045823
           },
           {
             "name": "Jurong West Joint Testing & Vaccination Centre",
@@ -26526,7 +26526,7 @@
             "lon": 103.7229451
           },
           {
-            "name": "Woodlands Hospital",
+            "name": "Woodlands Health Campus",
             "lat": 1.424561,
             "lon": 103.7945949
           },
@@ -28015,7 +28015,7 @@
             "lon": 2.1431984
           },
           {
-            "name": "4-  Hospital Traumatología, Rehabilitació Cremats Vall Hebron",
+            "name": "4- Hospital Traumatología, Rehabilitació Cremats Vall Hebron",
             "lat": 41.4273607,
             "lon": 2.13983
           },
@@ -28026,7 +28026,7 @@
           },
           {
             "name": "Capio Hospital Universitari Sagrat Cor",
-            "lat": 41.3889465,
+            "lat": 41.3889427,
             "lon": 2.1456033
           },
           {
@@ -28051,8 +28051,8 @@
           },
           {
             "name": "Eudona Barcelona",
-            "lat": 41.3880018,
-            "lon": 2.1383178
+            "lat": 41.3880112,
+            "lon": 2.1383389
           },
           {
             "name": "Fremap",
@@ -28218,7 +28218,7 @@
       }
     },
     "Thailand": {
-      "count": 294,
+      "count": 293,
       "cities": {
         "Bangkok": [
           {
@@ -28235,6 +28235,11 @@
             "name": "Bangprakok 9 International Hospital",
             "lat": 13.6819541,
             "lon": 100.474626
+          },
+          {
+            "name": "Camillian Hospital",
+            "lat": 13.7391614,
+            "lon": 100.5835244
           },
           {
             "name": "Chaophya Hospital",
@@ -28587,6 +28592,11 @@
             "lon": 100.6666008
           },
           {
+            "name": "โรงพยาบาล อินทรารัตน์",
+            "lat": 13.8309941,
+            "lon": 100.6725234
+          },
+          {
             "name": "โรงพยาบาล เปาโล เมโมเรี่ยล",
             "lat": 13.5983927,
             "lon": 100.6146528
@@ -28633,8 +28643,8 @@
           },
           {
             "name": "โรงพยาบาลกลาง",
-            "lat": 13.7464426,
-            "lon": 100.5091776
+            "lat": 13.7464613,
+            "lon": 100.5092037
           },
           {
             "name": "โรงพยาบาลกล้วยน้ำไท",
@@ -28652,18 +28662,13 @@
             "lon": 100.5349465
           },
           {
-            "name": "โรงพยาบาลคามิลเลียน",
-            "lat": 13.7391614,
-            "lon": 100.5835244
-          },
-          {
             "name": "โรงพยาบาลจักษุ รัตนิน",
             "lat": 13.7465043,
             "lon": 100.5631219
           },
           {
             "name": "โรงพยาบาลจุฬาภรณ์",
-            "lat": 13.8809106,
+            "lat": 13.880914,
             "lon": 100.5781772
           },
           {
@@ -28912,11 +28917,6 @@
             "lon": 100.5191274
           },
           {
-            "name": "โรงพยาบาลมิตรประชา",
-            "lat": 13.711638,
-            "lon": 100.4318286
-          },
-          {
             "name": "โรงพยาบาลมิตรภาพ",
             "lat": 13.7284992,
             "lon": 100.4945505
@@ -29023,7 +29023,7 @@
           },
           {
             "name": "โรงพยาบาลศิริราช",
-            "lat": 13.7578511,
+            "lat": 13.757852,
             "lon": 100.4854072
           },
           {
@@ -29102,11 +29102,6 @@
             "lon": 100.6841823
           },
           {
-            "name": "โรงพยาบาลสินแพทย์ รามอินทรา",
-            "lat": 13.833689,
-            "lon": 100.6665379
-          },
-          {
             "name": "โรงพยาบาลสินแพทย์ ศรีนครินทร์",
             "lat": 13.6787803,
             "lon": 100.6483215
@@ -29145,11 +29140,6 @@
             "name": "โรงพยาบาลอนันต์พัฒนา 2",
             "lat": 13.798235,
             "lon": 100.4766494
-          },
-          {
-            "name": "โรงพยาบาลอินทรารัตน์",
-            "lat": 13.8309941,
-            "lon": 100.6725234
           },
           {
             "name": "โรงพยาบาลฮั้วยันฮัม",
@@ -29212,6 +29202,11 @@
             "lon": 100.5123052
           },
           {
+            "name": "โรงพยาบาลเพชรเกษม 2",
+            "lat": 13.7118679,
+            "lon": 100.431882
+          },
+          {
             "name": "โรงพยาบาลเมดพาร์ค",
             "lat": 13.7217239,
             "lon": 100.5566062
@@ -29237,7 +29232,7 @@
             "lon": 100.5177517
           },
           {
-            "name": "โรงพยาบาลเวชธานี อินเตอร์เนชันแนล",
+            "name": "โรงพยาบาลเวชธานี",
             "lat": 13.7721804,
             "lon": 100.6369087
           },
@@ -29881,8 +29876,8 @@
           },
           {
             "name": "Acıbadem Ataşehir Hastanesi",
-            "lat": 40.9945826,
-            "lon": 29.1270666
+            "lat": 40.9942682,
+            "lon": 29.1269208
           },
           {
             "name": "Acıbadem Dr. Şinasi Can (Kadıköy) Hastanesi",
@@ -29911,7 +29906,7 @@
           },
           {
             "name": "Acıbadem Kozyatağı Hastanesi",
-            "lat": 40.9766911,
+            "lat": 40.9766927,
             "lon": 29.0931138
           },
           {
@@ -29986,8 +29981,8 @@
           },
           {
             "name": "Ataköy Hastanesi",
-            "lat": 40.9925302,
-            "lon": 28.8406431
+            "lat": 40.9925405,
+            "lon": 28.8406425
           },
           {
             "name": "Ataşehir Ağız ve Diş Sağlığı Hastanesi",
@@ -30006,7 +30001,7 @@
           },
           {
             "name": "Avcılar Murat Kölük Devlet Hastanesi",
-            "lat": 40.9847531,
+            "lat": 40.9847659,
             "lon": 28.7312802
           },
           {
@@ -30018,6 +30013,11 @@
             "name": "Avrupa Özel Şafak Hastanesi",
             "lat": 41.0596967,
             "lon": 28.9123842
+          },
+          {
+            "name": "BHT Clinic İstanbul Tema Hastanesi",
+            "lat": 41.0600854,
+            "lon": 28.7739432
           },
           {
             "name": "Bahat Özel Hastanesi",
@@ -30135,9 +30135,14 @@
             "lon": 28.9158289
           },
           {
-            "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Binası",
-            "lat": 41.1106214,
-            "lon": 29.0862207
+            "name": "Beykoz Devlet Hastanesi",
+            "lat": 41.1176139,
+            "lon": 29.0982065
+          },
+          {
+            "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Hizmet Birimi",
+            "lat": 41.1106101,
+            "lon": 29.0862362
           },
           {
             "name": "Beykoz Devlet Hastanesi Toplum Ruh Sağlığı Merkezi",
@@ -30287,7 +30292,7 @@
           {
             "name": "Erenköy Ruh ve Sinir Hastalıkları Eğitim ve Araştırma Hastanesi",
             "lat": 40.9750143,
-            "lon": 29.0887569
+            "lon": 29.0887494
           },
           {
             "name": "Ersoy Hastanesi",
@@ -30801,8 +30806,8 @@
           },
           {
             "name": "Sante Plus Hastanesi",
-            "lat": 40.9984177,
-            "lon": 28.8943472
+            "lat": 40.9984202,
+            "lon": 28.8943061
           },
           {
             "name": "Sarıyer Hamidiye Etfal Eğitim ve Araştırma Hastanesi",
@@ -30811,8 +30816,8 @@
           },
           {
             "name": "Sarıyer İsmail Akgün Devlet Hastanesi",
-            "lat": 41.1694193,
-            "lon": 29.0567119
+            "lat": 41.1694361,
+            "lon": 29.0566989
           },
           {
             "name": "Saygı Hastanesi",
@@ -30936,8 +30941,8 @@
           },
           {
             "name": "Yedikule Göğüş Hastalıkları Hastanesi",
-            "lat": 41.0021036,
-            "lon": 28.9152374
+            "lat": 41.0017833,
+            "lon": 28.9164448
           },
           {
             "name": "Yedikule Surp PIRGIÇ ERMENI Hastanesi",
@@ -31275,11 +31280,6 @@
             "lon": 28.8666912
           },
           {
-            "name": "İstanbul Beykoz (Paşabahçe) Devlet Hastanesi",
-            "lat": 41.1176714,
-            "lon": 29.0981565
-          },
-          {
             "name": "İstanbul Bezmialem Vakıf Üniversitesi Valide Sultan Gureba Hastanesi",
             "lat": 41.0185641,
             "lon": 28.9359844
@@ -31335,11 +31335,6 @@
             "lon": 29.2659788
           },
           {
-            "name": "İstanbul Tema Hastanesi",
-            "lat": 41.0600854,
-            "lon": 28.7739432
-          },
-          {
             "name": "İstanbul Tüpbebek",
             "lat": 41.0554676,
             "lon": 28.9983966
@@ -31366,8 +31361,8 @@
           },
           {
             "name": "İstanbulum Tıp Merkezi",
-            "lat": 41.1034186,
-            "lon": 28.8616773
+            "lat": 41.1033788,
+            "lon": 28.8617105
           },
           {
             "name": "İstinye Devlet Hastanesi",
