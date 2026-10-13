@@ -5373,8 +5373,8 @@
         "San José": [
           {
             "name": "Banco Nacional de Sangre",
-            "lat": 9.9194757,
-            "lon": -84.0535239
+            "lat": 9.9194725,
+            "lon": -84.0535134
           },
           {
             "name": "Blue Medical",
@@ -5399,7 +5399,7 @@
           {
             "name": "Centro de Desarrollo Social Dr. Guillermo Padilla Castro",
             "lat": 9.9225293,
-            "lon": -84.0699685
+            "lon": -84.0699756
           },
           {
             "name": "Clínica CCSS Alajuelita",
@@ -5705,8 +5705,8 @@
           },
           {
             "name": "Jahn Ferenc Rehabilitációs Centrum",
-            "lat": 47.4491575,
-            "lon": 19.1508369
+            "lat": 47.4491469,
+            "lon": 19.150844
           },
           {
             "name": "Kelen kórház",
@@ -5719,7 +5719,7 @@
             "lon": 19.1036918
           },
           {
-            "name": "Kútvölgyi Kórház",
+            "name": "Kútvölgyi Klinika",
             "lat": 47.5109269,
             "lon": 19.0052041
           },
@@ -5737,6 +5737,11 @@
             "name": "Madarász Utcai Gyermekkórház Szakrendelő",
             "lat": 47.5484124,
             "lon": 19.0785067
+          },
+          {
+            "name": "Magyar Honvédség Egészségügyi Központ",
+            "lat": 47.5307038,
+            "lon": 19.0727558
           },
           {
             "name": "Manninger Jenő Országos Traumatológiai Intézet",
@@ -5949,14 +5954,9 @@
             "lon": 19.0132429
           },
           {
-            "name": "Észak-Pesti Centrumkórház - Honvédkórház",
-            "lat": 47.5307017,
-            "lon": 19.0727241
-          },
-          {
             "name": "Újpesti Szakorvosi Rendelőintézet",
-            "lat": 47.5656077,
-            "lon": 19.1005111
+            "lat": 47.5656122,
+            "lon": 19.1005185
           }
         ]
       }
@@ -28015,7 +28015,7 @@
             "lon": 2.1431984
           },
           {
-            "name": "4- Hospital Traumatología, Rehabilitació Cremats Vall Hebron",
+            "name": "4-  Hospital Traumatología, Rehabilitació Cremats Vall Hebron",
             "lat": 41.4273607,
             "lon": 2.13983
           },
@@ -28026,7 +28026,7 @@
           },
           {
             "name": "Capio Hospital Universitari Sagrat Cor",
-            "lat": 41.3889427,
+            "lat": 41.3889465,
             "lon": 2.1456033
           },
           {
@@ -28051,8 +28051,8 @@
           },
           {
             "name": "Eudona Barcelona",
-            "lat": 41.3880112,
-            "lon": 2.1383389
+            "lat": 41.3880018,
+            "lon": 2.1383178
           },
           {
             "name": "Fremap",

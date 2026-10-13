@@ -17460,8 +17460,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 9.9194757,
-          "longitude": -84.0535239
+          "latitude": 9.9194725,
+          "longitude": -84.0535134
         }
       }
     },
@@ -17556,7 +17556,7 @@
         "geo": {
           "@type": "GeoCoordinates",
           "latitude": 9.9225293,
-          "longitude": -84.0699685
+          "longitude": -84.0699756
         }
       }
     },
@@ -18695,8 +18695,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 47.4491575,
-          "longitude": 19.1508369
+          "latitude": 47.4491469,
+          "longitude": 19.150844
         }
       }
     },
@@ -18743,7 +18743,7 @@
       "position": 987,
       "item": {
         "@type": "Hospital",
-        "name": "Kútvölgyi Kórház",
+        "name": "Kútvölgyi Klinika",
         "category": "Hospital",
         "address": {
           "@type": "PostalAddress",
@@ -18819,6 +18819,25 @@
       "position": 991,
       "item": {
         "@type": "Hospital",
+        "name": "Magyar Honvédség Egészségügyi Központ",
+        "category": "Hospital",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Budapest",
+          "addressCountry": "Hungary"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 47.5307038,
+          "longitude": 19.0727558
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 992,
+      "item": {
+        "@type": "Hospital",
         "name": "Manninger Jenő Országos Traumatológiai Intézet",
         "category": "Hospital",
         "address": {
@@ -18835,7 +18854,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 992,
+      "position": 993,
       "item": {
         "@type": "Hospital",
         "name": "Merényi Gusztáv Kórház",
@@ -18854,7 +18873,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 993,
+      "position": 994,
       "item": {
         "@type": "Hospital",
         "name": "Műszaki osztály",
@@ -18873,7 +18892,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 994,
+      "position": 995,
       "item": {
         "@type": "Hospital",
         "name": "Neurológia és Reumatológia Magánrendelés",
@@ -18892,7 +18911,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 995,
+      "position": 996,
       "item": {
         "@type": "Hospital",
         "name": "Neurológiai Klinika",
@@ -18911,7 +18930,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 996,
+      "position": 997,
       "item": {
         "@type": "Hospital",
         "name": "Nukleáris medicina",
@@ -18930,7 +18949,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 997,
+      "position": 998,
       "item": {
         "@type": "Hospital",
         "name": "Nyírő Gyula Kórház - OPAI - Tüdőszűrő állomás",
@@ -18949,7 +18968,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 998,
+      "position": 999,
       "item": {
         "@type": "Hospital",
         "name": "Nyírő Gyula kórház - Országos Pszichiátriai és Addiktológiai Intézet",
@@ -18968,7 +18987,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 999,
+      "position": 1000,
       "item": {
         "@type": "Hospital",
         "name": "Onkológiai Központ",
@@ -18987,7 +19006,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1000,
+      "position": 1001,
       "item": {
         "@type": "Hospital",
         "name": "Országos Gerincgyógyászati Központ",
@@ -19006,7 +19025,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1001,
+      "position": 1002,
       "item": {
         "@type": "Hospital",
         "name": "Országos Klinikai Idegtudományi Intézet",
@@ -19025,7 +19044,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1002,
+      "position": 1003,
       "item": {
         "@type": "Hospital",
         "name": "Országos Onkológiai Intézet",
@@ -19044,7 +19063,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1003,
+      "position": 1004,
       "item": {
         "@type": "Hospital",
         "name": "Országos Reumatológiai és Fizioterápiás Intézet, ORFI",
@@ -19063,7 +19082,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1004,
+      "position": 1005,
       "item": {
         "@type": "Hospital",
         "name": "Országos Sportegészségügyi Intézet",
@@ -19082,7 +19101,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1005,
+      "position": 1006,
       "item": {
         "@type": "Hospital",
         "name": "Ortopédiai Klinika",
@@ -19101,7 +19120,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1006,
+      "position": 1007,
       "item": {
         "@type": "Hospital",
         "name": "Patológia",
@@ -19120,7 +19139,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1007,
+      "position": 1008,
       "item": {
         "@type": "Hospital",
         "name": "Pető Intézet",
@@ -19139,7 +19158,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1008,
+      "position": 1009,
       "item": {
         "@type": "Hospital",
         "name": "Pszichiátria OPAI",
@@ -19158,7 +19177,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1009,
+      "position": 1010,
       "item": {
         "@type": "Hospital",
         "name": "Pszichiátriai Gondozó OPAI",
@@ -19177,7 +19196,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1010,
+      "position": 1011,
       "item": {
         "@type": "Hospital",
         "name": "Pszichiátriai- és Pszichoterápiás Klinika",
@@ -19196,7 +19215,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1011,
+      "position": 1012,
       "item": {
         "@type": "Hospital",
         "name": "Péterfy Sándor Utcai Kórház",
@@ -19215,7 +19234,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1012,
+      "position": 1013,
       "item": {
         "@type": "Hospital",
         "name": "Péterfy Sándor Utcai Kórház Alsóerdősori Telephelye",
@@ -19234,7 +19253,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1013,
+      "position": 1014,
       "item": {
         "@type": "Hospital",
         "name": "Péterfy Sándor utcai kórház Szövetség utcai részlege",
@@ -19253,7 +19272,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1014,
+      "position": 1015,
       "item": {
         "@type": "Hospital",
         "name": "Radiológiai Klinika",
@@ -19272,7 +19291,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1015,
+      "position": 1016,
       "item": {
         "@type": "Hospital",
         "name": "Semmelweis Egyetem Belső Klinikai Tömb",
@@ -19291,7 +19310,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1016,
+      "position": 1017,
       "item": {
         "@type": "Hospital",
         "name": "Semmelweis Egyetem II. Sz. Sebészeti Klinika",
@@ -19310,7 +19329,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1017,
+      "position": 1018,
       "item": {
         "@type": "Hospital",
         "name": "Semmelweis Egyetem Külső Klinikai Tömb",
@@ -19329,7 +19348,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1018,
+      "position": 1019,
       "item": {
         "@type": "Hospital",
         "name": "Szemészeti Klinika",
@@ -19348,7 +19367,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1019,
+      "position": 1020,
       "item": {
         "@type": "Hospital",
         "name": "Szent Imre Kórház",
@@ -19367,7 +19386,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1020,
+      "position": 1021,
       "item": {
         "@type": "Hospital",
         "name": "Szent István Kórház",
@@ -19386,7 +19405,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1021,
+      "position": 1022,
       "item": {
         "@type": "Hospital",
         "name": "Szent János Kórház",
@@ -19405,7 +19424,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1022,
+      "position": 1023,
       "item": {
         "@type": "Hospital",
         "name": "Szent László Kórház",
@@ -19424,7 +19443,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1023,
+      "position": 1024,
       "item": {
         "@type": "Hospital",
         "name": "Szent Magdolna Magánkórház",
@@ -19443,7 +19462,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1024,
+      "position": 1025,
       "item": {
         "@type": "Hospital",
         "name": "Szent Margit Kórház",
@@ -19462,7 +19481,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1025,
+      "position": 1026,
       "item": {
         "@type": "Hospital",
         "name": "Szent Rókus Kórház",
@@ -19481,7 +19500,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1026,
+      "position": 1027,
       "item": {
         "@type": "Hospital",
         "name": "Szülészeti- és Nőgyógyászati Klinika",
@@ -19500,7 +19519,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1027,
+      "position": 1028,
       "item": {
         "@type": "Hospital",
         "name": "Transzplantációs és Sebészeti Klinika",
@@ -19519,7 +19538,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1028,
+      "position": 1029,
       "item": {
         "@type": "Hospital",
         "name": "TritonLife Róbert Magánkórház",
@@ -19538,7 +19557,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1029,
+      "position": 1030,
       "item": {
         "@type": "Hospital",
         "name": "Urológiai Klinika",
@@ -19557,7 +19576,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1030,
+      "position": 1031,
       "item": {
         "@type": "Hospital",
         "name": "Uzsoki Utcai Kórház",
@@ -19576,7 +19595,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1031,
+      "position": 1032,
       "item": {
         "@type": "Hospital",
         "name": "Uzsoki Utcai Kórház Rehabilitációs Osztály",
@@ -19595,7 +19614,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 1032,
+      "position": 1033,
       "item": {
         "@type": "Hospital",
         "name": "Városmajori Szív- és Érgyógyászati Klinika",
@@ -19614,25 +19633,6 @@
     },
     {
       "@type": "ListItem",
-      "position": 1033,
-      "item": {
-        "@type": "Hospital",
-        "name": "Észak-Pesti Centrumkórház - Honvédkórház",
-        "category": "Hospital",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Budapest",
-          "addressCountry": "Hungary"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 47.5307017,
-          "longitude": 19.0727241
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
       "position": 1034,
       "item": {
         "@type": "Hospital",
@@ -19645,8 +19645,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 47.5656077,
-          "longitude": 19.1005111
+          "latitude": 47.5656122,
+          "longitude": 19.1005185
         }
       }
     },
@@ -103255,7 +103255,7 @@
       "position": 5435,
       "item": {
         "@type": "Hospital",
-        "name": "4- Hospital Traumatología, Rehabilitació Cremats Vall Hebron",
+        "name": "4-  Hospital Traumatología, Rehabilitació Cremats Vall Hebron",
         "category": "Hospital",
         "address": {
           "@type": "PostalAddress",
@@ -103302,7 +103302,7 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 41.3889427,
+          "latitude": 41.3889465,
           "longitude": 2.1456033
         }
       }
@@ -103397,8 +103397,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 41.3880112,
-          "longitude": 2.1383389
+          "latitude": 41.3880018,
+          "longitude": 2.1383178
         }
       }
     },
