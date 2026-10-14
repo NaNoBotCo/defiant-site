@@ -5399,7 +5399,7 @@
           {
             "name": "Centro de Desarrollo Social Dr. Guillermo Padilla Castro",
             "lat": 9.9225293,
-            "lon": -84.0699756
+            "lon": -84.0699685
           },
           {
             "name": "Clínica CCSS Alajuelita",
@@ -5705,8 +5705,8 @@
           },
           {
             "name": "Jahn Ferenc Rehabilitációs Centrum",
-            "lat": 47.4491469,
-            "lon": 19.150844
+            "lat": 47.4491575,
+            "lon": 19.1508369
           },
           {
             "name": "Kelen kórház",
@@ -5719,7 +5719,7 @@
             "lon": 19.1036918
           },
           {
-            "name": "Kútvölgyi Klinika",
+            "name": "Kútvölgyi Kórház",
             "lat": 47.5109269,
             "lon": 19.0052041
           },
@@ -5737,11 +5737,6 @@
             "name": "Madarász Utcai Gyermekkórház Szakrendelő",
             "lat": 47.5484124,
             "lon": 19.0785067
-          },
-          {
-            "name": "Magyar Honvédség Egészségügyi Központ",
-            "lat": 47.5307038,
-            "lon": 19.0727558
           },
           {
             "name": "Manninger Jenő Országos Traumatológiai Intézet",
@@ -5835,8 +5830,8 @@
           },
           {
             "name": "Pszichiátriai Gondozó OPAI",
-            "lat": 47.5374129,
-            "lon": 19.0868314
+            "lat": 47.5374736,
+            "lon": 19.0868368
           },
           {
             "name": "Pszichiátriai- és Pszichoterápiás Klinika",
@@ -5954,15 +5949,20 @@
             "lon": 19.0132429
           },
           {
+            "name": "Észak-Pesti Centrumkórház - Honvédkórház",
+            "lat": 47.5307017,
+            "lon": 19.0727241
+          },
+          {
             "name": "Újpesti Szakorvosi Rendelőintézet",
-            "lat": 47.5656122,
-            "lon": 19.1005185
+            "lat": 47.5656077,
+            "lon": 19.1005111
           }
         ]
       }
     },
     "India": {
-      "count": 3688,
+      "count": 3687,
       "cities": {
         "Bengaluru": [
           {
@@ -15255,11 +15255,6 @@
             "lon": 77.245588
           },
           {
-            "name": "Bawana Dispensary",
-            "lat": 28.8012625,
-            "lon": 77.0374388
-          },
-          {
             "name": "Bawasher Hospital",
             "lat": 28.6742139,
             "lon": 77.1761804
@@ -15396,7 +15391,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.4746541,
+            "lat": 28.473978,
             "lon": 77.2158554
           },
           {
@@ -16286,8 +16281,8 @@
           },
           {
             "name": "Hans Charitable Hospital",
-            "lat": 28.7002703,
-            "lon": 77.2083671
+            "lat": 28.7003162,
+            "lon": 77.2083336
           },
           {
             "name": "Hardik Hospital",
@@ -24776,7 +24771,12 @@
         ],
         "Penang": [
           {
-            "name": "Gleneagles Pulau Pinang",
+            "name": "Georgetown Specialist Hospital",
+            "lat": 5.4025526,
+            "lon": 100.3035505
+          },
+          {
+            "name": "Gleneagles Penang",
             "lat": 5.4268203,
             "lon": 100.3199443
           },
@@ -24789,16 +24789,6 @@
             "name": "Hospital Lam Wah Ee",
             "lat": 5.3911917,
             "lon": 100.3042286
-          },
-          {
-            "name": "Hospital Pakar Georgetown",
-            "lat": 5.4025526,
-            "lon": 100.3035505
-          },
-          {
-            "name": "Hospital Pantai Pulau Pinang",
-            "lat": 5.3211772,
-            "lon": 100.2822678
           },
           {
             "name": "Hospital Pulau Pinang",
@@ -24826,6 +24816,11 @@
             "lon": 100.3042545
           },
           {
+            "name": "Pantai Hospital Penang",
+            "lat": 5.3211772,
+            "lon": 100.2822678
+          },
+          {
             "name": "Pantai Integrated Rehab (Satellite)",
             "lat": 5.3229807,
             "lon": 100.2831363
@@ -24846,7 +24841,7 @@
             "lon": 100.3083329
           },
           {
-            "name": "iTCM Healthcare Centre",
+            "name": "iTCM Healthcare Centre 爱康中医诊所",
             "lat": 5.4240233,
             "lon": 100.3177625
           }
@@ -26247,8 +26242,8 @@
           },
           {
             "name": "Buangkok Green Medical Park",
-            "lat": 1.3821353,
-            "lon": 103.8847334
+            "lat": 1.3823589,
+            "lon": 103.8847677
           },
           {
             "name": "Bukit Merah Joint Testing & Vaccination Centre",
@@ -26307,7 +26302,7 @@
           },
           {
             "name": "HealthCity Novena",
-            "lat": 1.3215775,
+            "lat": 1.3216048,
             "lon": 103.8467939
           },
           {
@@ -26352,8 +26347,8 @@
           },
           {
             "name": "Jurong Medical Centre",
-            "lat": 1.3407464,
-            "lon": 103.7045823
+            "lat": 1.3407483,
+            "lon": 103.7045253
           },
           {
             "name": "Jurong West Joint Testing & Vaccination Centre",
@@ -26507,13 +26502,13 @@
           },
           {
             "name": "Tan Tock Seng Hospital",
-            "lat": 1.3212799,
-            "lon": 103.8462045
+            "lat": 1.3212774,
+            "lon": 103.8462067
           },
           {
             "name": "Tan Tock Seng Hospital Integrated Care Hub",
-            "lat": 1.3237311,
-            "lon": 103.8464927
+            "lat": 1.3237212,
+            "lon": 103.8464915
           },
           {
             "name": "Urgent Care Centre",
@@ -26526,7 +26521,7 @@
             "lon": 103.7229451
           },
           {
-            "name": "Woodlands Health Campus",
+            "name": "Woodlands Hospital",
             "lat": 1.424561,
             "lon": 103.7945949
           },
@@ -26629,8 +26624,8 @@
           },
           {
             "name": "강남차병원",
-            "lat": 37.5068297,
-            "lon": 127.0347555
+            "lat": 37.5068244,
+            "lon": 127.0347314
           },
           {
             "name": "강남힘찬병원",
@@ -26958,14 +26953,14 @@
             "lon": 127.138109
           },
           {
+            "name": "동신목동한방병원",
+            "lat": 37.5246124,
+            "lon": 126.8767994
+          },
+          {
             "name": "동신병원",
             "lat": 37.5814246,
             "lon": 126.9365355
-          },
-          {
-            "name": "동신한방병원 목동",
-            "lat": 37.5245716,
-            "lon": 126.8766444
           },
           {
             "name": "동우당한의원",
@@ -27793,9 +27788,9 @@
             "lon": 127.0485153
           },
           {
-            "name": "청화병원",
-            "lat": 37.5071575,
-            "lon": 126.9403122
+            "name": "청화여성병원",
+            "lat": 37.507169,
+            "lon": 126.9403096
           },
           {
             "name": "초록나무요양병원",
