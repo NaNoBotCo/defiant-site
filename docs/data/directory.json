@@ -103236,7 +103236,7 @@
       "position": 5434,
       "item": {
         "@type": "Hospital",
-        "name": "4-  Hospital Traumatología, Rehabilitació Cremats Vall Hebron",
+        "name": "4- Hospital Traumatología, Rehabilitació Cremats Vall Hebron",
         "category": "Hospital",
         "address": {
           "@type": "PostalAddress",
@@ -103283,7 +103283,7 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 41.3889465,
+          "latitude": 41.3889427,
           "longitude": 2.1456033
         }
       }
@@ -103378,8 +103378,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 41.3880018,
-          "longitude": 2.1383178
+          "latitude": 41.3880112,
+          "longitude": 2.1383389
         }
       }
     },
