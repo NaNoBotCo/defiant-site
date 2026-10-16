@@ -5962,7 +5962,7 @@
       }
     },
     "India": {
-      "count": 3687,
+      "count": 3688,
       "cities": {
         "Bengaluru": [
           {
@@ -15255,6 +15255,11 @@
             "lon": 77.245588
           },
           {
+            "name": "Bawana Dispensary",
+            "lat": 28.8012625,
+            "lon": 77.0374388
+          },
+          {
             "name": "Bawasher Hospital",
             "lat": 28.6742139,
             "lon": 77.1761804
@@ -16281,8 +16286,8 @@
           },
           {
             "name": "Hans Charitable Hospital",
-            "lat": 28.7003162,
-            "lon": 77.2083336
+            "lat": 28.7002703,
+            "lon": 77.2083671
           },
           {
             "name": "Hardik Hospital",
@@ -24771,12 +24776,7 @@
         ],
         "Penang": [
           {
-            "name": "Georgetown Specialist Hospital",
-            "lat": 5.4025526,
-            "lon": 100.3035505
-          },
-          {
-            "name": "Gleneagles Penang",
+            "name": "Gleneagles Pulau Pinang",
             "lat": 5.4268203,
             "lon": 100.3199443
           },
@@ -24789,6 +24789,11 @@
             "name": "Hospital Lam Wah Ee",
             "lat": 5.3911917,
             "lon": 100.3042286
+          },
+          {
+            "name": "Hospital Pakar Georgetown",
+            "lat": 5.4025526,
+            "lon": 100.3035505
           },
           {
             "name": "Hospital Pulau Pinang",
@@ -24841,7 +24846,7 @@
             "lon": 100.3083329
           },
           {
-            "name": "iTCM Healthcare Centre 爱康中医诊所",
+            "name": "iTCM Healthcare Centre",
             "lat": 5.4240233,
             "lon": 100.3177625
           }
