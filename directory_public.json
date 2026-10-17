@@ -24776,7 +24776,7 @@
         ],
         "Penang": [
           {
-            "name": "Gleneagles Pulau Pinang",
+            "name": "Gleneagles Penang",
             "lat": 5.4268203,
             "lon": 100.3199443
           },
@@ -24846,7 +24846,7 @@
             "lon": 100.3083329
           },
           {
-            "name": "iTCM Healthcare Centre",
+            "name": "iTCM Healthcare Centre 爱康中医诊所",
             "lat": 5.4240233,
             "lon": 100.3177625
           }
@@ -29876,8 +29876,8 @@
           },
           {
             "name": "Acıbadem Ataşehir Hastanesi",
-            "lat": 40.9942682,
-            "lon": 29.1269208
+            "lat": 40.9945826,
+            "lon": 29.1270666
           },
           {
             "name": "Acıbadem Dr. Şinasi Can (Kadıköy) Hastanesi",
@@ -29906,12 +29906,12 @@
           },
           {
             "name": "Acıbadem Kozyatağı Hastanesi",
-            "lat": 40.9766927,
-            "lon": 29.0931138
+            "lat": 40.9766931,
+            "lon": 29.093092
           },
           {
             "name": "Acıbadem Maslak Hastanesi",
-            "lat": 41.1274286,
+            "lat": 41.1273992,
             "lon": 29.0251976
           },
           {
@@ -29981,8 +29981,8 @@
           },
           {
             "name": "Ataköy Hastanesi",
-            "lat": 40.9925405,
-            "lon": 28.8406425
+            "lat": 40.9925302,
+            "lon": 28.8406431
           },
           {
             "name": "Ataşehir Ağız ve Diş Sağlığı Hastanesi",
@@ -30001,7 +30001,7 @@
           },
           {
             "name": "Avcılar Murat Kölük Devlet Hastanesi",
-            "lat": 40.9847659,
+            "lat": 40.9847531,
             "lon": 28.7312802
           },
           {
@@ -30013,11 +30013,6 @@
             "name": "Avrupa Özel Şafak Hastanesi",
             "lat": 41.0596967,
             "lon": 28.9123842
-          },
-          {
-            "name": "BHT Clinic İstanbul Tema Hastanesi",
-            "lat": 41.0600854,
-            "lon": 28.7739432
           },
           {
             "name": "Bahat Özel Hastanesi",
@@ -30135,14 +30130,9 @@
             "lon": 28.9158289
           },
           {
-            "name": "Beykoz Devlet Hastanesi",
-            "lat": 41.1176139,
-            "lon": 29.0982065
-          },
-          {
-            "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Hizmet Birimi",
-            "lat": 41.1106101,
-            "lon": 29.0862362
+            "name": "Beykoz Devlet Hastanesi Tepeüstü Ek Binası",
+            "lat": 41.1106214,
+            "lon": 29.0862207
           },
           {
             "name": "Beykoz Devlet Hastanesi Toplum Ruh Sağlığı Merkezi",
@@ -30171,8 +30161,8 @@
           },
           {
             "name": "Bezmialem Üniversitesi İlhan Varank Yerleşkesi",
-            "lat": 41.0949722,
-            "lon": 28.8647834
+            "lat": 41.0949834,
+            "lon": 28.8648036
           },
           {
             "name": "Biruni Hastanesi",
@@ -30292,7 +30282,7 @@
           {
             "name": "Erenköy Ruh ve Sinir Hastalıkları Eğitim ve Araştırma Hastanesi",
             "lat": 40.9750143,
-            "lon": 29.0887494
+            "lon": 29.0887569
           },
           {
             "name": "Ersoy Hastanesi",
@@ -30806,8 +30796,8 @@
           },
           {
             "name": "Sante Plus Hastanesi",
-            "lat": 40.9984202,
-            "lon": 28.8943061
+            "lat": 40.9984177,
+            "lon": 28.8943472
           },
           {
             "name": "Sarıyer Hamidiye Etfal Eğitim ve Araştırma Hastanesi",
@@ -30816,8 +30806,8 @@
           },
           {
             "name": "Sarıyer İsmail Akgün Devlet Hastanesi",
-            "lat": 41.1694361,
-            "lon": 29.0566989
+            "lat": 41.1694193,
+            "lon": 29.0567119
           },
           {
             "name": "Saygı Hastanesi",
@@ -30831,8 +30821,8 @@
           },
           {
             "name": "Seyrantepe Hamidiye Etfal Eğitim ve Araştırma Hastanesi",
-            "lat": 41.1036745,
-            "lon": 28.9961075
+            "lat": 41.1036639,
+            "lon": 28.996234
           },
           {
             "name": "Sultanbeyli Avrupa Göz Hastanesi",
@@ -30941,8 +30931,8 @@
           },
           {
             "name": "Yedikule Göğüş Hastalıkları Hastanesi",
-            "lat": 41.0017833,
-            "lon": 28.9164448
+            "lat": 41.0021036,
+            "lon": 28.9152374
           },
           {
             "name": "Yedikule Surp PIRGIÇ ERMENI Hastanesi",
@@ -31280,6 +31270,11 @@
             "lon": 28.8666912
           },
           {
+            "name": "İstanbul Beykoz (Paşabahçe) Devlet Hastanesi",
+            "lat": 41.1176714,
+            "lon": 29.0981565
+          },
+          {
             "name": "İstanbul Bezmialem Vakıf Üniversitesi Valide Sultan Gureba Hastanesi",
             "lat": 41.0185641,
             "lon": 28.9359844
@@ -31335,6 +31330,11 @@
             "lon": 29.2659788
           },
           {
+            "name": "İstanbul Tema Hastanesi",
+            "lat": 41.0600854,
+            "lon": 28.7739432
+          },
+          {
             "name": "İstanbul Tüpbebek",
             "lat": 41.0554676,
             "lon": 28.9983966
@@ -31361,8 +31361,8 @@
           },
           {
             "name": "İstanbulum Tıp Merkezi",
-            "lat": 41.1033788,
-            "lon": 28.8617105
+            "lat": 41.1034186,
+            "lon": 28.8616773
           },
           {
             "name": "İstinye Devlet Hastanesi",
