@@ -5705,8 +5705,8 @@
           },
           {
             "name": "Jahn Ferenc Rehabilitációs Centrum",
-            "lat": 47.4491575,
-            "lon": 19.1508369
+            "lat": 47.4491469,
+            "lon": 19.150844
           },
           {
             "name": "Kelen kórház",
@@ -5719,7 +5719,7 @@
             "lon": 19.1036918
           },
           {
-            "name": "Kútvölgyi Kórház",
+            "name": "Kútvölgyi Klinika",
             "lat": 47.5109269,
             "lon": 19.0052041
           },
@@ -5830,8 +5830,8 @@
           },
           {
             "name": "Pszichiátriai Gondozó OPAI",
-            "lat": 47.5374736,
-            "lon": 19.0868368
+            "lat": 47.5374129,
+            "lon": 19.0868314
           },
           {
             "name": "Pszichiátriai- és Pszichoterápiás Klinika",
@@ -15396,7 +15396,7 @@
           },
           {
             "name": "Central Armed Police Forces Institute of Medical Sciences",
-            "lat": 28.473978,
+            "lat": 28.4746541,
             "lon": 77.2158554
           },
           {
@@ -28917,6 +28917,11 @@
             "lon": 100.5191274
           },
           {
+            "name": "โรงพยาบาลมิตรประชา",
+            "lat": 13.711638,
+            "lon": 100.4318286
+          },
+          {
             "name": "โรงพยาบาลมิตรภาพ",
             "lat": 13.7284992,
             "lon": 100.4945505
@@ -29202,11 +29207,6 @@
             "lon": 100.5123052
           },
           {
-            "name": "โรงพยาบาลเพชรเกษม 2",
-            "lat": 13.7118679,
-            "lon": 100.431882
-          },
-          {
             "name": "โรงพยาบาลเมดพาร์ค",
             "lat": 13.7217239,
             "lon": 100.5566062
@@ -29232,7 +29232,7 @@
             "lon": 100.5177517
           },
           {
-            "name": "โรงพยาบาลเวชธานี",
+            "name": "โรงพยาบาลเวชธานี อินเตอร์เนชันแนล",
             "lat": 13.7721804,
             "lon": 100.6369087
           },
@@ -29906,8 +29906,8 @@
           },
           {
             "name": "Acıbadem Kozyatağı Hastanesi",
-            "lat": 40.9766931,
-            "lon": 29.093092
+            "lat": 40.9766911,
+            "lon": 29.0931138
           },
           {
             "name": "Acıbadem Maslak Hastanesi",
@@ -30161,8 +30161,8 @@
           },
           {
             "name": "Bezmialem Üniversitesi İlhan Varank Yerleşkesi",
-            "lat": 41.0949834,
-            "lon": 28.8648036
+            "lat": 41.0949722,
+            "lon": 28.8647834
           },
           {
             "name": "Biruni Hastanesi",
@@ -30821,8 +30821,8 @@
           },
           {
             "name": "Seyrantepe Hamidiye Etfal Eğitim ve Araştırma Hastanesi",
-            "lat": 41.1036639,
-            "lon": 28.996234
+            "lat": 41.1036745,
+            "lon": 28.9961075
           },
           {
             "name": "Sultanbeyli Avrupa Göz Hastanesi",
