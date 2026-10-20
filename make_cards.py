@@ -275,8 +275,11 @@ def build_one(route, name, meta):
         render_stat(slug, title, topic["card_stat"], topic.get("card_stat_label", ""),
                     topic.get("card_hook", ""))
         return
-    if route == "/th/" or t == "b2b":
+    if route == "/th/":
         render_thai(slug)
+    elif route == "/partners/":
+        render_generic(slug, "For clinic partners", "Partner Clinics & Hospitals",
+                       "Free listing, interpreters included, terms at your discretion.")
     elif route == "/":
         render_generic(slug, "US expat services · medical tourism",
                        "Pay what the locals pay", "Chiang Mai, Thailand — plan your escape.")
