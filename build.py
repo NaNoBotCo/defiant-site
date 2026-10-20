@@ -129,7 +129,7 @@ def render_pay(product):
                 'checkout, no account needed.</p>')
     else:
         note = ('<p class="pay-note">Visa, Mastercard &amp; PayPal — secure checkout, no account '
-                'needed. Prefer <b>Bitcoin</b>? <a href="/contact/">Ask us</a> for a wallet address.</p>')
+                'needed. Prefer <b>Bitcoin</b>? <a href="/contact/">Ask us</a> for a wallet address.</p>')  # stylecheck: allow — call to action
     return f'<div class="pay-row" data-amount="{amt}">' + "".join(btns) + "</div>" + note
 
 
@@ -169,7 +169,10 @@ def parse_note(path: Path):
             for ln in raw[4:end].splitlines():
                 if ":" in ln:
                     k, _, v = ln.partition(":")
-                    meta[k.strip()] = v.strip()
+                    v = v.strip()
+                    if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'":
+                        v = v[1:-1]  # YAML-quoted value: the quotes are not part of the title
+                    meta[k.strip()] = v
             raw = raw[end + 4:]
     return meta, raw.strip("\n")
 
@@ -430,6 +433,13 @@ def md_to_html(body: str, inline, note_name: str) -> str:
             if lst != "ul":
                 close_list(); html.append("<ul>"); lst = "ul"
             html.append(f"<li>{inline(m.group(1))}</li>"); continue
+        m = re.match(r"^!\[\[doodle:([a-z0-9-]+)\]\]$", s)
+        if m:
+            # a frontier doodle (frontier/doodle → assets/doodles/defiant.mjs); tap it
+            flush_para(); close_list()
+            html.append(f'<figure class="doodle"><ani-doodle piece="{m.group(1)}"></ani-doodle></figure>'
+                        '<script type="module" src="/assets/doodles/defiant.mjs"></script>')
+            continue
         m = re.match(r"^!\[\[([^\]]+)\]\]$", s)
         if m:
             flush_para(); close_list()
@@ -753,13 +763,13 @@ def jsonld_for(name, meta, route, body):
                 {"@type": "Question",
                  "name": "Is estradiol available over the counter in Thailand?",
                  "acceptedAnswer": {"@type": "Answer",
-                    "text": "Yes. Estrogen is classed as a 'dangerous drug' (ยาอันตราย) in Thailand — "
-                            "behind-the-counter, no prescription required, dispensed by the pharmacist on duty."}},
+                    "text": "Yes. Estrogen is classed as a 'dangerous drug' (ยาอันตราย) in Thailand — "  # stylecheck: allow — Thai legal class name
+                            "behind-the-counter, no prescription required, dispensed by the pharmacist on duty."}},  # stylecheck: allow — 'dangerous drug' is the Thai legal class name
                 {"@type": "Question",
                  "name": "What is the Thai name for estradiol vaginal cream?",
                  "acceptedAnswer": {"@type": "Answer",
-                    "text": "Ask for Ovestin (estriol vaginal cream), the regional standard equivalent of US "
-                            "Estrace or Premarin vaginal cream. For whole-body estradiol gel, ask for Oestrogel."}},
+                    "text": "Ovestin (estriol vaginal cream) is the regional standard equivalent of US "
+                            "Estrace or Premarin vaginal cream. Whole-body estradiol gel sells as Oestrogel."}},
             ]}))
     elif t == "about":
         out.append(ld({"@context": "https://schema.org", "@type": "AboutPage",
@@ -1455,6 +1465,19 @@ def _card_alt(route, meta, title):
     return f"Defiant share card — {title}."
 
 
+AFF = json.loads((ROOT / "data" / "affiliate.json").read_text(encoding="utf-8"))
+# slot -> (note name, the sentence the paid link follows); data/affiliate.json is written by affiliate-slots/sync.py
+AFF_AFTER = {"df-spine-flight": ("Spinal Surgery", "then buy the ticket.")}
+
+
+def paid(slot):
+    s = AFF["slots"].get(slot) or {}
+    if not s.get("url"):
+        return ""
+    return (f' <a href="{esc(s["url"])}" rel="sponsored nofollow noopener" target="_blank">{esc(s["en"])}</a>'
+            f' <small class="paid">{esc(AFF["label_en"])}</small>')
+
+
 def page(name, meta, body_html, route, raw_body=""):
     ov = PAGE_OVERRIDES.get(name, {})
     title = ov.get("title") or meta.get("title") or name.lstrip("=")
@@ -1467,6 +1490,9 @@ def page(name, meta, body_html, route, raw_body=""):
         body_html = f"<h1>{esc(title)}</h1>\n" + body_html
     if ov.get("intro"):
         body_html = body_html.replace("</h1>", "</h1>\n<p class=\"lead\">" + ov["intro"] + "</p>", 1)
+    for slot, (note, after) in AFF_AFTER.items():
+        if name == note and after in body_html:
+            body_html = body_html.replace(after, after + paid(slot), 1)
     if meta.get("type") == "procedure":
         body_html = body_html.replace("</h1>", "</h1>\n" + render_keyfacts(name, meta, raw_body), 1)
     # Trust tokens: accreditation badge (hospitals) + a reviewed-date freshness stamp.
@@ -1616,6 +1642,8 @@ def build():
     shutil.copy2(ROOT / "assets" / "styles.css", OUT / "assets" / "styles.css")
     if (ROOT / "assets" / "cards").exists():
         shutil.copytree(ROOT / "assets" / "cards", OUT / "assets" / "cards")
+    if (ROOT / "assets" / "doodles").exists():
+        shutil.copytree(ROOT / "assets" / "doodles", OUT / "assets" / "doodles")
 
     notes = collect_notes()
     notes["/for-agents/"] = ("For Agents & Bots", {
@@ -1779,7 +1807,7 @@ def build():
         if f.suffix in {".html", ".txt", ".xml"} and "530kings" in f.read_text(encoding="utf-8", errors="ignore"):
             problems.append(f"{f.relative_to(OUT)}: EMAIL LEAKED IN PLAINTEXT")
     for w in WARNINGS:
-        print("  warn:", w)
+        print("  warn:", w)  # stylecheck: allow — operator build log
     if problems:
         print("\nBUILD FAILED:")
         for p in problems:

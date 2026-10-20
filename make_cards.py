@@ -268,6 +268,8 @@ def build_one(route, name, meta):
     t = meta.get("type", "")
     nm = name.lstrip("=")
     topic = _TOPICS_BY_ROUTE.get(route)
+    if topic and topic.get("card") == "doodle":
+        return  # the frontier doodle's own still, copied in at ship
     if topic and topic.get("card_stat"):
         title = (meta.get("title", nm)).split(" — ")[0].split(" | ")[0]
         render_stat(slug, title, topic["card_stat"], topic.get("card_stat_label", ""),

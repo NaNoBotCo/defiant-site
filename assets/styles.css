@@ -423,3 +423,7 @@ footer a:hover { color: var(--magenta); }
 .fleet a { margin: 0 .35rem; white-space: nowrap }
 .support { margin: .45rem 0 0; font-size: .85rem; opacity: .85 }
 .support a { margin: 0 .3rem }
+
+/* frontier doodles: drawn in code, tap to play (frontier/doodle) */
+figure.doodle { margin: 1.4rem 0 2rem; }
+figure.doodle ani-doodle { border: 3px solid var(--ink); box-shadow: 7px 7px 0 var(--cyan); background: #fbf8f1; cursor: pointer; }

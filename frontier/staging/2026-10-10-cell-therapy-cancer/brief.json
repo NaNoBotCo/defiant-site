@@ -1,0 +1,2229 @@
+{
+ "slug": "2026-10-10-cell-therapy-cancer",
+ "goal": {
+  "id": "cell-therapy-cancer",
+  "label": "Cancer: CAR-T, cell and immune therapies",
+  "terms": [
+   "lymphoma",
+   "leukemia",
+   "multiple myeloma",
+   "solid tumor immunotherapy"
+  ]
+ },
+ "made": "2026-10-10",
+ "trial_count": 27,
+ "trials": [
+  {
+   "nct": "NCT04925479",
+   "title": "Study to Determine the Dose and Safety of Asciminib in Pediatric Patients With Chronic Myeloid Leukemia",
+   "status": "RECRUITING",
+   "phase": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Myeloid Leukemia, Philadelphia Positive"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Asciminib Pediatric formulation group"
+    },
+    {
+     "type": "DRUG",
+     "name": "Asciminib Adult formulation group"
+    }
+   ],
+   "sponsor": "Novartis Pharmaceuticals",
+   "sponsor_class": "INDUSTRY",
+   "start": "2021-12-27",
+   "primary_completion": "2027-09-02",
+   "updated": "2026-09-25",
+   "enrollment": 34,
+   "ages": [
+    "1 Year",
+    "17 Years"
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Novartis Investigative Site",
+     "city": "Khon Kaen",
+     "status": "ACTIVE_NOT_RECRUITING"
+    },
+    {
+     "facility": "Novartis Investigative Site",
+     "city": "Bangkok",
+     "status": "WITHDRAWN"
+    },
+    {
+     "facility": "Novartis Investigative Site",
+     "city": "Chiang Mai",
+     "status": "ACTIVE_NOT_RECRUITING"
+    }
+   ],
+   "countries": [
+    "China",
+    "France",
+    "Germany",
+    "Greece",
+    "Hungary",
+    "Italy",
+    "Japan",
+    "Netherlands",
+    "Poland",
+    "Russia",
+    "South Korea",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "United States"
+   ],
+   "summary": "The aim of this study is to support development of asciminib in the pediatric population (1 to \\<18 years) previously treated with one or more TKIs. Full extrapolation of the efficacy of asciminib from adult to pediatric patients will be conducted. Full extrapolation is based on the concept that CML in the pediatric population has the same pathogenesis, similar clinical characteristics and progression pattern as in adults.",
+   "url": "https://clinicaltrials.gov/study/NCT04925479"
+  },
+  {
+   "nct": "NCT05139017",
+   "title": "A Study of Zilovertamab Vedotin (MK-2140) in Combination With Standard of Care in Participants With Relapsed or Refractory Diffuse Large B-Cell Lymphoma (rrDLBCL) (MK-2140-003)",
+   "status": "RECRUITING",
+   "phase": [
+    "PHASE2",
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "DLBCL",
+    "Diffuse Large B-Cell Lymphoma"
+   ],
+   "interventions": [
+    {
+     "type": "BIOLOGICAL",
+     "name": "Zilovertamab vedotin"
+    },
+    {
+     "type": "BIOLOGICAL",
+     "name": "Rituximab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Gemcitabine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Oxaliplatin"
+    },
+    {
+     "type": "DRUG",
+     "name": "Bendamustine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Granulocyte Colony-Stimulating Factor (G-CSF)"
+    }
+   ],
+   "sponsor": "Merck Sharp & Dohme LLC",
+   "sponsor_class": "INDUSTRY",
+   "start": "2022-01-14",
+   "primary_completion": "2027-09-24",
+   "updated": "2026-10-08",
+   "enrollment": 290,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Faculty of Medicine Siriraj Hospital-Division of Hematology, Department of Medicine ( Site 0400)",
+     "city": "Bangkok",
+     "status": "ACTIVE_NOT_RECRUITING"
+    },
+    {
+     "facility": "Chulalongkorn University ( Site 0402)",
+     "city": "Pathumwan",
+     "status": "ACTIVE_NOT_RECRUITING"
+    },
+    {
+     "facility": "Maharaj Nakorn Chiang Mai Hospital ( Site 0401)",
+     "city": "Muang",
+     "status": "ACTIVE_NOT_RECRUITING"
+    }
+   ],
+   "countries": [
+    "Argentina",
+    "Australia",
+    "Brazil",
+    "Canada",
+    "Chile",
+    "China",
+    "Colombia",
+    "Costa Rica",
+    "Denmark",
+    "France",
+    "Greece",
+    "Guatemala",
+    "Hong Kong",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Mexico",
+    "New Zealand",
+    "Peru",
+    "Poland",
+    "South Korea",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "Ukraine",
+    "United Kingdom",
+    "United States"
+   ],
+   "summary": "The purpose of this Phase 2/3, randomized, multisite, open-label, dose confirmation, and expansion study is to evaluate the safety, and efficacy of zilovertamab vedotin (ZV) in combination with standard of care options for the treatment of rrDLBCL. This study will be divided into 2 parts: Dose Confirmation (Part 1) and Efficacy Expansion (Part 2) and will enroll participants who are at least 18 years of age with rrDLBCL. The hypotheses are: ZV in combination with rituximab, gemcitabine, and oxaliplatin (R-GemOx) is superior to R-GemOx with respect to progression-free survival (PFS) per Lugano response criteria by blinded independent review committee (BICR); and that ZV in combination with bendamustine rituximab (BR) is superior to BR with respect to PFS per Lugano response criteria by BICR.\n\nWith protocol amendment 4 (effective: 04-April-2024), enrollment in Cohort B (study arms Bendamustine Rituximab \\[BR\\] and ZV + BR) is discontinued. No efficacy outcome analysis and hypothesis testing will be conducted for Cohort B.",
+   "url": "https://clinicaltrials.gov/study/NCT05139017"
+  },
+  {
+   "nct": "NCT06136559",
+   "title": "A Study of Nemtabrutinib (MK-1026) Versus Comparator (Investigator's Choice of Ibrutinib or Acalabrutinib) in First Line (1L) Chronic Lymphocytic Leukemia (CLL)/ Small Lymphocytic Lymphoma (SLL) (MK-1026-011/BELLWAVE-011)",
+   "status": "RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Chronic Lymphocytic Leukemia",
+    "Small Lymphocytic Lymphoma"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Nemtabrutinib"
+    },
+    {
+     "type": "DRUG",
+     "name": "Ibrutinib"
+    },
+    {
+     "type": "DRUG",
+     "name": "Acalabrutinib"
+    }
+   ],
+   "sponsor": "Merck Sharp & Dohme LLC",
+   "sponsor_class": "INDUSTRY",
+   "start": "2023-12-13",
+   "primary_completion": "2032-09-07",
+   "updated": "2026-09-24",
+   "enrollment": 1200,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Faculty of Medicine Siriraj Hospital-Division of Hematology, Department of Medicine ( Site 1801)",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Chulalongkorn University ( Site 1802)",
+     "city": "Pathumwan",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Naresuan University Hospital ( Site 1804)",
+     "city": "Muang",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Songklanagarind hospital ( Site 1803)",
+     "city": "Hat Yai",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Maharaj Nakorn Chiang Mai Hospital ( Site 1800)",
+     "city": "Muang",
+     "status": "RECRUITING"
+    }
+   ],
+   "countries": [
+    "Australia",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "Chile",
+    "China",
+    "Colombia",
+    "Czechia",
+    "Denmark",
+    "Germany",
+    "Greece",
+    "Hong Kong",
+    "Israel",
+    "Japan",
+    "Malaysia",
+    "Mexico",
+    "New Zealand",
+    "Norway",
+    "Peru",
+    "Poland",
+    "Portugal",
+    "South Africa",
+    "Spain",
+    "Sweden",
+    "Taiwan",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "United Kingdom",
+    "United States"
+   ],
+   "summary": "The goal of this study is to evaluate nemtabrutinib compared with investigator's choice of ibrutinib or acalabrutinib in participants with chronic lymphocytic leukemia (CLL)/small lymphocytic lymphoma (SLL) who have not received any prior therapy. The primary hypotheses are that (1) nemtabrutinib is non-inferior to ibrutinib or acalabrutinib with respect to objective response rate (ORR) per International Workshop on Chronic Lymphocytic Leukemia (iwCLL) Criteria 2018 by blinded independent central review (BICR) and (2) nemtabrutinib is superior to ibrutinib or acalabrutinib with respect to progression free survival (PFS) per iwCLL Criteria 2018 by BICR.",
+   "url": "https://clinicaltrials.gov/study/NCT06136559"
+  },
+  {
+   "nct": "NCT06091865",
+   "title": "A Study to Compare How Well Odronextamab Combined With Chemotherapy Works and How Safe it is Against Rituximab Combined With Chemotherapy, in Adult Patients With Previously Untreated Diffuse Large B-cell Lymphoma",
+   "status": "RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Diffuse Large B-cell Lymphoma (DLBCL)"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Odronextamab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Rituximab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Cyclophosphamide"
+    },
+    {
+     "type": "DRUG",
+     "name": "Doxorubicin"
+    },
+    {
+     "type": "DRUG",
+     "name": "Vincristine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Prednisone/Prednisolone"
+    }
+   ],
+   "sponsor": "Regeneron Pharmaceuticals",
+   "sponsor_class": "INDUSTRY",
+   "start": "2023-12-13",
+   "primary_completion": "2028-03-30",
+   "updated": "2026-10-07",
+   "enrollment": 904,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Chulalongkorn University",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Sriraj Hospital",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Chaing Mai University",
+     "city": "Chiang Mai",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Faculty of Medicine",
+     "city": "Khon Kaen",
+     "status": "RECRUITING"
+    }
+   ],
+   "countries": [
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Brazil",
+    "Chile",
+    "Czechia",
+    "France",
+    "Germany",
+    "Ireland",
+    "Israel",
+    "Italy",
+    "Malaysia",
+    "Poland",
+    "Singapore",
+    "South Korea",
+    "Spain",
+    "Taiwan",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "United Kingdom",
+    "United States"
+   ],
+   "summary": "This study is researching an experimental drug called odronextamab, referred to as study drug, when used in combination with chemotherapy. The study is focused on patients with Diffuse Large B-cell Lymphoma (DLBCL) that have not been treated before (called \"previously untreated\"). Patients with DLBCL that have come back after treatment (called \"relapsed\"), or have not responded to treatment (called \"refractory\"), can also participate in this study.\n\nThis study will be made up of Part 1A, Part 1B, and Part 2.The aim of Part 1A and Part 1B of the study is to see how safe and tolerable the study drug in combination with chemotherapy is and to determine the dose and schedule of the study drug to be combined with chemotherapy in Part 2 of the study.\n\nThe aim of Part 2 of the study is to see how effective the combination of the study drug with chemotherapy is in comparison with the combination of rituximab (the comparator drug), and chemotherapy, the current standard of care treatment approved for DLBCL. Standard of care means the usual medication expected and used when receiving treatment for a condition.\n\nThe study is looking at several other research questions, including:\n\n* What side",
+   "url": "https://clinicaltrials.gov/study/NCT06091865"
+  },
+  {
+   "nct": "NCT06149286",
+   "title": "A Trial to Find Out if Odronextamab Combined With Lenalidomide is Safe and Works Better Than Rituximab Combined With Lenalidomide in Adult Participants With Follicular Lymphoma and Marginal Zone Lymphoma",
+   "status": "RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Relapsed/Refractory Follicular Lymphoma",
+    "Relapsed/Refractory Marginal Zone Lymphoma (R/R MZL)"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Odronextamab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Lenalidomide"
+    },
+    {
+     "type": "DRUG",
+     "name": "Rituximab"
+    }
+   ],
+   "sponsor": "Regeneron Pharmaceuticals",
+   "sponsor_class": "INDUSTRY",
+   "start": "2023-12-28",
+   "primary_completion": "2031-04-30",
+   "updated": "2026-10-07",
+   "enrollment": 580,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Chulalongkorn University",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Sriraj Hospital",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Chiang Mai University",
+     "city": "Chiang Mai",
+     "status": "RECRUITING"
+    }
+   ],
+   "countries": [
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Brazil",
+    "Czechia",
+    "France",
+    "Germany",
+    "Israel",
+    "Italy",
+    "Malaysia",
+    "Poland",
+    "South Korea",
+    "Spain",
+    "Taiwan",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "United Kingdom",
+    "United States"
+   ],
+   "summary": "This study is researching an experimental drug called odronextamab (referred to as study drug), in combination with lenalidomide. The study is focused on participants who have one of two types of cancer: Follicular Lymphoma (FL) or Marginal Zone Lymphoma (MZL) that has come back after treatment (called \"relapsed\") or did not respond to treatment (called \"refractory\"). FL and MZL are subtypes of Non-Hodgkin 's Lymphoma (NHL).\n\nThis study will be made up of two parts (Part 1 not randomized, Part 2 randomized - controlled).\n\nThe aim of Part 1 of the study is to see how safe and tolerable the study drug is when used in combination with lenalidomide, in participants with FL or MZL, and to determine the dose of the study drug to be used in Part 2 of this study. This combination is considered \"first-in-human\" as it has not been tested as a combination treatment in humans before.\n\nThe aim of Part 2, of the study is to assess how well the combination of the study drug and lenalidomide works compared to the combination of rituximab (called \"the comparator drug\") and lenalidomide. The combination of comparator drug and lenalidomide is the current standard-of-care treatment for relapsed/refrac",
+   "url": "https://clinicaltrials.gov/study/NCT06149286"
+  },
+  {
+   "nct": "NCT07002203",
+   "title": "Personalized Neoantigen Peptide Vaccines for Solid Tumors",
+   "status": "RECRUITING",
+   "phase": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Solid Tumors",
+    "Advanced Cancer",
+    "Recurrent Cancer",
+    "Neoantigen-Specific Immunotherapy",
+    "Personalized Cancer Vaccine"
+   ],
+   "interventions": [
+    {
+     "type": "BIOLOGICAL",
+     "name": "Personalized Neoantigen Peptide Vaccine"
+    }
+   ],
+   "sponsor": "Seqker Biosciences, Inc.",
+   "sponsor_class": "INDUSTRY",
+   "start": "2024-03-01",
+   "primary_completion": "2027-08",
+   "updated": "2026-07-24",
+   "enrollment": 10,
+   "ages": [
+    "20 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Horizon Cancer Excellence Center, Bumrungrad International Hospital",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    }
+   ],
+   "countries": [
+    "Thailand"
+   ],
+   "summary": "This clinical trial is studying the safety and efficacy of a personalized cancer vaccine called a neoantigen peptide vaccine in patients with solid tumors. These vaccines are custom-made for each patient using specific mutations (neoantigens) found in their own tumor. The goal is to help the patient's immune system recognize and attack their cancer.\n\nThe study will enroll adult patients (20 years or older) who have solid tumors that meet specific stage-related criteria. These include advanced cancers that are resistant to prior treatments and early-stage cancers at high risk of recurrence, where there are no standard adjuvant therapies available.\n\nParticipants will receive:\n\n* A personalized neoantigen peptide vaccine designed from the mutations in their tumor tissue.\n* Poly-ICLC (Hiltonol), a substance that stimulates the immune system.\n* An anti-PD-1 immune checkpoint inhibitor, a drug that helps the immune system stay active against cancer.\n\nThe vaccine and drugs will be given through multiple injections over several months. Blood samples and imaging will be used to monitor the immune response and how the cancer responds to treatment. Participants will be followed for up to 12 m",
+   "url": "https://clinicaltrials.gov/study/NCT07002203"
+  },
+  {
+   "nct": "NCT07234162",
+   "title": "A Phase 3 Multinational Study of Golidocitinib Versus Investigator's Choice in r/r PTCL (JACKPOT19)",
+   "status": "RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Peripheral T-cell Lymphoma"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Golidocitinib"
+    },
+    {
+     "type": "DRUG",
+     "name": "Chidamide"
+    },
+    {
+     "type": "DRUG",
+     "name": "Gemcitabine"
+    }
+   ],
+   "sponsor": "Dizal Pharmaceuticals",
+   "sponsor_class": "INDUSTRY",
+   "start": "2024-05-13",
+   "primary_completion": "2027-11-30",
+   "updated": "2026-06-08",
+   "enrollment": 218,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "King Chulalongkorn Memorial Hospital",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Mahidol University - Faculty of Medicine - Ramathibodi Hospital",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Phramongkutklao Hospital",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Siriraj Hospital - Mahidol University",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Maharaj Nakorn Chiang Mai Hospital",
+     "city": "Chiang Mai",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Prince of Songkla University-Faculty of Medicine",
+     "city": "Hat Yai",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Srinagarind Hospital - Faculty of Medicine Khon Kaen University",
+     "city": "Khon Kaen",
+     "status": "NOT_YET_RECRUITING"
+    }
+   ],
+   "countries": [
+    "China",
+    "Taiwan",
+    "Thailand"
+   ],
+   "summary": "This is a phase 3, open-label, randomized, multinational study to evaluate the anti-tumor efficacy of golidocitinib versus investigator's choice in adult patients with relapsed/refractory peripheral T-cell lymphoma (r/r PTCL). This study will treat patients with pathologically confirmed PTCL who have relapsed after or been refractory/intolerant to at least one prior systemic treatment regimen(s).",
+   "url": "https://clinicaltrials.gov/study/NCT07234162"
+  },
+  {
+   "nct": "NCT06549595",
+   "title": "A Study of Surovatamig (AZD0486) Plus Rituximab in Previously Untreated Follicular Lymphoma Patients",
+   "status": "RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Untreated Follicular Lymphoma"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Surovatamig"
+    },
+    {
+     "type": "DRUG",
+     "name": "R-CHOP"
+    },
+    {
+     "type": "DRUG",
+     "name": "R-CVP"
+    },
+    {
+     "type": "DRUG",
+     "name": "BR"
+    }
+   ],
+   "sponsor": "AstraZeneca",
+   "sponsor_class": "INDUSTRY",
+   "start": "2024-08-07",
+   "primary_completion": "2031-11-26",
+   "updated": "2026-09-21",
+   "enrollment": 1018,
+   "ages": [
+    "18 Years",
+    "130 Years"
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Research Site",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Research Site",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Research Site",
+     "city": "Chiang Mai",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Research Site",
+     "city": "Khon Kaen",
+     "status": "RECRUITING"
+    }
+   ],
+   "countries": [
+    "Australia",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "China",
+    "Czechia",
+    "Denmark",
+    "Finland",
+    "France",
+    "Germany",
+    "Hong Kong",
+    "Hungary",
+    "India",
+    "Japan",
+    "Poland",
+    "Puerto Rico",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Taiwan",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "United Kingdom",
+    "United States"
+   ],
+   "summary": "This is a global, randomised, Phase III, multicentre, open-label study evaluating the efficacy, safety and the degree of added benefit of the Surovatamig (AZD0486) plus rituximab combination compared to Investigator's choice of 3 standard immunochemotherapy regimen, conducted in participants with untreated FL.",
+   "url": "https://clinicaltrials.gov/study/NCT06549595"
+  },
+  {
+   "nct": "NCT06717347",
+   "title": "A Study to Evaluate Zilovertamab Vedotin (MK-2140) Combination With Rituximab Plus Cyclophosphamide, Doxorubicin, and Prednisone (R-CHP) Versus Rituximab Plus Cyclophosphamide, Doxorubicin, Vincristine, and Prednisone (R-CHOP) in Participants With Previously Untreated DLBCL (MK-2140-010)",
+   "status": "RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Diffuse Large B-Cell Lymphoma"
+   ],
+   "interventions": [
+    {
+     "type": "BIOLOGICAL",
+     "name": "Zilovertamab vedotin"
+    },
+    {
+     "type": "BIOLOGICAL",
+     "name": "Rituximab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Cyclophosphamide"
+    },
+    {
+     "type": "DRUG",
+     "name": "Doxorubicin"
+    },
+    {
+     "type": "BIOLOGICAL",
+     "name": "Rituximab Biosimilar"
+    },
+    {
+     "type": "DRUG",
+     "name": "Prednisone"
+    },
+    {
+     "type": "DRUG",
+     "name": "Prednisolone"
+    },
+    {
+     "type": "DRUG",
+     "name": "Vincristine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Rescue medication"
+    },
+    {
+     "type": "DRUG",
+     "name": "Methylprednisolone"
+    }
+   ],
+   "sponsor": "Merck Sharp & Dohme LLC",
+   "sponsor_class": "INDUSTRY",
+   "start": "2025-01-27",
+   "primary_completion": "2029-07-02",
+   "updated": "2026-09-25",
+   "enrollment": 1046,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Faculty of Medicine Siriraj Hospital ( Site 4001)",
+     "city": "Bangkoknoi",
+     "status": "COMPLETED"
+    },
+    {
+     "facility": "Chulalongkorn University ( Site 4003)",
+     "city": "Pathumwan",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Maharaj Nakorn Chiang Mai Hospital ( Site 4002)",
+     "city": "Muang",
+     "status": "RECRUITING"
+    }
+   ],
+   "countries": [
+    "Argentina",
+    "Australia",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "Chile",
+    "China",
+    "Colombia",
+    "Denmark",
+    "France",
+    "Greece",
+    "Guatemala",
+    "Hong Kong",
+    "Hungary",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Malaysia",
+    "Mexico",
+    "Netherlands",
+    "Peru",
+    "Poland",
+    "Portugal",
+    "Puerto Rico",
+    "Romania",
+    "Singapore",
+    "South Africa",
+    "South Korea",
+    "Spain",
+    "Switzerland",
+    "Taiwan",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "Ukraine",
+    "United States"
+   ],
+   "summary": "The purpose of this study is to evaluate if zilovertamab vedotin with standard treatment can help people live longer without the cancer growing or spreading than people who receive standard treatment alone.",
+   "url": "https://clinicaltrials.gov/study/NCT06717347"
+  },
+  {
+   "nct": "NCT06765109",
+   "title": "Neladalkib (NVL-655) for TKI-naive Patients With Advanced ALK-Positive NSCLC",
+   "status": "RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Non-small Cell Lung Cancer",
+    "Anaplastic Lymphoma Kinase-positive"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Neladalkib (NVL-655)"
+    },
+    {
+     "type": "DRUG",
+     "name": "Alectinib"
+    }
+   ],
+   "sponsor": "Nuvalent Inc.",
+   "sponsor_class": "INDUSTRY",
+   "start": "2025-07-17",
+   "primary_completion": "2029-12",
+   "updated": "2026-09-30",
+   "enrollment": 450,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Phramongkutklao Hospital",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Ramathibodi Hospital, Mahidol University",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Siriraj Hospital Mahidol University",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Maharaj Nakorn Chiang Mai Hospital",
+     "city": "Chiang Mai",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "Rajavithi Hospital",
+     "city": "Din Daeng",
+     "status": "RECRUITING"
+    },
+    {
+     "facility": "HRH Princess Maha Chakri Sirindhorn Medical Center",
+     "city": "Ongkharak",
+     "status": "RECRUITING"
+    }
+   ],
+   "countries": [
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "Chile",
+    "Czechia",
+    "Denmark",
+    "France",
+    "Germany",
+    "Greece",
+    "Hong Kong",
+    "Hungary",
+    "Italy",
+    "Japan",
+    "Malaysia",
+    "Mexico",
+    "Netherlands",
+    "Poland",
+    "Portugal",
+    "Singapore",
+    "South Korea",
+    "Spain",
+    "Switzerland",
+    "Taiwan",
+    "Thailand",
+    "United Kingdom",
+    "United States"
+   ],
+   "summary": "Multicenter, randomized, controlled, open-label, Phase 3 study designed to demonstrate that neladalkib (NVL-655) is superior to alectinib in prolonging progression-free survival (PFS) in patients with treatment-naïve, Anaplastic Lymphoma Kinase (ALK) positive, advanced Non-Small Cell Lung Cancer (NSCLC).",
+   "url": "https://clinicaltrials.gov/study/NCT06765109"
+  },
+  {
+   "nct": "NCT01868490",
+   "title": "The Adoptive Immunotherapy for Solid Tumors Using Modified Autologous CIK Cells",
+   "status": "ENROLLING_BY_INVITATION",
+   "phase": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Cholangiocarcinoma",
+    "Neuroblastoma"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "cytokine induced killer cells"
+    }
+   ],
+   "sponsor": "Siriraj Hospital",
+   "sponsor_class": "OTHER",
+   "start": "2009-04-17",
+   "primary_completion": "2028-01-30",
+   "updated": "2025-02-10",
+   "enrollment": 20,
+   "ages": [
+    "8 Years",
+    "60 Years"
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Siriraj Clinical Research Center, Siriraj Hospital",
+     "city": "Bangkoknoi",
+     "status": ""
+    },
+    {
+     "facility": "Faculty of Medicine Siriraj Hospital, Mahidol University",
+     "city": "Bangkok",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Thailand"
+   ],
+   "summary": "Cytokine-induced killer (CIK) cells exhibit high proliferation rate and cytotoxic activity in vitro. The major effector cells are the CD3+CD56+ subset. The cytolytic activity of CIK cells being independent of MHC restriction implies feasibility in using CIK cells allogeneic to the tumors. Experiments to block the MHC class-I and -II pathways on tumors-RNA transfected DCs showed that only MHC class-I blocking led to a significant reduction of heterogeneous CIK cells cytotoxicity after the co-culture. The safety of CIK cells was demonstrated by the lack of cytotoxicity toward autologous as well as allogeneic normal cells. Co-culture of CIK cells with dendritic cells (DCs) has been reported by us and others in a myriad of cancer (e.g., cholangiocarcinoma, osteosarcoma, glioblastoma multiforme, multiple myeloma, hepatocellular carcinoma, pancreatic carcinoma, renal \\& colon carcinoma, murine leukemia \\& lymphoma showing enhancement of anti-tumor cytotoxicity of CIK cell in all. The co-culture of CIK cells with DCs were reported to decrease the number of professional regulatory/ suppressor T cells (Treg, CD4+CD25+ cells) and decrease the secretion of IL-10, an immune suppressor cytokine",
+   "url": "https://clinicaltrials.gov/study/NCT01868490"
+  },
+  {
+   "nct": "NCT02386800",
+   "title": "CINC424A2X01B Rollover Protocol",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "phase": [
+    "PHASE4"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Primary Myelofibrosis",
+    "Polycythemia Vera",
+    "Graft Versus Host Disease",
+    "Acute Myeloid Leukemia",
+    "Thalassemia"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "ruxolitinib"
+    },
+    {
+     "type": "DRUG",
+     "name": "panobinostat"
+    }
+   ],
+   "sponsor": "Novartis Pharmaceuticals",
+   "sponsor_class": "INDUSTRY",
+   "start": "2015-03-05",
+   "primary_completion": "2032-04-05",
+   "updated": "2026-08-20",
+   "enrollment": 279,
+   "ages": [
+    "1 Month",
+    "100 Years"
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Novartis Investigative Site",
+     "city": "Bangkok",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Australia",
+    "Belgium",
+    "Bulgaria",
+    "Canada",
+    "Chile",
+    "China",
+    "France",
+    "Germany",
+    "Greece",
+    "Hungary",
+    "India",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Lebanon",
+    "Mexico",
+    "Poland",
+    "Portugal",
+    "Russia",
+    "South Africa",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Thailand",
+    "Turkey (Türkiye)"
+   ],
+   "summary": "This is a long term safety study for patients that have been treated with either ruxolitinib or a combination of ruxolitinib with panobinostat, on a Novartis or Incyte sponsored study, who have been judged by the study Investigator to benefit from ongoing treatment.",
+   "url": "https://clinicaltrials.gov/study/NCT02386800"
+  },
+  {
+   "nct": "NCT03286634",
+   "title": "ASIA Down Syndrome Acute Lymphoblastic Leukemia 2016",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "phase": [
+    "PHASE2"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Down Syndrome",
+    "Acute Lymphoblastic Leukemia",
+    "Childhood Cancer"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Daunorubicin"
+    },
+    {
+     "type": "DRUG",
+     "name": "Prednisolone"
+    },
+    {
+     "type": "DRUG",
+     "name": "Vincristine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Epirubicin"
+    },
+    {
+     "type": "DRUG",
+     "name": "E-coli L-asparaginase"
+    },
+    {
+     "type": "DRUG",
+     "name": "6-Mercaptopurine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Methotrexate"
+    },
+    {
+     "type": "DRUG",
+     "name": "Hydrocortisone"
+    },
+    {
+     "type": "DRUG",
+     "name": "Cytarabine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Cyclophosphamide"
+    }
+   ],
+   "sponsor": "National Hospital Organization Nagoya Medical Center",
+   "sponsor_class": "OTHER",
+   "start": "2017-04-18",
+   "primary_completion": "2028-03-31",
+   "updated": "2026-05-11",
+   "enrollment": 60,
+   "ages": [
+    "0 Years",
+    "20 Years"
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Siriraj Hospital Mahidol University",
+     "city": "Bangkok",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Hong Kong",
+    "Japan",
+    "Malaysia",
+    "Singapore",
+    "Taiwan",
+    "Thailand"
+   ],
+   "summary": "To evaluate the outcome of a prednisolone and low dose methotrexate based protocol in Down syndrome children with ALL (DS-ALL) in an Asia-wide study. The treatment protocol was modified based upon backbone of Taiwan Pediatric Oncology Group (TPOG)-ALL protocol in which risk classification will be guided by level of flow minimal residual disease (MRD) instead.",
+   "url": "https://clinicaltrials.gov/study/NCT03286634"
+  },
+  {
+   "nct": "NCT03456076",
+   "title": "A Study Comparing Adjuvant Alectinib Versus Adjuvant Platinum-Based Chemotherapy in Patients With ALK Positive Non-Small Cell Lung Cancer",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Carcinoma, Non-Small-Cell Lung"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Alectnib"
+    },
+    {
+     "type": "DRUG",
+     "name": "Cisplatin"
+    },
+    {
+     "type": "DRUG",
+     "name": "Vinorelbine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Gemcitabine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Pemetrexed"
+    },
+    {
+     "type": "DRUG",
+     "name": "Carboplatin"
+    }
+   ],
+   "sponsor": "Hoffmann-La Roche",
+   "sponsor_class": "INDUSTRY",
+   "start": "2018-08-16",
+   "primary_completion": "2023-06-26",
+   "updated": "2026-07-15",
+   "enrollment": 257,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Ramathibodi Hospital",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Siriraj Hospital",
+     "city": "Bangkok",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Australia",
+    "Austria",
+    "Belarus",
+    "Bosnia and Herzegovina",
+    "China",
+    "Denmark",
+    "Egypt",
+    "France",
+    "Germany",
+    "Greece",
+    "Hungary",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Kazakhstan",
+    "North Macedonia",
+    "Poland",
+    "Romania",
+    "Russia",
+    "South Korea",
+    "Spain",
+    "Taiwan",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "Ukraine",
+    "United Kingdom",
+    "United States"
+   ],
+   "summary": "This randomized, active-controlled, multicenter, open-label, Phase III study is designed to investigate the efficacy and safety of alectinib compared with platinum-based in the adjuvant setting. Participants in the experimental arm will receive alectinib at 600 mg orally twice daily (BID) taken with food for 24 months.\n\nParticipants in the control arm will receive one of the protocol specified platinum based chemotherapy regimens for 4 cycles. Following treatment completion, participants will be followed up for their disease until disease recurrence. At the time of disease recurrence, participants will enter a survival follow-up until death, withdrawal of consent or study closure, whichever occurs earlier.",
+   "url": "https://clinicaltrials.gov/study/NCT03456076"
+  },
+  {
+   "nct": "NCT04075292",
+   "title": "Study of Acalabrutinib Versus Chlorambucil Plus Rituximab in Adult Subjects With Previously Untreated Chronic Lymphocytic Leukemia",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Untreated Chronic Lymphocytic Leukemia"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Acalabrutinib"
+    },
+    {
+     "type": "DRUG",
+     "name": "Rituximab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Chlorambucil"
+    }
+   ],
+   "sponsor": "AstraZeneca",
+   "sponsor_class": "INDUSTRY",
+   "start": "2020-01-20",
+   "primary_completion": "2024-01-03",
+   "updated": "2026-09-14",
+   "enrollment": 155,
+   "ages": [
+    "18 Years",
+    "130 Years"
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Research Site",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Research Site",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Research Site",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Research Site",
+     "city": "Chiang Mai",
+     "status": ""
+    },
+    {
+     "facility": "Research Site",
+     "city": "Hat Yai",
+     "status": ""
+    },
+    {
+     "facility": "Research Site",
+     "city": "Khon Kaen",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "China",
+    "Philippines",
+    "Taiwan",
+    "Thailand",
+    "Vietnam"
+   ],
+   "summary": "This is a randomized, multicenter, open-label, Phase 3 study to evaluate the efficacy and safety of Acalabrutinib versus Chlorambucil plus Rituximab in subjects with Previously Untreated Chronic Lymphocytic Leukemia.",
+   "url": "https://clinicaltrials.gov/study/NCT04075292"
+  },
+  {
+   "nct": "NCT04824092",
+   "title": "Tafasitamab + Lenalidomide + R-CHOP Versus R-CHOP in Newly Diagnosed High-intermediate and High Risk DLBCL Patients",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Diffuse Large B-cell Lymphoma"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Tafasitamab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Lenalidomide"
+    },
+    {
+     "type": "DRUG",
+     "name": "Rituximab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Cyclophosphamide"
+    },
+    {
+     "type": "DRUG",
+     "name": "Doxorubicin"
+    },
+    {
+     "type": "DRUG",
+     "name": "Vincristine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Prednisone"
+    },
+    {
+     "type": "DRUG",
+     "name": "Tafasitamab placebo"
+    },
+    {
+     "type": "DRUG",
+     "name": "Lenalidomide placebo"
+    }
+   ],
+   "sponsor": "Incyte Corporation",
+   "sponsor_class": "INDUSTRY",
+   "start": "2021-05-11",
+   "primary_completion": "2026-09-01",
+   "updated": "2026-04-01",
+   "enrollment": 899,
+   "ages": [
+    "18 Years",
+    "80 Years"
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "MorphoSys Research Site",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Morphosys Research Site",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Morphosys Research Site",
+     "city": "Chiang Mai",
+     "status": ""
+    },
+    {
+     "facility": "Morphosys Research Site",
+     "city": "Khon Kaen",
+     "status": ""
+    },
+    {
+     "facility": "MorphoSys Research Site",
+     "city": "Pathum Thani",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Canada",
+    "Colombia",
+    "Czechia",
+    "France",
+    "Germany",
+    "Hungary",
+    "Ireland",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Malaysia",
+    "New Zealand",
+    "Philippines",
+    "Poland",
+    "Romania",
+    "Russia",
+    "Serbia",
+    "Slovakia",
+    "South Korea",
+    "Spain",
+    "Taiwan",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "Ukraine",
+    "United Kingdom",
+    "United States"
+   ],
+   "summary": "This is a phase 3, multicenter, randomized, double-blind, placebo-controlled trial designed to compare the efficacy and safety of the humanized monoclonal anti CD19 antibody tafasitamab plus lenalidomide in addition to R-CHOP (rituximab, cyclophosphamide, doxorubicin, vincristine, and prednisone) versus R-CHOP in previously untreated, high-intermediate and high-risk patients with newly-diagnosed DLBCL",
+   "url": "https://clinicaltrials.gov/study/NCT04824092"
+  },
+  {
+   "nct": "NCT05171647",
+   "title": "A Study Evaluating Efficacy and Safety of Mosunetuzumab in Combination With Polatuzumab Vedotin Compared to Rituximab in Combination With Gemcitabine Plus Oxaliplatin in Participants With Relapsed or Refractory Aggressive B-Cell Non-Hodgkin's Lymphoma",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Non-Hodgkin Lymphoma"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Mosunetuzumab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Polatuzumab vedotin"
+    },
+    {
+     "type": "DRUG",
+     "name": "Tocilizumab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Rituximab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Gemcitabine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Oxaliplatin"
+    }
+   ],
+   "sponsor": "Hoffmann-La Roche",
+   "sponsor_class": "INDUSTRY",
+   "start": "2022-04-25",
+   "primary_completion": "2025-02-17",
+   "updated": "2026-08-05",
+   "enrollment": 208,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Siriraj Hospital",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Chiang Mai Uni Hospital",
+     "city": "Chiang Mai",
+     "status": ""
+    },
+    {
+     "facility": "Srinagarind Hospital, Khon Kaen Uni",
+     "city": "Khon Kaen",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Argentina",
+    "Brazil",
+    "Canada",
+    "China",
+    "Israel",
+    "Japan",
+    "Mexico",
+    "New Zealand",
+    "Peru",
+    "South Korea",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "United States"
+   ],
+   "summary": "This study will assess the efficacy and safety of mosunetuzumab in combination with polatuzumab vedotin (M+P) in participants with relapsed or refractory (R/R) diffuse-large B-cell lymphoma (DLBCL), high-grade B-cell lymphoma, transformed follicular lymphoma (trFL) and FL Grade 3B (FL3B) in comparison with a commonly used regimen in this participant population, rituximab, gemcitabine and oxaliplatin (R-GemOx).",
+   "url": "https://clinicaltrials.gov/study/NCT05171647"
+  },
+  {
+   "nct": "NCT06074588",
+   "title": "Sacituzumab Tirumotecan (MK-2870) Versus Chemotherapy in Previously Treated Advanced or Metastatic Nonsquamous Non-small Cell Lung Cancer (NSCLC) With EGFR Mutations or Other Genomic Alterations (MK-2870-004)",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Non-small Cell Lung Cancer (NSCLC)"
+   ],
+   "interventions": [
+    {
+     "type": "BIOLOGICAL",
+     "name": "Sacituzumab tirumotecan"
+    },
+    {
+     "type": "DRUG",
+     "name": "Docetaxel"
+    },
+    {
+     "type": "DRUG",
+     "name": "Pemetrexed"
+    }
+   ],
+   "sponsor": "Merck Sharp & Dohme LLC",
+   "sponsor_class": "INDUSTRY",
+   "start": "2023-11-12",
+   "primary_completion": "2027-05-10",
+   "updated": "2026-08-14",
+   "enrollment": 556,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Faculty of Medicine Siriraj Hospital ( Site 4000)",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Lampang Cancer Hospital ( Site 4005)",
+     "city": "Muang",
+     "status": ""
+    },
+    {
+     "facility": "Songklanagarind hospital ( Site 4001)",
+     "city": "Hat Yai",
+     "status": ""
+    },
+    {
+     "facility": "Maharaj Nakorn Chiang Mai Hospital ( Site 4003)",
+     "city": "Muang",
+     "status": ""
+    },
+    {
+     "facility": "Faculty of Medicine - Khon Kaen University ( Site 4004)",
+     "city": "Khon Kaen",
+     "status": ""
+    },
+    {
+     "facility": "Sunpasitthiprasong Hospital-Oncology ( Site 4002)",
+     "city": "Ubon Ratchathani",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Australia",
+    "Brazil",
+    "Canada",
+    "Chile",
+    "China",
+    "Czechia",
+    "France",
+    "Germany",
+    "Greece",
+    "Hong Kong",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Malaysia",
+    "Mexico",
+    "Philippines",
+    "Poland",
+    "South Korea",
+    "Spain",
+    "Taiwan",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "United Kingdom",
+    "United States",
+    "Vietnam"
+   ],
+   "summary": "The purpose of this study is to evaluate sacituzumab tirumotecan versus chemotherapy (docetaxel or pemetrexed) for the treatment of previously-treated non-small cell lung cancer (NSCLC) with exon 19del or exon 21 L858R EGFR mutations (hereafter referred to as EGFR mutations or EGFR-mutated) or any of the follow genomic alterations: ALK gene rearrangements, ROS1 rearrangements, BRAF V600E mutations, NTRK gene fusions, MET exon 14 skipping mutations, RET rearrangements, or less common EGFR point mutations of exon 20 S768I, exon 21 L861Q, or exon 18 G719X mutations. The primary hypothesis is that sacituzumab tirumotecan is superior to chemotherapy with respect to overall survival (OS) in NSCLC with EGFR mutations.",
+   "url": "https://clinicaltrials.gov/study/NCT06074588"
+  },
+  {
+   "nct": "NCT06097364",
+   "title": "A Trial to Learn if Odronextamab Combined With Chemotherapy is Safe and Well-Tolerated and How Well it Works Compared to Rituximab Combined With Chemotherapy for Adult Participants With Follicular Lymphoma",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Follicular Lymphoma (FL)"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Odronextamab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Rituximab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Cyclophosphamide"
+    },
+    {
+     "type": "DRUG",
+     "name": "Doxorubicin"
+    },
+    {
+     "type": "DRUG",
+     "name": "Vincristine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Prednisone/Prenisolone"
+    }
+   ],
+   "sponsor": "Regeneron Pharmaceuticals",
+   "sponsor_class": "INDUSTRY",
+   "start": "2023-11-14",
+   "primary_completion": "2029-07-29",
+   "updated": "2026-02-06",
+   "enrollment": 733,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Chulalongkorn University",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Khon Kaen University",
+     "city": "Khon Kaen",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Brazil",
+    "Chile",
+    "Czechia",
+    "France",
+    "Germany",
+    "Israel",
+    "Italy",
+    "Poland",
+    "Spain",
+    "Taiwan",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "United Kingdom",
+    "United States"
+   ],
+   "summary": "This study is researching an experimental drug called odronextamab, referred to as study drug. The study is focused on participants with previously untreated follicular lymphoma. Follicular lymphoma is a type of non-Hodgkin lymphoma or NHL. Participants with follicular lymphoma that has come back after treatment (called \"relapsed\") or did not respond to treatment (called \"refractory\") are eligible to take part only in Part 1A of the study.\n\nThis study is made up of 3 parts: Part 1A (non-randomized), Part 1B and Part 2 (randomized - controlled).\n\nThe aim of Part 1A and Part 1B of the study is to see how safe and tolerable the study drug in combination with chemotherapy is and to determine the dose and schedule of the study drug to be combined with chemotherapy to be used in Part 2 of the study.\n\nThe aim of Part 2 of the study is to assess how effective the combination of the study drug with chemotherapy is in comparison with the combination of rituximab and chemotherapy (the current standard-of-care for NHL). Standard-of-care means the usual medication expected and used when receiving treatment for a condition.\n\nThe study is looking at several other research questions, including:\n\n*",
+   "url": "https://clinicaltrials.gov/study/NCT06097364"
+  },
+  {
+   "nct": "NCT06230224",
+   "title": "A Trial to Learn How Effective and Safe Odronextamab is Compared to Standard of Care for Adult Participants With Previously Treated Aggressive B-cell Non-Hodgkin Lymphoma",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "B-Cell Non-Hodgkin Lymphoma (B-NHL)"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Odronextamab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Ifosfamide"
+    },
+    {
+     "type": "DRUG",
+     "name": "Carboplatin"
+    },
+    {
+     "type": "DRUG",
+     "name": "Etoposide"
+    },
+    {
+     "type": "DRUG",
+     "name": "Rituximab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Dexamethasone"
+    },
+    {
+     "type": "DRUG",
+     "name": "Cisplatin"
+    },
+    {
+     "type": "DRUG",
+     "name": "Cytarabine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Gemcitabine"
+    }
+   ],
+   "sponsor": "Regeneron Pharmaceuticals",
+   "sponsor_class": "INDUSTRY",
+   "start": "2024-02-15",
+   "primary_completion": "2028-05-29",
+   "updated": "2026-05-11",
+   "enrollment": 216,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Chulalongkorn University",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Sriraj Hospital",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Chiang Mai University",
+     "city": "Chiang Mai",
+     "status": ""
+    },
+    {
+     "facility": "Khon Kaen University",
+     "city": "Khon Kaen",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Argentina",
+    "Australia",
+    "Brazil",
+    "Chile",
+    "Colombia",
+    "Hungary",
+    "Malaysia",
+    "Romania",
+    "Singapore",
+    "South Korea",
+    "Spain",
+    "Taiwan",
+    "Thailand",
+    "Turkey (Türkiye)"
+   ],
+   "summary": "This study is researching an experimental drug called odronextamab, referred to as study drug. The study is focused on patients with previously treated aggressive B-cell non-Hodgkin lymphoma whose cancer has stopped responding to treatment (also known as 'refractory') or has returned (also known as 'relapsed'). The aim of the study is to see how safe, tolerable and effective the study drug is when given alone.\n\nThe study is looking at several other research questions, including:\n\n* What side effects may happen from taking the study drug versus Standard of Care (SOC)\n* How much study drug is in the blood at different times\n* Whether the body makes antibodies against the study drug (which could make the study drug less effective or could lead to side effects)\n* Comparing the impact from the study drug versus SOC on quality-of-life and ability to complete routine daily activities",
+   "url": "https://clinicaltrials.gov/study/NCT06230224"
+  },
+  {
+   "nct": "NCT06356129",
+   "title": "Study to Compare the Effectiveness and Safety of Golcadomide Plus R-CHOP vs Placebo Plus R-CHOP in Participants With Previously Untreated High-risk Large B-cell Lymphoma",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "phase": [
+    "PHASE3"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Large B-cell Lymphoma"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Golcadomide"
+    },
+    {
+     "type": "DRUG",
+     "name": "Placebo"
+    },
+    {
+     "type": "DRUG",
+     "name": "Rituximab"
+    },
+    {
+     "type": "DRUG",
+     "name": "Cyclophosphamide"
+    },
+    {
+     "type": "DRUG",
+     "name": "Doxorubicin"
+    },
+    {
+     "type": "DRUG",
+     "name": "Vincristine"
+    },
+    {
+     "type": "DRUG",
+     "name": "Prednisone"
+    }
+   ],
+   "sponsor": "Celgene",
+   "sponsor_class": "INDUSTRY",
+   "start": "2024-06-19",
+   "primary_completion": "2027-08-09",
+   "updated": "2026-07-06",
+   "enrollment": 850,
+   "ages": [
+    "18 Years",
+    "80 Years"
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Local Institution - 0434",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Ramathibodi Hospital",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Faculty of Medicine Siriraj Hospital",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Local Institution - 0428",
+     "city": "Chiang Mai",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Brazil",
+    "Bulgaria",
+    "Canada",
+    "Chile",
+    "China",
+    "Colombia",
+    "Czechia",
+    "Denmark",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Hungary",
+    "India",
+    "Italy",
+    "Japan",
+    "Malaysia",
+    "Mexico",
+    "Netherlands",
+    "New Zealand",
+    "Norway",
+    "Poland",
+    "Portugal",
+    "Puerto Rico",
+    "Romania",
+    "Saudi Arabia",
+    "Singapore",
+    "Slovakia",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Taiwan",
+    "Thailand",
+    "Turkey (Türkiye)",
+    "United States"
+   ],
+   "summary": "The purpose of this study is to compare the effectiveness and safety of golcadomide in combination with rituximab, cyclophosphamide, doxorubicin, vincristine, and prednisone (R-CHOP) chemotherapy vs placebo in combination with R-CHOP chemotherapy in participants with previously untreated high-risk large B-cell lymphoma (LBCL).",
+   "url": "https://clinicaltrials.gov/study/NCT06356129"
+  },
+  {
+   "nct": "NCT06665737",
+   "title": "Outcomes of Early and Late Administration G-CSF for Primary Prophylaxis in Non-Hodgkin's Lymphoma Patients",
+   "status": "NOT_YET_RECRUITING",
+   "phase": [
+    "PHASE4"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Non-Hodgkin's Lymphoma (NHL)",
+    "Granulocyte Colony Stimulating Factor",
+    "Febrile Neutropenia (FN)",
+    "Myelosuppression Adult"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "Early receiving G-CSF group"
+    },
+    {
+     "type": "DRUG",
+     "name": "Late receiving G-CSF group"
+    }
+   ],
+   "sponsor": "Department of Medical Services Ministry of Public Health of Thailand",
+   "sponsor_class": "OTHER_GOV",
+   "start": "2025-02-01",
+   "primary_completion": "2026-02-27",
+   "updated": "2025-01-28",
+   "enrollment": 126,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Department of Clinical Tropical Medicine, Faculty of Tropical Medicine, Mahidol University",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Rajavithi Hospital",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Internal Medicine Unit, Pranongklao Hospital",
+     "city": "Nontaburi",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Thailand"
+   ],
+   "summary": "The goal of this clinical trial is to\n\nPrimary Objectives:\n\n1. To compare the incidence of febrile neutropenia in patients with non-Hodgkin's lymphoma who received early or late granulocyte colony-stimulating factor (G-CSF) during standard chemotherapy in a multicenter study\n2. To determine the incidence of leukopenia and neutropenia in patients with non-Hodgkin's lymphoma who received early or late G-CSF during standard chemotherapy in a multicenter study\n\nSecondary Objectives:\n\n1. To determine changes in white blood cell, hemoglobin, and platelet levels in patients with non-Hodgkin's lymphoma who received early or late G-CSF during standard chemotherapy.\n2. To determine the quality of life of patients with non-Hodgkin's lymphoma who undergoing standard chemotherapy and with neutropenia Researchers will compare the outcome between patients received either early G-CSF (within 72 hours) or late G-CSF (after 72 hours).\n\nAll patients will be followed up to monitor for febrile neutropenia events, other hematological parameters and quality of life.",
+   "url": "https://clinicaltrials.gov/study/NCT06665737"
+  },
+  {
+   "nct": "NCT07078929",
+   "title": "Clinical Trial of CMD63 Chimeric Antigen Receptor T-cell (CAR T-cell) in Children With Acute Lymphoblastic Leukemia (ALL)",
+   "status": "RECRUITING",
+   "phase": [
+    "PHASE1"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Relapse B Acute Lymphoblastic Leukemia",
+    "Refactory Childhood Acute Lymphoblastic Leukemia"
+   ],
+   "interventions": [
+    {
+     "type": "BIOLOGICAL",
+     "name": "CD19-IL7Ra CAR-T cells"
+    }
+   ],
+   "sponsor": "Chulalongkorn University",
+   "sponsor_class": "OTHER",
+   "start": "2026-01-01",
+   "primary_completion": "2026-09-01",
+   "updated": "2026-03-02",
+   "enrollment": 16,
+   "ages": [
+    "1 Year",
+    "18 Years"
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Siriraj Hospital",
+     "city": "Bangkok",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "Maharaj Nakorn Chiang Mai Hospital",
+     "city": "Chiang Mai",
+     "status": "NOT_YET_RECRUITING"
+    },
+    {
+     "facility": "King Chulalongkorn Memorial Hospital",
+     "city": "Bangkok",
+     "status": "RECRUITING"
+    }
+   ],
+   "countries": [
+    "Thailand"
+   ],
+   "summary": "A Phase 1 clinical trial to evaluate the safety and early efficacy of Chimeric Antigen Receptor T-cell (CAR T-cell) with IL-7Rα signaling targeting CD19 in children with relapsed and refractory B-cell Acute Lymphoblastic Leukemia (ALL) after complete standard treatments.",
+   "url": "https://clinicaltrials.gov/study/NCT07078929"
+  },
+  {
+   "nct": "NCT07328035",
+   "title": "Remission in Adults With Severe Asthma in Thailand",
+   "status": "RECRUITING",
+   "phase": [
+    "NA"
+   ],
+   "type": "OBSERVATIONAL",
+   "conditions": [
+    "Severe Asthma",
+    "Asthma Control Level"
+   ],
+   "interventions": [
+    {
+     "type": "OTHER",
+     "name": "Global Initiative for Asthma (GINA) and Asthma Control Test (ACT) questionnaires"
+    },
+    {
+     "type": "DIAGNOSTIC_TEST",
+     "name": "Spirometry"
+    },
+    {
+     "type": "DIAGNOSTIC_TEST",
+     "name": "Fractional exhaled nitric oxide (FeNO) test"
+    },
+    {
+     "type": "DIAGNOSTIC_TEST",
+     "name": "Blood eosinophil count (BEC)"
+    }
+   ],
+   "sponsor": "Thammasat University",
+   "sponsor_class": "OTHER",
+   "start": "2026-01-01",
+   "primary_completion": "2026-10-31",
+   "updated": "2026-04-17",
+   "enrollment": 230,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Narongkorn Saiphoklang",
+     "city": "Pathum Thani",
+     "status": "RECRUITING"
+    }
+   ],
+   "countries": [
+    "Thailand"
+   ],
+   "summary": "The goal of this observational study is to determine the prevalence of remission among adults with severe asthma, as well as the factors associated with remission in Thailand.\n\nThe main question the study aims to answer is:\n\nWhat is the prevalence of remission among adults with severe asthma in Thailand? Participants will complete questionnaires on asthma symptoms and undergo pulmonary function testing and a blood test once.",
+   "url": "https://clinicaltrials.gov/study/NCT07328035"
+  },
+  {
+   "nct": "NCT03212404",
+   "title": "Phase 1 Study of CK-301 (Cosibelimab) as a Single Agent in Subjects With Advanced Cancers",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "phase": [
+    "PHASE1"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Lung Neoplasms",
+    "Carcinoma, Non-Small-Cell Lung",
+    "Carcinoma, Small Cell",
+    "Malignant Mesothelioma, Advanced",
+    "Head and Neck Cancer",
+    "Melanoma",
+    "Merkel Cell Carcinoma",
+    "Renal Cell Carcinoma",
+    "Urothelial Carcinoma",
+    "Classical Hodgkin Lymphoma",
+    "Cutaneous Squamous Cell Carcinoma",
+    "Non Hodgkin Lymphoma",
+    "Endometrial Cancer"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "CK-301 (cosibelimab)"
+    }
+   ],
+   "sponsor": "Checkpoint Therapeutics, Inc.",
+   "sponsor_class": "INDUSTRY",
+   "start": "2017-09-20",
+   "primary_completion": "2021-11-18",
+   "updated": "2025-02-03",
+   "enrollment": 272,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Research Site",
+     "city": "Hat Yai",
+     "status": ""
+    },
+    {
+     "facility": "Research Site",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Research Site",
+     "city": "Bangkok",
+     "status": ""
+    },
+    {
+     "facility": "Research Site",
+     "city": "Chiang Mai",
+     "status": ""
+    },
+    {
+     "facility": "Research Site",
+     "city": "Khon Kaen",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Australia",
+    "France",
+    "New Zealand",
+    "Poland",
+    "Russia",
+    "South Africa",
+    "Spain",
+    "Thailand",
+    "Ukraine"
+   ],
+   "summary": "CK-301 (cosibelimab) is a fully human monoclonal antibody of IgG1 subtype that directly binds to Programmed Death-Ligand 1 (PD-L1) and blocks its interactions with the Programmed Death-1 (PD-1) and B7.1 receptors. The primary objectives of this study are to assess the safety, tolerability and efficacy of CK-301 when administered intravenously as a single agent to subjects with selected recurrent or metastatic cancers.",
+   "url": "https://clinicaltrials.gov/study/NCT03212404"
+  },
+  {
+   "nct": "NCT07366450",
+   "title": "High-Dose vs Standard Ergocalciferol for Vitamin D Normalization in Aggressive Non-Hodgkin Lymphoma",
+   "status": "NOT_YET_RECRUITING",
+   "phase": [
+    "NA"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Vitamin D 25-Hydroxylase Deficiency",
+    "Lymphoma Non-Hodgkin"
+   ],
+   "interventions": [
+    {
+     "type": "DRUG",
+     "name": "High-Dose Loading Ergocalciferol"
+    },
+    {
+     "type": "DRUG",
+     "name": "Standard Weekly Ergocalciferol"
+    }
+   ],
+   "sponsor": "Phramongkutklao College of Medicine and Hospital",
+   "sponsor_class": "OTHER",
+   "start": "2026-02-01",
+   "primary_completion": "2028-12-31",
+   "updated": "2026-01-26",
+   "enrollment": 52,
+   "ages": [
+    "20 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "Phramonkutklao Hospital",
+     "city": "Bangkok",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Thailand"
+   ],
+   "summary": "The goal of this clinical trial is to evaluate whether a high-intensity loading dose of ergocalciferol (vitamin D2) can normalize blood vitamin D levels more rapidly and safely than standard weekly dosing in patients with newly diagnosed aggressive non-Hodgkin lymphoma. The study will also assess the safety of both dosing strategies.\n\nThe main questions it aims to answer are:\n\n* Does a high-intensity loading dose of ergocalciferol lead to faster normalization of serum 25-hydroxyvitamin D levels compared with standard weekly dosing?\n* Are there differences in safety and adverse events between the two dosing strategies?\n\nResearchers will compare a high-intensity loading dose regimen of ergocalciferol with a standard weekly dosing regimen to determine differences in vitamin D normalization and safety outcomes.\n\nParticipants will:\n\n* Be randomly assigned to receive either a high-intensity loading dose or a standard weekly dose of ergocalciferol (vitamin D2)\n* Receive standard first-line immunochemotherapy for aggressive non-Hodgkin lymphoma\n* Have blood tests to monitor vitamin D levels, calcium, phosphate, and safety parameters at scheduled visits\n* Be followed for treatment response,",
+   "url": "https://clinicaltrials.gov/study/NCT07366450"
+  },
+  {
+   "nct": "NCT07458659",
+   "title": "Clinical Study of BCMA-Targeted CAR T-Cell Injection in the Treatment of Patients With Relapsed/Refractory Multiple Myeloma",
+   "status": "NOT_YET_RECRUITING",
+   "phase": [
+    "EARLY_PHASE1"
+   ],
+   "type": "INTERVENTIONAL",
+   "conditions": [
+    "Relapsed/Refractory Multiple Myeloma (MM)"
+   ],
+   "interventions": [
+    {
+     "type": "BIOLOGICAL",
+     "name": "Chimeric Antigen Receptor T Cells (CAR-T)"
+    }
+   ],
+   "sponsor": "Chulalongkorn University",
+   "sponsor_class": "OTHER",
+   "start": "2026-06-01",
+   "primary_completion": "2028-06-01",
+   "updated": "2026-03-09",
+   "enrollment": 3,
+   "ages": [
+    "18 Years",
+    ""
+   ],
+   "sex": "ALL",
+   "healthy_ok": false,
+   "thai_sites": [
+    {
+     "facility": "King Chulalongkorn Memorial Hospital",
+     "city": "Bangkok",
+     "status": ""
+    }
+   ],
+   "countries": [
+    "Thailand"
+   ],
+   "summary": "A Phase 1b clinical trial to evaluate the safety and efficacy of BCMA-targeted CAR T-cell therapy in Thai patients with relapsed or refractory multiple myeloma.",
+   "url": "https://clinicaltrials.gov/study/NCT07458659"
+  }
+ ]
+}

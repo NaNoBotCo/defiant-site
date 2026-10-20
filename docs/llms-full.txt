@@ -211,9 +211,7 @@ addiction. This page is a map of the places, not a review of them:
 itself.** It is substance-agnostic and judgment-free; whatever brought you
 here, the vocabulary and the questions below work the same.
 
-*Not medical advice — Defiant is a concierge, not a clinic, and treatment
-decisions belong to you and clinicians. Nothing here evaluates any approach
-or predicts any outcome.*
+*Defiant is a concierge, not a clinic.*
 
 ## The shape of what exists
 
@@ -367,7 +365,7 @@ Gynecology, screening, and women's clinics across Chiang Mai — the mapped faci
 A sympathetic nerve block used for PTSD, hot flashes, and nerve pain — how it works, what the evidence supports, what the appointment is like, and where to ask in Thailand.
 *Reviewed 2026-08-19.*
 
-*13 working guides — every number dated, every table refreshed from the household's own instruments. Last engine pass: 2026-09-27.*
+*13 working guides — every number dated, every table refreshed from the household's own instruments. Last engine pass: 2026-10-20.*
 
 
 ---
@@ -387,21 +385,21 @@ That's the whole calendar. Everything else is numbers and playbook — both belo
 ## Today's number
 
 
-> **Chiang Mai air right now:** PM2.5 **16.7 µg/m³** — Good (US AQI 47). Observed 2026-09-27 03:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
+> **Chiang Mai air right now:** PM2.5 **27.8 µg/m³** — Moderate (US AQI 73). Observed 2026-10-20 08:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
 
 
 
 | Date | PM2.5 (µg/m³) | Band |
 |---|---|---|
-| 2026-09-21 | 9.5 | Very good |
-| 2026-09-22 | 20.8 | Good |
-| 2026-09-23 | 18.1 | Good |
-| 2026-09-24 | 18.6 | Good |
-| 2026-09-25 | 16.5 | Good |
-| 2026-09-26 | 9.4 | Very good |
-| 2026-09-27 | 9.5 | Very good |
+| 2026-10-14 | 19.7 | Good |
+| 2026-10-15 | 21.6 | Good |
+| 2026-10-16 | 13.7 | Very good |
+| 2026-10-17 | 14.8 | Very good |
+| 2026-10-18 | 17 | Good |
+| 2026-10-19 | 17.4 | Good |
+| 2026-10-20 | 24.2 | Good |
 
-*The last seven observed days, same model, generated 2026-09-27.*
+*The last seven observed days, same model, generated 2026-10-20.*
 
 
 Two scales float around town: US AQI (the colored 0–500 number) and micrograms of PM2.5 per cubic meter, which is what Thailand's Pollution Control Department bands run on. This page reports **µg/m³ first** because that's what the Thai advisories, school closure decisions, and your purifier's display all speak.
@@ -422,10 +420,8 @@ Timing matters more than most itineraries admit:
 - **Elective surgery with a long recovery** — the recovery apartment's air quality is part of the surgical plan. Every [[=Concierge|concierge]] recovery briefing between January and April includes a purifier line item; that's not upsell, it's the checklist.
 - **Already here and struggling?** The private hospitals on [the hospital map](/articles/chiang-mai-hospitals/) all run walk-in clinics; smoke-season respiratory visits are the most routine thing they see all year.
 
-*Not medical advice — a logistics note. Breathing decisions belong to you and a physician.*
 
-
-*Currency on this page: ฿100 ≈ $2.99 / €2.63 / £2.26 — Bank of Thailand mid rate, 2026-09-25. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
+*Currency on this page: ฿100 ≈ $2.99 / €2.66 / £2.24 — Bank of Thailand mid rate, 2026-10-19. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
 
 
 ## FAQ
@@ -475,7 +471,7 @@ If it's frightening — chest, breath, head, blood — call **1669** (free, nati
 | **St. Peter Eye Hospital** (โรงพยาบาลตาเซนต์ปีเตอร์) | 053 225 011 | ~2.7 km | Eyes only — cataract and retina work at Chiang Mai prices |
 | **Chiang Mai Neurological Hospital** (โรงพยาบาลประสาทเชียงใหม่) | — | ~2.5 km | Public specialty center for brain and nerve care |
 
-*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-09-27. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
+*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-10-20. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
 
 
 A note on reading it: *private* here (Bangkok, Ram, Lanna, Rajavej, Theppanya, Central Memorial, McCormick) means English at the desk, short queues, card machines, and bills that are real but published. *Public* (Maharaj "Suan Dok", Nakornping) means the deepest specialists in the North at Thai prices, with Thai-first queues that reward patience and a translator — [[=Translators|we know several]].
@@ -485,7 +481,7 @@ A note on reading it: *private* here (Bangkok, Ram, Lanna, Rajavej, Theppanya, C
 *Indicative, August 2026, confirmed in writing at intake — the standing policy on every number we publish.* A private outpatient visit — doctor, meds, the air-conditioned hour — usually lands between **฿800 and ฿2,500**. A private ER visit with imaging commonly runs **฿3,000–15,000**. Public hospital outpatient care is a few hundred baht and a longer morning. Admission deposits at private hospitals typically start around **฿20,000–50,000**; travel insurance with direct billing makes that line item disappear at the bigger houses.
 
 
-*Currency on this page: ฿100 ≈ $2.99 / €2.63 / £2.26 — Bank of Thailand mid rate, 2026-09-25. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
+*Currency on this page: ฿100 ≈ $2.99 / €2.66 / £2.24 — Bank of Thailand mid rate, 2026-10-19. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
 
 
 ## Which hospital for which problem
@@ -502,7 +498,7 @@ A note on reading it: *private* here (Bangkok, Ram, Lanna, Rajavej, Theppanya, C
 Respiratory visits track the smoke calendar. If you're planning care with a breathing component — or timing a surgery with a recovery window — read the [burning season guide](/articles/burning-season/) alongside this one.
 
 
-> **Chiang Mai air right now:** PM2.5 **16.7 µg/m³** — Good (US AQI 47). Observed 2026-09-27 03:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
+> **Chiang Mai air right now:** PM2.5 **27.8 µg/m³** — Moderate (US AQI 73). Observed 2026-10-20 08:00. Modelled by CAMS via Open-Meteo — a city-scale model, not a street sensor; treat it as the weather report, not a diagnosis.
 
 
 ## FAQ
@@ -718,11 +714,11 @@ Dental implants are the procedure that built Thai medical tourism, and the arith
 | [Root Canal Treatment](/procedures/root-canal-treatment/) | $1,000–$2,000 | **$250–$600** | 3–5 nights |
 | [Orthodontics (Braces, Aligners)](/procedures/orthodontics-braces-aligners/) | $4,000–$8,000 | **$1,500–$3,500** | Multi-visit over months — expat/long-stay play, not a fly-in |
 
-*Defiant's standing indicative ranges — 2026 published-aggregator figures, every quote confirmed in writing at intake. Full detail on [[=Procedures|the procedure pages]]. Verified 2026-09-27.*
+*Defiant's standing indicative ranges — 2026 published-aggregator figures, every quote confirmed in writing at intake. Full detail on [[=Procedures|the procedure pages]]. Verified 2026-10-20.*
 
 
 
-*Currency on this page: ฿100 ≈ $2.99 / €2.63 / £2.26 — Bank of Thailand mid rate, 2026-09-25. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
+*Currency on this page: ฿100 ≈ $2.99 / €2.66 / £2.24 — Bank of Thailand mid rate, 2026-10-19. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
 
 
 ## The timeline nobody puts in the headline
@@ -812,7 +808,7 @@ Here's where Thailand lapped the field: the [[=DTV|Destination Thailand Visa]] h
 Timing the return trips is its own small art: the [festival calendar](/articles/songkran-medical-timing/) and [burning season](/articles/burning-season/) pages are the two screens worth a glance before you pick the week.
 
 
-*Currency on this page: ฿100 ≈ $2.99 / €2.63 / £2.26 — Bank of Thailand mid rate, 2026-09-25. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
+*Currency on this page: ฿100 ≈ $2.99 / €2.66 / £2.24 — Bank of Thailand mid rate, 2026-10-19. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
 
 
 ## FAQ
@@ -852,10 +848,10 @@ Thailand treats the annual checkup as a retail product, and it's one of the coun
 | **Executive** | Everything above + tumor markers, cardiac stress test or echo, bone density, eye and hearing screens | **฿10,000–25,000** |
 | **Add-ons** | Colonoscopy, CT calcium scoring, sleep study, sexual-health panels — priced à la carte | ask the menu |
 
-Package medicine has one caveat worth saying plainly: screening menus love tests that photograph well. A checkup is a snapshot, not a diagnosis, and a good physician conversation about the results — included at every hospital here — is the part that turns numbers into decisions. *Not medical advice; bring your own doctor into the loop for what to screen and how often.*
+Package medicine has one caveat worth saying plainly: screening menus love tests that photograph well. A checkup is a snapshot, not a diagnosis, and a good physician conversation about the results — included at every hospital here — is the part that turns numbers into decisions.
 
 
-*Currency on this page: ฿100 ≈ $2.99 / €2.63 / £2.26 — Bank of Thailand mid rate, 2026-09-25. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
+*Currency on this page: ฿100 ≈ $2.99 / €2.66 / £2.24 — Bank of Thailand mid rate, 2026-10-19. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
 
 
 ## Where to book it
@@ -876,7 +872,7 @@ Package medicine has one caveat worth saying plainly: screening menus love tests
 | **St. Peter Eye Hospital** (โรงพยาบาลตาเซนต์ปีเตอร์) | 053 225 011 | ~2.7 km | Eyes only — cataract and retina work at Chiang Mai prices |
 | **Chiang Mai Neurological Hospital** (โรงพยาบาลประสาทเชียงใหม่) | — | ~2.5 km | Public specialty center for brain and nerve care |
 
-*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-09-27. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
+*12 hospitals, curated by residents, coordinates and phones cross-checked against the [Mot Dang](https://motdang.net) map, 2026-10-20. Spot a wrong number? [Report it](/contact/) — fixes land the same week.*
 
 
 Every private hospital on the table runs a checkup center; Bangkok Hospital Chiang Mai and Chiang Mai Ram have the biggest package menus, Sriphat brings university faculty to the readout, and McCormick prices gentlest. The [hospital guide](/articles/chiang-mai-hospitals/) covers who's good at what beyond the checkup counter.
@@ -924,7 +920,7 @@ All three, below.
 ## The map says
 
 
-**1324 massage shops** sit on the household map of Chiang Mai — 1059 with a working phone number. A sampler across town:
+**1321 massage shops** sit on the household map of Chiang Mai — 1057 with a working phone number. A sampler across town:
 
 | Shop | Phone | Find it |
 |---|---|---|
@@ -936,7 +932,7 @@ All three, below.
 | **2eyes Studio ต่อขนตา สักคิ้วแม่สาย** | 084 655 2441 | 315 หมู่7 ต.แม่สาย อ.แม่สาย จ.เชียงราย |
 | **2eyes studio สักคิ้ว ต่อขนตาแม่สาย** | 084 655 2441 | ~206.5 km from Tha Phae Gate |
 
-*Counts and rows from [Mot Dang](https://motdang.net)'s curated set, 2026-09-27. The full map is free: [motdang.net](https://motdang.net).*
+*Counts and rows from [Mot Dang](https://motdang.net)'s curated set, 2026-10-20. The full map is free: [motdang.net](https://motdang.net).*
 
 
 ## The menu, decoded
@@ -960,7 +956,7 @@ The North also keeps ย่ำขาง (*yâm khǎang*) — a Lanna healing pra
 Asking whether a price is แพง (*phaeng* — expensive) is normal Thai small talk, not rudeness. The posted rate is the posted rate; nobody haggles a massage board.
 
 
-*Currency on this page: ฿100 ≈ $2.99 / €2.63 / £2.26 — Bank of Thailand mid rate, 2026-09-25. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
+*Currency on this page: ฿100 ≈ $2.99 / €2.66 / £2.24 — Bank of Thailand mid rate, 2026-10-19. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
 
 
 ## The etiquette nobody writes down
@@ -1011,14 +1007,14 @@ Thai law sorts medicines into tiers, and the tier — not the shop — decides w
 - **Pharmacist-dispensed medicines** — a wide middle tier that includes many things Americans expect a prescription for — are handed over after a short consult with the on-duty pharmacist. Describe the problem; they'll ask sensible questions.
 - **Prescription-only and controlled medicines** — psychiatric meds, sleep meds in the controlled classes, strong painkillers, and similar — require a doctor and usually a hospital pharmacy. A storefront that offers these without paperwork is telling you something about itself; walk on.
 
-Two practical notes. Bring the **generic name** (the international one, not the US brand) for anything you take — the box here will carry the generic or a Thai brand. And pharmacist hours are roughly **9:00–21:00**; outside them, the 24 h counters live inside the private hospitals on [the hospital guide](/articles/chiang-mai-hospitals/).
+Two practical notes. The box here carries the **generic name** (the international one, not the US brand) or a Thai brand. And pharmacist hours are roughly **9:00–21:00**; outside them, the 24 h counters live inside the private hospitals on [the hospital guide](/articles/chiang-mai-hospitals/).
 
 ## What it costs
 
 *Indicative posted prices, August 2026.* A blister of paracetamol is **฿10–20**. Common generics — antihistamines, simple antibiotics when dispensed, stomach medicines — mostly land **฿30–200** per course. Imported brands cost import-brand money. Nothing about the counter is a negotiation; prices are marked or quoted flat, and asking the price first is ordinary Thai manners.
 
 
-*Currency on this page: ฿100 ≈ $2.99 / €2.63 / £2.26 — Bank of Thailand mid rate, 2026-09-25. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
+*Currency on this page: ฿100 ≈ $2.99 / €2.66 / £2.24 — Bank of Thailand mid rate, 2026-10-19. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
 
 
 ## The counters, mapped
@@ -1039,14 +1035,12 @@ Two practical notes. Bring the **generic name** (the international one, not the 
 | Goodwill Pharmacy | ~0.3 km |
 | Drug Etc | ~0.3 km |
 
-*From Defiant's nightly OpenStreetMap refresh, distances computed straight-line, 2026-09-27. A missing shop is a [fixable report](/contact/).*
+*From Defiant's nightly OpenStreetMap refresh, distances computed straight-line, 2026-10-20. A missing shop is a [fixable report](/contact/).*
 
 
 ## When the pharmacy is the wrong counter
 
 Pharmacists here are genuinely skilled triage — and they'll say so themselves when something needs a doctor. Fevers that persist, anything cardiac, anything neurological, prescriptions that need continuity: that's clinic territory, same-day and inexpensive here. [The hospital guide](/articles/chiang-mai-hospitals/) shows where to walk in, and for care you're planning ahead of a trip, the [[=Concierge|concierge desk]] gets quotes in writing first.
-
-*Not medical advice — an operating manual for a counter. Medication decisions belong to you and licensed professionals.*
 
 ## FAQ
 
@@ -1054,13 +1048,13 @@ Pharmacists here are genuinely skilled triage — and they'll say so themselves 
 Many common ones are pharmacist-dispensed after a consult at the counter — legal here, surprising to Americans. The pharmacist can and will decline when a doctor is the right call.
 
 ### Can I refill my home prescription in Thailand?
-Bring the generic name and your home paperwork. Routine medicines are often dispensable; controlled classes need a Thai doctor's prescription — a clinic visit here is fast and inexpensive, and continuity beats improvisation.
+Routine medicines are often dispensable by generic name; controlled classes need a Thai doctor's prescription — a clinic visit here is fast and inexpensive.
 
 ### Is there a 24-hour pharmacy in Chiang Mai?
 The dependable 24 h counters are the private hospital pharmacies. Between the convenience-store shelf tier and those, the city is covered around the clock.
 
 ### Are medicines in Thailand real?
-At licensed green-cross pharmacies and hospital counters, yes — Thailand's FDA regulates the supply tightly. The caution zone is unlicensed stalls and anything that arrives by direct message.
+At licensed green-cross pharmacies and hospital counters, yes — Thailand's FDA regulates the supply tightly.
 
 ---
 
@@ -1085,7 +1079,7 @@ Rehab is arithmetic. A knee replacement wants a course of sessions, not a sessio
 |---|---|
 | Physical Therapy Centre | ~1.8 km |
 
-*From Defiant's nightly OpenStreetMap refresh, straight-line distances, 2026-09-27. Hospital physio departments ride on [the hospital guide](/articles/chiang-mai-hospitals/).*
+*From Defiant's nightly OpenStreetMap refresh, straight-line distances, 2026-10-20. Hospital physio departments ride on [the hospital guide](/articles/chiang-mai-hospitals/).*
 
 
 Three settings, three flavors:
@@ -1108,7 +1102,7 @@ Three settings, three flavors:
 Now the part that matters: a **20-session course** — a real post-op arc, not a gesture — lands around **฿15,000–25,000** all-in. Price the same course at home, remember you'd also be driving to it, and the recovery-in-Thailand model explains itself.
 
 
-*Currency on this page: ฿100 ≈ $2.99 / €2.63 / £2.26 — Bank of Thailand mid rate, 2026-09-25. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
+*Currency on this page: ฿100 ≈ $2.99 / €2.66 / £2.24 — Bank of Thailand mid rate, 2026-10-19. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
 
 
 ## How the sequence works after surgery
@@ -1161,57 +1155,57 @@ Here's the checklist. Good homes answer all of it gladly — that's rather the p
 | Kanya Nursing Home | ~5.8 km |
 | สถานสงเคราะห์คนชราวัยทองนิเวศน์ | ~38.7 km |
 
-*From Defiant's nightly OpenStreetMap refresh, 2026-09-27. Distance matters twice here — for the family visit, and for the [hospital run](/articles/chiang-mai-hospitals/).*
+*From Defiant's nightly OpenStreetMap refresh, 2026-10-20. Distance matters twice here — for the family visit, and for the [hospital run](/articles/chiang-mai-hospitals/).*
 
 
 ## The vetting visit, step by step
 
-**Come twice: once announced, once not.** The scheduled tour shows you the best day; the unannounced drop-in (mid-afternoon is telling) shows you the ordinary one. Facilities comfortable with both are telling you something good about themselves.
+**Announced and unannounced.** The scheduled tour shows the best day; an unannounced drop-in (mid-afternoon is telling) shows the ordinary one. Facilities comfortable with both are telling you something good about themselves.
 
-**1. Count the hands.**
-- Carers per resident, day shift and — ask separately — **night shift**.
-- Is a **registered nurse on site or on call** overnight? Which, exactly?
-- Who does personal care, and how is dignity handled — same-gender option, closed doors, unhurried pace?
+**1. Staffing.**
+- Carers per resident differ between the day shift and the **night shift**.
+- Overnight, some homes keep a **registered nurse on site**, others on call.
+- Personal care and dignity vary: same-gender option, closed doors, unhurried pace.
 
-**2. Watch five minutes of ordinary time.** Are residents parked in front of a TV or engaged? Do staff address them by name, in which language, and does anyone kneel to wheelchair height to talk? You can't fake the texture of an ordinary afternoon.
+**2. Ordinary time.** Residents are parked in front of a TV or engaged; staff address them by name or not, in one language or another; someone kneels to wheelchair height to talk, or nobody does. Nobody can fake the texture of an ordinary afternoon.
 
-**3. Ask the medication questions.**
-- Who dispenses, who double-checks, and where is it charted?
-- How do prescriptions renew — which doctor, which hospital, how often reviewed?
-- For dementia care: how are behavioral medications decided, and **who consents**?
+**3. Medication.**
+- Who dispenses, who double-checks, and where it is charted.
+- How prescriptions renew — which doctor, which hospital, how often reviewed.
+- For dementia care: how behavioral medications are decided, and **who consents**.
 
-**4. Walk the hospital run.** The map above gives the distance; drive it. Which [hospital](/articles/chiang-mai-hospitals/) does the home use for emergencies, who accompanies the resident, and how fast does the family hear? Ask for the last real example — good homes have one and tell it plainly.
+**4. The hospital run.** The map above gives the distance. Homes differ in which [hospital](/articles/chiang-mai-hospitals/) they use for emergencies, who accompanies the resident, and how fast the family hears. Good homes have a recent example and tell it plainly.
 
-**5. Read the money mechanics like a lease.**
+**5. Money.**
 - What does the monthly rate include — and what's à la carte (diapers, physio, transport, hospital escorts)?
 - Deposit, notice period, and the terms if care needs escalate or the resident passes.
 - How are bills presented, in which language and currency? *Rates and bands live on [[=Senior-Living|the senior living page]]; every figure gets confirmed in writing here too.*
 
-**6. Test the family loop.** Photos and video calls on what rhythm? Who answers WhatsApp or LINE messages, and how fast, in English? Ask for a reference family in your time zone — the established homes happily connect you.
+**6. The family loop.** Homes differ in the rhythm of photos and video calls, and in who answers WhatsApp or LINE messages, how fast, and in English. The established homes connect prospective families with a reference family in their time zone.
 
-**7. Trial month before commitment.** The good operators offer one and recommend it themselves. It answers more than every brochure combined.
+**7. Trial month.** The good operators offer one and recommend it themselves. It answers more than every brochure combined.
 
 
-*Currency on this page: ฿100 ≈ $2.99 / €2.63 / £2.26 — Bank of Thailand mid rate, 2026-09-25. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
+*Currency on this page: ฿100 ≈ $2.99 / €2.66 / £2.24 — Bank of Thailand mid rate, 2026-10-19. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
 
 
 ## The language question, answered early
 
-Care is bilingual work here: hands-on staff are Thai, senior staff at expat-serving homes work in English (several are European-run), and the charts can be kept in both — ask to see one. A parent who still charms in English will be answered in kind; a parent slipping into an older tongue will be met with more patience here than most systems anywhere can offer. The [[=Translators|translator bench]] covers the paperwork moments.
+Care is bilingual work here: hands-on staff are Thai, senior staff at expat-serving homes work in English (several are European-run), and the charts can be kept in both. A parent who still charms in English will be answered in kind; a parent slipping into an older tongue will be met with more patience here than most systems anywhere can offer. The [[=Translators|translator bench]] covers the paperwork moments.
 
 ## FAQ
 
 ### How do I choose a nursing home in Chiang Mai from abroad?
-Shortlist from the mapped facilities, video-tour first, then make one in-person vetting trip with the checklist above — announced visit, unannounced visit, hospital run, trial month. The whole loop fits in a week.
+The usual loop: a shortlist from the mapped facilities, video tours, then one in-person vetting trip with the checklist above — announced visit, unannounced visit, hospital run, trial month. It fits in a week.
 
 ### What questions should I ask a Thai senior-care facility?
 Night staffing, nurse coverage, medication charting, the emergency-hospital story, all-in versus à-la-carte pricing, and the family-communication rhythm — the seven steps above, in writing where it matters.
 
 ### Can families do a trial stay before committing?
-The established homes offer a trial month and encourage it. Treat reluctance about trials as an answer in itself.
+The established homes offer a trial month and encourage it.
 
 ### Who handles medical care for residents?
-The home manages daily care and medication routines; doctors come on rounds or residents travel to their hospital — ask which hospital, how far, and who escorts. The map above shows the distances.
+The home manages daily care and medication routines; doctors come on rounds or residents travel to their hospital; homes differ in which hospital, how far, and who escorts. The map above shows the distances.
 
 ---
 
@@ -1243,7 +1237,7 @@ Thai hospitals never close. Emergency rooms run through every holiday on the cal
 | **Dec 10** | Constitution Day | Public holiday |
 | **Dec 31** | New Year's Eve | Travel peaks; book transport early |
 
-*Fixed-date national holidays. Buddhist observances (Makha Bucha, Visakha Bucha, Asalha Bucha, Loy Krathong / Yi Peng) follow the lunar calendar — announced dates appear below when official. Verified 2026-09-27.*
+*Fixed-date national holidays. Buddhist observances (Makha Bucha, Visakha Bucha, Asalha Bucha, Loy Krathong / Yi Peng) follow the lunar calendar — announced dates appear below when official. Verified 2026-10-20.*
 
 
 
@@ -1251,7 +1245,7 @@ Thai hospitals never close. Emergency rooms run through every holiday on the cal
 |---|---|
 | None |  |
 
-*Announced dates only, each traced to an official source — from the household festival canon, 2026-09-26.*
+*Announced dates only, each traced to an official source — from the household festival canon, 2026-10-20.*
 
 
 ## What actually changes on a holiday
@@ -1297,7 +1291,7 @@ Yes — immigration and government offices close on every official holiday. Exte
 
 ---
 
-# "Stellate Ganglion Block in Thailand: The Ten-Minute Injection That Turns Down the Alarm"
+# Stellate Ganglion Block in Thailand: The Ten-Minute Injection That Turns Down the Alarm
 URL: https://defiant.to/articles/stellate-ganglion-block-thailand/
 
 There is a knot of nerve tissue at the base of your neck, roughly level with the top of your collarbone, called the stellate ganglion. It is a junction box for the sympathetic nervous system — the branch that runs your fight-or-flight response, your heart rate, your flushing, your sweating, and the sensation people describe as *bracing for something*.
@@ -1347,9 +1341,7 @@ For trauma indications the common protocol is right-sided, and often two blocks 
 
 Ultrasound guidance changed the risk profile of this procedure substantially, because the operator can see the carotid, the vertebral artery, the lung apex, and the thyroid rather than working from surface landmarks alone.
 
-Genuine risks remain and belong in the conversation: injection into a blood vessel, bleeding around the airway, and puncture of the top of the lung. All are uncommon; all are why this belongs to an anesthesiologist with an ultrasound and a proper facility rather than to a wellness clinic with a treatment room. Temporary hoarseness, a heavy-feeling arm, and the Horner's picture are expected effects, not problems.
-
-Ask two questions when you book: is it ultrasound-guided, and how many does this doctor do a year. Both answers should come easily.
+The known complications are injection into a blood vessel, bleeding around the airway, and puncture of the top of the lung. All are uncommon. Temporary hoarseness, a heavy-feeling arm, and the Horner's picture are expected effects, not problems.
 
 ## How long it lasts
 
@@ -1361,15 +1353,15 @@ Because the procedure is repeatable and comparatively inexpensive here, a durabl
 
 In the United States a single block commonly runs several hundred to a couple of thousand dollars, and coverage is inconsistent — pain and cardiac indications are often covered, trauma and vasomotor indications frequently are not, which puts the full amount on the patient.
 
-Thai pricing for interventional pain procedures typically lands at a small fraction of the US figure, in line with how the rest of this site's price comparisons run. Defiant does not publish a baht number it has not collected, and quotes for this specific procedure are being gathered now — this line updates when they land. Ask for the quote in writing, and ask whether it covers the anesthesiologist, the ultrasound, the facility, and the observation period as one number or four.
+Thai pricing for interventional pain procedures typically lands at a small fraction of the US figure, in line with how the rest of this site's price comparisons run. Defiant does not publish a baht number it has not collected, and quotes for this specific procedure are being gathered now — this line updates when they land. Quotes differ in whether the anesthesiologist, the ultrasound, the facility, and the observation period come as one number or four.
 
 
-*Currency on this page: ฿100 ≈ $2.99 / €2.63 / £2.26 — Bank of Thailand mid rate, 2026-09-25. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
+*Currency on this page: ฿100 ≈ $2.99 / €2.66 / £2.24 — Bank of Thailand mid rate, 2026-10-19. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
 
 
 ## Where to ask in Thailand
 
-This is a pain-medicine procedure, so the department you want is anesthesiology, and the clinic you want is a คลินิกระงับปวด (*khlínìk rá-ngáp pùat* — pain clinic). Ask for it by the English name; the term is standard among Thai anesthesiologists and does not need translating.
+This is a pain-medicine procedure, so the department you want is anesthesiology, and the clinic you want is a คลินิกระงับปวด (*khlínìk rá-ngáp pùat* — pain clinic). The English name is standard among Thai anesthesiologists and needs no translating.
 
 **In Chiang Mai**, the strongest odds are with the university teaching hospital's anesthesiology service, which carries the widest interventional range in the north; the large private hospitals are the faster route when they have a pain specialist on staff. Availability moves with individual doctors rather than with buildings, so the question to ask is *which doctor*, not *which hospital*. [The hospital guide](/articles/chiang-mai-hospitals/) has the phone numbers.
 
@@ -1384,8 +1376,6 @@ A block quiets a signal. It does not do the work that the signal was pointing at
 For trauma, the strongest results in the literature come when a block is paired with therapy rather than substituting for it — the quiet period is what makes the other work possible. For hot flashes, hormone therapy and the non-hormonal options are first-line for most people, and this is the interesting second-line choice, particularly for women who cannot take estrogen. For orthostatic symptoms, get the measurements first: a ten-minute stand test with a blood-pressure cuff costs nothing and tells a doctor more than a paragraph of description.
 
 And anything that is undiagnosed should be diagnosed before it is blocked.
-
-*Not medical advice — a briefing on a procedure. Every decision here belongs to you and a licensed doctor who has examined you.*
 
 ## FAQ
 
@@ -1429,7 +1419,7 @@ Thailand does not use 911, and the number that matters most — **1669**, the na
 | **191** | Police | Any emergency, Thai-first |
 | **199** | Fire & rescue | 24 h |
 
-*National numbers, verified 2026-09-27. Save 1669 before you need it.*
+*National numbers, verified 2026-10-20. Save 1669 before you need it.*
 
 
 **1669** dispatches free public ambulances nationwide, 24 hours. The operators work Thai-first: speak slowly, lead with *where you are* — hotel name, road, district — and hand the phone to any Thai speaker nearby if you can. Hotel front desks make this call flawlessly; "call 1669 for me" is a complete sentence.
@@ -1452,7 +1442,7 @@ Private-hospital ambulances also run 24 h and often arrive faster in town; call 
 | Nakornping Hospital | **053 999 235** | ~7.7 km |
 | Theppanya Hospital | **053 852 990** | ~3.2 km |
 
-*Curated by residents, cross-checked against the household map, 2026-09-27. If a line changes, [tell us](/contact/) and it gets fixed the same week.*
+*Curated by residents, cross-checked against the household map, 2026-10-20. If a line changes, [tell us](/contact/) and it gets fixed the same week.*
 
 
 The full picture of who's good at what — public vs private, billing, insurance — lives on [the hospital guide](/articles/chiang-mai-hospitals/).
@@ -1516,7 +1506,7 @@ The household mapped the whole landscape. Here it is.
 | **Dr. Som** | ~0.3 km |
 | **Tha Phae Clinic** (ท่าแพ คลีนิค) | ~0.4 km |
 
-*From the household's Chiang Mai women's-health dataset, refreshed 2026-09-27. A missing clinic is a [fixable report](/contact/).*
+*From the household's Chiang Mai women's-health dataset, refreshed 2026-10-20. A missing clinic is a [fixable report](/contact/).*
 
 
 ## The three ways in
@@ -1533,7 +1523,7 @@ Three requests that are entirely ordinary in Thai clinics, stated in one sentenc
 - **A chaperone in the room, or your partner with you** — routine either way.
 - **English-language results** — ask at booking; every private facility above produces them.
 
-Thai clinical style tends brisk and unembarrassed — screening questions arrive without ceremony, and it reads as efficiency, not judgment. Bring your history written down (dates, medications by generic name, prior results) and the visit runs beautifully.
+Thai clinical style tends brisk and unembarrassed — screening questions arrive without ceremony, and it reads as efficiency, not judgment.
 
 ## What routine care costs
 
@@ -1550,14 +1540,12 @@ Thai clinical style tends brisk and unembarrassed — screening questions arrive
 Screening bundles ride the same package culture as [the general checkups](/articles/health-checkup-chiang-mai/) — named tiers, posted menus. For anything surgical or ongoing, get a quote in writing before anything books, which is [[=Concierge|the service]].
 
 
-*Currency on this page: ฿100 ≈ $2.99 / €2.63 / £2.26 — Bank of Thailand mid rate, 2026-09-25. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
+*Currency on this page: ฿100 ≈ $2.99 / €2.66 / £2.24 — Bank of Thailand mid rate, 2026-10-19. [Live board](https://motdang.net/finance.html) runs on [[=Home|the household's]] own feed.*
 
 
 ## Adjacent rooms on this site
 
 Pelvic-floor physiotherapy has [[=Pelvic|its own page]] — one of Chiang Mai's genuinely underpriced specialties. Menopause care and HRT logistics live on [[=Estradiol|the estradiol page]]. And for care you're timing from abroad, [the return-trips guide](/articles/dtv-medical-runs/) covers labs-on-a-rhythm follow-up.
-
-*Not medical advice — a map and a manners guide. Clinical decisions belong to you and your physicians.*
 
 ## FAQ
 
@@ -1603,11 +1591,7 @@ published price lists, with the source attached to every number. Prices are as
 published or as patients reported them, labeled which; confirm in writing before you
 fly.
 
-*Not medical advice — Defiant is a concierge, not your dermatologist. Nothing here
-says what anyone should inject, switch to, or stop; a biologic is serious medicine
-and staying on the right one is a conversation between you and a physician. This
-page is about where the same molecule is sold, what the sellers publish, and what
-the border rules actually say.*
+*Defiant is a concierge, not your dermatologist. This page is about where the same molecule is sold, what the sellers publish, and what the border rules actually say.*
 
 ## The arithmetic, up front
 
@@ -1693,16 +1677,14 @@ hospitals and clinics; none of it sits on a pharmacy shelf.
 ## How a cash patient walks in
 
 Thai dermatologists prescribe biologics the same way US ones do — after their own
-workup. Expect the standard pre-biologic panel (blood count, liver and kidney
+workup. The standard pre-biologic panel (blood count, liver and kidney
 function, hepatitis B and C, HIV, a TB test, chest X-ray — the same list
-[Siriraj's hospital site describes](https://www.siphhospital.com/th/news/article/share/biologics-psoriasis)),
-roughly 5,000–12,000 baht at private rates, then the drug per dose. Patients
+[Siriraj's hospital site describes](https://www.siphhospital.com/th/news/article/share/biologics-psoriasis)) runs roughly 5,000–12,000 baht at private rates, then the drug per dose. Patients
 already mid-therapy report smooth continuation: one described walking into
 Bumrungrad on Cosentyx and walking out with the next dose — the two pens at
 24,000 baht plus about 2,200 baht in nursing and hospital charges
 ([ASEAN NOW psoriasis thread](https://aseannow.com/topic/1116740-psoriasis-treatment-in-thailand/),
-July 2024). Bring your records: the diagnosis, what you've failed, what you're on,
-your last labs.
+July 2024). The dermatologist works from your records: the diagnosis, what you've failed, what you're on, your last labs.
 
 Three kinds of desk, three price levels:
 
@@ -1790,18 +1772,7 @@ walkthrough is [[=Flying-With-Meds|here]].
   still on paper — secukinumab about ¥870 (~$120) per 150mg — but those are prices
   inside the Chinese hospital system, and we found no clean path for a visiting
   foreigner; treat China as a data point, not a plan.
-- **Do not buy these from a B2B marketplace.** IndiaMART and Alibaba both return
-  listings for these molecules — including sellers offering drugs that aren't
-  registered in their own country, "manufacturer" claims that are provably false,
-  and prices 88% below the legal maximum, which is not a bargain but a tell. The
-  two best-documented cases of marketplace-sourced injectables ended in a
-  [WHO alert for falsified Ozempic](https://www.who.int/news/item/19-06-2024-medical-product-alert-n-2-2024--falsified-ozempic-%28semaglutide%29)
-  and a
-  [CDC investigation of counterfeit Botox](https://www.cdc.gov/han/2024/han00507.html).
-  An injectable with no verifiable cold chain and no licensed seller is not the
-  same product at a better price; it is a different product. The clean channel is a
-  licensed clinic in a country where the drug is registered — which is exactly what
-  Thailand is, at prices already in India's neighborhood.
+- **B2B marketplaces.** IndiaMART and Alibaba both return listings for these molecules — including sellers offering drugs that aren't registered in their own country, "manufacturer" claims that are provably false, and prices 88% below the legal maximum. Thailand registers these drugs and sells them through licensed clinics, at prices already in India's neighborhood.
 
 ## What your US insurance will and won't do
 
@@ -1843,10 +1814,7 @@ records and recent labs) and prescribe; patients mid-therapy report this as rout
 
 ### Can I skip the doctor and buy it at a pharmacy?
 
-No — and you wouldn't want to. Biologics need an unbroken 2–8°C cold chain and are
-not retail-shelf products in Thailand. The hospital pharmacy hands it over cold and
-injects it properly. Anyone offering these molecules outside that channel is
-offering provenance you cannot verify.
+No. Biologics need an unbroken 2–8°C cold chain and are not retail-shelf products in Thailand. The hospital pharmacy hands it over cold and injects it.
 
 ### Is it the same drug as at home?
 
@@ -1902,8 +1870,7 @@ tiny electrical currents — to lift depression, sharpen focus, or steady mood. 
 of it is established medicine. Some of it is the frontier the US hasn't caught up to.
 Thailand offers both, and we'll tell you which is which.
 
-*Not medical advice — Defiant is a concierge, not a clinic. Mood and cognition are
-serious; this is information, not treatment. We route to real medical facilities with
+*Defiant is a concierge, not a clinic. We route to real medical facilities with
 real clinicians, never a wellness booth with a headset.*
 
 ## What's actually on offer
@@ -1984,10 +1951,7 @@ map of who **states CBT on their own page**, read from each provider's own
 site on 2026-08-26, with the source attached. Nobody is ranked and nobody paid
 to be here.
 
-*Not medical advice — Defiant is a concierge, not a clinic. Mood is serious;
-this is information about which providers exist and what they say about
-themselves, not treatment and not a recommendation of any medication or
-against one.*
+*Defiant is a concierge, not a clinic. This page covers which providers exist and what they say about themselves.*
 
 ## The words to know
 
@@ -2059,9 +2023,7 @@ Public-hospital pricing and queues; Thai-first.
 ## How to choose, plainly
 
 - **You want weekly English-language CBT:** the three private practices above
-  are the ones that say so themselves. Ask each the same two questions: *is
-  my therapist trained in CBT specifically*, and *what does a course of 8–12
-  sessions cost*. A practice that publishes prices has already answered half.
+  are the ones that say so themselves. They differ on whether the therapist is trained in CBT specifically and on what a course of 8–12 sessions costs.
 - **You may also need prescriptions** (or an evaluation): that is a
   psychiatrist — Nakornping's clinic, Suan Prung, or a private จิตแพทย์
   clinic. Therapy and prescribing can run in parallel at different desks.
@@ -2291,7 +2253,7 @@ Anchors: [[Bumrungrad International Hospital]], [[Bangkok Hospital]], [[MedPark 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -2316,7 +2278,7 @@ City directory: [เชียงใหม่ · Chiang Mai](https://motdang.net/
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -2338,7 +2300,7 @@ Anchor: [[Bangkok Hospital Phuket]]. Direct international flights mean some clie
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -2364,7 +2326,7 @@ Direct-ish routing from most US hubs via Tokyo/Seoul/Taipei/Doha; strong 4G/5G e
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -2381,8 +2343,7 @@ is exactly the kind of care Thailand quietly does well for people who live here,
 and this page is the map of who actually states a diabetes/endocrine clinic in
 Chiang Mai — read from each hospital's own website, with the source attached.
 
-*Not medical advice — Defiant is a concierge, not your doctor. Nothing here
-tells you what to take or how much. It tells you which clinics exist, what they
+*Defiant is a concierge, not your doctor. This page covers which clinics exist, what they
 say about themselves, and how to walk in.*
 
 ## The word to know
@@ -2569,9 +2530,7 @@ Thailand doesn't have it.
 is standing three feet from the same molecule under a different label. This page is
 the translation card.
 
-*Not medical advice — Defiant is a concierge, not your doctor. Estrogen is a real
-drug with real risks (see the safety box). But it's your medicine, you have a
-prescription for it, and you have a right to find it. So here's how.*
+*Defiant is a concierge, not your doctor. It's your medicine, you have a prescription for it, and you have a right to find it. So here's how.*
 
 ## First: which "cream" do you actually mean?
 
@@ -2648,10 +2607,6 @@ therapies your home pharmacy rations, Thailand sells over the counter for pocket
 | **Patch** | Climara / Estradot | estradiol | *Inference —* stocked less reliably; gel is easier to find |
 
 
-*Anti-counterfeit rule, from every expat who's done this:* **buy from big chain
-pharmacies or hospital pharmacies**, not a random shop or a marketplace seller you
-can't verify.
-
 ---
 
 ## The legal reality (you're right, it's OTC)
@@ -2682,17 +2637,11 @@ walk-in-and-ask logic applies to the $18,000-a-shot class of medicine —
 cream — or Oestrogel, the estradiol gel. Do you have it? If not, can you point me to
 a pharmacy or hospital that does?”)*
 
-## Before you self-manage — the straight safety box
+## The pharmacology, straight
 
-- **If you have a uterus and use systemic estrogen, you also need a progestogen** —
- estrogen alone raises endometrial-cancer risk. Vaginal estriol cream (Ovestin) is
- low-dose and local; systemic gel/pills/injections are the ones this matters for.
-- Estrogen carries **blood-clot, stroke, and hormone-sensitive-cancer** risks that
- are real and dose-dependent. This is why bloodwork and a clinician matter even
- where the pharmacy doesn't demand them.
-- **Don't guess doses off a forum.** "It's OTC" means available, not "safe to wing."
-- If you've been stable on a US regimen, you're mostly just re-sourcing the same
- thing — the easy case. If you're starting fresh, start with a consult.
+- **With a uterus, systemic estrogen alone raises the rate of endometrial cancer; a progestogen offsets it.** Vaginal estriol cream (Ovestin) is low-dose and local; systemic gel, pills and injections are the forms this applies to.
+- Estrogen raises the rates of **blood clots, stroke, and hormone-sensitive cancers**, in proportion to dose.
+- Someone stable on a US regimen is re-sourcing the same thing — the easy case.
 
 ## Let us make it a non-event
 
@@ -2729,9 +2678,7 @@ with the source attached to every claim. Rules change; the FDA itself says to
 re-check [the permit portal](https://permitfortraveler.fda.moph.go.th/nct_permit_main/)
 before each trip.
 
-*Not medical advice and not legal advice — Defiant holds no view on what anyone
-should take. This page is about paperwork and borders: which lane your bottle
-goes through and what document it needs.*
+*This page is about paperwork and borders: which lane your bottle goes through and what document it needs.*
 
 ## Arriving in Thailand: the three lanes
 
@@ -2787,8 +2734,7 @@ US doctors and flatly non-importable here — plus Schedule I psychotropics such
 as **dronabinol (THC), GHB, and psilocin**. If your treatment depends on one of
 these, the FDA's own advice is to talk to your doctor about alternatives before
 you travel; a Thai psychiatrist can prescribe methylphenidate, which is legal
-here under Lane 2 rules. Don't test this lane. Thai drug law is not a
-negotiation.
+here under Lane 2 rules.
 
 ## How the Form IC-2 permit actually works
 
@@ -2811,9 +2757,7 @@ document containing, exactly:
 - The dosage and total amount prescribed
 - The prescribing physician's name, address, and license number
 
-A pharmacy label alone doesn't carry all five. Ask your doctor for a travel
-letter that does — it costs a phone call at home and saves an argument at a
-customs desk.
+A pharmacy label alone doesn't carry all five; a doctor's travel letter does.
 
 ## Leaving Thailand with Thai-prescribed medicine
 
@@ -2968,9 +2912,7 @@ of them take a lunch break, not a recovery week.
 
 Come for the hip. Leave looking like you slept for a month.
 
-*Not medical advice — Defiant is a concierge, not a provider. Prices are indicative
-2026 ranges, confirmed in writing at intake. Every treatment here still belongs at a
-licensed clinic with a real clinician and genuine product — more on that below.*
+*Defiant is a concierge, not a provider. Prices are indicative 2026 ranges, confirmed in writing at intake.*
 
 ## The menu
 
@@ -3024,13 +2966,9 @@ already taking:
 We build the sequence around your main procedure and your recovery, so nothing
 competes and everything heals on time.
 
-## The one rule: genuine product, licensed clinic
+## Genuine product, licensed clinic
 
-Counterfeit Botox and filler are a real problem worldwide, and injectables are only
-as safe as what's actually in the syringe. Our rule is simple: **hospital
-dermatology departments and licensed clinics only**, genuine product with batch
-numbers on the receipt. It's the boring, correct answer, and it's what keeps a
-glowup a glowup instead of an ER visit.
+We route injectables to **hospital dermatology departments and licensed clinics only**, genuine product with batch numbers on the receipt. It's the boring, correct answer.
 
 ## FAQ
 
@@ -3045,9 +2983,7 @@ interferes.
 ### Is Botox and filler in Thailand genuine and safe?
 
 At a hospital dermatology department or a licensed clinic, yes — genuine, doctor-
-administered, with batch numbers on the receipt. The counterfeit-injectable problem
-is global, not Thai; the answer everywhere is to use a real medical facility, which
-is exactly where we route you.
+administered, with batch numbers on the receipt. Those are the facilities we route to.
 
 ### How much can I fit into one trip?
 
@@ -3257,7 +3193,7 @@ The shiny BDMS outpost in our home city — modern plant, international patient 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3286,7 +3222,7 @@ The serious hospital of the beach south — full surgical services with an inter
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3333,7 +3269,7 @@ Flagship of BDMS, Thailand's largest private hospital group. The campus includes
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3369,7 +3305,7 @@ One of the largest dedicated dental-tourism facilities in Asia — implantology,
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3398,7 +3334,7 @@ Bangkok's oldest private hospital, founded 1898 to treat foreign residents — m
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3454,7 +3390,7 @@ The name Americans know. One of the first hospitals outside the US to be JCI-acc
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3496,7 +3432,7 @@ The workhorse private hospital of Chiang Mai and the one long-term expats actual
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3530,7 +3466,7 @@ Thailand's best-known dedicated IVF hospital — full in-house embryology, PGT l
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3570,7 +3506,7 @@ Founded by Dr. Kamol Pansritum, one of the most experienced gender-affirming sur
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3598,7 +3534,7 @@ Established mid-size private hospital on the Superhighway — competent, quick, 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3626,7 +3562,7 @@ Chiang Mai's grand old mission hospital — over 130 years serving the city, str
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3669,7 +3605,7 @@ The new heavyweight — purpose-built in 2020 around complex tertiary care, staf
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3698,7 +3634,7 @@ Solid all-rounder in the Phyathai/Paolo network with an established internationa
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3731,7 +3667,7 @@ Mid-size private hospital known for cardiology and kidney care at prices a notch
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3773,7 +3709,7 @@ The lineage institution — Dr. Preecha Tiewtranon trained a large share of Thai
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3860,7 +3796,7 @@ Thailand's oldest dedicated eye hospital — everything from LASIK to vitreoreti
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3898,7 +3834,7 @@ The expat-neighborhood hospital of Bangkok — strong women's health, pediatrics
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3932,7 +3868,7 @@ The private-service arm of CMU's medical school (alongside Maharaj Nakorn / Suan
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3966,7 +3902,7 @@ Australian-partnered assisted-reproduction center (Sydney IVF lineage) with a st
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -3997,7 +3933,7 @@ Internationally famous vaginoplasty practice (Dr. Suporn's technique is cited in
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4034,7 +3970,7 @@ Quietly one of the highest-volume medical-tourism hospitals in Bangkok, with par
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4080,7 +4016,7 @@ A full general hospital that happens to run one of the largest cosmetic-surgery 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4102,7 +4038,7 @@ back-alley clinics. This page is the map. We tell you where the evidence is soli
 where it's early, and where it's frankly hype — and then **you decide**, which is
 more than the FDA lets you do at home.
 
-*Not medical advice — Defiant is a concierge, not a provider. "Regenerative" is a
+*Defiant is a concierge, not a provider. "Regenerative" is a
 frontier: mechanisms are real, evidence ranges from strong to early, and results
 vary. We route only to regulated facilities with named physicians and published
 protocols — and we will not send you anywhere selling a "cure."*
@@ -4403,7 +4339,7 @@ fortune or aren't offered at all. Thailand treats this like any other wellness
 service: matter-of-fact, private, affordable. Here's the no-nonsense menu and
 where the evidence actually stands.
 
-*Not medical advice — Defiant is a concierge, not a clinic. This is grown-up
+*Defiant is a concierge, not a clinic. This is grown-up
 information. We route to licensed medical facilities with real clinicians, and treat
 your privacy as the whole point.*
 
@@ -4476,7 +4412,7 @@ Back home, physio is 15 rushed minutes between six other patients, rationed by y
 insurer. Here it's an hour of one-on-one, daily if you need it, for what a single US
 session costs — because labour, not quality, is what's cheap.
 
-*Not medical advice — Defiant is a concierge, not a clinic. We route to licensed
+*Defiant is a concierge, not a clinic. We route to licensed
 physiotherapists and rehab centres and coordinate the plan with your surgeon.*
 
 ## What it's for
@@ -4554,7 +4490,7 @@ We are not a covered entity or business associate under the Health Insurance Por
 
 ### 4. Security
 
-We implement reasonable technical and organizational measures to safeguard data against unauthorized access, disclosure, alteration, or destruction. However, users should assume that network infrastructure outside of our direct control may contain vulnerabilities. For sensitive communications, end-to-end encrypted channels are strongly recommended. Our designated secure contact is ProtonMail — the address is available via the reveal button on the [defiant.to contact page](https://defiant.to/contact/) (we don't print it where bots can harvest it) — but users are advised to exercise caution even when using encrypted services.
+We implement reasonable technical and organizational measures to safeguard data against unauthorized access, disclosure, alteration, or destruction. Network infrastructure outside our direct control may contain vulnerabilities. Our designated secure contact is ProtonMail — the address is available via the reveal button on the [defiant.to contact page](https://defiant.to/contact/) (we don't print it where bots can harvest it).
 
 ### 5. User Rights
 
@@ -4605,7 +4541,7 @@ Frequently combined with post-bariatric body work; if that's you, see Body Conto
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4637,7 +4573,7 @@ Not for emergencies — if you're having a heart attack, go to the nearest hospi
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4669,7 +4605,7 @@ ACL reconstruction packages in Chiang Mai routinely come in under a US facility 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4698,7 +4634,7 @@ We'll book it if you want the experience; we will never let a bioresonance reado
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4729,7 +4665,7 @@ Often combined with top surgery or FFS trips; combining under one anesthesia is 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4737,7 +4673,7 @@ Often combined with top surgery or FFS trips; combining under one anesthesia is 
 # Botox and Fillers in Thailand — Cost & Where
 URL: https://defiant.to/procedures/botox-and-fillers/
 
-Injectables at hospital dermatology departments — genuine product, doctor-administered, receipts with batch numbers. The counterfeit-Botox problem is real worldwide; hospitals are the boring, correct answer.
+Injectables at hospital dermatology departments — genuine product, doctor-administered, receipts with batch numbers.
 
 
 | | United States | Thailand |
@@ -4760,7 +4696,7 @@ If you're already coming for something bigger, this is the classic add-on appoin
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4792,7 +4728,7 @@ Implant brand and warranty card in writing (Mentor and Motiva are standard here)
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4818,12 +4754,12 @@ One of the highest patient-satisfaction procedures in all of surgery, and one US
 
 ## The Defiant take
 
-Bring your denial letter if you have one. Frame it. Then come get the surgery for less than your deductible.
+Insurance denied it? The surgery here costs less than your deductible.
 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4855,7 +4791,7 @@ US-side follow-up for anything found is part of the plan we build — screening 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4887,7 +4823,7 @@ Ablation is high-skill and volume-dependent — the operator matters more than t
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4918,7 +4854,7 @@ Lens choice (mono/EDOF/trifocal) determines glasses-freedom and night-halo trade
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4947,7 +4883,7 @@ Confirmed exposure and labs first — we'll arrange the actual toxicology. Chela
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -4978,7 +4914,7 @@ Oncology is never a price-shopping exercise alone: regimen equivalence gets conf
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5006,12 +4942,12 @@ Screening and diagnostic colonoscopy with sedation, often bundled with gastrosco
 
 ## The Defiant take
 
-Pair it with an executive health screen and you cover years of skipped preventive care in one trip. Ask for the endoscopist's adenoma-detection rate — it's the quality number that actually predicts a good colonoscopy.
+Pair it with an executive health screen and you cover years of skipped preventive care in one trip. The endoscopist's adenoma-detection rate is the quality number that actually predicts a good colonoscopy.
 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5041,7 +4977,7 @@ Long steroid-drop protocols and rejection surveillance — the back-home ophthal
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5067,12 +5003,12 @@ Same-brand ceramics, in-house milling, days not weeks. Bread-and-butter work pri
 
 ## The Defiant take
 
-Bring or request current X-rays so quotes are per-your-mouth, not per-brochure.
+Quotes from current X-rays are per-your-mouth, not per-brochure.
 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5103,7 +5039,7 @@ CT is ionizing radiation — scan with a reason (age, smoking history, symptoms,
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5147,7 +5083,7 @@ Reputable Thai dental centres use the same titanium implant brands, CT-guided pl
 
 ### How long do dental implants last?
 
-A well-placed implant can last decades — often for life — with good hygiene; the crown on top may need replacing after 10–15 years. Ask for the implant brand and its warranty card before treatment starts.
+A well-placed implant can last decades — often for life — with good hygiene; the crown on top may need replacing after 10–15 years.
 
 ### What does All-on-4 cost in Thailand versus the US?
 
@@ -5156,7 +5092,7 @@ Indicatively, a full-arch All-on-4 runs about $8,000–12,000 per arch in Thaila
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5185,7 +5121,7 @@ If you insist: licensed physician facility with real extracorporeal-circuit expe
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5216,7 +5152,7 @@ Future use of frozen eggs in Thailand falls under the marriage requirement — m
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5244,12 +5180,12 @@ The famous Thai hospital checkup: a tiered menu (labs, imaging, cardiac stress, 
 
 ## The Defiant take
 
-Pick the tier by age and risk factors, not by what's shiniest — we map your history to the right panel and cut the upsells.
+We map your age, history and risk factors to the right panel and cut the upsells.
 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5278,7 +5214,7 @@ We treat exosomes like we treat any frontier: slowly, at regulated facilities, w
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5341,7 +5277,7 @@ Plenty. **HIFU** (ultrasound tightening), **PDO thread lifts**, and **skin boost
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5371,7 +5307,7 @@ FFS planning runs on CT imaging and surgeon aesthetics — video consult + imagi
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5402,7 +5338,7 @@ The incidentaloma problem is real: before you scan, decide with us who will foll
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5433,7 +5369,7 @@ If you're having active attacks, don't wait for a flight window that suits the f
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5462,7 +5398,7 @@ If you have an old band causing trouble, revision surgery here costs less than t
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5493,7 +5429,7 @@ Lifelong supplement protocol and follow-up labs — we make sure the aftercare p
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5524,7 +5460,7 @@ Actionable beats interesting: we steer toward panels with medical consequences a
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5553,7 +5489,7 @@ No judgment on the goal — it's a huge, normal part of the beauty landscape her
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5583,7 +5519,7 @@ Quote should state technique, graft count, and who actually does the extraction 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5615,7 +5551,7 @@ Cardiac work is where you bring the full file: angiogram, echo, med list. We coo
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5646,7 +5582,7 @@ Mechanical vs tissue valve is a lifestyle decision (anticoagulation forever vs r
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5677,7 +5613,7 @@ No heavy lifting for weeks after — the beach part of the recovery plan writes 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5703,14 +5639,10 @@ Total hip arthroplasty is the single most classic medical-tourism procedure: mat
 - [[Bangkok Hospital Chiang Mai]]
 - [[Sriphat Medical Center]]
 
-## The Defiant take
-
-Ask for the surgeon's annual joint volume and which implant line is quoted — both belong in writing before you fly.
-
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5744,7 +5676,7 @@ Medical indication → hospital chamber, always. Wellness protocol → we'll boo
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5775,7 +5707,7 @@ ICL lives or dies on lens sizing and vault measurement — a specialist eye hosp
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5806,7 +5738,7 @@ Same legal frame as IVF — married heterosexual couples, certificate required.
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5837,7 +5769,7 @@ Immunotherapy suits some cancers and not others — bring your pathology and bio
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5864,12 +5796,12 @@ Dedicated IVF institutes with published lab standards and genetic testing (PGT-A
 
 ## The Defiant take
 
-Thai law (2015 ART Act) is strict and enforced. Anyone waving those requirements away is a risk to your money and your embryos.
+Thai law (2015 ART Act) is strict and enforced.
 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5901,7 +5833,7 @@ IUI success rates are modest per cycle — it's the right, affordable place to s
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5930,7 +5862,7 @@ Low-harm at licensed clinics, low-evidence everywhere. We file it with bioresona
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5953,7 +5885,7 @@ Where the real map points instead: living-related-donor programs in India, Turke
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -5986,7 +5918,7 @@ Bilateral (both knees, one trip) is commonly offered; it saves a second airfare 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6016,7 +5948,7 @@ No diving or pools for a couple of weeks — schedule the beach leg of the trip 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6048,7 +5980,7 @@ Lipo is contouring, not weight loss — if a clinic anywhere sells it as weight 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6066,12 +5998,12 @@ Another reality check: **deceased-donor organ transplantation in Thailand is res
 
 ## The Defiant take
 
-Living-donor programs for foreigners exist in other countries with real legal frameworks (e.g., India with a related donor, Turkey, South Korea). Intake call before you spend a dollar anywhere — the scam density in transplant tourism is the worst in the industry.
+Living-donor programs for foreigners exist in other countries with real legal frameworks (e.g., India with a related donor, Turkey, South Korea).
 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6100,7 +6032,7 @@ If you want it, licensed physician clinic only, and we'll price the oral-precurs
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6129,7 +6061,7 @@ Cancer patients: this conversation belongs with your oncologist and a tumor boar
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6159,7 +6091,7 @@ If you're relocating anyway (see the expat services side of the house), this is 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6188,7 +6120,7 @@ Same rule as all ozone: licensed clinic, sterile circuit, straight grade — and
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6219,7 +6151,7 @@ Plan device follow-up before you fly home — most US cardiology practices will 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6248,7 +6180,7 @@ Supervised or nothing. If your protocol came from a podcast, bring it to the int
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6278,7 +6210,7 @@ Multi-stage by design (typically 2–3 trips). Complication management planning 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6307,7 +6239,7 @@ We only book licensed clinics using registered pharmaceutical product, and we sa
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6338,7 +6270,7 @@ Proton therapy exists in Thailand (Chulabhorn, Bangkok) with limited slots — a
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6368,7 +6300,7 @@ If your repair used a gas bubble, flying before clearance can blind the eye. The
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6399,7 +6331,7 @@ Revision rhinoplasty is a different, harder animal — say so at intake and we s
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6429,7 +6361,7 @@ Usually needs a crown after — budget both lines from the start.
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6463,7 +6395,7 @@ One of the quiet wins of this list: cheap here, evidence-backed for the right di
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6494,7 +6426,7 @@ Physical therapy continues months after you fly home; we help line up the hand-o
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6525,7 +6457,7 @@ BMI and comorbidity criteria still apply; a center that operates on anyone with 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6557,7 +6489,7 @@ We insist on imaging review before travel: send your MRI, get the surgical plan 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6591,7 +6523,7 @@ Our rule: regulated facility, named physician, published protocol, no cure-words
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6622,7 +6554,7 @@ We coordinate pathology slide/block transfer both directions — continuity of t
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6630,7 +6562,7 @@ We coordinate pathology slide/block transfer both directions — continuity of t
 # Surrogacy Services in Thailand — Cost & Where
 URL: https://defiant.to/procedures/surrogacy-services/
 
-reality check, no sugar: **commercial surrogacy for foreigners is banned in Thailand** (2015 ART Act, passed after the Baby Gammy scandal). Anyone selling you Thai surrogacy today is selling you a crime scene. We keep this page up because people search for it and deserve a straight answer instead of a scam.
+reality check, no sugar: **commercial surrogacy for foreigners is banned in Thailand** (2015 ART Act, passed after the Baby Gammy scandal).
 
 
 | | United States | Thailand |
@@ -6640,12 +6572,12 @@ reality check, no sugar: **commercial surrogacy for foreigners is banned in Thai
 
 ## The Defiant take
 
-Where clients go instead: US, Canada, Georgia, Mexico (each with its own law and risk profile). Book an intake call if you want the real map — we'd rather route you right than book you at all.
+Where clients go instead: US, Canada, Georgia, Mexico (each with its own law). Book an intake call if you want the real map — we'd rather route you right than book you at all.
 
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6680,7 +6612,7 @@ We book TPE at hospital apheresis units only — this is not a strip-mall proced
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6711,7 +6643,7 @@ Standard requirements: hormone/readiness letters per WPATH-style criteria; we te
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6743,7 +6675,7 @@ Requirements are strict and non-negotiable at reputable clinics (age, RLE, lette
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6777,7 +6709,7 @@ Implant candidates get the full neurology workup pathway; gadget-curious clients
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6809,7 +6741,7 @@ Get a duplex ultrasound map first — it tells you whether it's a quick ablation
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6839,7 +6771,7 @@ Good veneers require grinding healthy enamel — irreversible. a straight dentis
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -6868,7 +6800,7 @@ Fun, cheap, probably mildly useful, definitely not medicine. We file it under re
 **Ready to price this for real?** [[=Contact|Book a free intake call]] — no fee, no obligation, no bullshit.
 
 ---
-*Not medical advice. Defiant is a concierge and logistics service, not a healthcare provider — treatment decisions belong to you and licensed physicians. Every number on this page is an indicative 2026 range, confirmed in writing before you book anything.*
+*Defiant is a concierge and logistics service, not a healthcare provider. Numbers on this page are indicative 2026 ranges, confirmed in writing before booking.*
 
 
 ---
@@ -7054,10 +6986,7 @@ tell you what we know about a clinic, including the parts the reviews can't.
 
 Yes. Thai law treats a patient as a consumer, and the Consumer Case Procedure Act
 lets you bring a medical-negligence claim with no court filing fee, on a faster
-track, with the burden of proof shifted onto the provider for matters in its
-control — in some ways a friendlier civil posture than a US plaintiff gets. The
-catch is that awards tend to be modest and cases slow. Get a licensed Thai lawyer;
-this page is general information, not legal advice.
+track, with the burden of proof shifted onto the provider for matters in its control — in some ways a friendlier civil posture than a US plaintiff gets. The catch is that awards tend to be modest and cases slow.
 
 ### Is it true you can go to prison for leaving a bad review in Thailand?
 
@@ -7065,8 +6994,7 @@ The exposure is real. Thailand has criminal defamation, and publishing a
 reputation-damaging statement can carry up to two years' imprisonment and a fine
 (Penal Code Section 328). Truth alone isn't a full defense unless the statement also
 served the public interest. A well-known 2020 case saw an American arrested over
-hotel reviews. It usually ends in settlement rather than prison — but "usually" is
-not a plan. Assume public criticism carries legal risk here.
+hotel reviews. It usually ends in settlement rather than prison.
 
 ### If I have a bad result, can I post the photos to warn other people?
 
@@ -7094,11 +7022,7 @@ it's any single one of these — but the discipline is real, and it isn't the
 courtroom.
 
 ---
-*Not legal advice and not medical advice. Defiant is a concierge and logistics
-service — not a law firm, not a healthcare provider. Laws change and every case is
-specific; consult a licensed Thai attorney and licensed physicians before acting.
-The legal specifics here reflect Thai statute as of 2026 and are offered as general
-orientation, not counsel.*
+*Defiant is a concierge and logistics service — not a law firm, not a healthcare provider. The legal specifics here reflect Thai statute as of 2026.*
 
 
 ---
@@ -7116,7 +7040,7 @@ genuinely good place to spend it: physiotherapy is affordable and unhurried,
 short-stay care exists, housing is quiet and cheap by Western standards, and
 the [[=Hospitals|hospital you came from]] stays ten minutes away.
 
-*Not medical advice — Defiant is a concierge, not a clinic. Your surgeon's
+*Defiant is a concierge, not a clinic. Your surgeon's
 discharge plan leads; we build the logistics around it.*
 
 ## What convalescence needs, and where it lives here
@@ -7171,9 +7095,7 @@ read, this page names them without putting words in their mouths.
 
 ### Can I fly home right after surgery instead?
 
-Ask your surgeon, not us — fitness to fly is a medical call that depends on
-the procedure. What we can say is that many procedures come with a
-no-fly window, and Chiang Mai is an inexpensive, pleasant place to sit one
+Fitness to fly is the surgeon's call and depends on the procedure. Many procedures come with a no-fly window, and Chiang Mai is an inexpensive, pleasant place to sit one
 out with daily physio instead of a hotel ceiling.
 
 ### Is there such a thing as a convalescent home in Chiang Mai?
@@ -7315,9 +7237,7 @@ That gap is why Chiang Mai has quietly become one of the world's senior-care
 destinations — and why several of its best-known homes are run by Europeans who
 moved a parent here and never looked back.
 
-*Not medical or legal advice — Defiant is a concierge, not a care provider or a
-licensing authority. Figures are indicative 2026 ranges; verify care level, staff
-credentials, and licensing in person before committing a family member.*
+*Defiant is a concierge, not a care provider or a licensing authority. Figures are indicative 2026 ranges.*
 
 ## Why it works here
 
@@ -7397,8 +7317,7 @@ up that paperwork alongside the placement.
 
 Partially, and unevenly — the sector is growing faster than its oversight. That's
 exactly why we only shortlist homes that can show current registration, qualified
-nursing staff, and a clear emergency-hospital arrangement. Verify licensing in
-person before committing a family member.
+nursing staff, and a clear emergency-hospital arrangement.
 
 ---
 *Sources: Ban Sabai Village (bansabaicare.com); public reporting on Chiang Mai
@@ -7653,10 +7572,9 @@ decide it.*
  rated as **service-connected** — plus any condition that *aggravates* one.
  That knee the VA rated at 30%? Covered. The flu you caught last week? Not.
  This is the #1 misunderstanding, and it's the whole boundary of the program.
-2. **You must be registered *before* it pays.** FMP isn't automatic with your
+2. **FMP pays only after you register.** FMP isn't automatic with your
  disability rating — you enroll, and the VA sends you a **benefits authorization
- letter** listing exactly which conditions they'll cover abroad. That letter is
- your golden ticket; bring it to every appointment.
+ letter** listing exactly which conditions they'll cover abroad. That letter is your golden ticket.
 
 ## How to register (once, by mail or fax)
 

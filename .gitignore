@@ -15,3 +15,8 @@ ROADMAP*.md
 # machine-local Claude config — ports and paths, not portable
 .claude/settings.local.json
 .claude/launch.json
+
+# frontier doodle engine: installed deps and render scratch
+frontier/doodle/node_modules/
+frontier/doodle/out/
+frontier/doodle/dist/

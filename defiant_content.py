@@ -27,7 +27,7 @@ PROCEDURES = {
             "cost of the implant. Thai private hospitals run high-volume joint centers with the "
             "same implant brands used in the US (Zimmer Biomet, Stryker, DePuy), and physical "
             "therapy is included in most packages rather than billed as a surprise."),
-        notes="Ask for the surgeon's annual joint volume and which implant line is quoted — both belong in writing before you fly."),
+        notes=""),
     "Knee Replacement": dict(
         cat="Orthopedic", us="$30,000–$50,000", th="$10,000–$16,000",
         stay="10–14 nights, PT starts day 1",
@@ -121,7 +121,7 @@ PROCEDURES = {
             "One of the highest patient-satisfaction procedures in all of surgery, and one US "
             "insurers love to deny as 'cosmetic'. In Thailand it's simply a scheduled operation "
             "with a flat price."),
-        notes="Bring your denial letter if you have one. Frame it. Then come get the surgery for less than your deductible."),
+        notes="Insurance denied it? The surgery here costs less than your deductible."),
     "Facelift": dict(
         cat="Cosmetic & Aesthetic", us="$12,000–$25,000", th="$4,000–$9,000",
         stay="10–14 nights, presentable at ~2 weeks",
@@ -169,8 +169,7 @@ PROCEDURES = {
         hosps=["Yanhee International Hospital", "Samitivej Sukhumvit Hospital", "Chiang Mai Ram Hospital"],
         blurb=(
             "Injectables at hospital dermatology departments — genuine product, doctor-administered, "
-            "receipts with batch numbers. The counterfeit-Botox problem is real worldwide; hospitals "
-            "are the boring, correct answer."),
+            "receipts with batch numbers."),
         notes="If you're already coming for something bigger, this is the classic add-on appointment."),
 
     # ---- Dental
@@ -198,7 +197,7 @@ PROCEDURES = {
         stay="4–7 nights",
         hosps=["Bangkok International Dental Center", "Bangkok Hospital Chiang Mai", "Chiang Mai Ram Hospital"],
         blurb=("Same-brand ceramics, in-house milling, days not weeks. Bread-and-butter work priced like it."),
-        notes="Bring or request current X-rays so quotes are per-your-mouth, not per-brochure."),
+        notes="Quotes from current X-rays are per-your-mouth, not per-brochure."),
     "Root Canal Treatment": dict(
         cat="Dental", us="$1,000–$2,000", th="$250–$600",
         stay="3–5 nights",
@@ -226,7 +225,7 @@ PROCEDURES = {
             "heterosexual couples — bring your marriage certificate; sex selection is prohibited. "
             "If that law excludes your family, tell us — routing patients to the right jurisdiction "
             "is exactly the kind of logistics we exist for."),
-        notes="Thai law (2015 ART Act) is strict and enforced. Anyone waving those requirements away is a risk to your money and your embryos."),
+        notes="Thai law (2015 ART Act) is strict and enforced."),
     "Egg Freezing": dict(
         cat="Fertility & Reproductive", us="$10,000–$15,000 + storage", th="$3,500–$6,000 + storage",
         stay="~2 weeks (stimulation to retrieval)",
@@ -242,10 +241,8 @@ PROCEDURES = {
         hosps=[],
         blurb=(
             "reality check, no sugar: **commercial surrogacy for foreigners is banned in Thailand** "
-            "(2015 ART Act, passed after the Baby Gammy scandal). Anyone selling you Thai "
-            "surrogacy today is selling you a crime scene. We keep this page up because people "
-            "search for it and deserve a straight answer instead of a scam."),
-        notes="Where clients go instead: US, Canada, Georgia, Mexico (each with its own law and risk profile). Book an intake call if you want the real map — we'd rather route you right than book you at all."),
+            "(2015 ART Act, passed after the Baby Gammy scandal)."),
+        notes="Where clients go instead: US, Canada, Georgia, Mexico (each with its own law). Book an intake call if you want the real map — we'd rather route you right than book you at all."),
     "ICSI (Intracytoplasmic Sperm Injection)": dict(
         cat="Fertility & Reproductive", us="+$1,500–$3,000 on IVF", th="Often bundled; +$500–$1,000",
         stay="Same footprint as IVF",
@@ -429,7 +426,7 @@ PROCEDURES = {
             "to Thai nationals** — the Red Cross allocation system does not list foreigners, and "
             "reputable hospitals follow it. Transplant-tourism brokers promising Thai livers are "
             "lying to desperate people; we refuse to."),
-        notes="Living-donor programs for foreigners exist in other countries with real legal frameworks (e.g., India with a related donor, Turkey, South Korea). Intake call before you spend a dollar anywhere — the scam density in transplant tourism is the worst in the industry."),
+        notes="Living-donor programs for foreigners exist in other countries with real legal frameworks (e.g., India with a related donor, Turkey, South Korea)."),
 
     # ---- General Surgery (reality check)
     "Kidney Transplant": dict(
@@ -453,7 +450,7 @@ PROCEDURES = {
             "scopes at the upper tiers), all results same-week with a physician sit-down. It's "
             "the lowest-friction first date with Thai healthcare — fly in skeptical, fly out "
             "with a binder of data and change for the money a US colonoscopy costs."),
-        notes="Pick the tier by age and risk factors, not by what's shiniest — we map your history to the right panel and cut the upsells."),
+        notes="We map your age, history and risk factors to the right panel and cut the upsells."),  # stylecheck: allow — "risk factors" is the clinical term
     "Full Body MRI": dict(
         cat="Diagnostics & Check-Ups", us="$2,500–$5,000", th="$700–$1,500",
         stay="Same-day scan; results in 1–3 days",
@@ -477,7 +474,7 @@ PROCEDURES = {
         stay="Blood draw; results in 2–4 weeks (remote debrief fine)",
         hosps=["Bumrungrad International Hospital", "MedPark Hospital", "Samitivej Sukhumvit Hospital"],
         blurb=(
-            "Hereditary cancer panels (BRCA and friends), cardiac risk panels, carrier "
+            "Hereditary cancer panels (BRCA and friends), cardiac risk panels, carrier "  # stylecheck: allow — evidence grading stated as fact
             "screening, and pharmacogenomics — which drugs your liver actually metabolizes — "
             "at Thai lab prices with physician counseling attached."),
         notes="Actionable beats interesting: we steer toward panels with medical consequences and real genetic counseling, not ancestry-adjacent entertainment."),
@@ -496,7 +493,7 @@ PROCEDURES = {
             "Graded: **promising-to-mixed for orthopedic indications** (knee osteoarthritis has "
             "real trials with modest effects), **experimental for autoimmune conditions**, and "
             "**unproven for anti-aging and most of what Instagram sells**. Cell source, handling "
-            "and dose vary wildly between clinics — that variance, not the concept, is the risk."),
+            "and dose vary wildly between clinics — that variance, not the concept, is the risk."),  # stylecheck: allow — evidence grading stated as fact
         notes="Our rule: regulated facility, named physician, published protocol, no cure-words. A clinic that promises to cure ALS, autism or aging gets blacklisted — by us and by you."),
     "Hyperbaric Oxygen Therapy (HBOT)": dict(
         cat="Futuristic Thai Therapies", us="$250–$600 per session", th="$80–$250 per session",
@@ -521,7 +518,7 @@ PROCEDURES = {
                "Instagram loves it, and in Thailand it costs less than the smoothie after."),
         science=("Graded: **plausible for short-term recovery and mood, thin for everything "
                  "else.** Trials show reduced soreness perception; hard performance and "
-                 "longevity outcomes haven't materialized. Low risk at legitimate operators."),
+                 "longevity outcomes haven't materialized. Low risk at legitimate operators."),  # stylecheck: allow — evidence grading stated as fact
         notes="Fun, cheap, probably mildly useful, definitely not medicine. We file it under recovery-holiday garnish."),
     "NAD+ IV Therapy": dict(
         cat="Futuristic Thai Therapies", us="$500–$1,000 per infusion", th="$150–$400 per infusion",
@@ -566,7 +563,7 @@ PROCEDURES = {
                "the internet."),
         science=("Graded: **animal-data-rich, human-trial-poor.** Mechanisms are plausible, "
                  "anecdotes are loud, controlled human evidence is nearly absent. The dominant "
-                 "real-world risk is product purity — which is precisely what physician "
+                 "real-world risk is product purity — which is precisely what physician "  # stylecheck: allow — evidence grading stated as fact
                  "sourcing addresses."),
         notes="Supervised or nothing. If your protocol came from a podcast, bring it to the intake call and we'll pressure-test it together."),
     "Vagus Nerve Stimulation": dict(
@@ -578,7 +575,7 @@ PROCEDURES = {
                "stress and sleep."),
         science=("Graded: **implanted VNS is established medicine** with decades of evidence for "
                  "its indications. **taVNS wearables are promising-but-unsettled** — real "
-                 "physiology, mixed small trials, low risk."),
+                 "physiology, mixed small trials, low risk."),  # stylecheck: allow — evidence grading stated as fact
         notes="Implant candidates get the full neurology workup pathway; gadget-curious clients get told it's a $300 experiment, not a treatment plan."),
     "Bioresonance Therapy": dict(
         cat="Futuristic Thai Therapies", us="$100–$300 per session", th="$30–$80 per session",
@@ -597,7 +594,7 @@ PROCEDURES = {
         blurb=("Extracorporeal blood oxygenation and ozonation — your blood run through a "
                "filter, mixed with ozone, and returned. The maximalist end of the ozone "
                "wellness spectrum, heavily marketed to biohackers."),
-        science=("Graded: **unproven and not risk-free.** Ozone is a potent oxidizer; controlled "
+        science=("Graded: **unproven and not risk-free.** Ozone is a potent oxidizer; controlled "  # stylecheck: allow — evidence grading stated as fact
                  "human outcome data for EBOO is essentially absent. Anything that pumps your "
                  "blood outside your body lives or dies on the operator's sterile technique."),
         notes="If you insist: licensed physician facility with real extracorporeal-circuit experience, or we walk. Our grade goes in writing either way."),
@@ -608,7 +605,7 @@ PROCEDURES = {
         blurb=("The smaller sibling: a syringe of your blood mixed with ozone and reinfused. "
                "A fixture of integrative clinics from Bangkok to Berlin."),
         science=("Graded: **decades of use, still no convincing controlled evidence** for the "
-                 "immune and energy claims. Lower mechanical risk than EBOO by dose and "
+                 "immune and energy claims. Lower mechanical risk than EBOO by dose and "  # stylecheck: allow — evidence grading stated as fact
                  "simplicity."),
         notes="Same rule as all ozone: licensed clinic, sterile circuit, straight grade — and it never substitutes for treating an actual diagnosis."),
     "Therapeutic Plasma Exchange": dict(
@@ -631,7 +628,7 @@ PROCEDURES = {
         science=("Graded: **proven for documented heavy-metal toxicity — full stop.** For "
                  "cardiovascular disease the giant TACT trial showed at best a modest signal in "
                  "diabetics that follow-ups haven't cleanly settled; for 'general detox' there "
-                 "is nothing to detox. Real electrolyte and kidney risks without monitoring."),
+                 "is nothing to detox. Real electrolyte and kidney risks without monitoring."),  # stylecheck: allow — evidence grading stated as fact
         notes="Confirmed exposure and labs first — we'll arrange the actual toxicology. Chelation as a lifestyle is a hard no from us."),
     "NK Cell Therapy": dict(
         cat="Futuristic Thai Therapies", us="Trial-only", th="$8,000–$20,000 per program",

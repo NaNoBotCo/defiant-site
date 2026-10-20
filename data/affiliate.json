@@ -1,0 +1,11 @@
+{
+ "_what": "Paid links, written by affiliate-slots/sync.py from slots.json. Edit there, not here. A slot with url null renders nothing.",
+ "slots": {
+  "df-spine-flight": {
+   "brand": "Aviasales",
+   "url": "https://aviasales.tpx.li/Ka4NWVCf",
+   "en": "Fares to Bangkok · Aviasales"
+  }
+ },
+ "label_en": "Paid link: Defiant earns a fee if you book. · ลิงก์มีค่าตอบแทน"
+}

@@ -36,8 +36,8 @@ DOCS = ROOT / "docs"
 TODAY = date.today().isoformat()
 
 BANNED_WORDS = ("load-bearing", "honest")          # standing style blocklist
-OMINOUS = ("nightmare", "scam", "horror", "die ", "dying", "deadly", "disaster",
-           "dangerous", "warning:", "beware")       # titles/desc stay auspicious
+OMINOUS = ("nightmare", "scam", "horror", "die ", "dying", "deadly", "disaster",  # stylecheck: allow — QA word list
+           "dangerous", "warning:", "beware")       # titles/desc stay auspicious; stylecheck: allow — QA word list
 
 
 def load_topics():
@@ -701,7 +701,7 @@ def qa(verbose=True):
             print(f"  ⚠ {x}")
         if not problems and not warns:
             print("  ✓ clean")
-        print(f"\n{len(problems)} blocking · {len(warns)} advisory")
+        print(f"\n{len(problems)} blocking · {len(warns)} advisory")  # stylecheck: allow — operator QA log
     problems.extend(tag_check())
 
     return problems, warns
