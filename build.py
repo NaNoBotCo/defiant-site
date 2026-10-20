@@ -1447,7 +1447,9 @@ def _card_alt(route, meta, title):
                 + (f", {acc}-accredited" if acc else "") + ".")
     if route == "/concierge/":
         return "Defiant share card — what it costs: $999 full concierge or a $99 DIY pack."
-    if route == "/th/" or t == "b2b":
+    if route == "/partners/":
+        return "Defiant share card — Partner Clinics & Hospitals: free listing, interpreters included."
+    if route == "/th/":
         return ("การ์ด Defiant สำหรับคนไทย — คลินิก ล่าม และโอกาสสร้างรายได้ · "
                 "สแกน QR แอดไลน์ defiant.to")
     return f"Defiant share card — {title}."
